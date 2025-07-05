@@ -1,0 +1,16 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+.envrc
+*.env
+*.egg-info/
+.DS_Store
+.ipynb_checkpoints/
+data/*.jsonl
+lectures/*
+curriculum/*
+study_guides/*
