@@ -1,0 +1,110 @@
+- what is it >>>
+    - an infection of the bone
+    - can range from localized to a severe systemic illness
+- acute osteomyelitis >>>
+    - infection lasting days to weeks, with rapid onset of symptoms
+- chronic osteomyelitis >>>
+    - infection lasting months to years
+    - often involves recurrent episodes & formation of sequestra
+- sequestra >>>
+    - pieces of necrotic bone that separte from viable bone
+    - the hallmark of chronic osteomyelitis
+    - impede healing
+    - their presence often needs surgical removal
+- sinus tract >>>
+    - pathognomonic feature of osteomyelitis
+    - abnormal passage leading from a deep infection to the skin surface
+    - often drains pus
+- involucrum >>>
+    - new bone formation surrounding the area of infection
+    - basically the body's attempt to wall off infection
+- periosteal seeding >>>
+    - spread of infection from bone to periosteum 
+    - can lead to further inflammation & bone destruction
+- cloacae >>>
+    - multiple draining passages that can form in chronic osteomyelitis
+    - often interconnected & can make treatment more challenging
+- bone ischemia >>>
+    - reduced blood flow to bone
+    - major factor in development of osteomyelitis - as it compromises ability to fight infection
+- 
+- 
+- classification of osteomyelitis >>>
+    - hematogenous & Non-hematogenous
+- 
+- hematogenous osteomyelitis >>>
+    - bacteria reach bone via bloodstream
+    - more common in children & can affect multiple sites
+    - common pathogens: S.aureus, Beta-hemolytic streptococci, M.tuberculosis, Candida species
+- hematogenous osteomyelitis - RF >>>
+    - Diabetes mellitus
+    - Intravenous drug use
+    - Chronic kidney disease / hemodialysis
+    - Immunosuppression
+    - endocarditis
+    - Age (young children, elderly)
+    - vascular & orthopedic devices
+- 
+- Non-hematogenous osteomyelitis >>>
+    - infection spreads directly to bone from adjacent tissues
+    - more common in adults 
+    - often associated with trauma or surgery
+    - common pathogens: S.aureus, Coag-negative staphylococci, aerobic gram-negative bacilli, corynebacteria, fungi, mycobacteria
+- Non-hematogenous osteomyelitis - RF >>>
+    - poorly healing wounds (diabetic foot ulcers, decubitus ulcers)
+    - orthopedic hardware
+    - diabetes
+    - peripheral vascular disease
+    - peripheral neuropathy
+- 
+- Diagnosis >>>
+    - culture ideally on bone biopsy sample - culture from other sources (swabs, sinus tracts) are prone to contamination & false-negative results
+    - blood cultures - may be positive in hematogenous osteomyelitis - but can be negative if bacteremia has resolved by time of diagnosis
+    - imaging
+- diagnosis - imaging >>>
+    - for acute (<2 weeks) ‒ CT or MRI for early detection
+    - for chronic (>2 weeks) ‒ MRI needed for complete assessment
+    - diabetic foot infections - MRI
+    - if there's metal hardware ⇒ nuclear imaging (e.g. bone scan)
+- Laboratory findings >>>
+    - ↑ WBC 
+    - ↑ ESR - Erythrocyte Sedimentation Rate
+    - ↑ CRP
+- 
+- 
+- Treatment >>>
+    - antibiotic therapy
+    - surgical debridement 
+        - removal of infected bone & tissue
+        - essential for chronic osteomyelitis & cases w/ significant bone dmg or sequestra
+    - hardware removal
+        - might be necessary in cases of infection involving orthopedic implants
+    - non-hematogenous ⇒ often needs prolonged (6+weeks) IV or high bioavailability oral antibiotics, + surgical debridement
+    - hematogenous ⇒ less duration of antibiotic treatment (~4w) + generally w/out surgical debridement
+- 
+- 
+- specific forms of osteomyelitis >>>
+    - **vertebral osteomyelitis (spondylodiscitis)** 
+        - infection of the vertebrae & intervertebral discs
+        - often presents w/ back pain - potentially leading to spinal deformities & neurological complications
+        - S.aureus is the most common pathogen
+    - **Sternoclavicular & Pelvic Osteomyelitis** 
+        - more common in IV drug users - due to risk of bacteremia
+    - **Long bone Osteomyelitis ** 
+        - more common in children
+- 
+- 
+- Diabetic foot infections & Osteomyelitis >>>
+    - a significant complication of diabetes (50% of diabetics) - foot ulcers ‒ often leading to osteomyelitis
+    - RF: neuropathy, peripheral vascular disease & Immunosuppression increase the risk (not only diabetes), previous foot ulcer (50% recurrence within 5y)
+        - neuropathy ‒ present in 80% of diabetic foot patients, leads to loss of sensation, pain, pressure - impaired microcirculation
+        - peripheral vascular disease ‒ reduced blood flow to feet - poor wound healing
+    - other RF: socioeconomic status, age, ethnicity, foot deformities
+    - treatment: precise debridement, wound care, pressure reduction & antibiotic therapy (tailored to severity of infection & presence of osteomyelitis)
+- 
+- 
+- prosthetic joint infections (PJI) >>>
+    - infection involving joint prosthesis, classified by onset of timing (early, delayed, late)
+    - RF: comorbidities, prior infections, prolonged surgery, S.aureus bacteremia!
+    - diagnosis: imaging, serum markers, synovial fluid analysis
+    - treatment: antibiotics - amputation if necessary, DAIR (debridement, antibiotics, implant retention)

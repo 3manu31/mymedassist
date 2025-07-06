@@ -1,0 +1,57 @@
+- 
+- what are they? >>>
+    - a large group of mycobacteria that are distinct from M.tuberculosis complex (M.tuberculosis, M.bovis, M.africanum, etc.)
+    - there are over 150 species, about 60 considered potentially pathogenic to humans
+- classification by growth rate >>>
+    - Rapid growers (RGM): colony formation <7 days - M.abscessus particularly associated with CF patients
+    - Slow Growers: colony formation 7-40 days - e.g. M.avium complex, M.xenopi
+    - Intermediate Growers: conoly formation 7-10 days - e.g. M.marinum, M.gordonae
+- classification by pathogenicity >>>
+    - considering likelihood of causing disease in immunocompetent vs immunocompromised hosts
+    - some are rarely pathogenic, even in immunocompromised individuals, while others are opportunistic pathogens requiring significant immune suppresion to cause disease
+- Epidemiology >>>
+    - found in various environments - e.g. soil, water, dust - its widespread distribution contributes to potential human infections
+- transmission routes >>>
+    - inhalation - most common, primarily through aerosolized particles from contaminated water
+    - ingestion - contaminated food/water
+    - direct contact - cutaneous inoculation through wound or skin lesions
+    - M.abscessus potentially limited person-to-person transmission - esp. in CF patients
+- risk factors >>>
+    - Immunosuppresion (HIV, under immunosuppressive medication, other immunodeficiencies)
+    - underlying lung disease (CF, COPD, bronchiectasis, create favorable environment for NTM colonization)
+    - others (age, genetic predispositions (CFTR gene), etc.
+- NTM & amoebas >>>
+    - some NTM species can survive & replicate within free-living amoebas
+    - providing protection from environment & contribute to ↑ antibiotic resistance
+    - amoebas in water, pose significant risk to immunocompromised individuals 
+- Clinical Presentation of NTM infections >>>
+    - Pulmonary Disease
+        - the most common manifestation
+        - often presenting as chronic bronchopulmonary disease
+        - symptoms non-specific ~ chronic (productive) cough, fatigue, weight loss, sometimes hemoptysis
+        - radiological findings: nodules, cavities, bronchiectasis 
+        - frequent cause: M.avium complex (M.avium, M.chimaera)
+    - Extrapulmonary Disease
+        - NTMs can infect extrapulmonary sites, although most frequently lungs
+        - Lymphadenitis: painless cold lymph nodes - mostly affecting children
+        - Disseminated Disease: most common in severely immunocompromised individuals
+        - Skin & Soft Tissue Infections: caused by RGM, following skin lesion
+        - Bone & Joint Infections: following trauma or surgery
+        - Catheter-related Infections: RGM associated w/ Central Venous Catheter (CVC) & peritoneal catheter infections
+- NTM diagnosis >>>
+    - microbiological diagnosis:
+        - isolation of the same NTM species from at least 2 separate sputum samples or from a bronchoalveolar lavage sample (BAL)
+        - PCR increasingly being used, but may not be as specific as culture
+    - Radiological diagnosis:
+        - chest-xrays & High resolution tomography (HRCT)
+        - findings may include nodules, cavities, bronchiectasis 
+- NTM infections treatment >>>
+    - often long - 12-24 months
+    - requires multiple antibiotics, and may have significant side effects
+    - the choice of antibiotics depends on specific NTM species & its susceptibility profile
+    - macrolides (azithromycin, clarithromycin), ethambutol, rifampin or rifabutin are usually used in combination
+    - for M.abscessus, treatment is challenging & may involve IV therapy, followed by prolonged oral regimens
+    - NTM infections are generally difficult to treat bc of antibiotic resistance, slow growth rates, biofilm formation
+    - inhaled Liposomal Amikacin - new antibiotic option under development, reduced toxicity, used for multiple drug resistant strains
+- 
+- 

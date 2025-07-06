@@ -1,0 +1,60 @@
+- Epidemiology >>>
+    - subjects with prosthetic devices in heart
+    - elderly at risk
+- 
+- Etiology >>>
+    - S.aureus - main one 
+    - B.streptococci
+    - Candida
+- 
+- Pathology >>>
+    - most commonly occurs due to Sepsis and/or Systemic Embolization
+    - presence of bacteria and/or fungi in bloodstream
+    - bacteria attach to damaged valve surfaces, forming nonbacterial thrombotic vegetations, due to turbulence
+    - bacteria proliferate within vegetation, protected from immune response
+- 
+- 
+- clinical manifestations - symptoms >>>
+    - acute form:
+        - rapid onset of fever
+        - chills
+        - shortness of breath, chest pain
+        - all occur after 1-2 weeks of bacteremia
+        - commonly associated with S.aureus
+    - subacute form:
+        - milder symptoms, like low-grade fever
+        - fatigue
+        - weight loss
+        - arthralgia
+        - linked to less aggressive Coag- staphylococci
+- 
+- Clinical signs >>>
+    - embolic phenomena
+        - petechiae
+        - Osler nodes - painful lesions on fingers/toes
+        - Janeway lesions - painless macules on palms/soles
+        - Roth spots - retinal emboli
+    - Heart murmurs
+        - new or worsening murmurs due to valvular dysfunction
+- 
+- transmission >>>
+    - intravenous catheters or drug injections 
+    - dental procedures or surgical interventions
+    - individuals with pre-existing heart conditions, prosthetic valves, & IV drug users
+    - so bacteria enter bloodstream through these routes
+- 
+- diagnosis >>>
+    - clinical suspicion - based on symptoms, RF, physical examination
+    - Blood cultures - must show bacterial presence
+    - Imaging; echocardiography, essential for identifying cardiac lesions
+    - criteria: 2 positive blood cultures + positive echocardiography
+- 
+- Treatment >>>
+    - IV systemic HIGH dose Bactericidal antibiotics for 4 weeks & 6-8 weeks for patients w/ prosthetic valves
+    - cardiac surgery - for severe cases w/ significant valvular dmg, uncontrolled infection, or large vegetations
+- 
+- complications >>>
+    - risk for metastatic spread - secondary infections in kidneys, brain
+    - local spread ⇒ valvular dmg, pericarditis
+    - embolic complications - can lead to stroke, MI, organ dmg
+- 

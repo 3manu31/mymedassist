@@ -1,0 +1,108 @@
+- what is it? >>>
+    - a localized collection of pus within the brain parenchyma
+    - typically begins as cerebritis (focal brain inflammation), which encapsulates within 5 days, forming a mass
+    - early diagnosis - crucial for reduced mortality
+- etiology >>>
+    - the origin & causative organisms can vary a lot
+    - otogenic
+        - most common in past, now less
+        - often by Streptococcus species (both aerobic & anaerobic) - bacteria are common oral flora
+        - spreading from otitis media & mastoiditis
+    - post-traumatic/post-operative
+        - increasingly common due to surgical procedures
+    - hematogenous - spread via bloodstream
+        - common in immunocompromised (cancer pat. under chemo, transplant recipients)
+        - Gram- bacteremia is important RF in neutropenic patients
+    - other
+        - Toxoplasma gondii - most common cause in HIV patients
+        - Listeria monocytogenes
+        - Tuberculosis - leading cause in low-income countries
+- 
+- Localization & symptoms >>>
+    - the abscess location provides clues to its origin
+    - frontal lobes ‒ often from sinusitis
+    - temporal lobes/cerebellum ‒ often from otitis media
+    - multiple sites ‒ suggest hematogenous spread, require investigation of primary source
+    - symptoms ‒ highly variable but commonly include:
+        - headache
+        - AMS - Altered Mental Status
+        - fever
+        - <50% of cases present all 3
+        - neurological symptoms depend on mass size, location, edema
+- 
+- Diagnosis >>>
+    - Imaging
+        - CT scans reveal round lesion with hypodense center (pus) & surrounding edema
+        - MRI provides better visualization of abscess & surrounding edema
+        - MRI is superior to CT in detecting early abscesses & assessing extent of edema
+    - other
+        - lumbar puncture, avoided due to risk of herniation
+            - if performed, show ↑ WBC & protein levels
+        - blood culture might identify causative organism, but often negative
+        - surgical aspiration or biopsy, often necessary for definitive diagnosis
+- management >>>
+    - antibiotics
+        - empiric broad-spectrum antibiotics initiated on suspected source & patient RF
+        - selection refined once causative organism is identified 
+        - treatment 4-6 weeks
+    - corticosteroids
+        - to reduce cerebral edema
+    - surgical intervention
+        - neurosurgical consultation recommended for all brain abscesses
+        - surgical excision or aspiration (needle drainage)
+        - choice depends on abscess size, location & response to medication
+- 
+- 
+- 
+- Infection vs Colonization >>>
+    - infection
+        - presence of microorganism **with** alteration of organ/tissue structure or function
+        - clinical symptoms are present
+    - colonization
+        - presence of microorganism **without** alteration of organ/tissue structure or function
+        - no clinical symptoms
+- anitmicrobial stewardship >>>
+    - the responsible use of antimicrobials to prevent development & spread of antibiotic resistance
+    - so to decrease the spread of drug-resistant organisms
+- Microbiota interactions >>>
+    - interactions between host's microbiota & pathogens influences disease development
+    - lactobacilli VS candida ‒ reduction in lactobacilli can lead to candidiasis
+    - clostridioides difficile ‒ antibiotic-induced dysbiosis can lead to C.difficile infection - potentially causing megacolon & death
+- 
+- Infectious Disease - transmission routes >>>
+    - airborne ‒ droplets (influenza, meningitis, tuberculosis)
+    - contact ‒ direct contact with lesion or surfaces (erysipelas, varicella)
+    - fecal-oral ‒ ingestion of contaminated food/water (HAV, Salmonella)
+    - Sexual ‒ sexual contact (STIs)
+    - Vector-borne ‒ through arthropods (mosquitoes, ticks, fleas)
+- 
+- Fever of Unknown Origin (FUO) >>>
+    - defined as fever>38.3ºC for at least 3 weeks w/out a diagnosis after 3 days of investigation
+    - diagnostic approach ‒ systemic approach ideally:
+        - detailed history: travel, occupation, hobbies, animal contact, sexual history, drugs
+        - physical examination
+        - laboratory investigations: CBC, inflammatory markers, blood culture, imaging (chest X-ray, CT, MRI)
+        - metagenomics & next-gen sequencing ‒ used to identify unusual or unknown pathogens
+- 
+- Infection Disease consultation ‒ questions >>>
+    - travel history (recent travel to endemic areas)
+    - vaccination status
+    - occupational/hobby exposure
+    - animal contact (wild or domestic)
+    - contact w/ others w/ similar symptoms 
+    - dietary history (potentially foodborne)
+    - Immunodeficiency 
+    - previous infections (history of recurrent or unusual infections)
+    - use of devices/prostheses
+    - antibiotic allergies
+- infection disease consultation - considerations >>>
+    - epidemiology - understanding local prevalence of infections
+    - common vs uncommmon pathogens - consider both 
+    - source control - addressing primary source of infection is crucial
+    - iatrogenic causes - some medication (incl. antibiotics) can cause fever
+- 
+- Antibiotic Resistance >>>
+    - major global health threat
+    - overuse of antibiotics contributes to selection & spread of resistant bacteria
+    - MDR pathogens are increasingly common ‒ leading to treatment failures & increased mortality
+- 

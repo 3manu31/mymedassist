@@ -1,0 +1,221 @@
+- Malaria
+    - ## Malaria
+        - **epidemiology** >>>
+            - Endemic in: subsaharan Africa, Asia, South America
+            - Transmission by Anopheles mosquitoes
+            - High-risk populations: children, pregnant women
+        - **Pathophysiology**: >>>
+            - Caused by  *Plasmodium*  species - primarily  *Plasmodium falciparum, but also P.ovale, P.malariae, P.vivax*  
+            - Vector: Anopheles mosquitos ( and a human host)
+            - Resistant Host if: Sickle cell anemia, G6PD def., thalassemia, newborns up to 6 months
+            - incubation 7-30 days (even more in plasmodium malariae)
+            - The lifecycle begins with the mosquito injecting sporozoites into the bloodstream ⇒ which migrate to the liver (can stay there for years) ⇒ multiply ⇒ and then infect RBCs ⇒ leading to their destruction
+        - **Clinical Manifestations:** >>>
+            - onset up to months after infection!
+            - Symptoms include: fever, chills, sweating, headache, nausea, and vomiting
+            - Severe cases can lead to **cerebral malaria**, **severe anemia**, and **acute respiratory distress syndrome, Blackwater fever** 
+            - Signs include **splenomegaly** and **hepatomegaly** 
+        - **cerebral malaria** >>>
+            - altered state of consciousness up to coma
+            - ↑ mortality
+            - neurological sequelae
+        - **Blackwater fever** >>>
+            - sudden high fever onset
+            - Intravascular hemolysis
+            - lumbar pain
+            - jaundice 
+            - dark urine / hemoglobinuria
+        - **complicated vs uncomplicated malaria** >>>
+            - Uncomplicated malaria: mild symptoms, no organ dysfunction, treatable with oral medications
+            - Complicated malaria: severe symptoms, potential organ failure, requires intravenous treatment
+            - Symptoms of uncomplicated: fever, chills, headache, sweating
+            - Symptoms of complicated: severe anemia, respiratory distress, cerebral malaria
+            - Diagnosis: blood smear, rapid diagnostic tests for both types
+        - Transmission >>>
+            - Through the bite of infected Anopheles mosquitoes - primarily active during dusk and dawn
+        - **Diagnosis**: >>>
+            - Thick and thin blood smears to identify the parasite
+                - Thick: quantitative assesment, thick smear not much spread
+                - Thin: to accurately differentiate between species
+            - PCR
+            - Fluorescent dye
+            - rapid diagnostic tests (RDTs) are also available
+        - Treatment >>>
+            - First-line treatment includes Artemisinin-based Combination Therapy (ACT) for non-severe malaria - oral, IV, or rectal
+            - Severe cases require IV 
+            - Experimental vaccine
+            - Ivermectin - antiparasitic drug
+            - supportive care; antibiotics, glucose, ventilation, fluid balance
+    - 
+    - 
+- Dengue Virus
+    - Epidemiology >>>
+        - ↓ mortality, ↑ incidence
+        - South America, Tropical countries, Asia
+        - Co-infection w/ **malaria** 
+    - pathology >>>
+        - general leukopenia/thrombocytopenia
+        - Classic Dengue (minority)
+            - fever, headache, arthromyalgia, lymphadenitis, rash
+        - Dengue Hemorrhagic fever (majority)
+            - fever, hemorrhages, thrombocytopenia, vomit
+            - ↑ mortality in untreated
+        - Dengue Shock Syndrome
+            - ↓ BP
+            - ↑ vasc. permeability ⇒ hypovolemia
+            - signs of shock; bleeding, fever
+    - Diagnosis >>>
+        - IgM (5gg), IgG (7gg), RNA first days
+        - Tourniquet test - marker for capillary fragility (BP cuff, block circulation for minutes, release some pressure, check for petechiae)
+    - treatment >>>
+        - treat fever & shock ⇒ hydration, pain management
+        - NO aspirin / NSAIDs ⇒ can exacerbate bleeding, also GI bleeding
+    - 
+- Zika Virus
+    - epidemiology >>>
+        - related to dengue/yellow fever/West Nile Virus
+        - Transmission through Aedes mosquitoes
+        - Geographic distribution: Americas, Africa, Asia
+        - RF: travel
+        - Potential for asymptomatic cases
+    - Pathology >>>
+        - flaviviridae - 4-14gg incubation
+        - transmission through urban & selvatic (jungle) cycle
+        - transmission: placenta, blood, sexual, lab
+    - symptoms >>>
+        - 80% asymptomatic 
+        - mild illness but lasts long time - exanthema, pruritus
+        - rare mortality
+        - complications for fetus; microencephaly
+    - diagnosis >>>
+        - viral RNA detection (saliva, urine, CSF, amniotic fluid)
+        - Zika Ab
+        - on born baby: histological exam of placenta, cord serum, frozen placenta tissue test
+    - treatment >>>
+        - No antiviral therapy
+        - supportive treatment
+        - No aspirin/NSAIDs, before ruling out dengue
+- Chikungunya
+    - Transmission >>>
+        - Aedes mosquitos - like Dengue, Zika, Chikungunya, Yellow fever Virus
+        - 4-7gg incubation
+    - symptoms >>>
+        - **acute phase** 
+            - up to 10gg
+            - arthritis, rash
+        - **post acute phase**
+            - 4-12 weeks
+            - arthritis slowly fades - chronic asthenia/pain
+        - **chronic phase**
+            - >12 weeks
+            - chronic long lasting joint pain
+    - treatment >>>
+        - general supportive care - pain medication (e.g. codeine, acetaminophen)
+- yellow fever
+    - epidemiology >>>
+        - tropical countries, ↑ incidence
+        - transmitted by aedes mosquitos
+    - pathology >>>
+        - flaviviridae - yellow fever virus
+        - 3-6gg incubation
+        - cause hepatic dmg + hemorrhagic symptoms
+    - symptoms >>>
+        - fever, chills, myalgia, nausea/vomiting
+        - after defervescence ⇒ fever reappears, w/ jaundice, abd. pain, vomit ⇒ may lead to renal failure, pancreatitis, CNS invasion
+    - diagnosis >>>
+        - serology + PCR
+    - treatment >>>
+        - no specific treatment
+        - Vaccine - live attenuated - life-long protection
+    - 
+- enteric fever
+    - > **🤖 Use AI to Create Cards from Notes
+
+**1. Paste or type notes
+2. Select text with your mouse
+3. Press “Create AI Cards”
+    - 
+    - epidemiology >>>
+        - ↓ incidence
+        - contaminated food/water
+    - pathology >>>
+        - salmonella Typhi
+        - cause enteric fever/typhoid fever
+        - bacterial infection affecting intestine
+        - oro-fecal transm.
+        - chronic carriers in gallbladder/intestine (only human reservoir)
+        - last 4 weeks
+    - symptoms >>>
+        - fever, headache
+        - abd. pain, constipation / or diarrhea
+        - bradycardia
+        - rose spots - pink papules on abdomen, nipple, umbilical area
+    - diagnosis >>>
+        - hemoculture, stool
+    - Treatment >>>
+        - 3rd gen cephalosporins (e.g. ceftriaxone)
+    - 
+- Chagas disease
+    - epidemiology >>>
+        - South america
+        - Trypanosoma Cruzi
+    - transmission >>>
+        - kissing bugs
+        - transplant
+        - contaminated food
+        - lab exposure
+        - vertically (all 3 routes)
+        - blood transfusion
+    - symptoms >>>
+        - acute trypanosomiasis
+            - mild disease, fever
+        - chronic infections
+            - cardiomyopathy: arrhythmias
+            - GI dysfunction: megacolon, megaesophagus
+    - diagnosis >>>
+        - serology & PCR
+    - treatment >>>
+        - nifurtimox + benznidazole (parasitic) - **ONLY for Chagas** 
+- Helminths
+    - Pathology >>>
+        - soil helminths (tape worms, etc.) 
+        - cause intestinal inf. w/ chronic anemia & neurodevelopment alterations
+        - in kids: assess malnutrition, deworming of kids
+    - symptoms >>>
+        - hypereosinophilia
+        - muscle pain
+        - fever
+        - GI symptoms
+        - can also be **asymptomatic** 
+    - diagnosis >>>
+        - 3 stool samples ⇒ serology 
+- shistosomiasis
+    - epidemiology >>>
+        - africa, South East Asia, South America
+        - RF: swimming
+        - Schistosoma - many species
+    - symptoms >>>
+        - intestinal shistosomiasis ⇒ granuloma
+        - Hepatosplenic shistosomiasis ⇒ portal hypertension
+        - urinary shistosomiasis ⇒ hematuria, chronic inf.
+        - **Katamaya **fever ⇒ ↑ acute fever, cough, hypereosinophilia, lymphadenopathy
+    - diagnosis >>>
+        - urine or stool ⇒ check for eggs
+    - treatment >>>
+        - prophylaxis: avoid swimming in contaminated lakes
+        - multiple drug administration
+- Leishmaniasis
+    - epidemiology >>>
+        - many countries - incl. Italy
+        - sandfly vector 
+        - transmission: vertical, vector, transplant
+    - pathology >>>
+        - by Leishmania parasites ⇒ infect. macrophages
+    - symptoms >>>
+        - cutaneous leishmaniosis ⇒ skin lesions
+        - Visceral leishmaniosis ⇒ kala-azar ⇒ intermittent fever, weight loss, splenomegaly
+    - diagnosis >>>
+        - cutaneous - biopsy of mucosa, PCR, culture
+        - visceral - liver, spleen, lymphnodes, bone marrow biopsy, serology, PCR
+    - treatment >>>
+        - Liposomal amphotericin B - (antifungal ↓ toxicity, ↑efficacy - IV admin.

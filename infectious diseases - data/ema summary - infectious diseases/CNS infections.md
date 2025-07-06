@@ -1,0 +1,232 @@
+- intro
+    - CNS highly sensitive to infection >>>
+        - due to limited space & fragile structures
+        - so increase in volume (e.g. inflammation, mass) can cause rapid & severe complications
+    - cause of CNS infections >>>
+        - infectious agents (bacteria, fungi, viruses, protozoa, helminths) are the primary cause
+        - some non-infectious conditions mimic CNS infections - e.g. cancer, autoimmune disorders, medications
+    - clinical presentation >>>
+        - variable depending on causative agent, location, patient factors
+        - can ange from acute (hours to days), to subacute or chronic (weeks to months)
+        - common symptoms: fever, headache, altered mental status (AMS)
+        - possible seizures
+    - differential diagnosis >>>
+        - crucial bc potential for rapid deterioration
+        - requires consideration of infectious & non-infectious causes
+        - using: detailed history, neurological exam, laboratory tests 
+    - Neuronal regeneration >>>
+        - limited to specific areas (hippocampus, neuro-olfactory mucosa) - all others dont regenerate
+    - gray vs white matter >>>
+        - pathologies affecting gray matter (cortex) often cause seizures
+        - white matter pathologies may present with neurological deficits & seizures
+    - CNS anatomical barriers >>>
+        - lack of defined anatomical barriers between bran, meninges & spinal cord allows rapid spread of infection
+        - BBB - endothelial cells, pericytes & astrocyte end-feet - protecting brain parenchyma from blood-borne pathogens & toxins
+        - Blood-CSF barrier - located in choroid plexus - less restrictive than BBB; viruses, drugs, toxins can cross more easily
+        - areas without tight junctions - postrema, hypothalamus, 3rd ventricle - so more susceptible to drugs & toxins 
+    - 
+    - 
+    - Meninges & CSF
+        - meninges >>>
+            - 3 layers of protective membranes surrounding brain & spinal cord
+                - dura mater - outermost, tough fibrous, in contact w skull
+                - arachnoid mater - web-like, contains arachnoid villi for CSF reabsorption - most commonly involved in meningeal infections
+                - pia mater - delicate, directly adheres to brain & spinal cord - inflammation here directly affects neurotransmission
+        - CSF >>>
+            - clear, colorless fluid circulating around brain & spinal cord
+            - avg volume: 150mL
+            - produced by choroid plexus in each ventricle
+            - circulates through subarachnoid space & is reabsorbed via arachnoid villi - turned over 3-4x daily
+            - 2/3 iltrafiltrated plasma, 1/3 brain EC fluid
+            - contains proteins, glucose, lymphocytes
+            - changes in composition or pressure are significant indicators of disease
+    - 
+    - Lumbar Puncture (LP) >>>
+        - sterile procedure to collect CSF for analysis
+        - performed between L3-L4 or L2-L3 to avoid spinal cord injury
+        - complications - headache most common, infection, local bleeding, brain herniation (most serious, potentially fatal)
+    - 
+    - CSF analysis >>>
+        - routine:
+            - cell count - ↑ WBCs indicate infection - ↑ RBCs indicate hemorrhage
+            - glucose - ↓ suggests bacterial infection - bc they consume it
+            - protein - ↑ indicates inflammation or BBB disruption
+            - gram stain - to identifiy bacteria
+            - culture - to identify & isolate bacteria or fungi
+        - additional more specific:
+            - india ink/cryptococcal antigen - for cryptococcal meningitis
+            - IgM / IgG - for certain viral infections
+            - cytology - to rule out malignancy
+        - Reibergram - measures albumin & IgG in CSF & serum to assess BBB integrity & intrathecal IgG synthesis
+        - Normal CSF - clear, colorless, <5 cells/mm3, glucose >50% of blood glucose, protein <59mg/dL
+- Meningitis
+    - ## bacterial Meningitis
+        - common causes: >>>
+            - S.pneumoniae
+            - N.meningitidis
+            - H.influenzae
+            - depends geographically
+        - RF >>>
+            - sinusitis
+            - otitis media
+            - immunodeficiency
+            - splenectomy
+            - skull base fractures
+        - pathogenesis >>>
+            - bacteremia
+            - meningeal invasion
+            - inflammation
+            - potential vasculitis & infarction
+        - clinical manifestations >>>
+            - fever, headache, meningismus, AMS (altered mental status), seizures- most common
+            - nuchal rigidity
+            - petechiae/rash
+            - all these are more common/severe in bacterial meningitis, can be used for differential diagnosis, but definitive with CSF analysis
+        - treatment >>>
+            - rapid initiation of antibiotics (ceftriaxone, vancomycin)
+            - ampicillin for suspected Listeria
+            - duration varies on causative agents
+            - corticosteroids might be beneficial
+    - 
+    - 
+    - ## aseptic meningitis
+        - common causes >>>
+            - enteroviruses
+            - arboviruses (prof likes tropical diseases remember!)
+        - transmission & RF >>>
+            - fecal-oral route
+            - respiratory droplets
+            - rituximab use (antibodies targeting B cells (healthy & pathogenic))
+            - routes of CNS entry: hematogenous, neural, olfactory
+        - clinical manifestations >>>
+            - fever
+            - headache
+            - photophobia
+            - meningismus (less severe than bacterial)
+            - GI symptoms
+        - treatment >>>
+            - supportive care
+            - antivirals might be considered in severe cases or specific viral infections (e.g. Herpes simplex encephalitis)
+    - 
+    - 
+    - extras for treatment >>>
+        - seizure management - anticonvulsants
+        - elevated ICP - head elevation, CSF drainage, surgical decompression
+        - prophylaxis - for close contacts of N.meningitidis & H.influenzae
+        - corticosteroids - may reduce mortality & hearing loss in bacterial meningitis (esp. S.pneumoniae & H.influenzae) - administer early, before or with antibiotics
+    - 
+    - chronic meningitis >>>
+        - if symptoms over 4 weeks
+        - causes: infectious, autoimmune, neoplastic
+        - diagnosis through history, exam, imaging, CSF analysis, potential biopsy
+    - Mollaret's meningitis >>>
+        - recurrent episodes of aseptic meningitis - lasting 2-5d , separated by weeks to years
+        - often caused by HSV-2
+        - treatment; acyclovir, valacyclovir
+    - 
+    - diagnosis >>>
+        - CSF analysis
+            - bacterial meningitis - purulent CSF, ↑ glucose, ↑ neutrophils, ↑ lactate
+            - aseptic meningitis - clear CSF, normal glucose, ↑ lymphocytes
+        - in general; film array - multiple PCRs at the same time of 2 different targets
+    - 
+    - causes of meningitis especially for immunocompromised >>>
+        - Listeria monocytogenes - aseptic meningitis; elderly, newborns, pregnant, immunocompromised 
+        - HSV-2 - can cause Mollaret's meningitis; recurrent episodes of aseptic meningitis between years
+        - cryptococcus neoformans - disseminated cryptococcosis
+        - TB - TB meningitis, in HIV/AIDS patients
+- Encephalitis & Myelitis
+    - encephalitis >>>
+        - Inflammation of the brain
+        - resulting from direct invasion from meninges
+        - associated w/ neurological dysfunction
+        - Symptoms: fever, headache, confusion, seizures
+        - Diagnosis: MRI, lumbar puncture
+        - Treatment: antiviral medications, corticosteroids
+    - 
+    - myelitis >>>
+        - Inflammation of the spinal cord
+        - often occuring transversely (transverse myelitis)
+        - Symptoms: weakness, sensory changes, bladder dysfunction
+        - Types: transverse myelitis, acute flaccid myelitis
+        - Diagnosis: MRI, lumbar puncture, clinical evaluation
+    - 
+    - 
+    - epidemiology >>>
+        - low incidence overall
+        - viral infections are the most common cause
+        - higher incidence in children under 1yo & elderly over 65
+        - impact:
+            - prolonged hospitalization
+            - significant mortality
+            - high rates of disability (up to 56%)
+            - early diagnosis & treatment CRUCIAL!
+    - 
+    - causes >>>
+        - viral
+            - HSV-1 the most common cause
+            - HSV2 in adults or VZV
+                - acute onset of paralysis in legs
+                - ↓ anal tone
+                - urinary incontinence
+            - CMV
+            - Human Herpesvirus 6 (HHV-6)
+            - West Nile Virus
+                - poliomyelitis-like, acute flaccid paralysis
+            - enteroviruses
+            - HIV
+            - Zika virus
+        - bacterial
+            - less common than viral causes
+            - Listeria monocytogenes
+            - Treponema Pallidym (syphillis)
+        - Fungal - more common in immunocompromised
+        - parasitic - e.g. toxoplasma gondii
+    - autoimmune causes:
+        - autoimmune encephalitis - often involving autoantibodies targeting neuronal receptors or ion channels - paraneoplastic syndromes can auso cause autoimmune encephalitis
+    - HIV status: HIV+; predominance of viral & fungal infections - HIV- predominance of unknown etiology cases
+    - 
+    - Routes of entry, to cause pathogenesis >>>
+        - can enter the CNS through several routes
+        - retrograde axonal transport - Herpesviruses (HSV, VZV) -  to reach brain
+        - BBB crossing - some viruses (WNV, VZV) cross BBB directly or indirectly (within WBCs)
+        - olfactory neurons - through olfactory bulb
+        - Blood-CSF barrier crossing: CMV targets endothelial & ependymal cells
+        - Choroid plexus: enteroviruses can enter directly into CSF
+        - Once in CNS, pathogens trigger inflammatory response ⇒ lead to neuronal dmg & neurological dysfunction - inflammatory pattern varies & depends on pathogen
+    - 
+    - Clinical manifestations of Encephalitis >>>
+        - classic triad: Headache, nuchal rigidity, fever (fever might be absent)
+        - Altered Mental Status - key feature lasting over 24h
+        - focal neurological signs - depend on area of brain affected - can include ataxia, cranial nerve palsies, seizures, hypothermia, autonomic dysfunction, diabetes insipidus, SIADH [6]
+    - Clinical manifestations of Myelitis >>>
+        - rapid onset: weakness, sensory alterations, bowel/bladder dysfunction
+        - sensory level: defined sensory level helps localize spinal cord lesion
+        - bilateral: typically affects both sides of spinal cord
+        - associated disorders: MS, ADEM (Acute Disseminated EncephaloMyelitis)
+    - 
+    - Diagnosis of Encephalitis & Myelitis >>>
+        - Imaging:
+            - MRI - visualize brain & spinal cord Inflammation
+            - CT scan - less precise than MRI - but used if MRI not available
+        - CSF analysis:
+            - pleocytosis - ↑ WBC count (lymphocytes or neutrophils)
+            - protein levels - often ↑ 
+            - glucose levels - usually normal, but can be ↓ in some infections
+        - EEG - electroencephalogram - detect focal abnormalities, to localize lesion
+        - PCR - highly sensitive for viral DNA or RNA detection in CSF
+    - 
+    - Encephalitis & Myelitis treatment >>>
+        - antiviral therapy:
+            - acyclovir - for HSV encephalitis, empirical treatment initiated before PCR results
+            - Ganciclovir - for CMV encephalitis
+            - other antivirals - for other viral causes
+        - Immunotherapies:
+            - corticosteroids - to reduce inflammation in both infectious & autoimmune encephalitis & myelitis
+            - Intravenous Ig - suppress immune response in autoimmune encephalitis
+        - antibiotics:
+            - used for bacterial causes - often given empirically along with acyclovir initially
+    - 
+    - 
+    - 
+    - 

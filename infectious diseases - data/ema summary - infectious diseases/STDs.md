@@ -1,0 +1,106 @@
+- epidemiology >>>
+    - estimated hundred of millions of new STI infections annualy
+    - Chlamydia, gonorrhea, syphilis, trichomoniasis - the most common ones - esp. in low income countries
+    - trends - increasing rates of antibiotic resistance - esp. for gonorrhea & chlamydia
+    - concerning rise in syphilis infections, esp. in MSM
+    - Risk factors: Multiple sex partners, unprotected sex, inconsistent condom use, STI history, substance abuse
+- classification of STDs >>>
+    - curable STDs - infections that can be treated & eliminated w/ appropriate antibiotics or other medication
+        - chlamydia, gonorrhea, syphilis & trichomoniasis
+        - cure depends on specific pathogen, antibiotic susceptibility, patient adherence to medication
+    - incurable STDs - infections that cannot be cured, but can be managed w/ medication to reduce symptoms & prevent transmission
+        - HIV, HSV, HPV
+        - management focuses on suppresing viral replication, managing symptoms & preventing complications (QWER-viral latency & pathogenesis course, challenges developing effective antiviral therapies)
+    - also classification based on pathogen type:
+        - bacterial STDs - caused by bacteria & are typicaly treatable w/ antibiotics - e.g. syphilis, chlamydia, gonorrhea - antibiotic resistance is a growing concert
+        - viral STDs - caused by viruses & are generally incurable, but manageable w/ antiviral medications - e.g. HIV, HSV, HPV 
+        - other STDs - fungi (candida), protozoa (trichomonas vaginalis), ectoparasites (lice, scabies) - treatment depends on specific pathogen
+- Bacterial pathogens causing STDs:
+    - Chlamydia trachomatis >>>
+        - obligate intracellular bacterium
+        - cause urethritis, cervicitis, PID & LGV
+    - Neisseria gonorrhea >>>
+        - Gram- diplococcus
+        - cause urethritis, cervicitis, proctitis & disseminated gonococcal infection
+    - Treponema pallidum >>>
+        - spirochetes causing syphilis
+        - has primary, secondary, tertiary stages
+            - 1º primary lesion at site of infection, goes away on its own
+            - 2º spreads to lymph & blood vessels & cause systemic rash - infectious
+            - latent - dormant stage for up to many years - after it we get either recurrent 2º or if immunosuppresed or untreated, we get 3º
+            - 3º - most severe, cause CNS & circulatory problems, neurosyphilis, gumma (granuloma formation) 
+    - Haemophilus Ducreyi >>>
+        - gram- bacullus
+        - cause chancroid - a painful genital ulcer
+        - can also cause inguinal lymphadenopathy
+- Viruses causing STDs:
+    - Human Papillomavirus (HPV) >>>
+        - cause genital warts
+        - linked to cervical, anal & other cancers
+        - many strains exist, some high-risk, & some lower-risk
+    - Herpes Simplex Virus (HSV) >>>
+        - cause genital herpes
+        - characterized by painful blisters & sores
+        - HSV-2 primarilly associated w/ genital herpes, while HSV1, with oral herpes
+    - Human Immunodeficiency Virus (HIV) >>>
+        - causes Acquired Immunodeficiency Syndrome (AIDS) - leading to severely compromised immune system
+- Protozoa causing STDs >>>
+    - trichomonas vaginalis - causing trichomoniasis - affecting vagina & urethra
+- Fungi causing STDs >>>
+    - candida - causing candidiasis - a yeast infection affecting vagina, penis & other areas
+- Ectoparasites causing STDs >>>
+    - pediculus humans pubis (pubic lice)
+    - Sarcoptes scabiei (scabies)
+    - not strictly STIs but can also me transmitted sexually
+- Clinical manifestations of STDs >>>
+    - genital ulcers - painful ulcers charateristic of chancroid (Haemophilus Ducreyi) & herpes genitalis (HSV) 
+        - **non-painful ulcers are characteristic of syphilis!!!** 
+    - urethritis/cervicitis/proctitis - symptoms: discharge, pain during urination, bleeding - associated w/ chlamydia & gonorrhea
+    - genital warts (condyloma acuminata) - by HPV - small flat OR large cauliflower-shaped warts - on genitals, anus & surrounding areas
+    - Pelvic Inflammatary Disease - chlamydia & gonorrhea - affecting fallopian tubes & ovaries - abdominal pain, fever, abnormal vaginal discharge
+    - others:
+        - vaginal discharge, itching, pain during urination - trichomoniasis
+        - vaginal or penile itching, burning & discharge - candidiasis
+        - scabies - intense itching & rash
+- Diagnosis & Treatment of STDs 
+    - Diagnostic tests >>>
+        - depend on suspected infection:
+        - microscopy, culture, PCR, serology (detect Ab against pathogen in blood)
+    - Treatment >>>
+        - depends on pathogen
+        - antibiotics used for bacteria, & antivirals for viruses
+    - Diagnosis & Treatment - Chlamydia >>>
+        - Chlamydia trachomatis - PCR / culture
+        - azithromycin, doxycycline
+    - Diagnosis & Treatment - gonorrhea >>>
+        - Neisseria gonorrhea - culture / PCR
+        - ceftriaxone, azithromycin (often combined)
+    - Diagnosis & Treatment - syphilis >>>
+        - Treponema pallidum - serology / dark-field microscopy (bc tiny!)
+        - Benzanthine penicillin
+    - Diagnosis & Treatment - Trichomoniasis >>>
+        - Trichomonas vaginalis - microscopy / PCR
+        - metronidazole
+    - Diagnosis & Treatment - genital herpes >>>
+        - Herpes simplex virus - PCR, viral culture, serology
+        - acyclovir, valacyclovir
+    - Diagnosis & Treatment - genital warts >>>
+        - HPV - visual inspection, colposcopy
+        - topical treatments / LEEP / surgical removal
+    - scabies >>>
+        - dermatoscope - itchy all over body (mostly knees & palms), increased at night 
+        - transmission through prolonged contact - ectoparasite
+        - permethrin cream - leave overnight, then repeat after 1 week - also quarantine clothes etc.
+        - ivermectin pill - once & then once again after 1 week - contraindication for pregnant women & <15kg kids
+        - also crusted scabies - in immunosuppresed individuals - thousands of mites on individual, compared to ~10 in classic scabies
+    - lice >>>
+        - pubic lice - on pubic hair and armptis
+        - can carry other diseases - Epidemic Typhus - caused ↑ mortality before antibiotics - classified as category B-bioterrorism agent!
+- Prevention of STDs >>>
+    - the most effective is abstinence - the only reliable
+    - practicing safe sex - condoms (correctly & consistently) + monogamy
+    - partner notification - inform past sexual partners about STI diagnosis
+    - vaccination - available for HPV - can prevent certain types of cervical, anal cancers
+    - regular screening - to detect early, & even asymptomatic - also PrEP & PEP for HIV
+- 
+- 

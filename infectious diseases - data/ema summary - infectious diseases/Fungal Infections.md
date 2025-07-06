@@ -1,0 +1,90 @@
+- fungi >>>
+    - eukaryotic, heterotrophic microorganisms
+    - digest food externally using hydrolytic enzymes - explains ability to invade blood vessels, often causing hemorrhage 
+    - primarily aerobic
+    - synthesize lysine
+    - plasma membranes contain ergosterol
+    - reproductive units: conidia (asexual) & spores (can have asexual or sexual origin)
+- yeasts VS molds >>>
+    - yeasts ‒ single-celled fungi reproducing by budding
+    - molds ‒ multicellular fungi forming hyphae (filaments)
+    - dimorphic fungi ‒ exhibit both yeast & mold forms, depending on environmental conditions (T, CO2, pH) - grow as yeast or spherules in vivo or at 37ºC in vitro, and as molds at 25ºC
+    - classification based on morphology is crucial for identification & understanding the potential severity of infection
+- 
+- classification of fungal infections, based on >>>
+    - site of infection:
+        - superficial
+        - cutaneous
+        - subcutaneous
+        - systemic
+    - route of acquisition:
+        - exogenous (airborne, cutaneous, percutaneous)
+        - endogenous (from normal flora (e.g. candida in GI) - particularly common in immunocompromised
+    - virulence:
+        - primary pathogens infect healthy individuals
+        - opportunistic pathogens infect immunocompromised hosts
+- 
+- 
+- diagnosis of fungal infections - depend on: >>>
+    - clinical presentation:
+        - symptoms vary depending on fungus & site of infection
+        - thorough history, traveling history & underlying medical conditions - taken into consideration
+    - miroscopic examination:
+        - examination of specimens - tissue biopsies - to identify fungal elements (hyphae, yeast)
+        - gram staining for initial assessment
+    - culture:
+        - the GOLD STANDARD
+        - on selective media
+        - for definitive diagnosis - but can be time-consuming
+    - serological tests:
+        - detection of fungal Ag & Ab in serum
+        - for rapid diagnosis, but limitation in sensitivity & specificity
+    - molecular diagnostics:
+        - PCR-based methods for rapid & sensitive fungal DNA detection
+- 
+- 
+- Antifungal Treatment >>>
+    - treatment choices depend on fungus, site of infection & host factors
+    - Major classes:
+        - Azoles: inhibit ergosterol synthesis (e.g. fluconazole)
+        - echinocandins: inhibit cell wall synthesis
+        - polyenes: bind to ergosterol, disrupting membrane integrity (e.g. amphotericin B)
+    - Drug resistance:
+        - Candida auris & azole-resistant Aspergillus fumigatus - significant concerns due to resistance to commonly used antifungals
+- 
+- specific fungal infections >>>
+    - Candida Infections
+    - Aspergillus Infections
+    - murcomycosis (zygomycosis)
+    - Histoplasmosi
+- 
+- 
+- Candida Infections >>>
+    - candidemia - requires prompt treatment with echinocandins or amphotericin B
+        - source control is crucial
+    - invasive candidiasis - can affect multiple organs (kidney, liver, lungs, CNS)
+        - RF: neutropenia, broad-spectrum antibiotic use, indwelling devices
+    - mucocutaneous candidiasis ‒ oral thrush, esophagitis, vulvovaginitis
+- 
+- Aspergillus Infections >>>
+    - Invasive Aspergillosis
+        - severe infection - esp. in immunocompromised
+        - RF: neutropenia, corticosteroids & hematopoietic stem cell transplant
+        - treatment: azoles, often combined with echinocandins
+    - Allergic Bronchopulmonary Aspergillosis (ABPA)
+        - Hypersensitivity reaction in patients with asthma
+        - characterized by elevated IgE levels, eosinophilia
+- 
+- Mucormycosis (zygomycosis) >>>
+    - caused by Mucorales
+    - characterized by ribbon-like hyphae with septations
+    - RF: diabetes mellitus (ketoacidosis), glucocorticoid use, hematologic malignancies
+    - often presents with rhino-orbital-cerebral involvement - requiring surgical debridement & antifungal therapy (amphotericin B, azoles)
+        - so involves sinuses, eyes, & brain
+- 
+- Histoplasmosis >>>
+    - caused by Histoplasma capsulatum - found in soil contaminated w/ bird or bat droppings
+    - most infections are asymptomatic or mild - severe disease can involve lungs or disseminate to other organs
+    - treatment depends on severity ‒ may involve azoles, or amphotericin B
+- 
+- 

@@ -1,0 +1,135 @@
+- ## Primary (pulmonary) TB
+    - epidemiology >>>
+        - Global prevalence
+        - High incidence in low-income countries
+        - Incidence rates higher in specific populations (e.g., HIV-positive individuals)
+        - Risk factors: immunocompromised, crowded living conditions
+        - Transmission via airborne droplets
+    - 3 big killers >>>
+        - TB, HIV, Malaria - in children & immunodeficient 
+    - etiology >>>
+        - Mycobacterium TB complex: M.tuberculosis, africanum, Bovis (↑mortality, + assoc. w/ HIV)
+        - cell wall - major virulence factor - resist environmental factors
+        - ↑ replication ≠ slow cultures
+    - pathology >>>
+        - airborne transmission - infectious droplet nuclei - remain aerosolized for a few hours
+        - extrapulmonary TB = not contagious
+        - 90% expelled by ciliary system
+        - most of remaining, phagocytized by macroph. ⇒ replicate ⇒ granuloma formation
+        - granuloma
+            - central zone; caseous necrosis
+            - intermediate; macroph. & monocytes
+            - external; giant multinucleated cells - barrier to Mycobactect. spread
+        - DD granuloma biopsy (possible other diagnosis from granuloma biopsy):
+            - NTM, sarcoidosis, fungal infections, lymphoma
+    - symptoms >>>
+        - chronic course - 10-20% asymptomatic
+        - non-specific extrapulm. sympt: fever, fatigue, anorexia
+        - chest symptoms: pleural/thoracic pain, productive cough, hemoptysis (late symptom)
+        - primary progressive TB - lymph node enlargement ⇒ may involve into miliary form (disseminated) / CNS
+    - diagnosis >>>
+        - suspicion & clinical features
+        - microbiological diagnosis:
+            - staining - acid fast - quick, but when higher load/more contagious
+            - PCR - quick, medium/high sensitivity - detects dead mycobacteria too
+            - culture (gold standard) - high sensitivity, but slow (might need to treat before results)
+            - lipoarabinomannan (LAM) - component of cell wall - detected in urine, highly sensitive, cheap
+    - treatment >>>
+        - isolation if suspect
+        - standard therapy: 2 months isoniazid, rifampicin and other combo ⇒ then, 4 months only isoniazid & rifampicin
+        - multiple drug regimen - to avoid resistance
+- 
+- 
+- ## latent TB
+    - epidemiology >>>
+        - immunocompetent - mycobact. replicate in macroph.
+        - 95% maintain immune control - 5% reactivates
+    - pathology >>>
+        - granuloma - calcification ⇒ scarring
+    - symptoms >>>
+        - silent, asymptomatic
+        - not contagious
+    - diagnosis >>>
+        - Tuberculin skin test (TST) - Mantoux
+            - after 72h, positive if bigger than 10mm
+        - Interferon-gamma release assays (IGRAs)
+            - higher sensitivity but expensive
+            - doesnt differentiate active VS latent TB, or other infections
+    - treatment >>>
+        - PET CT + biopsy ⇒ to predict reactivation risk (lung nodules)
+        - categories for preventive therapy:
+            - HIV+, recent exposure, organ transplant, immunosuppressed, ppl from high prevalence countries, lab personnel
+        - 3 months of isoniazid + rifampicin
+- 
+- 
+- ## Extra-pulmonary TB
+    - extra-pulmonary TB - examples >>>
+        - miliary/disseminated 
+        - Lymphadenitis 
+        - Serositis ‒ Pleuritis, Pericarditis 
+        - CNS meningitis 
+        - genitourinary 
+    - 
+    - miliary/disseminated >>>
+        - metastatic lesions of mycobacteria
+        - acute, rapidly evolving - fever, dyspnea, hypoxemia
+        - Xray - nodular pattern in interstitium
+        - negative sputum staining, BAL, Mantoux - so difficult diagnosis
+        - PCR better for diagnosis
+    - Lymphadenitis >>>
+        - most common extrapulm. TB in children & immunosuppressed
+        - commonly affect nodes: infraclavicular, lateral, cervical
+        - non painful, soft lymph nodes
+        - positive Mantoux, PCR
+        - biopsy for better diagnosis
+        - DD: NTM, lymphomas, metastatic tumors, toxoplasma
+    - Serositis
+        - Pleuritis >>>
+            - pain pleural effusion
+            - thoracentesis for diagnosis - lymphocytes found - not specific for TB though
+            - negative/low sensitivity stvisaining, PCR, culture
+        - Pericarditis >>>
+            - subacute
+            - fever, pain, tachycardia, ECG alterations
+            - US: pericardial effusion
+            - complications: cardiac tamponade
+    - CNS (meningitis) >>>
+        - altered CSF circulation ⇒ hydrocephalus ⇒ ventricles enlargement
+        - slow onset: headache, fever, weight loss, cranial nerve palsies
+        - sudden onset: vasculitis lesions
+        - CTI/MRI - tuberculomas
+        - CSF - ↓ GLUCOSE 
+        - negative/low sensitivity to staining, PCR, culture
+        - longer standard therapy
+    - genitourinary >>>
+        - urinary TB
+            - 2nd most common extrapulm. TB
+            - hematogenous spread ⇒ chronic pyelonephritis
+            - sterile pyuria - ↑ leukocytes but negative culture
+        - Genital TB
+            - men: urethritis, superficial ulcer, chronic epididymitis
+            - woman: strictures, infertility
+- 
+- 
+- ## IRIS
+    - IRIS >>>
+        - immune Reconstitution Inflammatory Syndrome
+        - paradoxical inflammation against a foreign antigen in patients who have started ART (co-infection w/ HIV)
+    - RF >>>
+        - bacterial load
+        - dissemination besides lungs
+    - pathology >>>
+        - ARV treatment ⇒ restoration of immune response
+        - majority of opportunistic infections = treated 10-14gg before ARV
+        - exception: TB, cryptococcal meningitis (ARV after over 6 weeks post-treatment)
+    - diagnosis >>>
+        - screen for opportunistic infections before ARV treatment
+        - **unmasking IRIS**
+            - opportunistic infection develops after ARV treatment
+        - **worsening IRIS**
+            - pre-existing opportunistic infection worsens w/ ARV
+    - treatment >>>
+        - interrupt ARV if unmasking
+        - NSAIDs/Corticosteroids if worsening
+        - prevention of TB-associated IRIS (patients w/ HIV + TB) ⇒ prednisone (glucocorticoid for immune suppression)
+- 
