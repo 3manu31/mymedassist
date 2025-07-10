@@ -1,0 +1,357 @@
+12.05.2023 LEONARDUZZI L.7
+DEMYELINATING DISEASES
+I
+NTRODUCTION
+There is a group of disorders, called demyelinating diseases, which are characterized by the loss of the
+myelin sheath with the preservation of the axon. Because of the loss of the myelin sheath, there is the
+appearance of several neurological deficits because all the electrical impulses cannot be transmitted along
+the axons because the myelin sheath is necessary for the transmission. There are several pathologic disorders
+that can cause this loss, for example immune-mediated destruction of myelin seen in multiple sclerosis but
+also infections (for example bacterial) and a group of inherited disorders termed leukodystrophies (rare
+diseases with a genetic predisposition characterized by the accumulation of substances on the myelin causing
+its damage).
+M S ( )
+ULTIPLE CLEROSIS MS
+It is one of the most common diseases characterized by an immune-attack which results in the destruction
+of the myelin sheath. This disease occurs at any age but in 90-95% of the cases it occurs between 20-40 years
+so maybe we can see the onset between 10-50 years or after 50 years of age. MS is a type of autoimmune
+disease and is more frequent in women (as many other autoimmune diseases) affecting them 2-3 times more
+than men. We can distinguish two forms of MS: a sporadic form (most frequent) and a form with family
+predisposition (10-20% of cases).
+Prevalence of 1 case per 1000
+persons/year in Europe and USA; link
+with unidentified environmental factors:
+latitude, climate, etc. Incidence: 15-fold
+higher when the disease is present in a
+first-degree relative and roughly 150-fold
+higher with an affected monozygotic
+twin.
+Here we can see (fig. 1) the distribution
+of MS and it is quite diffuse in North
+America, North Europe (Italy included)
+and in Australia. It’s not so diffused in (fig. 1)
+South America, Africa, India and Asian
+countries.
+As already said, it is an autoimmune disease, and it has been discovered that it is a multifactorial disease
+because genetic and environmental factors can contribute to its development. It is characterized by the
+presence of specific lesions caused by an autoimmune response directed against the components of the
+myelin sheath which gets destroyed by our own antibodies, mainly in the area of the white matter of the
+CNS, even though the gray matter can also be affected.
+The demyelination is the result of repeated immune-mediated inflammatory processes over time; these
+repeated crises, characterized by dramatic inflammation, are responsible for the production of antibodies
+against the myelin responsible for all the neurologic deficits.
+Saghafi Romina, Gervasio Carolina
+81
+12.05.2023 LEONARDUZZI L.7
+The CNS tries to repair the damage but is not able to do it completely; thus, we have only a partial re-
+myelination by oligodendrocytes; especially at the beginning the reparation is quite effective but over time
+it becomes less effective and the result is the formation of specific lesions characterized by fibrotic tissue
+known as sclerotic plaques. The name MS comes from the formation of multifocal sclerotic plaques.
+On the left (fig. 2), there is a normal neuron with a totally myelinated axon and on the right, we can see the
+situation after the immune attacks, and we can understand that the electrical impulses cannot be transmitted
+along the axon with a myelin sheath in this condition.
+(fig. 2)
+F
+ORMS OF MULTIPLE SCLEROSIS
+We can distinguish 4 different forms of multiple sclerosis:
+● relapsing-remitting
+It is a rapidly developing form; in a few days we have the appearance of the neurological deficits, and
+this acute attack can be followed by a gradual, total or partial remission of the neurological functions
+(80% of patients). We can have repeated attacks in the following months or years but between them
+there are normal periods with regression of the neurological problems.
+● secondary progressive
+Over time some patients show a more or less severe progression of the disease, so it does not stop.
+● primary progressive
+We have a progression of the disease since the first day (so from the first day) and not over time;
+20% of patients are affected by this more severe form compared to the others because we don’t
+have a pause between the first and the second crisis but there is a constant progression of the
+disease.
+Saghafi Romina, Gervasio Carolina
+82
+12.05.2023 LEONARDUZZI L.7
+● progressive-relapsing
+Progressive condition with attacks; there is a progressive development characterized by more severe
+attacks compared to the first form, so these patients reach a condition of disability because they
+have very serious neurological deficits.
+C F
+ONTRIBUTION ACTORS
+The mechanisms responsible for this disease are not clear but what has been demonstrated is that it is a
+multifactorial disease so there is the involvement of:
+● Genetic predisposition
+− The genes of MHC class II are involved but only in 25-35% of cases, so this means that there are
+also other genes involved. However, in particular patients with the haplotype HLA-DRB1*1501
+have a higher risk (3 times more) of developing MS compared to other subjects. Since genes of
+MHC class II are involved for only a small percentage, it means that other unknown genes must
+be involved in the development of the disease.
+● Environmental and immune risk factors
+− It has been observed that this disease is present differently depending on the geographical area
+due to different climate, latitude, etc. because these factors can stimulate in some way the
+genetic predisposition.
+− Vitamin D can also have a role in the development of MS and in particular a diet lacking
+provitamin D or insufficient sun exposure.
+− Cigarette smoking.
+− Some studies said that probably some viral agents can contribute (maybe the Epstein-Barr virus)
+but we don’t have reliable scientific data telling us which viruses are responsible and which are
+not.
+There are no reliable data on genetic, environmental, and immune factors but all the events able to stimulate
+inflammatory processes can contribute to MS pathogenesis. It has been observed that chronic inflammatory
+infiltrate (so chronic inflammatory cells) either inside the sclerotic plaques or outside the regions. Over time
+the inflammatory response can decrease but the neurological deficits remain stable.
+P
+ATHOGENESIS
+The pathogenesis (fig. 3) is characterized by a complex and multiphase process. We can mainly distinguish 2
+phases: an autoimmune attack at the beginning and then, with the progression of the disease, an axonal
+damage.
+Saghafi Romina, Gervasio Carolina
+83
+12.05.2023 LEONARDUZZI L.7
+(fig. 3)
+At the beginning, there is a crisis characterized by inflammation during which there is the production of
+cytokines and in particular of IL-1, IL-6 and TNF-alpha that starts to damage the endothelium of the blood
+brain barrier causing the release of adhesion molecules such as ICAM-1, VCAM-1, E-selectin and the exposure
+of MHC class II molecules implicated in antigen recognition by the immune system. After that there is the
+activation of T-lymphocytes that start to express on their surface ligands for the adhesion molecules and for
+MHC class II molecules and start to adhere to endothelial cells and transmigrate from the bloodstream to the
+perivascular space, through the release of MMP-2 and MMP-9 that can degrade the components of the ECM
+(in particular collagen).
+These inflammatory cells cross the BBB and start to spread in the bundles of nerve fibers at the level of the
+white matter of the CNS. Activated T-lymphocytes become cytotoxic T lymphocytes (CD4+) and start to
+attack the myelin sheath proteins and produce inflammatory cytokines (IL-1, IL-6 and TNF-alpha)
+stimulating macrophages and glial cells that synthesized NO and osteopontin (a glycoprotein). This is
+considered as the inflammatory stage of MS. After that, the B lymphocytes start to migrate from the blood
+to the perivascular space and they start to produce antibodies against the components of the myelin sheaths
+and these antibodies are responsible
+for the degradation of the myelin; the
+macrophages present in that area
+start to phagocyte all the fragment of
+myelin. Osteopontin is a special
+glycoprotein because it contributes
+to the stimulation of the production
+of other cytokines by Th1 cells
+amplifying the inflammatory
+response. So, at the end we have an
+imbalance between the production
+of inflammatory cytokines and the
+anti-inflammatory cytokines released
+(fig. 4)
+by Th2 cells with the prevalence of
+the inflammatory response.
+Saghafi Romina, Gervasio Carolina
+84
+12.05.2023 LEONARDUZZI L.7
+In this picture (fig. 4), it’s possible to appreciate the transmigration of activated T cells that attack the myelin
+and the following arrival of B lymphocytes that start to produce antibodies against myelin components
+degrading it; the degraded components are phagocytosed by the macrophages.
+I C
+NTRODUCTION ONSEQUENCE OF IMMUNE ATTACKS
+We have many areas where the myelin is attacked in which we have the formation of focal areas of
+demyelination on the myelin sheaths causing neurological deficits because, as already said, myelin is
+necessary for the transmission of electrical impulses. During these inflammatory crises in the white matter
+we also have the destruction of oligodendrocytes (because the myelin sheath
+is formed by extensions of oligodendrocytes) and so these damaged neurons
+start to release an excessive quantity of glutamate which is a neurotransmitter
+that leads to a continuous excitation of neurons until they get exhausted and
+so there is a destruction of the neurons because of the excessive excitation
+that causes the loss of their functions, excitotoxicity (toxicity of neurons
+caused by their extreme excitation).
+Moreover, since there is axonal damage, the astrocytes and the other
+inflammatory cells present around that area start to release some
+neurotrophic factors trying to stimulate the production of new myelin with
+consequent re-myelination by the oligodendrocytes, but this is only a partial
+re-myelination; therefore, overtime this becomes less and less effective with
+consequent irreversible damage and replacement by sclerotic tissue, sclerotic
+plaques. In this picture (fig. 5) we can appreciate sclerotic plaques in the
+brainstem and spinal cord.
+(fig. 5)
+A
+NATOMOPATHOLOGICAL CHARACTERISTIC
+MS is an autoimmune disease characterized by sclerotic plaques typical of the white matter, but they can
+also be present in the gray matter because myelin can also be inside it. These lesions have been observed in
+the periventricular area, corpus callosum, cerebellum, but also optic nerves, chiasm, and spinal cord.
+It’s possible to distinguish different types of lesions according to their morphology:
+● acute active, associated with acute attacks of immune system; they are characterized by:
+− irregular margins
+− myelin infiltration of lymphocytes and macrophages (containing products of the sheath degradation)
+− axonal damage however the axon is still conserved
+− loss of oligodendrocytes which are destroyed
+− poor astroglial response
+● chronic active, associated with the progressive form of chronic MS; they are characterized by:
+− sharper margins
+− large external area rich in macrophages (mainly in the internal area) and products of advanced myelin
+degradation
+− evident axonal damage compared to the acute active ones
+● slow expansion, they have an inactive central area surrounded by activated microglia and some
+macrophages at the edges
+Saghafi Romina, Gervasio Carolina
+85
+12.05.2023 LEONARDUZZI L.7
+● chronic inactive, we do not have an active degradation of the myelin because these are old lesions
+and correspond to the sclerotic plaques; they are characterized by:
+− net margin
+− myelin absence
+− few oligodendrocytes
+− macrophages and microglia cells but strong sclerotic cicatricial reaction (sclerosis, irreversible
+damage) due to astroglial activation
+S
+YMPTOMS AND DIAGNOSIS
+The clinical manifestations are various and change from person to person and can also be different because
+they depend on the localization of the sclerotic plaques in the CNS. They occur singularly or simultaneously.
+● if we have a lesion in the cerebral cortex, the neurological deficits will consist in motor, sensory and
+cognitive disorders (paralysis, ataxia)
+● if the lesions affect the optic nerve there will be optic neuritis and retrobulbar neuritis
+● if we have lesions in the brainstem there will be ophthalmoplegia and dysphagia
+● in case the lesions are in the motor spinal cord the neuronal deficits will be sensory and sphincter
+disorders
+As a result of the lesions the patients can have:
+● Loss of sensitivity, tingling, numbness in the limbs (hypoesthesia and paraesthesia), loss of sensitivity
+to touch, difficulty in perceiving heat and cold
+● Muscle weakness, fatigue (asthenia), muscle spasms, difficulty in movement or difficulty in
+coordination and balance (ataxia), language problems (dysarthria) and dyskinesias, swallowing
+difficulty (dysphagia, as in other neurodegenerative diseases such as Alzheimer’s disease and
+Parkinson's disease)
+● Cognitive impairment, cortical dementia, characterized by a state of euphoria or crisis of spastic
+crying and laughing, depression
+● Sexuality disorders, impotence and loss of sensitivity
+● Visual disturbances, rapid visual decline, doubling of sight (diploidy), internuclear ophthalmoplegia
+(force deficit or paralysis movements), uncontrolled movements of the eye (nystagmus) and optic
+neuritis (image blur and pain in the region around the eyes or bulbar movement)
+● Urinary tract disorders, frequent and/or urgent urination (pollakiuria), incontinence or retention
+● Intestinal problems, constipation, diarrhea or fecal incontinence
+The symptoms usually appear during the acute attacks and after these acute deteriorations there is a gradual
+and/or progressive worsening of neurological function. The attacks are unpredictable so there are no obvious
+factors that can precede them and do not occur frequently during the year → 1 or 2 attacks per year.
+However, some are preceded by common triggers like hot environments; therefore, from one side the sun is
+useful to produce vitamin D but on the other side it can cause the onset of an attack especially during spring
+or summer. It also seems that some viral infections like common colds, flu and gastroenteritis, can increase
+the risk of relapse while stress can trigger an attack. Pregnancy also plays a role influencing the susceptibility
+to relapse (recurrence rate lower than one for each trimester of gestation); after giving birth, the risk of
+recurrence is greater during the first months.
+Saghafi Romina, Gervasio Carolina
+86
+12.05.2023 LEONARDUZZI L.7
+As regards the diagnosis, with an MRI we can observe the lesions in the white matter but we can also check
+the presence of antibodies against myelin or some fragments of myelin in the liquor by performing a liquor
+examination. Moreover, there are two characteristic (but not specific) clinical signs of multiple sclerosis:
+1. Uhthoff's sign, aggravation of existing symptoms due to exposure to higher temperatures than usual
+ambient one
+2. Lhermitte’s sign, sensation of electric shock that runs through the spine and legs following flexion
+or, more rarely, during extension of the neck (this is typical of MS)
+T
+HERAPY
+There are two lines of therapy:
+● Immunomodulatory
+Modulate and control the immune system decreasing the immune attack and thus the destruction
+of myelin; the most used one is interferon beta-1 but there are also others (glatiramer acetate,
+natalizumab)
+● Immunosuppressant
+These are the most effective drugs because they totally inhibit the immune system destroying all the
+B lymphocytes responsible to produce the antibodies against the myelin components, but, after the
+treatment, the patients are totally exposed to infectious agents because all the immune cells are,
+indeed, destroyed. Officially approved drug for use in MS is mitoxantrone but many others are used
+in clinical practice e.g. azathioprine and cyclophosphamide
+The professor proceeded to show this video https://www.youtube.com/watch?v=yzH8ul5PSZ8
+Multiple sclerosis is a demyelinating disease of the central nervous system, which includes the brain and the
+spinal cord. Myelin is the protective sheath that surrounds the axons of neurons, allowing them to quickly
+send electrical impulses. This myelin is produced by oligodendrocytes, which are a group of cells that support
+Saghafi Romina, Gervasio Carolina
+87
+12.05.2023 LEONARDUZZI L.7
+neurons. In multiple sclerosis, demyelination happens when the immune system inappropriately attacks and
+destroys the myelin, which makes communication between neurons break down, ultimately leading to all
+sorts of sensory, motor, and cognitive problems. Now, the brain, including the neurons in the brain, is
+protected by things in the blood by the blood brain barrier, which only lets certain molecules and cells through
+from the blood. For immune cells like T and B cells that means having the right ligand or surface molecule to
+get through the blood brain barrier, this is kind of like having a VIP pass to get into an exclusive club. Once a
+T cell makes its way in it can get activated by something it encounters - in the case of multiple sclerosis, it’s
+activated by myelin. Once the T-cell gets activated, it changes the blood brain barrier cells to express more
+receptors, and this allows immune cells to more easily bind and get in, it’s kind of like bribing the bouncer to
+let in a lot of people. Now, multiple sclerosis is a type 4 hypersensitivity reaction, or cell-mediated
+hypersensitivity. And this means that those myelin specific T-cells release cytokines like IL-1, IL-6, TNF-alpha,
+and interferon-gamma, which together dilate the blood vessels which allows more immune cells to get in, as
+well as directly cause damage to the oligodendrocytes. These cytokines also attract B-cells and macrophages
+as part of the inflammatory reaction. Those B-cells begin to make antibodies that mark the myelin sheath
+proteins, and then the macrophages use those antibody markers to engulf and destroy the oligodendrocytes.
+Without oligodendrocytes, there’s no myelin to cover the neurons, and this leaves behind areas of scar tissue,
+also called plaques or sclera. In multiple sclerosis, these immune attacks typically happen in bouts. In other
+words, an autoimmune attack on the oligodendrocytes might happen, and then regulatory T cells will come
+in to inhibit or calm down the other immune cells, leading to a reduction in the inflammation. Early on in
+multiple sclerosis, the oligodendrocytes will heal and extend out new myelin to cover the neurons, which is a
+process called remyelination. Unfortunately, though, over time as the oligodendrocytes die off the
+remyelination stops and the damage becomes irreversible with the loss of axons.
+Just like other autoimmune diseases, the exact cause of multiple sclerosis is unknown, but is linked to both
+genetic and environmental factors. Genetic risk factors include being a female and having genes that encode
+a specific type of immune molecule called HLA-DR2 which is used to identify and bind to foreign molecules.
+Environmental risk factors might include infections as well as vitamin D deficiency, which is an interesting one
+because it might help explain why the rates of multiple sclerosis are higher at the northern and southern poles
+compared to the equator where there’s a lot more sunlight. Together these genetic and environmental
+influences might lead to the body not killing off immune cells that target myelin.
+So it turns out that there are four main types of multiple sclerosis based on the pattern of symptoms over
+time. To break this down, we can use this graph with time on the x-axis, where time refers to the lifespan of
+the individual, and disability on the y-axis. The first, and by far the most common pattern of multiple sclerosis,
+is called relapsing-remitting multiple sclerosis or RRMS. This condition is what we just described, bouts of
+autoimmune attacks happening months, or even years, apart, and causing an increase in the level of disability.
+For example, during a bout a person may lose some vision, but then it may be followed by improvement if
+there’s remyelination. Unfortunately, though, more often than not, the remyelination process is not complete
+so there is often some residual disability that remains, and that means that with each attack, more and more
+of the central nervous system gets irreversibly damaged. In the relapsing-remitting multiple sclerosis type
+there’s typically no increase in disability between bouts, so the line stays flat during that time. Now, the second
+type is called secondary progressive multiple sclerosis or SPMS which initially is pretty similar to the relapse-
+remitting type, but over time the immune attack becomes constant which causes a steady progression of
+disability. The third type is primary-progressive multiple sclerosis or PPMS, which is basically one constant
+attack on myelin which causes a steady progression of disability over a person’s lifetime. The final type is
+progressive relapsing multiple sclerosis or PRMS, which is also one constant attack but this time there are
+bouts superimposed during which the disability increases even faster.
+Specific symptoms vary a lot from person to person, and largely depend on the location of the plaques. And
+multiple sclerosis typically affects individuals between the ages of 20 and 40. Symptoms related to bouts can
+typically worsen over weeks and can linger for months without treatment. One common trio of multiple
+sclerosis symptoms is called Charcot’s neurologic triad and it includes dysarthria, which is difficulty or unclear
+speech, nystagmus, which is involuntary rapid eye movements, and an intention tremor. Dysarthria is due to
+Saghafi Romina, Gervasio Carolina
+88
+12.05.2023 LEONARDUZZI L.7
+plaques in the brainstem that affect nerve fibers that control muscles of the mouth and throat, and this can
+interfere with conscious movements, like eating and talking and can lead to things like a new stutter, as well
+as unconscious movements, like swallowing. Nystagmus is due to plaques around the nerves controlling eye
+movements. Plaques around the optic nerve cause loss of vision in one or both of the eyes because of damage
+to the optic nerve, which is called optic neuritis. Sometimes there’s blurring or graying of the vision, or
+alternatively there might be a dark point in the center of vision. Additionally, if there’s damage to the nerves
+controlling eye movement, then eye movements can be painful and there can even be double vision, if the
+eyes can no longer move in a coordinated way. Finally, intention tremors can be caused by plaques along the
+motor pathways in the spinal cord which can affect outbound signals like skeletal muscle control. Motor
+symptoms can include muscle weakness, muscle spasms, tremors, and ataxia which is a loss of balance and
+coordination. In serious cases, this can lead to paralysis.
+In addition, plaques in the sensory pathways can affect inbound signals like sensations from the skin which
+causes symptoms like numbness, pins-and-needles, and paresthesias which are often a tingling feeling but
+may also be a painful itching or burning sensation. Occasionally there can be very specific sensory symptoms
+like Lhermitte’s sign, which is when an electric shock runs down the back and radiates to the limbs when a
+person bends their neck forward. Plaques can also involve the autonomic nervous system which can lead to
+bowel and bladder symptoms like constipation and urinary incontinence, as well as sexual symptoms like
+sexual dysfunction. Finally, multiple sclerosis can also affect higher order activities of the brain, causing poor
+concentration and critical thinking, as well as depression and anxiety.
+Multiple sclerosis is typically suspected when there are multiple neurologic symptoms separated in space,
+which is attributable to damage in different locations in the nervous system, as well as time, meaning
+separate bouts or flare-ups as well as remission. The diagnosis of multiple sclerosis is supported by an MRI
+which shows multiple central nervous system lesions, called white matter plaques, since these regions tend
+to have lots of myelin. Also, in the cerebrospinal fluid there might be high levels of antibodies, which indicates
+an autoimmune process. Finally a visual evoked potential can be helpful as well, which measures the nervous
+system’s response to visual stimuli.
+For treatment, there is no cure for multiple sclerosis, but there are medications which are particularly effective
+for the relapsing-remitting type because they lessen the severity of relapses and make them happen less
+frequently. Medications like corticosteroids, cyclophosphamide which is a cell cycle inhibitor, and intravenous
+immunoglobulin can all be used to help blunt the autoimmune process. In addition, plasmapheresis can be
+effective as well, which is when the plasma is filtered to remove disease-causing autoantibodies. Chronic
+treatment for multiple sclerosis includes immunosuppressants like recombinant beta-IFN which decreases the
+level of inflammatory cytokines in the brain and increases the function of T regulatory cells. Other
+immunosuppressants actually block T cells from getting into the brain by interfering with their cell surface
+molecules they use to gain passage through the blood brain barrier. Unfortunately, though, there are fewer
+treatment options available for the progressive MS. Instead, treatments are often targeted at managing
+specific symptoms—everything ranging from depression to bladder dysfunction. Physical therapy and
+cognitive rehabilitation therapy can be particularly helpful with sensory, motor, and cognitive symptoms.
+Finally, there’s also an increasing interest in the role of vitamin D as an effective treatment.
+As a quick recap, multiple sclerosis is a chronic and progressive autoimmune disorder, and the most common
+pattern is the relapsing-remitting type, where individuals have flares that come and go, with each one slightly
+worsening their overall condition. During a flare, T-cells cause inflammation and damage to oligodendrocytes
+in the central nervous system, which leaves behind scarred areas of demyelinated neurons called plaques,
+which causes a variety of symptoms depending on the location.
+Saghafi Romina, Gervasio Carolina
+89

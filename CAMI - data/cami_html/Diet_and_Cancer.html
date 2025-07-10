@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Diet and Cancer</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81e8-85bc-cbb82c56950b" class="page sans"><header><h1 class="page-title">Diet and Cancer</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-813d-b8aa-eb0b5722c93c" class="">what do epidemiological studies say about diet and cancer?</p><p id="2297904f-03a9-81db-b6e5-ec256437e7e5" class="">Various Epidemiological studies have found that some tumors are</p><p id="2297904f-03a9-8136-adec-dccf1b319d3a" class="">“regional” and that the reason for this might be food related.</p><p id="2297904f-03a9-8195-9e30-d8ddfb1414c3" class="">There is a relationship between the types of food consumed in</p><p id="2297904f-03a9-81c1-8684-c14af8a3da14" class="">different countries and the specific tumor patterns that prevail in those countries</p><p id="2297904f-03a9-817c-9bb5-fb8fb75edb49" class="">For instance, migrants adopting Western diets tend to develop tumors</p><p id="2297904f-03a9-8176-807a-d15c3b5d62ee" class="">common in Western populations. Conversely, migrants maintaining</p><p id="2297904f-03a9-8116-a7f2-cb28baeaadad" class="">their original diets are more likely to develop cancers typical of their</p><p id="2297904f-03a9-8197-9fc8-c2afc14691de" class="">home countries rather than those linked to Western eating habits.</p><p id="2297904f-03a9-813e-83b7-ca84ce57f0d1" class="">●how can cancer be caused by food? (big picture scheme)</p><p id="2297904f-03a9-819a-91e2-c64f6c26b6f3" class="">○ Food may contain carcinogens</p><p id="2297904f-03a9-81ab-8128-cb81728b9dc2" class="">◆made in the process of cooking</p><p id="2297904f-03a9-81e1-af8d-e9dabb7fc38d" class="">◆added for preservation</p><p id="2297904f-03a9-815f-966e-eaec81f1e2ed" class="">◆naturally occurring</p><p id="2297904f-03a9-81e0-b495-f643d9a2c4de" class="">○ Food may be too much or too little</p><p id="2297904f-03a9-8161-8508-ce15b8830e6e" class="">○ Food may be contaminated</p><p id="2297904f-03a9-81cd-8b19-c733fa68f22a" class="">◆by biological agents</p><p id="2297904f-03a9-814c-9c1c-e8b762afca56" class="">◆by chemical and physical agents</p><p id="2297904f-03a9-8120-a387-c203624e3814" class="">●how can cooking become carcinogenic?</p><p id="2297904f-03a9-8145-8812-c432c7a72282" class="">When meat is grilled or smoked it yields polycyclic aromatic</p><p id="2297904f-03a9-813b-b472-f68066e228ca" class="">hydrocarbons (such as benzopyrene) because the fat in the meat</p><p id="2297904f-03a9-819d-aa7c-d0749e199eaf" class="">undergoes pyrolysis (happens at high temp without oxygen).</p><p id="2297904f-03a9-815d-ac65-fb6d9ff9cb28" class="">These compounds are indirect carcinogens. Metabolized by phase 1</p><p id="2297904f-03a9-81b9-af24-d97593df6fd8" class="">enzymes (cyt P450-dependent microsomal enzymes: aryl hydrocarbon</p><p id="2297904f-03a9-8155-accd-efe350ed8557" class="">monooxygenase, and aryl hydrocarbon hydroxylase) to produce direct</p><p id="2297904f-03a9-81c8-acb1-f41da96bdb81" class="">carcinogens, the diol derivatives: epoxide and diol-epoxide. These</p><p id="2297904f-03a9-812b-8445-dc8481001664" class="">compounds can form DNA adducts and induce mutations</p><p id="2297904f-03a9-8169-8877-ec228461bb3f" class="">●how can preservatives become carcinogenic?</p><p id="2297904f-03a9-8151-84bf-eb959d81ed2a" class="">○ Nitrates (preservative) → nitrosamines (carcinogen)</p><p id="2297904f-03a9-81ea-81cc-e2299bf27953" class="">Cured or processed meats often contain added nitrates. These</p><p id="2297904f-03a9-81c0-871f-c434c180d2e3" class="">compounds are preservatives, they prevent the growth of harmful</p><p id="2297904f-03a9-8199-8b6f-d1b9f5778697" class="">bacteria, add a salty flavor, and make the meat appear red or pink.</p><p id="2297904f-03a9-81ab-b2ed-e3b430fe096b" class="">In the oral cavity, due to the basic pH of saliva nitrates (NO3) are</p><p id="2297904f-03a9-81ec-9a27-d0b9882fcd14" class="">reduced to nitrites (NO2), and in the stomach’s acidic</p><p id="2297904f-03a9-819f-a4bb-c0f548541a8c" class="">environment, nitrites interact with certain components</p><p id="2297904f-03a9-81d6-a9aa-fa6a3768754f" class="">concentrated in meat to form N-nitroso compounds</p><p id="2297904f-03a9-81e1-9f02-e99f8e3f5eef" class="">(nistrosamines, nitrosamides), which are potential carcinogens.</p><p id="2297904f-03a9-813c-a96f-f15ba0707d02" class="">●what are foods that contain naturally occurring carcinogens?</p><p id="2297904f-03a9-8149-a438-ed06e34fa64d" class="">○ Cycasin: is a glucose-derived glycoside with</p><p id="2297904f-03a9-8194-a4a8-cbbb992c2136" class="">a methylazoxymethanol substitution at the beta position. It is found</p><p id="2297904f-03a9-8179-8411-d6d971cb0e10" class="">○</p><p id="2297904f-03a9-81b7-ad51-dc4fbb1e8aa2" class="">in cycad nuts that are used to make flour by some eastern</p><p id="2297904f-03a9-816a-a271-dbc2345c9801" class="">populations. In the gut, bacterial intestinal <em>β-glucosidases</em> free the methylazoxymethanol which is a carcinogenic azoalkane. It can also be spontaneously decomposed into methyl-diazonium, which is also a methylating agent (DNA damage)</p><p id="2297904f-03a9-815a-a50d-db51edbd5233" class="">○ Bracken fern consumed in Japan, Corea, Venezuela, Wales, etc. It contains indirect carcinogen ptaquiloside, which is metabolized by flora bacteria into pterosin, which <em>is a quinone compound with</em> <em>alkylating action</em>(causes damage to DNA), thus leading to cancers of the digestive tract. It also contains Quercetin, which is an antioxidant, but in high quantities it is toxic.</p><p id="2297904f-03a9-81be-907e-c2d1f0440ec5" class="">○ Safrole is extracted from the sassafras plants in the form of sassafras oil. It is used in the perfume industry <em>to aromatize</em></p><p id="2297904f-03a9-81ea-8e51-f562b7824a45" class=""><em>cosmetics and soaps</em>. It induces l<em>iver tumours in rodents. S</em>afrole is transformed into the forms of acetoxysafrole, and the acetic part of the molecule has carcinogenic effect, because it is able to bind to the DNA.</p><p id="2297904f-03a9-81d2-9cc5-f94d3a3c68ad" class="">●how is overeating linked to cancer?</p><p id="2297904f-03a9-8157-bf6e-f97752e87740" class="">○ Obesity is a risk factor for many types of cancer. There is a</p><p id="2297904f-03a9-813b-a716-e77682c0983c" class="">positive correlation between obesity and the risk of developing a tumor.</p><p id="2297904f-03a9-812f-a416-ca318e4d3b8d" class="">○ Endometrium and breast cancer (especially in post-menopausal women): After menopause, adipose tissue becomes the main source of estrogen production. More fat = more estrogen. In particular Estriol. And there is no progesterone production to balance the effect of estriol which is that of binding the estrogen receptor which induces proliferation in cells that contain the receptor so <em>especially in the endometrium and in the breast.</em></p><p id="2297904f-03a9-81ab-84c4-ee6c5511421c" class="">○ Colorectal cancer</p><p id="2297904f-03a9-81f8-9fa2-f798873163c8" class="">◆high omega 6 FA consumption is associated with cancer because arachidonic acid (Omega-6 FA) is a prostaglandin **precursor. Prostaglandins are key inflammatory mediators.</p><p id="2297904f-03a9-8192-b0e1-e27d58705816" class="">◆increase in cholesterol result in increase biliary acids, which induce cell proliferation</p><p id="2297904f-03a9-8130-8bb0-c75a9a8cf0b6" class="">●how may undereating be linked to cancer?</p><p id="2297904f-03a9-81cb-a888-c39bb5d8eb7f" class="">○ undereating vegetables with antioxidants predispose us to cancer.</p><p id="2297904f-03a9-8123-a389-f89fd0ac8da3" class="">●How are omega 6 and omega 3 related to cancer?</p><p id="2297904f-03a9-8154-87c5-e4aea1fd7255" class="">Polyunsaturated fatty acids are fatty acids that have 2 or more double bonds.</p><p id="2297904f-03a9-81f4-ba8f-c276a9e1cb57" class="">PUFAs are essential (we need to eat them because we need them and we cannot produce them) for humans.</p><p id="2297904f-03a9-8166-a6fa-de434f233ded" class="">PUFAs are divided into:</p><p id="2297904f-03a9-8132-8825-c83fe577c1aa" class="">○ alpha-linolenic acid (ALA)(an omega-3 fatty acid) from which derive:</p><p id="2297904f-03a9-81b4-8761-c609c8deb4d7" class="">◆eicosapentaenoic acid (EPA)</p><p id="2297904f-03a9-81a5-aee4-c5677c924863" class="">◆docosahesaenoic acid (DHA)</p><p id="2297904f-03a9-815f-8501-f7734831f999" class="">○ linoleic acid (an omega-6 fatty acid)</p><p id="2297904f-03a9-81e1-8a4a-ddf173741f6f" class="">◆ararachidonic acid</p><p id="2297904f-03a9-81a0-b8ef-d3c6e885b3e3" class="">●BOTH types of PUFAS have many useful functions:</p><p id="2297904f-03a9-8155-955c-c0e51f002de4" class="">○ membrane fluidity</p><p id="2297904f-03a9-8179-a64c-ff864a35751d" class="">○ protein function regulation</p><p id="2297904f-03a9-814c-86f0-cac4fb4c34fb" class="">○ cell energy</p><p id="2297904f-03a9-81ba-a8e5-df83cd05c15a" class="">○ inflammation</p><p id="2297904f-03a9-818b-bf54-d6b0fb9a7a7b" class="">●however ideally we need a 1-4:1 ratio of omega 6 to omega 3, and in</p><p id="2297904f-03a9-8167-853b-eda192ff5532" class="">western cultures with our diets we introduce these PUFAS in a</p><p id="2297904f-03a9-81bc-b97a-f324333cb350" class="">15-10:1 ratio. This is problematic because omega 6 are pro-</p><p id="2297904f-03a9-811d-b5f7-c564aad651de" class="">inflammatory.</p><p id="2297904f-03a9-8137-8f24-c3134e6acbb8" class="">(omega is the last carbon and 3 or 6 means it is the third or sixth from</p><p id="2297904f-03a9-818c-914b-ece48b2dbfca" class="">last carbon that has the first double bond)</p><p id="2297904f-03a9-815e-838f-e088bb19bd12" class="">○ Omega-3s are anti-inflammatory, reducing platelet activation and</p><p id="2297904f-03a9-81bf-a2d1-e5be56ae83cb" class="">production of inflammatory compounds.</p><p id="2297904f-03a9-819c-a4c7-c7f7b8536673" class="">○ Omega-6s trigger inflammation, leading to platelet aggregation</p><p id="2297904f-03a9-811f-b36a-fa613f1f9abb" class="">and neutrophil activation.</p><p id="2297904f-03a9-81aa-8f53-d659f359da6e" class="">●Fats can act with a direct or indirect mechanism for the development</p><p id="2297904f-03a9-81e3-b5f8-e87ac14c9445" class="">of cancer: Direct mechanism</p><p id="2297904f-03a9-81d1-be72-e505fe6bd559" class="">○ The modulation of enzymes such as desaturase is important.</p><p id="2297904f-03a9-81df-802f-fcf9070e2fbf" class="">Desaturase transforms linoleic acids into arachidonic acids <em>(and</em></p><p id="2297904f-03a9-8128-abfa-d752ae01e3aa" class=""><em>other eicosanoids)</em>.</p><p id="2297904f-03a9-815e-a676-caf0c5f325ec" class="">○ <em>PUFAs’ reaction with oxygen</em> producing free oxygen species and</p><p id="2297904f-03a9-8143-a6b7-ca2d303ea17b" class="">so a pro-oxidant environment with polyunsaturated fatty acids</p><p id="2297904f-03a9-8121-8239-fffc2e8d2097" class="">intake.</p><p id="2297904f-03a9-81a5-8296-f99baa554253" class="">○ <em>Induction of gene expression alteration.</em></p><p id="2297904f-03a9-81e1-8237-e209349bba76" class="">Indirect mechanism</p><p id="2297904f-03a9-8174-954f-e97638d636f2" class="">○ effect on the endocrine system on the estrogen metabolism</p><p id="2297904f-03a9-81da-a186-f8bfc2376cba" class="">○ alteration of the immune system</p><p id="2297904f-03a9-815a-840e-f481d6be62a2" class="">○ Modification of the structure and function of cell membranes</p><p id="2297904f-03a9-814f-834d-e0e5e0e03508" class="">●what are examples of contaminations by biological, physical and</p><p id="2297904f-03a9-8112-a8f4-e028886a05a2" class="">chemical agents that may lead to cancer?</p><p id="2297904f-03a9-81d6-b81e-e8003dbf4863" class="">○ biological:</p><p id="2297904f-03a9-81b8-b18d-fcd798f642ca" class="">◆Funghi</p><p id="2297904f-03a9-81f5-ab24-f1868756b736" class="">◇ <em>Aspergillus Flavus</em> produces <em>Aflatoxins</em> (mycotoxin) that</p><p id="2297904f-03a9-8192-8b04-f8a49c970488" class="">can ******damage DNA and induce hepatocarcinoma.</p><p id="2297904f-03a9-810b-a00e-cddcd9f2709a" class="">◇ <em>Fusarium</em>: Some species produce mycotoxins also</p><p id="2297904f-03a9-81a2-a14a-fe96c8816868" class="">associated with GIT carcinomas</p><p id="2297904f-03a9-8190-894b-cc136f84537b" class="">◆Helicobacter Pylori</p><p id="2297904f-03a9-81d3-9ae7-cbd650a1169e" class="">○ Environmental contamination:</p><p id="2297904f-03a9-818d-bc24-cdc2750e2efd" class="">◆Accumulation during the food chain: pesticides and</p><p id="2297904f-03a9-814e-983f-fa8b4fe102c3" class="">bactericides (halogenated hydrocarbons), PVC containers</p><p id="2297904f-03a9-8152-a33a-d383d1222051" class="">◆</p><p id="2297904f-03a9-81d1-91b2-dea5dba6a031" class="">(polyvinyl chloride)</p><p id="2297904f-03a9-8144-89b2-e12b3a4f936d" class="">◆Inorganic compounds in water and vegetables: arsenic, chromium</p><p id="2297904f-03a9-81b9-a138-e25dc4583440" class="">◆dioxin from industrial waste</p><p id="2297904f-03a9-81d2-8150-d4c465ecc45e" class="">◆azocompounds in food dyes</p><p id="2297904f-03a9-8171-ad2c-d680a56eee1a" class="">◇ explain the role of Azocompounds in cancer</p><p id="2297904f-03a9-81d5-96d4-e357e8a5ebf5" class="">Azocompounds = contain the azo group (-N=N-) in their structure.</p><p id="2297904f-03a9-8129-a109-cb25bb228c64" class="">Some azocompounds have been recognized as DIRECT CARCINOGENS, associated with hepatocellular carcinoma and cholangioma.</p><p id="2297904f-03a9-81bc-9294-e42327e4ba6b" class="">In particular, certain azo dyes used in the food industry One well-known example is Dimethylaminoazobenzene (DAB) Methyl yellow or “Yellow Butter”: this compound had been used as a food additive in margarine before its toxicity was recognized</p><p id="2297904f-03a9-814b-987a-fc8f8cf103b9" class="">◆Hormones to cattle (meat with hormones)</p><p id="2297904f-03a9-81e0-9514-cc99520f3f48" class="">●explain how colon cancer is linked to diet</p><p id="2297904f-03a9-815c-baaf-cfd2fb85842e" class="">Risk factor for colon cancer: A low-fiber diet, low in fruits and vegetables and high in fat (especially saturated fat, cholesterol and omega 6 fatty acids), and processed meats and high in calories.</p><p id="2297904f-03a9-81fc-b1e0-cb0659b07c78" class="">○ cholesterol why? cholesterol → bile acids → substrates of ornithine decarboxylase <em>(ODC) in colon epithelial cell→</em> polyamides (they induce proliferation).</p><p id="2297904f-03a9-812f-8be3-c0a21cdd981c" class="">●Protective against colon cancer: high fiber diet, low in calories, low in omega 6 fatty acids.</p><p id="2297904f-03a9-81fc-940f-f07b75bbfa7f" class="">●how is caloric restriction linked to cancer?</p><p id="2297904f-03a9-8143-bea3-c669b555fad7" class="">●</p><figure id="2297904f-03a9-81dd-b890-eed951020060" class="image"><a href="Diet%20and%20Cancer%202297904f03a981e885bccbb82c56950b/image1.png"><img style="width:48px" src="Diet%20and%20Cancer%202297904f03a981e885bccbb82c56950b/image1.png"/></a></figure><p id="2297904f-03a9-8100-b199-e462c5f2e3b5" class="">●</p><p id="2297904f-03a9-8118-b4d4-dd5b6e28401b" class="">in absence of calories there is downregulation of proliferative signaling pathways</p><p id="2297904f-03a9-8105-976b-e1fde3af79c1" class="">○ PIK3k/Akt which induces cell proliferation and allows for cell survival.</p><p id="2297904f-03a9-8128-b870-c9b953e64611" class="">◆mTOR</p><p id="2297904f-03a9-8151-9354-d3801d1234ae" class="">◇ Rapamycin is a drug that blocks mTOR and ****is used in clinic induce autophagy, which can block cancer growth in the first steps of cancer development.</p><p id="2297904f-03a9-81f4-af23-f7a6dc494829" class="">●In experimental animals, caloric restriction inhibits the incidence of tumours <em>(by 24-40%)</em>, independent from fat intake. Therefore there is a change in the subject’s metabolism for a short time and there is a change in hormonal balance, energy intake, <em>decreased basal</em></p><p id="2297904f-03a9-81d6-b560-e0ff3d5bdcde" class=""><em>metabolism, increased immunocompetence, reduced speed of tumour growth</em>. Prolonged caloric restriction allows for Autophagy</p><p id="2297904f-03a9-81b0-9476-f361f5bc9cab" class="">(<em>degradation and recycling of proteins and intracellular components in response to starvation or stress)</em> During the early stage of cancer autophagy is protective against cancer. However after tumor development the tumor cells seem to be able to exploit autophagy themselves to produce antioxidants and evade the immune system.</p><p id="2297904f-03a9-8162-92ea-e5beeaba571d" class="">○ In the last phases of cancer, 3- methyladenine (3-MA) can be used. It is an inhibitor of this pathway and so it inhibits the induction of autophagy</p><p id="2297904f-03a9-8154-b4e8-c71a9eb14d7f" class="">●explain how gastric cancer is linked to diet There are 2 types of gastric cancer:</p><p id="2297904f-03a9-81f3-9d01-ed7d8475ad8e" class="">○ Localized glandular **form: is the most common form, mainly due to Helicobacter Pylori.</p><p id="2297904f-03a9-8176-8d05-e3fddb8f4aba" class="">○ Diffuse form: is less common, etiology is not clear. It is most common in Asia, where there is a high consumption of fish preserved with nitrates. Its incidence is decreasing in the US (maybe due to increasing knowledge about impact of food in health)the use of preserved food has decreased, while fresh fruit and vegetables available throughout the year is increasing.</p><p id="2297904f-03a9-8125-ab7d-e4ea62a6eff0" class="">●explain how breast cancer is linked to diet</p><p id="2297904f-03a9-81fa-93ae-c978ae1a8ef8" class="">Related to estrogens (especialy in post menopausal women), omega-6 <em>(precursors of pro inflammatory molecules)</em>. On the other hand, mono-unsaturated fatty acids (olive oil, oleic acid) and omega 3 PUFAs (present in fish, nuts and in coconut oil), have anti inflammatory effects.</p><p id="2297904f-03a9-81de-8e7f-dfb41433ff0d" class="">○ A review of the Mediterranean diet and nutritional genomics in relation to cancer in women.</p><p id="2297904f-03a9-81ad-ba3d-cc5474f6a14b" class="">Cancer is the leading cause of death among women all over the world. Female tissue-specific cancers are the most commonly diagnosed among women and account for most cancer-related deaths. The main risk factors for women&#x27;s cancer are hereditary factors, specific exposure to dangerous chemicals, disorders such as hormone imbalance, and lifestyle. High body mass index, low physical activity, low intake of fruit and vegetables, smoking, excessive alcohol consumption, lack of cancer screening and treatment are the most common risk factors. Nutrigenetics and nutrigenomics are both part of nutritional genomics.</p><p id="2297904f-03a9-8139-aed6-f3f8ac38b69c" class="">Nutrigenetics is how a person&#x27;s body reacts to nutrients based on his/her genotype. It can be used to create a personalized diet, maintain a person&#x27;s health, avoid disease, and if necessary to sustain therapy. Nutrigenomics studies the impact of nutrition on gene expression and the epigenomic, proteomic, transcriptomic and metabolomic effects of dietary intake. There is evidence that diet matters for different women&#x27;s cancers, and is related to cancer progression, survival and treatment. The optimum combination for</p><p id="2297904f-03a9-8169-a17f-f81a75e94ea8" class="">cancer prevention is a diet rich in vitamins and fibre, with low meat consumption, low milk intake and moderate use of alcohol. The Mediterranean diet looks to be an optimal diet with a good nutrition pattern, qualifying it as a therapy to prescribe.</p><p id="2297904f-03a9-810f-a195-f8400c390657" class="">●substances with anti-cancer potential?</p><p id="2297904f-03a9-813b-a01f-e6fe16d72687" class="">○ phytochemicals</p><p id="2297904f-03a9-819b-95ed-dfcaaea92817" class="">○ vitamins, minerals</p><p id="2297904f-03a9-8112-9e2a-c555ebbfefd4" class="">◆Riboflavin (vitamin B6) promotes the activity of enzyme systems that inactivate carcinogens (inhibition of tumors induced by azo)</p><p id="2297904f-03a9-8197-bc1c-dce2dcdaae40" class="">○ antioxidants</p><p id="2297904f-03a9-81c5-b549-fe2fc88bcb89" class="">◆Alfa-tocopherol (vitamin E)</p><p id="2297904f-03a9-81d7-b568-feeae5bd9bf4" class="">◆Retinol (vitamin A) and its precursor beta-carotene</p><p id="2297904f-03a9-818c-8f17-c5dd40e01c0d" class="">(carotenoids): inhibition of ornithine decarboxylase involved in cell proliferation and polyamine synthesis; growth factor inhibition and ability to induce cell differentiation “in vitro”.</p><p id="2297904f-03a9-8169-b946-f7163c9d45d5" class="">◆Ascorbic Acid (vitamin C)</p><p id="2297904f-03a9-81df-9ccd-f56cc1ab8ff6" class="">◆Glutathione-reductase maintains glutathione in the reduced form</p><p id="2297904f-03a9-81a2-b02a-c4eacc7d0910" class="">◆Superoxide-dismutase manganese-dependent transforms Superoxide anion into hydrogen peroxide</p><p id="2297904f-03a9-8120-ab92-ee39983e0e3c" class="">○ Fiber (both soluble and unsoluble) : containing high quantities of non-digestible fibers. Whole wheat and rye flour (25-30 g / day).</p><p id="2297904f-03a9-8175-aeec-fad4b415d424" class="">They change the consistency of the feces, which remain for less time in the intestine less permanence of carcinogenic compounds.</p><p id="2297904f-03a9-8146-be2c-ed589b42eb31" class="">Fibers modulate pancreatic activity, and are able to change the transport and absorption of nutrients or metabolic processes in intestinal epithelial cells (caloric intake decrease)</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

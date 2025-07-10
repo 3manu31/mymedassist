@@ -1,0 +1,681 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Neurodegenerative diseases</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8179-9339-c149de6194dc" class="page sans"><header><h1 class="page-title">Neurodegenerative diseases</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-8021-9526-d6725a5192d6" class="">
+</p><p id="2297904f-03a9-812e-8552-d6f300f9e405" class="">●what are neurodegenerative diseases and their main characteristics? Neurodegenerative diseases are chronic disorders characterized by progressive and selective loss of neurons. Specific groups of neurons with functional relationships are affected leaving the remaining ones intact.</p><p id="2297904f-03a9-813b-a6eb-dec44f0a8c5f" class="">Many are invalidating because of cognitive decline and/or movement disorders. Neurodegenerative diseases share a common pathological process, which is the accumulation of protein aggregates (misfolded proteins) within or around neurons (toxic to neurons). (morphologic hallmark of the disease) This is caused by mutations that alter protein expression at different steps.</p><p id="2297904f-03a9-81da-af7d-f2e7a8f6612e" class="">The incidence of these diseases progressively increases with age (particularly after 65) but familial forms also exist.</p><p id="2297904f-03a9-8125-9835-f24884ac6db3" class="">●what are the major neurodegenerative diseases?</p><p id="2297904f-03a9-813a-8509-e56e19f97c3c" class="">○ Alzheimer’s disease (cerebral cortex disease)</p><p id="2297904f-03a9-81e1-9b92-ed36c0aa5568" class="">○ Parkinson’s disease (extrapyramidal system disease)</p><p id="2297904f-03a9-8131-91af-c119cf1a7faf" class="">○ Amyotrophic Lateral Sclerosis, ALS (motor neuron disease)</p><p id="2297904f-03a9-8153-8e80-ea838e0b6907" class="">●what is dementia? what causes it?</p><p id="2297904f-03a9-8107-bd56-c7b29197cde8" class="">Complex syndrome that affects</p><p id="2297904f-03a9-8105-8a3b-e46d35c51e49" class="">Dementia is a complex syndrome affecting in particular the older population (5 to 10 % of people over 65). The number of cases of dementia grows exponentially up to 1/3 of individuals aged 80. In general, the clinical manifestations present in this patient are:</p><p id="2297904f-03a9-816d-8eec-e4939ddfbd8e" class="">○ Memory disorders (both short- and long-term memory)</p><p id="2297904f-03a9-81b7-87b0-eeec7fe75fe5" class="">○ Cognitive impairment</p><p id="2297904f-03a9-81e8-b081-ccecdb576234" class="">○ Personality and language disturbance</p><p id="2297904f-03a9-81c0-8433-e645162f3012" class="">○ Visuo-spatial orientation deficit</p><p id="2297904f-03a9-81da-9307-d2cc41921fde" class="">○ The main clinical sign is the movement disorders (hypokinetic or hyperkinetic movements)</p><p id="2297904f-03a9-81b8-8407-d54387d8e41a" class="">○ Swallowing disturbances: especially in Parkinson’s and Alzheimer’s disease mortality is often caused by aspiration→ pneumonia (Ab ingestis pneumoniae)</p><p id="2297904f-03a9-81ea-b5a3-d0169ac11b26" class="">The principal causes of dementia are:</p><p id="2297904f-03a9-81e1-b2a3-d8556b19eecc" class="">1. Degenerative diseases such as Alzheimer’s, Parkinson’s,</p><p id="2297904f-03a9-81c4-b59f-d0327607f085" class="">Huntington’s disease and amyotrophic lateral sclerosis (ALS).</p><p id="2297904f-03a9-8183-800d-db2ca218d565" class="">45-70% of all cases of dementia are attributed to Alzheimer 2. Vascular causes (cerebrovascular dementia) 17-30%</p><p id="2297904f-03a9-8180-90d8-c47d21347ee8" class="">1. atherosclerosis in cerebral or carotid arteries, partial occlusion→ hypoxia and a deficit in brain circulation.</p><p id="2297904f-03a9-81a7-a3f7-ffd08528834d" class="">2. after stroke or head trauma.</p><p id="2297904f-03a9-818d-9c13-d2838c232107" class="">3. Mixed dementia: mixed vascular and degenerative problems</p><p id="2297904f-03a9-818d-b29e-caf7a01d04e6" class="">4. Toxicity (drugs, alcohol can help to increase the dementia)</p><p id="2297904f-03a9-818e-b026-f5b26131f4d2" class="">5. Metabolic causes: in case of liver disease one of the</p><p id="2297904f-03a9-81e1-bc25-d5af82ec1ec3" class="">consequences of portal hypertension is hepatic encephalopathy that is caused by the accumulation of toxic compounds like ammonia in the brain which can damage the brain and lead to coma.</p><p id="2297904f-03a9-8132-8c71-cdf18f29d257" class="">6. Infections: bacterial meningitis</p><p id="2297904f-03a9-81fe-914f-d572250dd23c" class="">7. Traumatic causes: acute or boxing dementia (repeated head trauma)</p><p id="2297904f-03a9-816c-a838-e5ad30f22c80" class="">8. Neoplasm: brain cancer presence</p><p id="2297904f-03a9-81e5-a413-edefb50b2c4a" class="">Other causes: Sleep deprivation or apnea, radiation exposition or 9.</p><p id="2297904f-03a9-818a-8bb4-eef2f74b1faa" class="">obstructive respiratory diseases (COPD) can contribute to the neuronal damage.</p><p id="2297904f-03a9-81cb-a63d-ee2918eb8692" class="">●What is Alzheimer’s disease?</p><p id="2297904f-03a9-8165-9549-e7aaf997366d" class="">Alzheimer disease is a neurodegenerative disease, meaning it causes the degeneration, or loss, of neurons in the brain, particularly in the cortex, leading to the symptoms characteristic of dementia.</p><p id="2297904f-03a9-81c6-bb94-d9bb958c95ce" class="">●what is the epidemiology of Alzheimer?</p><p id="2297904f-03a9-81cb-ab12-e48bbbcc2ec9" class="">Responsible for 45-70% of all dementia in older adults.</p><p id="2297904f-03a9-81a1-826b-dbc0db210177" class="">○ Late onset (senile): Sporadic Alzheimer (most common): of genetic and environmental factors. Risk increases with age, doubles every 5 years, affecting 1% of people between ages 60 and 65, and 50% of people over age 85.</p><p id="2297904f-03a9-81c9-9298-e4074c8474f3" class="">◆e4 allele of apolipoprotein E gene increases risk</p><p id="2297904f-03a9-81f9-a3ef-fb1c7848e49f" class="">◆one e4 allele = 3x risk</p><p id="2297904f-03a9-817a-9b09-d9549b0a6743" class="">◆two e4 alleles = 15x risk</p><p id="2297904f-03a9-81d9-a579-c188c1b9c1a0" class="">◆40-80% of sporadic AD have ApoEε4 allele.</p><p id="2297904f-03a9-8146-adab-ee1f09b59ffc" class="">◆APOE helps break down beta-amyloid, but the e4 allele seems to be less effective than the other alleles, like the APOE-e2 allele, meaning patients are more likely to develop beta-amyloid plaques.</p><p id="2297904f-03a9-8158-a1f5-fd3f7642fb9d" class="">○ Early onset: Familial Alzheimer (5 to 10% of cases): dominant gene speeds up the progression of the disease. Alzheimer’s (often progresses by age 40) It can be caused by several gene mutations.</p><p id="2297904f-03a9-810a-bb85-f19b0b50976e" class="">◆mutations in the PSEN-1 or PSEN-2 genes on chromosome 14 or chromosome 1, respectively, have been linked to early-onset Alzheimer’s. These genes encode for presenilin-1 and</p><p id="2297904f-03a9-8141-82a5-cde98f80b4ac" class="">presenilin-2, both protein subunits of gamma-secretase.</p><p id="2297904f-03a9-8132-aea2-c42ab2dc9ecf" class="">Mutations here can change the location where gamma</p><p id="2297904f-03a9-812e-b08a-de891d8f34ba" class="">secretase chops APP, producing different length beta amyloid molecules, which seem to be better at clumping up and forming plaques.</p><p id="2297904f-03a9-81ec-94bd-f4f424baca7d" class="">◆trisomy 21, or down syndrome (extra ch.21) The gene responsible for producing APP is on chromosome 21, which</p><p id="2297904f-03a9-8198-8405-d7427f2a74bf" class="">◆</p><p id="2297904f-03a9-8173-a600-e07f55b97c0a" class="">means that people with down syndrome have an extra APP gene, and presumably increased expression of APP, potentially increasing the amount of amyloid plaque buildup.</p><p id="2297904f-03a9-813e-a462-e300e67f59ae" class="">●What is the pathogenesis of Alzheimer?</p><p id="2297904f-03a9-81f7-b2aa-c77ddb147ebf" class="">Although the cause of Alzheimer disease isn’t completely understood, the two hallmarks of the disease are:</p><p id="2297904f-03a9-8139-b65a-e69143b6194c" class="">○ extracellular amyloid plaques</p><p id="2297904f-03a9-8194-9bd1-fa3228344947" class="">In the membrane of neurons, theres a transmembrane amyloid precursor protein (APP). It’s thought to be involved in neuron growth and repair after injury. The Aβ portion of APP extends from the extracellular region into the transmembrane domain.</p><p id="2297904f-03a9-81cd-b41a-e5c43b8deed2" class="">Just like other proteins, APP gets used and over time it gets broken down and recycled.</p><p id="2297904f-03a9-8147-a832-fcee54a78c23" class="">Normally, it gets cleaved by enzymes: alpha secretase and gamma secretase (complex composed of presenilin 1 and 2, nicastrin and anterior pharynx-defective 1 (APH-1)).This chopped up peptide is soluble and goes away without problems, this is the so-called non-amyloidogenic pathway</p><p id="2297904f-03a9-815b-86ed-c5271db3f88c" class="">In the amyloidogenic pathway, there’s the action of another enzyme, beta secretase, along with gamma secretase instead, and the cleavage produces a leftover insoluble monomer called amyloid beta.</p><p id="2297904f-03a9-819d-b20a-fbff6d8717a9" class="">Beta secretase cuts in the terminal portion of the amyloid beta sequence (not in the middle of amyloid beta like alpha secretase does)</p><p id="2297904f-03a9-8163-9519-da2d0dc09778" class="">These monomers tend to be chemically “sticky”, and bond together just outside the neurons, and form what are called beta-amyloid plaques.</p><p id="2297904f-03a9-8141-a54a-eb83ca93cfcb" class="">Consequences:</p><p id="2297904f-03a9-810e-80f9-f746a97693b3" class="">◆These plaques can get between the neurons and get in the way of neuron-to-neuron signaling.</p><p id="2297904f-03a9-8160-b9dc-ef1d6f74d7aa" class="">◆chronic inflammatory response: accumulation of these abnormal proteins elicits an immune response that produces ROS and with inflammation we have the activation of</p><p id="2297904f-03a9-81a4-bba2-de3ea791ddc4" class="">astrocytes and microglial cellscontributing to neuronal death and dementia.</p><p id="2297904f-03a9-81e9-ad38-e99e5a1faaa2" class="">◆Amyloid plaque can also deposit around blood vessels in the brain, called amyloid angiopathy, which weakens the walls of the blood vessels and increases the risk of hemorrhage, or rupture and blood loss.</p><p id="2297904f-03a9-81a7-a830-ccc75cde1d23" class="">◆Amyloid plaques can also accumulate intracellularly</p><p id="2297904f-03a9-81fc-98e5-fb51072435e9" class="">contributing to toxicity, since neurons can uptake amyloid beta via a receptor complex composed by CD-36 and integrins.</p><p id="2297904f-03a9-814c-b6f4-fd6d0e8b7afd" class="">○ intracellular neurofibrillary tangles</p><p id="2297904f-03a9-816f-90df-c202b680782c" class="">○</p><p id="2297904f-03a9-81cc-9984-d6da456a8852" class="">Tau is a microtubule-associated protein present in axons; it is</p><p id="2297904f-03a9-81d2-a741-cff90ab1af02" class="">involved in polymerization and stabilization of the microtubule</p><p id="2297904f-03a9-819f-a3d1-f850e0633414" class="">assembly to maintain the integrity of the cytoskeleton.</p><p id="2297904f-03a9-81dc-8c3e-eb9dcba9b101" class="">Although it’s not completely understood how, there is excessive</p><p id="2297904f-03a9-8121-81fd-c677471dd497" class="">tau phosphorylation that decreases its affinity for</p><p id="2297904f-03a9-8109-81a9-e6710bf74b6f" class="">microtubules, so it stops supporting the microtubules, and clumps</p><p id="2297904f-03a9-8140-80d5-c12b7b9cb4cd" class="">up with other tau proteins, and gets tangled forming</p><p id="2297904f-03a9-8168-a87c-c6f61af1f822" class="">neurofibrillary tangles around the nucleus.</p><p id="2297904f-03a9-818c-946d-e137cc1165ba" class="">This elicits</p><p id="2297904f-03a9-81ca-a633-ec780ce0c4b0" class="">1. microtubule destabilization → impaired axonal transport →</p><p id="2297904f-03a9-8116-a32d-f880bdd21a92" class="">impaired signaling</p><p id="2297904f-03a9-8153-9b9d-fb4e3869fe77" class="">2. stress response → apoptosis</p><p id="2297904f-03a9-8198-b9b9-d7f8525953dd" class="">○ Colinergic neurons of hippocampus are particularly affected →</p><p id="2297904f-03a9-813f-9a6d-d224760b20e2" class="">memory deficit</p><p id="2297904f-03a9-8151-9b71-ee1019c6fec0" class="">●What is the morphology of the Alzheimer brain?</p><p id="2297904f-03a9-81cf-9b7f-f16eb63e72be" class="">The accumulation of amyloid beta and tau causes cerebral atrophy</p><p id="2297904f-03a9-812c-9f36-e7e09f846fb8" class="">mainly in the temporal cortex, parietal cortex, and hippocampus.</p><p id="2297904f-03a9-81b4-b3d8-f07dd0a25922" class="">○ Wider sulci</p><p id="2297904f-03a9-8178-9c46-cd3ccdfd2978" class="">○ Narrower gyri</p><p id="2297904f-03a9-81cb-9b3e-c440f9ba1241" class="">○ larger ventricles</p><p id="2297904f-03a9-815d-8b37-fd7869c28fa0" class="">●What are risk factors for Alzheimer?</p><p id="2297904f-03a9-8123-9a76-c6e1c3862498" class="">○ Age</p><p id="2297904f-03a9-8103-b2b7-f1a8a73bbe42" class="">○ Gender: major incidence for females</p><p id="2297904f-03a9-8193-9759-fac492a5764b" class="">○ Head injury</p><p id="2297904f-03a9-8148-844e-f619d1af975d" class="">○ Diabetes mellitus</p><p id="2297904f-03a9-811a-b300-e664ff8f2b53" class="">○ Diseases that impair BBB structure and function</p><p id="2297904f-03a9-81ad-b248-d533cb9026f5" class="">◆Hypertension</p><p id="2297904f-03a9-81b7-8723-db517b30807a" class="">◆Hypercholesterolemia</p><p id="2297904f-03a9-816b-a868-d62894ca13ee" class="">◆Atherosclerosis</p><p id="2297904f-03a9-8146-b4ac-f04eb9560742" class="">○ Smoking</p><p id="2297904f-03a9-8139-9267-eaf5f8964c2f" class="">○ Obesity</p><p id="2297904f-03a9-81a7-9ce2-ef07d621e8d4" class="">○ Stroke</p><p id="2297904f-03a9-8147-9d2f-d0394c3da9e2" class="">○ Cardiovascular risk factors are associated with a major risk of AD</p><p id="2297904f-03a9-8140-ad7d-da988c3b63e0" class="">●1 in 3 cases of dementia could be prevented by addressing lifestyle</p><p id="2297904f-03a9-813d-ac13-fc6650e6dd63" class="">factors:</p><p id="2297904f-03a9-8147-83e8-f7bc2316acd5" class="">○ taking care of your heart health</p><p id="2297904f-03a9-8172-b530-f493da7ce4c4" class="">○ physical activity</p><p id="2297904f-03a9-8194-a5fb-c0de33eba2de" class="">○ healthy diet</p><p id="2297904f-03a9-8154-a95a-e1b5571dc353" class="">○ mental stimulation</p><p id="2297904f-03a9-81ef-9f61-ca14bf2420a4" class="">○ social stimulation</p><p id="2297904f-03a9-8174-a8bb-d1a6c766f902" class="">●What are the signs and symptoms and how is Alzheimer diagnosed?</p><p id="2297904f-03a9-81c7-96bd-e2a9f9e8b377" class="">Symptoms of Alzheimer disease appear progressively over time, and</p><p id="2297904f-03a9-810f-9ce5-d7a29a275a0b" class="">worsen as plaques and tangles build up, and damage to the neurons</p><p id="2297904f-03a9-8101-a6ff-f07defc6ce28" class="">accumulates.</p><p id="2297904f-03a9-81fa-8ccc-f7e9d0ab30f7" class="">In the early stages, symptoms may not even be detectable, as it</p><p id="2297904f-03a9-8175-bd6d-e977a1e7251c" class="">progresses, we have the appearance of classic demential symptoms:</p><p id="2297904f-03a9-8150-ad0d-efa053b694c3" class="">1. loss of short-term memory</p><p id="2297904f-03a9-81bf-b35f-dbe0bd169e58" class="">2. Mood and behavioral disorders (depression, confusion, anxiety and</p><p id="2297904f-03a9-81f5-a3a0-fabfe3f5e066" class="">agitation)</p><p id="2297904f-03a9-81b6-9687-c0504a679dd6" class="">3. loss of motor skills</p><p id="2297904f-03a9-8126-a481-f648ac6e82d6" class="">4. altered visual-spatial orientation</p><p id="2297904f-03a9-81dd-87cd-f68fe7c0c67e" class="">5. Aphasia: difficulties in pronouncing the names of people and things</p><p id="2297904f-03a9-817b-9395-d180ba72cc99" class="">6. loss of long-term memory → disorientation</p><p id="2297904f-03a9-81ed-b6aa-fb8e25bd7792" class="">7. late stages: mute, immobile, bedridden,</p><p id="2297904f-03a9-815e-9473-ed60d44a26a7" class="">8. most common cause of death is ab-ingestis pneumonia</p><p id="2297904f-03a9-8196-958a-ec13e667a757" class="">●how is Alzheimer diagnosed?</p><p id="2297904f-03a9-81d4-ba25-eb6397063224" class="">The only definitive way to diagnose Alzheimer’s is brain biopsy after</p><p id="2297904f-03a9-811a-a423-f7315b051c38" class="">autopsy.</p><p id="2297904f-03a9-8159-a15b-fef4a6f5d67e" class="">Usually a clinician will therefore make a diagnosis after excluding</p><p id="2297904f-03a9-81ad-9264-e7744ecc9ca4" class="">other causes of dementia. Other tools to help diagnosis are:</p><p id="2297904f-03a9-81b8-ac6c-ff5488279845" class="">○ Behavioral and cognitive Tests: to evaluate the progression of</p><p id="2297904f-03a9-8194-af92-ef87bb5f7b68" class="">the disease</p><p id="2297904f-03a9-811b-9d63-f663c9a6964d" class="">○ Analysis of CSF: to identify the presence and accumulation of</p><p id="2297904f-03a9-81f1-8d2d-e878e8745395" class="">Amyloid-β and Tau protein</p><p id="2297904f-03a9-81d4-af04-ff13db9529ec" class="">○ Neuroimaging techniques (CT scan, MRI PET, with radiotracers to</p><p id="2297904f-03a9-81a0-9178-e94b5940d93a" class="">identify neuronal activity, etc.</p><p id="2297904f-03a9-81bf-b08f-dbe5ddff1443" class="">●what is the treatment for Alzheimer?</p><p id="2297904f-03a9-810b-93c7-f631849ec345" class="">At the moment we do not have drugs or any effective therapeutic</p><p id="2297904f-03a9-819d-9e13-f116dad6ae80" class="">strategy able to prevent or stop the progression of Alzheimer’s</p><p id="2297904f-03a9-818e-8cfd-cc8a98c0dbac" class="">disease. The available therapies have the goal to <em>slow down</em> the</p><p id="2297904f-03a9-811b-b6e4-fc960e65ba1c" class="">progression of Alzheimer’s.</p><p id="2297904f-03a9-8139-9e6b-f5b932204278" class="">Non-pharmacological treatments:</p><p id="2297904f-03a9-81eb-892e-e86c72e8ea15" class="">○ Cognitive training</p><p id="2297904f-03a9-81ac-94fb-dd40c56d6f84" class="">○ Music, art or pet therapies and in the increase of social activity</p><p id="2297904f-03a9-81fe-a3bc-e56f55471177" class="">○ Moderate physical activity</p><p id="2297904f-03a9-811e-b96a-c5a6d9ddd1b1" class="">●Pharma</p><p id="2297904f-03a9-81ca-8ec5-e72a76794a35" class="">○ Statins: BBB is more permeable → LDL accumulation.</p><p id="2297904f-03a9-81c6-ba28-e0744b9a3f82" class="">○ Cholinergic agents: keep acetylcholine concentration stable with</p><p id="2297904f-03a9-8110-807f-f9e2b64dccec" class="">the aim to increase their binding with the receptors.</p><p id="2297904f-03a9-811d-90b4-ecc29c1b286c" class="">○ Anti-excitotoxic agents: inhibit glutamate excitotoxicity</p><p id="2297904f-03a9-81f7-9954-c199082da6dd" class="">○ Drugs able to reduce the production and accumulation of Aβ and/</p><p id="2297904f-03a9-8131-8e86-fa6d6ece700a" class="">or drugs that prevent or reduce the hyperphosphorylation of tau</p><p id="2297904f-03a9-8100-bf9f-f01d630887fa" class="">proteins.</p><p id="2297904f-03a9-814d-ab7f-ce19554a3fbc" class="">○ Anti-inflammatory and antioxidant drugs</p><p id="2297904f-03a9-8192-976d-fe4e52b1ad17" class="">●What is Parkinson’s disease?</p><p id="2297904f-03a9-81e4-84ad-f5c00e616465" class="">Parkinson&#x27;s is a progressive movement disorder caused by</p><p id="2297904f-03a9-81e5-9d82-f957d2ded6fa" class="">degeneration of dopamine-producing neurons in the substantia</p><p id="2297904f-03a9-81e7-aa09-eacffe2d461b" class="">nigra pars compacta in the midbrain, which leads to resting tremor,</p><p id="2297904f-03a9-8141-8ea8-df3b87a64c02" class="">rigidity, problems initiating movement, and postural instability, and for which therapy primarily focuses on increasing brain dopamine.</p><p id="2297904f-03a9-81a5-8f4c-c4d088c33a64" class="">Preclinical phase duration (period of time between the onset of neuronal degeneration and motor symptoms) is not known: hypothesized about 5 years until over 70% of these neurons are degenerated and symptoms become evident.</p><p id="2297904f-03a9-818a-a65d-d486428a7c42" class="">The pars compacta communicates with the striatum (caudate and putamen) via the nigrostriatal pathway, which helps to stimulate the cerebral cortex and initiate and control movement. Therefore, when substantia nigra pars compacta neurons die, the individual may be in a hypokinetic or low movement state which is commonly seen in</p><p id="2297904f-03a9-8116-9c7c-cb71c50ed508" class="">Parkinson’s. The severity of the syndrome is proportional to the severity of the dopamine deficiency.</p><p id="2297904f-03a9-8107-8ba3-d512b73d3117" class="">●What is the cause of PD?</p><p id="2297904f-03a9-81c4-9d36-fef15cba40fe" class="">The exact cause of this degeneration is not fully understood, but it is believed to involve a combination of genetic and environmental factors.</p><p id="2297904f-03a9-815c-b0dd-c9613c78e1a5" class="">1. Genetic Factors: Some cases of Parkinson&#x27;s disease have a genetic component. Mutations in certain genes, such as have been linked to an increased risk of developing Parkinson&#x27;s disease.</p><p id="2297904f-03a9-812c-b00d-e7d22c019cd5" class="">However, these genetic factors are not the sole cause, as most cases of Parkinson&#x27;s disease are considered sporadic (non-inherited).</p><p id="2297904f-03a9-8111-87f6-fb3e4dcc804b" class="">◆SNCA: coding for α-synuclein, major component of the Lewy body.</p><p id="2297904f-03a9-81fb-a180-c5f18cf58967" class="">◆LRRK2 (leucine-rich repeat kinase 2), cytoplasmic kinase whose activity is increased in PD</p><p id="2297904f-03a9-8160-82d2-ca208b05f774" class="">◆Parkin, and PINK1 (mitochondrial enzymes)</p><p id="2297904f-03a9-8181-a73e-eeb63f4cddcf" class="">2. Environmental Factors: Exposure to certain environmental factors has been implicated in the development of Parkinson&#x27;s disease.</p><p id="2297904f-03a9-81bc-bb86-e8b5ed9ea0eb" class="">These factors include exposure to toxins such as pesticides, herbicides, and industrial chemicals. Additionally, head injuries and trauma have been suggested as potential risk factors.</p><p id="2297904f-03a9-813b-afa1-e7c589711d3d" class="">3. Protein Aggregation: In Parkinson&#x27;s disease, there is abnormal accumulation of a protein called alpha-synuclein in the form of Lewy bodies. These protein aggregates are thought to contribute to neuronal damage and cell death. The exact relationship between alpha-synuclein aggregation and neuronal death is an area of ongoing research.</p><p id="2297904f-03a9-81ff-9cd9-c54788a274e8" class="">Mitochondrial Dysfunction: may contribute to increased oxidative 4.</p><p id="2297904f-03a9-8145-8d63-ce0a4f6e4203" class="">stress and reduced energy supply, which can lead to neuronal damage.</p><p id="2297904f-03a9-81c3-bbb3-ea2c257444de" class="">5. Inflammatory Processes: Neuroinflammation is believed to play a role in the progression of Parkinson&#x27;s disease. Activation of the</p><p id="2297904f-03a9-8152-b708-f06511ade17e" class="">5.</p><p id="2297904f-03a9-810f-bc59-d94efa452bf1" class="">immune system in the brain may contribute to the degeneration of dopaminergic neurons.</p><p id="2297904f-03a9-81b2-9bf6-fa1b6b2fdbf9" class="">6. Iron accumulation in the substantia nigra 7. lysosomal and proteosomal dysfunction</p><p id="2297904f-03a9-8152-95f4-d75d6978e030" class="">●What is the epidemiology of Parkinson?</p><p id="2297904f-03a9-819b-8c87-f11755f7b6e3" class="">○ Mainly affects people over 50-60. There are some cases between 20-40 years of age.</p><p id="2297904f-03a9-8128-a7b9-fb9c2df031a8" class="">○ Mild prevalence in males</p><p id="2297904f-03a9-8157-a720-f165ca694746" class="">○ Currently about 1-2% of over-60s are affected. 4-5% of over-80s.</p><p id="2297904f-03a9-816a-89d0-df522e3ca167" class="">○ The incidence of PD is between 8-18 per 100,000 people/year</p><p id="2297904f-03a9-8178-8ffb-fd478026163e" class="">○ Life expectation: mortality rates approximately double those of unaffected persons.</p><p id="2297904f-03a9-8170-b007-eb668a29bd4b" class="">○ Death due to ab ingestis pneumonia is double in patients with PD compared to the healthy subjects</p><p id="2297904f-03a9-814e-a8fb-f902077a9ce9" class="">●What is the morphology of Parkinson in the brain?</p><p id="2297904f-03a9-81b9-8d9f-c9046981d078" class="">○ Pallor of the substantia nigra and locus ceruleus due to loss of the pigmented catecholeminergic neurons</p><p id="2297904f-03a9-8150-baa2-fa24972fd281" class="">○ Lewy bodies may be found in some of the remaining neurons: single or multiple cytoplasmic, eosinophilic, round to elongated inclusions that often have a dense core surrounded by a pale halo. Lewy bodies are composed of fine filaments, densely packed in the core but loose at the rim; these filaments are composed of α- synuclein</p><p id="2297904f-03a9-81c7-831e-dacef60c3a88" class="">○ Inflammation (microglia and astrocyte activation)</p><p id="2297904f-03a9-81ad-8054-e4c26f76ffc3" class="">○ Some affected individuals have pathologic evidence of Alzheimer disease in combination with PD</p><p id="2297904f-03a9-8138-bd21-d7e1dffb737b" class="">○ About 10% to 15% of individuals with PD develop dementia, particularly with advancing age</p><p id="2297904f-03a9-8119-bec6-e10216811359" class="">●What are the signs and symptoms of Parkinson?</p><p id="2297904f-03a9-81ea-8c00-e60f036e2b60" class="">the clinical features of Parkinson’s.</p><p id="2297904f-03a9-8106-9034-d9b824c5795c" class="">1. Resting tremor: involuntary shakiness most noticeable in the hands present at rest and diminishes with intentional movement. “pill-rolling” tremor.</p><p id="2297904f-03a9-81fd-bbb6-cf934c757db1" class="">Rigidity: stiffness that can appear as “cogwheel” rigidity, there are 2.</p><p id="2297904f-03a9-81ba-9e81-defb7b5736c4" class="">a series of stalls (stops) as a person’s arms or legs are passively moved by someone else. Rigidity is responsible for the stooped posture and an almost expressionless face that some individuals with Parkinson’s might have.</p><p id="2297904f-03a9-81c3-8dd0-e31c1584e19e" class="">3. Bradykinesia (slow movement); hypokinesia, (less movement); and akinesia (no movement): result from difficulty initiating movements. Examples of this are having the legs freeze up when trying to walk and also walking with a shuffling gait, or small steps.</p><p id="2297904f-03a9-814a-93b8-f2b8f8d3c539" class="">◆includes mouth movements: difficulty speaking, swallowing 4. A late feature of the disease is postural instability which causes</p><p id="2297904f-03a9-814c-9341-fd455484b5ba" class="">4.</p><p id="2297904f-03a9-81a8-9363-f8e6aee16081" class="">problems with balance and can lead to falls.</p><p id="2297904f-03a9-8142-8809-c52e3b9a9e0e" class="">●Non-motor brain functions can be affected in Parkinson’s as well, leading to additional common symptoms including</p><p id="2297904f-03a9-8175-9878-ef10993e7c6d" class="">○ depression</p><p id="2297904f-03a9-81c4-8488-e1d501af1493" class="">○ dementia</p><p id="2297904f-03a9-8109-8fef-faf2cb14c248" class="">○ sleep disturbances</p><p id="2297904f-03a9-81a6-8081-c96426b875dd" class="">○ difficulty smelling</p><p id="2297904f-03a9-81bb-8d04-f3bc4dcbbfa4" class="">●These are thought to come about because of dysfunction in dopaminergic signaling in other parts of the brain beyond the substantia nigra, for example in the prefrontal cortex leading to cognitive symptoms, and also possibly from issues with other neurotransmitters like acetylcholine</p><p id="2297904f-03a9-817b-a515-c926e580f605" class="">●How is Parkinson diagnosed?</p><p id="2297904f-03a9-813c-9fc4-d7f9724f5e7b" class="">○ Clinical symptoms: presence of the central triad of parkinsonism (tremor, rigidity, bradykinesia)</p><p id="2297904f-03a9-819c-b9c0-cad04a258bc4" class="">○ Neuroimaging: (PET): use of radioactive tracers (e.g. fluroDOPA to highlight the dopamine transporter and the vesicular transporter of type 2 monoamines, and the enzyme DOPA decarboxylase) to highlight cellular metabolism, and therefore vitality and activity of neurons</p><p id="2297904f-03a9-8186-8b24-e27056ce3f77" class="">○ Observation of Lewy bodies in the substantia nigra neurons (autopsy) to confirm that the patient suffered from PD</p><p id="2297904f-03a9-8198-839a-e1776a5bb0f5" class="">●What is the treatment for Parkinson?</p><p id="2297904f-03a9-816e-a68f-f6558a9cab97" class="">There are teatments that help with Parkinson’s symptoms, although none stop the progressive neurodegeneration.</p><p id="2297904f-03a9-8149-82e7-f05b570997dc" class="">The main strategy here is to increase the amount of dopamine signalling in the brain.</p><p id="2297904f-03a9-81e6-8fe2-f4cc05b82a5c" class="">○ Levodopa (L-DOPA): Dopamine itself can’t cross the blood-brain barrier, but its precursor levodopa can, and once in the brain, levodopa is converted to dopamine by dopa decarboxylase, most importantly within the remaining nigrostriatal neurons. Peripheral dopa decarboxylase also exists, which can metabolize levodopa into dopamine before it gets through the blood brain barrier, and— via additional enzymes—metabolize it into other catecholamines like epinephrine, which can cause unwanted side effects like arrhythmias. This is exactly why levodopa is administered with carbidopa, a dopa decarboxylase inhibitor that isn’t able to cross the blood-brain barrier. Treatment does not reverse the</p><p id="2297904f-03a9-81e9-ae26-dd1252e303c0" class="">morphologic changes or arrest the progress of the disease; it is able to manage early motor disorders but with progression, drug therapy tends to become less effective and symptoms become more difficult to manage.</p><p id="2297904f-03a9-81a4-8c14-e54035e5d2f0" class="">○ Amantadine, an antiviral medication that increases endogenous dopamine production, although the mechanism is not clear.</p><p id="2297904f-03a9-8116-bb7a-f6bad00f1411" class="">○ Dopamine agonists like bromocriptine, which is an ergot or</p><p id="2297904f-03a9-8129-96fa-f8548b3fdc39" class="">fungal derivative, as well as pramipexole and ropinirole, which are</p><p id="2297904f-03a9-81b2-8d57-d58732ea20fa" class="">not ergot derivatives.</p><p id="2297904f-03a9-819c-9b64-f1a08118023e" class="">○ inhibitors of COMT, catecholamine-O-methyltransferase, which is</p><p id="2297904f-03a9-8123-af64-e8f7b93bd521" class="">an enzyme that degrades dopamine and levodopa.</p><p id="2297904f-03a9-81ad-b3d3-d9f9867f5b67" class="">○ selegiline which inhibits monoamine oxidase B, also known as</p><p id="2297904f-03a9-8130-946e-c9309aa33982" class="">MAO-B, which is another enzyme that metabolizes dopamine.</p><p id="2297904f-03a9-8138-b467-e3d31ab6ff6a" class="">○ anticholinergics: Since usually there’s this balance of signaling</p><p id="2297904f-03a9-81bc-8c9f-e349a2bf869a" class="">between dopamine and acetylcholine, a loss of dopamine reaching</p><p id="2297904f-03a9-8132-872f-d06615a1f428" class="">the striatum increases the relative amount of acetylcholine</p><p id="2297904f-03a9-8191-8d34-fb64562b8541" class="">signaling there. Therefore, anticholinergics can be given to restore</p><p id="2297904f-03a9-81d6-9881-edd11eecdf59" class="">the balance of cholinergic and dopaminergic signaling, like</p><p id="2297904f-03a9-81e1-bee8-f4c2479b7c35" class="">benztropine, which improves the tremor of PD.</p><p id="2297904f-03a9-81d8-8263-ef3cae6e5aea" class="">○ deep-brain stimulation, which involves an implantable device that</p><p id="2297904f-03a9-81c2-8e4b-f262ff7dc989" class="">directly sends electrical signals to the basal ganglia which</p><p id="2297904f-03a9-81d4-a9ed-cad0d598ff90" class="">counteracts the aberrant signaling in Parkinson’s.</p><p id="2297904f-03a9-8141-902b-d4952f547d85" class="">●What is ALS?</p><p id="2297904f-03a9-818c-999e-c3f3d2a0cfa8" class="">Amyotrophic lateral sclerosis (ALS), also known as Lou Gehrig&#x27;s</p><p id="2297904f-03a9-81fc-b747-e0a0ad9abc19" class="">disease, is a neurodegenerative disease that affects both upper and</p><p id="2297904f-03a9-81ce-8120-cb850c00dd65" class="">lower motor neurons. The progressive degeneration of these motor</p><p id="2297904f-03a9-81ff-9a33-c55fcf757f12" class="">neurons leads to muscle weakness and atrophy.</p><p id="2297904f-03a9-81d3-837c-c96628e47164" class="">Amyotrophic: atrophic muscle; Lateral: lateral nerve bundles of the</p><p id="2297904f-03a9-8191-871c-d682f14820be" class="">spinal cord are affected (besides motor cortex and spinal trunk);</p><p id="2297904f-03a9-814b-993c-f2afa9e96d1d" class="">sclerosis: hard</p><p id="2297904f-03a9-81ef-b0a2-cc8b6283c219" class="">●what is the cause of ALS?</p><p id="2297904f-03a9-819f-b340-db35907fa59b" class="">○ Genetic predisposition</p><p id="2297904f-03a9-813e-85dd-c766ec6200d5" class="">○ Excess glutamate (neurotransmitter): excitotoxicity</p><p id="2297904f-03a9-815a-a39b-ce3550ef1862" class="">○ Deficiency of neuronal growth factors</p><p id="2297904f-03a9-8141-ab40-de8a2a62be9f" class="">○ Infection of bacteria or viruses</p><p id="2297904f-03a9-8187-bc5a-d6197545b75c" class="">○ Environmental toxic factors (pesticides, fertilizers ...).</p><p id="2297904f-03a9-817a-80d6-c3a68b353f63" class="">◆The prevalence of the disease among farmers is double</p><p id="2297904f-03a9-8134-a69d-cde4e1a105e4" class="">compared to the general population</p><p id="2297904f-03a9-8100-b9e2-eb025cee328c" class="">○ Soccer players: vigorous physical activity + head shots with the</p><p id="2297904f-03a9-81bf-9b07-eabf97569bcb" class="">ball + fertilizers (grass fields).</p><p id="2297904f-03a9-81dc-9203-c6a8cacac847" class="">◆in Italy: incidence of ALS in soccer players is 5 times higher</p><p id="2297904f-03a9-81e0-93fc-e8d4ce42ffa2" class="">than in the general population. Doping is not involved</p><p id="2297904f-03a9-812e-bd79-e2f9cc3b06fc" class="">○ Smoke</p><p id="2297904f-03a9-81aa-bc65-d548f64068c4" class="">○ Prolonged exposure to electromagnetic fields or heavy metals (e.g.</p><p id="2297904f-03a9-8101-8085-cb9e2467f0d9" class="">lead, mercury)</p><p id="2297904f-03a9-81e7-8b52-f2ce16a82a08" class="">●what are the signs and symptoms of ALS?</p><p id="2297904f-03a9-81ad-9d49-f9f26b784e51" class="">ALS symptoms typically develop slowly over time.</p><p id="2297904f-03a9-8116-a19c-ed63a4b9f30c" class="">Early symptoms may include:</p><p id="2297904f-03a9-812e-aa99-c52a2a9e84ae" class="">○ muscle weakness</p><p id="2297904f-03a9-81b3-bd81-f28797ec18f2" class="">◆asymmetric weakness of the hands, manifested as dropping of</p><p id="2297904f-03a9-814b-b10e-e5819fa37b90" class="">◆</p><p id="2297904f-03a9-8139-823d-d0c9b83e2df4" class="">objects and difficulty in performing fine motor tasks</p><p id="2297904f-03a9-816c-bed8-f39d96e89352" class="">○ cramping and spasms in legs and arms</p><p id="2297904f-03a9-8185-9cbc-c19c3f8dc190" class="">●With disease progression:</p><p id="2297904f-03a9-81dc-82e8-f7bf6a701f6c" class="">○ diminished muscle strength and mass</p><p id="2297904f-03a9-81e7-aedf-cec3edfc3f63" class="">○ Involuntary contractions of individual motor units</p><p id="2297904f-03a9-8199-ab7b-c59d16e50034" class="">(FASCICULATIONS)</p><p id="2297904f-03a9-8105-baf4-e65b3eb22c2e" class="">○ stiffness → difficulty walking → no walking → paralysis</p><p id="2297904f-03a9-81e7-8e8f-d157b2681b8b" class="">○ difficulty speaking</p><p id="2297904f-03a9-81b4-b927-e793efb09884" class="">○ difficulty chewing and swallowing</p><p id="2297904f-03a9-810a-9531-c4d020043db6" class="">○ difficulty breathing (involvement of respiratory muscles) → death</p><p id="2297904f-03a9-8137-afe5-f7b63dffb8f0" class="">●What is not affected:</p><p id="2297904f-03a9-81c0-a35d-d3e6b2c60f80" class="">○ Cognitive activities are preserved</p><p id="2297904f-03a9-81a8-9668-e2e74326518b" class="">○ ALS doesn’t compromise the internal organs (heart, liver, kidneys)</p><p id="2297904f-03a9-8109-9598-db4211a3385f" class="">or the five senses (sight, hearing, smell, taste, touch)</p><p id="2297904f-03a9-8164-9a92-d085df68ba52" class="">○ Muscles that control eye movements and those of the external</p><p id="2297904f-03a9-8185-9b24-dbd9d009e482" class="">sphincters are rarely affected</p><p id="2297904f-03a9-8118-a35d-e35a2de12969" class="">●What is the epidemiology of ALS?</p><p id="2297904f-03a9-81b8-b35a-ec01b4b2d2ee" class="">○ 2-3 cases/100,000 individuals/year</p><p id="2297904f-03a9-81c5-8dc1-f9786eb39a4a" class="">○ Italy: at least 3,500 diagnoses,</p><p id="2297904f-03a9-810a-afae-da4abe0a3c77" class="">○ about 1,000 new cases/year</p><p id="2297904f-03a9-8165-9442-f37d4c253687" class="">○ Affects men slightly more frequently than women (1.5/1)</p><p id="2297904f-03a9-819c-8b2a-c2fcfcbf7701" class="">○ The average age is 60-65 years-old. In hereditary cases 40-50</p><p id="2297904f-03a9-8105-9dab-fcb5f1cbda3d" class="">years of age. Rare after 80 years of age</p><p id="2297904f-03a9-8116-b879-da4e7a8619f7" class="">○ Life expectancy: 3 to 5 years; about 10% survive more than 10</p><p id="2297904f-03a9-8195-bb4a-c3b966475a14" class="">years, while 5% reach or exceed 20 years after diagnosis</p><p id="2297904f-03a9-8124-9b07-f7bcf75ccb57" class="">●What are the different forms of ALS?</p><p id="2297904f-03a9-8122-923a-dacbde05a2f8" class="">○ Sporadic ALS: 80-90% of cases</p><p id="2297904f-03a9-8142-af53-d777af155e9a" class="">○ Familial ALS: 10-20% of cases associated to 24 genetic loci;</p><p id="2297904f-03a9-8154-ac8a-d494d570f312" class="">almost all autosomal dominant</p><p id="2297904f-03a9-81b5-aa06-f1bdd66dcec7" class="">◆20%: mutation in gene encoding superoxide dismutase-1</p><p id="2297904f-03a9-81ce-927c-dfdc6f42a9f2" class="">(SOD1). Mutant SOD1 protein misfolds and aggregates leading</p><p id="2297904f-03a9-811a-939c-f39fa82425d4" class="">to cellular injury SOD1 protein aggregation also observed in</p><p id="2297904f-03a9-8195-a65a-c54a564f12ac" class="">sporadic form</p><p id="2297904f-03a9-8108-9c8e-ca1a9e9421a7" class="">◆40% mutation in C9orf72 (chromosome 9 open reading</p><p id="2297904f-03a9-814c-906e-f4843507a072" class="">frame 72) is a protein of unknown funcition → neuronal</p><p id="2297904f-03a9-8186-a5f5-f9fe732328cb" class="">accumulation.</p><p id="2297904f-03a9-81b4-975f-f6af704e1cac" class="">●What are the anatomo-pathological findings in ALS?</p><p id="2297904f-03a9-813b-93fa-d55b51694e8e" class="">There’s toxic protein accumulation and pallor of the area</p><p id="2297904f-03a9-81da-8561-ecce40ebb607" class="">○ Glutamate excitotoxicity Continuous stimulation of glutamate</p><p id="2297904f-03a9-81fe-9a4c-e06f32f5f76d" class="">receptors causes a continuous influx of calcium ions in the motor</p><p id="2297904f-03a9-810c-86e6-fbedaf0a470c" class="">neurons with consequent perturbation of functions and death.</p><p id="2297904f-03a9-817d-826e-f58a0249211d" class="">○ Atrophy of the motor cortex, brainstem, and spinal cord</p><p id="2297904f-03a9-81f8-9338-da1f5a018d68" class="">○ Increased ROS (reactive oxygen species) production, probably due</p><p id="2297904f-03a9-8167-8d3a-f33f1209758f" class="">to excessive H2O2 production induced by mutated SOD1.</p><p id="2297904f-03a9-8173-9c4f-cc63f28ae585" class="">○ Excessive inflammatory response following neuronal degeneration</p><p id="2297904f-03a9-8153-bf29-c59392e46bf6" class="">→ glyosis (mainly astrocyte proliferation)</p><p id="2297904f-03a9-816a-b7e6-ff429f67d239" class="">○ progressive skeletal muscle atrophy</p><p id="2297904f-03a9-8196-a50d-e85732a6176e" class="">○ Loss of the upper motor neurons → degeneration of the cortico-</p><p id="2297904f-03a9-81b9-8212-fcd179084ab6" class="">spinal tracts → volume loss and absence of myelinated fibers</p><p id="2297904f-03a9-81ab-b03c-fa7866494702" class="">●How is ALS diagnosed?</p><p id="2297904f-03a9-81df-9701-e3e16bead2f9" class="">○ Neurological examinations at regular intervals to assess whether</p><p id="2297904f-03a9-81d9-98b6-cb32e296fae3" class="">symptoms such as muscle weakness, muscle atrophy,</p><p id="2297904f-03a9-81f2-a4c9-d28803fdddb7" class="">hyperreflexia and spasticity progressively worsen</p><p id="2297904f-03a9-815a-afdd-e4cf6133dddd" class="">○ Electromyography (EMG) to evaluate muscle function</p><p id="2297904f-03a9-81c3-a6bc-c8f5d18f3ef4" class="">○ Magnetic resonance imaging (MRI) to assess the brain and spinal</p><p id="2297904f-03a9-81d8-96a2-dc557c2ea08e" class="">cord degeneration</p><p id="2297904f-03a9-8147-96ed-ed1fde762a50" class="">○ Babinsky sign:</p><p id="2297904f-03a9-812e-9ad2-c1708518d7c1" class="">○</p><figure id="2297904f-03a9-81d6-b4da-c453adc32873" class="image"><a href="Neurodegenerative%20diseases%202297904f03a981799339c149de6194dc/image1.png"><img style="width:48px" src="Neurodegenerative%20diseases%202297904f03a981799339c149de6194dc/image1.png"/></a></figure><p id="2297904f-03a9-81ed-bbb8-e5d937e24d34" class="">●What is the therapy for ALS?</p><p id="2297904f-03a9-8197-9fe5-cc64200da3b2" class="">○ No therapy able to stop the process of motor neuron degeneration</p><p id="2297904f-03a9-81bf-aec3-c5fa2207f4a1" class="">○ Most available drugs simply have action on the symptoms or as a</p><p id="2297904f-03a9-816d-b25a-e0eaa5234563" class="">palliative.</p><p id="2297904f-03a9-8166-a79f-e4f5d3532ab5" class="">○ New drug: riluzole is able to slow the progression of neuron</p><p id="2297904f-03a9-8190-899f-c12a585f8813" class="">damage due to glutamate (excitotoxicity)</p><p id="2297904f-03a9-817c-9223-f02dd9fbbd69" class="">○ The therapeutic strategies are mainly aimed at physiotherapeutic</p><p id="2297904f-03a9-8131-8637-d9dd96fa7c0a" class="">support with all the maneuvers needed to allow the maintenance of</p><p id="2297904f-03a9-812b-a805-c4a3abe0383d" class="">vital functions</p><p id="2297904f-03a9-81c4-a54f-c45eb3c9abf1" class="">○ Aerobic exercise (walking, swimming, cycling) is important to</p><p id="2297904f-03a9-81c4-9e63-f7556d11f2d0" class="">strengthen muscles and keep the circulation ongoing</p><p id="2297904f-03a9-81f6-8a2f-c31b46438c20" class="">○ Speech therapist for language articulation problems</p><p id="2297904f-03a9-81bf-8b65-efa33738f8ae" class="">○ It is shown that support with a ventilation device is effective in</p><p id="2297904f-03a9-8105-a9e7-e85652499241" class="">prolonging patients&#x27; life expectancy</p><p id="2297904f-03a9-816e-8418-e950e8f150fe" class="">○ Gene therapy, use of stem cells</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

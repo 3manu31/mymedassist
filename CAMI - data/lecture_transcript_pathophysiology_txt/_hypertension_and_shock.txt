@@ -1,0 +1,470 @@
+04.05.2023 LEONARDUZZI L.5
+HYPERTENSION AND SHOCK
+The topic of today is hypertension and shock, the latter is one of the main causes of death.
+B
+LOOD PRESSURE
+First of all, it is important to remember the mechanisms that regulate blood pressure (Fig.1).
+Blood pressure is defined as the product between the cardiac output and the peripheral resistance, hence
+these 2 factors regulate blood pressure.
+The cardiac output, in particular, is regulated by both cardiac factors (heart rate and myocardial contractility)
+and by blood volume (=stroke volume, this value can change according to the concentration in the circulation
+of sodium and mineralocorticoids or depending on the release of the atrial natriuretic peptide by the
+myocardium).
+The peripheral resistance can change as well, according to the ability of the vessels (arteries and veins) to
+change their lumen size; in this way, they are able to control the blood pressure through vasoconstriction
+and vasodilation. Many factors can control the lumen of the vessels, such as:
+• humoral factors, which can be constrictors (like angiotensin II, catecholamines released by the
+adrenal gland, thromboxane and leukotrienes that are arachidonic acid derivatives, and endothelin
+released by endothelial cells) and dilators (prostaglandins, kinins, and NO)
+• local factors: they are involved in autoregulation of the lumen size, which can change according to
+hypoxia and pH
+• neural factors, divided into constrictors (α-adrenergic) and dilators (β-adrenergic). They can also
+regulate the heart rate and the contractility of the myocardium.
+The balance between all these factors is necessary to maintain the right lumen size of the vessels.
+Fig. 1
+C
+ARDIAC OUTPUT
+It's determined by the heart rate (contractility of the heart) and the stroke volume, which is the quantity of
+blood that flows in circulation in a specific unit of time.
+The cardiac output is strongly influenced by blood volume, which, in turn, is mainly regulated by renal sodium
+excretion or reabsorption that occurs through the renin-angiotensin system. The concentration of Na+ is very
+important for the maintenance of blood volume. In order to do this, many factors are released and they act
+adjusting the concentration of Na+:
+- Renin: a proteolytic enzyme released by the kidneys.
+- Aldosterone: produced and released by the cortex of the adrenal gland.
+Luca Polizzi, Endi Dingu
+54
+04.05.2023 LEONARDUZZI L.5
+- Angiotensin II: derived from angiotensin I, which in turn derives from angiotensinogen produced by
+the liver.
+- atrial natriuretic peptide: released by the myocardium.
+Kidneys filter 170 L of plasma containing 23 nanomoles of salt daily.
+99.5% of filtered salt is reabsorbed, to maintain the total body concentration of Na+:
+- 98% of sodium is reabsorbed by active sodium transporters, mainly ENaC (epithelial Na+channels),
+regulated by aldosterone which favors the reabsorption of Na+ and water.
+- 1.5% is reabsorbed by epithelial sodium channels regulated by the renin-angiotensin system.
+In the end, through these two activities, it’s possible to maintain constant the concentration of Na+ and blood
+pressure.
+In the presence of reduction of blood volume and pressure, there are macula densa cells, at the level of the
+kidney, that sense these reductions, leading to the release of effectors whose aim is to increase the blood
+volume and pressure.
+Which is the mechanism? Kidneys can influence the excretion/absorption of Na+ through the activation of
+the renin-angiotensin system.
+Renin is a proteolytic enzyme produced by renal juxtaglomerular cells in the kidneys and released by them
+in the presence of:
+- decreased blood pressure in afferent arterioles.
+- elevated levels of circulating catecholamines.
+- low Na+ levels in the distal convoluted renal tubules. So renin stimulates Na+ reabsorption.
+Thus, the aim of renin is to restore blood volume and blood pressure. This enzyme cleaves the
+angiotensinogen (synthesized in the liver) into angiotensin I, which, in turn, is converted into angiotensin II
+by the enzyme ACE (Angiotensin-Converting Enzyme) released by the vascular epithelium.
+Angiotensin II acts by stimulating vasoconstriction to increase the blood pressure. In particular, it can:
+- stimulate the vasoconstriction, reducing the lumen sites of the vessel.
+- stimulate aldosterone secretion by the adrenal gland.
+- increase tubular Na+ reabsorption (and so water) due to adrenal aldosterone. As an effect, this
+reabsorption leads to an increase in the blood volume and so of blood pressure. In particular, the
+blood pressure increases because by increasing the blood volume the cardiac output is increased.
+On one side, there are mechanisms that try to increase blood pressure but, on the other side, others decrease
+the pressure. It happens because the kidneys, at the same time, release not only vasoconstrictor elements
+but also vascular relaxing substances (prostaglandins and NO) to counterbalance the vasopressor effect of
+angiotensin.
+In addition, the myocardium releases myocardial natriuretic peptides (ANP, BNP) in response to the
+increased blood volume. These factors allow vasodilation and inhibit the Na+ reabsorption in the distal renal
+tubule, favoring the excretion of Na+ and diuresis. There could be the risk to increase too much blood
+pressure, so mechanisms that counteract the ones responsible for the increase in blood pressure must be
+present to obtain a balanced situation, in other words, a normal blood pressure.
+(Fig.2) makes a summary of the previous concepts. If we want to reduce the blood pressure, the heart releases
+ANP, which stimulates vasodilation (and so there is a decreased blood pressure) and inhibits the absorption
+of Na+, favoring its excretion. The result is a reduction in blood volume.
+If we want to increase blood pressure, the kidney releases renin, which converts angiotensinogen into
+angiotensin I, which becomes angiotensin II by ACE. Angiotensin II stimulates the release of aldosterone,
+which favors the absorption of Na+ and water. The result is an increase in blood volume. Angiotensin II acts
+also on vessel cells enhancing vasoconstriction.
+It’s important to balance between increased pressure and decreased pressure, because all the previous
+mechanisms work together to maintain a constant blood volume and blood pressure. If the action of
+Luca Polizzi, Endi Dingu
+55
+04.05.2023 LEONARDUZZI L.5
+angiotensin II exceeds, the patient will develop hypertension.
+In many situations the volume can increase:
+- excess dietary Na+.
+- inadequate excretion (renal failure).
+- hyperaldosteronism → excessive production of aldosterone that increases the absorption of Na+ and
+water.
+In other situations it can happen an increase in resistance:
+- increased sympathetic tone.
+- increased renin-angiotensin-aldosterone system.
+Fig. 2
+P
+ERIPHERAL RESISTANCE
+It’s controlled by many factors (neural, humoral, and local) that affect the vascular smooth muscle cells
+altering their lumen size (so causing vasoconstriction or vasodilation), depending on the ability of the cells to
+contract.
+Arterioles: they are important for blood distribution to different organs and tissue, and for the regulation of
+arterial pressure: they are the principal points of physiologic resistance to blood flow. In the arteries, the
+blood flow is quite strong, but by reaching the arterioles it is reduced so as to supply the capillaries with a
+sufficiently low pressure.
+Veins: they can affect peripheral resistance through vasoconstriction and vasodilation. They play an
+important role in controlling capillary pressure; in this way, the exchange between capillary and interstitial
+fluid is possible. Veins can also control pressure in the blood flow, with effect on venous return and cardiac
+function.
+Luca Polizzi, Endi Dingu
+56
+04.05.2023 LEONARDUZZI L.5
+(Fig.3) depicts the main characteristics of arterioles and veins. They have a very important role in controlling
+blood pressure. If the pressure must be increased the system applies vasoconstriction; if the pressure must be
+decreased, there is vasodilation.
+Fig. 3
+HYPERTENSION
+It occurs when we have an increased cardiac output (due to increased blood volume, heart
+contractility/heart rate) or an increased total vascular resistance (due to changes in the activity of neural,
+humoral, and local effectors). In some situations, both these parameters increase.
+Hypertension is a pathological condition, characterized by altered mechanisms in the control of blood
+pressure, especially the regulation due to peripheral resistance.
+It’s a common disorder, affecting about 33% of adults in Italy: half of them are at high risk to develop
+cardiovascular events. It’s an important cardiovascular risk factor for atherosclerosis, which, in turn, is a risk
+factor for myocardial infarction, stroke, congestive heart failure, renal failure, chronic obstructive
+arteriopathy, aortic aneurysm, vascular encephalopathies, etc.
+Hypertension is quite common in the white population: the prevalence is between 20-45%.
+It can also alter the arterial wall due to hyaline and fibroid degenerations: there is the accumulation of
+proteins and material in the E.C. space, leading to the thickening of the vessel’s wall, reducing the lumen of
+the vessel, and so there is an increase of the pressure.
+The normal value of blood pressure in adults is lower than 130/85 mmHg (systolic pressure/diastolic
+pressure). The high normal value of blood pressure is 130-139/85-89 mmHg
+Depending on the value of blood pressure, it’s possible to classify the hypertension into five categories:
+- Borderline: values between 140/90-95 mmHg.
+- Mild: values between 140-159/95-99 mmHg.
+- Moderate: values between 160-179/100-109 mmHg.
+- Severe: values between 180-209/110-119 mmHg.
+- Very severe: values > 210/>120 mmHg.
+There are two types of hypertension:
+- Primitive/Essential: it’s not possible to recognize the etiology. It must be treated for all life because,
+in the absence of a cause, it’s not possible to act on it.
+Luca Polizzi, Endi Dingu
+57
+04.05.2023 LEONARDUZZI L.5
+- Secondary: is associated with specific causes; so acting on the primary cause, it’s possible to reduce
+hypertension.
+P
+RIMITIVE HYPERTENSION
+It is very common (90-95%) and usually occurs after the age of 40. It’s not possible to recognize a specific
+cause underlying the onset of hypertension, it’s a multifactorial disorder, meaning that many conditions can
+be involved in its development, both environmental and genetic (Fig. 4):
+- Genetic factors: in some disorders, an excessive release of aldosterone favors an increased Na+
+absorption in the kidney, and thus of water, so there is an increased blood volume, that lead to an
+increased cardiac output and peripheral vasoconstriction, and so an increased blood pressure. There
+could be defects concerning the production of angiotensinogen, or angiotensin receptor. There are
+patients in which the renin-angiotensin system is altered, with a consequent increase in Na+
+reabsorption. There are also some genetic disorders regarding the factors that control peripheral
+resistance: some patients can release other quantities of vasoconstrictor factors (e.g.
+catecholamines) leading to an increase in peripheral resistance, and so an increase in blood pressure.
+As a consequence of different genetic influences, there could be modifications of the cardiac output,
+of peripheral resistance, or both.
+- Environmental factors: some psychogenic components can contribute to modify the lumen of the
+vessel, and so they can contribute to increase the peripheral resistance. For example, subjects with
+excessive repression of a conflictual state, anxiety, depression, stress, but also other concomitant
+factors, like obesity, alcohol, smoking, physical inactivity, and heavy salt consumption are more
+prone to develop hypertension.
+Moreover, environmental factors, can act by leading to some alteration of smooth muscle cells’
+structure, such as thickening of the wall (decreased lumen), hence there is an increased peripheral
+resistance, and so an increased blood pressure.
+Fig. 4
+What is the mechanism that leads to the development of primitive hypertension?
+The first event is the reduction of renal Na+ excretion, even if the pressure is normal. The result is an increase
+in blood volume and in cardiac output. In addition, there can also present an increase in peripheral resistance.
+As a consequence, there is an increase in blood pressure (blood pressure = cardiac output x peripheral
+resistance).
+Luca Polizzi, Endi Dingu
+58
+04.05.2023 LEONARDUZZI L.5
+To increase the blood volume, reaching the “threshold” of hypertension, is sufficient to increase the blood
+content of the arteries by 20-30 ml.
+The natural course of hypertension, in the beginning, is very long and asymptomatic, at least for primitive
+hypertension. In the case of secondary hypertension, there are clinical symptoms associated with the cause
+of hypertension, while in the case of primitive hypertension, in the beginning, there aren’t clinical symptoms,
+only an increase in blood pressure.
+It is possible to distinguish two forms of hypertension:
+• There is a first phase in which hypertension is labile and inconstant (initial inconstant labile form).
+This form is characterized by only an increase in cardiac output, whereas the peripheral resistance
+is normal. This phase is called “labile”
+because, over time, the peripheral
+resistance increases until stabilized
+hypertension is determined.
+• Stable form.
+High blood pressure can modify the morphology
+of vessels’ walls, by stimulating the enlargement
+of smooth muscle cells (= hypertrophy of cells); as
+a consequence, there is a reduction in the lumen
+of the vessels (Fig.5). Precapillary vessels of
+arterioles, in particular, increase their thickness
+due to hypertension, leading to a permanent
+reduction of the lumen. This contributes to
+increased blood pressure.
+Fig. 5
+Primitive hypertension, other than be the most prevalent type, is also the most severe form, because
+it is one of the main risk of cardiovascular diseases.
+S
+ECONDARY HYPERTENSION
+It comprehends 5-10% of all cases. It is possible to recognize a specific cause for it. It is associated with many
+diseases affecting the kidneys, adrenal glands or other endocrine organs. Treating on these diseases, we can
+reduce hypertension.
+Causes associated with the development of secondary hypertension:
+- Renal
+● Acute glomerulonephritis.
+● Mono and bilateral pyelonephritis
+● Nephrosclerosis
+● Polycystic kidney disease.
+● Renal artery stenosis.
+● Renal vasculitis.
+● Renin-producing tumors.
+All these conditions can cause a renal hypertension, and consequently, a systemic hypertension.
+- Endocrine
+● Conn’s disease: characterized by hyperaldosteronism, so an increased secretion of
+aldosterone. The latter contributes in the reabsorption of sodium, and so of water.
+Consequently, there will be an increase in the blood volume, and so in the blood pressure.
+● Pheochromocytoma: the adrenal gland can increase the secretion of catecholamines. This
+increase occurs because of a tumor in the adrenal gland, that can stimulate the release of
+these hormones (catecholamines), which have a vasoconstrictor effect. Hence there is an
+increased peripheral resistance, and so an increase in blood pressure.
+Luca Polizzi, Endi Dingu
+59
+04.05.2023 LEONARDUZZI L.5
+● Cushing disease (hypercortisolism): increased production of corticosteroids, that contribute
+to an increased blood pressure.
+- Other causes
+● Coarctation of the aorta: the lumen of the aorta is reduced.
+● Intracranial hypertension
+● Toxemia gravidarum: characterized by renal changes with hypertension and edema all over
+the body.
+● Acute hypervolemia: if the blood volume is increased, it will be increased also the cardiac
+output and so blood pressure.
+Professor says that on the slide there is a more detailed list of causes, some of which she has just explained
+now. All these causes can be responsible for the development of secondary hypertension, but if these causes
+are treated, it is possible to reduce hypertension and obtain normal blood pressure.
+C
+ONSEQUENCES OF HYPERTENSION
+At the beginning:
+- Primitive hypertension is asymptomatic.
+- Secondary hypertension has clinical symptoms strictly associated with the disease underlying the
+development of hypertension. The symptoms are not those distinctive of hypertension itself.
+In the beginning, there are some compensatory mechanisms. For example, kidneys respond to hypertension
+by eliminating salts and water, hence reducing blood pressure. Kidneys try to maintain normal blood pressure
+favoring the release of sodium and water. Then occurs the initial inconstant labile form, where the cardiac
+output increases but the peripheral resistance remains constant. In the end, hypertension establishes,
+during which both cardiac output and peripheral resistance increase, and there is increased blood pressure.
+At this point, the clinical signs are the consequences of the effects of hypertension on different organs:
+- Vessels: hypertrophy due to hypertension and, over time, a deposition of material in the EC space.
+- Heart: hypertrophy of left ventricle due to overwork (it must work more). The symptoms are those
+of left heart failure.
+- nervous system: spasms, headache, vertigo, visual disturbances, necrosis of brain matter due to
+ischemia/microinfarction or to hemorrhage.
+- Kidney: glomerular and tubular changes due to progressive nephron ischemia (chronic renal failure).
+- Aorta: severe atheroma, abdominal aortic aneurysms.
+- hemorrhagic manifestations (not severe): nose, respiratory system, and female genital tract.
+Question from 2021-2022
+Q: How environmental factors (in particular Na+ concentration) can induce peripheral resistance?
+A: Na+ is not related to the increase of the peripheral resistance. Na+ is included as an environmental factor if
+the diet is rich in sodium. The salts present in the diet can favor the absorption of water and, therefore, it
+contributes to the increase of blood volume. So it is connected to the cardiac output.
+Luca Polizzi, Endi Dingu
+60
+04.05.2023 LEONARDUZZI L.5
+V
+ASCULAR PATHOLOGY IN HYPERTENSION
+Hypertension can be responsible for the degeneration of the
+vascular wall. In particular, hypertension is responsible for the
+formation of atherosclerotic plaque. Hypertension can also cause
+the deposition of other proteins, leading to hyaline degeneration
+and fibroid degeneration.
+As it is possible to see here (Fig. 6), the arterial wall is thickened
+because of the accumulation of proteins, that reduce the lumen
+size, causing an increase in the peripheral resistance.
+Fig. 6
+Here (Fig. 7) there is another example of the
+degenerative effect of hypertension: there is
+hyperplastic atherosclerosis. There is the formation of
+a concentric laminated thickened wall, with a
+reduction of the lumen, so a partial obliteration. This
+type of degeneration is quite frequent in kidneys.
+Fig. 7
+C
+ONCLUSION ON HYPERTENSION
+Hypertension must be considered a severe pathological condition, especially primitive/essential
+hypertension, since it is not possible to identify the specific cause, and patients must be treated life-long.
+Primitive hypertension is based on the involvement of many genetic factors, hence it is difficult to recover
+from it. Hypertension is one of the major risk factors for myocardial infarction and stroke so it must be treated
+correctly.
+SHOCK
+Serious pathological event of acute circulatory insufficiency and it represents one of the primary causes of
+death. It is characterized by a reduction of cardiac output, reduction of peripheral resistance or circulating
+blood volume; the consequence is a reduction in the blood pressure (remember blood pressure = cardiac
+output x peripheral resistance), hence there is a reduction of tissue perfusion (hypoperfusion) because, due
+to hypotension, the blood is not able to reach all the tissues and organs. Thus, there is a dysfunction of the
+main vital organs and systems. The two main symptoms of the shock are marked hypotension and
+hypoperfusion.
+In the beginning, if this condition is not so serious, it can be reversible. But a prolonged shock leads to
+irreversible cellular damage, causing the failure of many organs and, therefore, the death of the patient.
+In any type of shock, there is circulatory collapse, which is due to severe hypotension and hypoperfusion,
+characterized by an abrupt lowering of the systolic pressure to levels that don’t allow an adequate supply of
+blood to the whole organism.
+If the cause responsible for the shock acts for a short time, it’s possible to compensate for this situation,
+returning to a normal circulatory function. On the other side, if the cause persists, peripheral hypoperfusion
+causes an irreversible alteration of metabolism and cellular damage in various tissues.
+Luca Polizzi, Endi Dingu
+61
+04.05.2023 LEONARDUZZI L.5
+MECHANISMS OF SHOCK
+There are three mechanisms responsible for the onset of shock:
+- cardiac pump insufficiency (e.g. infarction, arrhythmia): if the heart doesn’t work properly, the
+cardiac output drops down and also the blood pressure. This mechanism is common in cardiogenic
+shock.
+- uncompensated reduction of the volume (e.g. hemorrhage, burns, diarrhea, vomiting, etc.): if the
+blood volume decreases dramatically, the cardiac output decreases and also the blood pressure.
+This mechanism is common in hypovolemic shock.
+- uncompensated increase in the capacity of the vascular bed (e.g. sepsis, hypersensitivity reaction,
+intoxication, etc.): it’s about the peripheral resistance. If there is a systemic dilation of the circulatory
+system, a reduction in peripheral resistance will occur due to dilation, and so the blood pressure goes
+down. This mechanism is common in distributive shock.
+In the first two mechanisms it is decreased the cardiac output, while in the third mechanism is the peripheral
+resistance to be decreased.
+Question from 2021-2022:
+Q: Can you explain how the decrease of peripheral resistance is associated with the shock?
+A: Peripheral resistance is very important in the control of the blood pressure because it’s able to change the
+lumen of the vessels through vasoconstriction and vasodilation. Even for minimal and temporary changes in
+the blood pressure, the peripheral resistance acts, restoring the normal value of pressure. Shock is
+characterized by a permanent dilation of all the vessels, leading to a decrease in blood pressure. There is a
+systemic drop in the pressure.
+T
+YPES OF SHOCK
+- cardiogenic shock: when there are problems at the level of the heart. There is a reduction in the
+heart rate or in its contractility. There is a low cardiac output due to myocardial pump failure. It’s
+typical of myocardial infarction (because in this case the heart is not able anymore to pump blood),
+ventricular rupture, ventricular arrhythmias, pulmonary embolism (in case of obstruction), and
+cardiac tamponade (= accumulation of fluid, between the myocardium and pericardium, leading to
+a compression of the myocardium. It’s not anymore able to expand in a correct manner). The fluid
+that accumulates in cardiac tamponade can be an inflammatory edema (in case of myocarditis or
+endocarditis), a noninflammatory edema, or blood (in case of a rupture of the heart, at the level of a
+cardiac scar. It can rupture during myocardial infarction, because the myocardium cannot be repaired
+by the myocardial cells, hence the only way to repair it is the formation of a scar. The risk for these
+patients after infarction is that the scar can break and lead to hemorrhage).
+Student: about prolonged shock, how much time can it require to be fatal?
+Professor: It is possible to die even immediately for every type of shock. In a few seconds it is possible to die.
+In case of a hypoperfusion, it is not so severe: it is possible either to restore the blood pressure since it is
+possible to activate some compensatory mechanism, or the patient must reach the hospital to be treated.
+However shock can be distinguished in phases, and it is possible to die even after 1-2 minutes. The duration
+of the prolonged shock depends on the severity and on the organ failure. It is not possible to define only one
+possibility. The time depends on the damage.
+Student: How long a cellule can sustain hypoxia?
+Professor: They can sustain it for a few hours. However, in case of severe myocardial infarction, the patient
+dies immediately, because there is a severe necrosis of a large area of the heart. Any situation depends on
+our capacity to compensate and also on the capacity of the medical doctor to restore the condition. There is
+not a defined time, it depends on the damage.
+Luca Polizzi, Endi Dingu
+62
+04.05.2023 LEONARDUZZI L.5
+- hypovolemic shock: low cardiac output due to low blood volume (inadequate blood or plasma
+volume). The causes are severe hemorrhage, indeed it is called also hemorrhagic shock (blood loss
+of more than 30%), and severe fluid loss (vomiting for many days, diarrhea, severe burns, and trauma
+that lead to a decreased blood volume, and so there is a decrease in cardiac output).
+- distributive shock: it’s associated with systemic inflammation (SIRS = systemic inflammatory
+response syndrome), which causes systemic vasodilation. Hence what is lost is a reduction in
+peripheral resistance due to a systemic vasodilation. All these inflammatory systemic diseases are
+characterized by a massive release of inflammatory mediators, in particular, histamine (it is the most
+responsible for vasodilation and also for the increase in permeability of the vascular wall.). There are
+2 types of distributive shock:
+o It’s typical in septic shock, caused by microbial and bacterial infections (mainly bacterial). In
+this situation, bacteria from the infective region diffuse in the circulation, leading to a
+systemic inflammatory response, characterized by the release of inflammatory mediators.
+The principal factor released is histamine, responsible mainly for systemic vasodilation and
+systemic permeability (hence there will be different edema distributed in the tissues). In the
+case of sepsis, there is a vasodilation and the pressure drops down.
+o Anaphylactic shock is caused by a hypersensitivity reaction, mediated by IgE, due to the
+presence of different antigens (drugs, hornet, wasp, bee and spider poisons, some foods,
+etc). After the first exposition of the antigen, generally, the patient doesn’t have problems,
+but starts to produce IgE antibodies, which bind to mast cells and basophils. During the
+second exposition of the antigen, the latter can bind to the IgE that are bound to the mast
+cells and basophils, which are both rich in granules containing histamine. The release of
+granules (degranulation) causes a release of a massive quantity of histamine that leads to
+vasodilation, so occurs a decrease in peripheral resistance, and the systemic increase in
+permeability (so edema and venous blood stasis),
+- less commonly, vascular causes (obstructive shock) and nerve causes (neurogenic shock after a
+severe spinal cord injury).
+In all shock states, there is hypotension and insufficiency of peripheral perfusion (skin, muscles, kidney,
+bowel); reactive vascular processes (modification of vessel caliber and flow).
+S
+TAGES OF SHOCK
+It’s possible to distinguish different stages, depending on the gravity of the event. If the event is massive and
+dramatic, the death is immediate; in the other conditions, which are less severe, the evolution is different:
+- initial nonprogressive stage: this stage is still reversible, the body tries to compensate for the
+circulatory collapse: catecholamines are released and act as vasoconstrictors, there is the activation
+of the renin-angiotensin axis (absorption of Na+ and water → increase blood volume → increase
+blood pressure), ADH is released (increases blood volume, by stimulating reabsorption of water),
+there is sympathetic stimulation by the heart (can lead to tachycardia that increases heart rate,
+increase in the peripheral vasoconstriction at the level of skin, spleen, kidney, in order to concentrate
+the blood to the vital organs. The skin appears pale, and sweaty due to peripheral vasoconstriction,
+and cold. The vasoconstriction occurs peripherally but not in the vital organs, so as to still supply
+them.), and urine excretion is reduced (= oliguria) to maintain blood volume. Hence the body tries to
+increase blood pressure by increasing both the cardiac output and the peripheral resistance.
+The compensatory mechanisms used to compensate for the circulatory collapse consist in increasing
+heart rate (tachycardia), increasing the volume (oliguria), increasing the activation of the renin-
+angiotensin axis, and increasing the peripheral resistance (catecholamine release).
+Luca Polizzi, Endi Dingu
+63
+04.05.2023 LEONARDUZZI L.5
+- If the patient is not able to restore the damage and cellular injury, there is a progression of the shock:
+progressive stage. It is characterized by tissue hypoperfusion. After tissue hypoxia, there is a
+deficiency in oxygen, hence the aerobic metabolism is replaced by the anaerobic one, leading to the
+production of a large amount of lactate (lactic acidosis). This leads to the reduction of the pH and
+stasis at the level of the arterioles, in which the blood pools in the microcirculation. Slowly, because
+of hypoxia, cellular injury, and dysfunction of many vital organs, it will develop a Multi-Organ Failure.
+In particular, the first failure will be of the kidneys (renal insufficiency), with a follow fall in the urine
+output.
+- irreversible stage: severe cellular and tissue injury. Survival is not possible anymore because a lot of
+organs are impaired (liver, heart, lungs, brain), in particular, kidneys because they can’t excrete urine
+(anuria). Eventually, the patient will die.
+C
+LINICAL MANIFESTATIONS
+- hypotension, weak and rapid pulse, tachypnea.
+- non-reactive, skin with colorless or extreme pallor and cool (it’s only hot with septic shock due to
+fever caused by bacterial infection), cold sweat, cyanotic lips.
+- dizziness and loss of consciousness depend on the reduction of cerebral perfusion.
+- failure of organs that leads to death.
+P
+ATHOGENESIS OF SEPTIC SHOCK
+It’s responsible for more than 20% of deaths. Most frequently it is triggered by gram-positive bacterial
+infections, followed by gram-negative bacteria and fungi.
+There is a generalized inflammatory response, characterized by the activation of both inflammatory and
+immune cells, with the release of inflammatory mediators (histamine is the most important). There is also
+the release of many procoagulant factors. In the beginning (Fig. 8), there is the spreading of bacteria in all
+the circulation, followed by the activation of inflammatory immune cells, in particular those that present a
+toll-like receptor (TLR), that have a pro-inflammatory response (releasing cytokines and all the inflammatory
+mediators). However, the bacteria can also stimulate the release of the procoagulant factors.
+Then there is the endothelial activation and injury, with consequent dysfunction of the endothelium. It
+happens because the inflammatory response is not local, but is generalized, it affects all the body. The
+principal manifestations are vasodilation, increased permeability, and increased perfusion (can contribute to
+the MOF). Some pro-coagulation factors are stimulated, hence there is a reduction in the antifibrinolytic
+factors, which leads to the risk is the formation of a small thrombus in the vessels that can obstruct the
+circulation, hence disseminated intravascular coagulation (DIC). DIC can be characterized by a hemorrhagic
+or thrombotic event. An increased presence of pro-coagulation factors and a reduced washout of activated
+coagulation factors can be responsible for the activation of thrombin and the formation of fibrin. Hence in
+the case of septic shock, there is the appearance of microvascular thrombosis.
+The presence of these thrombi in circulation can be responsible for ischemia, which can contribute to MOF.
+In the case of septic shock, there can be also the activation of the immune system and some systemic effects
+(fever, reduced myocardial contractility) that can contribute to MOF and finally to the death of the patient.
+Another point in a patient affected by septic shock is insulin resistance and hyperglycemia, because glucose
+can be uptaken by target cells through GLUT-4, and due to the release of many cytokines by inflammatory
+cells, cytokines can impair the expression of glucose transporter (GLUT-4) on the surface of target cells. Even
+if there is hyperglycemia, the patient is not diabetic, there is an alteration of glucose receptors. As a
+consequence, glucose cannot be used by the target cells as an energy source. It’s the reason why it’s easy to
+observe hyperglycemia and insulin resistance during septic shock.
+Question from 2021-2022
+Luca Polizzi, Endi Dingu
+64
+04.05.2023 LEONARDUZZI L.5
+Q: Does the absence of GLUT-4 cause ketoacidosis?
+A: Yes
+The last step is organ dysfunction, caused by systemic hypotension, interstitial edema, and small vessel
+thrombosis. It happens mainly in the liver, lungs, heart, kidneys. All these causes the death of the patient.
+Fig. 8
+Luca Polizzi, Endi Dingu
+65

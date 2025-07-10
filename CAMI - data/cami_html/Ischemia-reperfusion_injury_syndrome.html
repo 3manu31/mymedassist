@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Ischemia-reperfusion injury:syndrome</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8102-9ff0-e376d8ae7ba5" class="page sans"><header><h1 class="page-title">Ischemia-reperfusion injury:syndrome</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-8170-8164-decf35d4eeb6" class="">Ischemia-reperfusion syndrome</p><p id="2297904f-03a9-8131-bf99-e1d49c77a400" class="">●what is the difference between hypoxia and ischemia?</p><p id="2297904f-03a9-81f1-8098-c831f09e2320" class="">ischemia is defined as the hypoperfusion of the tissue (normally due to obstruction of arterial blood flow). The condition of ischemia leads to hypoxia, which is lack of oxygen.</p><p id="2297904f-03a9-81f2-82ad-e5631fffc573" class="">●what is ischemia reperfusion syndrome?</p><p id="2297904f-03a9-81ad-8ed9-e8d0546a2c35" class="">It is a process by which restoration of blood flow to ischemic tissues can paradoxically exacerbate cell injury and cause cell death. As a consequence, reperfused tissues may sustain loss of viable cells in addition to those that are irreversibly damaged by the ischemia.</p><p id="2297904f-03a9-8166-bd3b-d65f33a192dc" class="">●in which cases do we normally see ischemia-reperfusion injury? after organ transplantation, myocardial infarction, stroke, coronary angioplasty, thrombolytic therapies, cross-clamping aorta, etc.</p><p id="2297904f-03a9-8145-808f-e61ba0d566a4" class="">●what are the cellular changes that take place during ischemia? changes that we see during necrosis, so:</p><p id="2297904f-03a9-8166-96d8-fa6468304c06" class="">○ Ion pump dysfunction</p><p id="2297904f-03a9-8171-a4c3-f4dde6755452" class="">◆Altered permeability of the membrane which leads to</p><p id="2297904f-03a9-81b4-9bbd-d96eb91d03de" class="">◇ altered membrane potential</p><p id="2297904f-03a9-81a9-b6f8-fa22f9a574e8" class="">◆alteration ion distribution → in particular increase of intracellular Ca2+</p><p id="2297904f-03a9-81c9-9766-ec8dc5e92db6" class="">◆Decreased ATP → accumulation of hypoxanthine.</p><p id="2297904f-03a9-810b-8c73-ca0f4f190301" class="">◆Cellular swelling</p><p id="2297904f-03a9-8146-b246-c142c70f3725" class="">○ Cytoskeletal actin disorganization and disorganization of the membranes of organelles</p><p id="2297904f-03a9-8183-81ea-ec9a7e75474e" class="">○ Cell acidosis: due to the dysregulation of intracellular ions. There is a low PH (acidosis).</p><p id="2297904f-03a9-814f-a057-dfac5d2d2d1d" class="">●what are the complications of ischemia-reperfusion injury?</p><p id="2297904f-03a9-8126-92d4-f3b38990f2f5" class="">it can induce systemic inflammatory response syndrome (SIRS), which in turn can induce the multiple organ dysfunction syndrome (MODS)</p><p id="2297904f-03a9-8115-8961-f54bbe41b62e" class="">●What is the role of calcium in the pathogenesis of apoptotic cell death?</p><p id="2297904f-03a9-81fe-b53a-d58454d7c398" class="">When Ca++ intracellular concentration increases, it triggers the opening of mitochrondial permeability transition pores (MPTP) leading to the release of Cytochrome C → Activating the intrinsic pathway of apoptosis</p><p id="2297904f-03a9-81e7-8dad-e0df3216e142" class="">At the same time, increasing in intracellular Ca++ , can activate the Caspase-12 → activate Caspase-9 → needed together with Cyt c and APAF1 to form the APOPTOSOME, and the triggering of the intrinsic pathway.</p><p id="2297904f-03a9-81d0-87f6-fb52655bf062" class="">●</p><figure id="2297904f-03a9-81cb-9163-e5b37ee5c896" class="image"><a href="Ischemia-reperfusion%20injury%20syndrome%202297904f03a981029ff0e376d8ae7ba5/image1.png"><img style="width:48px" src="Ischemia-reperfusion%20injury%20syndrome%202297904f03a981029ff0e376d8ae7ba5/image1.png"/></a></figure><p id="2297904f-03a9-81bc-9c18-cd0ea9ce04ce" class="">●Ischemia reperfusion injury: molecular mechanisms of damage and therapeutic attempt by preconditioning</p><p id="2297904f-03a9-81c5-814a-e46b5184e3a7" class="">Ischemia is defined as lack of oxygen and nutrients to a tissue due to flow obstruction. Reperfusion is instead the phenomenon of restoring the flow.</p><p id="2297904f-03a9-81a0-b08f-c5bdf1927038" class="">During ischemia, oxygen is lacking; for this reason the production of energy decreases; because of the decrease of ATP, cellular pumps cannot work. This induces a complete alteration of the membrane potential and alteration of the distribution of the ions (a lot of Ca++ can go in and activated proteases and other pathways). Moreover, the osmotic balance is lost and the cell start to swell. Cytoskeletal</p><p id="2297904f-03a9-8135-b35f-d1a655468053" class="">arrangement is also impaired. The metabolism of cells will switch to anaerobic glycolysis, with the production of lactate, thus acidosis occurs. Because of the decreased energy production ATP precursors such as hypoxanthine will accumulate. Hypoxanthine is usually</p><p id="2297904f-03a9-81ce-b601-d49c12e78490" class="">metabolized by the enzyme xanthine dehydrogenase, which in hypoxic condition turns to xanthine oxidase. Hypoxanthine is transformed by xanthine oxidase in xanthine and then in uric acid, with the</p><p id="2297904f-03a9-8163-b1a7-d0df61fe9046" class="">production of superoxide anion. The activity of xanthine oxidase is low during ischemia, because it requires oxygen; therefore the biggest production of O- will actually be during reperfusion, when oxygen is available. Superoxide ion is a reactive oxygen species; ROS are indeed important for cellular communication in physiological</p><p id="2297904f-03a9-81a6-b962-c7fa02be015e" class="">conditions, but can be dangerous in ischemic condition because of the massive production, which cannot be counterbalanced by the normal anti-oxidant response (which includes CAT SOD glutathione</p><p id="2297904f-03a9-8188-86b5-e032be539c15" class="">peroxidase and reductase, vitamin A, C and E). Not balanced</p><p id="2297904f-03a9-812c-b4ef-c91236a0c2d9" class="">production of ROS results in cellular damage, fibrosis, induction of several inflammatory pathways (such as NFkB and AP-1)</p><p id="2297904f-03a9-8137-a72e-ee5138784875" class="">During ischemia, the vasculature will increase the expression of</p><p id="2297904f-03a9-812f-a4e2-dca3ce1733fc" class="">vasoconstrictor such as endothelin, and reduce the expression of vasodilators as NO.</p><p id="2297904f-03a9-8123-8355-fe1e7c0d599a" class="">Moreover, pro inflammatory molecules will induce the adhesion and transmigration of inflammatory cells. In particular, degranulation of neutrophils will increase the amounts of ROS: NADPH oxidase</p><p id="2297904f-03a9-812f-a40c-dc6b9ad7eb76" class="">produces superoxide ions, which is then metabolized by SOD to form hydrogen peroxide. Hydrogen peroxide is then metabolized either by a catalase (and transformed in water and oxygen), transformed in OH- in the presence of iron, or it is transformed in HOCL by myeloperoxidase.</p><p id="2297904f-03a9-81c2-980f-ca292d7cc909" class="">In any case, during reperfusion, the recruitment of neutrophils is even more increased: this phenomenon can result in a mechanical obstruction, which impedes the restoration of the flow.</p><p id="2297904f-03a9-81cc-8fc2-cdeadf526d8c" class="">Another important role is played by the complement, especially by C5 and C3, which can remodel the vasculature and especially during</p><p id="2297904f-03a9-81fa-97ab-fbf6f7f37ac9" class="">reperfusion amplify the ischemic damage.</p><p id="2297904f-03a9-81d5-8943-f2027b39370f" class="">Preconditioning is a technique aimed to prevent ischemia-reperfusion damage. It is especially important in transplants, in order to avoid a huge necrosis of the tissues due to the reperfusion (as in liver</p><p id="2297904f-03a9-8110-9de8-c4a5c116af94" class="">transplant). It consists of alternating moments of moderate ischemia (hypoxia and lack of nutrients), in order to induce a compensating response. In particular, adenosine has a huge role, creating two windows of defense.</p><p id="2297904f-03a9-81c6-9afb-dc478cc10a0c" class="">○ The first windows is 2-3- hours after the preconditioning: it is due to the activation of the PKC pathway</p><p id="2297904f-03a9-8117-b7b4-e82644071f98" class="">○ The second window 24-48 h after the preconditioning is related to the transcription of the NFkB transcription factor. NFkB induces the expression of a number of molecules, such as lipoxins,</p><p id="2297904f-03a9-81d6-bc2d-eefeae2ac430" class="">resolvins iNOS (inducible nitrite oxidase syntase), catalase and superoxide dismutase ecc</p><p id="2297904f-03a9-810f-98b0-e796a91e7880" class="">○ Even if the preconditioning technique can be quite useful and effective, in clinical settings it is always preferable to restore the flow as soon as possible in case of ischemia.</p><p id="2297904f-03a9-81ad-bae8-c3f411528fcc" class="">●what are the therapeutic strategies to prevent I-R?</p><p id="2297904f-03a9-81d8-a747-e77eb89a06bc" class="">Ischemic Preconditioning: only in the clinical cases in which we ○</p><p id="2297904f-03a9-81c6-845c-d5840f1d3bee" class="">know that ischemia reperfusion will occur, like in transplantation.</p><p id="2297904f-03a9-81c5-8062-e364006ed6d9" class="">○ Antioxidant Therapy: to the patients that are under heart attack for example.</p><p id="2297904f-03a9-819a-a7b9-e6b0fd7afcdc" class="">◆Superoxide dismutase (experimental human recombinants in patients with hemorrhagic shock)</p><p id="2297904f-03a9-81a6-bc82-c07a02a41307" class="">◆Catalase, mannitol, vitamin E, N-acetylcysteine, iron chelating compounds,</p><p id="2297904f-03a9-815d-b063-f71c2f73b82b" class="">◆Allopurinol (inhibit xanthine oxidase activity)</p><p id="2297904f-03a9-8178-ae78-dcc4886c9b8b" class="">◆ACE (angiotensin-converting enzyme) inhibitors to reduce Ca++ cell influx, or calcium channel antagonists</p><p id="2297904f-03a9-81fe-8bf1-e52421046ceb" class="">○ Anti-complement Therapy: is activated by the arrival of</p><p id="2297904f-03a9-81b4-873b-c7feb1c30e91" class="">leukocytes.</p><p id="2297904f-03a9-8101-ad4d-dc47bf37057e" class="">◆C3 convertase inhibitor</p><p id="2297904f-03a9-8141-8eaf-e33ef1421d3d" class="">◆Soluble complement receptor 1 decreases infarct size by 44% in a rat model of myocardial I-R.</p><p id="2297904f-03a9-8142-94c0-cae317536a82" class="">◆“Humanized” recombinant, single-chain antibody specific for human C5 (h5G1.1-scFv)</p><p id="2297904f-03a9-81ed-aad9-f15a5ca9a77c" class="">○ Anti-leukocyte Therapy: to avoid the accumulation of leukocytes in the necrotic tissue.</p><p id="2297904f-03a9-81cf-a3fe-f5c2b4c764f7" class="">◆Leukocyte depletion/ Filtration (leukopheresis)</p><p id="2297904f-03a9-811b-af58-e31e8dbf11ac" class="">◆Soluble interleukin-1 receptor antagonists, anti–tumor necrosis factor antibodies, or platelet activation factor–leukotriene B4 antagonists</p><p id="2297904f-03a9-8113-bfae-fa739ac7b59a" class="">◆Aspirin-triggered lipoxins prevent chemotaxis, adhesion, and</p><p id="2297904f-03a9-814d-a49f-f802fb7f4168" class="">◆</p><p id="2297904f-03a9-8118-8a0e-d9bbc323acff" class="">transmigration of neutrophils</p><p id="2297904f-03a9-8119-bbe8-e757cc7384f2" class="">●The last three therapies are given to the patients that are under heart</p><p id="2297904f-03a9-81e2-b7a4-f621496e1285" class="">attack. They try to decrease the damage due to the formation of ROS.</p><p id="2297904f-03a9-818c-98b0-ecdd7a2923cf" class="">●explain ischemic preconditioning</p><p id="2297904f-03a9-814b-80af-eea5071e218a" class="">It is a measure of prevention that can be applied before hepatic</p><p id="2297904f-03a9-81a6-8f72-fa939652f148" class="">resection or a bypass procedure of a coronary artery.</p><p id="2297904f-03a9-817f-965e-c018da8e4114" class="">An exposure of tissues to brief periods of ischemia before the real,</p><p id="2297904f-03a9-8121-a143-fc39deb87863" class="">high ischemia, induces a protective effect that consists of an initial</p><p id="2297904f-03a9-81c7-8b0e-ee6c44011603" class="">window of protection 2-3 hours after the reperfusion and a second</p><p id="2297904f-03a9-8147-9688-eff050ba8fd9" class="">window 24-28h after</p><p id="2297904f-03a9-81a3-bcaf-f5101227dc82" class="">This is the time it takes to induce the cascades, triggered by the</p><p id="2297904f-03a9-813e-bab2-c21d8bad40fb" class="">release of adenosine and the activation of GPRC pathways → PKC</p><p id="2297904f-03a9-8196-ba6f-d1851ef9d310" class="">→ NFkB and others → transcription of endogenous antioxidants,</p><p id="2297904f-03a9-8195-bd36-e984e221d14f" class="">increase in ATP, and inhibition of leukocyte adherance</p><p id="2297904f-03a9-81ee-9de5-f426fa5312d4" class="">●What are some Therapeutic strategies to attenuate I/R injury?</p><p id="2297904f-03a9-812e-9ef9-e112044a36b4" class="">○ Controlled, graded reperfusion</p><p id="2297904f-03a9-8101-9d2a-e63ec2df8b2e" class="">○ Ischemic preconditioning</p><p id="2297904f-03a9-8179-8afb-f6a53334f1d9" class="">○ Aspirin-triggered lipoxin analogs</p><p id="2297904f-03a9-81e9-9d95-f4efae9028a6" class="">○ Antioxidants: SOD, iron chelating compounds,</p><p id="2297904f-03a9-8144-9431-ed8936ed76c8" class="">mannitol, .allopurinol, vitamin E, N-acetylcysteine</p><p id="2297904f-03a9-81cf-aea9-cafa96abc2aa" class="">○ Anti-complement Therapy: anti-C5(h5G1.1-scFv)</p><p id="2297904f-03a9-81b0-bc86-d41fda52904e" class="">○ Calcium antagonist</p><p id="2297904f-03a9-8135-875d-c461aa79b978" class="">○ Leukocyte depletion / Filtration (apheresis)</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

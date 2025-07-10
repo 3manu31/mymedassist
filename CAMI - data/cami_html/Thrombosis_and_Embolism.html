@@ -1,0 +1,681 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Thrombosis and Embolism</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8120-ab23-ee6b8894f9bc" class="page sans"><header><h1 class="page-title">Thrombosis and Embolism</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-8185-8ed3-d4937212de49" class="">Thrombosis and Embolism</p><p id="2297904f-03a9-811f-9596-d3881dee4360" class="">●What causes thrombosis?</p><p id="2297904f-03a9-81d2-b8c8-f3cac88e9952" class="">The primary abnormalities that lead to thrombosis are the so-called</p><p id="2297904f-03a9-81d7-87c1-f8e02fe70726" class="">Virchow triad</p><p id="2297904f-03a9-8162-a924-d32b639f003f" class="">1. endothelial injury</p><p id="2297904f-03a9-816a-8e08-eded6557de1d" class="">2. stasis or turbulent blood flow</p><p id="2297904f-03a9-8102-b36d-f10ecd20ca64" class="">3. hypercoagulability of the blood</p><p id="2297904f-03a9-8145-ae5e-dc039f8a8edb" class="">
+</p><figure id="2297904f-03a9-818e-8a4a-ca535897e463" class="image"><a href="Thrombosis%20and%20Embolism%202297904f03a98120ab23ee6b8894f9bc/image1.png"><img style="width:48px" src="Thrombosis%20and%20Embolism%202297904f03a98120ab23ee6b8894f9bc/image1.png"/></a></figure><p id="2297904f-03a9-815e-b9ab-d0d0ace83bfe" class="">●What damages the endothelium?</p><p id="2297904f-03a9-8105-86e3-cb0cbed11776" class="">Inflammation, toxins (smoking), hypercholesterolemia,</p><p id="2297904f-03a9-81d5-82e0-e96508896eea" class="">hyperhomocyteinemia, physical injury, abnormal blood flow, etc.</p><p id="2297904f-03a9-818e-a4f8-ed99edc8ba04" class="">●By which mechanism does endothelial injury cause thrombosis?</p><p id="2297904f-03a9-8180-8f36-dcf12419424d" class="">Injury to ECs cause them to switch their gene expression to a</p><p id="2297904f-03a9-8169-b663-d9edb58f46b9" class="">procoagulant one</p><p id="2297904f-03a9-8111-ab8c-d8d65051d391" class="">○ down-regulation of Thrombomodulin, Protein C, and Tissue Factor</p><p id="2297904f-03a9-8134-b7cf-d8ce5fd4d675" class="">Protein inhibitor.</p><p id="2297904f-03a9-8123-8dda-c4aa311c3f51" class="">○ secretion of plasminogen activator inhibitors (PAIs), which limit</p><p id="2297904f-03a9-81b0-8ce5-eab445dad504" class="">fibrinolysis, and downregulate the expression of t-PA.</p><p id="2297904f-03a9-8120-b910-fd8b3387a5ae" class="">●By which mechanism does turbulence cause thrombosis?</p><p id="2297904f-03a9-8153-8218-fb325ad9ce87" class="">Turbulence contributes to arterial and cardiac thrombosis by causing</p><p id="2297904f-03a9-817d-9cec-c58efd382350" class="">endothelial injury or dysfunction as well as by forming</p><p id="2297904f-03a9-8138-bacf-df3ea95a09d5" class="">countercurrents that contribute to local pockets of stasis (Different</p><p id="2297904f-03a9-8104-afe5-f8b71d2051f8" class="">from stasis of the venous circulation that is more generalized and a</p><p id="2297904f-03a9-8150-9d34-d41cf04c8fc3" class="">major contributor to the development of venous thrombi)</p><p id="2297904f-03a9-817a-88a4-d40669eca51f" class="">Normal blood flow is laminar such that the platelets (and other blood</p><p id="2297904f-03a9-81d6-b85e-df5bc2d2a93e" class="">cellular elements) flow centrally in the vessel lumen, separated from</p><p id="2297904f-03a9-8138-81d8-c857af9bb211" class="">the endothelium by a slower moving layer of plasma. Turbulence and</p><p id="2297904f-03a9-817b-8831-fa740b489fb2" class="">stasis therefore:</p><p id="2297904f-03a9-811e-a4ce-d5cf99203d89" class="">○ Promote endothelial activation, enhancing procoagulant activity</p><p id="2297904f-03a9-819e-9f56-c683e3e3aef2" class="">and leukocyte adhesion, in part through flow- induced changes in</p><p id="2297904f-03a9-8101-9e7b-dab9609e3179" class="">the expression of adhesion molecules and pro-inflammatory</p><p id="2297904f-03a9-8111-bd2e-d2f027e7a4e9" class="">factors</p><p id="2297904f-03a9-81ac-9eba-fa7005f7885f" class="">○ Disrupt laminar flow and bring platelets into contact with the</p><p id="2297904f-03a9-814f-92d2-e6c8bcb2c367" class="">endothelium</p><p id="2297904f-03a9-81d3-a3e7-fe7c69ff3faa" class="">○ Prevent washout and dilution of activated clotting factors by fresh</p><p id="2297904f-03a9-8154-8b01-fdca003a2f36" class="">flowing blood and the inflow of clotting factor inhibitors</p><p id="2297904f-03a9-81a1-9af0-ffb0948fad39" class="">●What can cause turbulence or similar blood flow alterations that</p><p id="2297904f-03a9-8153-b8ae-edc363c8d05d" class="">promote thrombosis?</p><p id="2297904f-03a9-8198-8243-e1d0ecbb711b" class="">○ atherosclerotic plaque → turbulence</p><p id="2297904f-03a9-81cf-85e6-eedd7761646b" class="">○ Atrial fibrillation, dilated atrium → stasis (major)</p><p id="2297904f-03a9-810b-97d3-e66cc9276098" class="">○ Aneurysms→ stasis</p><p id="2297904f-03a9-81be-aa95-f033a794df8f" class="">○ Sickle cell anemia→ stasis</p><p id="2297904f-03a9-81fa-bfa0-fbee4dbabcae" class="">○ Hyper viscosity→ stasis</p><p id="2297904f-03a9-8160-b150-e07ce37f7751" class="">●What are the possible causes of hypercoagulability?</p><p id="2297904f-03a9-817c-8bdf-f474517d5d5c" class="">Hypercoagulability refers to an abnormally high tendency of the blood</p><p id="2297904f-03a9-8128-8616-eaba11e5a32e" class="">to clot, and is typically caused by alterations in coagulation factors.</p><p id="2297904f-03a9-8172-816e-d47f62d25db1" class="">Hypercoagulability has a particularly important role in venous</p><p id="2297904f-03a9-8145-b39e-f7822d36e7ad" class="">thrombosis and can be divided into primary (genetic) and secondary</p><p id="2297904f-03a9-81a4-a3f9-c6e8e8d26962" class="">(acquired) disorders (Table 4.2). Of the inherited causes of</p><p id="2297904f-03a9-81a1-91dd-ca6cbbab8ae6" class="">hypercoagulability,</p><p id="2297904f-03a9-81ce-973c-c76ebb311408" class="">●</p><figure id="2297904f-03a9-818f-ae1d-da29136ebb09" class="image"><a href="Thrombosis%20and%20Embolism%202297904f03a98120ab23ee6b8894f9bc/image1.png"><img style="width:48px" src="Thrombosis%20and%20Embolism%202297904f03a98120ab23ee6b8894f9bc/image1.png"/></a></figure><p id="2297904f-03a9-8108-8213-f330bc53cd02" class="">●Describe the morphology of different thrombi</p><p id="2297904f-03a9-812a-9d8a-d93fab1fa5ba" class="">Arterial or cardiac thrombi usually begin at sites of turbulence or</p><p id="2297904f-03a9-816a-89ee-f56f5bb02b1c" class="">endothelial injury, whereas venous thrombi characteristically occur at</p><p id="2297904f-03a9-8152-9881-d86e6a213704" class="">sites of stasis.</p><p id="2297904f-03a9-8125-b86b-d0ff6d565b31" class="">Thrombi are focally attached to the underlying vascular surface,</p><p id="2297904f-03a9-8174-8d3c-efc69c6f9a7a" class="">particularly at the point of initiation.. The propagating portion of a</p><p id="2297904f-03a9-8163-b2d7-fc5a84d148a5" class="">thrombus is often poorly attached and therefore prone to</p><p id="2297904f-03a9-81f5-b9f8-e9e701c0e34b" class="">fragmentation and embolization.</p><p id="2297904f-03a9-8116-b31e-c2b9609bd785" class="">Mural thrombi:</p><p id="2297904f-03a9-817a-b8fb-de5061139d10" class="">○ Thrombi in heart chambers or in the aortic lumen</p><p id="2297904f-03a9-81ac-9585-f72fa25d3a65" class="">○ Risk factors: abnormal myocardial contraction (arrhythmias, dilated</p><p id="2297904f-03a9-8165-80c0-c9b6a169a579" class="">cardiomyopathy, or MI) or endomyocardial injury (myocarditis or</p><p id="2297904f-03a9-815a-86fb-cce5d0f38d99" class="">catheter trauma)</p><p id="2297904f-03a9-81c8-9864-e8f163ff84b8" class="">○ In the aorta they frequently develop from ulcerated</p><p id="2297904f-03a9-8177-b7ad-dc34ed02af8f" class="">atherosclerotic plaque and aneurysmal dilation.</p><p id="2297904f-03a9-812c-95ea-e5afefc2acd0" class="">●Vegetations</p><p id="2297904f-03a9-81a8-881f-d2551c7ea636" class="">○ thrombi on heart valves</p><p id="2297904f-03a9-8112-9529-f82ae71b36e9" class="">○ may be infected or sterile</p><p id="2297904f-03a9-81af-a968-d3be81a06d5a" class="">◆Blood-borne bacteria or fungi can adhere to previously</p><p id="2297904f-03a9-81f2-9724-fe35dfd113a6" class="">damaged valves or may cause valve damage directly; in either</p><p id="2297904f-03a9-816a-8d7b-d2fabef13332" class="">case, endothelial injury and disturbed blood flow can induce</p><p id="2297904f-03a9-81b8-b02c-c2f1df8608b0" class="">the formation of large thrombotic masses</p><p id="2297904f-03a9-81bb-93f7-d10024f798cd" class="">◆Sterile vegetations can develop on hypercoagulable states</p><p id="2297904f-03a9-81ce-8471-f36388394155" class="">(nonbacterial thrombotic endocarditis)</p><p id="2297904f-03a9-817c-bdf4-c253e8a1c44f" class="">●Arterial thrombi → WHITE THROMBI</p><p id="2297904f-03a9-81f2-abd1-df312fcbd331" class="">○ frequently occlusive, most common sites: coronary, cerebral, and</p><p id="2297904f-03a9-8167-b969-f773253592a5" class="">femoral arteries.</p><p id="2297904f-03a9-816b-81c6-cbcde7e19836" class="">○ Morphology: meshwork of platelets, fibrin, red cells, and</p><p id="2297904f-03a9-81be-a8df-c7627e0fbadf" class="">degenerating leukocytes,</p><p id="2297904f-03a9-81b8-8f9b-c1678f7f269d" class="">○ grow retrograde TOWARDS THE HEART</p><p id="2297904f-03a9-8111-a1f1-e95be3eb18ae" class="">○ usually superimposed on a ruptured atherosclerotic plaque. Other</p><p id="2297904f-03a9-8141-a3b1-e92b5f121cad" class="">vascular injuries (vasculitis, trauma) may be the underlying cause.</p><p id="2297904f-03a9-8184-9267-ce1101f2e453" class="">○ Commonly found in: coronary, cerebral and femoral arteries</p><p id="2297904f-03a9-812f-9bc9-e32abbb72550" class="">●Venous thrombosis (phlebothrombosis) → RED THROMBI</p><p id="2297904f-03a9-8116-819a-dd906dd401e0" class="">○ almost always occlusive.</p><p id="2297904f-03a9-81df-bbad-e78d2c61b083" class="">○ contain more red cells and relatively few platelets (red thrombi). They are firm, focally attached to the vessel wall, and contain lines of Zahn ( pale platelet and fibrin deposits alternating with darker red cell–rich layers), Such laminations signify that a thrombus has formed in flowing blood, features that help distinguish them from postmortem clots .</p><p id="2297904f-03a9-81c4-9265-ef6d9c580bce" class="">○ 90% of cases happen in veins of lower extremities.</p><p id="2297904f-03a9-8134-81d1-f58ee624c7d5" class="">○ extend in the direction of blood flow; thus both propagate toward the heart</p><p id="2297904f-03a9-8192-8be1-dea569988326" class="">○ Superficial venous thrombi affect the saphenous vein in the presence of varicose veins (varicosities): local pain, congestion, swelling, tenderness varicose ulcers. Rare embolization</p><p id="2297904f-03a9-8169-b46e-c63db5ad2ce3" class="">○ DVT affect the popliteal, femoral, iliac veins: asymptomatic in 50% of cases; local pain and edema in the remaining cases. More serious because they can embolize → pulmonary embolism</p><p id="2297904f-03a9-81b9-8412-d98a5757e384" class="">○ They occur in stasis and hypercoagulability states: bed</p><p id="2297904f-03a9-8102-8205-c30aa77ec067" class="">immobilization, congestive heart failure, tumors, trauma, advanced age.</p><p id="2297904f-03a9-81ec-8781-e3eba298f4aa" class="">●Postmortem clots</p><p id="2297904f-03a9-81cd-a9cb-eb73cbc17616" class="">○ gelatinous and have a dark-red dependent portion where red cells have settled by gravity and a yellow “chicken fat” upper portion, and are usually not attached to the underlying vessel wall.</p><p id="2297904f-03a9-81c1-bc42-c16c957df7e6" class="">●Describe the evolution of a thrombus</p><p id="2297904f-03a9-81de-95bd-ed18ca98b870" class="">If a patient survives the initial thrombosis, in the ensuing days to weeks thrombi undergo some combination of the following four events: 1. Propagation: thrombi accumulate additional platelets and fibrin 2. Embolization: thrombi dislodge and travel to other sites in the vasculature</p><p id="2297904f-03a9-81c0-998e-c5b5b235e0fa" class="">3. Dissolution: the result of fibrinolysis → rapid shrinkage and total disappearance of <em>recent</em> thrombi. Extensive fibrin deposition and cross-linking in <em>older</em> thrombi render them more resistant to lysis.</p><p id="2297904f-03a9-8109-b07c-cccd2eff543e" class="">This distinction explains why therapeutic administration of</p><p id="2297904f-03a9-8163-b5f6-fafd2b5c5332" class="">fibrinolytic agents such as t-PA (e.g., in the setting of acute</p><p id="2297904f-03a9-81b0-90e5-efdfd85bf639" class="">coronary thrombosis) is generally effective only when given during the first few hours of a thrombotic event.</p><p id="2297904f-03a9-81c0-9803-f19eb85e6a09" class="">4. Organization and recanalization: Older thrombi become</p><p id="2297904f-03a9-8113-b2bb-faf0fbab0ca8" class="">organized by the ingrowth of endothelial cells, smooth muscle cells, and fibroblasts. Capillary channels eventually form that reestablish the continuity of the original lumen, albeit to a variable degree. Continued recanalization may convert a thrombus into a smaller mass of connective tissue that becomes incorporated into the vessel wall. Eventually, with remodeling and contraction of the mesenchymal elements, only a fibrous lump may remain to mark</p><p id="2297904f-03a9-816c-93b7-c0a4aa3a6829" class="">the original thrombus</p><p id="2297904f-03a9-818a-bce1-fd4d9720a5bf" class="">●Clinical presentation of thrombosis?</p><p id="2297904f-03a9-817a-80d9-e817d2a08fea" class="">Thrombi come to clinical attention when they obstruct arteries or</p><p id="2297904f-03a9-811c-9f8a-d7019be4eb32" class="">veins, or give rise to emboli. The clinical presentation depends on the</p><p id="2297904f-03a9-81c1-9a38-fcd19bbc68fc" class="">involved site.</p><p id="2297904f-03a9-810b-b257-c0f4ff2c4541" class="">○ Venous thrombi can cause:</p><p id="2297904f-03a9-814e-930d-ef9835bc383f" class="">◆painful congestion and edema distal to an obstruction</p><p id="2297904f-03a9-81a4-b86b-f41d6dbe58a6" class="">◆pulmonary embolism</p><p id="2297904f-03a9-81f3-b647-d329e56bfe95" class="">○ arterial thrombi</p><p id="2297904f-03a9-81cf-a7dd-fb09740530c0" class="">◆can embolize and cause downstream infarctions</p><p id="2297904f-03a9-81cf-a377-fb19bee0924d" class="">◆occlusion of a critical vessel (e.g., a coronary or cerebral</p><p id="2297904f-03a9-8108-ae5e-fc4242e6a27f" class="">artery)→ infarction</p><p id="2297904f-03a9-81a9-9dca-caf4e4ad0713" class="">●Prevention and Treatment of thrombosis</p><p id="2297904f-03a9-81a4-8076-c0867c86b86f" class="">Main antithrombotic therapies:</p><p id="2297904f-03a9-8125-93c6-ff43e226ba82" class="">○ Antiplatelet drugs (Aspirin)</p><p id="2297904f-03a9-818e-ab10-e6fd94446783" class="">○ Anticoagulants (heparin, dicumarolic)</p><p id="2297904f-03a9-8117-90af-f0c163aa60f7" class="">○ Activators of the fibrinolytic system (plasminogen activators)</p><p id="2297904f-03a9-816f-a098-d07a33bc21a2" class="">●Thrombus removal:</p><p id="2297904f-03a9-810f-aa42-ec9777ac61b3" class="">○ Angioplasty and subsequent placement of a medicated STENT</p><p id="2297904f-03a9-816e-97c8-c2a503f4549b" class="">(with antiproliferative and antithrombotic factors)</p><p id="2297904f-03a9-81bd-81a9-f32279ff748e" class="">●Thrombotic disease prevention:</p><p id="2297904f-03a9-81b5-ba4e-e78e1be1be8e" class="">○ Risk factor control (diet, hypercholesterolemia, physical activity,</p><p id="2297904f-03a9-81fb-a222-e93c37656dac" class="">lifestyle, smoking, oral contraceptives, etc.)</p><p id="2297904f-03a9-814d-8140-ca847fdcc193" class="">●What is an embolus?</p><p id="2297904f-03a9-81cc-9c2a-d7c83537968b" class="">An embolus is a detached intravascular solid, liquid, or gaseous</p><p id="2297904f-03a9-81cd-9629-c8c7fb555171" class="">mass that is carried by the blood from its point of origin to a distant</p><p id="2297904f-03a9-8129-8a26-cd4819406841" class="">site, until they encounter vessels too small to permit further passage,</p><p id="2297904f-03a9-8143-8252-c7c3fdf7813c" class="">causing partial or complete vascular occlusion→ tissue dysfunction or</p><p id="2297904f-03a9-8123-89c8-ef0c9f59b1c1" class="">infarction.</p><p id="2297904f-03a9-8181-8578-d649d161bf35" class="">The vast majority of emboli are dislodged thrombi, hence the term</p><p id="2297904f-03a9-81d1-942e-ca628e7fd658" class="">thromboembolism.</p><p id="2297904f-03a9-8113-b660-fb54d34c4c22" class="">Other rare emboli are composed of fat droplets, nitrogen bubbles,</p><p id="2297904f-03a9-81e5-96bd-c48aebac949d" class="">atherosclerotic debris (cholesterol emboli), tumor fragments, bone</p><p id="2297904f-03a9-8161-8827-e3cff33eca97" class="">marrow, or even foreign bodies.</p><p id="2297904f-03a9-8158-a02b-dc05d3d93236" class="">●Describe solid emboli</p><p id="2297904f-03a9-81bb-8170-fe9d328bead5" class="">99% of solid emboli derive from thrombotic fragmentation and are</p><p id="2297904f-03a9-816c-b64b-c316538a83c3" class="">called thromboemboli.</p><p id="2297904f-03a9-817e-bb4e-e272bc55cf43" class="">The remaining 1%:</p><p id="2297904f-03a9-81ab-a235-d5d645f28c91" class="">1. fragments of pathological tissues (detaching from neoplasms that</p><p id="2297904f-03a9-814a-b45a-dce8d9c0f85a" class="">have permeated the vessels, from endocarditic or atherosclerotic</p><p id="2297904f-03a9-8130-91b6-ced8b88cc1ba" class="">ulcers, etc.) or even from normal tissues (liver cells, marrow cells,</p><p id="2297904f-03a9-8163-84f2-d243b2f2c042" class="">etc.)</p><p id="2297904f-03a9-8145-9142-ecbfda6ff68e" class="">2. micro- and macroscopic parasites (echinococcus, schistosome</p><p id="2297904f-03a9-81a1-984d-f12da373ed5a" class="">filarias, ascarids, hookworms, plasmodia, leishmanias,</p><p id="2297904f-03a9-8105-9f2b-d452e16f256e" class="">2.</p><p id="2297904f-03a9-811d-bed2-f28f9aa920f6" class="">trypanosomes) or from fungi, etc.</p><p id="2297904f-03a9-812e-b5ac-ed969b581628" class="">3. foreign bodies of various kinds (needles, bullets, spines, etc.) occasionally penetrated into the heart or vessels</p><p id="2297904f-03a9-81fb-a060-e45e97f38faa" class="">●Fragmentation of the thrombus is more frequent in the case of white thrombus but it can also occur in red thrombi.</p><p id="2297904f-03a9-81c3-a128-d9cc2b8a754f" class="">Arteries:</p><p id="2297904f-03a9-8165-8eab-d30040616010" class="">Most systemic emboli (80%) arise from mural thrombi of the heart chambers:</p><p id="2297904f-03a9-81f9-94d5-e7bbc654a86f" class="">○ 2/3 associated with left ventricular wall infarcts</p><p id="2297904f-03a9-81bd-b434-d851f8444a07" class="">○ 1/3 associated with left atrial dilatation and fibrillation</p><p id="2297904f-03a9-8158-9635-d23d1c2a391a" class="">●</p><p id="2297904f-03a9-81f8-b0fd-ee7ff95a48cc" class="">The remaining systemic emboli originate from aortic aneurysms, atherosclerotic plaques (atherosclerotic debris or cholesterol emboli), valvular vegetations, or venous thrombi</p><p id="2297904f-03a9-81d8-a48b-c43f55346ffc" class="">Veins:</p><p id="2297904f-03a9-81e6-a906-fc83fc9630c5" class="">The most common type of thromboembolic disease is Pulmonary emboli (PE) which in 95% of cases originates from deep venous thrombosis of lower extremities</p><p id="2297904f-03a9-815b-b501-f961d22be767" class="">Fragmented thrombi from DVT reach the pulmonary circulation and Depending on the size of the embolus, it can occlude</p><p id="2297904f-03a9-8139-9278-e4581799d232" class="">○ the main pulmonary artery</p><p id="2297904f-03a9-8102-8ad3-d9cf2918a5c0" class="">○ the pulmonary artery bifurcation (saddle embolus)</p><p id="2297904f-03a9-8136-8d2e-e0aafaca868b" class="">○ the branching arteries.</p><p id="2297904f-03a9-81d9-8a09-fc9763b6c9b9" class="">●Frequently there are multiple emboli, occurring either sequentially or simultaneously as a shower of smaller emboli from a single large mass; in general, the patient who has had one PE is at high risk for more.</p><p id="2297904f-03a9-81ef-b8d9-f21c0e7ad694" class="">Rarely, a venous embolus passes through an interatrial or interventricular defect and gains access to the systemic arterial circulation (paradoxical embolism)</p><p id="2297904f-03a9-815a-8f91-d90a652184b2" class="">●Describe fat emboli</p><p id="2297904f-03a9-81b1-965f-cfdfffd06f5f" class="">Possible causes</p><p id="2297904f-03a9-81b1-8713-c9ff4d120f79" class="">○ erroneous i.v. injections of drugs dissolved in oil</p><p id="2297904f-03a9-819a-95ed-c5f1d7b9a55c" class="">○ fat cells escape from adipose tissue or yellow bone marrow ◆fractures of long bones → frequent in elderly</p><p id="2297904f-03a9-8195-9a54-ea13461ba3ef" class="">◆tissue trauma (surgeries)</p><p id="2297904f-03a9-81b1-9f2d-fff94eee698b" class="">◆burns.</p><p id="2297904f-03a9-813b-82b2-ce087478bdcc" class="">◆It occurs in 90% of individuals with severe skeletal injuries but less then 10% of them have clinical findings</p><p id="2297904f-03a9-818f-8a12-d1eb28a880b5" class="">●Risk of occlusion of pulmonary and cerebral microvasculature. Fatal in 5%-15% of cases</p><p id="2297904f-03a9-81c2-af8f-d27b9cdaf7aa" class="">●Describe air emboli</p><p id="2297904f-03a9-8185-b931-ca937c126724" class="">Air embolism consist of:</p><p id="2297904f-03a9-8189-bb53-c71d294c3918" class="">Gas bubbles within the circulation, which can obstruct vascular flow and cause distal ischemic injury A large volume of air (&gt;100 cc) in the blood is necessary to produce clinical effects</p><p id="2297904f-03a9-81e7-ad1a-d2e0178f5e30" class="">A form of gas embolism called decompression sickness</p><p id="2297904f-03a9-8182-adcf-dfd3790894b5" class="">○ Deep sea dive (high pressure) increased amounts of nitrogen dissolved in the blood. When divers ascends (depressurizes) too quickly without compensation stages: nitrogen comes out of solution in the tissue and in the blood (Hyperbaropathy).</p><p id="2297904f-03a9-8135-9bda-dd9b4aff2acb" class="">◆Gas bubbles spread to skeletal muscles and skeletal tissues (around joints): severe pain.</p><p id="2297904f-03a9-8182-91ab-db1c0cffdd45" class="">◆Gas bubbles in the lung vasculature cause edema, hemorrhage, focal atelectesia or emphysema respiratory distress</p><p id="2297904f-03a9-8161-9350-eef0ba616cc8" class="">○ Chronic form: caisson disease (pressurized vessels used in bridge construction; workers in these vessels suffered of decompression sickness)</p><p id="2297904f-03a9-814c-95f9-eefa005ead9d" class="">◆persistence of gas emboli in the skeletal system multiple foci of ischemic necrosis (common sites: femoral heads, tibia, and homerus)</p><p id="2297904f-03a9-8191-be4b-cc242fb38fca" class="">●Treatment: hyperbaric chamber</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Amyloidosis</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8018-b82e-fa6a870e858e" class="page sans"><header><h1 class="page-title">Amyloidosis</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81ef-b5a4-f8857d6ac8bd" class="">●what is amyloidosis?</p><p id="2297904f-03a9-817f-b3cf-eb050ba34c10" class="">Amyloidosis is a condition associated with a number of inherited and inflammatory disorders in which there’s accumulation of fibrillar proteins (amyloid) in the extracellular space that damages</p><p id="2297904f-03a9-8123-8f16-d68c54783c69" class="">surrounding tissues.</p><p id="2297904f-03a9-8111-adee-e1003fee0e63" class="">It is not a single disease but rather, there’s a group of diseases characterized by amyloid deposit.</p><p id="2297904f-03a9-8183-98d6-edd5a873d039" class="">The abnormal fibrils are produced by the aggregation of misfolded proteins which then organize into beta-pleated sheets, that are insoluble. These protein aggregates bind glycosaminoglycans and proteoglycans which under the microscope, when stained with hematoxylin and eosin stain, gives them the appearance of starch: eosinophilic, amorphous, hyaline-like. Hence, the name “amyloid”.</p><p id="2297904f-03a9-811e-b002-d78b2d5ef412" class="">Amyloid deposits were identified by Virchow in 1854. He discovered that these deposits had the property to react with iodine with a similar reaction of the starch. To recognize the starch we use an iodine solution but Virchow discovered that these misfolded proteins can react with the same iodine solution, for that reason he called them amyloid deposits. Although these proteins have nothing to do with starch.</p><p id="2297904f-03a9-81d3-9171-f62a93e864ba" class="">Two general categories of proteins that form amyloid:</p><p id="2297904f-03a9-81d3-b17b-fc53045c3984" class="">○ normal proteins produced in enormous amounts, and a small fraction of them fold incorrectly.</p><p id="2297904f-03a9-8193-bcd4-f215c300dd81" class="">○ abnormal proteins with incorrect amino acid sequences are produced in normal amounts, and they fold incorrectly</p><p id="2297904f-03a9-813b-a2d6-e7323ef57aa4" class="">●About 23 different proteins can form amyloids.</p><p id="2297904f-03a9-8108-9f84-e405c52da666" class="">These accumulations are very dangerous as they compromise both morphological and functional points of view. They can compress the tissue and organ, compromising the blood vessels and causing a reduction in the distribution of the blood in the organs. The final result is that the cell starts to suffer and die causing atrophy of the tissue.</p><p id="2297904f-03a9-810d-9814-de5959a9bcd0" class="">●what types of amyloidosis are there?</p><p id="2297904f-03a9-8123-9f4f-fa91596264ce" class="">We can distinguish two types of amyloid depositions:</p><p id="2297904f-03a9-81b4-ae27-eec41a050523" class="">1. Systemic amyloidosis: Deposits are in various organs which are compromised from a morphological and functional point of view</p><p id="2297904f-03a9-81e3-a761-c275ae0de003" class="">◆primary systemic amyloidosis: associated with B cell disorders: AL AMYLOIDOSIS</p><p id="2297904f-03a9-81e3-abac-ec6269c0c473" class="">◆secondary systemic amyloidosis: underlying chronic inflammatory process</p><p id="2297904f-03a9-812a-890d-e0a7b1c77aec" class="">◇ AA AMYLOIDOSIS</p><p id="2297904f-03a9-81ee-bb21-c9fe21d44093" class="">◇ AH (Hemodialysis-associated amyloidosis)</p><p id="2297904f-03a9-81e2-9f9f-f198eb85d164" class="">2. Localized amyloidosis: Deposits only at the level of a specific organ</p><p id="2297904f-03a9-8109-bd37-d26b803cdb2e" class="">◆Primary ****(idiopathic)</p><p id="2297904f-03a9-8175-bbd5-fa311456ddbf" class="">◆Secondary ****to other pathological conditions</p><p id="2297904f-03a9-818c-ab93-fc0d5c340da7" class="">Hereditary or familial amyloidosis constitute a separate, 3.</p><p id="2297904f-03a9-81ba-b573-c3a0c42039d0" class="">although heterogeneous group, with several distinctive patterns of organ involvement.</p><p id="2297904f-03a9-81fa-a43e-ee472adf9632" class="">●describe the chemical and physical composition of amyloid</p><p id="2297904f-03a9-8147-bf06-f5c11c0e8d5c" class="">The fibrils are rigid, unbranched, variable length, diameter about 10 nm 4-6 fibrils joined together by hydrogen bonds form an amyloid fiber with an unusual β-sheet conformation that makes them unaffected by tissue enzymes</p><p id="2297904f-03a9-81b0-b2a0-ff52e663842b" class="">95% of amyloid is protein, 5% are glycoprotein (called amyloid P component) and glycosaminoglycans.</p><p id="2297904f-03a9-818f-b31d-e009a92d85ec" class="">Amyloid p component is a pentameric glycoprotein of the pentrassins class that binds to fibrils with a calcium-dependent mechanism</p><p id="2297904f-03a9-8123-9f8b-ebaf551ed9c4" class="">●where in the body is amyloid deposited?</p><p id="2297904f-03a9-81b4-bd61-eabcc0e5a63d" class="">Amyloids are present in the extracellular space of various tissues and organs.</p><p id="2297904f-03a9-81cd-885d-dc6c02bde476" class="">Preferential deposition of amyloid: vessel wall and interstitial</p><p id="2297904f-03a9-811e-aa76-f358fd85dc73" class="">compartment</p><p id="2297904f-03a9-81f3-a085-d7143bc0dd06" class="">Commonly affected organs:</p><p id="2297904f-03a9-8191-8157-e70ae6f34265" class="">○ peripheral nerves</p><p id="2297904f-03a9-8125-9342-c46cd798bf9c" class="">○ skin</p><p id="2297904f-03a9-81b1-978f-c5675a70c5be" class="">○tongue</p><p id="2297904f-03a9-80ac-9010-f152ad2e1fb9" class="">○ joints</p><p id="2297904f-03a9-8128-a14d-cf070931e76e" class="">○ heart</p><p id="2297904f-03a9-81a3-8de3-e64c0be49e91" class="">○ liver</p><p id="2297904f-03a9-8134-a63d-df88246f28f3" class="">○</p><p id="2297904f-03a9-81ac-b27c-fd4e690ceebe" class="">spleen ○ kidneys</p><p id="2297904f-03a9-8192-9c07-e9e963b4626f" class="">○ adrenal</p><p id="2297904f-03a9-814c-9260-e30e82713fa3" class="">○ lymph nodes</p><p id="2297904f-03a9-81e5-8c1b-c6ee920b9523" class="">○</p><p id="2297904f-03a9-8179-b45b-f9d8beab6021" class="">thyroid●Organs affected by chronic inflammatory diseases or tissue</p><p id="2297904f-03a9-81f3-86db-df3b05763f7f" class="">necrosis are more at risk</p><p id="2297904f-03a9-81d8-bef5-cb0e0fb18966" class="">●Describe the pathogenesis of the systemic forms of amyloidosis SYSTEMIC AMYLOIDOSIS:</p><p id="2297904f-03a9-819e-ac93-c67eb0aaa967" class="">1.</p><p id="2297904f-03a9-8189-acdb-c05efaabf51d" class="">AL amyloidosis, (primary): “L”: In B cell disorders, like multiple myeloma, plasma cells in the bone marrow produce more light chains than heavy chains, and those excess light chains leak out into the blood. Since there are so many light chains, some (the ones with a.a compatible with beta configuration) misfold into AL proteins, and build up in various tissues (heart, kidneys, liver, spleen, etc.)</p><p id="2297904f-03a9-813b-9144-ccdb5dd4594c" class="">2. AA amyloidosis, or secondary: the misfolded protein comes from serum amyloid A, an acute phase reactant (secreted by the liver when there’s inflammation). In chronic inflammation, like in rheumatoid arthritis, IBD, cancer, there’s lots of serum amyloid A in the blood. A small portion spontaneously misfold into AA</p><p id="2297904f-03a9-81da-8cd9-c49819f052dd" class="">amyloids, which accumulate in tissues→ amyloidosis. MMPs (monocyte-derived) are important for SAA degradation, if enzyme defect or insufficient →incomplete breakdown of SAA.Histological diagnosis with anti-AA antibodies. Targets: mainly kidneys, liver and spleen</p><p id="2297904f-03a9-815d-98e8-eefdfb78ca66" class="">3. Hemodialysis-associated amyloidosis (AH), secondary: after years of hemodialysis patients may develop bilateral carpal</p><p id="2297904f-03a9-81a2-8061-e62253f4b0d5" class="">tunnel syndrome (deposition of amyloid in the carpal ligament → compression of the median nerve), and cystic bone lesions (amyloid deposition in the bone). AH fibril protein is a ****beta-2- microglobulin, that accumulates in the blood with renal dysfunction (not filtered by dialysis). It binds to collagen and settles in the connective tissue. Targets: skeletal and muscular system.</p><p id="2297904f-03a9-812e-a4bb-c58a41af416a" class="">4. Familial amyloidosis (primary)</p><p id="2297904f-03a9-816d-a7d7-e569776fec77" class="">1. Familial amyloidotic Polyneuropathies (FAP) autosomal dominant. ****Genetic defects of protein synthesis: mutant transthyretin (TTR) → prone to misfolding → ATTR (amyloid transthyretin) • Target: kidneys, thyroid, and peripheral and autonomic nerves.</p><p id="2297904f-03a9-8140-afaf-da62bba195ed" class="">2. Familial Mediterranean fever: autosomal recessive defects of neutrophil function: excessive IL-1 production that cause attacks of fever, associated with inflammation of serosal</p><p id="2297904f-03a9-8194-8e51-c10ef71a038b" class="">surfaces (peritoneum, pleura, synovial membrane) and cause abdominal pain, arthritis. There’s an accumulation of AA fibril. Targets: kidneys, blood vessels, spleen, respiratory tract.</p><p id="2297904f-03a9-815e-a728-e2c3886ab13f" class="">●Describe the pathogenesis of the localized forms of amyloidosis</p><p id="2297904f-03a9-81c0-93a8-ffd4d06b31f7" class="">○ Amyloid of aging (AS fibrils): localized amyloid deposition in older populations. The target organs are brain and heart</p><p id="2297904f-03a9-818e-9866-e912fde8dac7" class="">◆Alzheimer&#x27;s disease: APP</p><p id="2297904f-03a9-817b-957b-e9349952311b" class="">◆Prion encephalopathy: accumulation of abnormal prion proteins indicated as PrPc. This is responsible for severe damages in the central nervous system. This disease is fatal in a short time.</p><p id="2297904f-03a9-815c-a527-dfc58a4e06f5" class="">◆Senile cardiac amyloidosis : increased levels of normal, non mutated, transthyretin (TTR)</p><p id="2297904f-03a9-8107-8b92-f97f481a47d1" class="">○ Endocrine amyloid (AE fibrils): localized amyloid deposition associated with metabolic disorders or tumors of endocrine glands.</p><p id="2297904f-03a9-81c6-9036-f02c42f41098" class="">It may be found in:</p><p id="2297904f-03a9-811b-a753-e4cd203c6c4d" class="">◆Medullary carcinoma of the thyroid gland</p><p id="2297904f-03a9-816a-b287-dc4be755cb2d" class="">◆Islet tumors of the pancreas</p><p id="2297904f-03a9-8104-94bf-db99baf07da4" class="">◆Islet of Langerhans in type II diabetes mellitus, etc.</p><p id="2297904f-03a9-81b4-92d6-c7c7a1be5b9b" class="">○ Protein component: locally produced peptides: precursor of</p><p id="2297904f-03a9-81ca-8a12-f6c6932caeaa" class="">calcitonin, precursor of amylin (IAPP, islet amyloid polypeptide)</p><p id="2297904f-03a9-81c9-9324-f5226f124a8a" class="">produced by the beta cells of the pancreas</p><p id="2297904f-03a9-81dd-b031-d1fd6a8d746b" class="">●summary table with classification of amyloidosis</p><p id="2297904f-03a9-8179-939a-d79c09318a30" class="">●</p><figure id="2297904f-03a9-8118-9053-c28b81ce2189" class="image"><a href="Amyloidosis%202297904f03a98018b82efa6a870e858e/image1.png"><img style="width:48px" src="Amyloidosis%202297904f03a98018b82efa6a870e858e/image1.png"/></a></figure><p id="2297904f-03a9-8109-be92-c3c30646bf34" class="">●What are the clinical manifestations of amyloidosis?</p><p id="2297904f-03a9-81c0-9e06-ca06cd4d18ae" class="">It is possible to have amyloidosis that does not cause clinical</p><p id="2297904f-03a9-812a-8311-d6f656305710" class="">manifestations and at the same time, some cases of amyloidosis cause</p><p id="2297904f-03a9-816c-b44d-c5a65bbc4463" class="">serious clinical problems and even death.</p><p id="2297904f-03a9-8108-b268-ceae88f83b20" class="">The clinical manifestations are rather unspecific, especially in the</p><p id="2297904f-03a9-81e4-a84c-f2654b36cd14" class="">beginning, there may be weakness, weight loss, light-headedness,</p><p id="2297904f-03a9-81ee-82c7-ede4cb1a039e" class="">syncope, etc. It all depends on which type of amyloidosis it is and</p><p id="2297904f-03a9-8122-b605-f2a524266497" class="">thus, which organ/s it affects.</p><p id="2297904f-03a9-81c1-ad0e-fc7ebd5ad240" class="">With progression of the condition we might start seeing other signs</p><p id="2297904f-03a9-81bc-a464-d73126e6f76b" class="">that are more specific and useful for the diagnosis such as problems</p><p id="2297904f-03a9-816e-a460-d28c8b1d2970" class="">with the kidneys, heart, GI tract.</p><p id="2297904f-03a9-8167-8acc-e0be7f0472b7" class="">In general, prognosis is very poor with systemic amyloidosis.</p><p id="2297904f-03a9-8125-b09c-f31032427a6f" class="">○ Kidney manifestations (timeline):</p><p id="2297904f-03a9-812c-a783-c685a979fc8c" class="">◆normal size and color → may progress to atrophy due to</p><p id="2297904f-03a9-81ab-b164-f2f61f25eab6" class="">ischemia of renal arteries caused by amyloid deposition in</p><p id="2297904f-03a9-81d7-a4f4-fa17354fa85f" class="">arterial wall</p><p id="2297904f-03a9-812e-abb6-d8361b1acc83" class="">◆early glomerular dysfunction (its architecture is obliterated by</p><p id="2297904f-03a9-8174-9036-f7be65cc0293" class="">the massive accumulation of amyloid)</p><p id="2297904f-03a9-814b-8584-f9706fab9f7a" class="">◆later issues in the tubules (peritubular space) and arterioles</p><p id="2297904f-03a9-8152-959e-c20a47687f42" class="">◆signs: from modest proteinuria to nephrotic syndrome</p><p id="2297904f-03a9-8137-8b91-d9fd39345566" class="">◆progressive uremia (high levels of urea in the blood) →kidney</p><p id="2297904f-03a9-8123-8ed3-cf838b8fab03" class="">failure → death</p><p id="2297904f-03a9-814f-a3ac-e31caa6c2cf8" class="">◆therapy: dialysis and transplant</p><p id="2297904f-03a9-81e1-a9cb-e3c06797e03e" class="">○ Liver</p><p id="2297904f-03a9-8182-9dfa-ef1fd9fd6a1b" class="">◆Initial deposition in the perisinusoidal space and progressive</p><p id="2297904f-03a9-81a5-a167-c9a2e20e3a6c" class="">growth that causes deformity, pressure atrophy → replacement</p><p id="2297904f-03a9-8147-bfe3-ccd1808895db" class="">of large areas of liver parenchyma.</p><p id="2297904f-03a9-8148-bf18-db7891d1b607" class="">◆deposits of amyloid in the walls of sinusoids and in Kupffer</p><p id="2297904f-03a9-810b-b5fa-dde9a9938f81" class="">cells</p><p id="2297904f-03a9-811b-870c-f45ad8990607" class="">◆hepatomegaly, portal hypertension, diminished liver function</p><p id="2297904f-03a9-81f4-9f28-e58017ed3e2e" class="">◆average survival with liver amyloidosis is 9 months.</p><p id="2297904f-03a9-81c2-ab66-ef619253371a" class="">○ Heart</p><p id="2297904f-03a9-81a8-bf6f-cfc40e42c569" class="">◆initial deposits between muscle fibers in the myocardium →</p><p id="2297904f-03a9-81dc-840f-c1b3bc59fc38" class="">progressive expansion → thickening and stiffening of</p><p id="2297904f-03a9-8130-a1d5-f39fe28caaa4" class="">ventricular wall, as well as damage to the conduction system →</p><p id="2297904f-03a9-81bf-9a7d-ebca456e2940" class="">hypomobility</p><p id="2297904f-03a9-81f4-bb0e-fd6e7a6eee63" class="">◆it may involve valves and pericardium</p><p id="2297904f-03a9-8158-bf56-dfb126de761b" class="">◆heart may appear firm and enlarged</p><p id="2297904f-03a9-817b-ba5a-e6d7fbab0dac" class="">◆cardiomegaly, cardiomyopathy and arrythmias → heart failure</p><p id="2297904f-03a9-814c-86e2-ef92ba24172a" class="">○ Endocrine system: no significant clinical manifestations.</p><p id="2297904f-03a9-81f1-804c-dcfb35ff0dfc" class="">○ Spleen: deposition may be limited to the follicles (tapioca-like</p><p id="2297904f-03a9-8189-a554-f47528de53f0" class="">granules) or it may involve the walls of the sinuses and connective</p><p id="2297904f-03a9-8159-a813-ddccc8f33ba4" class="">tissue framework in the red pulp→ splenomegaly. Fusion of</p><p id="2297904f-03a9-81c3-86e9-c933ac79f640" class="">deposits → lardaceous spleen.</p><p id="2297904f-03a9-81a5-bdf5-ceab8df771a2" class="">○ Skin: involved mainly in AL amyloidosis (55%) or AA amyloidosis</p><p id="2297904f-03a9-814e-92dd-ff5f06b3d84b" class="">(42%). Papules in the axilla, inguinal region, face, neck, and on</p><p id="2297904f-03a9-81a5-80c1-c9973ff51f9f" class="">mucous membranes. small hemorrhages and purpura.</p><p id="2297904f-03a9-8107-9d47-d28342934fd0" class="">○ GI tract: Obstructions, disturbances in digestion, ulcerations,</p><p id="2297904f-03a9-81b7-95c3-fae2e1971f96" class="">malabsorption, hemorrhages, diarrhea. Nodular depositions in the</p><p id="2297904f-03a9-8106-baba-d6fb147866e5" class="">tongue may cause macroglossia. (AL both primary and associated</p><p id="2297904f-03a9-815e-af28-ca0be0892c3a" class="">with myeloma)</p><p id="2297904f-03a9-81c1-80eb-fe5592e67a11" class="">○ Nervous system: neuropathies, alzheimer, carpal tunnel</p><p id="2297904f-03a9-8158-92ee-e78a91abfeac" class="">syndrome, etc.</p><p id="2297904f-03a9-81a5-98f7-c5c866bd1a77" class="">○ Joints: Deformation of joints and synovial membrane that lead to</p><p id="2297904f-03a9-819d-affa-f4e6028d07b2" class="">arthritis</p><p id="2297904f-03a9-818f-bdc0-f42cc3cabc0d" class="">○ Respiratory tract: may be involved locally or diffusely.</p><p id="2297904f-03a9-816e-a170-cbb939d03344" class="">●is there a treatment for amyloidosis?</p><p id="2297904f-03a9-8191-99fc-c350f102ce6d" class="">Ongoing clinical trials with new drugs to:</p><p id="2297904f-03a9-81a5-98c3-d97461858d4d" class="">○ decrease the chronic antigenic stimulus that produces amyloid</p><p id="2297904f-03a9-81ac-9491-fca6be841346" class="">○ correct protein misfolding</p><p id="2297904f-03a9-817d-8b00-f04ef0c1c983" class="">○ inhibit the formation of amyloid fibrils</p><p id="2297904f-03a9-818c-9687-f2b2b3152f22" class="">○ modify/eliminate its extra-cellular deposition</p><p id="2297904f-03a9-8188-b9ae-d267641c9b7d" class="">○ stimulate lysis and mobilization of fibrils</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

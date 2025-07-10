@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> aging and frailty</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8112-bc63-ce36a73a314c" class="page sans"><header><h1 class="page-title"> aging and frailty</h1><p class="page-description"></p></header><div class="page-body"><figure id="2297904f-03a9-8100-82dd-edc298898083" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image2.png"><img style="width:90px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image2.png"/></a></figure><figure id="2297904f-03a9-81cd-b612-fc2c52dd1a29" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image3.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image3.png"/></a></figure><p id="2297904f-03a9-81f1-9d58-fd9998a9ca56" class="">08.05.2023 POLI</p><p id="2297904f-03a9-8188-908e-dd5962dd502c" class=""><strong>PATHOPHYSIOLOGY OF AGING AND FRAILTY</strong></p><p id="2297904f-03a9-815e-bd85-e04e6346dde6" class="">Starting from a few statistical data (</p><p id="2297904f-03a9-81f1-a1c4-f144a6e26355" class=""><em>fig. 2</em></p><p id="2297904f-03a9-8128-9d4f-d38c5ae719c3" class="">), concerning the number of people reaching and overtaking 65 years of age, it’s possible to see the comparison, in this very important table, made by the United Nations department of</p><figure id="2297904f-03a9-816f-be7b-d0072abce0ba" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image1.png"><img style="width:653px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image1.png"/></a></figure><p id="2297904f-03a9-81ea-8c64-d1a41ec5b40d" class="">Fig. 1 shows the <strong>different phenotypes of aging</strong>. Aging is</p><p id="2297904f-03a9-8197-9a49-f3e52c306622" class="">not a disease, but rather a physiological process. Of</p><p id="2297904f-03a9-8153-b999-c4433fc383cf" class="">course, we must distinguish between premature aging and</p><p id="2297904f-03a9-8104-abf6-c81d1fedd53b" class="">healthy and successful aging.</p><p id="2297904f-03a9-8112-a5e9-f01aec30793b" class="">economic and social affairs, between two main years, <em>fig.1</em></p><p id="2297904f-03a9-81db-97a8-c94c71ad4a14" class="">2019 and 2050. The estimated increase in the number of people aged 65 years and over has been depicted in the third column. In Asia, Northern Africa and Sub-Saharan Africa the expected percentage increase in the elderly population is quite amazing: over 200%. We already know that Asia will overcome the other countries. You can spot the data concerning Europe and Northern America, where the increase in about 30 years is expected to be some, but not much (less than 50% of the present elderly population).</p><p id="2297904f-03a9-81a9-bb40-d54ee17a77dc" class=""><em>fig.2</em></p><p id="2297904f-03a9-81b3-8d1a-fbf695002eb9" class="">Concerning Italy in particular, we may use as a reference the data provided by the European Political Cooperation in 2018 about the life expectancy at birth (<em>fig. 3</em>): as we can see, the mean life expectancy is different in males and females, because the ladies have a greater life expectancy (more or less 5 years more). This is still true for the life expectancy at 65 years old. Of course, the numbers are reduced, but the overall numbers are the ones I just mentioned: 82.5 for males and 86.9 for females. The important thing is not the average life expectancy, which is increasing, but the point is the quality. Different subgroups of people in different regions of the world can face social and economical problems. We should do our best to improve the quality of our life. Aging in a successful way is the only way to go on living. These data are solid, so they can give us an overall picture of the whole story. So, we must pay attention to these data, in order to plan a number of actions from the socio-economic and sanitary point of views.</p><p id="2297904f-03a9-81ae-9a73-fc5d3676cac6" class="">Eleonora Deinite</p><p id="2297904f-03a9-8175-b249-d9686e74ba6d" class="">42</p><figure id="2297904f-03a9-8138-88c4-e47e95e2e98f" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image2.png"><img style="width:90px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image2.png"/></a></figure><p id="2297904f-03a9-8142-aa00-fd7d72fb25c3" class="">08.05.2023 POLI</p><figure id="2297904f-03a9-81a5-b469-d559782d7a73" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image4.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image4.png"/></a></figure><p id="2297904f-03a9-8130-9db9-f3a7fbda5456" class=""><em>fig.3</em></p><p id="2297904f-03a9-81a1-aa97-c07fbdeeab0a" class=""><em>What is aging?</em><strong>AGING</strong> = the physiological process characterized by the <span style="border-bottom:0.05em solid">progressive and continuous loss of function</span> of cells, tissues, organs and systems with time.</p><p id="2297904f-03a9-818e-864e-ff6e492e1ae6" class="">Aging is influenced by <strong>genetics</strong> but especially by the <strong>environment</strong>. Physiological, pathological and environmental factors can affect our personal way to age.</p><p id="2297904f-03a9-81b6-9a2f-db236af897e4" class="">Aging is a:</p><p id="2297904f-03a9-81a4-b09a-f72da7d7f8f1" class="">●<strong>multifactorial</strong> condition, as <strong>health</strong>(we need different factors to be and remain healthy) and many diseases: the main human diseases are <strong>non-communicable diseases</strong> (namely, most diseases except for infections, such as cardiovascular diseases, most cancers, gastro-intestinal diseases, respiratory diseases, etc. i.e. all those diseases that can’t be contagious). In these diseases, many factors contribute to pathogenesis. It may seem a stupid thing, but in reality it is very important, especially as physicians: when we are facing a non-communicable disease in a patient, we must be aware that many factors can cause it. I have to consider the different factors actually present in that particular patient.</p><p id="2297904f-03a9-81b3-a02f-d8ef5826d0fc" class="">●<strong>multi-step</strong>process. There is not a single step: for example, you don’t suddenly have diabetes: you have first hyperglycemia, then the symptomatic disease, finally eventual complications. In the same way, we don’t age all of a sudden.</p><p id="2297904f-03a9-81a1-b32f-f687778dea89" class="">Multi-factorial and multi-step processes characterize both health and aging.</p><p id="2297904f-03a9-8149-b767-f8e6131bc525" class="">There are many theories on the reason why people age, because there are many different factors to include (<em>fig. 4</em>). The funnel gives you the idea of the multistep and multifactorial progressive process of aging, where different factors get in, not necessarily at the same time (rarely they are simultaneous).</p><p id="2297904f-03a9-8105-8bd0-d690104d99ef" class="">Eleonora Deinite</p><p id="2297904f-03a9-81b0-9a1b-d425f6aae0ed" class="">43</p><figure id="2297904f-03a9-8162-8deb-e1e6f6e5cb36" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image2.png"><img style="width:90px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image2.png"/></a></figure><p id="2297904f-03a9-8194-b456-e0399f4d84ca" class="">08.05.2023 POLI</p><p id="2297904f-03a9-81df-b412-d5b1ba51d84e" class="">In the progress of aging, <strong>familiarity</strong> (inherited conditions) plays a role, but often familiarity is overwhelmed by many other factors. In the past, hereditary factors played a much larger role, while nowadays the progeny of those who died prematurely of heart attack (due to inherited cardiovascular</p><p id="2297904f-03a9-815e-9315-e22d0a326de0" class="">diseases predisposition) can reach up to 70-80 years of age, despite having inherited the same genetic factors that killed their parents. This is due to a change in the environment, modern medicine and improved healthcare systems, which made a difference. So, familiarity is important, but it is not all. If in the family of a patient there is the predisposition for</p><p id="2297904f-03a9-813b-b213-ec30e9bb17be" class=""><em>fig.4</em></p><figure id="2297904f-03a9-81f8-9141-e850fdd59c3b" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image5.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image5.png"/></a></figure><p id="2297904f-03a9-8179-8f2f-c942ad0c0fae" class="">diabetes, it’s not said that the patient will develop diabetes, it depends on them, because, although they have familiarity, they can avoid all the other factors that can cause diabetes.</p><p id="2297904f-03a9-8145-9b6c-dce4d61cd5a3" class="">For example, during WWII, “diabetes didn&#x27;t exist”, because people couldn&#x27;t eat properly.</p><p id="2297904f-03a9-8142-a1c7-c92354c08121" class="">The other factors can be:</p><p id="2297904f-03a9-811a-951e-f36660bbc941" class="">●<strong>environment</strong>, as in the case of <strong>pollution</strong></p><p id="2297904f-03a9-812b-a031-f329d12ef4fc" class="">●<strong>radiation</strong></p><p id="2297904f-03a9-81da-a222-dcb3d2bdc837" class="">●<strong>smoking</strong></p><p id="2297904f-03a9-811e-b086-d9016303dd70" class="">●<strong>nutrition</strong></p><p id="2297904f-03a9-8144-aa87-d409bcf17bdb" class="">Due to these factors, we have eventually <strong>altered proteins</strong>. To have altered proteins, we need to modify the genes through <strong>mutations</strong> induced by the environment and <strong>epigenetic changes</strong>. So, the enzymes and the structural proteins that make up cells, tissues and organs do not work properly. So, there is a <strong>progressive alteration</strong> of structure and function of cells, tissues and organs. We have an increase in cell death, tissue damage, repair, inflammation (which is an incredibly strong tool to make a disease progress).</p><p id="2297904f-03a9-8103-ab99-dbcd3514c71a" class=""><strong>General pathology</strong>(which should be called “environmental pathology”) doesn&#x27;t focus on a single disease or a single class of diseases but, given a certain disease, it analyzes from the very beginning the causes, the development, the expression and the complications of the disease. So, the whole story of the disease is important. If you look in this way at a given disease, you have an overall idea of the disease: you can understand what each step means, what multifactorial means and so on.</p><p id="2297904f-03a9-8109-8dab-c4f1f634668d" class="">There are also other aspects that contribute to the progression of aging:</p><p id="2297904f-03a9-81a4-870c-dd4b47c5a8e2" class="">●<strong>mitochondrial dysfunction</strong></p><p id="2297904f-03a9-81d5-bf90-d79dea3c42ff" class="">●<strong>oxidative stress</strong></p><p id="2297904f-03a9-81ab-b530-f5446da3f342" class="">●<strong>depletion of staminal cells</strong></p><p id="2297904f-03a9-8108-a874-c3b1c9bfef84" class="">●<strong>cellular senescence</strong></p><p id="2297904f-03a9-8145-af01-e9f9c966e715" class=""><strong>!</strong> Aging and senescence are not synonyms. They are close, but they are not the same thing.</p><p id="2297904f-03a9-8167-833d-fa7c5cd4a5b3" class="">●<strong>altered intercellular communication</strong></p><p id="2297904f-03a9-8144-9e7f-f30ea280ed94" class="">●<strong>altered efficacy of nutrients</strong></p><p id="2297904f-03a9-8145-a6bf-e8020fc6fdca" class="">Altogether these factors, possibly in a synergistic way, amplify the pathology and eventually affect aging, which is</p><p id="2297904f-03a9-819b-b596-da6d1e3dbe32" class="">Eleonora Deinite</p><p id="2297904f-03a9-8189-8b30-fb98786e05e7" class="">44</p><p id="2297904f-03a9-8197-b52b-f6e797449342" class="">08.05.2023 POLI</p><p id="2297904f-03a9-81e6-9504-c113ec476a57" class="">normal, but can be either better or worse aging.</p><p id="2297904f-03a9-81b4-90a1-e9b87e76df6f" class="">In case of worse aging, the &quot;pre-room&quot; is called <strong>frailty</strong>.</p><p id="2297904f-03a9-8198-a387-ec351021e952" class=""><em>Why do people age? There are many theories, and no single theory adequately explains the aging progress:</em> ●<em>Hereditary factors</em></p><p id="2297904f-03a9-81bd-abe4-e0630478d947" class="">●<em>Loss of cellular mass and ability of cells to divide and replicate</em></p><p id="2297904f-03a9-81ff-8b2a-efc5a520349f" class="">●<em>Accumulation of waste materials that clog cells and cause them to die</em></p><p id="2297904f-03a9-814c-bfca-d12b0d368531" class="">●<em>Changes in structure of connective tissue</em></p><p id="2297904f-03a9-8122-bd19-f32fae65957f" class="">●<em>Oxidative stress</em></p><p id="2297904f-03a9-811c-b68a-f3972893294d" class="">Physical changes related to “normal” aging are not a disease and occur in most body systems, including:</p><p id="2297904f-03a9-8109-b6cc-c72570eff7bf" class=""><strong>SENSORY SYSTEM</strong></p><p id="2297904f-03a9-8155-a369-db6f4d8bf7a1" class="">●Loss of some of the features of <strong>vision</strong></p><p id="2297904f-03a9-815d-9585-e1b20be015c3" class="">○ <span style="border-bottom:0.05em solid">acuity</span> → cataracts, macular degeneration</p><p id="2297904f-03a9-8119-9f2e-e5ec4454611b" class="">○ <span style="border-bottom:0.05em solid">accommodation</span> → presbyopia(<em>physiological insufficiency of accommodation associated with the aging</em> <em>of the eye that results in progressively worsening ability to focus clearly on close objects)</em></p><p id="2297904f-03a9-8127-8c26-e39bfe0ac687" class="">○ <span style="border-bottom:0.05em solid">peripheral vision</span> → glaucoma = pattern of diseases due to changes in the optic nerve, which is typical in elderly people and causes the partial or complete loss of vision (blindness), especially of peripheral vision</p><p id="2297904f-03a9-8129-ad00-f66d2ef1b89b" class="">○ <span style="border-bottom:0.05em solid">dark adaptation</span></p><p id="2297904f-03a9-8116-9cd4-dac3f503a743" class="">○ <span style="border-bottom:0.05em solid">contrast sensitivity</span></p><p id="2297904f-03a9-8147-81c0-cd41b1707149" class="">●<strong>Auditory and vestibular apparati</strong></p><p id="2297904f-03a9-81d4-b1d4-c3e05f3e6ac7" class="">○</p><p id="2297904f-03a9-81eb-9b10-fce13d54dbc1" class=""><span style="border-bottom:0.05em solid">Presbycusis</span><em>(or age-related hearing loss) = cumulative effect of aging on hearing → high frequency</em> <em>hearing loss</em></p><p id="2297904f-03a9-8103-ae05-e04bd380f926" class="">○ <span style="border-bottom:0.05em solid">vestibular dysfunction</span></p><p id="2297904f-03a9-81a6-b22a-ff35473ef981" class="">●<strong>Oral/dental apparatus</strong></p><p id="2297904f-03a9-814d-af3a-ef23e593ee12" class="">○ 40% of elderly are <span style="border-bottom:0.05em solid">edentulous</span> (<em>= having no teeth</em>)</p><p id="2297904f-03a9-8125-95fb-d33399791201" class="">○ <span style="border-bottom:0.05em solid">alteration in taste and salivary function</span></p><p id="2297904f-03a9-8168-9e3e-c78c263596fd" class=""><strong>CENTRAL NERVOUS SYSTEM</strong></p><p id="2297904f-03a9-8141-a15f-c1d62d84fb79" class="">●There are people reaching 80 years of age that have fantastic brains, but after this age the number of <strong>neurodegenerations</strong> increases significantly, although many people over 80 years of age still drive.</p><p id="2297904f-03a9-81d0-b0c4-c83b12951e25" class="">●Maybe we can significantly notice a <strong>slower development and activation of the different aspects of intelligence</strong> due to increased “lag” time of neurons transmitting information (slowing manifests itself in the learning process). Unfamiliar or high stress activities cause an older person to perform more slowly. So, we have a gradual reduction of functions, so you need more time to get fit on intellectual activities, but eventually you do them.</p><p id="2297904f-03a9-81c5-a6d7-dead55dc51d2" class="">●The memory is good, but maybe the activity of the memory is lower, so you need more time to memorize things, but eventually you memorize perfectly. In particular, due to the <strong>stored memory</strong>, if you are lucky enough to not get a neurodegeneration, you can even get a better performance, because of the experience you stored that helps you (problem solving skill increases with age), but you need time.</p><p id="2297904f-03a9-8179-b2db-d989cfccf9ca" class="">●It’s important to minimize distractions, because older people lose the ability to perform multitasking activities, although they can still perform <strong>monotasking activities</strong> one by one.</p><p id="2297904f-03a9-81d1-ab77-c0e44997a32e" class="">●<strong>“Use it or lose it”</strong></p><p id="2297904f-03a9-8168-9722-e5a1ab6caa20" class="">Eleonora Deinite</p><p id="2297904f-03a9-81eb-846a-e249f702a57a" class="">45</p><p id="2297904f-03a9-8111-9ab6-d759c7e761ae" class="">08.05.2023 POLI</p><p id="2297904f-03a9-812d-b8cb-e147b7b39e1b" class=""><strong>MUSCLES AND BONES</strong></p><p id="2297904f-03a9-811c-a35d-c2960f54369f" class="">●The <strong>reduction of muscle</strong> mass, function and strength is normal if it is moderate (below 20-30%), otherwise, if you get an exaggerated (not normal and consequently pathological) reduction of muscle, you get into <strong>sarcopenia</strong> (from the Greek, “loss of flesh, meat, muscle”) = depletion of muscle mass <em>(there is a 30% loss in muscle mass from 3rd to 8th decade).</em></p><p id="2297904f-03a9-81ad-99e0-f888ca79e49b" class="">●The ladies, after <strong>menopause</strong>, could suffer a significant reduction in bone mass and density. <em>The bones lose</em> <em>calcium and other minerals.</em></p><p id="2297904f-03a9-8181-b52f-f288df5612c4" class="">●<strong>Osteoarthritis</strong><em>= a type of degenerative joint disease that results from breakdown of joint cartilage and</em> <em>underlying bone.</em></p><p id="2297904f-03a9-8155-b0e1-c70ad5feeab5" class="">●There are many ways to keep the muscles fit, to keep a good density of the bones, especially <strong>appropriate</strong> <strong>physical exercise</strong> at appropriate times, <strong>diet</strong> and <strong>adequate rest</strong>.</p><p id="2297904f-03a9-81dc-b176-e1dfd5882096" class=""><strong>DIGESTIVE SYSTEM</strong></p><p id="2297904f-03a9-81af-8b16-e6362cd8db97" class="">●Heart/<strong>circulatory</strong> system</p><p id="2297904f-03a9-8197-956f-f9ab3c6282c9" class="">●It is <strong>less fit and less efficient</strong> in time:</p><p id="2297904f-03a9-818e-8eb8-c9bc189fa749" class="">○ Age changes make the heart less able to pump efficiently</p><p id="2297904f-03a9-81b3-b5c1-ff9863d071f3" class="">○ Less blood pumped results in lowered blood oxygen levels</p><p id="2297904f-03a9-81db-8e2b-c6f4b99e95b9" class="">○ Blood vessels lose elasticity with age so heart has to pump harder to circulate blood</p><p id="2297904f-03a9-81ad-90be-c87961f78529" class="">●There are many reasons: the main reason is <strong>atherosclerosis</strong>, that you already know, since you studied atherogenesis (the mechanism of formation of atherosclerosis).</p><p id="2297904f-03a9-81d7-b79f-fb9d3cb60df0" class="">●The <strong>vascular changes</strong> include:</p><p id="2297904f-03a9-816f-b28e-ca0bb4627f99" class="">○ loss of the elastic fibers in the arterial vessel walls</p><p id="2297904f-03a9-81a9-aee2-e21bd83e77fa" class="">○ increase in the number of connective fibers</p><p id="2297904f-03a9-81b5-87f1-f6a7239e5729" class="">decrease in the number of vascular smooth muscles → the vascular smooth muscle cells are &quot;convinced&quot; ○</p><p id="2297904f-03a9-81fd-a9ba-ecda75ca0c51" class="">by different molecules, usually pro-inflammatory and pro-fibrogenic molecules, to change their phenotype to become fibroblast-like cells.</p><p id="2297904f-03a9-8115-ac40-daee579921b5" class="">○ increased thickness of intima and media → the arterial vessel wall increases in size and protrudes in the direction of the lumen</p><p id="2297904f-03a9-81ae-a27b-c57f7eccdb53" class="">○ collagen deposition, increased fibronectin, cross linking (AGEs), fragmentation of elastin and calcium deposition in the matrix</p><p id="2297904f-03a9-811b-8ac9-e4eebea5094e" class="">○ The net result is <strong>increased vascular stiffness</strong>.</p><p id="2297904f-03a9-81f3-881a-f7c36c16dcc3" class=""><strong>RESPIRATORY SYSTEM</strong></p><p id="2297904f-03a9-81d7-a456-fdc189d55d81" class="">●The blood oxygenation of an elder person is often a lot, but it is less efficient, because there is less oxygen in the blood per unit of time.</p><p id="2297904f-03a9-8162-91a5-da64c36224ab" class="">●The amount of oxygen delivered to the bloodstream and the rate of blood flow decline with age.</p><p id="2297904f-03a9-8177-a23a-ccc72886de0a" class="">●Even with the lung capacity remaining normal, the lung tissues seem to lose facility for making the oxygen-to- blood transfer.</p><p id="2297904f-03a9-8173-a71e-d8f4cf111937" class="">●Since older people can not breath as fast, there is less oxygen entering the blood per minute.</p><p id="2297904f-03a9-81aa-aa6c-d2768bcddd5d" class=""><strong>RENAL SYSTEM</strong></p><p id="2297904f-03a9-81ff-85d8-ffcf09167bd8" class="">• The <strong>glomerular filtration rate</strong> (GFR) is a parameter evaluated in a standard blood analysis you can ask for your patients.</p><p id="2297904f-03a9-815e-a0dc-e3017408e0d9" class=""><strong>!</strong> This rate is normally decreasing a bit within a moderate range:</p><p id="2297904f-03a9-814c-af19-d4318fec2f4c" class="">Eleonora Deinite</p><p id="2297904f-03a9-8199-950d-e90636ca7793" class="">46</p><figure id="2297904f-03a9-8182-9f81-cfac5ca482a8" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image7.png"><img style="width:90px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image7.png"/></a></figure><p id="2297904f-03a9-81fe-9d6e-f28a96604bcf" class="">08.05.2023 POLI</p><table id="2297904f-03a9-814c-a369-fcc240b901cc" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-81f9-85a0-ecac9646e5cc"><th id="w^uc" class="simple-table-header-color simple-table-header"><strong>Age (years)</strong></th><th id="Zp}V" class="simple-table-header-color simple-table-header"><strong>Average estimated GFR (ml/min)</strong></th></tr></thead><tbody><tr id="2297904f-03a9-81c3-9950-d6ef3206589b"><th id="w^uc" class="simple-table-header-color simple-table-header">20-29</th><td id="Zp}V" class="">116</td></tr><tr id="2297904f-03a9-8199-a970-e0b4e5834204"><th id="w^uc" class="simple-table-header-color simple-table-header">30-39</th><td id="Zp}V" class="">107</td></tr><tr id="2297904f-03a9-8165-971b-cba471898e20"><th id="w^uc" class="simple-table-header-color simple-table-header">40-49</th><td id="Zp}V" class="">99</td></tr><tr id="2297904f-03a9-816c-857d-e15feb097b57"><th id="w^uc" class="simple-table-header-color simple-table-header">50-59</th><td id="Zp}V" class="">93</td></tr><tr id="2297904f-03a9-818b-b6e0-d0810b7b9f67"><th id="w^uc" class="simple-table-header-color simple-table-header">60-69</th><td id="Zp}V" class="">85</td></tr><tr id="2297904f-03a9-815b-8b66-eeb34d76dc2a"><th id="w^uc" class="simple-table-header-color simple-table-header">70+</th><td id="Zp}V" class="">75</td></tr></tbody></table><p id="2297904f-03a9-8117-93cf-d21470c60dcb" class=""><strong>GASTROINTESTINAL SYSTEM</strong></p><ul id="2297904f-03a9-8105-b0a5-cc2f927996e1" class="bulleted-list"><li style="list-style-type:disc">“For many years I was able to digest stones”, but as the time goes by the situation is gradually changing, because</li></ul><p id="2297904f-03a9-811e-a6f6-f9691160309a" class="">there is a decrease in:</p><p id="2297904f-03a9-8130-ae07-cb55b2058133" class="">■GI absorptive cells</p><p id="2297904f-03a9-81bd-93f9-d3d5b99a2e5f" class="">■GI motility</p><p id="2297904f-03a9-81d9-9db2-fdbfa0ef6006" class="">■Sphincter activity</p><p id="2297904f-03a9-81eb-a860-f489f0d57aee" class="">●There are people who never suffered from <strong>GERD</strong> (gastro-esophageal reflux disease) and now</p><p id="2297904f-03a9-818a-b556-ede2407bbd74" class="">they do, because the activity of the cardias sphincter activity is not as good as before. There are</p><p id="2297904f-03a9-81dd-8924-d2527a3e9dd3" class="">also <strong>dietary and lifestyle conditions</strong> affecting the sphincter activity, not only the number of</p><p id="2297904f-03a9-8130-9816-de26d2aa1d73" class="">years. It is a complex process.</p><p id="2297904f-03a9-81dd-a902-d6b0d825eb15" class="">■GI blood flow</p><p id="2297904f-03a9-81dc-8b15-c28f43c24acd" class="">■gastric acid secretion</p><p id="2297904f-03a9-813e-974f-d30d4aa5d9b5" class="">■active transport</p><p id="2297904f-03a9-81c9-a928-cb35c5e88cec" class=""><strong>!</strong> When you face a definite disease, keep your vision wide and open. At first, you must have a general idea of the individual and then you can focus on the particular disease.</p><p id="2297904f-03a9-81c4-83d4-fdc8b00b0cae" class="">The <strong>age-associated factors</strong> can be more or less amplified in different people, since it depends on the number and the synergistic activity of the factors occurring in that particular individual.</p><p id="2297904f-03a9-81db-a9a6-f07d5c518c4a" class="">47</p><p id="2297904f-03a9-8196-a775-ea505e9e95db" class="">Aging is not usually a disease, since we can also hope for a</p><figure id="2297904f-03a9-818c-ae51-ca82c919f1ba" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image6.png"><img style="width:505px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image6.png"/></a></figure><p id="2297904f-03a9-817c-a6b8-eb30216161b1" class="">healthy and successful aging, but aging could also be a disease,</p><p id="2297904f-03a9-81bc-afaf-e666974098d0" class="">so it can be worse than expected for many reasons.</p><p id="2297904f-03a9-8153-989f-e5aa690bae78" class="">Eleonora Deinite</p><figure id="2297904f-03a9-8174-9497-d3c8310aa328" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image8.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image8.png"/></a></figure><p id="2297904f-03a9-81f0-864f-dcb33ca1ab88" class="">08.05.2023 POLI</p><p id="2297904f-03a9-81e3-b27a-e63f769acfd7" class=""><strong>FRAILTY</strong></p><p id="2297904f-03a9-819e-aa8e-d056e0b48cb9" class="">●is a <strong>precondition of bad aging</strong> (aging as a disease)</p><p id="2297904f-03a9-8107-9c61-e237a03f03ec" class="">→ It is essential to recognise and, if possible, to prevent the progression of frailty</p><p id="2297904f-03a9-817b-93d5-c6b355ac26f4" class=""><strong>!</strong> Aging is a multi-step process</p><p id="2297904f-03a9-8135-8111-fc12eba2e073" class="">●is an age-related state of high vulnerability to adverse health outcomes after a stressor event, so is a <strong>reduced healthy adaptation to stress</strong></p><p id="2297904f-03a9-810c-ae59-f24846576ee5" class="">→ some people after a certain age are less able to adapt, because the adaptation mechanisms are lacking and/or defective</p><p id="2297904f-03a9-812e-a221-d33799a0f0fc" class="">●is characterized by a reduced capacity to compensate aging-related molecular and cellular damage ●predisposes the individuals to progressive decline in different functional domains</p><p id="2297904f-03a9-8157-ab9b-fd9d33db0708" class="">●contributes to the onset of geriatric syndromes</p><p id="2297904f-03a9-81af-a3d2-d04a971f3660" class="">This cartoon (<em>fig. 6</em>) well describes the difference</p><p id="2297904f-03a9-8138-a9be-f70d07c13152" class="">between successful aging (healthy condition)</p><p id="2297904f-03a9-8110-a89a-e4adc0c456ff" class="">and bad aging, which can lead to frailty and to</p><p id="2297904f-03a9-814c-875c-cac1fe1d9a0b" class="">disability.</p><p id="2297904f-03a9-81ef-b940-cedd8a8b3979" class="">Usually, they have the same pattern up to 75</p><p id="2297904f-03a9-8121-9fa3-ee7c464e3dc3" class="">years of age, but some people can have a</p><p id="2297904f-03a9-816d-8e82-cc4140d0c227" class="">successful aging up to 80-95 years of age too (of</p><p id="2297904f-03a9-81a6-9f57-e631bf60a549" class="">course, it is important to prevent and cure</p><p id="2297904f-03a9-8129-a514-f27f4a982dc1" class="">neurodegenerative diseases to reach this goal).</p><p id="2297904f-03a9-815c-ba6b-c1ff21d5db32" class="">But you can have frailty and disability well before</p><p id="2297904f-03a9-814d-b996-fee051514070" class="">the expected 80 years of age.</p><p id="2297904f-03a9-8162-90d2-fc69dc6f0f59" class="">Frailty is a <strong>clinical syndrome</strong> now well <em>fig.6</em></p><p id="2297904f-03a9-813f-ac63-e8f993b72e2a" class="">recognised by physicians that marks decreased physiologic</p><p id="2297904f-03a9-8184-9d6f-c00bfecfe441" class="">reserve and resilience. Frailty involves a vicious cycle culminating in disability and/or mortality.</p><p id="2297904f-03a9-8133-8c49-d1e9eb5024f3" class="">A list of the main symptoms is present → a person is frail if they are showing some or all of the symptoms reported in the list→ substantial evidence that frailty is an independent, distinct, clinically recognizable entity.</p><p id="2297904f-03a9-81cc-979c-ccd7061e54fc" class=""><strong>SYMPTOMS OF FRAILTY</strong></p><p id="2297904f-03a9-81d5-9874-f65c6b58e376" class="">There are different symptoms of frailty,depending on the confluence of two or more of these symptoms, you can have a different degree (moderate, heavy frailty):</p><p id="2297904f-03a9-8175-ab47-f4bacfd34b9d" class="">●<strong>sarcopenia</strong></p><p id="2297904f-03a9-819a-b70b-df307126cc5e" class="">○ A frail person shows you first of all a sarcopenic condition, due to many different causes (<em>fig. 7</em>): ■the primary cause of sarcopenia is <strong>aging</strong></p><p id="2297904f-03a9-8189-b1cd-eba31975bf38" class="">■<strong>disease</strong> → inflammation in particular</p><p id="2297904f-03a9-8115-948e-e64b901f996f" class="">■<strong>inactivity</strong>→ due to sedentary lifestyle, for example</p><p id="2297904f-03a9-81fc-8909-f667976384d3" class="">■<strong>malnutrition</strong></p><p id="2297904f-03a9-8105-8ca5-e24dc4a94361" class="">●<span style="border-bottom:0.05em solid">undernutrition</span></p><p id="2297904f-03a9-812a-8ebe-e9fee82e2ee4" class="">●<span style="border-bottom:0.05em solid">overnutrition</span> → <strong>sarcopenic obesity</strong> (it can be a secondary cause of sarcopenia) → the obese people are often sarcopenic, becasue instead of having the development of muscles, they develop fat</p><p id="2297904f-03a9-81fc-a29f-d2ac6f4e4502" class="">Eleonora Deinite</p><p id="2297904f-03a9-81da-b864-df1d4bfa471c" class="">48</p><figure id="2297904f-03a9-81cf-bc3d-f80fb719c073" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image7.png"><img style="width:90px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image7.png"/></a></figure><p id="2297904f-03a9-81ef-b060-e5703a57ba2b" class="">08.05.2023 POLI</p><figure id="2297904f-03a9-811a-9dda-ff65e272c44f" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image9.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image9.png"/></a></figure><p id="2297904f-03a9-81d2-a3bd-e6bbba960b3e" class=""><em>fig.7</em></p><p id="2297904f-03a9-8170-af58-f9e481dc5502" class="">●<strong>inflammation</strong></p><p id="2297904f-03a9-81d1-a5a1-c2b4f9712250" class=""><strong>!</strong> It is the most important factor in disease progression. If you want to stop or decrease the progression of any non-communicable diseases, you must stop inflammation.</p><p id="2297904f-03a9-81f5-9b6c-df52e7dd3e06" class="">●<strong>decreased heart rate variability</strong></p><p id="2297904f-03a9-815c-9101-ee88c0ee65db" class="">●<strong>altered clotting processes</strong></p><p id="2297904f-03a9-81a9-8257-cfdb592cd1c7" class="">●<strong>increased insulin resistance</strong>→ increased glycemia</p><p id="2297904f-03a9-817b-9649-d1904274984f" class="">●<strong>anemia</strong> <em>= a condition in which the number of red blood cells or the hemoglobin concentration within them is</em> <em>lower than normal.</em></p><p id="2297904f-03a9-810b-8929-ecf8d4d3a294" class="">○ in <strong>thalassemia</strong>, you have very small red blood cells (microcytic anemia) and there is a higher number of red blood cells → <em>we normally have 4.35 to 5.65 million RBCs per microliter (µL) of blood for men and</em> <em>3.92 to 5.13 million RBCs per µL of blood for women.</em>Since the RBCs are smaller, there is less hemoglobin in the blood, less oxygen to the tissue and so on.</p><p id="2297904f-03a9-8161-aa3a-c4bb1a70de83" class="">○ To recognise an anemia, you must measure the hemoglobin content of blood by evaluating the <strong>hematocrit</strong> <em>(the ratio of the volume of red blood cells to the total volume of blood)</em>,because it’s important to have a sufficient mass of RBCs (either smaller or bigger, it doesn’t count) that can convey in a minute the right amount of oxygen in the periphery. In an anemic person, if you check the blood analysis, you must look at the hemoglobin content first: the hemoglobin content is correct when it is 13.2 to 16.6 grams per deciliter for men, and 11.6 to 15 grams per deciliter for women. Hemoglobin level and hematocrit are the two important parameters to check to see if you have a normal hematological condition.</p><p id="2297904f-03a9-817e-a191-d565b19f5a0e" class="">●<strong>altered hormones</strong></p><p id="2297904f-03a9-81ea-a02b-ce69ec698a59" class="">There are endocrinological problems due to the decline of estrogen and testosterone levels with age ○</p><p id="2297904f-03a9-81ca-970f-cde28452be0d" class="">■decrease in DHEAS (dehydroepiandrosterone sulfate), which is a steroid produced in the adrenal gland and is a precursor of testosterone and estrogen</p><p id="2297904f-03a9-81e7-a138-ea6ac5bf92f8" class="">■decrease in IGF1 (insulin-like growth factor 1)</p><p id="2297904f-03a9-81e5-ab9f-d085c922003f" class="">■decrease in cortisol</p><p id="2297904f-03a9-819b-9827-fb88e4db69b0" class="">●<strong>micronutrient deficiencies</strong></p><p id="2297904f-03a9-8140-b33b-e31721ea6b5a" class=""><strong>CONSEQUENCES OF FRAILTY</strong></p><p id="2297904f-03a9-8186-be9b-ea349925ce8a" class=""><em>What are the consequences of the frail condition?</em></p><ul id="2297904f-03a9-81cd-a391-c6ec4f56053f" class="bulleted-list"><li style="list-style-type:disc">disability and dependency</li></ul><p id="2297904f-03a9-810d-a937-c5b6bcd841fb" class="">- slow and incomplete recovery from a given disease, like infections → they can hardly manage Sars-COV2, for example</p><p id="2297904f-03a9-817f-9580-f3d88b64baf0" class="">- increase in the frequency of falls</p><p id="2297904f-03a9-810a-aac6-ef24e0ce912f" class="">Eleonora Deinite</p><p id="2297904f-03a9-81ec-a73b-c622cd2b5e31" class="">49</p><figure id="2297904f-03a9-81b5-8a3f-d5a5cc0847c1" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image11.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image11.png"/></a></figure><figure id="2297904f-03a9-81cd-b109-fb7f008cd74c" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image7.png"><img style="width:90px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image7.png"/></a></figure><p id="2297904f-03a9-817f-beb9-c0f5f643b48d" class="">08.05.2023 POLI</p><ul id="2297904f-03a9-8151-bf80-e361ed3a3d12" class="bulleted-list"><li style="list-style-type:disc">increase in mortality</li></ul><p id="2297904f-03a9-813c-8de6-ea8072013264" class="">- adverse outcomes of hospitalization</p><p id="2297904f-03a9-817d-a078-fb542e434e81" class=""><strong>CHRONIC INFLAMMATION IN AGING =INFLAMMAGING</strong></p><p id="2297904f-03a9-814b-aa22-d882bf4ff801" class="">In frail people, usually serum plasma</p><p id="2297904f-03a9-8183-a67b-edb4a45a7ed5" class="">markers of inflammation are statistically</p><p id="2297904f-03a9-81b5-8ee8-f76452f90702" class="">increased (<em>fig. 8</em>): a typical serum marker of</p><p id="2297904f-03a9-8187-80fc-c35dce5a3c07" class="">inflammation, <strong>C-reactive protein</strong> (CPR), is</p><p id="2297904f-03a9-815b-9603-f47081213e29" class="">increased.</p><p id="2297904f-03a9-814d-9407-e0036b0cbd12" class=""><em>fig.8</em></p><p id="2297904f-03a9-81a7-9c13-d135a7df70af" class="">Inflammation is a bad companion for aging and for cholesterol: without inflammation, cholesterol doesn&#x27;t not accumulate in the blood vessels; you need inflammation in the endothelial barrier, which can be caused by hypertension, hyperglycemia, smoking etc. These factors make cholesterol aggressive because of inflammation, because the endothelial barrier changes its phenotype from normal to inflammatory.</p><p id="2297904f-03a9-8186-ac03-ddf201bcc0bb" class="">So, inflammaging is a <strong>strong risk factor</strong> for cardiovascular disease, cancer, chronic kidney disease, dementia etc. For example, inflammation makes a difference in the cancerogenesis, starting from a single clone of neoplastic cells to the actual symptomatic occurence of the disease. Cancerogenesis is a long story that does not necessarily end in a bad way.</p><p id="2297904f-03a9-812d-8706-cf5803237fac" class="">Inflammaging is a term invented by an Italian pathologist that is now used worldwide. Chronic inflammation makes aging pathological and more complicated.</p><p id="2297904f-03a9-8151-9dde-d1aa6966c939" class=""><strong>Inflammaging</strong> = a condition characterized by elevated levels of blood inflammatory markers in the serum and in the brain that carries high susceptibility to chronic morbidity, disability, frailty, and premature death.</p><p id="2297904f-03a9-81ce-84b8-e798b807f8b7" class="">It has been proposed as a <strong>marker of</strong></p><p id="2297904f-03a9-818c-a4b9-c7c8e0afd1fd" class="">the loss of glucose in the urine (glycosuria). These are the two main symptoms of diabetes to make the lab analyses. But not all diabetic people are at the same stage of the disease: there are people with mild hyperglycemia, other people are blind, other</p><figure id="2297904f-03a9-8141-aa38-fa95a79d9ef0" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image10.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image10.png"/></a></figure><p id="2297904f-03a9-81ba-a282-f7997e5eb045" class=""><em>fig.9</em></p><p id="2297904f-03a9-81e3-b8c6-d78c46a38bd9" class=""><strong>accelerated aging</strong></p><p id="2297904f-03a9-816e-9bc9-c475cb09d0cb" class="">, but it is not only related to</p><p id="2297904f-03a9-812e-ae64-e3172199d8ba" class="">aging (<em>fig. 9</em>). For example, if a patient has</p><p id="2297904f-03a9-81e9-ae32-ecd340b6453b" class="">diabetes mellitus, the symptoms of this</p><p id="2297904f-03a9-81fd-9230-e1fe27faf0d6" class="">disease are hyperglycemia and, if</p><p id="2297904f-03a9-8105-883b-d106ef495c14" class="">hyperglycemia is more than 180 mg/100 ml,</p><p id="2297904f-03a9-81e0-82fa-c190175c7a92" class="">people suffer from heart attacks because of the diabetes… so, there are different steps of the disease (diabetes is multistep and multifactorial). In the scheme, the cause leads to the disease (diabetes mellitus), which shows some symptoms (like hyperglycemia) and can then reach the complete expression of the disease and the complications (blindness, kidney failure, heart failure etc.).</p><p id="2297904f-03a9-8127-b34d-d3d340a37b0f" class="">Eleonora Deinite</p><p id="2297904f-03a9-813e-9167-c102cdd3e391" class="">50</p><figure id="2297904f-03a9-81eb-a6f9-faa2fbc5f430" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image14.png"><img style="width:172px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image14.png"/></a></figure><figure id="2297904f-03a9-81a3-80be-f3379a7e7099" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image15.png"><img style="width:124px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image15.png"/></a></figure><p id="2297904f-03a9-817f-a725-cd33b83980ba" class="">08.05.2023 POLI</p><p id="2297904f-03a9-810e-9959-e5f9ec170528" class="">Inflammation has two main roles:</p><p id="2297904f-03a9-814b-ad10-d1f508e5f903" class="">●it favors the action of the causes of the disease and promotes the occurrence of the disease → <strong>contribution to</strong> <strong>the disease appearance</strong> (promotion)</p><p id="2297904f-03a9-81b8-be76-d72f7684f188" class="">●when inflammation becomes a sustained process, it becomes a factor of progression of the disease → the disease is already present, but the inflammation further stimulates the disease → <strong>enhancement of disease</strong> <strong>development</strong> (progression)</p><p id="2297904f-03a9-816b-94f6-fe41889d5615" class="">This difference is very important also in carcinogenesis:</p><p id="2297904f-03a9-816c-b01e-e4bacbf47d83" class="">●promotion → a small clone of neoplastic cells will be destroyed in 99,99% of the cases by our defenses, but if</p><p id="2297904f-03a9-81a7-8957-f3abac231ed0" class="">there is an inflammatory process to improve and stimulate the growth of this small clone, the latter will grow and won’t be small anymore, so our defenses will be overwhelmed.</p><p id="2297904f-03a9-8141-84cc-c01d9c606923" class="">●progression → if the disease is already present, for example, you can have a metastasis, inflammation can enhance the progression of the disease.</p><p id="2297904f-03a9-81b7-a52f-cd9c5faa256d" class="">For this reason, prevention is very important: if I stop the disease at the beginning is a whole different story than if I act when the disease has already progressed much.</p><p id="2297904f-03a9-816a-b180-fbef8a349b42" class=""><strong>MECHANISMS OF INFLAMMAGING</strong></p><figure id="2297904f-03a9-816f-9d87-f5024958b305" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image12.png"><img style="width:514px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image12.png"/></a></figure><p id="2297904f-03a9-8136-b734-ebb80eaa717b" class=""><em>fig.10</em></p><p id="2297904f-03a9-81e1-90d0-e823cc369673" class="">Inflammaging occurs through different mechanisms → <em>Why does 1+1 not necessarily give 2 in this case?</em> Because not all mechanisms occur and not all mechanisms occur at the same time.</p><p id="2297904f-03a9-81fe-b93e-e81934fda3b5" class="">1.<strong>genetic susceptibility</strong></p><p id="2297904f-03a9-8100-a8e3-c341631da765" class="">→ Probably acquired factors rather than genetic predisposition are making the difference</p><p id="2297904f-03a9-8147-ad92-f0bb97821592" class="">Various data indicate that genetic variability affects the plasma levels of several inflammatory markers. The cumulative effect of these genetic polymorphisms might be a risk factor for multimorbidity and frailty.</p><p id="2297904f-03a9-81b5-8a85-eb1a2f164667" class="">The single nucleotide polymorphisms (SNP) (<em>fig. 10</em>) are positions in the genome where the large majority of individuals have for example an Adenine (A) while other subjects have a Guanine (G) or a Thymine (T). Not all the single nucleotide changes are classified as SNPs, only those present in at least 1% of the population. When we can have a different combination of different SNPs so that some people age more easily than others. It is a problem of accumulation of SNPs.</p><p id="2297904f-03a9-81f2-8c89-f67fa5875f0b" class="">2.<strong>central obesity</strong> = accumulation of excessive fat around stomach and abdomen We have two types of adipose tissues:</p><p id="2297904f-03a9-8102-81bc-e4d67af76df5" class="">●<strong>brown adipose tissue</strong></p><p id="2297904f-03a9-816f-8570-ed7613dcc0fc" class="">●<strong>white adipose tissue</strong></p><p id="2297904f-03a9-81fd-84a8-d0a630781929" class="">○</p><p id="2297904f-03a9-81e1-b5a4-f869084f7a83" class="">○</p><p id="2297904f-03a9-81bc-a185-f9312e51236a" class="">○</p><p id="2297904f-03a9-8129-b62c-e131e7cfc8b5" class="">○</p><p id="2297904f-03a9-819d-9bb4-ef999a52de6f" class="">presence of adrenergic receptors on these adipocytes</p><p id="2297904f-03a9-810d-971a-d8a05a57ee59" class="">abdominal area (visceral and retroperitoneal areas) sort of “endocrine system”can produce inflammation and other bioactive</p><figure id="2297904f-03a9-81fc-b31a-e513d38d9988" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image13.png"><img style="width:351px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image13.png"/></a></figure><p id="2297904f-03a9-81e2-9a96-e5bda2dfeb1d" class="">○ all over the body, according to sexual differences,</p><p id="2297904f-03a9-81c0-8dc5-f050d9c9ed72" class="">○ subcutaneous localization,</p><p id="2297904f-03a9-81a4-ae23-ce1af49020c3" class="">○ is devoted prevalently to produce heat (caloric energy),</p><p id="2297904f-03a9-816a-91e5-fa49b4def6b1" class="">molecules <em>fig.11</em></p><p id="2297904f-03a9-8166-b1a0-c8631dbab118" class="">Eleonora Deinite</p><p id="2297904f-03a9-8172-9b65-c028832bc62c" class="">51</p><p id="2297904f-03a9-8163-972b-f5579f3b9a3b" class="">08.05.2023 POLI</p><p id="2297904f-03a9-81ee-b81e-c51dd855ad91" class="">→ it’s better to not accumulate white adipose tissue, especially with age</p><p id="2297904f-03a9-8151-a386-dbbd442d2b30" class="">- in women, after menopause, since estrogen cannot limit anymore white adipose tissue accumulation</p><p id="2297904f-03a9-8155-852e-c97d9c9ebb6c" class="">- after 70 years of age, almost all menhave a big abdomen</p><p id="2297904f-03a9-818d-9a1d-c8758e00482d" class="">White adipose tissue can produce a lot of molecules, which are called altogether <strong>adipokines</strong> (<em>fig. 12</em>): the scheme shows only the main ones, because probably we don’t even know all the molecules produced by our central (white) adipose tissue. If a person has an excessive amount of white adipose tissue, they are always producing these molecules. If you have any inflammatory process going on, that process will be amplified by these molecules. This is the reason why obesity and overweight are associated with all the diseases that can be stimulated (either promotion or progression) by inflammation.</p><p id="2297904f-03a9-8130-a088-f479e14b8418" class="">●pro-inflammatory cytokines (<strong>IL-8 and IL-6</strong>)</p><p id="2297904f-03a9-81ff-81f7-d4cbbc63c906" class="">●<strong>MCP-1</strong> (macrophage chemotactic protein 1)</p><p id="2297904f-03a9-81d0-9712-fedd217ea89a" class="">●<strong>TNF-ɑ</strong></p><p id="2297904f-03a9-8184-b845-cf1460d7cb2c" class="">○ is a pro-inflammatory cytokines</p><p id="2297904f-03a9-817a-86ec-c0697e144274" class="">○ stimulates insulin resistance, with the support of macrophages infiltrating in the tissue, since macrophages produce resistin, which induces insulin resistance (this causes hyperglycemia)</p><p id="2297904f-03a9-81f2-8169-c6aafd6a9907" class="">●<strong>PAI-1</strong> (plasminogen activator inhibitor 1)</p><p id="2297904f-03a9-8177-907e-d8f710114b3b" class="">plasminogen activator produces plasmin (or fibrinolysin), which induces the lysis of ○</p><p id="2297904f-03a9-8178-ad2e-e50233dbfaa9" class="">fibrin and, consequently, the lysis of blood clots</p><p id="2297904f-03a9-8183-b146-dc30d3cc9f98" class="">→ if you block the production of plasmin, you favor abnormal blood clotting and thrombosis</p><p id="2297904f-03a9-818c-9d49-c480afe90549" class="">●<strong>angiotensin</strong></p><p id="2297904f-03a9-81a5-b0a7-db649f22201c" class="">○ favors artery hypertension</p><p id="2297904f-03a9-8153-ad7b-c807f0384387" class="">●decrease in <strong>adiponectin</strong></p><p id="2297904f-03a9-81b3-96ef-d572a650a97f" class="">○ insulin resistance</p><p id="2297904f-03a9-81ac-a930-eb065d2c8e04" class=""><em>Q: We said that white adipose tissue is localized in visceral and retroperitoneal areas, does it mean that it is not subcutaneous? Because I know that we have much less brown adipose tissue than white adipose tissue, so isn’t white adipose tissue also subcutaneous?</em></p><p id="2297904f-03a9-81af-a4a9-ef32b6180682" class=""><em>A: The endocrine adipose tissue is localized only in the areas I mentioned, so if you don’t</em></p><figure id="2297904f-03a9-8169-8cdd-fd2ea3f114e9" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image16.png"><img style="width:133px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image16.png"/></a></figure><figure id="2297904f-03a9-817f-82e9-f9fb9eefb0d5" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image17.png"><img style="width:663px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image17.png"/></a></figure><p id="2297904f-03a9-8157-83c6-dffb63ded279" class=""><em>have enough white adipose tissue is alright. In the subcutaneous tissue, you don’t have endocrine activity. These adipocytes have been very well categorized and they only have adrenergic receptors for catecholamines. So, if you feel cold, there is a stress reaction to produce heat. There is a very well known difference.</em></p><p id="2297904f-03a9-811d-a486-f6cb4d834f89" class=""><em>They were asking me yesterday what kind of apolipoproteins were involved in dyslipidemia and I answered both, because it’s better to never be dogmatic. So, I cannot say that in the subcutaneous tissue there is absolutely no production of adipokines, it’s better to say that “to our knowledge” there is no such thing.</em></p><p id="2297904f-03a9-816a-8ea6-d8943c2456f0" class="">There is a consensus definition of <strong>metabolic syndrome</strong> = association of at least three of the following</p><p id="2297904f-03a9-8191-88fa-dbcc9168318e" class="">Eleonora Deinite</p><p id="2297904f-03a9-81e8-9df1-f25ef4c90065" class="">52</p><p id="2297904f-03a9-818d-8266-c65894c1ad06" class="">08.05.2023 POLI</p><p id="2297904f-03a9-81aa-a7f1-d080c3ba5a7e" class=""><strong>cardiovascular risk factors</strong>. Usually, people with metabolic syndromes are overweight, but it’s never said: in theory, if I see an obese person, I can assume that that person has a metabolic syndrome, because they will be insulin resistant, since they are producing the molecules leading to artery hypertension, hyperglycemia, higher susceptibility to blood clotting and thrombosis. In practice, I should check before making this kind of statement.</p><p id="2297904f-03a9-81ec-95d4-f7e13497b6ba" class="">A.<strong>central obesity</strong>(abdominal) → it can be measured by many sophisticated systems, but the waist circumference is the most important one: if you pass the limit, you must take action, otherwise you’ll get in troubles</p><p id="2297904f-03a9-8126-a423-dd3bceaa8e28" class="">●&gt; 102 cm in men</p><p id="2297904f-03a9-813b-9c45-fbb209b75134" class="">●&gt; 88 cm in women</p><p id="2297904f-03a9-8120-8d8d-e1384f40d65c" class="">B.<strong>hypertriglyceridemia</strong></p><p id="2297904f-03a9-818a-a0e0-ef3be47e6968" class="">●Dogma: if you measure twice a fasting glycemia ≥ 150 mg/ml</p><p id="2297904f-03a9-8190-9f49-c30597c1f5e4" class="">C.<strong>low hematic HDL levels</strong></p><p id="2297904f-03a9-81a8-82c8-f29946f327b7" class="">●&lt; 40% ml in men</p><p id="2297904f-03a9-81b9-9985-e1c89e167c89" class="">●&lt; 50% ml in women</p><p id="2297904f-03a9-81ce-ac21-c749a4fb8e1a" class="">D.<strong>systemic artery hypertension</strong>(≥ 130 / ≥ 85 mmHg)</p><p id="2297904f-03a9-81ed-9ccb-e7ede3fbafae" class="">E.often characterized by <strong>hypercoagulability</strong></p><p id="2297904f-03a9-8131-b4e8-e5fdc39332ad" class="">F.<strong>impaired fasting glycemia</strong> (IFG) or reduced glucose tolerance</p><p id="2297904f-03a9-81dc-8bbf-cc0c9834dd07" class="">●≥ 110 mg/ml</p><p id="2297904f-03a9-819b-be1c-d82a5ce3aab6" class="">Difference between diseases and syndromes?</p><p id="2297904f-03a9-81b2-89e3-dddde2d6993b" class="">●Disease → single cause</p><p id="2297904f-03a9-8191-a0f3-d4e861d1191b" class="">→ COVID-19 infection is a disease, because it has a single cause</p><p id="2297904f-03a9-812d-8c37-e580b75f8cc1" class="">●Syndrome (from the Greek, “run together”) → multiple causes</p><p id="2297904f-03a9-817d-8a9a-c2eb54b6485b" class="">→ I don’t get diabetes if I only have a genetic predisposition to it, I get diabetes if the nutrition is not correct, if there is inflammation etc. (we call diabetes a disease, but it is actually a syndrome)</p><figure id="2297904f-03a9-8110-b06d-eda2aae2558e" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image18.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image18.png"/></a></figure><p id="2297904f-03a9-81e6-aa69-d4109a09da08" class="">3.<strong>increased gut permeability</strong></p><p id="2297904f-03a9-811b-a2d5-c94273b89198" class="">●Aging is associated with a <strong>reduction of beneficial commensal microorganisms</strong> like Coprococcus, Faecalibacterium and Lactobacillus.</p><p id="2297904f-03a9-8161-8413-e5ac4b6d5ca4" class="">●There are also a few microorganisms that can overgrow in our gut in an improper way: it’s difficult again to give proper information, but the important thing is that, at the present stage of knowledge of the actual impact of microbiota on our health, we should have a balance in the microbiota. In particular, since there is a high diversity, we should keep this high diversity: a particular clone of bacteria should not be amplified, to maintain a good distribution of microbiota.</p><p id="2297904f-03a9-8164-9ed5-ce655dc530c8" class="">Eleonora Deinite</p><p id="2297904f-03a9-81a4-b6ae-c59f8adf0ef1" class="">53</p><p id="2297904f-03a9-81f5-b849-eaba7db9a21e" class="">08.05.2023 POLI</p><p id="2297904f-03a9-814f-9994-fd574d963603" class="">●Facultative anaerobes such as Fusobacterium and Staphylococcus prevail in the gut of older adults, a status that has been associated with <strong>increased levels of inflammatory cytokines</strong> in plasma.</p><p id="2297904f-03a9-816a-9f45-eab907fd8c84" class="">●Increased gut dysbiosis has been postulated to increase mucosal barrier permeability, thereby allowing the entry of bacteria and their products, including <strong>pathogen- and damage-associated molecular patterns</strong> (PAMPs and DAMPs), due to the damage of the intestinal epithelial, into the circulatory system. These factors trigger and stimulate inflammatory response because they are recognised by our immune system, where we have receptors, like Toll-like receptors, able to recognise the potential infection. There are a lot of proteins, such as the inflammasome, which are ready to recognise signs of diversity and foreign origin to activate caspase-1 and so on. If some compounds, generated either by the diet or by the microbiota, reach a toxic concentration, the enterocytes die and the tight junctions between the different intestinal epithelial cells become leaky or are destroyed, so the permeability of our semi-permeable intestinal barrier is increased. Gut permeability is crucial.</p><p id="2297904f-03a9-8154-a3af-d59a2b495e9d" class="">●Not only the microbiota affects the gut permeability, also food has a role in it. For example, <strong>oxidized cholesterol</strong> obtained by the cooking and roasting of cholesterol-containing food causes a great amount of non-enzymatic oxysterols that are then digested, which are not in the good cholesterol enzymatic products I was mentioning before.</p><p id="2297904f-03a9-81df-9fcf-eb3313d4b21f" class="">4.changes to <strong>microbiota composition</strong></p><p id="2297904f-03a9-81fb-a5cb-f217f08bff58" class="">●The <strong>microbiota</strong> consists of the assembly of commensal, symbiotic and pathogenic microorganisms Bacteria, Protozoa, Fungi and Viruses.</p><p id="2297904f-03a9-8181-a056-e2d7483e003a" class="">●The <strong>microbiome</strong> refers to the complete genetic material of the microbiota. Compared to the human genome, the human microbiome contains 100 times more genes!</p><p id="2297904f-03a9-8145-b47e-d00895eeb29f" class="">There is an interaction between human genome and microbiome: we don’t know much about it, we have just begun to learn these things. In this field, nutrition is very important: if we feed our microbiota badly or well our microbiota, we must always take into account that our food will have to do with our microbiota.</p><p id="2297904f-03a9-81da-856b-e563c85c54a9" class="">5.<strong>cellular senescence</strong></p><p id="2297904f-03a9-81fa-a283-ebf709b10665" class="">●A senescent person is a person <strong>aging badly or early</strong>.</p><p id="2297904f-03a9-818a-bd7b-e72eb9a5d3e6" class="">●Cellular senescence is generally considered to be a <strong>pre-encoded cancer suppressor mechanism</strong> of altered cell growth characterized by cell cycle arrest, loss of proliferation capacity, increased nuclear factor-κB (NF-κB) signaling. Instead of allowing a certain group of cells, maybe stimulated by inflammation, to proceed towards neoplasia, there are mechanisms that our body can implement to make these cells aging and dying early.</p><p id="2297904f-03a9-81e4-82ca-f4190da1e21b" class="">●Cellular senescence includes the action of inflammatory molecules: one TF important to initiate and sustain the inflammatory response is NF-kB. If you activate NF-kB and the other inflammatory molecules too much, you don’t have a physiological process such as cellular senescence or low inflammatory response, which are good to solve wounds, but you have too much inflammation, which is not good.</p><p id="2297904f-03a9-817b-8d2f-de3bb0fbbcb6" class="">Inflammation is physiological only if it is limited in terms of entity and duration. In aging, there is an <strong>amplification of the cellular senescence</strong> mechanism: in inflammaging there is an excessive inflammation and, consequently, an excessive cellular senescence mechanism. Many age-associated diseases, like cardiovascular diseases, show an excessive activation of this mechanism.</p><p id="2297904f-03a9-81d2-a93e-d8f5eed04600" class="">●SNPs located near regulators of senescence and inflammation are particularly associated with diseases of aging, such as cancer, CVD, and type 2 diabetes.</p><p id="2297904f-03a9-81b1-8bee-dd126e795f28" class="">●Cell senescence can be triggered by many stimuli (<em>fig.14</em>):</p><p id="2297904f-03a9-815b-8d03-ea731b2509fc" class="">Eleonora Deinite</p><p id="2297904f-03a9-81ad-b7c8-d87a9c50a6a1" class="">54</p><figure id="2297904f-03a9-8134-b5f0-f666723a2e86" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image19.png"><img style="width:700px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image19.png"/></a></figure><p id="2297904f-03a9-8191-81b0-c33dbc33dec7" class="">08.05.2023 POLI</p><p id="2297904f-03a9-81ec-87f7-fb5f41039f58" class=""><em>fig.14</em></p><p id="2297904f-03a9-8125-9fe5-deae14db2c1f" class="">○ persistent DNA damage</p><p id="2297904f-03a9-812b-b64b-d96eec43434a" class="">○ oncogene activation or inactivation</p><p id="2297904f-03a9-8115-a07d-cb6805a97722" class="">○ epigenetic alterations</p><p id="2297904f-03a9-81a9-85fb-fe3f0d6f50a2" class="">○ mitochondrial dysfunction → reactive oxygen species, both radical and non-radical</p><p id="2297904f-03a9-8105-8566-cfa17075118b" class="">○ oxidized phospholipids</p><p id="2297904f-03a9-8136-a13a-f03340333c16" class="">○ excessive amount of oxidized cholesterol</p><p id="2297904f-03a9-8150-9281-f246bd6ef2f6" class="">○ amyloid-β</p><p id="2297904f-03a9-81c0-a177-eca1373ab497" class="">○ sodium urate as in gout</p><p id="2297904f-03a9-81f8-84f8-dcd494bd3a7a" class="">○ excessive cholesterol crystals</p><p id="2297904f-03a9-81ac-b143-e9b6b76283c0" class="">○ exposure to DAMPs that are released by stressed cells</p><p id="2297904f-03a9-813d-85ec-dbd5011ad132" class="">These factors stimulate <strong>autophagy</strong> and the <strong>activation of the proteasome</strong>, which eliminate the damaged</p><p id="2297904f-03a9-818a-9d64-e11d21f94ce4" class="">proteins. When these compounds accumulate, they overwhelm our immune system and increase the</p><p id="2297904f-03a9-8138-b2c0-e5d69de22d7a" class="">inflammation. This typically occurs in aging.</p><p id="2297904f-03a9-81f1-8608-dd1cd09c5be8" class="">6.<strong>NLRP3 inflammasome activation</strong></p><p id="2297904f-03a9-81db-b70a-e12d32969cbf" class="">7.<strong>oxidative stress</strong> caused by dysfunctional mitochondria</p><p id="2297904f-03a9-81be-aee8-c701819b2514" class="">8.<strong>immune cell dysregulation</strong></p><p id="2297904f-03a9-817d-9e42-d7a2302e98aa" class="">Gene-expression studies show that <strong>CD4+ lymphocytes</strong> (T helper cells) in given tissues from older individuals</p><p id="2297904f-03a9-81ec-8041-ec6fba32f366" class="">have higher intrinsic activation of the NF-κB pathways than those from younger individuals. Since you have</p><p id="2297904f-03a9-818c-b209-d05f1b3bf674" class="">inflammation, the immunological sector is involved as well.</p><p id="2297904f-03a9-8190-b573-e39b7f51392b" class="">9.<strong>chronic infections</strong></p><p id="2297904f-03a9-81c3-abbc-e1a765ec99b8" class="">Subclinical and clinically evident chronic infections can continuously stimulate immune</p><p id="2297904f-03a9-8161-923b-ec02ad16dace" class="">function and result in changes in levels of inflammatory markers that are indistinguishable</p><p id="2297904f-03a9-8187-85b1-c1dd2c4df44b" class="">from those of the inflammaging signature.</p><p id="2297904f-03a9-810c-9242-c8e21daf1437" class=""><strong>!</strong> So, inflammation has an important role in aging and non-communicable disease, so it must be prevented through</p><p id="2297904f-03a9-81b0-a7a0-fdbb17c9dc8a" class="">proper nutrition, physical activity and control of the body weight to avoid the accumulation of endocrine adipocytes.</p><p id="2297904f-03a9-8155-9f73-d7e169ed025c" class="">All these mechanisms work together and amplify the overall picture of an early and bad aging.</p><p id="2297904f-03a9-8181-948f-f38bae579e19" class="">Eleonora Deinite</p><p id="2297904f-03a9-81cf-99b8-c57c2386aefc" class="">55</p><figure id="2297904f-03a9-8141-be43-dae385d21cb2" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image21.png"><img style="width:218px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image21.png"/></a></figure><p id="2297904f-03a9-81a1-942c-eb6431ac9d06" class="">08.05.2023 POLI</p><p id="2297904f-03a9-814f-a205-e9021571c68f" class=""><strong>INTERVENTIONS TO IMPROVE QUALITY AND DURATION OF THE LIFE: PAST AND PRESENT</strong></p><p id="2297904f-03a9-8100-be1c-e8861d9e4c06" class="">causes.</p><p id="2297904f-03a9-8144-a3b0-f1d1ce413c1e" class="">Nowadays, despite many variants, life expectancy keeps</p><figure id="2297904f-03a9-81df-8504-c1c1c4ee135d" class="image"><a href="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image20.png"><img style="width:500px" src="aging%20and%20frailty%202297904f03a98112bc63ce36a73a314c/image20.png"/></a></figure><p id="2297904f-03a9-81c2-8109-ce7541703d7b" class="">Until the beginning of the last century the average lifetime was 35-40 years old. Greek, Latin and medieval people live even less, although in Africa in some areas this is still a problem, for many</p><p id="2297904f-03a9-811a-8d5e-ea1754c68191" class="">increasing, for many reasons: <em>fig.15-</em> <em>Youth</em> ●better nutrition <em>Fountain</em> → <strong>well-balanced diet</strong> (it will be more discussed in future lectures)</p><p id="2297904f-03a9-8190-b179-da12f4049c01" class="">●availability of <strong>vaccines and antibiotics</strong></p><p id="2297904f-03a9-812a-b20c-c330cbc38293" class="">→ after the discovery of antibiotics life expectancy started to rise unexpectedly in an amazing way ●<strong>reduction of genetic damage</strong></p><p id="2297904f-03a9-816a-909c-caffa10fb119" class="">→ we saw in the funnel in <em>fig. 4</em> that different factors, both acquired and hereditary, modify our genes</p><p id="2297904f-03a9-815b-88ee-e8efac60d5b2" class="">→ so far we cannot modify familial predisposition (maybe genetic therapy will be available, but at the moment it is still a fantasy), but you can modify the environment</p><p id="2297904f-03a9-810e-88ee-c9a244645ce3" class="">●<strong>mitochondrial dysfunction restraint</strong></p><p id="2297904f-03a9-81a0-91ff-df391bd417df" class="">●<strong>caloric restriction and obesity prevention</strong> by prevention of accumulation of central adipose tissue</p><p id="2297904f-03a9-8152-b860-c155d864071a" class="">→ it’s easy to do it in theory, but in practice it is difficult to convince people to do it</p><p id="2297904f-03a9-8111-b095-ff33eec1e1d2" class="">●<strong>anti- inflammatory drugs</strong></p><p id="2297904f-03a9-8135-895f-d430944d50ee" class="">→ some of your parents/grandparents take aspirin, which is an anti-inflammatory and anti–clotting drug, which is may be not sufficient, but it is a common habit to take aspirin after a certain age ●<strong>elimination of senescent cells</strong></p><p id="2297904f-03a9-8138-8084-c95d94bbaea6" class="">●<strong>control of cholesterol metabolism</strong></p><p id="2297904f-03a9-81be-820d-fa475ba11acf" class="">●<strong>stem cell therapy</strong></p><p id="2297904f-03a9-81ed-9d85-cfecf85be519" class="">→ it is still a fantasy for the moment, but in some cases we already did genetic therapy</p><p id="2297904f-03a9-81a0-914d-d8bd1dfabfd0" class="">We should not search for everlasting youth, but we should at least try to attain a successful and healthy aging.</p><p id="2297904f-03a9-8151-87b5-de41bde81f80" class="">In the next lesson we will speak about nutrition.</p><p id="2297904f-03a9-81ea-bce7-cd97662ea101" class="">Eleonora Deinite</p><p id="2297904f-03a9-813e-a80a-d3b427910383" class="">56</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

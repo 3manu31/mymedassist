@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> demyelinating diseases</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-815f-bf28-fa57a0aeab6f" class="page sans"><header><h1 class="page-title"> demyelinating diseases</h1><p class="page-description"></p></header><div class="page-body"><figure id="2297904f-03a9-8120-b57d-e88fe7933edc" class="image"><a href="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image1.png"><img style="width:700px" src="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image1.png"/></a></figure><p id="2297904f-03a9-81b6-980f-dfedb6f5fc54" class="">12.05.2023 LEONARDUZZI L.7</p><p id="2297904f-03a9-8175-a04b-e31c81a5d817" class=""><strong>DEMYELINATINGDISEASES</strong></p><p id="2297904f-03a9-8100-9f70-ea1a6e990869" class=""><strong>INTRODUCTION</strong></p><p id="2297904f-03a9-810c-8cf9-c66bf050126d" class="">There is a group of disorders, called <strong>demyelinating diseases</strong>, which are characterized by the <strong>loss of the myelin sheath</strong> with the <strong>preservation of the axon</strong>. Because of the loss of the myelin sheath, there is the appearance of several <strong>neurological deficits</strong> because all the electrical impulses cannot be transmitted along the axons because the myelin sheath is necessary for the transmission. There are several pathologic disorders that can cause this loss, for example immune-mediated destruction of myelin seen in multiple sclerosis but also infections (for example bacterial) and a group of inherited disorders termed <strong>leukodystrophies</strong> (rare diseases with a genetic predisposition characterized by the accumulation of substances on the myelin causing its damage).</p><p id="2297904f-03a9-81ab-a6f5-f63065d1f989" class=""><strong>MULTIPLE SCLEROSIS (MS)</strong></p><p id="2297904f-03a9-8108-973a-cfb7e30c29ca" class="">It is one of the most common diseases characterized by an immune-attack which results in the destruction of the myelin sheath. This disease occurs at any age but in 90-95% of the cases it occurs between <strong>20-40 years</strong> so maybe we can see the onset between 10-50 years or after 50 years of age. MS is a type of autoimmune disease and is <strong>more frequent in women</strong> (as many other autoimmune diseases) affecting them 2-3 times more than men.We can distinguish two forms of MS: a <strong>sporadic form</strong> (most frequent) and a <strong>form with family predisposition</strong> (10-20% of cases).</p><p id="2297904f-03a9-81ae-9eef-c79f29e11ce6" class=""><em>Prevalence</em> <em>of 1 case</em> <em>per 1000</em></p><p id="2297904f-03a9-8140-97ea-f4720cc6dc73" class=""><em>persons/year in Europe and USA; link</em></p><p id="2297904f-03a9-813a-96f6-e9854e94aa8c" class=""><em>with unidentified environmental factors:</em></p><p id="2297904f-03a9-818f-81d1-e282174b7231" class=""><em>latitude, climate, etc. Incidence: 15-fold</em></p><p id="2297904f-03a9-81ee-8203-f23d6ab14ab4" class=""><em>higher when the disease is present in a</em></p><p id="2297904f-03a9-818d-81dc-c5e639eb0217" class=""><em>first-degree relative and roughly 150-fold</em></p><p id="2297904f-03a9-8139-9149-ca0663686ddf" class=""><em>higher with an affected monozygotic</em></p><p id="2297904f-03a9-819b-9af0-dd4b3daabbc7" class=""><em>twin.</em></p><p id="2297904f-03a9-8164-929a-f334f6f1a071" class="">Here we can see (<em>fig</em>. 1)the distribution</p><p id="2297904f-03a9-81a6-b48c-f5185d6d75dd" class="">of MS and it is quite diffuse in North</p><p id="2297904f-03a9-8167-b468-dcb52e218885" class="">America, North Europe (Italy included)</p><p id="2297904f-03a9-81c7-bc6f-f29d2679c635" class="">and in Australia. It’s not so diffused in (<em>fig</em>. 1) South America, Africa, India and Asian</p><p id="2297904f-03a9-8146-8e80-d9ef074dcce5" class="">countries.</p><p id="2297904f-03a9-8194-be51-c4975da8cb35" class="">As already said, it is an autoimmune disease, and it has been discovered that it is a <strong>multifactorial disease</strong> because genetic and environmental factors can contribute to its development. It is characterized by the presence of specific lesions caused by an autoimmune response directed against the components of the myelin sheath which gets destroyed by our own antibodies, mainly in the area of the white matter of the CNS, even though the gray matter can also be affected.</p><p id="2297904f-03a9-8112-b3f2-f467ee914669" class="">The demyelination is the result of repeated immune-mediated inflammatory processes over time; these repeated crises, characterized by dramatic inflammation, are responsible for the production of antibodies against the myelin responsible for all the neurologic deficits.</p><p id="2297904f-03a9-8112-a310-deb4b8355517" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-813d-bd07-f7e6b10639ad" class="">81</p><p id="2297904f-03a9-8170-abf7-cb15eef3b3b3" class="">12.05.2023 LEONARDUZZI L.7</p><p id="2297904f-03a9-811d-b7d8-dd42c49f9215" class="">The CNS tries to repair the damage but is not able to do it completely; thus, we have only a partial re-myelination by oligodendrocytes; especially at the beginning the reparation is quite effective but over time it becomes less effective and the result is the formation of specific lesions characterized by fibrotic tissue known as <strong>sclerotic plaques.</strong> The name MS comes from the formation of multifocal sclerotic plaques.</p><p id="2297904f-03a9-810b-906e-e24e56901157" class="">On the left (<em>fig</em>. 2), there is a normal neuron with a totally myelinated axon and on the right, we can see the situation after the immune attacks, and we can understand that the electrical impulses cannot be transmitted along the axon with a myelin sheath in this condition.</p><figure id="2297904f-03a9-81dd-a425-f2bdfc2fe5f0" class="image"><a href="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image2.png"><img style="width:619px" src="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image2.png"/></a></figure><p id="2297904f-03a9-8182-a0b5-f350a3ecff5a" class="">(</p><p id="2297904f-03a9-815e-a43e-f09e1185d3b3" class=""><em>fig</em></p><p id="2297904f-03a9-8146-82a1-d040bf188f9f" class="">. 2)</p><p id="2297904f-03a9-81c7-8e52-ee8842757a24" class=""><strong>FORMS OF MULTIPLE SCLEROSIS</strong></p><p id="2297904f-03a9-81fe-988b-e8f753e69716" class="">We can distinguish 4 different forms of multiple sclerosis:</p><p id="2297904f-03a9-81ea-94e6-e4a4157895da" class="">●<strong>relapsing-remitting</strong></p><p id="2297904f-03a9-8188-88b9-ca637a51d46c" class="">It is a rapidly developing form; in a few days we have the appearance of the neurological deficits, and this acute attack can be followed by <strong>a gradual, total or partial remission</strong> of the neurological functions (80% of patients). We can have repeated attacks in the following months or years but between them there are normal periods with regression of the neurological problems.</p><p id="2297904f-03a9-819f-859f-e46dbb8b2123" class="">●<strong>secondary progressive</strong></p><p id="2297904f-03a9-81ea-b21f-f223bcf29f26" class="">Over time some patients show a more or less severe progression of the disease, so it does not stop.</p><p id="2297904f-03a9-818a-9aef-f5f1c73643e3" class="">●<strong>primary progressive</strong></p><p id="2297904f-03a9-81c2-9d54-f0ad231649da" class="">We have a progression of the disease since the first day (so from the first day) and not over time; 20% of patients are affected by this more severe form compared to the others because we don’t have a pause between the first and the second crisis but there is a constant progression of the disease.</p><p id="2297904f-03a9-8189-988c-d20cfe2d68f7" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-813a-bb0a-dc98024d5a28" class="">82</p><p id="2297904f-03a9-8115-9c0b-d87265441d17" class="">12.05.2023 LEONARDUZZI L.7</p><p id="2297904f-03a9-8171-b918-c36f2a453686" class="">●<strong>progressive-relapsing</strong></p><p id="2297904f-03a9-816a-b167-f0ce716bba38" class="">Progressive condition with attacks; there is a progressive development characterized by more severe attacks compared to the first form, so these patients reach a condition of disability because they have very serious neurological deficits.</p><p id="2297904f-03a9-818d-8b6a-dba37be3cf32" class=""><strong>CONTRIBUTION FACTORS</strong></p><p id="2297904f-03a9-816b-9167-d720e928e68c" class="">The mechanisms responsible for this disease are not clear but what has been demonstrated is that it is a multifactorial disease so there is the involvement of:</p><p id="2297904f-03a9-811a-8e4e-d87b98d1cfcb" class="">●<strong>Genetic predisposition</strong></p><p id="2297904f-03a9-818f-99e4-d4f3bbf0f585" class="">− The genes of <strong>MHC class II</strong> are involved but only in <strong>25-35%</strong> of cases, so this means that there are also other genes involved. However, in particular patients with the haplotype HLA-DRB1*1501 have a higher risk (3 times more) of developing MS compared to other subjects. Since genes of MHC class II are involved for only a small percentage, it means that other unknown genes must be involved in the development of the disease.</p><p id="2297904f-03a9-81b3-930c-d65ced665027" class="">●<strong>Environmental and immune risk factors</strong></p><p id="2297904f-03a9-8118-a3c2-cc7ce17301b1" class="">− It has been observed that this disease is present differently depending on the <strong>geographical area</strong> due to different climate, latitude, etc. because these factors can stimulate in some way the genetic predisposition.</p><p id="2297904f-03a9-812d-aab3-c5b38a592b95" class="">− Vitamin D can also have a role in the development of MS and in particular a diet lacking provitamin D or insufficient sun exposure.</p><p id="2297904f-03a9-81d5-b5f9-e55726e8045d" class="">− Cigarette smoking.</p><p id="2297904f-03a9-816a-85b2-dc2c62dffd76" class="">− Some studies said that probably some viral agents can contribute (maybe the Epstein-Barr virus) but we don’t have reliable scientific data telling us which viruses are responsible and which are not.</p><p id="2297904f-03a9-812f-b9ca-eebdaa55c1b1" class="">There are no reliable data on genetic, environmental, and immune factors but all the events able to stimulate inflammatory processes can contribute to MS pathogenesis. It has been observed that chronic inflammatory infiltrate (so chronic inflammatory cells) either inside the sclerotic plaques or outside the regions. Over time the inflammatory response can decrease but the neurological deficits remain stable.</p><p id="2297904f-03a9-811e-9ac9-ca744c609484" class=""><strong>PATHOGENESIS</strong></p><p id="2297904f-03a9-8140-a7a1-db180e6407df" class="">The pathogenesis (<em>fig</em>. 3)is characterized by a complex and multiphase process. We can mainly distinguish 2 phases: an <strong>autoimmune attack</strong> at the beginning and then, with the progression of the disease, an <strong>axonal damage</strong>.</p><p id="2297904f-03a9-8131-83f3-f0d9d84becad" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-81d6-8aa7-efbbd65f7977" class="">83</p><figure id="2297904f-03a9-8108-aa48-eb1bece3b9ca" class="image"><a href="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image4.png"><img style="width:700px" src="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image4.png"/></a></figure><p id="2297904f-03a9-8160-9c52-c3ca6cef300b" class="">12.05.2023 LEONARDUZZI L.7</p><figure id="2297904f-03a9-8140-8e3d-f59b9c739a9d" class="image"><a href="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image3.png"><img style="width:700px" src="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image3.png"/></a></figure><p id="2297904f-03a9-818b-9b5a-f49bddb0c553" class="">(<em>fig</em>. 3)</p><p id="2297904f-03a9-810e-a7be-e94aae4671da" class="">At the beginning, there is a crisis characterized by <strong>inflammation</strong> during which there is the production of <strong>cytokines</strong> and in particular of IL-1, IL-6 and TNF-alpha that starts to damage the endothelium of the blood brain barrier causing the release of adhesion molecules such as ICAM-1, VCAM-1, E-selectin and the exposure of MHC class II molecules implicated in antigen recognition by the immune system. After that there is the <strong>activation of T-lymphocytes</strong> that start to express on their surface ligands for the adhesion molecules and for MHC class II molecules and start to adhere to endothelial cells and transmigrate from the bloodstream to the perivascular space, through the release of MMP-2 and MMP-9 that can degrade the components of the ECM (in particular collagen).</p><p id="2297904f-03a9-8112-9de8-e8105325f4a1" class="">These inflammatory cells cross the BBB and start to spread in the bundles of nerve fibers at the level of the white matter of the CNS. Activated T-lymphocytes become <strong>cytotoxic T lymphocytes</strong> (CD4+) and start to <strong>attack the myelin sheath proteins and produce inflammatory cytokines</strong> (IL-1, IL-6 and TNF-alpha) stimulating macrophages and glial cells that synthesized NO and osteopontin (a glycoprotein). This is considered as the inflammatory stage of MS. After that, <strong>the B lymphocytes start to migrate</strong> from the blood to the perivascular space and they start to <strong>produce antibodies</strong> against the components of the myelin sheaths and these antibodies are responsible</p><p id="2297904f-03a9-81a2-afea-d33e02d4ad04" class="">for the degradation of the myelin; the</p><p id="2297904f-03a9-813b-83a1-fa3c2d6601a5" class="">macrophages present in that area</p><p id="2297904f-03a9-81dc-98b6-d6f7e5aeb826" class="">start to phagocyte all the fragment of</p><p id="2297904f-03a9-8108-a113-d247bfb5ca95" class="">myelin. Osteopontin is a special</p><p id="2297904f-03a9-81c8-811f-dfe97f73f2e4" class="">glycoprotein because it contributes</p><p id="2297904f-03a9-8194-a5e3-ce4ae601bb95" class="">to the stimulation of the production</p><p id="2297904f-03a9-815e-98cc-f727a95db71e" class="">of other cytokines by Th1 cells</p><p id="2297904f-03a9-81a8-899f-c108dfa09846" class="">amplifying the</p><p id="2297904f-03a9-81fd-80d1-d5655ef5ccb5" class="">inflammatory response. So, at the end we have an</p><p id="2297904f-03a9-8131-a940-e15302f11c2a" class="">imbalance between the production</p><p id="2297904f-03a9-81ec-add4-eff35c384298" class="">of inflammatory cytokines and the</p><p id="2297904f-03a9-8154-a73c-fa1dbbb24eef" class="">anti-inflammatory cytokines released (<em>fig</em>. 4)</p><p id="2297904f-03a9-81b9-b52c-da489580960b" class="">by Th2 cells with the prevalence of</p><p id="2297904f-03a9-81d7-af0a-d4e7818804dc" class="">the inflammatory response.</p><p id="2297904f-03a9-8136-aadc-da478d9a8326" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-8183-aad3-f1dca3dc9324" class="">84</p><p id="2297904f-03a9-818c-bc63-ccf1478baf8d" class="">12.05.2023 LEONARDUZZI L.7</p><p id="2297904f-03a9-8142-84b1-cc0f6dea208e" class="">In this picture (<em>fig</em>. 4), it’s possible to appreciate the transmigration of activated T cells that attack the myelin and the following arrival of B lymphocytes that start to produce antibodies against myelin components degrading it; the degraded components are phagocytosed by the macrophages.</p><p id="2297904f-03a9-815f-8978-c7c1e52a07ea" class=""><strong>INTRODUCTION CONSEQUENCE OF IMMUNE ATTACKS</strong></p><p id="2297904f-03a9-812b-b720-f1286e063f24" class="">We have many areas where the myelin is attacked in which we have the formation of focal areas of demyelination on the myelin sheaths causing neurological deficits because, as already said, myelin is necessary for the transmission of electrical impulses. During these inflammatory crises in the white matter we also have the destruction of oligodendrocytes (because the myelin sheath</p><p id="2297904f-03a9-8135-9f36-ee0a322b1eb8" class="">is formed by extensions of oligodendrocytes) and so these damaged neurons</p><p id="2297904f-03a9-81b6-93dc-c086f0278e70" class="">Moreover, since there is axonal damage, the astrocytes and the other inflammatory cells present around that area start to release some neurotrophic factors trying to stimulate the production of new myelin with consequent re-myelination by the oligodendrocytes, but this is only a partial re-myelination; therefore, overtime this becomes less and less effective with consequent irreversible damage and replacement by sclerotic tissue,</p><p id="2297904f-03a9-8145-a968-fa8a2ab84e0e" class=""><strong>sclerotic plaques.</strong></p><p id="2297904f-03a9-8119-9282-f25745e2ee49" class="">In this picture (</p><p id="2297904f-03a9-8171-b02f-ed9f4559f14c" class=""><em>fig</em></p><p id="2297904f-03a9-8100-8923-cc6286de4902" class="">. 5) we can appreciate sclerotic plaques in the</p><figure id="2297904f-03a9-81dd-b163-d5c4f27de663" class="image"><a href="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image5.png"><img style="width:331px" src="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image5.png"/></a></figure><p id="2297904f-03a9-81cd-a568-fefa97470e3c" class="">start to release an excessive quantity of glutamate which is a neurotransmitter that leads to a continuous excitation of neurons until they get exhausted and so there is a destruction of the neurons because of the excessive excitation that causes the loss of their functions, <strong>excitotoxicity</strong> (toxicity of neurons caused by their extreme excitation).</p><p id="2297904f-03a9-81f0-9800-df0d4fbd5dfa" class="">brainstem and spinal cord. (<em>fig</em>. 5)</p><p id="2297904f-03a9-8157-94f6-f6176086e8c1" class=""><strong>ANATOMOPATHOLOGICAL CHARACTERISTIC</strong></p><p id="2297904f-03a9-81dc-b134-f38b2a89d5a9" class="">MS is an autoimmune disease characterized by sclerotic plaques typical of the white matter, but they can also be present in the gray matter because myelin can also be inside it. These lesions have been observed in the periventricular area, corpus callosum, cerebellum, but also optic nerves, chiasm, and spinal cord.</p><p id="2297904f-03a9-8192-9a84-e38dc38620c7" class="">It’s possible to distinguish different types of lesions according to their morphology:</p><p id="2297904f-03a9-81c8-aff0-da2a67f72515" class="">●<strong>acute active</strong>, associated with acute attacks of immune system; they are characterized by:</p><p id="2297904f-03a9-81ae-a9e6-f5d88addc61d" class="">− irregular margins</p><p id="2297904f-03a9-8114-a293-d3432d6c1721" class="">− myelin infiltration of lymphocytes and macrophages (containing products of the sheath degradation)</p><p id="2297904f-03a9-810f-908c-c49d60ec5799" class="">− axonal damage however the axon is still conserved</p><p id="2297904f-03a9-81f8-a96a-d30411c3f45e" class="">− loss of oligodendrocytes which are destroyed</p><p id="2297904f-03a9-81aa-abd7-db38322bae10" class="">− poor astroglial response</p><p id="2297904f-03a9-81d5-ad2e-f657261f5eb2" class="">●<strong>chronic active</strong>, associated with the progressive form of chronic MS; they are characterized by:</p><p id="2297904f-03a9-81ba-a2be-ca8dbfc95d5c" class="">− sharper margins</p><p id="2297904f-03a9-815c-90e3-da26bc962525" class="">− large external area rich in macrophages (mainly in the internal area) and products of advanced myelin degradation</p><p id="2297904f-03a9-817f-ac94-d6581174c584" class="">− evident axonal damage compared to the acute active ones</p><p id="2297904f-03a9-8120-8066-d479d59b8fba" class="">●<strong>slow expansion</strong>, they have an inactive central area surrounded by activated microglia and some macrophages at the edges</p><p id="2297904f-03a9-813a-b3fa-ff1c85191c33" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-817c-86b7-dc0ce03b4d70" class="">85</p><p id="2297904f-03a9-81ee-97e9-d599d15c1907" class="">12.05.2023 LEONARDUZZI L.7</p><p id="2297904f-03a9-8122-a065-c4b3de50078f" class="">●<strong>chronic inactive</strong>, we do not have an active degradation of the myelin because these are old lesions and correspond to the sclerotic plaques; they are characterized by:</p><p id="2297904f-03a9-81f0-a9a2-f59958927924" class="">− net margin</p><p id="2297904f-03a9-8198-a0a4-f22eeecb9a8c" class="">− myelin absence</p><p id="2297904f-03a9-818b-8fd3-efa7aaf1ba2e" class="">− few oligodendrocytes</p><p id="2297904f-03a9-81ba-acf2-d545b553d0ef" class="">− macrophages and microglia cells but <strong>strong sclerotic cicatricial reaction</strong> (sclerosis, irreversible damage) due to astroglial activation</p><p id="2297904f-03a9-817f-a047-ec41951a45ae" class=""><strong>SYMPTOMS AND DIAGNOSIS</strong></p><p id="2297904f-03a9-817c-aa90-e2da62d88b33" class="">The clinical manifestations are various and change from person to person and can also be different because they depend on the localization of the sclerotic plaques in the CNS. <em>They occur singularly or simultaneously.</em></p><p id="2297904f-03a9-8114-9be2-e3fbeb275e0a" class="">●if we have a lesion in the <strong>cerebral cortex</strong>, the neurological deficits will consist in motor, sensory and cognitive disorders (paralysis, ataxia)</p><p id="2297904f-03a9-8198-ba80-d240b61d7a8f" class="">●if the lesions affect the <strong>optic nerve</strong> there will be optic neuritis and retrobulbar neuritis</p><p id="2297904f-03a9-8180-bb7e-d853a9d1f866" class="">●if we have lesions in the <strong>brainstem</strong> there will be ophthalmoplegia and dysphagia</p><p id="2297904f-03a9-8173-a1bb-d6343cb64da4" class="">●in case the lesions are in the <strong>motor spinal cord</strong> the neuronal deficits will be sensory and sphincter disorders</p><p id="2297904f-03a9-81cf-b6b2-d8d354783bd9" class="">As a result of the lesions the patients can have:</p><p id="2297904f-03a9-8139-b98e-f0f85efa5297" class="">●<strong>Loss of sensitivity</strong>, tingling, numbness in the limbs (hypoesthesia and paraesthesia), loss of sensitivity to touch, difficulty in perceiving heat and cold</p><p id="2297904f-03a9-819e-b865-d629e7ffc1d7" class="">●<strong>Muscle weakness,</strong> fatigue (asthenia), muscle spasms, difficulty in movement or difficulty in coordination and balance (ataxia), language problems (dysarthria) and dyskinesias, swallowing difficulty (dysphagia, as in other neurodegenerative diseases such as Alzheimer’s disease and Parkinson&#x27;s disease)</p><p id="2297904f-03a9-812d-92b1-d11bb64f8889" class="">●<strong>Cognitive impairment,</strong> cortical dementia, characterized by a state of euphoria or crisis of spastic crying and laughing, depression</p><p id="2297904f-03a9-8166-ab8e-e42e46309faf" class="">●<strong>Sexuality disorders</strong>, impotence and loss of sensitivity</p><p id="2297904f-03a9-8139-85d4-f7117829b3b4" class="">●<strong>Visual disturbances</strong>, rapid visual decline, doubling of sight (diploidy), internuclear ophthalmoplegia (force deficit or paralysis movements), uncontrolled movements of the eye (nystagmus) and optic neuritis (image blur and pain in the region around the eyes or bulbar movement)</p><p id="2297904f-03a9-810a-a44a-e53901dffbf3" class="">●<strong>Urinary tract disorders</strong>, frequent and/or urgent urination (pollakiuria), incontinence or retention</p><p id="2297904f-03a9-81d8-9367-ccf70545b252" class="">●<strong>Intestinal problems</strong>, constipation, diarrhea or fecal incontinence</p><p id="2297904f-03a9-8138-81e9-fa71115ef725" class="">The symptoms usually appear during the acute attacks and after these acute deteriorations there is a gradual and/or progressive worsening of neurological function. The attacks are unpredictable so there are no obvious factors that can precede them and do not occur frequently during the year → 1 or 2 attacks per year. However, some are preceded by common triggers like hot environments; therefore, from one side the sun is useful to produce vitamin D but on the other side it can cause the onset of an attack especially during spring or summer. It also seems that some viral infections like common colds, flu and gastroenteritis, can increase the risk of relapse while stress can trigger an attack. Pregnancy also plays a role influencing the susceptibility to relapse <em>(recurrence rate lower than one for each trimester of gestation)</em>; after giving birth, the risk of recurrence is greater during the first months.</p><p id="2297904f-03a9-81cf-9136-d0225594b46b" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-8136-828c-c8b65fbbdba7" class="">86</p><p id="2297904f-03a9-81b4-ab73-df028a8ebd6a" class="">12.05.2023 LEONARDUZZI L.7</p><p id="2297904f-03a9-81a7-aa46-c65137841e9e" class="">As regards the diagnosis, with an <strong>MRI</strong> we can observe the lesions in the white matter but we can also check the presence of antibodies against myelin or some fragments of myelin in the liquor by performing a <strong>liquor examination</strong>. Moreover, there are two characteristic (but not specific) clinical signs of multiple sclerosis:</p><p id="2297904f-03a9-81f8-8a0a-d6893035405c" class="">1.<strong>Uhthoff&#x27;s sign</strong>, aggravation of existing symptoms due to exposure to higher temperatures than usual ambient one</p><p id="2297904f-03a9-8188-a4fb-d808491d97f5" class="">2.<strong>Lhermitte’s sign</strong>, sensation of electric shock that runs through the spine and legs following flexion or, more rarely, during extension of the neck (this is typical of MS)</p><figure id="2297904f-03a9-818d-9209-f5dcb3085a12" class="image"><a href="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image6.png"><img style="width:486px" src="demyelinating%20diseases%202297904f03a9815fbf28fa57a0aeab6f/image6.png"/></a></figure><p id="2297904f-03a9-811e-91a8-da9c1a9ae7c6" class=""><strong>THERAPY</strong></p><p id="2297904f-03a9-815f-aebe-f8ef765a9289" class="">There are two lines of therapy:</p><p id="2297904f-03a9-812a-bf99-f125b38b69b6" class="">●<strong>Immunomodulatory</strong></p><p id="2297904f-03a9-8148-8cc5-e9ce4703b345" class="">Modulate and control the immune system decreasing the immune attack and thus the destruction of myelin; the most used one is <strong>interferon beta-1</strong> but there are also others <em>(glatiramer acetate, natalizumab)</em></p><p id="2297904f-03a9-81fa-975a-ee1a59edb67d" class="">●<strong>Immunosuppressant</strong></p><p id="2297904f-03a9-811f-816f-e8b7dde53cdd" class="">These are the most effective drugs because they totally inhibit the immune system destroying all the B lymphocytes responsible to produce the antibodies against the myelin components, but, after the treatment, the patients are totally exposed to infectious agents because all the immune cells are, indeed, destroyed. <em>Officially approved drug for use in MS is mitoxantrone but many others are used in clinical practice e.g. azathioprine and cyclophosphamide</em></p><p id="2297904f-03a9-812a-8a99-eb94587832f5" class="">The professor proceeded to show this video</p><p id="2297904f-03a9-8129-99d2-d7e44ce0ccd4" class=""><em>Multiple sclerosis is a demyelinating disease of the central nervous system, which includes the brain and the spinal cord. Myelin is the protective sheath that surrounds the axons of neurons, allowing them to quickly send electrical impulses. This myelin is produced by oligodendrocytes, which are a group of cells that support</em></p><p id="2297904f-03a9-81ba-a63c-e331c65144f8" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-8183-8989-d2b251a056c3" class="">87</p><p id="2297904f-03a9-8152-9b12-e31ebbb4e568" class="">12.05.2023 LEONARDUZZI L.7</p><p id="2297904f-03a9-8109-866d-c3c00e749c4e" class=""><em>neurons. In multiple sclerosis, demyelination happens when the immune system inappropriately attacks and destroys the myelin, which makes communication between neurons break down, ultimately leading to all sorts of sensory, motor, and cognitive problems. Now, the brain, including the neurons in the brain, is protected by things in the blood by the blood brain barrier, which only lets certain molecules and cells through from the blood. For immune cells like T and B cells that means having the right ligand or surface molecule to get through the blood brain barrier, this is kind of like having a VIP pass to get into an exclusive club. Once a T cell makes its way in it can get activated by something it encounters - in the case of multiple sclerosis, it’s activated by myelin. Once the T-cell gets activated, it changes the blood brain barrier cells to express more receptors, and this allows immune cells to more easily bind and get in, it’s kind of like bribing the bouncer to let in a lot of people. Now, multiple sclerosis is a type 4 hypersensitivity reaction, or cell-mediated hypersensitivity. And this means that those myelin specific T-cells release cytokines like IL-1, IL-6, TNF-alpha, and interferon-gamma, which together dilate the blood vessels which allows more immune cells to get in, as well as directly cause damage to the oligodendrocytes. These cytokines also attract B-cells and macrophages as part of the inflammatory reaction. Those B-cells begin to make antibodies that mark the myelin sheath proteins, and then the macrophages use those antibody markers to engulf and destroy the oligodendrocytes. Without oligodendrocytes, there’s no myelin to cover the neurons, and this leaves behind areas of scar tissue, also called plaques or sclera. In multiple sclerosis, these immune attacks typically happen in bouts. In other words, an autoimmune attack on the oligodendrocytes might happen, and then regulatory T cells will come in to inhibit or calm down the other immune cells, leading to a reduction in the inflammation. Early on in multiple sclerosis, the oligodendrocytes will heal and extend out new myelin to cover the neurons, which is a process called remyelination. Unfortunately, though, over time as the oligodendrocytes die off the remyelination stops and the damage becomes irreversible with the loss of axons.</em></p><p id="2297904f-03a9-8150-a30f-df1cbc399fcd" class=""><em>Just like other autoimmune diseases, the exact cause of multiple sclerosis is unknown, but is linked to both genetic and environmental factors. Genetic risk factors include being a female and having genes that encode a specific type of immune molecule called HLA-DR2 which is used to identify and bind to foreign molecules. Environmental risk factors might include infections as well as vitamin D deficiency, which is an interesting one because it might help explain why the rates of multiple sclerosis are higher at the northern and southern poles compared to the equator where there’s a lot more sunlight. Together these genetic and environmental influences might lead to the body not killing off immune cells that target myelin.</em></p><p id="2297904f-03a9-81e6-bd9b-de2a29b1f4de" class=""><em>So it turns out that there are four main types of multiple sclerosis based on the pattern of symptoms over time. To break this down, we can use this graph with time on the x-axis, where time refers to the lifespan of the individual, and disability on the y-axis. The first, and by far the most common pattern of multiple sclerosis, is called </em><em><strong>relapsing-remitting multiple sclerosis or RRMS</strong></em><em>. This condition is what we just described, bouts of autoimmune attacks happening months, or even years, apart, and causing an increase in the level of disability. For example, during a bout a person may lose some vision, but then it may be followed by improvement if there’s remyelination. Unfortunately, though, more often than not, the remyelination process is not complete so there is often some residual disability that remains, and that means that with each attack, more and more of the central nervous system gets irreversibly damaged. In the relapsing-remitting multiple sclerosis type there’s typically no increase in disability between bouts, so the line stays flat during that time. Now, the second type is called </em><em><strong>secondary progressive multiple sclerosis or SPMS</strong></em><em> which initially is pretty similar to the relapse-remitting type, but over time the immune attack becomes constant which causes a steady progression of disability. The third type is </em><em><strong>primary-progressive multiple sclerosis or PPMS</strong></em><em>, which is basically one constant attack on myelin which causes a steady progression of disability over a person’s lifetime. The final type is </em><em><strong>progressive relapsing multiple sclerosis or PRMS</strong></em><em>, which is also one constant attack but this time there are bouts superimposed during which the disability increases even faster.</em></p><p id="2297904f-03a9-81c9-9ed2-e59a8ef9a6e8" class=""><em>Specific symptoms vary a lot from person to person, and largely depend on the location of the plaques. And multiple sclerosis typically affects individuals between the ages of 20 and 40. Symptoms related to bouts can typically worsen over weeks and can linger for months without treatment. One common trio of multiple sclerosis symptoms is called Charcot’s neurologic triad and it includes dysarthria, which is difficulty or unclear speech, nystagmus, which is involuntary rapid eye movements, and an intention tremor. Dysarthria is due to</em></p><p id="2297904f-03a9-81fb-bdeb-dc7564d1064d" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-81e2-9eed-d634bd9fd8e1" class="">88</p><p id="2297904f-03a9-8103-a271-d9c58bd3bb6b" class="">12.05.2023 LEONARDUZZI L.7</p><p id="2297904f-03a9-81e9-9693-eedea59e5de2" class=""><em>plaques in the brainstem that affect nerve fibers that control muscles of the mouth and throat, and this can interfere with conscious movements, like eating and talking and can lead to things like a new stutter, as well as unconscious movements, like swallowing. Nystagmus is due to plaques around the nerves controlling eye movements. Plaques around the optic nerve cause loss of vision in one or both of the eyes because of damage to the optic nerve, which is called optic neuritis. Sometimes there’s blurring or graying of the vision, or alternatively there might be a dark point in the center of vision. Additionally, if there’s damage to the nerves controlling eye movement, then eye movements can be painful and there can even be double vision, if the eyes can no longer move in a coordinated way. Finally, intention tremors can be caused by plaques along the motor pathways in the spinal cord which can affect outbound signals like skeletal muscle control. Motor symptoms can include muscle weakness, muscle spasms, tremors, and ataxia which is a loss of balance and coordination. In serious cases, this can lead to paralysis.</em></p><p id="2297904f-03a9-816c-83a7-eeebf79ed022" class=""><em>In addition, plaques in the sensory pathways can affect inbound signals like sensations from the skin which causes symptoms like numbness, pins-and-needles, and paresthesias which are often a tingling feeling but may also be a painful itching or burning sensation. Occasionally there can be very specific sensory symptoms like Lhermitte’s sign, which is when an electric shock runs down the back and radiates to the limbs when a person bends their neck forward. Plaques can also involve the autonomic nervous system which can lead to bowel and bladder symptoms like constipation and urinary incontinence, as well as sexual symptoms like sexual dysfunction. Finally, multiple sclerosis can also affect higher order activities of the brain, causing poor concentration and critical thinking, as well as depression and anxiety.</em></p><p id="2297904f-03a9-81a1-8abd-ee67f64f6271" class=""><em>Multiple sclerosis is typically suspected when there are multiple neurologic symptoms separated in space, which is attributable to damage in different locations in the nervous system, as well as time, meaning separate bouts or flare-ups as well as remission. The diagnosis of multiple sclerosis is supported by an MRI which shows multiple central nervous system lesions, called white matter plaques, since these regions tend to have lots of myelin. Also, in the cerebrospinal fluid there might be high levels of antibodies, which indicates an autoimmune process. Finally a visual evoked potential can be helpful as well, which measures the nervous system’s response to visual stimuli.</em></p><p id="2297904f-03a9-8179-89bf-f03ed0f026b2" class=""><em>For treatment, there is no cure for multiple sclerosis, but there are medications which are particularly effective for the relapsing-remitting type because they lessen the severity of relapses and make them happen less frequently. Medications like corticosteroids, cyclophosphamide which is a cell cycle inhibitor, and intravenous immunoglobulin can all be used to help blunt the autoimmune process. In addition, plasmapheresis can be effective as well, which is when the plasma is filtered to remove disease-causing autoantibodies. Chronic treatment for multiple sclerosis includes immunosuppressants like recombinant beta-IFN which decreases the level of inflammatory cytokines in the brain and increases the function of T regulatory cells. Other immunosuppressants actually block T cells from getting into the brain by interfering with their cell surface molecules they use to gain passage through the blood brain barrier. Unfortunately, though, there are fewer treatment options available for the progressive MS. Instead, treatments are often targeted at managing specific symptoms—everything ranging from depression to bladder dysfunction. Physical therapy and cognitive rehabilitation therapy can be particularly helpful with sensory, motor, and cognitive symptoms. Finally, there’s also an increasing interest in the role of vitamin D as an effective treatment.</em></p><p id="2297904f-03a9-81ef-8c82-f517a293e233" class=""><em>As a quick recap, multiple sclerosis is a chronic and progressive autoimmune disorder, and the most common pattern is the relapsing-remitting type, where individuals have flares that come and go, with each one slightly worsening their overall condition. During a flare, T-cells cause inflammation and damage to oligodendrocytes in the central nervous system, which leaves behind scarred areas of demyelinated neurons called plaques, which causes a variety of symptoms depending on the location.</em></p><p id="2297904f-03a9-81fe-8b52-d9a76a284a04" class="">Saghafi Romina, Gervasio Carolina</p><p id="2297904f-03a9-8114-a085-d352a3f676b7" class="">89</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

@@ -1,0 +1,463 @@
+Nutritional Diseases
+● what should an appropriate diet provide?
+1. Sufficient energy, in the form of carbohydrates, fats, and proteins;
+2. Amino acids and fatty acids to be used as building blocks for
+synthesis of functional and structural proteins and lipids;
+3. Vitamins and minerals, which function as coenzymes or
+hormones in vital metabolic pathways or as important structural
+components (Calcium).
+● what are primary and secondary malnutrition?
+○ Primary malnutrition: is insufficient intake of one or more of the
+components an appropriate diet should have (sufficient calories,
+sufficient proteins and fats, and sufficient vitamins and minerals)
+○ Secondary malnutrition: nutrient intake is adequate, but
+malnutrition is the result of malabsorption, impaired utilization or
+storage, excess loss, or increased need for nutrients.
+● what conditions may lead to primary malnutrition?
+○ poverty
+○ lack of education
+○ anorexia/bulimia nervosa
+○ chronic alcoholism
+○ pharmacological therapies
+○ advanced cancer
+○ gastrointestinal pathologies
+● what are the major diseases and conditions that lead to secondary
+malnutrition?
+secondary malnutrition often develops in chronically ill, elderly, and
+bedridden patients. >50% of older residents in nursing homes in the
+US are malnourished.
+conditions that may lead to it:
+○ Gastric resection → short bowel syndrome
+○ IBD or other type of chronic inflammation of the intestinal mucosa
+○ celiac disease
+○ lactase deficiency
+○ pancreatic insufficiency
+○ liver and gallbladder disease → cholestasis
+● what is SAM? main characteristics
+Severe Acute Malnutrition:
+Inadequate nutrient intake resulting in loss of fat and muscle tissue,
+weight loss, lethargy, and generalized weakness.
+○ in developed countries it is more common in the elderly and
+debilitated patients
+○ ○ in developing countries it affects children (up to 25%) and it is
+associated with high death rates among the youngest
+● How is malnutrition measured?
+Malnutrition is determined in relation to the body Mass Index (BMI =
+weight in kilograms divided by height in meters squared). A BMI of
+less than 16 kg/m2 is considered malnutrition (the normal range is
+18.5 to 25 kg/m2).
+BMI has its limitations (body builders have a BMI that is considered
+obese)
+Other useful parameters are the evaluation of:
+○ fat reserves (thickness of skin folds),
+○ muscle mass (reduced circumference of the central part of the
+arm)
+○ serum protein (the measurement of albumin and transferrin)
+○ gut microbiome
+● what are the two protein compartments in the body?
+Two differentially regulated protein compartments in the body:
+1) somatic compartment(proteins in skeletal muscles)
+2) visceral compartment (protein stores in the visceral organs,
+primarily the liver)
+● Describe Marasmus
+Marasmus is a severe type of malnutrition characterized by an overall
+caloric deficiency (with or without protein deficiency)
+Usually affects children in developing countries
+Weight is 60% of normal weight for age and sex. (Low BMI)
+There is growth retardation, anemia, severe fat loss, severe
+sarcopenia, impaired immunity.
+The somatic reserve of protein is almost completely depleted whereas
+the visceral reserve is not completely depleted so serum albumin is
+normal or slightly below normal
+● Describe Kwashiorkor
+Kwashiorkor is the most common SAM in African children.
+It results from a severe protein deficiency that is relatively more
+severe than the total calorie deficiency. It results from a diet that is
+almost exclusive in carbohydrates.
+The protein deficiency is so extreme that both the somatic and
+visceral reserves of protein are depleted, causing severe
+hypoalbuminemia that results in edema (ascites) so they have a
+swollen stomach that “hides” the malnourished appearance.
+Fat deposits are maintained, muscle atrophy is less marked (or visible,
+probably because of glycogen) than in marasmus. Less severe forms
+can be seen in individuals with chronic diarrheal states
+● What are the effects of Marasmus and Kwashiorkor in the bone
+marrow?
+● There’s usually hypoplasia in the bone marrow.
+This is due to a lack of nutrients for the synthesis of red and white
+blood cells.
+The peripheral blood commonly reveals mild to moderate anemia
+Depending on the specific type of deficiency or the combination of
+deficiencies (iron, folate, vitamin B12, protein, etc), the type of anemia
+that is going to be present (normocytic, microcytic or macrocytic).
+● What are the effects of Marasmus and Kwashiorkor in the brain?
+The brain in infants who are born to malnourished mothers and who
+suffer SAM during the first 1 or 2 years of life has been reported by
+some to show cerebral atrophy, a reduced number of neurons, and
+impaired myelinization of white matter.
+● Define cachexia
+SAM is a common complication in patients with AIDS or advanced
+cancers → cachexia. Cachexia occurs in about 50% of cancer patients,
+most commonly in individuals with gastrointestinal, pancreatic, and
+lung cancers (responsible for about 30% of cancer deaths).
+Highly debilitating condition characterized by:
+1. Extreme weight loss
+2. Fatigue
+3. Muscle atrophy (Mortality is generally the consequence of atrophy
+of the diaphragm)
+4. Anemia
+5. Anorexia
+6. Edema.
+● It is a result of a combination of factors including:
+1. Energy waste through the use of metabolically inefficient pathways
+(anaerobic metabolism and cori cycle)
+2. Anorexia due to
+◆ Endocrine imbalance
+◆ Cytokines
+◆ Psychological factors (depression, stress)
+◆ Taste disruptions
+3. tumor-induced gastrointestinal dysfunction (decreased peristalsis,
+decreased digestive secretions, delayed digestion and assimilation
+of nutrients)
+4. proteolysis due to activation of NFkB and transcription of muscle-
+specific ubiquitin ligase
+5.
+● describe vitamin A function and deficiency
+Vitamin A is a fat soluble vitamin absorbed as preformed VitA from
+animal products or as carotenes from vegetal sources, which are then
+converted into the active vitamin (retinol). Main functions:
+1. Maintenance of normal vision (trans retinal in rhodopsin)
+2. Cell growth and mainteinance of the differentiation of epithelial
+cells (important in the differentiation of the muco-secreting
+epithelium)
+3. Metabolic effects (e.g. drug metabolism, fatty acids…)
+4. Stimulation of the immune system
+5. Photoprotection
+6. Antioxidant
+● Deficiency may be casued by undernutrition or fat malabsorption.
+Consequences of deficiency (symptoms) are:
+○ impaired vision esp. at night
+○ epithelial metaplasia and keratinization
+◆ respiratory tract, urinary tract, skin..
+◆ Eye: squamous metaplasia of the epithelium of the conjunctiva
+and lacrimal ducts → xeroftalmia (dry eye) → Bitot spots
+(keratin spots) → keratomalacia (cornea erosion that may lead
+to blindness)
+● describe the main steps of vitamin D metabolism
+1. The skin synthesizes 90% of vitamin D3 (cholecalciferol) from 7-
+dehydrocholesterol in a reaction that requires UVB. There are
+dietary sources of cholecalciferol that account for around 10% of
+our normal intake (milk products and fish)
+2. Vit D3 binds DBP (D binding protein) and is taken to the liver
+3. In the liver cholecalciferol is converted to a more active form 25-
+hydroxycholecalciferol (25-OH-D) by 25-hydrolases (CYP27A1,
+and other CYPs)
+4. in the kidneys 20-OH-D is converted to the most active form of the
+● vitamin: 1,25-dihydroxyvitamin D by a 1-alpha-hydrolase.
+● what are the functions of vitamin D?
+Main functions of vitamin D:
+○ Maintains adequate plasma levels of calcium and phosphorus:
+◆ Stimulation of intestinal absorption of calcium and phosphorus
+◆ Stimulation of calcium reabsorption in the kidney
+◆ Induces Osteoclast maturation (osteoclasts dissolve bone and
+release calcium and phosphorus into the circulation) → Key role
+of parathyroid glands → ↑PTH
+○ Bone mineralization
+○ Antimicrobial effects
+○ Involved in proliferation, differentiation, apoptosis and
+angiogenesis
+● Describe vitamin D deficiency
+normal levels in the blood: 20-100 ng/ml; deficit <20ng/ml Causes:
+○ Limited exposure to sunlight
+○ Dietary deficiencies
+○ Kidney or liver disorders, malabsorption…
+○ Aging, genetic osteoporosis
+● → Consequences of VitD deficiency are hypocalcemia and
+hypophosphatemia that lead to low bone mineralization.
+In growing children whose epiphyses have not closed, this leads to
+Rickets:
+Inadequate calcification leads to excessive growth of the epiphyseal
+cartilage → microfractures → skeletal deformation (arching of the
+legs). Square shape of the head due to flattening of the occipital
+bones and deformation of the parietal ones. Anterior protrusion of the
+sternum (pigeon breast deformity).
+In Adults, Osteomalacia: defective bone remodeling that increases
+risk for fractures especially in vertebrae and femur.
+More rarely, there can be hypocalcemic tetany:
+Convulsive state caused by an insufficient extracellular concentration
+of ionized calcium, which is required for normal neural excitation and
+the relaxation of muscles.
+● Describe the function of vitamin C
+Vitamin C (ascorbic acid) is water soluble, obtained entirely from diet.
+It’s main functions:
+○ is a cofactor for enzymes that hydroxylate procollagen into
+collagen and participate in wound healing
+○ Antioxidant properties
+○ Facilitates intestinal absorption of iron
+● describe vitamin C deficiency
+The main consequence is impaired collagen formation which results in
+bleeding easily, and impaired wound healing. Inadequately
+hydroxylated procollagen cannot acquire a stable helical configuration,
+so it is poorly secreted from the fibroblast.
+Effects:
+It affects particularly blood vessels → predisposition to hemorrhages
+and poor wound healing.. Loss of teeth and gums. In children:
+insufficient growth and abnormal development of collagen-containing
+structures (teeth, bones and blood vessels). Inability to contain
+infections. Iron deficiency anemia
+Cause: inadequate diet. It was common between sailors between 16th
+and 18th century (>2 million died)
+● what is the role of vitamin B12?
+Vitamin B12 is a water-soluble vitamin required for the development,
+myelination, and function of the central nervous system; healthy red
+blood cell formation; and DNA synthesis.
+Methylcobalamin (metabolically active form of vitamin B12) is an
+essential cofactor in the conversion of homocysteine to methionine
+● by the enzyme methionine synthase: methylcobalamin yields a
+methyl group that is recovered from N5-methyltetrahydrofolic acid, the
+principal form of folic acid in plasma, which is converted to
+tetrahydrofolic acid (FH4).
+In that cycle it is helping to form FH4 and methionine.
+FH4 is required for the conversion of deoxy-uridine monophosphate
+(dUMP) to deoxythymidine monophosphate (dTMP), a building block
+● for DNA.
+● how is vitamin B12 absorbed?
+Vitamin B12 (cobalamin) is taken up with the diet (foods of animal
+origin) and synthesized by the intestinal flora (daily requirement is 2 to
+3 µg). Absorption occurs in the terminal ileum, where the receptors for
+the vitamin B12 / IF complex are expressed (cubilin). Vitamin B12 is
+freed from binding proteins (in food) through the action of pepsin in
+the stomach and binds to a salivary protein called haptocorrin. In the
+duodenum, bound vitamin B12 is released from haptocorrin by the
+action of pancreatic proteases and it associates with intrinsic factor
+(F1), produced by the parietal cells of the fundic mucosa. In the blood
+the vitamin B12 is transported by a group of proteins
+(transcobalamin)
+● describe vitamin B12 deficiency
+○ Ineffective hematopoioesis: Deficit in folic acid or vitamin B12
+causes altered DNA synthesis: delayed nuclear maturation, normal
+cytoplasmic and hemoglobin → nuclear to cytoplasm asynchrony.
+DNA defects trigger apoptosis of precursors inside the marrow
+leading to pancytopenia (low levels of red blood cells, white blood
+cells and platelets) Formation of large erythroid precursors
+(megaloblasts) in the bone marrow
+○ The erythrocytes that manage to leave the marrow are typically
+macrocytic.
+○ Vitamin B12 deficiency in most cases is secondary to lack of
+intrinsic factor (F1).
+◆ PERNICIOUS ANEMIA: Autoimmune disease, characterized by
+the presence of auto-Ab that attack on the gastric mucosa
+(anti-parietal cells or anti-F1 or anti-ileal receptor).
+● what are the 3 different types of adverse reactions to food?
+1. TOXIC (INTOXICATIONS)
+2. NON TOXIC
+1. DUE TO ALTERED IMMUNE RESPONSE (ALLERGIES)
+1. IgE dependent
+2. non IgE dependent
+2. NOT OF IMMUNOLOGIC ORIGIN (INTOLERANCES)
+1. of enzymatic type
+2. of pharmacologic type
+3. induced by food additives
+● describe intoxications
+There is not any distinction among individuals so the toxin hit all of us.
+There are different types of toxins: from funghi like Amanita
+phalloides, Amanita verna, Amanita virosa which may be fatal;
+Inadequate food storage can allow the growth of dangerous
+microorganisms (contaminants) e.g. aspergillus which produces
+aflatoxins.
+Chronic consumption of these contaminats is carcinogenic.
+More common and frequent are intoxications because of Clostridium
+Botulinum, Staphylococcus Aureus and Salmonella Typhi.
+● what are the food allergies?
+Food allergies can be IgE mediated and non-IgE mediated.
+○ The symptoms in IgE mediated allergies appear within minutes to
+hours. The reaction is fast, acute, sometimes very strong as in the
+case of anaphylaxis.
+○ Allergies not mediated by IgE, but still mediated by improper
+reaction of the innate immunity, show a late onset of symptoms.
+○ there is an increasing number of conditions characterized by both
+IgE and non IgE mediated symptoms that appear fast and last for
+hours or days.
+● describe IgE-mediated food allergy
+Type I hypersensitivities include atopic diseases, which are an
+exaggerated IgE mediated immune responses (i.e., allergic: asthma,
+rhinitis, conjunctivitis, and dermatitis), and allergic diseases, which are
+immune responses to foreign allergens (i.e., anaphylaxis, urticaria,
+angioedema, food, and drug allergies). The allergens that result in a
+type I hypersensitivity may be harmless (i.e., pollen, mites, or foods,
+drugs, etc.) or more hazardous such as insect venoms. The reaction
+may be manifested in different areas of the body and may result in
+instances such as:
+○ Nasal allergic rhinitis or hay fever
+○ Ocular allergic conjunctivitis, potentially due to seasonal allergens
+such as pollen or mold spores
+○ Dermatological hives, atopic eczema, or erythema
+○ Soft tissue angioedema
+○ Pulmonary reactions, such as allergic asthma or hypoxia
+○ Systemic reaction, which is a life-threatening medical emergency,
+and also known as anaphylaxis.
+○ There are common environmental allergens that are known to be
+trigger excessive formation of IgE antibodies in some individuals:
+e.g. pollen, moulds, mites, foods (eggs, crustaceans, fish, fruit),
+○ etc. Having a hypersensitivity reaction to these common
+environmental allergens is also an important risk factor for the
+development of allergic diseases (IgE mediated): rhinitis, asthma,
+atopic eczema, etc.
+○ The risk of developing food allergy can depend on several factors:
+◆ Hereditary predisposition to express hypersensitivity to foods
+with a high protein content (mainly of plant origin); over time
+these individuals may develop other allergic pathologies (atopic
+rhinitis, bronchial asthma)
+◆ Increased intestinal mucosal permeability (physiological in
+childhood, pathological due to inflammatory processes or
+malnutrition) can favor the penetration of antigens and their
+presentation to lymphocytes
+◆ Allergen concentration
+◆ Environmental factors (cigarette smoke, physical stress, cold
+temperatures)
+● describe the sequence of events in immediate (type 1) hypersensitivity
+allergens start the first phase of sensitization of cells, in particular
+mastocytes and basophils that start expressing on the surface IgE and
+it is only the second encounter with the same or similar allergen
+because of the reaction of IgE on the surface of the cell, there is a
+massive, acute release of inflammatory mediators like histamine and
+prostaglandins that cause the allergic reaction which leads to local
+and systemic symptoms in particular conjunctivitis, nasal allergy,
+asthma, urticaria.
+● describe non IgE mediated allergies (type 2 hypersensitivities)
+non IgE mediated allergies:
+There is involvement of innate immunity, as well as the adaptive
+immunity, in particular Th2 cells. (Th1 is mainly leading to activation of
+cytotoxic T cells response while Th2 response, typical of allergies, is
+producing antibodies.)
+○ Food protein induced Enteropathies: Food-Protein-Induced
+Enterocolitis Syndrome (FPIES), Food-Protein-Induced Allergic
+Proctocolitis (FPIAP), Food Protein Enteropthy (FPE) ****they
+occur very early in the childhood and are characterized by
+abnormal innate immune responses to some protein content of a
+given food.
+○ Eosinophilic GI disorders: esophagitis, gastritis, enterocolitis.
+Mixed condition in which IgE is present as well.
+○ Celiac Disease
+● describe celiac disease
+○ what it is: Non IgE-dependent Immune-mediated disorder
+triggered by the ingestion of gluten containing foods such as
+wheat, rye, or barley in genetically predisposed individuals →
+intestinal villous atrophy.
+○ Symptoms:
+◆ vary and may include digestive problems, anemia, skin rash,
+and joint and bone pain.
+◆ It may also be asymptomatic or present with atypical symptoms
+and escape diagnosis for a long time
+◇ anemia due to chronic iron and vitamin malabsorption.
+Silent celiac disease (positive serology and villous
+■
+atrophy without symptoms);
+latent celiac disease (positive serology is not
+■
+accompanied by villous atrophy).
+○ Epidemiology:
+◆ Incidence: 1/100-1/150
+◆ In adults, most commonly between the ages of 30 and 60.
+◆ Possible association with other autoimmune diseases (systemic
+lupus erythematosus, rheumatoid arthritis)
+○ Treatment: gluten-free diet.
+○ Morphology:
+◆ increased numbers of intraepithelial lymphocytes (IELs)
+◆ epithelial proliferation with crypt elongation.
+◆ villous atrophy
+○ Diagnosis:
+◆ endoscopy and biopsy → altered small intestine mucosa,
+sometimes lymphocytic infiltration (1st degree of CD) or
+already damaged villi.
+◆ Serum Ab: IgA anti-Transglutaminase, IgG anti-
+Transglutaminase, IgA anti-endomisium.
+● Describe the physic pathology of celiac disease
+Gluten is digested into amino acids and peptides, including a 33-a.a.
+-gliadin, a peptide that is resistant to degradation by gastric,
+ 
+pancreatic, and small intestine proteases. ❖ Indigestible fragments of
+gluten induce enterocytes to release the zonulin which loosens tight
+junctions. ❖ Gliadin crosses the intestinal lining and accumulate under
+the enterocytes. ❖ Gliadin induces enterocytes to secrete IL-15, which
+in turn triggers activation and proliferation of CD8+ intraepithelial
+lymphocytes (IELs). ❖ IELs express NKG2D, a natural killer marker and
+receptor for MIC-A. Enterocytes that have been induced to express
+surface MIC-A in response to stress are then attacked. The resulting
+epithelial damage enhance the passage of other gliadin peptides into
+the lamina propria where they are deamidated by tissue
+transglutaminase (tTG), an enzyme released by the damaged cells. ❖
+The deamidated gliadin interacts with HLA-DQ2 or HLA-DQ8 on
+antigen presenting cells (APC) and in turn stimulates CD4+ T cells to
+produce cytokines that exacerbate tissue damage. ❖ B cells release
+● antibody molecules targeted to gluten and TTG. Those antibodies
+might cause further damage when they hit their targets on near
+enterocytes.
+● describe food intolerances of enzymatic type
+The most notable one is lactose intolerance, caused by a deficiency in
+the enzyme lactase (a hydrolase) that hydrolyzes the beta 1,4
+glycosidic bond between glucose and galactose in lactose.
+Diagnosed early in life but can also occur in adults (one third of adults
+have reduced lactase activity).
+As a result,
+○ lactose remains in the gut and being osmotically active it draws in
+excess water → diarrhea
+○ the enterocytes cannot absorb the sugar and it is instead
+fermented by gut bacteria → gas, bloating and intestinal pain.
+● Describe food intolerances of pharmacological type
+result from pharmacological effects of vasoactive amines present in
+foods.
+Histamine , tyramine, putrescine, spermine, spermidine, and
+cadaverine, are compounds formed during microbial fermentation of
+certain foods so they naturally contain high levels of biogenic amines.
+These include: cheeses (especially ripe cheeses– “cheese-reaction”),
+wine, kefir, dry sausage, fermented meats, sauerkraut, mushrooms,
+miso and soy sauce, chocolate and yeast (see links at bottom of
+page).
+Sensitivity to histamine varies widely between individuals. Normally
+biogenic amines are rapidly broken down by enzymes. Some drugs
+inhibit the action of the enzymes. These include some antibiotics and
+antidepressants (monoamine oxidase inhibitors). Other drugs promote
+histamine release from immune cells, including some opioids, muscle
+relaxants, x-ray contrast media, as well as alcohol.
+Ingestion of TYRAMINE (E and NE precursor)with food should be
+limited to a minimum when taking MAO inhibitors due to risk of severe
+arterial hypertension
+Symptoms can be a burning or itching sensation in the mouth, nausea,
+vomiting, flushing, skin rash or hives, itching, diarrhea, headache,
+blood pressure changes (both high or low possible), dizziness,
+problems with concentration, “mental fog” and fainting. The usual
+onset of symptoms is within a few minutes after ingestion of the
+offending food. Some cases of asthma may be attributable to
+histamine intolerance.
+The duration of symptom ranges from a few hours to 24 h.
+Normally no specific treatment is required, as symptoms subside
+spontaneously.
+“They’re re very frequent.
+1. Foods containing vasoactive amines: Foods containing high
+amounts of vasoactive amines, for instance fermented cheese, milk
+as well, may cause a reaction similar to that occurring in allergies.
+The difference in the reactions between people is in the ability to
+eliminate vasoactive amines. There can also be single episodes
+of apparent intolerances when consuming these foods excessively:
+in this case it is an episode, the person is not intolerant if this
+doesn’t happen every time they consume these foods.
+2. Foods that cause degranulation of mastocytes: pseudoallergic
+condition (without antibodies). These are difficult to diagnose.
+3. foods that maintain levels of histamine and serotonin higher
+because they are inhibitors of their normal catabolism (natural
+MAO inhibitors and diamine oxidase inhibitors)
+● Often the situation is complex so you have bigger content of
+vasoactive amines and also presence of inhibitors of amine catabolism
+and eventually in the case of histamine and serotonin, the catabolism
+leads to the production of imidazole acetate that means that aldehyde
+dehydrogenase is important. So the best competitive inhibitor of
+diamine oxidase or monoamine oxidase, meaning a good substrate for
+aldehyde dehydrogenase is alcohol. If I eat food rich in histamine and I
+drink alcohol, I impair the histamine removal and I keep the histamine
+levels high.
+● Describe intolerances to food additives
+sulphites (present in wine, they are stressors of gastric mucosa),
+sodium benzoate (probably it causes impairment of vasoactive amines
+catabolism). Glutamate is still considered as a possible cause of food
+intolerance but it is still debated.

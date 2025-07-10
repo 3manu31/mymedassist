@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Gastrointestinal diseases</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81e8-bf38-c17bf762303e" class="page sans"><header><h1 class="page-title">Gastrointestinal diseases</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-8194-b960-f059cc661a9c" class="">Gastrointestinal diseases</p><p id="2297904f-03a9-81d0-b3c3-df634e01fd58" class="">●Define atresia</p><p id="2297904f-03a9-81c2-8e00-d47d849f01e6" class="">congenitally interrupted hollow organ</p><p id="2297904f-03a9-8141-b94d-d4bf2702d272" class="">●Define fistula</p><p id="2297904f-03a9-812d-8a4e-dcec13a70609" class="">abnormal connection between two hollow structures</p><p id="2297904f-03a9-81f4-a461-e7565334c939" class="">●Describe esophageal atresia</p><p id="2297904f-03a9-8180-9a42-d396d7cbb7ab" class="">○ most common congenital abnormality of the esophagus</p><p id="2297904f-03a9-8134-89fa-c95760d825c1" class="">○ Unknown pathophysiology</p><p id="2297904f-03a9-81ef-871f-c6045b51bf88" class="">○ Is a congenital interruption of the esophagus with or without a</p><p id="2297904f-03a9-8187-bdfa-fe83391caf18" class="">tracheoesophageal fistula</p><p id="2297904f-03a9-8145-8f06-ee7a826519bf" class="">○ Incidence 1/2500-4500 live births</p><p id="2297904f-03a9-810b-a34d-f0dda6770c9b" class="">○ Survival is improving with improving neonatal care</p><p id="2297904f-03a9-8175-a560-c934cf21392b" class="">●Classification of esophageal atresia and tracheoesophageal fistula</p><p id="2297904f-03a9-8114-a9f5-fba9eeddf446" class="">●</p><figure id="2297904f-03a9-81e9-b900-eefd97fd1e43" class="image"><a href="Gastrointestinal%20diseases%202297904f03a981e8bf38c17bf762303e/image1.png"><img style="width:48px" src="Gastrointestinal%20diseases%202297904f03a981e8bf38c17bf762303e/image1.png"/></a></figure><p id="2297904f-03a9-81f0-99d5-f6dd9c7e43cc" class="">○ Type A, isolated esophageal atresia.</p><p id="2297904f-03a9-81d2-9ab3-c71a09688bdd" class="">○ Type B, blind-ending lower esophageal pouch with a fistula</p><p id="2297904f-03a9-815a-b3b8-f499baef5d1f" class="">between the trachea (proximal tracheoesophageal fistula) and the</p><p id="2297904f-03a9-81b3-9556-dbd584d93ebf" class="">upper esophageal pouch (distal atresia) .</p><p id="2297904f-03a9-81ab-8217-c5b720b10b66" class="">○ Type C, esophageal atresia with a blind proximal esophageal pouch</p><p id="2297904f-03a9-812c-a99b-e6950e56c3e0" class="">and a distal tracheoesophageal fistula .</p><p id="2297904f-03a9-81f6-95df-e135c927ae5d" class="">○ Type D, esophageal atresia with two fistulas between the trachea</p><p id="2297904f-03a9-8197-8104-c45896df52f4" class="">and the lower and upper esophageal pouches (proximal and distal</p><p id="2297904f-03a9-8100-a549-f703e5f1ce81" class="">fistulas).</p><p id="2297904f-03a9-81c1-b328-e883fb8fe12a" class="">○ Type E, fistula between the esophagus and the trachea without</p><p id="2297904f-03a9-8149-97b4-c424dc22f57d" class="">atresia (H-type).</p><p id="2297904f-03a9-81a4-a12a-e2d50c48df58" class="">○ F Congenital esophageal stenosis.</p><p id="2297904f-03a9-8136-a6b4-eb35cabf55ce" class="">●What are the swallowing disorders?</p><p id="2297904f-03a9-812d-976b-eb75f0d18d24" class="">Achalasia</p><p id="2297904f-03a9-818e-897f-cb23f6d6d628" class="">GERD</p><p id="2297904f-03a9-8116-8e36-ffc4e8061284" class="">Ectopia</p><p id="2297904f-03a9-8182-a5f8-d405fe3edc81" class="">Esophageal stenosis</p><p id="2297904f-03a9-8130-bfcd-fc7a841be51c" class="">….</p><p id="2297904f-03a9-8151-92e4-ff30fbee16b1" class="">●Describe esophageal varices</p><p id="2297904f-03a9-8132-ab55-ddff36acb9dd" class="">Venous blood from the gastrointestinal tract (GI) is transported to the</p><p id="2297904f-03a9-816b-bfa1-f8b2f03920dd" class="">liver via the portal vein before reaching the inferior vena cava. his route</p><p id="2297904f-03a9-81c4-95e8-ce7ede58d77b" class="">allows the material absorbed from the intestine to be transported to</p><p id="2297904f-03a9-8182-a128-ff0843747f08" class="">the liver before entering systemic circulation. Diseases like cirrhosis</p><p id="2297904f-03a9-81fd-8555-ff3da325e1ec" class="">may obstruct this flow and cause portal hypertension. Sub-epithelial</p><p id="2297904f-03a9-8155-89a8-e693e579dbe9" class="">longitudinal veins might enlarge to form esophageal varices. With</p><p id="2297904f-03a9-81ea-acbe-e20c9a78606b" class="">increasing size and with rising intravascular pressure, they are more</p><p id="2297904f-03a9-81da-a84f-f0aa012ed296" class="">likely to rupture resulting in esophageal bleeding</p><p id="2297904f-03a9-8140-83f7-fc1fbf063c15" class="">●describe gastritis in general</p><p id="2297904f-03a9-818e-9e3e-d8f1ae459088" class="">○ Gastritis is an inflammation of the gastric mucosa.</p><p id="2297904f-03a9-811c-be57-d868cb6775c6" class="">○ It can be acute or chronic.</p><p id="2297904f-03a9-81d8-b806-f70b5e0b1bd7" class="">○ Etiology is multifactorial</p><p id="2297904f-03a9-81c7-89b9-f55c063a9e94" class="">○ Symptoms are more severe in patients with the acute form than in</p><p id="2297904f-03a9-816a-897b-c0485b35e1b4" class="">patients with the chronic one where it could be totally</p><p id="2297904f-03a9-8107-8520-c6abb4e9740d" class="">asymptomatic.</p><p id="2297904f-03a9-811e-8f4f-c148afb4c405" class="">◆They vary from mild dyspepsia to massive hemorrhage.</p><p id="2297904f-03a9-81c8-ba22-fdc99e75de5b" class="">◆nausea, vomit</p><p id="2297904f-03a9-8105-8564-cd5e95386852" class="">◆heart burn</p><p id="2297904f-03a9-8151-a2b7-e64c34460eeb" class="">◆halitosis</p><p id="2297904f-03a9-815a-abc6-d9860b3e26e9" class="">◆frequent belching</p><p id="2297904f-03a9-8153-b615-f65945f5e1d7" class="">●main characteristics of acute gastritis</p><p id="2297904f-03a9-8142-b70b-e7abd3fe7ca3" class="">○ it is an acute inflammation of the stomach mucosa</p><p id="2297904f-03a9-8121-a020-fba5f8af1ac4" class="">○ complications: necrosis and hemorrhage</p><p id="2297904f-03a9-81fe-96c1-ff629880b637" class="">○ possible causes and risk factors:</p><p id="2297904f-03a9-81df-83e3-ec87aaa5a1f2" class="">◆NSAIDs (main)</p><p id="2297904f-03a9-81b3-bfcb-d973eeff9363" class="">◇ inhibit prostaglandin production, reducing the resistance of</p><p id="2297904f-03a9-81ce-93bb-f5882943beff" class="">the mucosa to acid environment</p><p id="2297904f-03a9-817f-b625-eff07f07ae5e" class="">◇ aspirin promotes accumulation of protons (H+) in the lumen</p><p id="2297904f-03a9-813c-9cc3-e1b97a171091" class="">and H+ stimulate histamine release which in turn stimulates</p><p id="2297904f-03a9-81b8-9154-c4a4589c379e" class="">HCl acid secretion</p><p id="2297904f-03a9-8110-87ee-c6e868717eff" class="">◆smoking</p><p id="2297904f-03a9-814f-a2b9-d8ab3f1504a2" class="">◆alcohol</p><p id="2297904f-03a9-816d-b866-e36199c6673a" class="">◆chemotherapy (reduce ability to heal from erosions)</p><p id="2297904f-03a9-815c-9b76-f67306604076" class="">◆ingestion of corrosive substances (aliphatic acids)</p><p id="2297904f-03a9-81e8-bc0d-f9e38d1acc78" class="">◆bile (?)</p><p id="2297904f-03a9-81d4-afdd-c95dcbf0c398" class="">◆H. pylori infection (which tends to turn into chronic)</p><p id="2297904f-03a9-81e8-995a-fd1293545fd0" class="">●main characteristics of chronic gastritis</p><p id="2297904f-03a9-8103-a85b-c07b6fb06cbc" class="">○ Chronic inflammation of the gastric mucosa</p><p id="2297904f-03a9-8147-98dc-d7c82d60092d" class="">○ often associated with small intestine inflammation</p><p id="2297904f-03a9-81f3-a260-c80679daf815" class="">○ Classification based on the histopathological wall features: -</p><p id="2297904f-03a9-8127-bfc7-f1331cf9b294" class="">localization and depth of lesions - type of infiltrating inflammatory</p><p id="2297904f-03a9-8195-9f8d-da2655ad639c" class="">cells:</p><p id="2297904f-03a9-811b-b4d7-ced709fb95ea" class="">◆Specific Bacterial infection, e.g. Helicobacter spp.</p><p id="2297904f-03a9-81ef-a885-c3408be5ef54" class="">(Helicobacter felis, H. heilmannii, H. pylori)</p><p id="2297904f-03a9-81b5-a126-c5b3b5ecb252" class="">◆Non-specific types of chronic gastritis</p><p id="2297904f-03a9-816c-a2a6-c894c848d6d4" class="">◇ Lymphoplasmacytic gastritis (diffuse infiltration of</p><p id="2297904f-03a9-81f0-a8ff-c80e7134a42a" class="">lymphocytes and plasma cells into the lamina propria of the</p><p id="2297904f-03a9-81db-8120-e00ff88627f1" class="">stomach resulting in diffuse mucosal inflammation)</p><p id="2297904f-03a9-8137-a3a8-cb4b647bb88e" class="">◇ Eosinophilic gastritis (a rare disorder, usually in children</p><p id="2297904f-03a9-8124-b5b0-c984dec75d0f" class="">or young adults, characterized by eosinophilic infiltration,</p><p id="2297904f-03a9-81c7-aa7d-d0dbc2e3a006" class="">which also involves esophagus or duodenum)</p><p id="2297904f-03a9-8179-8e70-eecd1d337f3a" class="">◇ Granulomatous gastritis (granuloma surrounded by dense</p><p id="2297904f-03a9-8109-b4c2-dffc3970b42c" class="">◇</p><p id="2297904f-03a9-8170-910a-fab7ef493c3e" class="">infiltrates of inflammatory cells; more than half are</p><p id="2297904f-03a9-8196-aa23-e76f4ffb357a" class="">associated with Crohn&#x27;s disease)</p><p id="2297904f-03a9-815e-807a-c6d890b9aee3" class="">●describe peptic ulcers</p><p id="2297904f-03a9-81ca-a599-df167f149dd0" class="">○ PU is an acid-induced lesion that affects the mucosa, the</p><p id="2297904f-03a9-8159-8aed-e311034f351b" class="">submucosa and sometimes muscularis mucosae. It can be gastric</p><p id="2297904f-03a9-81e3-8f34-f708bb1a1167" class="">or duodenal.</p><p id="2297904f-03a9-81ac-bd01-c879413b35be" class="">○ There is tissue necrosis accompanied by inflammation, formation</p><p id="2297904f-03a9-81ae-8f6e-caf75771e526" class="">of granulation tissue with presence of fibrous reaction.</p><p id="2297904f-03a9-8191-bc6d-ceaa244a905b" class="">○ Main risk factors are those reducing or altering mucosal cell</p><p id="2297904f-03a9-8146-83fb-c3959949041e" class="">defensive barrier (H. pylori infection, alcohol and tobacco</p><p id="2297904f-03a9-81c2-993a-c20b1e0a4541" class="">consumption, NSAIDs).</p><p id="2297904f-03a9-8127-98e9-c8800205fd85" class="">○ They are at risk for neoplastic transformation</p><p id="2297904f-03a9-812d-b15f-c5ba0ce42a96" class="">●about H. pylori</p><p id="2297904f-03a9-8131-99bc-fec9e5687d6f" class="">○ H. pylori; colonises the gastric mucosa of 50% of the human</p><p id="2297904f-03a9-818f-8445-db1f0ef83991" class="">population</p><p id="2297904f-03a9-819b-9c99-d743eede85be" class="">○ main cause of chronic gastritis and peptic ulcer disease</p><p id="2297904f-03a9-8167-9fb8-df6767769852" class="">○ two major virulence factors are:</p><p id="2297904f-03a9-810f-bdff-f05b6f7e2875" class="">◆cytotoxin-associated gene A (CagA)</p><p id="2297904f-03a9-81c2-b536-fcd8310ee5e0" class="">◇ inducing host cell morphological changes by activating</p><p id="2297904f-03a9-81b5-a1c1-f9d87735aa72" class="">tyrosine kinases and subsequent pro-inflammatory and</p><p id="2297904f-03a9-81ef-8e17-e9742f32fb74" class="">mitogenic responses.</p><p id="2297904f-03a9-81db-99e7-f93d1014ae71" class="">◇ Bacterial strains with the <em>cagA</em> gene are associated with the</p><p id="2297904f-03a9-81bd-a905-fdb2908b0b05" class="">ability to cause ulcers, MALT lymphomas, and gastric</p><p id="2297904f-03a9-81f1-a1fa-f3d8d31f3678" class="">cancer</p><p id="2297904f-03a9-812c-ae5e-fe5cdefdc78e" class="">◆vacuolizing cytotoxin-associated protein A (VacA)</p><p id="2297904f-03a9-8110-98fa-e8f3950d78eb" class="">◇ inducing vacuolization with formation of membrane</p><p id="2297904f-03a9-814b-bf1e-d42ed421626a" class="">channels, cytochrome c release from mitochondria with</p><p id="2297904f-03a9-8124-8922-d3d0c6068e43" class="">apoptosis activation. It is associated with precancerous</p><p id="2297904f-03a9-8157-8e44-e1078c2dab45" class="">gastric lesions and progression to malignant phenotype.</p><p id="2297904f-03a9-8191-910f-cdaf31769034" class="">○ H.Pylori produces <em>urease</em> that hydrolyzes urea into CO2 and</p><p id="2297904f-03a9-81b0-8d2e-f044c4701a9e" class="">ammonia, thus creating a basic environment around the bacterial</p><p id="2297904f-03a9-810d-829e-e948e97cd2ca" class="">colony, but increasing the acidic pH of the stomach.</p><p id="2297904f-03a9-81c4-b35b-cd2883bc8c75" class="">○ Diagnosis:</p><p id="2297904f-03a9-8169-954f-c57ca26166fd" class="">◆Urea Breath test (UBT)</p><p id="2297904f-03a9-8193-b4f3-f7a8a6cdcb81" class="">1. Patient swallows test capsules containing urea tagged with</p><p id="2297904f-03a9-8128-80b4-f21ad2cf37ef" class="">radioactive carbon13 (13C-urea).</p><p id="2297904f-03a9-81ef-97c6-e24813fb6486" class="">2. If the patient is infected with H. pylori, 13C-urea will be</p><p id="2297904f-03a9-8181-8cde-f03d4fb3b7e1" class="">cleaved, and the produced 13CO 2 is quickly absorbed</p><p id="2297904f-03a9-81d0-b669-e194d38a23ed" class="">moving from the blood to the lungs.</p><p id="2297904f-03a9-8107-b3fd-d6dc2779deaf" class="">3. 13CO 2 is exhaled in the breath.</p><p id="2297904f-03a9-8155-a91e-e16146b6e5d7" class="">1. The test is positive if the analysis of the patient&#x27;s breath</p><p id="2297904f-03a9-8105-a7aa-d0740056fd4d" class="">reveals 13CO 2 presence (breathed 13CO 2 peaks within</p><p id="2297904f-03a9-8186-a2c3-eb6b51f56445" class="">15-20 minutes and declines thereafter).</p><p id="2297904f-03a9-81ec-ac15-f1d007d78ae5" class="">◆Serologic tests: IgG and IgA</p><p id="2297904f-03a9-813d-b8fb-dc9ca95ae979" class="">◆H. pylori stool antigen test</p><p id="2297904f-03a9-81b7-b456-e9c8921405d9" class="">○ what can cause malabsorption syndromes?- defect</p><p id="2297904f-03a9-81e4-809d-f69d7a3df4c9" class="">●what are the general causes (concept) of malabsorption syndromes?</p><p id="2297904f-03a9-818f-b8f5-f3b60414cf59" class="">○ reduction of the absorption area</p><p id="2297904f-03a9-813a-a263-d80fb87ce7a9" class="">○ alteration of transport mechanisms through the intestinal barrier</p><p id="2297904f-03a9-815f-880a-cbd114ee4e1b" class="">○ defective digestion of food</p><p id="2297904f-03a9-818b-b848-febdd89b328b" class="">●Increased undigested or badly-digested substances can cause:</p><p id="2297904f-03a9-81ae-87d1-c1f0a47af97d" class="">○ Intestinal water influx due to osmosis</p><p id="2297904f-03a9-814b-be21-dae3be53e193" class="">○ enzymatic attack by bacteria (flora) → inflammation</p><p id="2297904f-03a9-8145-836e-ee0e62a86946" class="">●bowel obstruction (open)</p><p id="2297904f-03a9-81ad-8913-ed2cf680e60c" class="">○ Types</p><p id="2297904f-03a9-818f-bf52-d4070f9fa2d0" class="">can happen in the small or large intestine. They can be functional</p><p id="2297904f-03a9-8187-b9b3-ec085eb650ca" class="">or mechanical</p><p id="2297904f-03a9-81db-a3d4-ead824162011" class="">They can also be classified in partial, complete or closed loop.</p><p id="2297904f-03a9-811b-81e4-edc8ebe24ce4" class="">the causes can be intraluminal, intramural or external (in both LBO</p><p id="2297904f-03a9-8182-9d28-c40cc7c3b320" class="">and SBO)</p><p id="2297904f-03a9-81fb-a811-ed77f8d18ec7" class="">○ Symptoms</p><p id="2297904f-03a9-8141-8979-d944e75a6e45" class="">Obstruction frequently causes abdominal pain, nausea, vomit,</p><p id="2297904f-03a9-8165-a51b-ec42848a7102" class="">alternate constipation/diarrhea. This, in turn, prevents the normal</p><p id="2297904f-03a9-8162-9575-fdd3a0e76570" class="">movement of digested products.</p><p id="2297904f-03a9-81f0-a836-c512bf070385" class="">○ Most common types</p><p id="2297904f-03a9-81ab-b8e1-e44ff63249c9" class="">Most common of all are the small bowel obstructions (SBO)</p><p id="2297904f-03a9-8192-ba7a-cd57dbbdfe6b" class="">Most common causes of SBO are external, in particular:</p><p id="2297904f-03a9-81c5-9c28-f1b7960c14b1" class="">◆post-surgical adhesions: fibrous tissue that forms between</p><p id="2297904f-03a9-8118-8f5c-e5328e1a0728" class="">organs and/or the peritoneal membrane. Can lead to necrosis.</p><p id="2297904f-03a9-8129-b7cc-ef65f17f1ca4" class="">◆cancers</p><p id="2297904f-03a9-8123-9b95-f90d2574a059" class="">◆hernias: weakness of abdominal wall, a piece of the intestine</p><p id="2297904f-03a9-811b-a2ef-c6578234a204" class="">“escapes” through</p><p id="2297904f-03a9-81af-bfe0-cf7984167a33" class="">○ Most common causes of intraluminal obstruction of the small</p><p id="2297904f-03a9-81a6-ad97-e8daab55f916" class="">bowel are bezoars and gallstones.</p><p id="2297904f-03a9-8145-9c10-ec11a30f3d07" class="">Most common cause of intramural obstruction, both for SBO and</p><p id="2297904f-03a9-810d-a0b3-cf3858aeab07" class="">LBO is Chron’s disease</p><p id="2297904f-03a9-8122-ab4b-ca560b4f7754" class="">Most common causes of LBO are ****</p><p id="2297904f-03a9-810d-84ea-dd39a9296cd0" class="">◆adenocarcinoma</p><p id="2297904f-03a9-8119-997a-f5ff9ee631c4" class="">◆diverticulitis</p><p id="2297904f-03a9-8100-9b9c-fbabe31d3e5e" class="">◆volvulus: a loop of intestine twists around itself</p><p id="2297904f-03a9-8178-96c0-c14dd4059a6c" class="">○ what is intussuception</p><p id="2297904f-03a9-811d-8b4b-d72630a65ec3" class="">Intussusception (Invaginazione): due to an abnormal peristaltic</p><p id="2297904f-03a9-8110-b63a-d93a447b4694" class="">wave due to the presence of tumor masses or wide lesions.</p><p id="2297904f-03a9-81a7-b5fa-fdc85d26169b" class="">○</p><figure id="2297904f-03a9-810c-96c4-c77e4dc683fe" class="image"><a href="Gastrointestinal%20diseases%202297904f03a981e8bf38c17bf762303e/image1.png"><img style="width:48px" src="Gastrointestinal%20diseases%202297904f03a981e8bf38c17bf762303e/image1.png"/></a></figure><p id="2297904f-03a9-815a-a930-e286dca25f61" class="">●what is IBS?</p><p id="2297904f-03a9-816a-b0cf-f09f017c78b5" class="">It is a functional GI disorder,(disorder of gut–brain interaction), that</p><p id="2297904f-03a9-81cb-95a0-da51b720d4f1" class="">causes chronic intermittent abdominal pain associated with diarrhea,</p><p id="2297904f-03a9-8118-9ef7-f6c7cec8c4b1" class="">●</p><p id="2297904f-03a9-8136-96c1-efad94c4e039" class="">constipation, or both. it is characterized by</p><p id="2297904f-03a9-813d-bc2c-c6cfea35d48a" class="">○ Altered gut immune activation</p><p id="2297904f-03a9-815c-ac2b-c558917cf017" class="">○ Increased intestinal permeability</p><p id="2297904f-03a9-818b-956e-c0ae61f8f458" class="">○ Intestinal microbiota changes</p><p id="2297904f-03a9-81cb-b25d-d01a7aace97e" class="">○ Visceral hypersensitivity</p><p id="2297904f-03a9-8139-8c01-ee18c4d94286" class="">○ Altered brain-gut interaction associated with alterations in</p><p id="2297904f-03a9-810c-899f-d7e985b9e1c2" class="">autonomic nervous system output causing emotional changes</p><p id="2297904f-03a9-8111-97d1-f2d6fdec1123" class="">(alteration of hypothalamic pituitary adrenal axis activity)</p><p id="2297904f-03a9-8124-b758-cbf3659444e5" class="">◆associated to multiple comorbidities such as anxiety,</p><p id="2297904f-03a9-8177-ae77-d5182b3433ae" class="">depression, and somatization.</p><p id="2297904f-03a9-810c-90a1-ff54275d5639" class="">●Inflammatory bowel diseases (USE THE BOOK)</p><p id="2297904f-03a9-81a7-a474-f7306c263642" class="">These are the questions from general surgery</p><p id="2297904f-03a9-81c6-a6f7-d6ee1256a88f" class="">○ Crohn&#x27;s disease : what is it? signs and symptoms?</p><p id="2297904f-03a9-8169-9acf-d327172d90a4" class="">◆Crohn&#x27;s disease is a granulomatous inflammation, it affects any</p><p id="2297904f-03a9-814f-8b4a-c08116ffcf5e" class="">part of the small or large intestine, with ulcerations in the wall</p><p id="2297904f-03a9-816c-976d-da86f593770a" class="">and formation of fistulae and abscesses.</p><p id="2297904f-03a9-816f-8359-f2b08fc0f125" class="">◇ Signs and symptoms:</p><p id="2297904f-03a9-81be-bdc9-c485d21e928b" class="">■ mucous diarrhea</p><p id="2297904f-03a9-81da-a140-ef4052ba6b07" class="">■ hematochezia</p><p id="2297904f-03a9-813d-a995-e1405e44b23b" class="">■ nutrient malabsorption</p><p id="2297904f-03a9-813d-b110-c3b0d6500beb" class="">■ dehydration</p><p id="2297904f-03a9-81d9-9da9-c4fe946e9a94" class="">■ abdominal pain</p><p id="2297904f-03a9-81cb-848d-d010c41b5029" class="">■ diarrhea</p><p id="2297904f-03a9-81ae-bd9d-cfc9e4b03bd0" class="">○ Ulcerative colitis: what is it? signs and symptoms?</p><p id="2297904f-03a9-816c-92bb-d653931aac7f" class="">◆involves the terminal tract of the intestine: mainly rectum and</p><p id="2297904f-03a9-81bd-ada5-c079c2378d2b" class="">colon, it is mostly inflammatory and interests only mucosa and</p><p id="2297904f-03a9-8164-9b5f-c03b5256a99b" class="">submucosa layers of the intestine.</p><p id="2297904f-03a9-8142-a8e5-dff35f41121d" class="">◇ Signs and symptoms:</p><p id="2297904f-03a9-8167-9270-e9b33c434e59" class="">■ mucous diarrhea</p><p id="2297904f-03a9-81ae-9cda-de8f34a8bd71" class="">■ hematochezia (passage of fresh blood per anus)</p><p id="2297904f-03a9-8165-a924-d8643e08b8a1" class="">■ nutrient malabsorption.</p><p id="2297904f-03a9-8146-96a9-cfbdbfadd1fb" class="">○ main difference between ulcerative colitis and Crohn&#x27;s disease</p><table id="2297904f-03a9-8192-bac5-c9616cb4061a" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-8119-97e9-f0375f05e206"><th id="eqrq" class="simple-table-header-color simple-table-header">◦</th><th id="WJxw" class="simple-table-header-color simple-table-header">◦ ULCERATIVE<br/>COLITIS<br/></th><th id="UXT?" class="simple-table-header-color simple-table-header">◦CHRON’S<br/>DISEASE<br/></th></tr></thead><tbody><tr id="2297904f-03a9-812c-8b60-f1744fb8782e"><th id="eqrq" class="simple-table-header-color simple-table-header">◦ LOCATION</th><td id="WJxw" class="">◦ Starts at the<br/>rectum and spreads to<br/>the colon<br/></td><td id="UXT?" class="">◦ can affect any<br/>part of GIT, from<br/>mouth to the anus<br/></td></tr><tr id="2297904f-03a9-81eb-8dbd-f7f575705938"><th id="eqrq" class="simple-table-header-color simple-table-header">◦ DEPTH OF<br/>INFLAMMATION<br/></th><td id="WJxw" class="">◦ mucosa</td><td id="UXT?" class="">◦ can involve the mucosa, submucosa, and even the deeper layers.</td></tr><tr id="2297904f-03a9-81d9-94ba-c5f6805fd6c5"><th id="eqrq" class="simple-table-header-color simple-table-header">◦ DISTRIBUTION</th><td id="WJxw" class="">◦ continuous area<br/>of the colon and<br/>rectum<br/></td><td id="UXT?" class="">◦ patches of<br/><br/>inflammation with<br/><br/>normal areas of tissue in between<br/></td></tr><tr id="2297904f-03a9-81cc-8654-cd02c7d811d4"><th id="eqrq" class="simple-table-header-color simple-table-header">◦ SYMPTOMS in</th><td id="WJxw" class="">◦ the diarrhea is</td><td id="UXT?" class="">◦ the diarrhea is</td></tr></tbody></table><p id="2297904f-03a9-81d7-8b95-f67125ab6c00" class="">common: abdominal often more frequent associated with</p><p id="2297904f-03a9-8106-ad7c-d57b7e3e6c3c" class="">p</p><table id="2297904f-03a9-81cd-b86e-d4e1de36d4d2" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-81b6-9f7c-c2e454e60cc8"><th id="yjTS" class="simple-table-header-color simple-table-header"></th><th id="jxDa" class="simple-table-header-color simple-table-header">of the colon and rectum</th><th id="baC_" class="simple-table-header-color simple-table-header">inflammation with<br/><br/>normal areas of tissue in between<br/></th></tr></thead><tbody><tr id="2297904f-03a9-8178-b567-dcb422987c25"><th id="yjTS" class="simple-table-header-color simple-table-header">◦ SYMPTOMS in common: abdominal pain, diarrhea, rectal bleeding, and weight loss</th><td id="jxDa" class="">◦ the diarrhea is<br/><br/>often more frequent<br/><br/>and may contain blood and mucus.<br/></td><td id="baC_" class="">◦ the diarrhea is<br/><br/>associated with<br/><br/>abdominal pain,<br/><br/>especially in the right lower quadrant, due to involvement of the<br/><br/>small intestine.<br/></td></tr><tr id="2297904f-03a9-81f6-9029-eb5404e8fa53"><th id="yjTS" class="simple-table-header-color simple-table-header">◦ COMPLICATIONS</th><td id="jxDa" class="">◦ increased risk of<br/>colon cancer<br/></td><td id="baC_" class="">◦ STRICTURE. Also more likely to cause<br/><br/>complications beyond the digestive tract,<br/><br/>such as joint pain, skin problems, eye<br/><br/>inflammation, and liver involvement.<br/></td></tr></tbody></table></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

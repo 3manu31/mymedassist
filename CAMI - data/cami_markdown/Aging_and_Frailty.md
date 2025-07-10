@@ -1,0 +1,67 @@
+**what is aging?the physiological process characterized by the progressive andcontinuous loss of function of cells, tissues, organs and systems withtime. Aging is influenced by genetics but especially by theenvironment. Physiological, pathological and environmental factorscan affect our personal way to age.**
+
+**when describing the aging process:**what are the major theories tokeep in mind?
+No single theory adequately describes the aging process, aging isa multifactorial and multi-step process (i.e: it is not caused by justone thing and it does not happen all at once, it’s cumulative)
+
+**It is believed that aging is the result of**
+a combination of insults accumulated throughout the life of theindividual that may include: smoke, radiation, pollution, badnutrition, viruses, bacteria, Hereditary Factors
+
+**some of which may favor or simply add up to**
+the progressive buildup of genetic mutations
+
+**that lead to**
+cell death, tissue damage, reduced ability to repair and renew,inflammation
+
+**resulting in aging.There are also other aspects that contribute to the progression ofaging:**
+mitochondrial dysfunction oxidative stress depletion of stem cells cellular senescence altered intercellular communication altered efficacy of nutrients
+
+**what are physical changes related to “normal” aging are not aconsidered disease?Aging-Related Physical Changes:**
+Vision: Acuity loss (cataracts, macular degeneration) Presbyopia: worsened focus Peripheral vision loss (glaucoma) Decreased dark adaptation, contrast sensitivity Hearing/Vestibular: Presbycusis (high-frequency hearing loss) Vestibular dysfunction Oral/Dental: 40% elderly edentulous Altered taste, salivary function Central Nervous System: Neurodegeneration after 80 Slower learning Memory activity decline Challenges in multitasking "Use it or lose it" principle Muscles/Bones: Moderate muscle mass reduction is normal Sarcopenia risk with excessive muscle loss Postmenopausal bone density decrease Osteoarthritis risk Heart/Circulatory: Reduced efficiency over time Atherosclerosis Vascular changes: elasticity loss, increased stiffness Respiratory: Less efficient blood oxygenation Decline in oxygen delivery and blood flow Renal: Decreased glomerular filtration rate (GFR) Gastrointestinal: Decreased GI absorptive cells, motility GERD due to reduced sphincter activity Reduced GI blood flow, gastric acid secretion, active transport
+
+**what is frailty?Frailty is an age-related state of high vulnerability to adverse healthoutcomes after a stressor event due to a reduced healthy adaptationto stressFrail adults are at high risk, in the face of stressors for falls, disability,development of geriatric diseases, delayed and incomplete recovery,adverse outcomes of hospitalization, mortality.**
+
+**what are the signs and symptoms of frailty?**
+Sarcopenia Inflammation Elevated CRP Decreased heart rate variability Altered hemostasis Insulin resistance Anemia Decreased DHEA, IGF1, cortisol Micronutrient deficiencies
+
+**what is “inflammaging”? what are the mecchanisms?**
+
+**Inflammaging is the chronic inflammation (elevated bloodinflammatory markers) associated with aging → susceptibility to frailty, CVD, cancer, dementia, kidney disease, disability, and premature death.Mechanisms:**
+genetic susceptibility: some SNP affect levels of blood inflammatory markers. central obesity visceral fat produces inflammatory adipokines such as IL6, IL8, TNF-alpha. PAI1 (thrombosis), MCP1(inflammation), angiotensinogen (hypertension), resistin (insulin resistance and inflammation), etc. changes to microbiota composition and increased gutpermeability: reduction in beneficial commensal microorganisms such as Coprococcus, Fecalibacterium, and Lactobacillus. There’s a prevalence of facultative anaerobes such as Fusobacterium and Staphylococcus (associated with increased levels of inflammatory cytokines in plasma) Increased gut dysbiosis has been postulated to increase mucosal barrier permeability, thereby allowing the entry of bacteria and their products, including pathogen- and damage- associated molecular patterns (PAMPs and DAMPs), into the circulatory system cellular senescenceCellular senescence is a state in which cells undergo a permanent growth arrest, meaning they stop dividing and proliferating. This process is characterized by changes in cellular morphology, gene expression, and function. Cellular senescence is a natural and complex biological phenomenon that can be triggered by various factors, including DNA damage, telomere shortening, and stress. Genes associated with cell cycle regulation are downregulated, while others linked to inflammation and tissue remodeling are upregulated.genetic variations (SNPs) near genes involved in controlling cellular aging (senescence) and inflammatory responses may influence an individual's susceptibility to or risk of developing age-related diseases NLRP3 inflammasome activation oxidative stress caused by dysfunctional mitochondria immune cell dysregulation chronic infections
+
+**what are some interventions to improve quality and duration of the life?**
+prevention of DM2, CVD, cancer, etc. exercise diet: decreased ability to absorb and utilize nutrients make nutrient requirements increase. Chronic conditions and medications can affect nutrition requirements (Drug-induced vitamin/mineral deficiency) Aging is often accompanied by a loss of appetite and changes in taste and smell, all of which can lead to more limited food choices and lower intake of healthy foods.
+
+**what is aging?**
+the physiological process characterized by the progressive and continuous loss of function of cells, tissues, organs and systems with time. Aging is influenced by genetics but especially by the environment. Physiological, pathological and environmental factors can affect our personal way to age.
+
+**when describing the aging process:**what are the major theories to
+keep in mind? No single theory adequately describes the aging process, aging is a multifactorial and multi-step process (i.e: it is not caused by just one thing and it does not happen all at once, it’s cumulative)
+
+**It is believed that aging is the result of**
+a combination of insults accumulated throughout the life of the individual that may include: smoke, radiation, pollution, bad nutrition, viruses, bacteria, Hereditary Factors
+
+**some of which may favor or simply add up to**
+the progressive buildup of genetic mutations
+
+**that lead to**
+cell death, tissue damage, reduced ability to repair and renew, inflammation
+
+**resulting in aging.**
+There are also other aspects that contribute to the progression of aging: mitochondrial dysfunction oxidative stress depletion of stem cells cellular senescence altered intercellular communication altered efficacy of nutrients
+
+**what are physical changes related to “normal” aging are not a**
+considered disease? Aging-Related Physical Changes: Vision: Acuity loss (cataracts, macular degeneration) Presbyopia: worsened focus Peripheral vision loss (glaucoma) Decreased dark adaptation, contrast sensitivity Hearing/Vestibular: Presbycusis (high-frequency hearing loss) Vestibular dysfunction Oral/Dental: 40% elderly edentulous Altered taste, salivary function Central Nervous System: Neurodegeneration after 80 Slower learning Memory activity decline Challenges in multitasking "Use it or lose it" principle Muscles/Bones: Moderate muscle mass reduction is normal Sarcopenia risk with excessive muscle loss Postmenopausal bone density decrease Osteoarthritis risk Heart/Circulatory: Reduced efficiency over time Atherosclerosis Vascular changes: elasticity loss, increased stiffness Respiratory: Less efficient blood oxygenation Decline in oxygen delivery and blood flow Renal: Decreased glomerular filtration rate (GFR) Gastrointestinal: Decreased GI absorptive cells, motility GERD due to reduced sphincter activity Reduced GI blood flow, gastric acid secretion, active transport
+
+**what is frailty?**
+Frailty is an age-related state of high vulnerability to adverse health outcomes after a stressor event due to a reduced healthy adaptation to stress Frail adults are at high risk, in the face of stressors for falls, disability, development of geriatric diseases, delayed and incomplete recovery, adverse outcomes of hospitalization, mortality.
+
+**what are the signs and symptoms of frailty?**
+Sarcopenia Inflammation Elevated CRP Decreased heart rate variability Altered hemostasis Insulin resistance Anemia Decreased DHEA, IGF1, cortisol Micronutrient deficiencies
+
+**what is “inflammaging”? what are the mecchanisms?**
+
+**Inflammaging is the chronic inflammation (elevated blood**
+inflammatory markers) associated with aging → susceptibility to frailty, CVD, cancer, dementia, kidney disease, disability, and premature death. Mechanisms: genetic susceptibility: some SNP affect levels of blood inflammatory markers. central obesity visceral fat produces inflammatory adipokines such as IL6, IL8, TNF-alpha. PAI1 (thrombosis), MCP1 (inflammation), angiotensinogen (hypertension), resistin (insulin resistance and inflammation), etc. changes to microbiota composition and increased gut permeability: reduction in beneficial commensal microorganisms such as Coprococcus, Fecalibacterium, and Lactobacillus. There’s a prevalence of facultative anaerobes such as Fusobacterium and Staphylococcus (associated with increased levels of inflammatory cytokines in plasma) Increased gut dysbiosis has been postulated to increase mucosal barrier permeability, thereby allowing the entry of bacteria and their products, including pathogen- and damage- associated molecular patterns (PAMPs and DAMPs), into the circulatory system cellular senescence Cellular senescence is a state in which cells undergo a permanent growth arrest, meaning they stop dividing and proliferating. This process is characterized by changes in cellular morphology, gene expression, and function. Cellular senescence is a natural and complex biological phenomenon that can be triggered by various factors, including DNA damage, telomere shortening, and stress. Genes associated with cell cycle regulation are downregulated, while others linked to inflammation and tissue remodeling are upregulated. genetic variations (SNPs) near genes involved in controlling cellular aging (senescence) and inflammatory responses may influence an individual's susceptibility to or risk of developing age-related diseases NLRP3 inflammasome activation oxidative stress caused by dysfunctional mitochondria immune cell dysregulation chronic infections
+
+**what are some interventions to improve quality and duration of the life?**
+prevention of DM2, CVD, cancer, etc. exercise diet: decreased ability to absorb and utilize nutrients make nutrient requirements increase. Chronic conditions and medications can affect nutrition requirements (Drug-induced vitamin/mineral deficiency) Aging is often accompanied by a loss of appetite and changes in taste and smell, all of which can lead to more limited food choices and lower intake of healthy foods.

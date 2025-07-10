@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> jaundice</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-816c-831a-e65ec5250fa7" class="page sans"><header><h1 class="page-title"> jaundice</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81f7-b7d6-e456e010d1c3" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-811d-ba85-c15bebaa432d" class=""><strong>JAUNDICE</strong></p><p id="2297904f-03a9-81c2-83ef-f24fb32a599b" class="">Jaundice and icterus are two ways to indicate the same pathological event.</p><p id="2297904f-03a9-810a-80a9-d0d5ecffdb95" class="">Jaundice is characterized by an <strong>increase of bilirubin in the blood</strong> resulting in yellowish staining of the skin surface and/or mucous membranes and in particular of the sclerae, the first clinical sign of jaundice. When the disease is severe you can have an accumulation of bilirubin (a bright yellow pigment) also in internal organs. Jaundice pigmentation is caused by an increased concentration of bilirubin in the blood and the yellowish staining occurs when the concentration exceeds to 2-2.5 mg/dL. In severe conditions the level of bilirubin can reach 30/40 mg/dL.</p><p id="2297904f-03a9-81da-bbb5-c1e48c4aebff" class="">We talk about hyperbilirubinemia when the level of bilirubin is higher than 1.2 mg/dL.</p><p id="2297904f-03a9-814a-9ed1-d8dfccacb21e" class="">Every day we produce physiologically bilirubin, blood bilirubin levels in the normal adult are 0.3-1.2 mg/dL.</p><p id="2297904f-03a9-81e8-a94b-fda304c45bbe" class="">The pathological increase in bilirubinemia (jaundice) is caused by an alteration in the metabolism of bilirubin, in its production, or in the transfer from plasma to bile,as it is produced daily being an important component of the bile.</p><p id="2297904f-03a9-81c7-9ddc-f030541d0f5b" class="">Jaundice can be caused by:</p><p id="2297904f-03a9-8172-941d-c8080eec78b4" class="">- i<span style="border-bottom:0.05em solid">ncrease of unconjugated bilirubin</span>, a non-water soluble (liposoluble) product, which cannot be excreted with urine; it can accumulate in the blood, in the skin and in the mucous membranes)</p><p id="2297904f-03a9-81e3-a8d3-e400353c9254" class="">i<span style="border-bottom:0.05em solid">ncrease of conjugated bilirubin</span> (water-soluble), which can be excreted in the urine -</p><p id="2297904f-03a9-818b-a38b-e52604abbe9f" class="">- <span style="border-bottom:0.05em solid">mixture</span> of conjugated and unconjugated bilirubin</p><p id="2297904f-03a9-818c-818f-f75a2d311a80" class="">These different types of bilirubin depend on the problem that causes the disease.</p><p id="2297904f-03a9-8100-b24d-d5da52fe4d9c" class=""><strong>METABOLISM AND ELIMINATION OF BILIRUBIN</strong></p><p id="2297904f-03a9-8104-a384-c51b2dc834e3" class="">Bilirubin is the end product of heme degradation that occurs daily.</p><p id="2297904f-03a9-81ce-bde5-e58374b8609f" class="">85% of the bilirubin derives from the break-down of senescent red blood cells (120 days life cycle) fig.1 by the mononuclear phagocyte system, so macrophages, at the level of the spleen, liver and bone marrow.</p><p id="2297904f-03a9-8115-8203-cbc2aae9b77a" class="">Remaining 15% is obtained from:</p><p id="2297904f-03a9-81f1-971f-c87b28547f38" class="">- turnover of the hepatic heme or hemoproteins (e.g. cytochrome P450)</p><p id="2297904f-03a9-81f5-ada0-f99e0feb9e2d" class="">- 1% from premature destruction of altered or defective red blood cell precursors in the bone marrow (altered erythrocytes from defects in erythropoiesis)</p><p id="2297904f-03a9-8177-87ec-ffbcb3d8ec00" class="">Heme is a component of hemoglobin present in the red blood cells.</p><p id="2297904f-03a9-81df-9533-cf6adf5558bd" class="">Upon red blood cells degradation, Hemoglobin is degraded into globin (a protein whose AAs are reused for erythropoiesis) and Heme, in turn degraded into iron (reused for erythropoiesis) and unconjugated bilirubin.</p><figure id="2297904f-03a9-8139-b28a-c0e54649045e" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image1.png"><img style="width:700px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image1.png"/></a></figure><p id="2297904f-03a9-81b8-ad98-eea26fcea05b" class=""><em>Fig.1</em></p><p id="2297904f-03a9-813f-b329-f9a8cd616dbd" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-81de-b87e-c8c5ea5a5fa1" class="">11</p><figure id="2297904f-03a9-816d-b801-daf422bb7b66" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image2.png"><img style="width:344px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image2.png"/></a></figure><figure id="2297904f-03a9-81d0-980d-f4832daf65b5" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image3.png"><img style="width:386px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image3.png"/></a></figure><p id="2297904f-03a9-81f8-9a57-fc76bca0a2cb" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-81b7-9f74-db2efbbc540e" class="">Heme is oxidized by the heme oxygenase (an enzyme present in the mononuclear phagocytic cells) to biliverdin. Biliverdin is reduced by biliverdin reductase in unconjugated bilirubin, non water-soluble.</p><p id="2297904f-03a9-8172-9e8c-e85a8f81a817" class="">Unconjugated bilirubin binds to serum albumin and the complex through the bloodstream can reach the liver.</p><p id="2297904f-03a9-8108-8ef8-ca7f946b2d82" class="">At the level of the liver the complex is uptaken by the hepatocytes thanks to specific cytoplasmic proteins called ligandins, (glutathione-S- transferases), that frees bilirubin eliminating albumin.</p><p id="2297904f-03a9-8138-a361-d1f84520c9ab" class="">Unconjugated bilirubin in the ER of the hepatocytes is conjugated with one or two molecules of glucuronic acid. This conjugation is catalyzed by the enzyme uridine diphosphate glucuronyl transferase (UGT).</p><p id="2297904f-03a9-8193-96c6-e7f4ff87224f" class="">We obtain conjugated bilirubin, a water soluble compound that can diffuse through the cytoplasm towards the intra- and extra-hepatic bile ducts and be excreted as bile (formed by bilirubin, cholesterol, phospholipids, electrolytes and bile salts), which is then stored into the gallbladder, and then, especially after eating, released in the intestine (small intestine, small distal intestine, colon) to emulsify lipids and help with absorption. fig.2 Remember that conjugated bilirubin is water soluble and non toxic, while unconjugated bilirubin is not water soluble.</p><p id="2297904f-03a9-814d-865e-c6cc21abfa29" class=""><em>Fig.2</em> In the intestine, conjugated bilirubin is deconjugated by intestinal</p><p id="2297904f-03a9-8150-aa2b-fb1b637d53bf" class="">flora bacteria and degraded to colorless urobilinogen (or bilinogen).</p><p id="2297904f-03a9-81bf-97a9-d6298980e842" class="">Then, after the oxidation performed by other inersital bacteria, 80-90% of urobilinogen, after oxidation by bacteria, is removed in the</p><p id="2297904f-03a9-819e-a529-e6d686eedb03" class="">feces in the form of stercobilin, responsible for their brown color. <em>Fig.3</em></p><p id="2297904f-03a9-8191-b7c8-dc89956c1b09" class="">10-20% of urobilinogen is reabsorbed through the intestinal mucus, and through the enterohepatic (portal) circulation it is returned to the liver and excreted into bile.</p><p id="2297904f-03a9-81a5-8d94-d1dfe255e7d4" class="">A small amount of reabsorbed urobilinogen, responsible for the color of urine, reaches the systemic circle and is excreted in the urine in the form of urobilin. fig.3</p><p id="2297904f-03a9-81e7-afb9-e88f68720068" class=""><strong>BILE</strong></p><p id="2297904f-03a9-814f-8669-d7116d95355c" class="">Bile is generally composed of bilirubin, cholesterol, phospholipids, electrolytes and bile salts.</p><p id="2297904f-03a9-818b-b7ed-e72220b2e775" class="">⅔ of the bile consists of bile salts, formed by the conjugation of bile acids with taurine or glycine. Bile acids are the major catabolic products of cholesterol; they are water-soluble sterols with carboxylated side chains.</p><p id="2297904f-03a9-81f2-988a-dde336d18e67" class="">The liver secretes from 12 to 36 gm of bile acids a day and their fecal loss is from 0.2 to 0.6 gm a day. 95% of secreted bile acids are reabsorbed from the gut lumen and recirculated to the liver (enterohepatic circulation) to maintain a large endogenous pool of bile acids for digestive and excretory purposes.</p><p id="2297904f-03a9-813a-8bfc-dbc8a75ba163" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-8167-883b-e46b64794486" class="">12</p><figure id="2297904f-03a9-81c7-a6cf-fd435884f8ab" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image4.png"><img style="width:606px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image4.png"/></a></figure><p id="2297904f-03a9-8147-a21a-d63e8dfda72c" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-817b-98cf-e49c8eb8f49e" class="">Bile salts are highly effective detergents: they stimulate the bile flow and the secretion of lipids (phospholipids, cholesterol) by hepatocytes into bile.</p><p id="2297904f-03a9-819d-836a-c52f21fe412c" class="">Bile, thanks to the action of bile salts, has two main functions:</p><p id="2297904f-03a9-81e1-ab45-dc3757736621" class="">● emulsion and absorption of dietary lipids in the gut lumen through the detergent properties (bile salts solubilize water-insoluble dietary lipids that otherwise would just be excreted)</p><p id="2297904f-03a9-8109-8b2a-f6fd611b6353" class="">● elimination of waste products</p><p id="2297904f-03a9-81a1-9f09-e69514f9c81e" class=""><strong>Approach to the jaundice patients</strong></p><p id="2297904f-03a9-81a5-9f7f-ffa7bffc3665" class="">Clinical features:</p><p id="2297904f-03a9-8137-b074-f6fd84c7b460" class="">● Urine color, thanks to the presence of urobilin</p><p id="2297904f-03a9-8140-ad14-e673990dc7dd" class="">● Feces color, thanks to the presence of stercobilin</p><p id="2297904f-03a9-81c0-a276-d6428da6cdd6" class="">In some situations the color of urine and feces can change and so they can give you some information about the type of jaundice.</p><p id="2297904f-03a9-8164-a578-e68887bf0348" class="">Presence of associated symptoms:</p><p id="2297904f-03a9-8184-8be7-e286afcb87e8" class="">● itch, caused by the accumulation of bile salts.</p><p id="2297904f-03a9-81f6-a4df-c3ddcb243d58" class="">● ache</p><p id="2297904f-03a9-8196-ae13-ff50f7c506a6" class="">● nausea, vomiting</p><p id="2297904f-03a9-81c1-9dfb-f9a8bfbf52c2" class="">asthenia ●</p><p id="2297904f-03a9-817a-9d69-e2dc22fec588" class="">● temperature</p><p id="2297904f-03a9-8170-b374-dc308a264dce" class="">It is also important to ask to jaundice patients some key questions ● Taking toxic substances?</p><p id="2297904f-03a9-8163-b5d4-e584be4fb21d" class="">● Ingestion of suspect foods?</p><p id="2297904f-03a9-8116-bb51-d9954814ddb0" class="">● Contact with blood or derivatives</p><p id="2297904f-03a9-8150-a331-cbe52a60c5ee" class="">History of cholelithiasis (gallstones)? a condition that causes a general suppression of the bile flow1●</p><p id="2297904f-03a9-8129-ab39-dcb4cbc86622" class="">● Family history of jaundice?</p><p id="2297904f-03a9-812e-b476-f3dcb8691af2" class=""><em>Fig.4</em></p><p id="2297904f-03a9-81c5-9a0a-ca1d5b6fadc7" class="">There are many causes of jaundice, in fig.4</p><p id="2297904f-03a9-8171-8380-c414a7f6f1ee" class="">are indicated the most important ones.</p><p id="2297904f-03a9-81d8-a741-c1a8bf836712" class="">(The professor proceeded to read the</p><p id="2297904f-03a9-8178-8481-ed4ed2718a46" class="">main causes listed).</p><p id="2297904f-03a9-81e2-ba20-e35563406f26" class="">Q:”Why pregnancy?”</p><p id="2297904f-03a9-81ba-84aa-e3a0327f2ea3" class="">A:”Pregnancy because sometimes in the</p><p id="2297904f-03a9-81de-99cd-c5637826a668" class="">last period of the gestation there could be</p><p id="2297904f-03a9-81b9-ad00-eed58598252d" class="">alteration of the hepatic functions, or an</p><p id="2297904f-03a9-8122-8106-d21adbc558e2" class="">increased concentration of hormones that</p><p id="2297904f-03a9-81fa-a1a5-cfb4b49fda17" class="">can affect the membranes of the bile</p><p id="2297904f-03a9-8123-875d-cd3ff156262a" class="">canaliculus, there is inflammation and</p><p id="2297904f-03a9-817c-8173-fc836f3a10ba" class="">because of it there is an obstruction in the</p><p id="2297904f-03a9-813f-ad31-dba4676b5604" class="">bile flow”.</p><p id="2297904f-03a9-8148-8dcd-ffd8fc440812" class="">Specifically, unconjugated hyperbilirubinemia is linked to massive destruction of RBCs, poor hepatic uptake or impaired conjugation; conjugated hyperbilirubinemia is linked to excretion problems by hepatocytes causing conjugated bilirubin to go back into the blood.</p><p id="2297904f-03a9-8114-b439-f3ee20feff86" class="">In connection with the types of bilirubin that is increased in the blood (conjugated or not), we can divide the jaundice into three types:</p><p id="2297904f-03a9-815f-9227-c93d44e4466a" class="">● Pre-hepatic jaundice: the altered stage of the bilirubin metabolism is extra hepatic.</p><p id="2297904f-03a9-8123-b90a-e36bc51eb397" class="">Hepatic jaundice: the alteration is intrahepatic. ●</p><p id="2297904f-03a9-81d7-8aa3-e164099a49ae" class="">● Post-hepatic jaundice</p><p id="2297904f-03a9-8191-8ef2-ee6ae134f800" class=""><strong>PRE-HEPATIC JAUNDICE</strong></p><p id="2297904f-03a9-81d9-93cf-f3e0911f0d9d" class="">This type of jaundice is caused by an <span style="border-bottom:0.05em solid">hyperproduction of unconjugated bilirubin</span>.</p><p id="2297904f-03a9-81c5-a91c-ca08c67e5e31" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-8141-9430-c85d5b8e82fa" class="">13</p><p id="2297904f-03a9-814f-ac6b-db350582c2d8" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-81ea-9a83-f92e87e0ad0f" class="">We have an increased unconjugated bilirubin in the blood that may depend on extrahepatic causes. Feces will be pleiochromic (very dark) due to an excess stercobilin and urine will be hyperchromic due to a high quantity of urobilin.</p><p id="2297904f-03a9-8131-bd09-f9edf270a8e4" class="">Pre-hepatic jaundice may depend on:</p><p id="2297904f-03a9-812e-9f5e-eccca14ace48" class=""><strong>●</strong> Hemolysis: excessive destruction of red blood cells, a condition termed hemolytic anemias. For this reason this type of disease is called hemolytic jaundice.</p><p id="2297904f-03a9-813e-aa5b-dfdc414320a7" class="">The causes can be:</p><p id="2297904f-03a9-8108-b3d5-eda9bb97eb08" class="">○<span style="border-bottom:0.05em solid">bacterial infection</span></p><p id="2297904f-03a9-81d7-92f0-cf2b7c4bfcf6" class="">○<span style="border-bottom:0.05em solid">spleen hyper functionality</span> (splenomegaly), that can cause a reduction in the half-life of the red blood cells.</p><p id="2297904f-03a9-81ed-afbe-f862eae6d6dc" class="">○ <span style="border-bottom:0.05em solid">autoimmune diseases</span>: in case of autoimmune hemolytic anemia, a group of diseases characterized by malfunctioning of the immune system with the production of autoantibodies directed against antigens (proteins) present on red cells surface.</p><p id="2297904f-03a9-8177-a64a-ca98bb4c1bb6" class="">○ <span style="border-bottom:0.05em solid">favism</span> or G6PD defect: genetic disease characterized by G6PD (glucose-6-phosphate dehydrogenase) deficiency which is essential for erythrocytes correct functioning and survival against oxidative damage. The intake of beans, peas, some drugs and particular substances can inhibit the G6PD enzyme and red blood cells become unable to repair oxidative damage. Favism is diffused in Sardinia, being hereditary.</p><p id="2297904f-03a9-81c8-9ace-f3971b236ba7" class=""><span style="border-bottom:0.05em solid">sickle cell anemia</span>: hereditary malformation of hemoglobin, red blood cells have a sickle shape ○</p><p id="2297904f-03a9-8101-95b0-d21b01207d91" class="">and for this reason they have difficulties especially circulating into the narrow vessels and they break easily</p><p id="2297904f-03a9-81e2-8506-e1da7b78eec3" class="">○<span style="border-bottom:0.05em solid">hereditary spherocytosis</span>: autosomal dominant, deficiency of specific membrane proteins of the red blood cell (spectrin, ankyrin), red blood cells shape is similar to a sphere (spherocytes) ○</p><p id="2297904f-03a9-81c0-b7f1-c299d7137060" class=""><span style="border-bottom:0.05em solid">hereditary elliptocytosis</span>: autosomal dominant, deficiency of cell membrane proteins (spectrin), red blood cells shape is elliptical</p><p id="2297904f-03a9-8147-b3b1-f8f7e912b26e" class="">As in both hereditary spherocytosis and hereditary elliptocytosis the shape of the red blood cells is affected, we have a high level of rupture especially inside the narrow vessels, with the release of hemoglobin so high production of unconjugated bilirubin (3, 4, 5 times more than necessary).</p><p id="2297904f-03a9-8149-81c1-f6acdc5302e5" class=""><strong>●</strong> Ineffective erythropoiesis: occurs when we have the destruction of the defective red blood cells, possible causes:</p><p id="2297904f-03a9-8184-826c-e971d7f597fd" class="">○<span style="border-bottom:0.05em solid">thalassemia</span> or Mediterranean anemia: hereditary disease characterized by reduced or absent synthesis of hemoglobin (causing a reduced transport of oxygen)</p><p id="2297904f-03a9-812a-b6ae-e39ecda24fe8" class="">○<span style="border-bottom:0.05em solid">pernicious anemia</span>: deficiency of vitamin B12, that is usually associated with reduced intestinal absorption</p><p id="2297904f-03a9-8123-bcd2-fd690ee6cd0c" class="">○<span style="border-bottom:0.05em solid">sideroblastic anemia</span>: deficiency of iron (reduced transport of oxygen)</p><p id="2297904f-03a9-8171-a17f-fdb67aef1316" class="">○leukemias</p><p id="2297904f-03a9-8152-a002-fa02e138069e" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-814a-9226-cbf904b81c4a" class="">14</p><figure id="2297904f-03a9-8124-9104-ef94801473ab" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image5.png"><img style="width:459px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image5.png"/></a></figure><p id="2297904f-03a9-8173-9d73-dd74dbf57937" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-81d3-8ace-c3a1c1600620" class="">So, these are all situations in which erythrocytes are destroyed massively with a subsequent hyperproduction of unconjugated bilirubin.</p><p id="2297904f-03a9-81a2-889c-e81ddde2b508" class="">A specific type of hemolytic disease is the Newborn hemolytic disease (also called erythroblastosis fetalis), it is a fetal disease that can affect the fetus of a Rh- mother and a Rh+ father, the problem occurs if the fetus is Rh+.</p><p id="2297904f-03a9-810a-ad13-dbf50c3dc447" class="">The mother starts to produce antibodies against the Rh+ of the fetus. Concerning the first baby, these antibodies are not enough to destroy the red blood cells.</p><p id="2297904f-03a9-8169-ba72-f16dcb3b325d" class="">The problem arises in the case of a second pregnancy if the fetus is again Rh+, because the mother has already antibodies against the red blood cells of the fetus, and this can cause a serious pathology due to the production of a great amount if unconjugated bilirubin that starts to accumulate at the level of the skin and in the base nuclei of the brain causing kernicterus, a form of psychomotor retardation.</p><p id="2297904f-03a9-81fe-bb17-eb5278adab40" class="">Looking at fig.5 we understand that the liver works</p><p id="2297904f-03a9-8127-b821-cc57d17b1c47" class="">properly: it is able to conjugate a great amount of</p><p id="2297904f-03a9-81cc-b15c-ebac0e6bee46" class="">unconjugated bilirubin, but not all of it. Part of it will <em>Fig.5</em></p><p id="2297904f-03a9-8106-8416-c5953ddefa24" class="">remain in the blood and if the concentration of</p><p id="2297904f-03a9-81f6-b49d-c9bc375255ba" class="">unconjugated bilirubin will exceed 2-2.5 mg/L, I will have</p><p id="2297904f-03a9-8165-b103-cb545ef2bf66" class="">jaundice. At the end we will have dense bile, very dark</p><p id="2297904f-03a9-81a1-a243-cf7347c1d96e" class="">and very rich in bilirubin.</p><p id="2297904f-03a9-81df-9998-f84ead3822b5" class="">So, after favoring the excretion of the waste products,</p><p id="2297904f-03a9-81a3-9b7f-cdc63bff2b5f" class="">after favoring the absorption of lipids, the conjugated</p><p id="2297904f-03a9-8113-a417-f434eef978ab" class="">bilirubin is again unconjugated; but because the quantity</p><p id="2297904f-03a9-8199-a004-c7f9741c1a74" class="">of conjugated bilirubin is great, there will be a great</p><p id="2297904f-03a9-812c-a50b-c82dbf1829b6" class="">production of stercobilin eliminated with feces, that will</p><p id="2297904f-03a9-81da-8e1b-eda6b592f858" class="">be very dark.</p><p id="2297904f-03a9-81ad-aa08-d4f0a719eebe" class="">A portion of bilinogen is reabsorbed, it reaches the liver,</p><p id="2297904f-03a9-811f-8f0f-e6175bf62282" class="">part of it is reduced but a great amount of it is secreted in</p><p id="2297904f-03a9-81dc-9dec-db8449571f80" class="">the urine, so I will have a great amount of urobilin</p><p id="2297904f-03a9-8167-bc0c-da374b1caf39" class="">rendering the urine hyperchromic too.</p><p id="2297904f-03a9-8113-bec0-db1f9de72e4e" class=""><strong>HEPATIC JAUNDICE</strong></p><p id="2297904f-03a9-8126-b6f5-c734ca8136a4" class="">This kind of jaundice is caused by a reduction of liver function. Characterized by alteration of the uptake or conjugation or excretion process of bilirubin</p><p id="2297904f-03a9-8190-9c49-c09c4deb9f5d" class="">It can appear because of different liver diseases, for example: a decrease in ligandins (the proteins necessary for the uptake of the unconjugated bilirubin), a reduced activity of the UGT enzyme, liver damage for example in case of cirrhosis or hepatitis, degenerative processes like steatosis or toxic processes.</p><p id="2297904f-03a9-8175-bf6b-f0d32d0e6514" class="">All conditions that can affect the liver function can be responsible for this type of jaundice.</p><p id="2297904f-03a9-814b-a302-d61a7d9c622a" class="">We can distinguish three defects:</p><p id="2297904f-03a9-814c-b99c-de0e2f435f24" class="">A. Defect of uptake of unconjugated bilirubin, which remains in the blood (we observe in the blood Unconjugated hyperbilirubinemia)</p><p id="2297904f-03a9-81e9-9040-e0c60e754baf" class="">B. Conjugation defect of unconjugated bilirubin goes back to bloodstream (we observe in the blood Unconjugated hyperbilirubinemia)</p><p id="2297904f-03a9-81cd-85b6-fd9d5f62e1b0" class="">C. Bilirubin excretion in bile ducts defect, so that it goes in bloodstream (we will observe in the blood Conjugated hyperbilirubinemia or mixed hyperbilirubinemia</p><p id="2297904f-03a9-814e-b6bc-f402739f34c5" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-8172-9568-eaa6328b39c7" class="">15</p><p id="2297904f-03a9-8128-a1d9-dc8baee6cf2d" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-814f-b1b4-f3572068a4e1" class="">If there is a defect in the uptake we will have less production of bile. If I have a defect in the conjugation I will have less production of bile. If I have a defect in the excretion of bilirubin I will have less production of bile.</p><p id="2297904f-03a9-81a7-9b22-d51cab99a8f6" class="">The color of urine and feces depends on the type of bilirubin present in the blood: hyperchromic urine only with conjugated bilirubin, feces can be colorless or normal with more or less fatty stools in situations in which I produce less bile, which is not rich in conjugated bilirubin, so this bile is not dark and after being released in the intestine I will have normal or colorless stool. Cattiness of stool also depends on underproduction of bile. No steatorrhea is present (it is an extreme condition associated with post-hepatic jaundice and failure in bile excretion).</p><p id="2297904f-03a9-81d1-a022-e6efc7163aea" class=""><strong>Hepatocellular jaundice due to a defect of uptake of unconjugated bilirubin</strong></p><p id="2297904f-03a9-816e-ad46-d135bb2376e1" class="">(We will observe in the blood Unconjugated hyperbilirubinemia) The liver has difficulties in the uptake of unconjugated bilirubin produced daily; causes can be different:</p><p id="2297904f-03a9-819d-9e06-ca68aa736afb" class="">●anatomical or functional deficiency of the ligandins, with hepatocytes unable to uptake all the unconjugated bilirubin. (ligandins retain bilirubin-albumin complex and release albumin): This situation occurs in the neonatal physiological jaundice and in the Gilbert syndrome.</p><p id="2297904f-03a9-819a-a5ac-ecb12671d584" class="">In the case of babies unconjugated bilirubinemia leads to a transient and mild jaundice, but sometimes the unconjugated bilirubin can accumulate in the brain causing spasticity and mental retardation, a toxic injury named kernicterus.</p><p id="2297904f-03a9-818c-bae0-e79fb96302c0" class="">In the case of the Gilbert syndrome unconjugated bilirubinemia leads to an innocuous and mild jaundice.</p><p id="2297904f-03a9-813c-8a4d-f6d19674729b" class="">hepatocellular damage upon the onset of viral hepatitis or uptake of drugs such as rifampicin and probenecid, that may interfere with the intake of unconjugated bilirubin by hepatocytes causing mild unconjugated hyperbilirubinemia.</p><p id="2297904f-03a9-81e5-9c85-d70db2d631b8" class=""><strong>Neonatal jaundice</strong></p><p id="2297904f-03a9-8106-9842-ea3c0aff42ae" class="">Normally occurring in newborns (70%), as the liver in this case is not totally mature yet (it needs two more weeks to reach the total functionality). It is more pronounced in premature infants (lower hepatic clearance and greater haemocateresis).</p><p id="2297904f-03a9-81e4-9163-cc2f1cdc740d" class="">Hepatic uptake, conjugation and biliary excretion are significantly lower in the newborn than in child and adult. Ligandinds need more time to start conjugating bilirubin, as they reach the total functionality later the first two weeks of life. Hepatic UGT activity is 100 times lower than that of the adult.</p><p id="2297904f-03a9-8122-b130-d1fa28c987df" class="">During pregnancy, Fetal bilirubin passes the placenta and is conjugated and excreted from the maternal liver. At birth the functional immaturity of the liver is associated with the normal haemocateresis of the newborn transient hyperbilirubinemia. The condition is just a transient jaundice, except in the case in which bilirubin starts to accumulate in the brain.</p><p id="2297904f-03a9-81fb-a612-cc64b78246f7" class="">This particular type of jaundice may be exacerbated by breastfeeding: in the mother&#x27;s milk there are enzymes able to deconjugate the bilirubin. Affected babies are treated with phototherapy (blue light fluorescent lamp, 420-480 nm or also UV rays) as unconjugated bilirubin (a pigment) is able to absorb light generating water-soluble fragments that can be removed with urine.</p><p id="2297904f-03a9-8135-bbf3-c571e91cd1da" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-8115-86d2-c7fbde2bcba1" class="">16</p><p id="2297904f-03a9-811f-a56c-e02d51c37fe6" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-8162-b54a-daba206456c6" class=""><strong>Hepatocellular jaundice due to conjugation defect of unconjugated bilirubin</strong> (we will observe in the blood Unconjugated hyperbilirubinemia) Inability of the hepatocytes to conjugate bilirubin. It could be:</p><p id="2297904f-03a9-8193-8ac9-c5de4d047d16" class="">Physiological jaundice in infants (as in newborns the liver is not totally developed): Hepatocytes are transiently incapable to conjugate the bilirubin present in the circle due to the fact that at born the liver is not totally developed (hepatic hypofunctionality). If it is excessive (pathological): serious picture of nuclear jaundice with spasticity due to the accumulation of unbound bilirubin in the base nuclei of the brain (kernicterus).</p><p id="2297904f-03a9-818f-9f90-ff7c18f746f7" class="">●due to altered bilirubin conjugation (hereditary unconjugated hyperbilirubinemias):</p><p id="2297904f-03a9-81c6-b54a-f3a5271ac739" class="">○Crigler-Najjar syndrome type I: characterized by complete absence or severe deficiency of uridine diphosphate-glucuronyl transferase (UGT), with complete inability to conjugate bilirubin. Fatal at birth.</p><p id="2297904f-03a9-8101-82b3-d14d85ac4a9d" class="">○ Crigler-Najjar syndrome type II or Gilbert syndrome (congenital disease, hereditary autosomal dominant) in which we have a reduced UGT activity that leads to a mild unconjugated hyperbilirubinemia.</p><p id="2297904f-03a9-8159-a371-e16cd29e8d2a" class="">○ It can also occur for some drugs that interfere with the conjugation process: in this case bilirubin is uptaken by the hepatocytes and the difficulty is to conjugate it, so what turns back into the circulation is the unconjugated bilirubin.</p><p id="2297904f-03a9-810b-b5e2-fe20c50ae79f" class=""><strong>Hepatocellular jaundice due to bilirubin excretion defect</strong> (we will observe</p><p id="2297904f-03a9-815b-ba14-f4b462d16382" class="">in the blood Conjugated hyperbilirubinemia)</p><p id="2297904f-03a9-8142-a84e-f41b4988c3f3" class="">Hepatocytes are able to uptake and conjugate the bilirubin but then there is a defect in the excretion of the conjugated bilirubin. We can observe this defect in other two hereditary autosomal recessive syndrome: Rotor syndrome or Dubin-Johnson syndrome; it has been demonstrated that in this case there is a problem in the transport of the conjugated bilirubin from the hepatocytes into the bile duct. In Dubin-Johnson syndrome there is a deficiency in the MRP2 transport protein, necessary to transport the bilirubin from the hepatocytes to bile ducts and at the same time there is an upregulation of the MRP3 that works in the opposite way favoring the transport of the conjugated bilirubin from the hepatocytes into the blood. In this manner the conjugated bilirubin returns back into the bloodstream. Also some drugs can interfere with the secretion, also in case of hepatocellular damage and pregnancy because of the increased levels of estrogen. All conditions that reduce excretion of the bile</p><figure id="2297904f-03a9-815e-ac8d-f96e3b828563" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image6.png"><img style="width:700px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image6.png"/></a></figure><p id="2297904f-03a9-819b-ab5a-d7d4e64dc056" class=""><em>Fig.6</em></p><p id="2297904f-03a9-813f-8c04-ecb7b48a4127" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-8133-9c8a-f5bd2df2588a" class="">17</p><p id="2297904f-03a9-818a-8932-c5fbf99a0022" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-81d3-b822-c0b3be71b246" class="">Here in fig.6 we can see some cases of Hereditary Hyperbilirubinemias.</p><p id="2297904f-03a9-8158-bf2a-d59b56b36534" class=""><strong>Jaundice with mixed defects</strong> (uptake, conjugation and secretion)</p><p id="2297904f-03a9-81f7-9f9d-f8323f2bff2c" class="">We can have a mixture of both bilirubin (conjugated and unconjugated), and this occurs in all the situations in which I have a damage to the liver, for example in case of hepatitis, toxic damages, cancer, etc. Hepatocellular damage (acute or chronic hepatopathies): variously associated deficits in bilirubin uptake, glucuronidation or excretion by the hepatocytes. Present signs of hepatocytic damage (increased transaminases and decreased albumin in the blood).</p><p id="2297904f-03a9-8176-b956-edcf38085d60" class="">In circulation: excess of unconjugated bilirubin and the part of conjugated bilirubin that does not reach bile.</p><p id="2297904f-03a9-810f-a0b5-e86b364b3075" class="">In mixed hyperbilirubinemia (ex: due to hepatic cirrhosis or viral hepatitis) the hepatocytes are damaged, so the liver is not able to uptake all the bilirubin, neither to conjugate it or secrete the conjugated bilirubin. The result is a reduced production of bile, that will be not dense, dark and full of conjugated bilirubin as in the pre-hepatic jaundice; here the bile is light, reduced in quantity, and the result is a small amount of stercobilin and urobilin.</p><p id="2297904f-03a9-818b-bab5-d367b5892736" class="">The bile that is released into the colon is reduced compared to the normal production.</p><p id="2297904f-03a9-816e-b448-ccd1dfde9269" class="">Feces will be hypochromic (less colored: light brown) and also more fatty (but we cannot talk about steatorrhea!): producing less amount of bile, I will have a less capacity to absorb the dietary lipids. For what concerns urine there will be a small amount of urobilin. However, in this case of mixed bilirubinemia (or also in case of conjugated hyperbilirubinemia), there also will be found conjugated bilirubin as, being water soluble, it can accumulate in the skin but also in part cross the kidneys and be excreted with urine. The presence of the conjugated bilirubin makes the urine dark. This is called “Marsala” urine, because of the Sicilian dark wine of a similar color.</p><p id="2297904f-03a9-81e3-9810-cec0144dab48" class="">In the case of conjugated hyperbilirubinemia or in the case of a mixed hyperbilirubinemia (where I have both types of bilirubin), the conjugated bilirubin can be excreted with the urine.</p><p id="2297904f-03a9-81eb-a76d-fbf1cb218ab4" class="">Feces will be hypochromic because there is less production of bile but urine will be darker because of the presence of conjugated bilirubin. Instead, if I have defect in the uptake or in the conjugation of bilirubin, in the blood I will have only unconjugated bilirubin that cannot be present in the urine; so, feces will be lighter (because I have less production of bile), urine will have a normal color or ever lighter, as there will be only urobilin.</p><p id="2297904f-03a9-811e-886f-cf52a4ddf1a5" class="">We can also have cholestasis, so there is inhibition of bile excretions so that it remains in the intrahepatic bile duct causing bile salts to go back to systemic circulation and with bilirubin we can detect bile salts‘ which, once accumulated in the skin, are responsible for itching.</p><p id="2297904f-03a9-81fc-97a8-c5877e55e722" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-813a-8b52-ec56a12433f1" class="">18</p><p id="2297904f-03a9-8153-87f1-d1084a5efec8" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-812d-98f0-fd8a8cda2cdc" class=""><strong>POST-HEPATIC JAUNDICE</strong></p><p id="2297904f-03a9-815d-b6a7-d4e10c5760aa" class="">Jaundice caused by the impaired bile flow (stasis jaundice or cholestatic jaundice). Hepatic jaundice can also be associated with an obstruction of the bile flow that causes cholestasis, so there is a stasis of the bile in the intrahepatic bile ducts: the bile remains in the liver. Only conjugated hyperbilirubinemia.</p><p id="2297904f-03a9-819f-aac2-ff7aee9230b0" class="">This type of jaundice is characterized by an increased concentration of conjugated bilirubin in the blood and also in this case also the bile salts together with bilirubin can be present in the blood circulation causing itching. With cholestasis caused by defects in hepatocyte bile secretion, there is the accumulation of bile pigment in the hepatic parenchyma. Without cholestasis only the bilirubin, and not the other non-diffusible bile constituents such as bile salts, pass into the blood.</p><p id="2297904f-03a9-8199-acf5-fae4841d1755" class="">Here I am in the stage after the conjugation of bilirubin, so I have conjugated hyperbilirubinemia. The production of bile is very low, so feces will be light or acholic (because stercobilin is missing), and urine will be very dark (due to the great amount of conjugated bilirubin), again similar to the marsala wine (very dark color). I can find bile salts also in the urine because they are water soluble.</p><p id="2297904f-03a9-8177-8e81-e32bf708e731" class="">This impaired flow is caused by a mechanical obstruction (fusion or compression) of bile excretion through intrahepatic or extrahepatic bile ducts.</p><p id="2297904f-03a9-8135-9004-e7a8cb63b828" class="">Causes of intrahepatic cholestasis can biliary cirrhosis or malformations of the biliary tract, in turn due to viral, bacterial, neoplastic or toxic factors or also some drugs, for example the hepatic cholestasis can also be caused by an increased concentration of estrogen due to the oral contraceptives, testosteron, estrogen. Fig.7</p><p id="2297904f-03a9-8144-97b8-ff48551d2365" class=""><em>Fig.7</em></p><figure id="2297904f-03a9-81a4-8947-e43a7916cd78" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image7.png"><img style="width:700px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image7.png"/></a></figure><p id="2297904f-03a9-81cb-a968-cf72e2501758" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-81ec-923c-fecb6a0d0d2d" class="">19</p><p id="2297904f-03a9-816d-a815-dc1f28fe67cf" class="">L1-01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-8113-bffd-d0dd499802e6" class="">Extrahepatic cholestasis can be due to the presence of gallstones (made of cholesterol and calcium salts), biliary tract tumors, pancreatic tumors, all responsible for the occlusion of the extrahepatic bile ducts. Other conditions can be chronic inflammatory processes of the biliary tract, wedging of a calculus in the hepatic duct or in the common bile duct, liver or pancreatic tumors, lymphopathies of the hepatic hilum, chronic sclerosing pancreatitis, etc.</p><p id="2297904f-03a9-81d2-9c0f-df34cd116f5c" class="">All situations responsible for compression and occlusion of the bile tract.</p><p id="2297904f-03a9-81ff-abc7-f14269301511" class="">The daily production of bilirubin will reach the liver, able to uptake and to conjugate it forming the bile. The problem is its excretion because there is a stasis of the bile flow. The result is a very small amount of bile, and consequently a small production of stercobilin (feces are acholic and fatty because of the impossibility to absorb lipids; I will not have the production of bilinogen, so in the urine mostly I will have only conjugated bilirubin and biliary salts because this goes back in the blood circulation. Most of them will accumulate in the skin, a part of them can be excreted because it is water soluble, so they can cross the kidney.</p><p id="2297904f-03a9-81d3-aca9-fa084bc3c915" class="">So to sum up: in pre-hepatic I will have very dark feces and dark urine due to only bilinogen, in hepatic i will have poorly colored and a bit fatty stool with urobilin and conjugated bilirubin in urine, in post-hepatic, light and very fatty feces (steatorrhea) and urine with conjugated bilirubin and bile salts.</p><p id="2297904f-03a9-81e5-8d29-d62fb9fc5c19" class=""><strong>CHOLESTASIS</strong></p><p id="2297904f-03a9-81f7-ae76-cad8874a59e0" class="">Caused by an impaired bile flow because of the occlusion of either the intra or extrahepatic bile ducts fig.8&amp;9. All the products of the bile remain in the hepatocytes so biliary pigments can be observed inside them; the detergent properties of the bile acids can be toxic for the cells causing apoptosis. Biliary pigment can also be observed inside Kupffer cells (macrophages).</p><p id="2297904f-03a9-81d5-8999-daa1c5b67ce5" class="">Other clinical symptoms are:</p><p id="2297904f-03a9-8104-87f6-f950273dceab" class="">- itching, because of the accumulation of biliary salts in the skin</p><p id="2297904f-03a9-8162-9a78-c23ee9027679" class="">xanthomas, accumulation of cholesterol (a component of the bile) caused by hyperlipidemia but also -</p><p id="2297904f-03a9-8149-b72c-f7a54327c465" class="">by an altered cholesterol excretion</p><p id="2297904f-03a9-8198-9733-f7453cbcd99f" class="">- deficiency in liposoluble substances (ex: ADEK vitamins), because of the reduced absorption of lipids from the intestine</p><p id="2297904f-03a9-8100-b79d-c8240abe0379" class="">- bile canaliculi appear dilated because of the stasis of the bile</p><figure id="2297904f-03a9-81c6-add5-c1e146160edf" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image8.png"><img style="width:681px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image8.png"/></a></figure><p id="2297904f-03a9-813d-96e1-fb04858b15ee" class=""><em>Fig.8</em></p><p id="2297904f-03a9-81e3-95a5-dc1751be2b1e" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-8175-b122-e61df31bc54b" class="">20</p><figure id="2297904f-03a9-81ae-9943-e79ee20964ee" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image10.png"><img style="width:471px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image10.png"/></a></figure><p id="2297904f-03a9-81e0-aa64-e0025949d50a" class="">L1-01.03.2023 LEONARDUZZI L.01</p><figure id="2297904f-03a9-8182-bf96-e1091951e19c" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image9.png"><img style="width:700px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image9.png"/></a></figure><p id="2297904f-03a9-8198-954f-db2e6d8419ff" class=""><em>Fig 9</em></p><p id="2297904f-03a9-810b-8a83-fc247cec7537" class=""><strong>MECHANISM OF CHOLESTASIS</strong></p><p id="2297904f-03a9-810c-be3c-c43df9869882" class="">Three mechanism have been proposed to explain cholestasis:</p><p id="2297904f-03a9-8139-8d10-e35449f64c69" class=""><strong>●</strong> Damage of the canalicular plasma membranes: the secretion is controlled by ATPase Na/K pump on the canalicular membrane; in some particular situations (drugs, toxic compounds..) there could be an inhibition of this pump, causing a reduction in the bile flow.</p><p id="2297904f-03a9-8120-810e-dd0c13253107" class=""><strong>●</strong> Alteration of the contractile properties of the canaliculus: the hepatocytes have a peristaltic activity that can favor the excretion of bile, but there are some substances that can inhibit the contraction of the pericanalicular microfilaments causing cholestasis.</p><p id="2297904f-03a9-8173-8d9b-d4c03e951fb6" class="">● Alteration of canalicular membrane permeability: for example in case of pregnancy, the increased concentration of estrogen can increase the membrane permeability of the biliary canaliculi favoring the retro-diffusion of the bile components, causing cholestasis.</p><p id="2297904f-03a9-818f-9b27-c7e8469b5ae9" class=""><strong>INTRA HEPATIC PREGNANCY CHOLESTASIS</strong></p><p id="2297904f-03a9-81fd-a2a6-c81ef5c73cce" class="">It is a rare condition that can affect women during the last months of gestation. It is a transient pathology that disappears after the delivery. Main symptom is itching.</p><p id="2297904f-03a9-812d-bbbf-ea997f87808b" class="">Most of the time it is associated with premature birth, fetal distress and placental insufficiency.</p><p id="2297904f-03a9-8173-89ed-cbededacb657" class="">The estrogens can alter the permeability of the canaliculi’s membrane being responsible for the inflammation of the biliary canaliculi, causing a reduction in the bile flow.</p><p id="2297904f-03a9-8194-aab2-fbe5ad3b0d07" class=""><strong>NEONATAL CHOLESTASIS</strong></p><p id="2297904f-03a9-8163-9eb3-f14380f787ce" class="">It is a consequence of a prolonged hyperbilirubinemia</p><p id="2297904f-03a9-8156-b82e-fe65f41f10a5" class="">in the newborn.</p><p id="2297904f-03a9-81b4-a307-e8d0838fbce4" class="">The newborn needs 2 weeks more to have a to reach</p><p id="2297904f-03a9-81eb-ae5f-c94414668673" class="">the total maturity and the efficiency of the liver.</p><p id="2297904f-03a9-8131-a98c-e0d34be6e56b" class="">If the baby still has jaundice after these 2 weeks, there</p><p id="2297904f-03a9-812c-ac3c-ff81ce96893e" class="">is a high risk of developing cholestasis.</p><p id="2297904f-03a9-8178-8be0-e8dc073e6c18" class="">There are many causes of cholestasis. In <em>Fig 10</em></p><p id="2297904f-03a9-8136-a6a0-fb154733c692" class="">there is a list (not explained).</p><ul id="2297904f-03a9-81f2-bcc8-df6f446e241f" class="bulleted-list"><li style="list-style-type:disc"> cholangiopathies: genetic and acquired biliary</li></ul><p id="2297904f-03a9-8133-85fe-d8b93f84bbaf" class="">disorders</p><p id="2297904f-03a9-815c-8a43-e563333c78c7" class="">Causes: cholangiocyte is damaged by</p><p id="2297904f-03a9-8195-bec5-e09307cf4bfd" class="">cystic fibrosis, biliary atresia, fibropolycystic</p><p id="2297904f-03a9-8151-bc1a-cc577bbf5491" class=""><em>Fig.10</em></p><p id="2297904f-03a9-81d6-a3f6-fa2aa9462623" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-810f-ac14-e755df2b8998" class="">21</p><figure id="2297904f-03a9-8163-8290-c62d92032a9b" class="image"><a href="jaundice%202297904f03a9816c831ae65ec5250fa7/image11.png"><img style="width:700px" src="jaundice%202297904f03a9816c831ae65ec5250fa7/image11.png"/></a></figure><p id="2297904f-03a9-8125-8d73-ec3c44837aa9" class="">01.03.2023 LEONARDUZZI L.01</p><p id="2297904f-03a9-81ff-ba33-dcdbe47cc449" class="">diseases,disordered immunity (primarily biliary cirrhosis..), infectious agents (cytomegalovirus, bacteria...), ischemia, and toxic compounds (drugs, toxins..)</p><ul id="2297904f-03a9-81fa-bca8-c28fccb30468" class="bulleted-list"><li style="list-style-type:disc"> primary biliary atresia: complete/partial obstruction of the lumen of the extrahepatic biliary tree within the first 3 months of life (1/3 infants with neonatal cholestasis).</li></ul><p id="2297904f-03a9-818f-b753-c30f54244866" class="">Causes: aberrant intrauterine development of extrahepatic biliary tree; perinatal form of biliary atresia due to the destruction of the normal biliary tree development following birth (viral infection – rotavirus, reovirus, cytomegalovirus-, auto-immune reactions); organ malformation (genetic basis)</p><ul id="2297904f-03a9-8120-9a44-d551313f2e50" class="bulleted-list"><li style="list-style-type:disc"> various disorders causing conjugated hyperbilirubinemia referred to neonatal hepatitis</li></ul><p id="2297904f-03a9-81ce-8f16-e82e5c8a7f50" class="">And here <em>Fig 11</em> is a summary of the causes of</p><p id="2297904f-03a9-8193-9d37-f24c0c1df728" class="">jaundice:</p><p id="2297904f-03a9-81b7-b761-d6471a840a69" class=""><em>Fig.11</em></p><p id="2297904f-03a9-813c-a44b-cb0288d50317" class="">Giulia Zavaroni, Elena Ravizza</p><p id="2297904f-03a9-817e-ad3e-c46e1e84f65e" class="">22</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

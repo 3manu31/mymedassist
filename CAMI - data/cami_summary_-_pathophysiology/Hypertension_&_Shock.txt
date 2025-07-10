@@ -1,0 +1,285 @@
+Hypertension & Shock
+● what mechanism regulate blood pressure?
+Blood pressure is defined as the product between the cardiac output
+and the peripheral resistance. Cardiac outputis regulated by heart
+rate and myocardial contractility (cardiac factors) and by blood volume
+(=stroke volume, which can change, according to the concentration of
+sodium and mineralocorticoids or with the release of atrial natriuretic
+peptide by the myocardium).
+The peripheral resistance can change according to vasoconstriction
+and vasodilation. Many factors can modulate the lumen of the vessels,
+such as humoral factors, that can be constrictors and dilators, local
+factors and neural ones, divided into constrictors and dilators. This
+latter can also regulate the heart rate and the contractility of the
+myocardium.
+● what factors regulate blood volume?
+Blood volume is mainly regulated by renal Na+ excretion or
+reabsorption.
+Kidneys filter 170 L of plasma containing 23 nmoles of salt
+daily.99.5% of filtered salt is reabsorbed, to maintain the total body
+concentration of Na+. 98% is reabsorbed by active sodium
+transporters, mainly ENaC (epithelial Na+channels), regulated by
+aldosterone which favors the reabsorption of Na+ and water. 1.5% is
+reabsorbed by epithelial sodium channels regulated by the renin-
+angiotensin system.
+○ Renin-Angiotensin-Aldosterone system: their aim is to maintain
+the blood volume in the circulatory system. Renin is produced in
+the juxtaglomerular cells of the kidneys in response to:
+1. low blood pressure in the afferent arterioles
+2. elevated levels of catecholamines
+3. low Na+ levels in the distal convoluted tubule, which occurs
+whtn GFR falls and there’s increased Na+ reabsorption in the
+proximal tubules.
+○ Renin cleaves angiotensinogen produced by the liver, into
+angiotensin I which in turn is converted into angiotensin II (a
+vasoconstrictor) by the enzyme ACE released by the vascular
+epithelium. Renin and angiotensin II induce the production of
+aldosterone by the adrenal gland. Aldosterone triggers the
+tubular system of the kidney to reabsorb more sodium. If the
+arteries of the kidney are over distended, the kidney will try to
+decrease the volume, lowering renin production. Consequently,
+aldosterone production is decreased, sodium and water retention
+○ decrease and the volume is reduced. This system takes some time,
+so the volume variation is evident in one or two days. The
+kidneys, at the same time, release not only vasoconstrictor
+elements but also vascular relaxing substances (PGs and NO) to
+counterbalance the vasopressor effect of angiotensin.
+○ Atrial Natriuretic peptide and Brain Natriuretic Peptide ANP/
+BNP are produced by the heart following the degree of distension.
+So if there is high blood volume, the ventricles are more distended
+by the increased diastolic filling. This will increase the production
+of these peptides that induce increased sodium loss by the
+kidneys, and consequently water excretion causing a decrease in
+blood volume.
+○ Antidiuretic Hormone (ADH) Increases Water Reabsorption
+independent of sodium. The osmoreceptors in the hypothalamus
+sense the plasma osmolality and then the pituitary releases ADH
+accordingly. The most important renal action of ADH is to increase
+the water permeability of the distal tubule, collecting tubule, and
+collecting duct epithelia. This effect helps the body conserve water
+in circumstances such as dehydration. In the absence of ADH, the
+permeability of the distal tubules and collecting ducts to water is
+low, causing the kidneys to excrete large amounts of dilute urine, a
+condition called diabetes insipidus. Thus, the actions of ADH play a
+key role in controlling the degree of dilution or concentration of the
+urine,
+● in general, when does hypertension develop?
+hypertension occurs when there is an increased cardiac output (due
+to increased blood volume, heart contractility / heart rate) or an
+increased total vascular resistance (due to changes in the activity of
+neural, humoral and local effectors). In some situations, both these
+parameters increase.
+● what values define hypertension?
+To increase the blood volume, reaching the “threshold” of
+hypertension, is only sufficient to increase the blood content of the
+arteries by 20-30 ml.
+According to the new criteria, hypertension is now defined as systolic
+pressure over 120 mmHg, or diastolic pressure over 80 mmHg.
+According to this new threshold, about 45% of the general
+population has hypertension.
+The threshold until recently was defined as 130 mmHg systolic and 85
+mmHg diastolic.
+Depending on the value of blood pressure, it’s possible to classify the
+hypertension into five groups:
+1. borderline → values between 140/90-95 mmHg
+2. mild → values between 140-159/95-99 mmHg
+3. moderate → values between 160-179/100-109 mmHg
+4. severe → values between 180-209/110-119 mmHg
+5. very severe → values > 210/>120 mmHg
+● what are the types of hypertension?
+○ PRIMITIVE (essential) hypertension → very common (90-95%).
+Multifactorial. It usually occurs after 40 years old.
+◆ Environmental factors: psychological stress, obesity, alcohol,
+smoking, physical inactivity, heavy salt consumption.
+◆ Genetic factors: some polymorphisms induce excessive
+RAAS activation → increased blood volume and blood pressure.
+There seems to be familial predisposition because it runs in
+some families.
+○ Mechanism: reduced renal Na+ excretion, even if the pressure is
+normal. The result is an increase in blood volume and in cardiac
+output. In addition, there can also present an increase in the
+peripheral resistance.
+○ SECONDARY HYPERTENSION: it’s associated with many diseases
+affecting the kidneys, adrenal glands or other endocrine organs.
+Treating these diseases, we can reduce hypertension.
+◆ Renal (most common)
+◇ Chronic renal disease
+◇ Acute glomerulonephritis
+◇ Polycystic disease
+◇ Renal artery stenosis → excess RAA activation →
+secondary hyperaldosteronism
+◇ Renal vasculitis
+◇ Renin-producing tumors
+◇ What is the mechanism behind renal hypertension?
+narrowing (stenosis) of the renal artery (congenital; a mass;
+atherosclerotic plaque, etc) will cause low perfusion in the
+afferent arteriole → Juxtaglomerular cells will sense this
+and increase Renin production in response, which will cause
+an increase in aldosterone secretion (secondary
+hyperaldosteronism)
+Diagnosis:
+doppler ultrasonography.
+■
+◇ Treatment:
+angioplasty
+■
+◆ Endocrine
+◇ Adreno-cortical hyperfunction (Cushing syndrome, primary
+aldosteronism, congenital adrenal hyperplasia, etc.)
+◇ Exogenous hormones: glucocorticoids, estrogen
+(pregnancy), oral contraceptives, sympathomimetics,
+tyramine-containing foods, MAO inhibitors.
+◇ Pheochromocytoma → increased catecholamine secretion
+◇ Acromegaly
+◇ Hypothyroidism
+◇ Hyperthyroidism
+◇ what is primary aldosteronism?
+80-90% of 2ry hypertension cases are due to primary
+aldosteronism.
+It is the overproduction of aldosterone by the adrenal gland
+→ too much Na+ reabsorption → hypervolemia → high BP
+(how high will depend on the degree of hyper-secretion).
+It can be caused by a benign tumor in the adrenal cortex.
+Aldosterone will suppress renin, induce sodium-water
+retention, that in turn will suppress renin secretion. Hence,
+the condition would be of high aldosterone and low renin.
+Primary aldosteronism can also cause hypokalemia,
+In summary, in 1ry aldosteronism we will find:
+hypernatremia
+■
+hypokalemia (late onset), since aldosterone is a
+■
+potassium excretor
+metabolic alkalosis.
+■
+inappropriate ARR
+■
+◇ How can pheochromocytoma cause high bp?
+neuroendocrine tumor of the adrenal medulla (a
+sympathetic nucleus) that causes abnormally high
+catecholamine secretion.
+Noradrenaline binds to alpha receptors in the arteries
+■
+and causes vasoconstriction.
+Adrenaline binds to beta receptors in the heart causing
+■
+tachycardia, increases contractility, increases
+conduction speed. it induces vasodilation in the arteries
+(but the effect is overcome by NE so net
+vasoconstriction)
+◇ Sometimes we have secretion of some but not the others:
+Old clinical case of Paccotti: a patient came to the hospital
+with 300 systolic and he had pheochromocytoma, we rarely
+see in this condition a pure secretion of noradrenaline
+(although it might happen) and during the high bp episode
+the patient was bradycardic (30-40 bpm); this is because in
+this situation, the high bp (300) will induce bradycardia, a
+parasympathetic effect (no adrenaline secretion in this
+case). Noteworthy is the fact that each catecholamine
+works in a different way than the other
+◆ Cardiovascular
+◇ Coarctation of aorta
+◇ Polyarteritis nodosa
+◇ Increased intravascular volume
+◇ Increased cardiac output
+◇ Rigidity of the aorta
+◇ Neurologic
+◇ Psychogenic
+◇ Increased intracranial pressure
+◇ Sleep apnea
+◇ Acute stress, including surgery
+● what is the labile phase of hypertension?
+At the beginning of the development of hypertension, it’s possible to
+distinguish an initial inconstant labile form, characterized by only an
+increase in the cardiac output, whereas the peripheral resistance is
+normal. Over time, the peripheral resistance increases until stabilized
+hypertension is determined.
+High blood pressure stimulates hypertrophy of vascular SMCs (in
+particular precapillary arterioles): the muscular layer thickens and the
+lumen narrows permanently, which increases peripheral resistance.
+● clinical signs of hypertension?
+Hypertension is asymptomatic. Indeed, it is frequently called the
+“silent killer”.
+Secondary hypertension has clinical symptoms strictly associated with
+the underlying disease. With time, symptoms of the effects of
+hypertension on different organs may develop:
+○ heart → LV hypertrophy → heart failure
+○ nervous system spasms, headache, vertigo, visual disturbances,
+necrosis of brain matter due to ischemia/microinfarction or to
+hemorrhage
+○ aorta → severe atheroma, abdominal aortic aneurysms
+○ kidney glomerular and tubular changes due to progressive
+nephron ischemia (chronic renal failure).
+○ hemorrhagic manifestations → nose, respiratory system, and
+female genital tract
+○ vessels → hypertrophy due to hypertension and, over time, a
+deposition of material in the EC space
+● Define shock
+Serious pathological event of acute circulatory insufficiency and it
+represents one of the primary causes of death.
+It is characterized by a reduction of cardiac output or reduction of
+peripheral resistance; the consequence is a reduction in the blood
+pressure → hypoperfusion of the main vital organs (circulatory
+collapse)
+The two main symptoms of the shock are marked hypotension and
+hypoperfusion. At the beginning, if this condition is not so serious, it
+● can be reversible. But a prolonged shock leads to irreversible damage,
+causing the failure of many organs and, therefore, to the death of the
+patient.
+● what are the different types of shock?
+We have 4 possibilities of shock:
+1. Hypovolemic shock: usually due to acute hemorrhage, with
+decreased preload, low cardiac output and pulmonary pressure but
+high peripheral resistance (vasoconstriction) due to extreme
+sympathetic activation. Typical signs are paleness and sweating.
+2. Cardiogenic shock: usually after a MI, with an increased preload,
+low cardiac output but high pulmonary pressure (Pulmonary
+hypertension and edema and respiratory insufficiency) and high
+peripheral resistance. Paleness and sweating (Severe sympathetic
+reaction).
+3. Distributive shock: it is the result of septic shock (due to
+bacterial infection) or anaphylactic shock(allergy). We have a very
+high cardiac output (with an otherwise normal heart) with normal
+to low pulmonary pressure and LOW peripheral resistance (massive
+vasodilation; unsustainably large vessels). Signs are red, dry and
+warm skin (No sympathetic activation here).
+4. Obstructive shock (from a structure cardiopulmonary disease):
+pulmonary embolism or pericardial tamponade, low cardiac output,
+variable pulmonary pressure and high peripheral resistance.
+Paleness and sweating (Severe sympathetic reaction)
+● what are the stages of shock?
+1. non progressive stage: the initial drop in blood pressure
+kickstarts mechanisms that for a while are able to compensate and
+keep the pressure from dropping too low:
+◆ extreme sympathetic activation: peripheral vasoconstriction →
+sweating, pallor, oliguria, tachycardia
+◆ RAAS activation
+◆ ADH release
+2. progressive state compensatory mechanisms are no longer
+enough, there is hypoperfusion, hypoxia and with that
+accumulation of H+ and lactic acid that results in metabolic
+acidosis. If this situation lasts too long→ cell membrane and
+pumps dysfunction → necrosis
+3. Irreversible stage → severe cellular and tissue injury. Survival is
+not possible anymore because a lot of organs are impaired, in
+particular kidneys because they can’t excrete urine (anuria).
+● explain the pathogenesis of septic shock
+Septic shock causes more than 20% of all deaths.
+It is most frequently triggered by Gram+ bacteria, followed by Gram-
+and funghi.
+● It consists of a generalized inflammatory response, mediated by both
+innate and adaptive immunity, extensive release of inflammatory
+mediators (histamine!!).
+1. Bacteria spreads in the circulation, causing activation of the
+immune system, in particular cells ****that express toll-like
+receptor (TLR) → pro inflammatory response.
+2. Endothelial dysfunction results from generalized inflammatory
+response. There’s vasodilation, increased permeability, activation
+of coagulant factors → procoagulant state. This is a risk for
+disseminated intravascular coagulation (DIC).
+3. Cytokines can impair expression of GLUT-4 → hyperglycemia and
+insulin resistance during septic shock.
+4. The last step is the organ dysfunction, caused by systemic
+hypotension, interstitial edema, small vessel thrombosis. It
+happens mainly in the liver, lungs, heart, kidneys. All these cause
+the death of the patient.

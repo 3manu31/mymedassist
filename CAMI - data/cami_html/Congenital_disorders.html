@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Congenital disorders / Genetic diseases</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-80a1-9925-da0e2bd19ef0" class="page sans"><header><h1 class="page-title">Congenital disorders / Genetic diseases</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81b1-9821-d4260f9ccbb7" class="">Genetic diseases</p><p id="2297904f-03a9-8174-80cc-f9aeed26cd73" class="">●what is the difference between genetic and congenital disorders? Genetic disorders are disorders that derive from changes in the DNA (mutations), that most of the time derived from one parent and are transmitted to the germline, so they are familial.</p><p id="2297904f-03a9-81bd-b1a5-ebaae0c954ca" class="">Congenital disorder means a disorder that appears after birth, you are born with it. A congenital disorder can also be due to genetic mutations, if it manifests right after birth (20% of them). Only 4% are due to chromosome abnormalities (because they are generally not compatible with birth). But they can be the effect of pathogenic</p><p id="2297904f-03a9-8108-a04b-d90e29b334e8" class="">factors present in the fetal environment (so something that is not genetic but derives from the environment). Factors can be of chemical, physical or biological nature. In these cases we will have</p><p id="2297904f-03a9-81a3-a5bf-e2465f3894b8" class="">embriopathies or fetopathies. 70% of congenital disorders are of unknown origin.</p><p id="2297904f-03a9-8121-9e1c-d5db13993442" class="">There are also conditions in which genetic and environmental factors coexist in generating the disorder.</p><p id="2297904f-03a9-81cb-a084-e71e5c94d1e8" class="">●what is teratology and its principles?</p><p id="2297904f-03a9-81b0-9744-f54e38fe0ef9" class="">Teratology is the study of developmental anomalies.</p><p id="2297904f-03a9-819b-87d4-e1342772f4a7" class="">Teratogens are chemical, physical and biological agents that cause these anomalies (toxins, drugs, etc)</p><p id="2297904f-03a9-81db-9b91-c9269e8b10d3" class="">Main principles:</p><p id="2297904f-03a9-81a6-9ab3-d41f81c903ff" class="">○ Teratogens induce death, growth retardation, malformation, and functional impairment.</p><p id="2297904f-03a9-818f-955c-d735c1b4873a" class="">○ The mechanism is specific for each teratogen.</p><p id="2297904f-03a9-814a-ad3d-db75dfdd6c0c" class="">○ The teratogenesis is dose dependent. The more the teratogen, the more danger.</p><p id="2297904f-03a9-8125-9fb6-e612916ffcda" class="">○ Susceptibility to teratogens is variable: depending on the genotypes of the fetus and of the mother e.g: not all fetuses from alcoholic mothers develop fetal alcohol syndrome.</p><p id="2297904f-03a9-8126-9470-d1c4ecae6631" class="">○ Susceptibility for the teratogens is specific for each</p><p id="2297904f-03a9-8196-ba49-de8228ee5de6" class="">embryological stage. different stages of fetal development are more sensitive to some teratogens than others, according to what part of the body is developing and how that teratogen interacts in the body. The first trimester of pregnancy is a very susceptible one in general because the most important tissues and organs are forming.</p><p id="2297904f-03a9-81fa-aa95-cba221eddb36" class="">●what drug was prescribed for anxiety for pregnant women in 1960 that turned out to be a teratogen?</p><p id="2297904f-03a9-8120-920c-d7e97275908f" class="">Thalidomide.</p><p id="2297904f-03a9-81bd-8ba2-c571f625bc7b" class="">It caused phocomelia: malformations in the arms (seal fins). Still used in chemotherapy today as it induces apoptosis of cancer</p><p id="2297904f-03a9-81de-9e38-c634449cddf4" class="">cells</p><p id="2297904f-03a9-8140-a3f6-fb5233d0f271" class="">●Describe fetal alcohol syndrome</p><p id="2297904f-03a9-81d3-8c54-c86907a44206" class="">syndrome caused by chronic maternal consumption of alcohol during</p><p id="2297904f-03a9-8149-8ec7-dcb435de1d2e" class="">pregnancy.</p><p id="2297904f-03a9-81c7-80f2-cd2980e8afa7" class="">Alcohol consumption during the first trimester is particularly</p><p id="2297904f-03a9-816e-8ef7-c059e3878433" class="">dangerous.</p><p id="2297904f-03a9-81b3-9fd2-e4e94e1cff76" class="">Affected children present:</p><p id="2297904f-03a9-8193-9fd3-d79fa98f44e9" class="">○ mental retardation (most common case of acquired mental</p><p id="2297904f-03a9-81d2-9a25-ddf757cb1c40" class="">retardation)</p><p id="2297904f-03a9-81af-9485-d89aeb2a55fd" class="">○ clumsy movements, impulsive behavior</p><p id="2297904f-03a9-8181-86fc-c99439cf0763" class="">○ underweight</p><p id="2297904f-03a9-81f1-ae96-feae4928cbe8" class="">○ Deformities:</p><p id="2297904f-03a9-813f-86cb-f98492f34fdc" class="">◆microcephaly</p><p id="2297904f-03a9-8113-a090-e94babb00a5f" class="">◆malformations of the heart, of the limbs and joints</p><p id="2297904f-03a9-8154-812a-e6474d8bca6e" class="">◆Facial (make the syndrome phenotypically recognised):</p><p id="2297904f-03a9-810f-878e-ccd77a22d080" class="">◇ small and widely spaced eyes</p><p id="2297904f-03a9-81b8-8a8e-c31ec486be91" class="">◇ thin upper lip</p><p id="2297904f-03a9-8123-83d1-d3e92c1ad4d4" class="">◇ small nose, upward</p><p id="2297904f-03a9-81d9-9b3d-f7b4e2fda954" class="">◇ receding chin</p><p id="2297904f-03a9-81c2-832b-f0008d6395ae" class="">◇ corneal damage</p><p id="2297904f-03a9-8130-8ab1-db814d6da4de" class="">◇ drooping eyelids</p><p id="2297904f-03a9-81e6-b448-f2439168f6df" class="">◇ midline of the upper lip (philtrum) poorly developed</p><p id="2297904f-03a9-81d2-bd4e-c8fecbafae7b" class="">○ If only some of these alterations are present you don’t say that you</p><p id="2297904f-03a9-810a-b8ef-e0a94b89a2f5" class="">are in front of a fetal alcohol syndrome, but only of the fetal</p><p id="2297904f-03a9-8104-b713-c7be708c7e7c" class="">alcohol effect.</p><p id="2297904f-03a9-8123-bc1b-c8ef34fbb2ea" class="">●Describe torch complex</p><p id="2297904f-03a9-8198-aa1b-c3c3da95a49c" class="">Torch is an acronym that stands for</p><p id="2297904f-03a9-81c2-8a0c-fa5fc26614f4" class="">Toxoplasma</p><p id="2297904f-03a9-81cc-b9c1-f49e8a090da1" class="">Others (syphilis, tuberculosis, Varicella-Zoster virus, Parvovirus B19,</p><p id="2297904f-03a9-818f-b70e-d33daf9c0c70" class="">Hepatitis, HIV), Rubella</p><p id="2297904f-03a9-81cb-a385-c4b5deed5f12" class="">Cytomegalovirus</p><p id="2297904f-03a9-8138-9e44-edc0b8c95f55" class="">Herpes simplex virus.</p><p id="2297904f-03a9-81de-9e2e-c75e1b2d1c77" class="">These are the main causes of this syndrome, (not all together!!)</p><p id="2297904f-03a9-81ed-b312-d3a477513dd8" class="">They are the main causes of neonatal morbidity and mortality.</p><p id="2297904f-03a9-815a-8523-edff1d7dd2e1" class="">During pregnancy a toxoplasma test is done and if the mother is</p><p id="2297904f-03a9-812a-8abd-fc2d4ba96244" class="">negative for toxoplasma she can’t eat ‘prosciutto crudo’ (raw ham) or</p><p id="2297904f-03a9-8126-b97f-f99277150fa7" class="">‘not washed vegetables’. The spectrum of symptoms is common for all</p><p id="2297904f-03a9-8136-99e7-ecec6803e671" class="">the different biological causes: lethargy, fever, feeding difficulties,</p><p id="2297904f-03a9-8170-a06f-e31dd275f4ce" class="">anemia, petechiae... But the most frequent are growth retardation</p><p id="2297904f-03a9-8138-b702-df6296f00a87" class="">and brain, eye, liver and heart abnormalities.</p><p id="2297904f-03a9-8107-a265-c9e3749c5939" class="">The severe damage inflicted is largely irreparable.</p><p id="2297904f-03a9-816e-996b-d782cf9b7829" class="">●What is Huntington disease (HD)?</p><p id="2297904f-03a9-8104-a1cc-f46c665d1636" class="">HD (5-10:100.000) is an autosomal dominant disease. There is no</p><p id="2297904f-03a9-8194-8cdc-fec9585ba74d" class="">sporadic form. It is caused by degeneration of striatal neurons and</p><p id="2297904f-03a9-8100-88fc-e2d14171c05e" class="">●</p><p id="2297904f-03a9-8135-aa62-def0f59da1df" class="">characterized by a progressive movement disorder and dementia.</p><p id="2297904f-03a9-8117-bb62-cea1d4c36963" class="">Jerky, hyperkinetic, sometimes dystonic movements (chorea) are characteristic, affected individuals may later develop bradykinesia and rigidity. It is relentlessly progressive and uniformly fatal, with an average course of 15 years after its onset is at around 30-45 years of age.</p><p id="2297904f-03a9-81c6-9f9f-edbaf6264ec2" class="">●Explain the pathogenesis of Huntington disease</p><p id="2297904f-03a9-815d-bd77-c979bf03cc6a" class="">HD is caused by a polyglutamine (CAG) trinucleotide expansion in the HTT gene, on chromosome 4, that encodes the huntingtin protein and causes a toxic-gain of function on huntingtin.</p><p id="2297904f-03a9-817a-b888-d9062ff0ee5e" class="">Although it is expressed in all tissues of the body the mutation affects only parts of the CNS: the cortex and basal ganglia.</p><p id="2297904f-03a9-811f-a920-d092817a7a08" class="">○ Norma: 5-30 CAG repeats</p><p id="2297904f-03a9-8102-8d18-fb532a0dc382" class="">○ Pre-mutation: 30-35 repeats</p><p id="2297904f-03a9-8143-9ce9-edd8328320fe" class="">○ Mutation: 36-120 times (&gt;36 glutamine residues = polyglutamine tract)</p><p id="2297904f-03a9-813f-b504-ff71e62de9b4" class="">●The higher the amount of repeats, the earlier the age of onset of the disease.</p><p id="2297904f-03a9-81a0-b505-e88311eaf574" class="">Pathogenesis is still under investigation: HTT is neuroprotective, pro-development. Mutated HTT (mHTT):</p><p id="2297904f-03a9-810e-b614-cfa2c7a05049" class="">○ Disrupts proteosomal and autophagic pathways resulting in accumulation of toxic debris, including toxic huntingtin → necrosis</p><p id="2297904f-03a9-8150-b7dd-f99b83bc1f00" class="">○ toxic huntingtin accumulation in the nucleus can negatively regulate the normal transcription of genes associated with</p><p id="2297904f-03a9-81a1-a0c8-ea97d738b8a7" class="">mitochondrial biogenesis, synaptic function, axonal transport, protection against oxidative stress</p><p id="2297904f-03a9-81b0-a867-d97c0fd8d1a4" class="">●Describe fragile X syndrome (Martin-Bell syndrome) X-linked genetic disorder.</p><p id="2297904f-03a9-81a4-9055-ef1295ac01d7" class="">Freq. 1:1550 (affected males); 1:1800 (affected females)</p><p id="2297904f-03a9-8164-bbf1-e0990c506cfe" class="">Females having two X chromosomes have less symptoms, so men are primarily affected by this condition (as in all X-linked conditions) It is the second most common genetic cause of mental retardation after Down syndrome. DYNAMIC MUTATION, ie subsequent generations have greater genetic damage.</p><p id="2297904f-03a9-8131-a54b-c7888150b0db" class="">The locus involved in fragile X syndrome is called FRAXA (it’s a fragile site in the chromosome) and it’s found on the long arm of chromosome X(Xq27.3) which is the location of the gene FMR1 (fragile X mental retardation 1). This gene encodes for FMRP a RNA-binding protein that controls dendritic spines functionality.</p><p id="2297904f-03a9-81a2-9742-e63adddb9080" class="">In affected individuals, dendritic spines have been found to be longer, thinner and immature and have been appointed as the main cause for mental retardation.</p><p id="2297904f-03a9-81cd-84fb-c80c286eb8c6" class="">Fragile X syndrome is caused by the expansion of an unstable</p><p id="2297904f-03a9-814d-8b31-e3f03888dbf3" class="">triplet: CGG, that silences the gene and subsequently prevents the</p><p id="2297904f-03a9-812e-99ef-eebae9dd6a9b" class="">transcription of the protein.</p><p id="2297904f-03a9-8166-a1e2-f5b855cbd873" class="">The severity of the mental retardation depends on the degree of</p><p id="2297904f-03a9-812b-844e-dd804ec212af" class="">expansion of the triplet:</p><p id="2297904f-03a9-81df-bb90-d3452f4bf2bf" class="">○ Normal: 6 to 46 repeats</p><p id="2297904f-03a9-81f5-94f1-e4971d73c2fb" class="">○ healthy carrier: 50-200 repeats</p><p id="2297904f-03a9-8159-9a90-c87045c0f00c" class="">○ Disease: &gt;230 (up to 4000) repeats</p><p id="2297904f-03a9-818a-b6dd-e774d71c7167" class="">●CHARACTERISTIC PHYSICAL PHENOTYPE</p><p id="2297904f-03a9-81aa-ac9d-d1e160f8e7af" class="">○ High forehead</p><p id="2297904f-03a9-8194-961b-f323b0dada6f" class="">○ Long face with a large mandible</p><p id="2297904f-03a9-814b-b1aa-fe71fcc9bda9" class="">○ Long / large nose</p><p id="2297904f-03a9-815d-ad05-fb6a3421b321" class="">○ Thin / retracted lips</p><p id="2297904f-03a9-81cc-bce0-f6355b2bfdd7" class="">○ Large everted ears</p><p id="2297904f-03a9-81b6-b96c-fa38b754b8e8" class="">○ High arched palate</p><p id="2297904f-03a9-818a-9184-d927e2b5a9d1" class="">○ Total or partial macrodontia</p><p id="2297904f-03a9-81f9-b649-eb9fe46e735f" class="">○ MACRO-ORCHIDISM (large testicles)</p><p id="2297904f-03a9-8173-a5d8-dae2bc8c8cd1" class="">○ LOCALIZED MUSCULAR HYPOTHONY</p><p id="2297904f-03a9-81ce-9e11-e083a6312b17" class="">○ HYPEREXTENSIBLE JOINTS</p><p id="2297904f-03a9-81a1-b3e7-fb04a72fccce" class="">○ MITRAL VALVE PROLAPSE</p><p id="2297904f-03a9-816f-be19-dd4dced0e377" class="">○ BEHAVIORAL FEATURES:</p><p id="2297904f-03a9-811b-990a-cbc214c50f43" class="">◆Stereotyped movements</p><p id="2297904f-03a9-810f-9742-db4ff2a6ba77" class="">◆Atypical social development (Shyness, Autism)</p><p id="2297904f-03a9-81af-8758-e179e2bf6947" class="">●Describe Achondroplasia</p><p id="2297904f-03a9-815c-abdc-eaf4cd9ddcd0" class="">Achondroplasia = Dysmorphic dwarfism (”nanismo disarmonico”).</p><p id="2297904f-03a9-818d-b158-c18eba2ceff8" class="">Short limbs and large head.</p><p id="2297904f-03a9-8172-bcc4-f5434f3a6522" class="">Autosomal dominant (manifests in heterozygous). Complete</p><p id="2297904f-03a9-81b9-8620-cbe7c66b394a" class="">penetrance (genotype always leads to a particular phenotype bc it is</p><p id="2297904f-03a9-8178-b0ee-e847700e435a" class="">always expressed).</p><p id="2297904f-03a9-81d8-a648-c906e3c5650b" class="">Mutation on gene FGFR3 (fibroblast growth factor receptor 3) on</p><p id="2297904f-03a9-81f8-9153-cf7ab8297d3c" class="">ch.4 that encodes for an RTK that when mutated auto-phosphorylates</p><p id="2297904f-03a9-8126-8025-c50ebd17d84e" class="">itself even in the absence of a ligand which results in the slowing</p><p id="2297904f-03a9-814a-960c-d9992387b389" class="">down of chondrocyte proliferation in the epiphysis of long bones.</p><p id="2297904f-03a9-8177-88cb-c0c341dfa55a" class="">●Describe Osteogenesis imperfecta</p><p id="2297904f-03a9-814d-9bde-cee164c0b704" class="">An encompassing term for many diseases affecting connective tissue</p><p id="2297904f-03a9-8111-bf02-d6499fd9b283" class="">due to a lack of a certain type of collagen.</p><p id="2297904f-03a9-8182-8654-e0e63acebf03" class="">More than 90% of cases are due to mutations in the COL1A1 or</p><p id="2297904f-03a9-8157-8243-c53992e488f9" class="">COL1A2 genes, that are involved in the production of type I collagen.</p><p id="2297904f-03a9-81cf-b3a9-d613d90902b4" class="">Causing fragile bones, fractures, hearing loss and blue sclerae.</p><p id="2297904f-03a9-819d-a39a-fb3aef29e77b" class="">●Describe Marfan syndrome</p><p id="2297904f-03a9-8144-8746-e145999f28c2" class="">autosomal dominant condition (1:5.000) 70-85% of cases are familial.</p><p id="2297904f-03a9-81e6-811c-ed052e68fb06" class="">1/3 of the cases is caused by sporadic mutations.</p><p id="2297904f-03a9-81fe-b705-ec00c59a38f3" class="">Connective tissue disorder caused by a mutation in the FBN1 gene,</p><p id="2297904f-03a9-81c9-a352-f74bf61de84e" class="">which encodes for fibrilin type I (an ECM glycoprotein necessary for</p><p id="2297904f-03a9-81d0-b96d-ebfb6e56fbd7" class="">the formation of connective tissue).</p><p id="2297904f-03a9-810b-ad1a-e0903ce6ed80" class="">NORMAL: Fibrilin-1 aggregates into functional microfibrils and</p><p id="2297904f-03a9-8119-9586-f2f78002617f" class="">sequesters TGF-β in the ECM, regulating its signaling. MARFAN</p><p id="2297904f-03a9-811d-a56a-c7d3d4d678cb" class="">SYNDROME: Loss of fibrillin-1 releases TGF-β and its constitutive</p><p id="2297904f-03a9-8182-996d-fa021a0a4c51" class="">stimulation activates genes like MMPs which decrease ECM</p><p id="2297904f-03a9-812d-bfc1-e40c4e6575c3" class="">stability.</p><p id="2297904f-03a9-8190-b404-f2f0a76a8878" class="">Results:</p><p id="2297904f-03a9-810d-9105-c6e85b64d391" class="">○ heart: mitral valve prolapse</p><p id="2297904f-03a9-81a8-b748-da669aea3280" class="">○ blood vessels: aortic dissection and rupture.</p><p id="2297904f-03a9-8107-905a-fe282347e31e" class="">○ Bilateral dislocation of the lens (severe myopia, retinal detachment)</p><p id="2297904f-03a9-81c8-a9e0-c838533e4651" class="">○ tall and slender with disproportionately long arms, legs and fingers,</p><p id="2297904f-03a9-8126-a24a-c17e7fffd797" class="">flat feet</p><p id="2297904f-03a9-8178-b7e1-df48dfcbb6ef" class="">○ high arched palate and crowded teeth.</p><p id="2297904f-03a9-81c1-ba45-e4f9871a167b" class="">○ spinal deformity (kyphosis, scoliosis, rotation or slipping of the</p><p id="2297904f-03a9-815d-9c53-fe66b1bef514" class="">dorsal or lumbar vertebrae).</p><p id="2297904f-03a9-8142-94b3-fbd045c28b88" class="">○ pectus excavatum or a pigeon-breast deformity</p><p id="2297904f-03a9-8144-b01e-c302000a821c" class="">●Cardiovascular problems cause 40% of deaths of these patients</p><p id="2297904f-03a9-81cd-abb4-f7e64bc5b2ad" class="">Antihypertensive therapy and prosthetic treatment of aortic aneurysms</p><p id="2297904f-03a9-818c-a80c-c2043e269795" class="">have increased the life expectancy of these patients, bringing them</p><p id="2297904f-03a9-8149-889d-f40883ae8be5" class="">closer to normal average longevity.</p><p id="2297904f-03a9-8101-a67a-f40c8e586fe0" class="">●Describe Ehlers-Danlos syndromes</p><p id="2297904f-03a9-81df-8fce-f06b13adffb9" class="">Group of clinically and genetically heterogeneous pathologies caused</p><p id="2297904f-03a9-811a-813b-e2f2235bedd8" class="">by mutations in genes that control the synthesis of collagen type I,</p><p id="2297904f-03a9-81dd-aeb8-cc79ee333c5b" class="">III or V or genes that code for enzymes responsible for post-</p><p id="2297904f-03a9-8173-9e7f-d1825da36a85" class="">translational modifications. Six variants of EDS have been</p><p id="2297904f-03a9-8198-b5a8-f3a00e473941" class="">recognized with different transmission modes.</p><p id="2297904f-03a9-8102-abf4-cb17696a9a64" class="">Tissues rich in collagen, such as skin, ligaments, and joints, are</p><p id="2297904f-03a9-81d7-b2ee-e9e81f6ad6d8" class="">frequently involved</p><p id="2297904f-03a9-81ec-8236-e7bb4ab65e70" class="">○ hyperelasticity and fragility of the skin;</p><p id="2297904f-03a9-8191-953e-d160fab4de5f" class="">○ delayed wound healing;</p><p id="2297904f-03a9-8139-887e-ef1a48450ce4" class="">○ joint hypermobility; predisposition to joint dislocation</p><p id="2297904f-03a9-81b3-b29d-cb50dcbc3ec7" class="">○ skeletal deformities, severe kyphoscoliosis</p><p id="2297904f-03a9-81b0-8813-d6c42a5a0982" class="">○ periodontal disease (loss of teeth within 30 years)</p><p id="2297904f-03a9-81c8-b2b1-fe708fbe150a" class="">○ diaphragmatic hernia.</p><p id="2297904f-03a9-8135-b011-f311f3f7d754" class="">○ serious internal complications:</p><p id="2297904f-03a9-81a6-837a-d296efd41e11" class="">◆rupture of arteries, intestines and uterus during pregnancy</p><p id="2297904f-03a9-813d-bb8d-c5676222b619" class="">◆ocular fragility with rupture of cornea and retinal detachment →</p><p id="2297904f-03a9-81f0-8e80-fab5af6f0fe9" class="">blindness</p><p id="2297904f-03a9-81f6-a567-fdc354d6e015" class="">●Describe Niemann-Pick Type C disease</p><p id="2297904f-03a9-810f-bc85-ff3bf2a12a6d" class="">Niemann-Pick Type C disease is an autosomal recessive disease that</p><p id="2297904f-03a9-8134-b87d-c6b426504b1e" class="">affects 1:120.000 people (rare).</p><p id="2297904f-03a9-8117-88cc-dc9b9621878a" class="">It is a neurodegenerative lysosomal storage disorder, characterized</p><p id="2297904f-03a9-81dd-936c-d46dc5f5caf1" class="">by progressive neuronal death, hepato-splenomegaly, lung deficiency</p><p id="2297904f-03a9-8162-b60d-e4ca3095c3c5" class="">and reduced life expectancy. Age of onset is very variable and it goes</p><p id="2297904f-03a9-81fe-aa4b-edefa065d787" class="">from 0 to over 15 years old.</p><p id="2297904f-03a9-8113-83ea-f507ac156501" class="">Mutations:</p><p id="2297904f-03a9-8123-a5a1-df3df61827f0" class="">○ NPC1 (chromosome 18q 11-12) encoding late endosome/lysosomal</p><p id="2297904f-03a9-81ef-8152-da3f3bfda92f" class="">transmembrane-bound protein (95% of cases).</p><p id="2297904f-03a9-8145-905a-c5f75b41d02f" class="">○ NPC2 (chromosome 14q 24.3) encoding a lysosomal soluble</p><p id="2297904f-03a9-817f-aa58-eb34977e28e2" class="">protein (5% of cases)</p><p id="2297904f-03a9-8185-a9ce-e3643f62605e" class="">●NPC1 and NPC2 proteins unload cholesterol from lysosomes into the</p><p id="2297904f-03a9-81fb-810d-ed6c7f3852c3" class="">cytoplasm. Deficiency leads to → Massive accumulation of</p><p id="2297904f-03a9-8158-80ac-f90ce9069000" class="">cholesterol in lysosomes of all tissues, especially in the liver,</p><p id="2297904f-03a9-812d-9ff8-c99bb243f90c" class="">spleen, and brain</p><p id="2297904f-03a9-8155-b452-d95708d8afd4" class="">Main features of the disease:</p><p id="2297904f-03a9-81e6-8431-c39c1359ef24" class="">○ Alzheimer&#x27;s-like neurofibrillary tangles and Amyloid beta</p><p id="2297904f-03a9-8178-af45-c86bf527e4ee" class="">accumulation (childhood Alzheimer’s)</p><p id="2297904f-03a9-8174-9644-c9669aff4b69" class="">○ Neuronal degeneration</p><p id="2297904f-03a9-8166-9ddb-e1af9bfda9a4" class="">○ Demyelination</p><p id="2297904f-03a9-818a-b47a-d55f919339a0" class="">○ Psychiatric disorders</p><p id="2297904f-03a9-81dd-a1b9-c0358179373e" class="">○ Cerebellar ataxia (movements disorder in 85–90% of NP-C</p><p id="2297904f-03a9-8118-8674-cd70907efaaa" class="">patients)</p><p id="2297904f-03a9-81b3-94f1-ea96e35f12f6" class="">◆with disease progression: dystonia (muscles contract</p><p id="2297904f-03a9-8118-a917-f883acfa9f9b" class="">involuntarily)</p><p id="2297904f-03a9-812d-b046-cfebbc1965f7" class="">○ Neonatal jaundice</p><p id="2297904f-03a9-8168-acf4-eaac9063b0d9" class="">○ Hepato-splenomegaly</p><p id="2297904f-03a9-81ff-b643-cf552b050a44" class="">●</p><figure id="2297904f-03a9-8169-bf08-d702d471244c" class="image"><a href="Congenital%20disorders%20Genetic%20diseases%202297904f03a980a19925da0e2bd19ef0/image1.png"><img style="width:48px" src="Congenital%20disorders%20Genetic%20diseases%202297904f03a980a19925da0e2bd19ef0/image1.png"/></a></figure><p id="2297904f-03a9-819b-9ff4-c25681553288" class="">●Describe familial hypercholesterolemia</p><p id="2297904f-03a9-8128-bfbb-d77014b82aca" class="">Most widespread autosomal dominant condition</p><p id="2297904f-03a9-81d7-80c9-c388b4ec4de4" class="">Loss of function mutation on gene encoding the LDL receptor</p><p id="2297904f-03a9-817d-97dd-d5185d53399f" class="">(happloinsufficiency) in chromosome 19, or more rarely the mutation is</p><p id="2297904f-03a9-81ed-8575-cb89dd0dc0d9" class="">in apolipoprotein B100 or PCSK9. There are over 150 mutations of the</p><p id="2297904f-03a9-81cc-b70d-c2dcbc43190a" class="">gene that codes for the LDLR.</p><p id="2297904f-03a9-8159-8c31-e3a590718f11" class="">Heterozygotes</p><p id="2297904f-03a9-8103-8009-f638640f0172" class="">○ incidence is 1:500 (very common)</p><p id="2297904f-03a9-81d8-bcdb-f571fd527439" class="">○ recommended a dietary intervention + statins.</p><p id="2297904f-03a9-81f4-9f2c-e0c5e7442633" class="">○ atherosclerotic plaques and nodules of lipid-filled macrophages</p><p id="2297904f-03a9-8189-ae80-f0e538908bd9" class="">(xanthomas) appear after 30-40 years</p><p id="2297904f-03a9-81ab-9b59-da9619ef5062" class="">○ coronary disease before age 40</p><p id="2297904f-03a9-810e-a7ce-df1b66152599" class="">○ cholesterol at birth average 350 mg/dL</p><p id="2297904f-03a9-81ad-9db1-dd465a6fb7ff" class="">●Homozygotes</p><p id="2297904f-03a9-8152-9210-ea4c8b48c9f6" class="">○ rare (one in a million)</p><p id="2297904f-03a9-817b-89d1-f7daa5e35a84" class="">○ severe: often die before reproductive age.</p><p id="2297904f-03a9-816f-bb4f-efebf60ed462" class="">○ levels of cholesterol at birth from 600 to 1200 mg/dL</p><p id="2297904f-03a9-8115-b241-e4e1467ce952" class="">○ atherosclerotic plaques and nodules of lipid-filled macrophages</p><p id="2297904f-03a9-8111-9e85-fbd5e92753fe" class="">(xanthomas) appear around 4 years old</p><p id="2297904f-03a9-81f0-a254-fb9ad96c956f" class="">○ statins + diet no enough. They need LDL plasmapheresis</p><p id="2297904f-03a9-81e7-8e51-d760ee68bdca" class="">●Describe Cystic fibrosis</p><p id="2297904f-03a9-81a1-a3d3-ead9f6a8a039" class="">Cystic fibrosis is the most common autosomal recessive disorder in</p><p id="2297904f-03a9-8152-a53a-c18489d4b79c" class="">●</p><p id="2297904f-03a9-8142-a46a-c9e25a35df6c" class="">Europe which is caused by mutations in the CFTR gene (Cystic Fibrosis Transmembrane conductance Regulator) on chromosome 7, which is a chloride channel expressed by epithelial cells. It has an incidence of 1 in 2.500 births. 2-4% of the population are healthy carriers. It affects children (between birth and late childhood). Very variable. average life expectancy is 30 years.</p><p id="2297904f-03a9-8162-9f6f-ef94c2606345" class="">Over 1000 different mutations, class 1-3 are severe (less than 10% of residual CFTR activity)</p><p id="2297904f-03a9-81d0-a7ab-dfb18ceef6ea" class="">○ Class 1: No CFTR protein synthesis. Mutations that cause this are nonsense or frameshift. 2nd most common mutation → Gly542X</p><p id="2297904f-03a9-81de-9ec2-d4aaea113c98" class="">○ Class 2: CFTR trafficking defect (from ER to Golgi) caused by missense or deletions.</p><p id="2297904f-03a9-81f7-8ac8-c4aefdaba494" class="">◆Including the most prevalent (82%) of mutations: Phe508del, caused by deletion of three base pairs leading to the loss of phenylalanine → retention of misfolded protein in ER.</p><p id="2297904f-03a9-810a-918b-eb25c7a8bef8" class="">○ Class 3: Defective channel regulation (impaired opening of channel) missense</p><p id="2297904f-03a9-81d4-83f3-daeddac686b7" class="">○ Class 4: reduced conduction (decreased flow of ions) missense.</p><p id="2297904f-03a9-8113-91a9-f67c05074ae2" class="">○ Class 5: reduced synthesis. Missense.</p><p id="2297904f-03a9-8111-a6d9-cbc9ec633b62" class="">○ Class 6: decreased stability on pm. Missense.</p><p id="2297904f-03a9-81be-a98c-dcb06df2bb3b" class="">●When CTFR protein is malfunctioning or missing, it loses its ability to transport chloride and bicarbonate ions. CFTR also regulates other ion channels such as: outwardly-rectifying chloride channels, inwardly rectifying potassium channels, and the epithelial sodium channel (ENaC).</p><p id="2297904f-03a9-816d-8079-c0c9f0a44b9d" class="">PATHOPHYSIOLOGY</p><p id="2297904f-03a9-81c8-83d8-c62cab3b1071" class="">○ Malfunctioning or missing Chloride channels and Loss of normal ENaC inhibition: in normal conditions ENaC is responsible for sodium uptake from the lumen, and it is inhibited by normally functioning CFTR. Thus, when CFTR is mutated, there’s</p><p id="2297904f-03a9-81c6-8528-cc987e617cf9" class="">1. decreased Cl- secretion into the lumen: Chloride ions are negatively charged, and their movement is accompanied by the movement of water. When chloride ions exit the cell through the CFTR channel, water follows, helping maintain the proper balance of fluids on the surface of the cell lining</p><p id="2297904f-03a9-81a5-a866-fa7e157d425f" class="">2. loss of inhibition of ENaC leading to an abnormal amount of sodium absorption from the lumen, followed by water.</p><p id="2297904f-03a9-81d6-bf78-e7bd3f0847d0" class="">○ The surface layer coating mucosal cells becomes dehydrated and dense, leading to defective muco-cilliary action and</p><p id="2297904f-03a9-817f-9241-db5cee650038" class="">accumulation of hyper-concentrated viscous secretions that obstruct the air passages and predispose to recurrent</p><p id="2297904f-03a9-819f-80c5-e379ac419d56" class="">pulmonary infections.</p><p id="2297904f-03a9-817d-9b70-e74ea3166f6b" class="">●CLINICAL FINDINGS</p><p id="2297904f-03a9-81e5-829f-e023fa17b6de" class="">○ The most abundant (all cases of CF) and severe complication is at</p><p id="2297904f-03a9-817e-8881-feb81f7c9e41" class="">○</p><p id="2297904f-03a9-8188-8d28-cbe9f0c6d87c" class="">the level of the lungs: Marked hypertrophy and hyperplasia of mucosal glands. Pseudomonas aeruginosa. It is the most common pathogen. Recurrent bronchitis and bronchopneumonia.</p><p id="2297904f-03a9-8114-bfc3-d1f8efe7c2b0" class="">○ 85-90% of CF patients have chronic pancreatitis: CFTR is also permeable to bicarbonate ions. There are CFTR mutations where chloride transport is mostly preserved but bicarbonate transport is abnormal. Normal tissue secretes alkaline fluids into the lumen.</p><p id="2297904f-03a9-819c-a21f-f30c71466e7d" class="">When bicarbonate cannot be transported from the cell to the lumen, there’s a decrease in luminal pH (it becomes more acidic), and that can lead to precipitation of mucin that clogs ducts and increases binding of bacteria to these mucins. This mechanism on top of what previously described leads to pancreatic</p><p id="2297904f-03a9-8135-b974-ccc424f1a611" class="">insufficiency. ****The total loss of exocrine secretion alters fat absorption→ steatorrhea, deficiency of fat-soluble vitamins, squamous metaplasia of the lining epithelium of the ducts in the pancreas</p><p id="2297904f-03a9-8193-aa93-f59cc4eb97bd" class="">○ REPRODUCTIVE SYSTEM: Infertility in 95% of the males who survive to adulthood): congenital bilateral absence of the vas deferens, or obstruction of the vas deferens by dense secretions; females with anovulatory cycles</p><p id="2297904f-03a9-81dc-80c8-e2e1e9623c4f" class="">○ Salty sweat, typical of the disease happens because in sweat glands, ENaC activity decreases with loss of CFTR, contrary to the other parts of the body, so it increases sodium chloride</p><p id="2297904f-03a9-81a5-97b7-e73ab7986dc6" class="">concentration in sweat.</p><p id="2297904f-03a9-8123-bf6b-f006e8404244" class="">○ GI tract complications: viscous plugs of mucus in the small intestine of infants may cause small-bowel obstruction or</p><p id="2297904f-03a9-81ff-a64a-f08c093bcc3c" class="">meconium ileus → obstruction of the small intestine in the</p><p id="2297904f-03a9-81f5-a315-c26370259e43" class="">newborn due to the inability to evacuate the meconium (newborn&#x27;s first poop) ****in the immediate postpartum period (5-10% of infants with CF).</p><p id="2297904f-03a9-811a-ab2f-f0a92df3e290" class="">○ LIVER: Bile canaliculi are plugged by mucus material. Hepatic steatosis → cirrhosis may develop in 5% of patients.</p><p id="2297904f-03a9-815a-9586-eb02584f750a" class="">○ SALIVARY GLANDS: progressive dilation of ducts, squamous metaplasia of the lining epithelium, and glandular atrophy followed by fibrosis.</p><p id="2297904f-03a9-81b3-ac5a-e6d0dec27704" class="">●TREATMENT</p><p id="2297904f-03a9-8128-a11e-d51ed2894f39" class="">The mean age of survival of Cystic Fibrosis has risen. CF treatment is still largely focused on targeting the symptoms.</p><p id="2297904f-03a9-8101-ae0e-ff153505ce74" class="">○ Infection control: removal of pulmonary secretions and antibiotic therapy.</p><p id="2297904f-03a9-8137-bce3-f427452f4308" class="">○ Administration of pancreatic enzyme substitutes</p><p id="2297904f-03a9-81ef-8260-e132dfe08890" class="">○ Lung and liver-pancreas transplantation</p><p id="2297904f-03a9-8181-9e1b-cc3b8d34fabb" class="">○ Emerging Gene therapy: transfer of the non-mutated gene encoding CFTR into cells of patients cultured in vitro is able to</p><p id="2297904f-03a9-81ea-b164-ebcaa2b64f4f" class="">○</p><p id="2297904f-03a9-81d7-8392-d4cda1d9a890" class="">correct the transport defect of chlorine and restore its normal functionality.</p><p id="2297904f-03a9-8158-8a79-d15411959fe5" class="">●Describe Phenylketonuria</p><p id="2297904f-03a9-8149-88dc-d6f33972046f" class="">Autosomal recessive disorder. PKU= hyperphenylalaninemia 1:10.000 , more prevalent in white and asian pp. 1:5000</p><p id="2297904f-03a9-81d5-99fe-d0690008a615" class="">Deficiency of the enzyme phenylalanine hydroxylase (PAH) → inability to convert phenylalanine into tyrosine.</p><p id="2297904f-03a9-8115-8ab5-e0ebe9e0c476" class="">○ In newborns it causes cerebral damage and metal retardation (phenyl pyruvic oligophrenia)</p><p id="2297904f-03a9-81b0-84a4-fb159eaa875a" class="">○ Inability to convert phenylalanine into tyrosine reduces conversion of tyrosine into melanin leads to light colored skin, hair and eyes.</p><p id="2297904f-03a9-810e-a224-d437c0ed262e" class="">○ Treatment: elimination of phenylalanine from diet + tyrosine intake.</p><p id="2297904f-03a9-817d-9779-ef5a8b18358d" class="">●Special types</p><p id="2297904f-03a9-81a7-aabb-c21237d3f5cd" class="">○ Maternal phenylketonuria (mother has classic PKU): Elevated maternal phenylalanine levels during pregnancy are teratogenic, its effects include mental retardation, microcephaly, congenital heart disease, and birth defects.</p><p id="2297904f-03a9-8131-82b4-c1c50e161df8" class="">○ Malignant hyperphenylalaninemia →severe form of</p><p id="2297904f-03a9-8152-89df-e8bd89e7c965" class="">hyperphenylalaninemia where there is also deficit of</p><p id="2297904f-03a9-812a-a905-f73eda11e796" class="">tetrahydrobiopterin (BH4) a cofactor of phenylalanine</p><p id="2297904f-03a9-81a4-bfe3-de3652c86e41" class="">hydroxylase. Here dietary intake of tyrosine and the elimination of phenylalanine is not sufficient.</p><p id="2297904f-03a9-8114-a01e-ed511ac4cfe5" class="">●</p><figure id="2297904f-03a9-81f3-8be2-c12d153fdbd6" class="image"><a href="Congenital%20disorders%20Genetic%20diseases%202297904f03a980a19925da0e2bd19ef0/image1.png"><img style="width:48px" src="Congenital%20disorders%20Genetic%20diseases%202297904f03a980a19925da0e2bd19ef0/image1.png"/></a></figure><p id="2297904f-03a9-8158-8d43-c167b79b2506" class="">●Describe Alkaptonuria</p><p id="2297904f-03a9-8188-9435-c8e877924d71" class="">It is an autosomal recessive condition caused by mutations in the gene that codes for the enzyme homogentisic acid oxidase. HGD enzyme cannot metabolize the homogentisic acid (generated from</p><p id="2297904f-03a9-817d-8932-fe8796e4a525" class="">tyrosine) into 4-maleylacetoacetate, and homogentisic acid levels and its oxidized form (alkapton) in the blood are 100-fold higher than would normally be expected, despite the fact that a substantial</p><p id="2297904f-03a9-8191-9bab-d1e420abb42d" class="">amount is eliminated into the urine by the kidneys (giving it an</p><p id="2297904f-03a9-8183-a658-f92bf46ea231" class="">unusually dark color).</p><p id="2297904f-03a9-81db-9162-e374e0540145" class="">The accumulating homogentisic acid causes</p><p id="2297904f-03a9-81c9-94a7-c270e0c6aa15" class="">○ generalized pigmentation (homogentisic acid is converted to benzoquinone acetic acid which forms polymers that resemble the skin pigment melanin)</p><p id="2297904f-03a9-8109-86b0-fb30e93eefb7" class="">○ pigmented polymers also accumulate in cartilage causing damage (leading to arthritis)</p><p id="2297904f-03a9-812f-a0f8-f7afc1697062" class="">○ damage to heart valves,</p><p id="2297904f-03a9-816e-9363-f072c7aa7698" class="">○ precipitating as kidney stones and stones in other organs.</p><p id="2297904f-03a9-811d-bfab-dc8b2a7dec83" class="">○ normal life expectancy</p><p id="2297904f-03a9-812d-8166-df19c6d79a3c" class="">●Symptoms usually develop in people over 30 years old, although the dark discoloration of the urine is present from birth.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

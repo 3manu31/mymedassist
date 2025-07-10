@@ -1,0 +1,229 @@
+Paraneoplastic syndromes
+● what are paraneoplastic syndromes?
+Paraneoplastic syndromes are different types of diseases that are
+associated with the presence of a tumor but that manifest in regions
+that are unrelated to the anatomical distribution of the tumor or its
+metastasis.
+They are present in up to 40% of cancer (mainly lung, GI, skin and
+blood cancers) patients and can develop at any stage of the neoplastic
+growth: preceding neoplasia diagnosis, corresponding to cell
+dissemination or tumor relapsing, or it can worsen the course of the
+disease itself.
+● what are the main mechanisms of paraneoplastic syndrome?
+1. excessive or ectopic production of hormones, or other
+physiologically active compounds.
+2. deficiency of normal factors such as calcium or glucose
+3. host response to the tumor (main way in which neurological
+paraneoplastic syndrome presents)
+● how are paraneoplastic syndromes classified?
+Paraneoplastic Syndromes can be roughly divided into two types:
+○ Simple paraneoplastic syndromes: named after the particullar
+type of tissue where these diseases are present (neurologic,
+endocrine-metabolic, rheumatic, osteoarticular, dermatological,
+hematological, vascular and nephrological diseases).
+○ Complex paraneoplastic syndromes: cachexia, anorexia, fever.
+● A very general classification of the more frequent paraneoplastic
+syndromes depending on the type of the tissues is:
+○ endocrine-metabolic: the most frequent (40%).
+○ rheumatic-osteoarticular in more than 15% of patients.
+○ dermatological in more than 15% of patients.
+○ hematological-vascular in more than 15% of patients.
+○ neurological disorders in more than 10% of patients.
+○ nephrological only 5% of patients.
+● describe endocrine paraneoplastic syndrome
+By definition, the responsible cancers are not of endocrine origin (≠
+adenomas). So there’s ectopic hormone production. Symptoms
+therefore might be similar or the same as endocrine diseases but the
+cause is different. The tumors that cause endocrine Pn. S. have a
+malignant phenotype.
+○ The most common presentation is the Paraneoplastic Cushing
+syndrome
+◆ approximately 50% of the affected individuals have small cell
+lung carcinoma
+◆ excessive production of ACTH (by pituitary) and its precursor
+pro-opiomelanocortin (POMC)
+◇ in normal Cushing there is not an elevation in POMC.
+◇ POMC is associated with lipolysis in cachexia and leptin
+stimulates its production.
+◆ signs and symptoms are different too, due to rapid onset
+◇ there is no obesity or moon face, but rather weight loss.
+◇ high BP
+◇ Hypokalemia → muscle cramping and weakness
+○ Paraneoplastic Hypercalcemia
+Hypercalcemia is probably the most common type of
+paraneoplastic syndrome, in fact, symptomatic hypercalcemia is
+more often related to cancer than to hyperparathyroidism.
+Associated cancers: T-cell lymphoma, multiple myeloma,
+squamous cell carcinoma of the lung
+Due to a production of IL-1 TGF-α, TNF-α and Parathyroid-
+hormone related protein (PTHRP) that acts like PTH (induces
+bone reabsorption and decreases renal calcium excretion)
+symptoms include confusion, lethargy, nausea, coma.
+osteolysis can also be induced by cancer, whether primary in the
+bone as in multiple myeloma, or metastatic to bone.
+○ Paraneoplastic (SIADH)
+remember: vasopressin = ADH
+Major forms of underlying cancer: small cell lung cancer,
+intracranial neoplasms.
+Inappropriate release of ADH (even with euvolemia). SIADH is
+characterized by absence of edema and hypervolemia.
+As a result, there’s
+◆ dilutional Hyponatremia ([Na+] < 135 mEq/L)
+◆ hypo-osmolarity in plasma (less than 270 mOsm/L)
+◆ urine hyperosmolarity.
+◆ other clinical features depending on the degree of
+hyponatremia and to its time and rate of onset include:
+anorexia, nausea, vomiting, confusion, and seizures.
+○ Paraneoplastic Hypocalcemia
+related to lung and breast carcinoma
+Secretion of calcitonin inhibits reabsorption and increases the
+renal excretion of calcium
+Often asymptomatic. Sometimes tetany, fasciculation, and
+hyperreflexia.
+○ Paraneoplastic Hypoglycemia
+20% in gastrointestinal tumors, 45% in mesenchymal tumors
+Production of big IGF-II that stimulates the entry of glucose into
+tumor cells by inhibiting hepatic glucose uptake.
+○ Paraneoplastic acromegaly (very rare)
+due to the presence of neuroendocrine tumors in the pancreas
+(islet cells and others) or bronchial carcinoids.
+They secrete GH Releasing Hormone which increases the GH's
+production and secretion from the anterior pituitary lobe.
+● what is the diagnostic criteria for endocrine-metabolic paraneoplastic
+syndrome?
+○ To recognize an endocrine syndrome associated with a non-
+endocrine tumor
+○ High blood/urinary levels of the hormone
+○ Low blood levels of the hormone after tumor surgery
+○ Absence of disease in the endocrine-related organ
+○ Remission/recurrence of the syndrome with tumor treatment/
+recurrence
+○ Hormone gradient between tumor and peripheral vein: establishing
+a relationship (ratio) between tumor size/malignancy and hormone
+levels in the blood
+○ Extraction of the hormone from neoplastic tissue
+○ Determination of hormonal activity with biological, RIA (radio
+immuno assay), immunological tests (check the hormones are
+biologically active)
+○ Biochemical characterization of peptides produced by the tumor
+(check if it’s making precursor hormones)
+○ In vitro demonstration of hormonal production by cancer
+○ Identification of hormonal mRNA in the tissue or cell culture
+● describe hematological paraneoplastic syndrome
+Hematological paraneoplastic syndromes commonly present with
+anemias, generally normocytic, normochromic with normal or slightly
+decreased iron and ferritin. And coagulopathies.
+There’s different types
+○ Coagulopathies:
+tumors activate clotting. Usually closer to the tumor site.
+◆ disseminated intravascular coagulation (DIC): cancer cells
+can release procoagulant substances or trigger the release of
+tissue factor, initiating a widespread activation of the blood
+clotting cascade throughout the body. This can complicate
+metastatic tumor course and is often present in leukemiasand
+prostate cancer
+◆ Trousseau’s Syndrome (thromboembolism) excessive mucins
+causing activation of ****serine proteases that activate factor X
+and trigger the coagulation pathway. Common in pancreatic
+and lung cancer
+◆ nonbacterial thrombotic endocarditis caused by
+◆ hypercoagulability. Common in cancers where there’s an
+increased secretion of mucus that induces a thrombus and
+occludes the vessels: lung adenocarcinoma, colon cancer
+and ovarian cancer. If vessels in the brain are occluded there’s
+encephalopathy and acute neurological deficits
+○ autoimmune hemolytic anemia
+Hemolytic anemia can be mediated by two types of antibodies:
+◆ "warm"antibodies(IgG),especially in the B-cell lymphomas
+and leukemias:
+◇ hemolysis is extravascular in the spleen by phagocytosis
+◆ “cold” antibodies (IgM),
+◇ intravascular hemolysis, in which antibodies attack red
+blood cells at low temperature.
+○ Signs and symptoms are related to small vessels’ occlusion:
+acrocyanosis of hands, feet, or face (ears, nose).
+○ erythrocytosis
+Sometimes some tumors cause erythocytosis due to the ectopic
+synthesis of hematopoietic growth factors and erythropoietin.
+Secondary erythrocytosis is related to:
+◆ cerebellar hemangioblastoma (20%)
+◆ renal adenoma and renal cyst (15%),
+◆ hepatocellular carcinoma (15%).
+○ leukemoid reaction
+there’s excessive production of leukocytes induced by the
+overproduction of
+◆ granulocyte colony stimulating factor (G-CSF)
+◆ macrophage colony stimulating factor (GM-CSF)
+◆ IL-3 and other interleukeins
+● describe paraneoplastic syndrome of the kidney
+They are considered as autoimmune damage.
+They can be present in patients with colon cancer, ovarian cancer,
+and lymphomas due to circulating immune complexes.
+○ Paraneoplastic membrano-proliferative glomerulonephritis
+○ Primary IgA nephropathy (deposition of the IgA antibody in the
+glomerulus)
+○ Focal glomerulosclerosis
+○ Nephrotic syndrome due to glomerulopathy mimicking
+membrano-proliferative glomerulonephritis
+● describe paraneoplastic neurological syndrome
+These are the main ones associated with the host immune response.
+Mostly related to small cell lung cancer
+○ Lambert-Eaton myasthenic syndrome (main)
+◆ 70% associated with small cell lung cancer
+◆ it’s an autoimmune calcium-channelopathy affecting P-type
+◆ Ca++ channel, a type of voltage-gated Ca++ channel: anti-P/
+Q antibodies→less Ca++ entry at nerve ending → less ACh
+release at the neuromuscular junction leading to
+◇ weakness of proximal limbs and occasionally in the
+muscles head and neck (bulbar muscles)
+◆ similar to myasthenia gravis (absence of the ACh receptors).
+The main difference is that in case of repeated stimulation of
+the muscles the strength of the contraction increases each
+time while this does not occur in case of myasthenia.
+○ Paraneoplastic encephalopathy
+◆ small cell lung cancer, breast cancer
+◆ progressive dementia, mood swings, seizures, occasional focal
+sensory-motor impairment
+◆ Anti-Neuronal Nuclear Autoantibodies (ANNA-1 and
+ANNA-2) detected in the blood of some patients and react
+with a group of proteins that are located in the neuron nucleus.
+○ Paraneoplastic neuropathies
+◆ small cell lung cancer
+◆ Including Peripheral neuropathy which is the more frequent
+long-distance effect produced by cancer on the peripheral
+nervous system
+◆ painful peripheral neuropathies, with sensory loss,
+proprioception loss and loss of vibratory sensation
+◆ variable degeneration of brainstem and cerebellum
+◆ Anxiety and depression, amnesia, dizziness, confusion,
+hallucination and behavioral abnormalities.
+◆ In some patients, ANNA-1 antibodies are detected
+○ Paraneoplastic cerebellar syndrome
+◆ small cell lung cancer, ovarian cancer, breast cancer, Hodgkin’s
+lymphona.
+◆ severe ataxia symmetric in the beginning and they become
+asymmetric.
+◆ Antibodies involved: Purkinje cell cytoplasmic antibody type 1
+(anti-Yo or PCA1), Type 1 antineuronal nuclear antibody (anti-
+Hu or ANNA 1).
+◇ Basically, it is an immune response predominantly against
+the Purkinje cells of the cerebellum.
+◆ These syndromes usually do not respond to the treatment
+(including immunotherapies) because of an early T-cell-
+mediated destruction of the Purkinje cells occurs.
+● describe paraneoplastic skin syndrome
+There are pigmented skin lesions or keratosis associated to cancer:
+1. Acanthosis nigricans (gastric cancer): thickened,
+hyperpigmented skin with a velvet-like texture in skin folds
+2. Generalized melanosis (lymphomas, melanoma, hepatocellular
+2.
+carcinoma),
+3. Bowen's disease (lung cancers, gastric cancers): in situ
+carcinoma that appears as a dark red eczematous plaque
+4. Sudden appearance of multiple seborrheic keratosis (Leser-
+Trèlat sign) (lymphoma, GI cancers and melanoma)
+5. Sweet syndrome (acute febrile neutrophilic dermatosis) fever,
+neutrophilia, erythematous nodules or plaques on the face and
+upper limbs.
+6. Palmar hyperkeratosis (non Hodgkin lymphoma)
+7. Ichthyosis: hyperkeratosis “fish-like skin” (Hodgkin lymphoma)

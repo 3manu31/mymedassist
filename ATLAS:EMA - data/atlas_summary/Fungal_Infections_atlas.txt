@@ -1,0 +1,113 @@
+F u n g a l  I n f e c t i o n s
+🦠  F u n g a l  B i o l o g y  a n d  C l a s s i f i c a t i o n
+F ungi:   Euk ar y otic, het er otr ophic micr oor ganisms  that digest f ood e x t er nall y  
+using h y dr ol y tic enzymes. This e xplains their abilit y t o in v ade blood v essels,  
+of t en c ausing hemor r hage in lesions. The y ar e pr imar il y aer obic and synthesiz e  
+l ysine via the L α -adipic acid biosynthetic p athwa y . K e y charact er istics include  
+chitinous cell walls, er gost er ol-cont aining plasma membranes, 80S r RNA, and  
+tubulin-composed micr otubules.
+Conidia:   Ase xual pr opagules (r epr oductiv e unit s)  f or med in v ar ious wa ys.
+Spor es:  Can be ase xual or se xual in or igin.
+Y e ast s:  Single-celled fungi r epr oducing b y budding.
+Molds:  Mul ticellular fungi f or ming h yphae (filament s). H yphae c an be sp arsel y  
+t o r egular l y sept at e and ha v e a v ar iable number of nuclei.
+Dimor phic F ungi:  Exhibit both y e ast and mold f or ms depending on  
+en vir onment al conditions (t emperatur e, CO2, pH, c yst eine le v els).  Gr o w as  
+y east s or spherules in viv o and at 37° C in vitr o, but as molds at 25° C.
+Classif ic ation b ased on mor phology:  This is crucial f or identific ation and  
+underst anding the pot ential se v er it y of inf ection. Kno wing the dif f er ence  
+bet w een y e ast and mold is fundament al. Underst anding dimor phism is  
+impor t ant f or underst anding ho w fungi adapt t o dif f er ent en vir onment s (inside  
+the bod y vs. out side ).
+📍  C l a s s i f i c a t i o n  o f  F u n g a l  I n f e c t i o n s
+F ungal inf ections ar e classified b ased on se v eral f act ors:
+1.  Sit e of Inf ection:  Super ficial, cut aneous, subcut aneous, or syst emic  
+( deep ).  Syst emic inf ections can spr ead be y ond the initial sit e of inf ection.
+2.  R out e of A cquisition:  Ex ogenous (air bor ne, cut aneous, per cut aneous) or  
+endogenous (fr om nor mal flora, e.g.,  Candida  in the GI tract).  Endogenous  
+inf ections ar e par ticular l y r ele v ant in immunocompr omised individuals.
+3 .  Virulence:  Pr imar y p athogens inf ect he al th y individuals, while oppor tunistic  
+p athogens inf ect immunocompr omised host s.  Underst anding the host's  
+F ungal Inf ections
+1immune st atus is cr itical in det er mining the lik elihood and se v er it y of fungal  
+inf ection.
+Ex amples:
+Candida  Nor mal flora in the GI tract, mouth, and v agina. Candidemia  
+Candida in the bloodstr e am) is a ser ious complic ation.
+Asper gillus  Common en vir onment al fungus; c an c ause in v asiv e  
+asper gillosis, p ar ticular l y in immunocompr omised individuals.
+Hist oplasma capsulatum  F ound in soil cont aminat ed with bir d or b at  
+dr oppings; c auses hist oplasmosis.
+🔬  D i a g n o s i s  o f  F u n g a l  I n f e c t i o n s
+1.  Clinic al Pr esent ation:  Sympt oms v ar y widel y depending on the fungus and  
+sit e of inf ection.  A thor ough hist or y , including tr a v el hist or y and under l ying  
+medical conditions, is crucial.
+2.  Micr oscopic Ex amination:  Dir ect e xamination of clinic al specimens ( e.g.,  
+skin scrapings, tissue biopsies) t o identify fungal element s (h yphae,  
+y e ast s).  Gr am st aining can be useful f or initial assessment, but specific st ains  
+( e.g., P AS, GMS ar e of t en needed f or definitiv e identification.
+3 .  Cul tur e:  Gr o wth of the fungus on selectiv e media ( e.g., Sabouraud de x tr ose  
+agar) f or identific ation.  Cul tur e is the gold st andar d f or definitiv e diagnosis, but  
+can be time-consuming.
+4 .  Ser ologic al T est s:  Det ection of fungal antigens ( e.g., galact omannan  
+f or  Asper gillus , 1, 3β-D-gluc an f or man y fungi) or antibodies in serum.  These  
+t est s can be helpful f or r apid diagnosis, but ma y ha v e limit ations in sensitivit y  
+and specificit y .
+5 .  Molecular Diagnostics:  PCR-b ased methods f or rapid and sensitiv e  
+det ection of fungal DNA.  Molecular diagnostics ar e incr easingl y impor t ant f or  
+identifying dif ficul t -t o-cul tur e fungi or f or det ecting r esist ance mut ations.
+Impor t ant Not e:  Cont amination vs. inf ection: Finding  Candida  in ur ine or  
+sputum ma y indic at e cont amination, not inf ection.  Candida  in blood cul tur e is  
+alwa ys consider ed an inf ection.
+💊  A n t i f u n g a l  T r e a t m e n t
+F ungal Inf ections
+2Antifungal drugs t ar get v ar ious aspect s of fungal cell biology .  T r eatment  
+choices depend on the inf ecting fungus, sit e of inf ection, and host f act ors.
+Major Classes:
+Az oles:  Inhibit er gost er ol synthesis ( e.g., fluconaz ole, itraconaz ole,  
+v or iconaz ole ).
+Echinoc andins:  Inhibit cell wall synthesis ( e.g., c aspofungin, mic afungin,  
+anidulafungin).
+P ol y enes:  Bind t o er gost er ol, disrupting membrane int egr it y ( e.g.,  
+amphot er icin B.
+All y lamines:  Inhibit squalene epo xidase ( e.g., t er binafine ).
+Drug R esist ance:   Candida aur is , az ole-r esist ant  Asper gillus fumigatus ,  
+and  T r ichoph y t on indotineae  ar e signific ant concer ns due t o their r esist ance t o  
+commonl y used antifungal agent s.
+S p e c i f i c  F u n g a l  I n f e c t i o n s :  A  P a r e t o  A p p r o a c h
+This section f ocuses on high-yield fungal inf ections f or y our e xam.
+1.  Candida  Inf ections:
+Candidemia:   Candida  in the bloodstr e am; r equir es pr ompt tr e atment with  
+echinoc andins ( c aspofungin, anidulafungin) or amphot er icin B. Sour ce  
+contr ol ( e.g., r emo v al of intra v enous c athet ers) is crucial.
+In v asiv e Candidiasis:  Can af f ect mul tiple or gans (kidne ys, liv er , lungs,  
+CNS. Risk f act ors include neutr openia, br o ad-spectrum antibiotic use, and  
+indw elling de vices.
+Mucocut aneous Candidiasis:  Oral thrush, esophagitis, vul v o v aginitis.  
+T r e atment t ypic all y in v ol v es t opic al or oral az oles.
+2.  A sper gillus  Inf ections:
+In v asiv e A sper gillosis:  Se v er e inf ection, p ar ticular l y in  
+immunocompr omised individuals. Risk f act ors include neutr openia,  
+cor ticost er oids, and hemat opoietic st em cell transplant ation. T r e atment  
+in v ol v es v or iconaz ole or other az oles, of t en combined with echinoc andins.
+Aller gic Br onchopulmonar y A sper gillosis ABP A  H ypersensitivit y  
+r e action in p atient s with asthma. Charact er iz ed b y ele v at ed IgE le v els,  
+eosinophilia, and r ecur r ent e xacer b ations.
+F ungal Inf ections
+33 .  Mucor m y cosis Zy gom y cosis):
+Caused b y Mucorales ( e.g.,  Rhiz opus ,  Mucor ).  Char act er iz ed b y br oad,  
+r ibbon-lik e h yphae with r ar e sept ations.
+Risk f act ors include diabet es mellitus (k et o acidosis), glucocor ticoid use,  
+and hemat ologic malignancies.
+Of t en pr esent s with r hino-or bit al-cer ebral in v ol v ement, r equir ing  
+aggr essiv e sur gic al debr idement and antifungal therap y ( e.g., amphot er icin  
+B, posaconaz ole ).
+4 .  Hist oplasmosis:
+Caused b y  Hist oplasma capsulatum , f ound in soil cont aminat ed with bir d or  
+b at dr oppings.
+Most inf ections ar e asympt omatic or mild. Se v er e dise ase c an in v ol v e the  
+lungs or disseminat e t o other or gans.
+T r e atment depends on the se v er it y of the inf ection and ma y in v ol v e  
+itraconaz ole or amphot er icin B.
+F ungal Inf ections
+4

@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>ischemiareperfusion injury:syndrome</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-811c-9404-c8ec02da9739" class="page sans"><header><h1 class="page-title">ischemiareperfusion injury:syndrome</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-8164-95ec-f5c6b8f41711" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-81d8-abac-c2bc3dc53ba1" class=""><strong>ISCHEMIA-REPERFUSION INJURY</strong></p><p id="2297904f-03a9-8175-a7c2-c11c7a894db0" class=""><strong>Ischemia</strong>is the cause of necrosis due to hypoxia, associated with damage of the vessels. It’s a hypoperfusion of the tissue, because the tissues that are not able to get nutrients and oxygen from the vessels undergo necrosis (ischemic necrosis in this case).</p><p id="2297904f-03a9-8119-99fa-e26377ca8746" class="">What is the difference between ischemia and hypoxia? <strong>Hypoxia</strong> is the lack of oxygen, so just one part of ischemia. Ischemia is the effect of a general lack of oxygen and nutrients. For example, ischemia is a myocardial infarction or other types of conditions in which there is hypoxia and a decrease in the supply of nutrients, like the insufficiency in peripheral vessels or hypovolemic shock.</p><p id="2297904f-03a9-8121-a491-f1c947767be4" class="">So, ischemia can induce necrosis, but reperfusion can amplify the damage that is triggered, so it’s a condition that induces injury and disorder in the tissue.</p><p id="2297904f-03a9-81d1-9933-ee5f8a952de6" class="">Ischemia can be due to an obstruction of the vessel, which occurs during myocardial infraction, during insufficiency of peripheral vessels, during hypovolemic shock. During these diseases the first thing the doctor needs to do is to open again the vessels in order to induce a reperfusion, restore the blood flow to the tissue that is now in necrosis. So, reperfusion is the restore of the blood flow.</p><p id="2297904f-03a9-8132-b791-e51ecbde0cd4" class="">So, soon after ischemia occurs there is another step: the <strong>restoration of the flow</strong>.</p><p id="2297904f-03a9-8112-9f30-f8a5e01ec013" class="">For example, in a heart attack the first clinical approach is the restoration of the flow to supply oxygen to the patient. The flow restoration, essential to prevent further irreversible damage, on the other hand, induces in a portion of the tissue a very high <strong>injury</strong> and <strong>necrosis</strong>. So, it increases the damage in one portion of the tissue. Therefore, ischemia induces damage (necrosis) so we try to give oxygen, but during the reflow of the blood there is an increase of the damage that can decrease over time. But the first reaction is the presence of a high quantity of necrotic cells.</p><p id="2297904f-03a9-8127-b616-fa3ccc54f8a3" class="">When this type become severe, we can say this particular severe ischemia has systemic inflammation response or multiple organ disfunction, when the inflammation become systemic.</p><p id="2297904f-03a9-81a5-9b0b-f311a5b7a539" class="">Ischemia reperfusion can occur during thrombolytic therapies, organ transplantation, in coronary angioplasty, cross-clamping aorta (closure of the aorta and then the new opening) or cardiopulmonary bypass.</p><p id="2297904f-03a9-81d4-b34f-d5603a7b39da" class="">It can induce a very severe disease: <strong>systemic inflammatory response syndrome (SIRS)</strong>, which in turn can induce the <strong>multiple organ dysfunction syndrome (MODS)</strong>. This occurs because during necrosis there is always inflammation. Also depending on the amount, the area and the volume of tissue that undergoes necrosis, we can have a severe inflammation and the amplification of this inflammation to systemic organs.</p><p id="2297904f-03a9-812c-81c8-f55cea871b6f" class=""><em>(to deepen the topics)</em></p><p id="2297904f-03a9-810a-a4db-fbc4931c6da9" class=""><strong>CELL CHANGES DURING ISCHEMIA</strong></p><p id="2297904f-03a9-8123-bf74-e36e356dc2e9" class="">They correspond to the changes that we see during necrosis:</p><p id="2297904f-03a9-8191-ae0f-fdec8c8f3ebc" class="">Altered permeability of the membrane which leads to <strong>altered membrane potential.</strong></p><p id="2297904f-03a9-816b-b44c-d2537f184479" class=""><strong>Alteration</strong> of the pumps and of <strong>ion distribution</strong>, in particular increase of intake of intracellular Ca2+ which is important in the induction of cell damage. This occurs in necrosis since Ca2+ activates proteases and kinases (and it can form insoluble crystals);</p><p id="2297904f-03a9-8177-9ab3-cf5956345f60" class=""><strong>Cellular swelling</strong>→ water comes inside the cell to equilibrate the oncopressure and counteract the accumulation of metabolites intracellularly.</p><p id="2297904f-03a9-81ff-bb86-f30d399fc057" class=""><strong>Cytoskeletal actin disorganization</strong> and disorganization of the membranes of organelles. In particular, the disorganization of organelles involves mitochondria, the most involved in ischemia. Therefore, there is a decrease in energy of the cell and a decrease of ATP.</p><p id="2297904f-03a9-81a6-ae94-e5ebf3e826f4" class=""><strong>Decreased ATP:</strong> because there is damage of all the membranes of all the organelles present in the cell,</p><p id="2297904f-03a9-81dd-8ae0-f2953dd89c51" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-81fc-b9ab-d870e95bb8ee" class="">1</p><p id="2297904f-03a9-81b3-804d-fb0973ef78e1" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-81fe-9ff3-c6c559e9159e" class="">including mitochondria.</p><p id="2297904f-03a9-81a4-a87f-d1dc6d98023e" class=""><em>Increased (hypoxanthine)</em></p><p id="2297904f-03a9-81d4-8f3e-e83aec66cf81" class=""><strong>Cell acidosis</strong>: due to the disregulation of intracellular ions. High quantity of positive ions such as calcium. There is a low PH (acidosis).</p><p id="2297904f-03a9-8161-b1e8-e6a1bbb81ad3" class=""><strong>ISCHEMIA EFFECTS ON CELLS</strong></p><p id="2297904f-03a9-8116-9710-c9af6a9e087a" class=""><strong>Decreased (ATP)</strong>: it causes the accumulation of hypoxanthine.</p><p id="2297904f-03a9-81ed-a6f5-cc68f37a9b65" class=""><strong>Intracellular accumulation of hypoxanthine</strong> and low oxygen concentration induce production of ROS and lack of production of ATP.</p><p id="2297904f-03a9-8120-aece-f3dcb55931da" class=""><strong>Induction of reactive oxygen species (ROS)production</strong> with further increase during reperfusion.</p><p id="2297904f-03a9-8174-9c36-ddf53f25d030" class="">The process just described occurs in necrotic cells, in the ischemic tissue. Xanthine oxidase needs oxygen but during these two oxidations steps the enzyme produces, in addition to uric acid, the <strong>superoxide anion</strong>. This is one of the reactive oxygen species and it is also a <strong>free radical</strong> (the dot of the chemical formula represents the presence of the radical). A radical is an unstable molecule because there is an unpaired electron in the most external orbital.</p><p id="2297904f-03a9-8120-a967-d157a1ba6414" class="">Therefore, due to the low oxygen concentration in the necrotic tissue, there is high concentration of the superoxide anion.</p><p id="2297904f-03a9-8169-b3ab-f4ac84d0140a" class=""><strong>ISCHEMIA EFFECTS ON THE VASCULATURE</strong></p><p id="2297904f-03a9-81bf-bab5-e0327f3ab67a" class=""><strong>Acute inflammation</strong> is the first response (so we have neutrophils, not macrophages) and it leads to an increased expression of <strong>inflammatory genes</strong> (interleukins, prostaglandins) that are associated with the alteration of the permeability of the vessels (adhesion molecules, cytokines, prostaglandins, and other inflammatory mediators). There is also the expression of <strong>bioactive agents</strong> like thromboxane A2 and endothelin that are important in the relaxation or the constriction of the vessels.</p><p id="2297904f-03a9-81ff-8aa8-e9c0624cb2bf" class="">The inflammatory cells involved are neutrophils. In the meantime, there is a repression of the so-called protective molecules: prostacyclin and nitric oxide, in particular the latter is a vasodilator. In this case, during ischemia if there is alteration in the regulation of nitric oxide production, there is an increase on the restriction of vessels. Nitric oxide is produced by (iNOS) nitric oxide synthetize, which is an important constitutive enzyme that normally induces the tone of the vessel, the vasodilation.</p><p id="2297904f-03a9-8170-9e91-f113714e7381" class=""><em>Q: Ischemia should increase the vascular permeability, right?</em></p><p id="2297904f-03a9-8136-95ab-ff51bd7e7cee" class=""><em>A: It is associated with the increase of inflammation that increases the vascular permeability.</em></p><p id="2297904f-03a9-81fb-9859-ed1922ddc1d4" class=""><strong>MECHANISM OF DAMAGE</strong></p><p id="2297904f-03a9-8102-8266-d5a18a415942" class="">We talked about mitochondrial damage, therefore if there is a mitochondrial damage there is an alteration on the respiration, so intake of oxygen for the respiration is associated with production of energy.</p><p id="2297904f-03a9-815a-9257-c01549334f78" class="">So, if there is hypoxia, there is also a lack on the production of ATP: there is no sufficient energy to produce ATP, ATP is produced by the linkage between AMP to a phosphate but this binding is not possible. So if there is not enough oxygen, we do not have enough energy.</p><p id="2297904f-03a9-81fe-93ee-f020622dc11a" class="">We can see this during ischemia: accumulation of ATP, but also accumulation of precursors of ATP: AMP, adenosine and inosine to become hypoxanthine. So, damage in mitochondria induces damage in oxidative phosphorylation and therefore there is a decrease in ATP and an increase in precursors of ATP, and so accumulation of hypoxanthine.</p><p id="2297904f-03a9-8165-913d-f8da5306f5ea" class="">Accumulation of <strong>hypoxanthine</strong> is due to deficit of energy and oxygen for the oxidative phosphorylation (phosphorylation and oxidation are uncoupled).</p><p id="2297904f-03a9-81f0-9426-c45cb713320c" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-814a-b1d1-f0bb12042152" class="">2</p><p id="2297904f-03a9-81ce-88e5-fd893f6d7deb" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-8158-b1a7-e63f57053c7b" class="">In the normal pressure of oxygen there is the activity of xanthine dehydrogenase enzyme that is able to reduce the cofactors, AMP, ADP to produce ATP.</p><p id="2297904f-03a9-811f-9f29-e8873882d2fc" class="">In hypoxic condition <strong>xanthine hydrogenase</strong> is changed in another isoform, <strong>xanthine oxidase</strong>, that can be activated during low pressure of oxygen, which means that this enzyme can work even in low quantity of oxygen in the cell. This enzyme’s activity is not a reduction toward the formation of ATP but an oxidation. So it uses hypoxanthine as substrate and the low content of oxygen present to change <strong>hypoxanthine</strong> into <strong>xanthin</strong>, and then change xanthine in <strong>uric acid</strong>. These two steps are very important because they use a molecule of oxygen to produce an oxygen radical: <strong>superoxide anion</strong>, the first type of radical that comes from the oxidation of oxygen.</p><p id="2297904f-03a9-81fd-8a7b-db8ed2b3b73c" class="">So, we start seeing an increase of this oxygen radical, but we have in the cell other type of enzymes. They are protective enzymes (antioxidant enzymes) like SOD, that is superoxide dismutase, named like this because it “dismutes” the radical oxygen, superoxide anion in H2O2, that is not a radical but an oxygen species. Which is also reactive. Therefore, there is another antioxidant enzyme which is catalase CAT that changes the H2O2 into water.</p><p id="2297904f-03a9-81ea-b2c7-da25b64651a1" class="">In cells there is presence of iron, and iron is utilized in Fenton reaction that produces starting from superoxide anion, another radical called hydroxyl radical which is very important because it is able to induce lipid peroxidation, the breakdown of membranes of lipids.</p><p id="2297904f-03a9-81d8-b944-ed2e7726b9b8" class="">In the meantime, there is inflammation: neutrophils are activated in a very soft way because if there is an ischemia there is no flow, so only the neutrophils that are there during ischemia can be activated otherwise there are not enough neutrophils, there is only a small damage.</p><p id="2297904f-03a9-8148-81fa-e3a4132adaf3" class="">Neutrophils that are in the tissue are activated through the <strong>oxidative burst</strong>, a burst (formation of high quantity) of ROS. This burst, in the case of the activation of neutrophils, is due two main important enzymes: <strong>NADPH oxidase</strong> is on the membrane of neutrophils, and it converts molecular oxygen into superoxide anion. Through the superoxide dismutase there is an increase of H2O2 which has a bactericidal effect, inducing damage of bacteria (one of the functions of neutrophils).</p><p id="2297904f-03a9-8168-b365-d9f73ba907b0" class=""><strong>Myeloperoxidase</strong> is present in the granules of neutrophils. This enzyme, in the presence of ROS and chloride, is able to produce another oxygen species: hypochlorous acid HOCl, another bactericidal molecule. So, this is the damage due to the high quantity of ROS.</p><figure id="2297904f-03a9-8151-90e8-dfeeb6002cd2" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image1.png"><img style="width:700px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image1.png"/></a></figure><p id="2297904f-03a9-810d-985c-ecacdb3258a2" class="">fig. 1</p><p id="2297904f-03a9-815f-a1a3-f1f773cfa291" class=""><em>Q: We have never mentioned whether the superoxide anion can also form adducts, can it?</em></p><p id="2297904f-03a9-810f-b7f3-f93eb436e5d2" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-819f-8dc6-ec5adee6a9ba" class="">3</p><p id="2297904f-03a9-8160-ae8e-c8d99d918e1a" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-81ad-84c5-f97a0df45c48" class=""><em>A: Yes, it can but not directly. The direct addition of superoxide anion is converted into hydroxyl radicals. Hydroxyl radicals are those that directly attack other molecules because they try to reach the stable form. So, the electron which is unpaired attacks other electrons that are in the double bond to reach stability. In doing this, the radical becomes stable, but the double bond becomes unstable. Now it is the double bond that has an unpaired electron. This unpaired electron continues jumping through double bonds. This is lipid peroxidation. During this process, all the electrons try to be stable and the only way to become stable is the break of the molecules into the final compounds, which are more stable (aldehydes, hydroxynonenal, hydroxyhexanal and so on). They are produced during peroxidation because they are very short and more stable. They come from the breakdown of free fatty acids.</em></p><p id="2297904f-03a9-810b-a1bc-d08c3046a1ce" class=""><strong>SOURCES OF HYDROXYL RADICAL</strong></p><p id="2297904f-03a9-81d2-bb99-ce24676477d0" class=""><em>Fig.2</em>shows how the presence of iron is important for the formation of these radicals. The two important reactions are the <strong>Haber-Weiss Reaction,</strong> whose first step is associated with the <strong>Fenton reaction</strong>. The Fenton reaction needs iron in the oxidized form (ferrous iron) is formed from ferric iron. The ferrous iron in the presence of H2O2, becomes again ferric iron, producing hydroxyl radical.</p><p id="2297904f-03a9-8103-828a-d36a0d4c21dc" class="">Superoxide anion reacts with H2O2 forming oxygen and hydroxyl radical.</p><p id="2297904f-03a9-818b-9911-c86847bc9762" class="">So, the Haber-Weiss Reaction is the association of these two first reactions from ferric to ferrous and then from ferrous to ferric. In the meantime, superoxide anion changes into oxygen and H2O2. Therefore, the final reaction, which is the addition of the superoxide anion and hydrogen peroxide, produces oxygen and hydroxyl radical.</p><figure id="2297904f-03a9-8122-8ead-f281ba28d3ea" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image2.png"><img style="width:700px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image2.png"/></a></figure><p id="2297904f-03a9-8131-bde6-e712c97bf1a0" class="">fig. 2</p><p id="2297904f-03a9-814e-8af6-dffe2da855e7" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-8136-b008-df166ab191e2" class="">4</p><p id="2297904f-03a9-8110-a33e-d6d7cdd7b016" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-810e-8fff-c2a5e2c4de37" class=""><strong>WHAT HAPPENS DURING REPERFUSION?</strong></p><figure id="2297904f-03a9-8172-9506-e60939af678c" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image3.png"><img style="width:700px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image3.png"/></a></figure><p id="2297904f-03a9-8152-bdac-e598280170df" class="">fig. 3</p><p id="2297904f-03a9-81fd-9503-c10ccc34d2f8" class="">The left of the image is during ischemia. In the case of the reflow, a high quantity of neutrophils arrive. These cells are responsible for the main damage that we see during reperfusion, there is an increase in the oxidative burst. Many leukocytes arrive in the blood and are activated in an acute way, which amplifies the formation of ROS and not only. There is a direct damage by lipid peroxidation, but leukocytes that are activated also increase the <strong>leukocyte-endothelial adherence</strong>, because there is an inflammation. So during reflow we increase oxygen, but this so high quantity of reperfusion is used by xanthin oxidase which is already induced to overproduce the uric acid</p><p id="2297904f-03a9-8186-8a5f-fb7b45dc5efd" class="">All these leukocytes are present in an acute form of inflammation, and they form a block due to the high amount in that site. This type of process is the so-called <strong>no-reflow syndrome</strong>. We try to give blood and oxygen but, in the meantime, so many neutrophils arrive that they physically block the diameter, the lumen of the vessels.</p><p id="2297904f-03a9-8140-ae09-f424457fe651" class="">So, there is a <strong>mechanical obstruction</strong>. Activated leukocytes release ROS, proteases, and elastases, resulting in increased <strong>vascular permeability</strong> and increased <strong>edema</strong> in the surrounding tissue. They also activate endothelial cells to secrete prothrombotic molecules, so they induce <strong>thrombosis</strong> in the surrounding tissue of ischemia. Therefore, there is death of parenchymal cells.</p><p id="2297904f-03a9-814f-9896-c67c448ca474" class="">To sum up, the manifestations of the I/R injury are:</p><p id="2297904f-03a9-8129-9585-c93a4437ab74" class=""><strong>Vascular injury</strong> and the <strong>“No Reflow</strong>” phenomenon.</p><p id="2297904f-03a9-8141-b4b0-f2e0c6a89285" class="">In the cardiac tissue there is an alteration of the contractility due to the necrosis and the inflammatory damage induced by leukocytes. So, there is an alteration in the contractility called <strong>myocardial stunning. Reperfusion Arrhythmias.</strong></p><p id="2297904f-03a9-81b8-9af1-f196ed2a84bb" class="">I/R injury can also be present in other types of tissues: <strong>CNS</strong>, <strong>GI.</strong></p><p id="2297904f-03a9-81e0-bb08-f7408e2b1316" class=""><strong>Multiple Organ Dysfunction Syndrome</strong> (MODS)</p><p id="2297904f-03a9-81f6-b438-e7457c2d90fc" class=""><em>Risk factors: hypercholesterolemia, hypertension, or diabetes</em></p><p id="2297904f-03a9-81fb-b776-de7493ffa1f5" class=""><strong>LIVER TRANSPLANTATION</strong></p><p id="2297904f-03a9-8185-a558-f5a2df14ee98" class="">Besides myocardial infarction another example is liver transplantation. During liver transplantation we have this ischemia-reperfusion damage. The liver that must be transplanted is transported from donor to patient</p><p id="2297904f-03a9-81d6-ae77-cbde7d6d67ab" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-816b-91cf-e82105e83dd1" class="">5</p><p id="2297904f-03a9-8117-bdb2-f86a5e627a8f" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-8126-8b31-d3112b71acdd" class="">in anaerobic condition. It is transported in a box with buffers for example, in hypoxic conditions. Therefore, when the liver is inserted in the acceptor, surgeons close the vessels, they link the liver to the vessels and then they de-clamp (open) the vessels to induce the reflow of blood. During this reflow there is a very high increase in necrotic indices such as transaminases. So, there is an increase a thousand times higher than normal, due to the presence of this moment of necrosis and high damage.</p><p id="2297904f-03a9-8137-b178-c630d985c482" class="">This reperfusion also induces the formation of a high amount of <strong>ROS</strong> in cells. It also induces damage to <strong>cell signaling</strong>. There is also an <strong>unbalance between NO</strong> (important in vasorelaxation) <strong>andET-1</strong> (endothelin 1, important in vasoconstriction).</p><p id="2297904f-03a9-81e3-bffb-c1d6c52a87b1" class="">Normally we have a higher amount of NO than ET-1 in vessels. In post-ischemic situations, during reperfusion, we have the reverse situation: there is an increase of ET-1 and a decrease of NO.</p><p id="2297904f-03a9-815b-85f9-d65573c51c16" class="">Therefore, there is damage by this no-reflow process due to the high number of leukocytes that arrive in the tissue but there is also a vasoconstriction due to increase of ET-1. These two processes amplify the damage and block and the cells that are downstreamthis block continue to undergo necrosis and die.</p><figure id="2297904f-03a9-81c1-a9c6-d3011de84389" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image4.png"><img style="width:700px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image4.png"/></a></figure><p id="2297904f-03a9-81c2-b803-fc79784d522f" class="">fig. 4</p><p id="2297904f-03a9-81f5-b2fd-e64e7ecbc71d" class="">So, unbalance between NO and ET-1, oxidative stress, cytokine unbalance (due to activation of inflammation) and neutrophil infiltration activate and induce oxidative reactions and cellular oxidative stress.</p><p id="2297904f-03a9-813e-8a2e-d62edf1a4cd7" class=""><strong>OXIDATIVE STRESS</strong></p><p id="2297904f-03a9-814a-9b1a-d82daca61e9e" class="">When oxidative stress occurs, cells counteract resulting oxidative effects and restore redox balance. They have redox- sensitive transcription factors that are activated due to low amounts of oxidative reactions,like <strong>Nrf2</strong>, <strong>Nf-KB</strong>, <strong>AP-1</strong> that are able to defend the cells. Cell signals are modulated by redox changes in cells. When we have an increase in oxygen species, and depending on their reactivity, besides cell signaling modulation, we also have <strong>fibrosis</strong> (to repair the damage due to necrosis), <strong>inflammation</strong> and <strong>irreversible cell damage</strong>. This depends on the amount of reactive oxygen species.</p><p id="2297904f-03a9-814d-ad5a-c9815af9c285" class="">Lipid peroxidation, that during ischemia and reperfusion is amplified, at low degrees is a normal (physiological) mechanism to change the lipid layers of the membranes. At high concentrations cells are not able to defend themselves because they don’t have enough antioxidant enzymes.</p><p id="2297904f-03a9-8152-9cd3-f31e665238d9" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-8125-b63f-db4c9745f28f" class="">6</p><p id="2297904f-03a9-8153-8875-edc74649446b" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-8103-a07a-f28a9b950987" class=""><strong>LIVER SURGERY/ LIVER TRANSPLANT/ SHOCK</strong></p><p id="2297904f-03a9-814a-b447-e53f96e6db8c" class="">During hepatic ischemia-reperfusion injury due to liver transplant, there is a release of systemic factors such as <strong>platelet activating factor (PAF)</strong>, <strong>cytokineTNFalpha</strong>, <strong>nitric oxide</strong> and <strong>IL-1</strong> that are able to activate expression of <strong>adhesion molecules</strong>. This is the pathogenesis of the activation of these molecules to induce thrombotic process. On the other hand, there is the activation of endothelial cells to secrete adhesion molecules.</p><p id="2297904f-03a9-815d-b119-ca428dce6d3b" class="">Neutrophils and endothelial cells activation induce high interaction of these two cells to amplify damage.</p><figure id="2297904f-03a9-813f-a204-c294e3be3dc4" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image5.png"><img style="width:700px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image5.png"/></a></figure><p id="2297904f-03a9-81eb-a15d-cdb70af42f8d" class="">fig. 5</p><p id="2297904f-03a9-81dd-a95e-fdd192faf75d" class="">This is a study of erythrocyte <strong>malonaldehyde</strong> content in 19 transplanted patients at basal time and at various post operation times.</p><p id="2297904f-03a9-817a-8cd3-db7a0f60208e" class="">On the x axis there is the time of ischemia and reperfusion and on the y axis the erythrocyte malonaldehyde content (MDA), one of the products of lipid peroxidation triggered by ischemia.</p><p id="2297904f-03a9-8142-9511-ded3547b43ad" class="">MDA, soon after the de-clamping of the vessels to the liver, increases a lot.</p><p id="2297904f-03a9-81a8-a907-fbb2c381556b" class="">The liver, during the days after transplantation, recovers thanks to the presence of hepatocytes that</p><figure id="2297904f-03a9-81a6-af83-c6e86a062a01" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image6.png"><img style="width:614px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image6.png"/></a></figure><p id="2297904f-03a9-8160-b5a2-cb2f0bc28bab" class="">are stable cells, able to regenerate. However, during the</p><p id="2297904f-03a9-818b-8b19-f84bd4d8dcd1" class="">transaminases, that must be about 26/30, were half a</p><p id="2297904f-03a9-8177-b0b8-d9315d9d531a" class="">thousand. So, necrosis had occurred.</p><p id="2297904f-03a9-813d-830b-d8f52b536783" class="">fig. 6</p><figure id="2297904f-03a9-81e6-aa75-c33f2d38f8cf" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image7.png"><img style="width:577px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image7.png"/></a></figure><p id="2297904f-03a9-8161-b04f-fc49c55db1e2" class="">first day, there is a very high quantity of MDA, so the</p><p id="2297904f-03a9-8146-a6e2-c8f255656843" class="">formation of a high amount of radicals.</p><p id="2297904f-03a9-81ba-af7d-ddfd256b6404" class="">Moreover, we evaluate the activity of <strong>transaminases ALT</strong></p><p id="2297904f-03a9-81c8-8110-c2b62c969066" class="">and the reperfusion time. During the reperfusion</p><p id="2297904f-03a9-8166-afcc-fbceee87ee2b" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-8127-ae89-e40e8b2940c3" class="">7</p><p id="2297904f-03a9-816d-b55a-f828003f2f96" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-8136-a064-fd5bb895c26f" class=""><strong>THERAPEUTIC STRATEGIES TO PREVENT I-R INJURY</strong></p><p id="2297904f-03a9-8172-b9f1-c7f2fe2fe22e" class="">We have some therapeutic strategies to prevent this damage.</p><p id="2297904f-03a9-81c9-b02d-e33385f536d8" class=""><strong>Ischemic Preconditioning</strong>: only in the clinical cases in which we know that ischemia reperfusion will occur, like in transplantation.</p><p id="2297904f-03a9-81e3-95b3-c42cdd0f5b61" class=""><strong>Antioxidant Therapy</strong>: to patients that are under heart attack for example.</p><p id="2297904f-03a9-811b-a130-dfde91412fb3" class=""><strong>Anti-complement Therapy</strong>: is activated by arrival of leukocytes.</p><p id="2297904f-03a9-81a6-9775-f89653609369" class=""><strong>Anti-leukocyte Therapy</strong>: to avoid accumulation of leukocytes in necrotic tissue.</p><p id="2297904f-03a9-8176-a8cc-c259a0c204a0" class="">The last three therapies are given to patients that are under heart attack. They try to decrease damage due to formation of ROS.</p><p id="2297904f-03a9-81c2-8a8b-ee18db4acc2e" class=""><strong>ISCHEMIC PRECONDITION</strong></p><figure id="2297904f-03a9-8199-a0ac-d8b40b2f4b24" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image8.png"><img style="width:700px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image8.png"/></a></figure><p id="2297904f-03a9-81bd-ade1-f9cc71ebea6e" class="">fig. 7</p><p id="2297904f-03a9-8182-8a17-ebc25ef48686" class="">An exposure of tissues to brief periods of ischemia before real, high ischemia. This type of brief ischemia can activate cells to induce TF, antioxidant TF for example, to induce increase of endogenous antioxidant effects. There are two windows of ischemia. 10 minutes of preconditioning process (relax) and then 10 minutes of ischemia. Due to the presence of this very short period of ischemia, cells can activate two windows of protection. One is very fast, it occurs in 2-3 hours from reperfusion. The second window protection is 24-48 hours after reperfusion.</p><p id="2297904f-03a9-8197-82e4-f71d68d7382f" class="">Why are there two windows?</p><p id="2297904f-03a9-81df-8234-d06bffaa4b26" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-8126-9513-d4b8d316a133" class="">8</p><p id="2297904f-03a9-8149-bebe-e93991d23947" class="">21.03.2023 BIASI L.01</p><figure id="2297904f-03a9-8196-b179-ce55c1f503a8" class="image"><a href="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image9.png"><img style="width:700px" src="ischemiareperfusion%20injury%20syndrome%202297904f03a9811c9404c8ec02da9739/image9.png"/></a></figure><p id="2297904f-03a9-81ee-b5db-d00272342bec" class="">fig. 8</p><p id="2297904f-03a9-818c-8401-ea22050d2b64" class="">There is a release of adenosine, by the ischemic myocardium or the ischemic tissue in liver transplantation, which induces activation of G proteins. G proteins and the cascade of the signal activates phospholipase C (PLC) and phospholipase D (PLD) which in turn activate PKC, involved in changes of ion concentrations and increased production of ATP by mitochondria. The other important activity of this kinase is the activation of transcription factor NF-kB, due to proteolytic activity of the enzyme that induces degradation of IkB, the inhibitor of NF-kB. In a normal cell in which there is no increase in IkB, this inhibitor is linked to NF-kB. NF-kB, to be activated and become a transcription factor, requires degradation of IKb through ubiquitination. This way NF-kB is set free to become an active TF and to go to the nucleus to induce transcription of genes associated with antioxidant activity (<strong>superoxide dismutase</strong>, <strong>iNOS</strong>, <strong>HSP</strong>→ heat shock proteins). It transcripts for production of these antioxidant enzymes. During the first window of protection, we see this part of the signal; the second window of protection needs time to transcript and synthesize proteins and antioxidant enzymes. Therefore, we have a first window of protection very quickly, and then a second window of protection in the late phase. This type of preconditioning is a <strong>prevention</strong>, not a therapy.</p><p id="2297904f-03a9-810c-8c9b-dd9d43debc55" class=""><strong>ANTIOXIDANT THERAPY</strong></p><p id="2297904f-03a9-814b-89f4-d40facc35fc8" class="">Induction by the human recombinants of <strong>superoxide dismutase</strong> (experimental human recombinants in patients with hemorrhagic shock)</p><p id="2297904f-03a9-8199-8870-c7292cf486ec" class="">Induction of <strong>Catalase</strong>; injection of <strong>anti-inflammatory molecules</strong> such as mannitol, very rapid; intake by diet of <strong>vitamin E</strong>, a very important antioxidant molecule; <strong>N-acetylcysteine,</strong> important to reduce and recover glutathione. We cannot give glutathione directly because it is very big, it does not enter the cells. The highest concentration of glutathione is in erythrocytes. We must give small molecules with the SH- group, so the thiol group (acetylcysteine) that maintains glutathione in the reduced form in erythrocytes.</p><p id="2297904f-03a9-8172-bc85-c991994ac227" class=""><strong>Allopurinol</strong>: inhibitor of xanthine oxidase. It is considered an antioxidant. Allopurinol has been inserted for 10 years in the buffer of transplanted tissues (in the box where they were placed with buffers, ions, nutrients for the transport). It can maintain stability by keeping ROS in a reduced form because it inhibits xanthine oxidase, the enzyme that produces superoxide anion.</p><p id="2297904f-03a9-8168-a322-c3d8163606b3" class="">ACE (<strong>angiotensin-converting enzymes</strong>) are inhibitors to reduce Ca++ cell influx, or calcium channel antagonists. They avoid the increase of cell death.</p><p id="2297904f-03a9-81ed-be31-cd5b533b5240" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-81fc-8a82-d569f0d6013e" class="">9</p><p id="2297904f-03a9-8178-8528-fd9dcc9e1f6f" class="">21.03.2023 BIASI L.01</p><p id="2297904f-03a9-8141-a08b-d430f2569386" class=""><strong>ANTI-COMPLEMENT THERAPY</strong></p><p id="2297904f-03a9-8185-94db-ee4953070e91" class="">Other possible therapies can be associated with the active action of complement and leukocytes. They are biological therapies, attempts, not used now routinely to prevent ischemia reperfusion damage.</p><p id="2297904f-03a9-81df-8336-cd3cbc8aad60" class=""><strong>C3 convertase inhibitor.</strong></p><p id="2297904f-03a9-816d-8c21-d45c5da04205" class=""><strong>Soluble complement receptor 1</strong> decreases infarct size in experimental models <em>(by 44% in a rat model of myocardial I-R).</em></p><p id="2297904f-03a9-8171-bc02-c9ebd58ca96a" class=""><strong>“Humanized” recombinant, antibody specific for human C5</strong><em>(h5G1.1-scFv) significantly attenuates complement activation, leukocyte activation, myocardial injury, blood loss, and cognitive dysfunction in humans undergoing coronary artery bypass graft surgery with cardiopulmonary bypass.</em></p><p id="2297904f-03a9-8100-ad4e-fcb126097539" class=""><strong>ANTI- LEUKOCYTES THERAPY</strong></p><p id="2297904f-03a9-81d5-a86b-d2545bdb9b2f" class="">They are used to avoid attachment and activation of leukocytes.</p><p id="2297904f-03a9-818a-afbc-f55d31684111" class="">In particular <strong>leukocytoapheresis</strong>: a particular machine induces an extracellular blood flow. There is a filter which blocks activated leukocytes in the extracorporeal flux so that they don’t enter the body. In the meantime, the patient produces leukocytes that are not activated. We prevent the formation of a block due to activated leukocytes, discarding the leukocytes that are active in adhesion.</p><p id="2297904f-03a9-818b-b961-dce8617b57c8" class="">This is an important therapy attempt used not only in ischemia, but also in other types of diseases in which there is a high inflammation, like a chronic one.</p><p id="2297904f-03a9-817e-9b5d-f6e3f9e44bce" class="">Depending on type of damage there can be monocyte apheresis, lymphocyte apheresis or mono-lymphocytes apheresis.</p><p id="2297904f-03a9-8183-a731-c89a193863fb" class=""><strong>WARNING:</strong> considering that I-R injury induces damage and necrosis of the tissue, we cannot avoid reperfusion when we are in front of a patient with a heart attack or an infarct and so on. It is really important to control reperfusion time after ischemia. So, after ischemia, inducing reperfusion as soon as possible is fundamental to limit damage and injury of the tissue (that has been in ischemia for a long time). It is the cornerstone of clinical practice.</p><p id="2297904f-03a9-8107-82bf-cee2d0f3de28" class="">Rahma El Hilali, Sara Schiffini</p><p id="2297904f-03a9-8177-bdb0-cddaabc93255" class="">10</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

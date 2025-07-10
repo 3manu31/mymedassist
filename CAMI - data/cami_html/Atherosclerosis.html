@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Atherosclerosis</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-80e5-8c26-e109bfe8e101" class="page sans"><header><h1 class="page-title">Atherosclerosis</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-813c-a174-c5a61f51e8a8" class="">●what is atherosclerosis?</p><p id="2297904f-03a9-814e-bb80-f0bdf3d04504" class="">Atherosclerosis is the most common type of arteriosclerosis (hardening of the arteries).</p><p id="2297904f-03a9-818d-99ae-c7e80b6a9573" class="">It is a chronic inflammatory condition that underlies coronary heart disease, cerebral vascular disease and peripheral vascular disease.</p><p id="2297904f-03a9-815e-bcec-cf9da41dec94" class="">ASCVD (atherosclerotic cardiovascular disease) causes more morbidity and mortality than any other disease. The major consequences of atherosclerosis are myocardial infarction, aortic aneurysm, stroke, and peripheral vascular disease (gangrene of the legs).</p><p id="2297904f-03a9-8149-91df-e2804e38e013" class="">It happens when arteries suffer a variety of insults: mainly damage to the endothelium, accumulation of lipids, lipid oxidation and</p><p id="2297904f-03a9-812b-a81e-cfd178cea9c3" class="">inflammatory infiltrate into the intima, that cause a chronic</p><p id="2297904f-03a9-81e3-b237-e90d34750d3f" class="">inflammatory response and an attempt at vascular healing.</p><p id="2297904f-03a9-812d-ad59-d3660e6fa49a" class="">●where is atherosclerosis most commonly found?</p><p id="2297904f-03a9-8135-8a68-f6bce0b52ba3" class="">The most extensively involved vessels are the abdominal aorta, the iliac arteries, the coronary arteries, the popliteal arteries, the internal carotid arteries and the circle of willis.</p><p id="2297904f-03a9-819c-9515-eef97992cc6b" class="">It is absent in veins, lymphatics and capillaries.</p><p id="2297904f-03a9-813e-9a71-f7fbfae50c5e" class="">In terms of where in the vessel: the most susceptible places are the branchings and curvatures of vessels or similar areas where the flow is turbulent. This is because laminar flow stimulates local production of TFs (such as Kruppel-like-factor-2) that are protective against atheromas.</p><p id="2297904f-03a9-8106-8833-c630ba2c8ce9" class="">●what are the constitutional risk factors for atherosclerosis?</p><p id="2297904f-03a9-81e3-b790-e58c87164054" class="">○ Age: it is a slowly progressing disease. Fatty streaks can be seen as early as in adolescence but it is usually around and after middle age when there’s significant development of the disease due to accumulated insults throughout life. The risk keeps increasing with each decade of life.</p><p id="2297904f-03a9-8168-bf72-e70113f5a03d" class="">○ Being a post menopausal female (protective effect of estrogen). Post menopause the incidence is higher than men of the same age.</p><p id="2297904f-03a9-81a7-ad2e-d05b5c073e5f" class="">○ Genetics: family history is the most important independent risk factor. Familial predisposition is most frequently polygenic. However there are certain Mendelian disorders that are strongly associated (e.g. familial hypercholesterolemia)</p><p id="2297904f-03a9-81aa-b91d-c2da3dda44ae" class="">●what are the modifiable risk factors for atherosclerosis?</p><p id="2297904f-03a9-8175-9fa4-dfedf25cbea5" class="">○ Smoking: doubles the rate of ischemic heart disease.</p><p id="2297904f-03a9-81c1-b39f-c38d953f9708" class="">○ Hypercholesterolemia: lipoproteins containing apolipoprotein B100 (LDL, VLDL,Lp(a)). High risk with high Lpa independent from LDL. Protective role of HDL. Hypercholesterolemia alone is</p><p id="2297904f-03a9-8140-bdf5-dc67fa4c830a" class="">○</p><p id="2297904f-03a9-8154-b4aa-ebea9b12e525" class="">sufficient to initiate the lesion.</p><p id="2297904f-03a9-81c8-9e0d-e4c88398b11a" class="">◆Statins (HMG-CoA reductase inhibitors), PCSK9 inhibitors, Ezetimibe</p><p id="2297904f-03a9-8164-8f3a-ccb25fad49c5" class="">○ Hyperhomocysteinemia: promotes atherosclerosis through increased oxidant stress, impaired endothelial function, and</p><p id="2297904f-03a9-810c-8429-f2d71d5affb8" class="">induction of thrombosis. Most commonly caused by B-vitamin deficiencies, especially folic acid. Homocysteinuria (rare autosomal disease) causes premature vascular disease.</p><p id="2297904f-03a9-81aa-8434-c41595adec79" class="">○ Inflammation: CRP is an acute phase reactant synthesized</p><p id="2297904f-03a9-8180-9e34-d053f3085b3e" class="">primarily by the liver. Its expression is increasd by a number of inflammatory cytokines such as IL6. Elevated CRP is astrong marker for risk of myocardial infarction, stroke, peripheral vascular disease, etc.</p><p id="2297904f-03a9-81f9-a3dd-fae1c1894429" class="">○ Hypertension: mainly systolic &gt;160 mmHg but also diastolic. It increases risk of ischemic heart disease by 60%.</p><p id="2297904f-03a9-81b5-be1b-f4575e639ab6" class="">○ Diabetes mellitus: induces hypercholesterolemia. Doubles risk of myocardial infarction.</p><p id="2297904f-03a9-81c7-89b3-de31fbe6056f" class="">○ Others: chronic stress, central obestiy, metabolic syndrome, bad diet, Chlamydia pneumoniae and CMV infections.</p><p id="2297904f-03a9-819a-9db4-ea3ad028ba27" class="">●explain the pathophysiology of atherosclerosis</p><p id="2297904f-03a9-8174-b826-db06efe2f05a" class="">Overview: A variety of insults, primarily endothelial damage, lipid oxidation, and lipid accumulation, cause a chronic inflammatory response and and attempt at vascular healing.</p><p id="2297904f-03a9-81d3-bdcb-f3403fef47c3" class="">1. Endothelial dysfunction caused by chronic injury: hypertension, smoking, toxins, infections, homocysteine, hemodynamic</p><p id="2297904f-03a9-8128-a74d-eed670272e95" class="">disturbances (turbulent flow) and hypercholesterolemia. ApoB100 particles enter endothelial cells by interacting with LDLr. Inside the dysfunctional ECs subjected to chronic injury, LDL particles can undergo oxidative modification due to ROS.</p><p id="2297904f-03a9-81e3-8927-d2f01e758e03" class="">2. Expression of Adhesion Molecules: Oxidized LDL stimulates endothelial cells to express adhesion molecules, such as vascular cell adhesion molecule-1 (VCAM-1) and intercellular adhesion molecule-1 (ICAM-1).</p><p id="2297904f-03a9-8110-8a60-ecef05cb7326" class="">3. Monocyte Adhesion and Infiltration: adhesion and infiltration of circulating monocytes into the arterial wall.</p><p id="2297904f-03a9-816f-9786-d0062e50781f" class="">4. Inflammation: activation of the inflammasome → IL1 release → recruitment of macrophages and T lymphocytes → more</p><p id="2297904f-03a9-8127-bc34-e8f998ac92fa" class="">inflammation.</p><p id="2297904f-03a9-81bb-a712-e3312f3163a0" class="">5. Macrophages engulf LDLox particles → foam cells → fatty streak 6. SMCs proliferate in the intima and also ingest LDL. In response to the fat ingestion, these cells secrete inflammatory cytokines 7. Vascular cells: ECs, macrophages, platelets, start expressing PDGF, FGF and TGFa → collagen (ECM) deposition in the intima converting the fatty streak into a mature atheroma</p><p id="2297904f-03a9-8174-b909-d84e9c782920" class="">●what is the role of oxLDL?</p><p id="2297904f-03a9-815a-b86f-fb71a1ce1470" class="">○ ox LDL induces expression of CD36 scavenger receptors in macrophages, which triggers signaling cascades for inflammatory responses (IL-1, IL-18), allows oxLDL uptake and foam cell</p><p id="2297904f-03a9-816d-800b-e3d0723defaa" class="">formation, and inhibits macrophage migration</p><p id="2297904f-03a9-81ea-854f-f04aa390c3d4" class="">○ oxLDL induce release of cytokines, growth factors (e.g. TGFβ1, MCP-1, IL-8, PDGF, MCSF) by other (vascular) cells</p><p id="2297904f-03a9-8185-b71b-fccba49ac47b" class="">○ oxLDL are chemotactic for circulating monocytes and contribute to their differentiation</p><p id="2297904f-03a9-8102-aa5c-d88ecedd6737" class="">○ oxLDL increase the adhesion of monocytes by induction of adhesion molecules by ECs</p><p id="2297904f-03a9-8133-b782-da5610f01388" class="">○ oxLDL induce the proliferation of SMCs</p><p id="2297904f-03a9-8132-880a-e124d5d4c709" class="">○ oxLDL activate T lymphocytes and platelets</p><p id="2297904f-03a9-8122-b261-f1de9fac0809" class="">○ oxLDL are cytotoxic for vascular cells</p><p id="2297904f-03a9-81bf-b30b-c8910785275f" class="">○ oxLDL stimulate metallopreoteinase (MMP) expression in macrophages and reduce tissue inhibitor of metallopreoteinase (<em>TIMP</em>) expression, this leads to an increased collagen- degrading activity that may contribute to destabilization of atherosclerotic plaques</p><p id="2297904f-03a9-8153-91ca-f4b36d626047" class="">●describe the progression of the atherosclerotic lesion</p><p id="2297904f-03a9-8160-9841-da12dba49bce" class="">1. Fatty streak: In the beginning, there’s a flat or slightly protruding yellow lesion composed of foam cells. Begin as multiple small yellow spots that eventually fuse (1 cm or longer). Not all become mature lesions. They can appear in aortas of children; coronary and carotid fatty streaks begin to form in adolescence. They are reversible.</p><p id="2297904f-03a9-8191-a904-ce498db29bd7" class="">2. Initial atheroma: foam cells, a few T cells, migration of SMCs into the intima.</p><p id="2297904f-03a9-811e-aafe-fd696d6bdbfe" class="">3. Fibrous cap formation: As the lesion becomes a mature atheroma with SMCs that proliferate in the intima and form a fibrous</p><p id="2297904f-03a9-817e-81a4-c33620fccd3a" class="">(collagenous) cap, there’s initially an expansion of the media towards the outside of the vessel, so the lumen does not shrink.</p><p id="2297904f-03a9-8159-bf9c-d61cc280da55" class="">4. Advanced plaque: Eventually the atheroma grows until the expansion of the outer wall is no longer allowed, so it starts to expand towards the lumen → stenosis.</p><p id="2297904f-03a9-815c-b9aa-f64527fe1ab2" class="">Morphology: Fibrous cap: SMCs surrounded by collagen, elastic fibers and proteoglycans (ECM), more thick connective tissue, few lymphocytes</p><p id="2297904f-03a9-81cb-9c77-e678fbe9a38e" class="">Neovascularization</p><p id="2297904f-03a9-817d-95cf-ebd497593532" class="">Continuous recruitment and proliferation of monocytes/</p><p id="2297904f-03a9-815d-8335-c340366158d5" class="">macrophages, accumulation of intra- and extracellular lipids</p><p id="2297904f-03a9-813f-8f24-d5c0b59a1114" class="">Continuous recruitment of SMCs, proliferation and deposition of ECM</p><p id="2297904f-03a9-81f5-bdc9-e697233a40a8" class="">Death of foam cells (apoptosis or necrosis) →Necrotic core:</p><p id="2297904f-03a9-8176-a410-d49b12f49639" class="">cellular debris, foam cells, lipid accumulation, fibrin and other plasma proteins,</p><p id="2297904f-03a9-815f-b194-d3d78ff463d4" class="">Cholesterol crystals</p><p id="2297904f-03a9-81e9-b5ae-d6711d83c463" class="">Calcification</p><p id="2297904f-03a9-810a-8168-f349529cfb8d" class="">●describe the complications of an advanced atherosclerotic plaque</p><p id="2297904f-03a9-81c6-8ecb-ec6fce61fb90" class="">○ Calcification: deposition of calcium salts in the advanced</p><p id="2297904f-03a9-81e7-955b-e98c7d6f675f" class="">atheroma, both focal (in the core) and diffuse→ arterial stiffness</p><p id="2297904f-03a9-818b-9b7d-ff799c91dc68" class="">○ Hemorrhage: rupture of the overlying fibrous cap, or the thin- walled vessels in the areas of neovascularization (high blood pressure) → intraplaque hemorrhage → plaque expantion</p><p id="2297904f-03a9-8175-b317-ec7ddb42aab0" class="">○ Plaque ulceration, erosion, or rupture: exposure of substances with aggregating and highly thrombogenic properties → thrombus formation which may partially or completely occlude the vessel lumen;</p><p id="2297904f-03a9-817b-bab6-da09213fe1e9" class="">○ Thrombosis: platelet aggregation and fibrin deposition→ thrombus which may occlude the vessel lumen</p><p id="2297904f-03a9-8189-aef0-f07c83cd9886" class="">◆partially → stenosis (flow reduction) → chronic tissue ischemia → atrophy.</p><p id="2297904f-03a9-81c5-93d1-e355f34b2f51" class="">◆completely → ischemic necrosis (infarction) of the tissue → myocardial infarction (heart attack), cerebral infarction (stroke), gangrene of intestine or legs, etc</p><p id="2297904f-03a9-8192-883d-d6a4d7fbf8be" class="">○ Embolism:</p><p id="2297904f-03a9-81bf-b5fa-d57c5a8063bd" class="">a) dissolution of the thrombus → emboli → complete occlusion of vessels with a smaller diameter.</p><p id="2297904f-03a9-81e9-b356-d93aa737d37c" class="">b) following rupture, necrotic debris and/or so-called cholesterol crystals emboli may be released into the bloodstream→</p><p id="2297904f-03a9-8131-baf9-d019c7370006" class="">microemboli</p><p id="2297904f-03a9-81e4-8603-f3527c9896d6" class="">○ Aneurysms: chronic ischemia and pressure→ atrophy of the media, loss of elastic tissue → weakening of the vascular wall → rupture→ hemorrhage</p><p id="2297904f-03a9-8148-bbb1-d7c6baa8cedd" class="">●Frequent atheromas in the coronary arteries (especially in the SX coronary) → progressive stenosis of the lumen and painful → angina pectoris (reduced blood supply → myocardial ischemia (retrosternal pain). Chronic ischemia→ atrophy of myocardial and fibrous fibers→ myocardiosclerosis. Persistent pain (ischemic necrosis): rapid and total coronary artery occlusion→ myocardial infarction (heart attack) Slow occlusion of brain arteries → progressive ischemia→ dementia Complete occlusion of carotid artery or of a branch of cerebral arteries→ cerebral infarction (stroke). Pogressive stenosis of the main leg arteries: tissue hypoxia with a painful symptomatology, especially after muscular effort but also at rest: claudication intermittens. Occlusion of a large arterial vessel of legs does not lead to infarction (collateral circulation) but necrosis and gangrene may occur. Artery occlusion also caused by an embolus deriving from the fragmentation</p><p id="2297904f-03a9-8104-b2ef-cd5338395f2c" class="">of a thrombus localized on an atherosclerotic lesion. Sclerotic vessel is rigid and does not withstand blood pressure: formation of aneurysms. Aneurysm rupture → death due to hemorrhage.</p><p id="2297904f-03a9-8198-8d33-dab41d9b4932" class="">●depending on the intrinsic properties of the atheroma, what are its possible fates?</p><p id="2297904f-03a9-81b3-986c-e910ed080788" class="">Atherosclerotic plaques are susceptible to clinically important</p><p id="2297904f-03a9-81b8-b15d-e1df92180e37" class="">pathologic changes that vary mainly depending on the thickness (stability) and composition of the fibrous cap (intrinsic properties), as well as extrinsic properties (blood pressure, platelet reactivity, etc).</p><p id="2297904f-03a9-8120-ab84-d0a575304c4a" class="">○ Clinical stenosis happens when the plaque is large enough that 75% of the lumen is occluded, this can result in tissue ischemia.</p><p id="2297904f-03a9-812b-bc94-e8972742229d" class="">○ Plaques with a thick fibrous cap can undergo erosion/ulceration, exposing thrombogenic factors that induce thrombosis. In the most severe of cases this results in sudden cardiac death, however it is more likely that this results in a rapid expansion of the plaque and more prominent calcification (which in turn may lead to critical stenosis)</p><p id="2297904f-03a9-814b-8eed-e184e22a6ed6" class="">○ Vulnerable plaques are plaques with thin fibrous caps and active inflammatory cells over a necrotic core. The loss (necrosis) of SMCs and the overexpression of MMPs as well as underexpression of TIMP lead to collagen degradation and reduced collagen</p><p id="2297904f-03a9-8125-a876-fc03bb06476e" class="">synthesis which results in a thiner, less stable cap. This is highly prome to plaque rupture which induce thrombosis that is often completely occlusive → sudden cardiac death.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

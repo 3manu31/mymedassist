@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> diabetes mellitus</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8147-8257-c24422a07273" class="page sans"><header><h1 class="page-title"> diabetes mellitus</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-8196-a7b4-c85d58f7a1cc" class="">20.04.2023 GAMBA L.7</p><p id="2297904f-03a9-81b0-a6d1-f6a9b95208ab" class=""><strong>DIABETES MELLITUS</strong></p><p id="2297904f-03a9-8130-b174-dd5fb2fc8310" class=""><strong>GENERAL FEATURES</strong></p><p id="2297904f-03a9-81cf-aaad-d432fbb726c6" class="">You have already heard about diabetes mellitus in other courses, I will explain more the pathophysiology than the clinical part of it. The term comes from the Greek <em>diabetes</em>, meaning “to pass through”, and <em>mellitus</em> meaning “sweet”. It is characterized by <strong>polyuria</strong> (big quantity of urine expelled) associated with <strong>glycosuria</strong> (emission of glucose in the urine), so urine is sweet due to alterations of carbohydrates metabolism mainly, but also proteins and lipids metabolism.</p><p id="2297904f-03a9-818d-a42d-e8335b525b32" class="">All the types of diabetes mellitus are characterized by a stable <strong>hyperglycemia</strong>, so high levels of glucose in the blood that may be due to different causes, such as lack of insulin or insulin resistance. There are complications over time, such as macro and micro-vascular diseases, we will see them in detail.</p><p id="2297904f-03a9-818c-b9b9-e74c8090c483" class="">If hyperglycemia is too high, so higher than 180 mg/dL is associated with polyuria and glycosuria.</p><figure id="2297904f-03a9-81b9-a446-fe30ff560f36" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image1.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image1.png"/></a></figure><p id="2297904f-03a9-814d-adf6-f5aec7bbff5d" class=""><em>Fig 1</em></p><p id="2297904f-03a9-8176-8695-d8e86e48c26b" class="">In this important paper (<em>fig. 1</em>) there’s a projection for 2045 to see how many cases of diabetes mellitus are present nowadays and how many are expected to be present in 20 years more or less. In general, in the world in 2021 there were 530 millions of people affected by this disease, while in 2000 they were only 151 millions. In 2045 there will be 780 million.</p><p id="2297904f-03a9-8139-99cb-c21cb3882d04" class=""><em>Fig. 1</em>shows also the countries in which there will be a higher increase in the diabetes mellitus cases, they are countries that are developing more and more, like Africa.</p><p id="2297904f-03a9-81cc-9f23-e9647d8ea743" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-819d-8dba-ee397b96c2a4" class="">83</p><p id="2297904f-03a9-8101-883f-c7062a73905a" class="">20.04.2023 GAMBA L.7</p><figure id="2297904f-03a9-81bc-a0a6-e1ea872a94c7" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image2.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image2.png"/></a></figure><p id="2297904f-03a9-814d-b2eb-da5c093e02d9" class=""><em>Fig 2 &amp; 3</em></p><p id="2297904f-03a9-81cc-824d-fbd0d2b58a2a" class="">Here (</p><p id="2297904f-03a9-81a5-9379-d22edba129fc" class=""><em>fig 2</em></p><p id="2297904f-03a9-8173-8215-c8e3ec2644dd" class="">) you can see in 2021 the diabetes mellitus prevalence by age and the fact that it increases with age; the incidence in males and females is more or less the same.</p><p id="2297904f-03a9-81f2-83a9-f9c242c88a55" class="">Here (<em>fig 3</em>) you see the difference between rural areas and urban areas: in 2045 compared to 2021 there is not so much difference in rural areas, the big difference is in cities. Of course, this is related mainly to the diet.</p><p id="2297904f-03a9-81a7-a823-dfbef3f45ef7" class=""><strong>CLASSIFICATION</strong></p><p id="2297904f-03a9-81f6-8ebc-c923c53b1f69" class="">Diabetes mellitus can be classified into 4 main groups: type 1 and 2, diabetes for other causes and gestational diabetes. We will focus more on the first two.</p><p id="2297904f-03a9-8126-b8b1-c4b7ed9090fd" class=""><strong>Type 1 diabetes</strong> in the past was called insulin-dependent diabetes (now it is more correct to call it just type 1 diabetes, because also other diabetes can be related to insulin, not only type 1) or juvenile diabetes (because usually is diagnosed in children but keep in mind that it can appear later in life and not only during childhood). Type 1 diabetes occurs in 10% of all diabetes cases, it is characterized by an <strong>absolute insulin deficiency</strong>caused by destruction of the cells of endocrine pancreas producing it, the β cells. For this reason, it is considered an autoimmune disorder. Insulin is a hypoglycemic hormone, and when it lacks it causes accumulation of glucose in blood, so hyperglycemia.</p><p id="2297904f-03a9-811a-b461-f27084b0526f" class="">There are two forms of this type of diabetes:</p><p id="2297904f-03a9-813e-a37a-e8f108fc0062" class="">- <strong>Type 1A</strong> (immune-mediated diabetes mellitus): the autoimmune form of the disease - <strong>Type 1B</strong> (idiopathic diabetes mellitus): a rare form with unknown etiology</p><p id="2297904f-03a9-8149-adbc-fea19b84ea82" class=""><strong>Type 2 diabetes</strong> was in the past called insulin-independent diabetes (not correct anymore) and adult-onset diabetes (because mainly occurs in adults and the elderly, but since diabetes type 2 diabetes is associated with obesity, that is one of the main risk factors, and obesity now is very diffused also in young people, it’s not correct anymore to call it that way). It is caused by a <strong>relative insulin insufficiency</strong>, it is produced by β cells of the pancreas, but there is a sort of <strong>resistance</strong>, so cells of the periphery are not able to sense insulin: insulin is not able to bind to its receptor and it’s not able to activate the transduction pathway.</p><p id="2297904f-03a9-81b6-b8c4-ec6a40fb9580" class="">The third class is <strong>diabetes mellitus from other causes</strong>, it can be caused by the removal of the pancreas because of a tumor for example, pancreatitis so inflammation of the pancreas, pancreatic tumors, cystic fibrosis, structural abnormalities of insulin, genetic defects in β cells and other causes.</p><p id="2297904f-03a9-8102-9216-c43d4aef7967" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-81a2-9e27-ea993519fbbf" class="">84</p><p id="2297904f-03a9-8118-aeca-e248fa979c24" class="">20.04.2023 GAMBA L.7</p><p id="2297904f-03a9-8185-95c3-c480f840316f" class="">Then there is the <strong>gestational diabetes mellitus,</strong> a diabetes that occurs in pregnant women. If the woman is already diabetic before pregnancy, we speak about <strong>pre-gestational diabetes</strong>, which may be more severe and dangerous for the newborn, because if it is not controlled it can cause malformations. The gestational diabetes which occurs later during pregnancy is less dangerous, but it has to be strongly controlled in order to avoid possible complications such as macrosomia of the fetus. Usually, this condition is completely reversed after delivery. Gestational diabetes is a sort of insulin resistance, so it’s similar to type 2 diabetes: insulin is still produced but it’s not able to act in the right way.</p><p id="2297904f-03a9-81f0-9c16-c687b252faea" class=""><strong>DIAGNOSIS</strong></p><p id="2297904f-03a9-817c-8373-e16a9f08e34e" class="">The diagnosis of diabetes mellitus is made in the presence of the classic symptoms: polyuria (big amount of urine produced), polydipsia (great thirst), unexplained weight loss (we’ll see that in diabetes there’s the catabolism of lipids and proteins); and then a stable hyperglycemia, always documented in all types of diabetes.</p><p id="2297904f-03a9-81c0-ae19-f529c07648c7" class="">The basic tests to evaluate blood glucose levels are:</p><p id="2297904f-03a9-8172-b4e8-dfc42bda5d80" class="">- <strong>Fasting Plasma Glucose (FPG)</strong>, the measurement of blood glucose levels when fasting</p><p id="2297904f-03a9-810e-816d-eb0e62509e03" class=""><strong>2-hours Plasma Glucose (2-h PG),</strong> the measurement of glucose levels after 2 hours of the assumption -</p><p id="2297904f-03a9-81ed-b74e-dd841b6da209" class="">of big amount of sugar (75 g of glucose), called the <strong>OGTT</strong> (oral glucose tolerance test), in order to evaluate how our body is able to use this glucose</p><p id="2297904f-03a9-81f0-ab6d-c1fcb9e9ec02" class="">-</p><p id="2297904f-03a9-8158-a6c8-ed43656c845e" class=""><strong>Glycated hemoglobin (HbA1c),</strong> we’ll see that the glucose in the blood if present in high concentrations is able to bind to proteins, so proteins are glycosylated; so the measurement of hemoglobin that has been glycated is a marker of hyperglycemia.</p><figure id="2297904f-03a9-8197-9edd-e6f62eaf83b4" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image3.png"><img style="width:176px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image3.png"/></a></figure><p id="2297904f-03a9-8199-b0fa-d55e9ac8b9e0" class=""><strong>Thehealthy subject</strong></p><p id="2297904f-03a9-81e0-9901-cfe4a3f154f0" class="">there will be, after the ingestion of 75g of glucose, a slight increase in blood sugar that over time drops to the basal level.</p><p id="2297904f-03a9-81dd-a59d-e6fd7396ceb2" class=""><strong>The diabetic patient</strong></p><p id="2297904f-03a9-8155-a049-cc4073f2bfb3" class="">already starts from a higher basal level of glucose, then they accumulate glucose in the blood and is very difficult to lose it, it remains in the blood.</p><p id="2297904f-03a9-81d1-9df4-ff0af7bc6b5b" class=""><em>Fig 4</em></p><p id="2297904f-03a9-815f-9a9c-c02be7d51188" class=""><strong>How is the OGTT, also called “load curve”, performed?</strong></p><p id="2297904f-03a9-81db-9fcb-c731adb7550e" class="">First of all, the fasting plasma glucose is measured in order to see the basal levels of glucose in the blood; then the patient ingests 75 g of glucose and at different intervals the plasma glucose is measured 2 hours after the OGTT test.</p><figure id="2297904f-03a9-81a5-b923-c91a9c5ae849" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image4.png"><img style="width:634px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image4.png"/></a></figure><p id="2297904f-03a9-819d-a57f-d06ecd0dfd88" class="">This (<em>fig 5</em>) is a table which is very important for you to know as medical doctors. In normal conditions a healthy patient should have a FPG lower than 110 mg/dl, a 2-h PG after the intake of glucose lower than 126 mg/dl, and a glycated hemoglobin lower than 5,7% (percent meaning respect to the total hemoglobin).</p><p id="2297904f-03a9-81c7-9488-fe849e910108" class="">Diabetic patients will have a FPG higher than 126 mg/dl (it should be measured at least 2 times on different days to say that it is a diabetic condition), a 2-h PG higher than 200 mg/dl, and a glycated hemoglobin higher than 6,5%.</p><p id="2297904f-03a9-8119-8c35-ff4520111c4d" class=""><em>Fig 5</em></p><p id="2297904f-03a9-812d-81a9-d1b22fbaf9f1" class="">In the middle there’s a condition called impaired glucose tolerance, these patients will have a FPG between 110-125 mg/dl, a 2-h PG between 140-199 mg/dl and an HbA1c between 5,7-6,4%.</p><p id="2297904f-03a9-8186-a4a1-e84800df273b" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-817b-a07f-d0df219c7892" class="">85</p><p id="2297904f-03a9-8128-85e4-e1465169cac5" class="">20.04.2023 GAMBA L.7</p><p id="2297904f-03a9-8152-82f2-ebcd21df0721" class=""><strong>PANCREAS</strong></p><p id="2297904f-03a9-81a4-b3c3-c9e6807339d7" class="">The main hormones regulating glycemia are insulin and glucagon, and they are produced by the endocrine pancreas, in particular in the islets of Langerhans.</p><p id="2297904f-03a9-8178-b4fa-f1ed26a272d1" class="">The pancreatic islets are dispersed in the pancreas parenchyma, and there are different cells in them: - β cells, the most abundant (80%), they are responsible for the production of insulin; - α cells (15%), they produce glucagon;</p><p id="2297904f-03a9-81c8-8489-f64612836727" class=""><em>δ cells (3-5%), produce somatostatin;</em> -</p><p id="2297904f-03a9-81de-a827-f5742769a788" class="">- <em>PP cells (1-2%), produce the Pancreatic Polypeptide hormone.</em></p><p id="2297904f-03a9-8129-9188-ffe2c25ebb8a" class="">Let’s focus on insulin and glucagon.</p><p id="2297904f-03a9-81bd-aeae-c7fd7fc15db0" class="">Insulin is a <strong>hypoglycemic hormone</strong>: it is produced when there is a high concentration of glucose in blood, it’s the glucose itself that stimulates β cells to produce insulin. Insulin stimulates the cells of peripheral tissues to reduce its concentration in blood.</p><p id="2297904f-03a9-8159-a211-d820e47d1acf" class="">Glucagon has an opposite function: it is a <strong>hyperglycemic hormone</strong>, so it’s produced by α cells when there’s a low level of glucose in the blood. For example, in the morning before breakfast, after fasting during night. It increases glycemia by stimulating gluconeogenesis in the liver and glycogenolysis.</p><figure id="2297904f-03a9-81f9-aa43-f17363f94b8e" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image5.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image5.png"/></a></figure><p id="2297904f-03a9-8116-bfe0-f1384884e909" class=""><em>Fig 6</em></p><p id="2297904f-03a9-810e-91f4-dc8c907d2ddd" class="">This picture (<em>fig 6</em>) shows you two immunohistochemistry: they are the islets of Langerhans, in brown (<em>A picture</em>) you can see the β cells producing insulin, and here (<em>B picture</em>) the α cells producing glucagon.</p><p id="2297904f-03a9-8166-bc6a-db55639a044c" class=""><strong>GLUCOSE HOMEOSTASIS</strong></p><p id="2297904f-03a9-8147-bfd7-d76247d99603" class="">Glucose homeostasis is regulated by different processes:</p><p id="2297904f-03a9-8111-b5dc-e810b7cc73e5" class="">- <strong>Gluconeogenesis</strong>, so the production of glucose in the liver;</p><p id="2297904f-03a9-8144-bd63-d64e8e755e52" class="">- <strong>Glucose uptake by cells of the peripheral tissues</strong>, that have to use it as an energy source; - <strong>Action of insulin and glucagon</strong> regulating the glucose uptaken by the periphery.</p><p id="2297904f-03a9-81cc-b908-eff617b7cb7d" class="">After an overnight fasting, low levels of glucose in the blood are present, so there is an increase in the synthesis of glucagon (hyperglycemic) and simultaneously a decrease in the release of insulin. Glucagon increases gluconeogenesis and glycogenolysis (degradation of glycogen to produce glucose).</p><p id="2297904f-03a9-810d-992d-d5b75e2bcfb1" class="">After the meal, the production of insulin is increased, and the production of glucagon is decreased. By this way, insulin stimulates the peripheral cells to uptake glucose, decreasing the glycemia.</p><p id="2297904f-03a9-81e9-b4d5-f7059833ddb7" class=""><strong>GLUCOSE ROLE IN INSULIN RELEASE</strong></p><p id="2297904f-03a9-8127-8229-f6bd662258a9" class="">Glucose itself has a role in the release of insulin. When you have hyperglycemia after a meal, so postprandial hyperglycemia, the glucose stimulates the β cells to produce insulin.</p><p id="2297904f-03a9-81f1-ae1a-d99ae68cabbd" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-81c6-8589-f77d5da2bcf3" class="">86</p><p id="2297904f-03a9-812f-bb9a-eb3bd91a8b9e" class="">20.04.2023 GAMBA L.7</p><figure id="2297904f-03a9-8131-90ce-fb75625b6312" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image6.png"><img style="width:651px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image6.png"/></a></figure><p id="2297904f-03a9-815c-94cf-f1f4750a2147" class=""><em>Fig 7</em></p><p id="2297904f-03a9-8188-8cd2-d86ea3b15d05" class="">Glucose enters the pancreatic β cells by diffusion through a channel called <strong>GLUT-2</strong>, and once inside the cell it is used for glycolysis, so it is <strong>phosphorylatedto Glucose-6-phosphate</strong> by a glucokinase and so on; at the end you obtain <strong>ATP</strong>.</p><p id="2297904f-03a9-813c-a496-cdaaa6798ed4" class="">ATP inhibits the passage of potassium through the <strong>K+ channel</strong>: this brings to the depolarization of plasma membrane, and the Ca2+ channels (which are voltage-gated channels, so are able to sense the depolarization) open and <strong>calcium enters inside the cell</strong>. So, the result is that you have an increase in the intracellular amount of calcium. The increase in calcium concentration is responsible for <strong>the release of insulin</strong> by β cells.</p><p id="2297904f-03a9-81ea-9e90-ebdfbbcf1656" class="">Insulin secretion is not modulated only by glucose, but also other compounds like intestinal hormones called <strong>incretins</strong>. These hormones are produced by the intestine when there are high levels of glucose in blood. Two main incretins are known: <strong>GLP1</strong> (Glucagon-like Peptide 1) and <strong>GIP</strong> (Glucose-dependent Insulinotropic Polypeptide).</p><p id="2297904f-03a9-8171-b2cd-ef95dec921ab" class="">Incretins are able to increase the insulin production and simultaneously reduce the glucagon production; then they have an important role in delaying the gastric emptying, giving a sense of satiety. This is what happens physiologically.</p><p id="2297904f-03a9-8112-988f-fa1b45ca30d8" class="">In diabetic people, incretins are not functioning, or they are not produced: in general, the incretin effect is attenuated. There are two new classes of drugs to restore the incretin function and mimic sometimes their effect: there are <strong>agonists of the receptor for GLP-1</strong>, if GLP1 is not functioning and binding to its receptors located in the pancreas and stomach, they’re similar to GLP1, and bind the GLP-1 receptor restoring the normal function; <strong>inhibitors of DPP-4</strong>, DPP-4 is the enzyme that normally degrades incretins, bringing to</p><p id="2297904f-03a9-813d-890e-d22240c0a556" class="">increase in their level.</p><figure id="2297904f-03a9-8142-9f12-cdd0f53d149b" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image7.png"><img style="width:416px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image7.png"/></a></figure><p id="2297904f-03a9-815a-bffb-e9e8d2bad593" class="">I added this picture (<em>fig 8</em>) yesterday: this is a drug that is not anymore available in pharmacies, because it is used a lot by people who want to lose weight, and it is an agonist of GLP-1 receptor, inducing a sense of satiety.</p><p id="2297904f-03a9-81e3-b8a5-dc224d428b9a" class=""><em>Fig 8</em></p><p id="2297904f-03a9-814e-888c-eb5af69f1735" class=""><strong>ACTION OF INSULIN AT THE CELLULAR AND MOLECULAR LEVEL</strong></p><p id="2297904f-03a9-8141-9cfe-fa192460839d" class="">Glucose by entering to GLUT-2 stimulates the production of insulin by β cells of the pancreas. Insulin goes to the periphery, maybe in muscles and adipose tissue, to give its signal in order to uptake glucose. How does it act?</p><p id="2297904f-03a9-81f7-8de8-e6d6a6ec486b" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-81db-9de3-cffbfd95a7be" class="">87</p><p id="2297904f-03a9-81a7-998c-ddd4279a893e" class="">20.04.2023 GAMBA L.7</p><figure id="2297904f-03a9-81db-aae1-d6d3f59df590" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image8.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image8.png"/></a></figure><p id="2297904f-03a9-8106-bbbc-f7035cbb0c5b" class=""><em>Fig 9</em></p><p id="2297904f-03a9-81a3-b757-d18336df9706" class="">Insulin has specific receptors that bind it (<em>fig 9</em>). The receptor is composed of two <strong>α subunits</strong>, which are</p><p id="2297904f-03a9-81d1-afd6-e0139b24a89f" class="">extracellular, and two transmembrane <strong>β subunits</strong>.</p><p id="2297904f-03a9-8194-ab5c-c357a6a2562c" class="">α subunits have the binding site for insulin, while the β have the catalytic domain. After insulin binds the</p><p id="2297904f-03a9-8138-9763-f91d80bbe9cf" class="">receptor, there is a conformational change in the receptor bringing to the activation of the signal transduction pathway that is responsible for the uptake of glucose. As a consequence of the activation of the signaling cascade, we have <strong>the translocation to the membrane of the GLUT-4</strong>: it is responsible for the uptake of plasma glucose, so glycemia is reduced.</p><p id="2297904f-03a9-81b9-a90a-fed94cccaf4e" class="">So again, after a carbohydrate-rich meal, you have an increase in glycemia, stimulating β cells to produce insulin, as</p><figure id="2297904f-03a9-813c-bb4d-ec0f8815e8e2" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image9.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image9.png"/></a></figure><p id="2297904f-03a9-8184-bad4-fdcdbd7018c1" class="">we described before; insulin acts on target cells and induces glucose uptake. <em>Fig 10</em></p><p id="2297904f-03a9-8154-b366-efe8350ac0a5" class=""><em>Q from a student: where does the glucose go after?</em></p><p id="2297904f-03a9-8182-b0dd-e3795cafafec" class=""><em>Answer: depends, glucose in the liver can be synthesized as glycogen, or it is used to produce energy for lipid and protein metabolisms and muscle tissue, or as an energy storage in adipose tissue</em>.</p><p id="2297904f-03a9-81ca-9135-e3df52f21fcf" class="">The main player in the pathophysiology of diabetes is of course glucose because insulin strictly regulates glucose uptake, but it also regulates the lipid metabolism by inhibiting glycolysis (so stimulating glycogenesis) and also protein metabolism.</p><p id="2297904f-03a9-81e4-b17a-c9a54df67693" class="">Insulin, in order to be hypoglycemic, suppresses the hepatic gluconeogenesis and inhibits glycogenolysis, the opposite of what glucagon does.</p><p id="2297904f-03a9-817a-87a4-e9297ba9db8b" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-8137-9d9e-caf5b99b32d3" class="">88</p><p id="2297904f-03a9-81be-a780-fa234cb9383b" class="">20.04.2023 GAMBA L.7</p><figure id="2297904f-03a9-8177-81d9-d862260659e1" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image10.png"><img style="width:497px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image10.png"/></a></figure><p id="2297904f-03a9-8188-8038-d9307f4678f2" class="">We see more in detail the insulin binding (<em>fig 11</em>) to the α subunit of the receptor: after that you see the conformational change in the receptor, so the β subunit containing the catalytic domain, which has <strong>tyrosine kinase activity</strong>, is activated and it undergoes <strong>autophosphorylation of the receptor</strong>. The autophosphorylation of the β subunit is responsible for the activation of enzymes present in the cytoplasm belonging to the <strong>IRS family</strong> (Insulin Receptor Substrates). The enzymes will activate two very important pathways, the <strong>MAP kinase pathway</strong> and <strong>PI3 kinase pathway</strong>: these pathways bring to <strong>the translocation of GLUT-4 in the membrane</strong>, so that glucose is now able to enter the cell.</p><p id="2297904f-03a9-817e-8eea-c51c5f59b75a" class=""><em>Fig 11</em></p><p id="2297904f-03a9-8101-b9b8-cce3a8ee1893" class=""><strong>METABOLIC EFFECTS OF INSULIN AND GLUCAGON</strong></p><figure id="2297904f-03a9-8129-9e24-e56392d306f9" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image11.png"><img style="width:516px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image11.png"/></a></figure><p id="2297904f-03a9-8175-a798-fbb8ca9d6634" class=""><em>Fig 12</em></p><p id="2297904f-03a9-81a7-a0ad-d78cf7da327e" class="">Insulin has many metabolic effects. The most known of insulin of course regards glucose, so in adipose tissue and in muscles there is an increase in glucose uptake, but it also reduces gluconeogenesis and increases glycogen synthesis, in order to be hypoglycemic.</p><p id="2297904f-03a9-8104-b521-c752ad7bba5b" class="">Insulin is also able to regulate lipid and protein metabolisms: it is an <strong>anabolic hormone</strong>, so it increases lipid and protein synthesis. In lipids, it is able to increase their synthesis but not directly: it <strong>inhibits lipolysis</strong>, so lipids are not degraded and accumulate, and it <strong>stimulates the synthesis of fatty acids</strong>. In proteins, it stimulates their synthesis in muscles. This is important to understand later the acute metabolic alterations that occur in diabetes.</p><p id="2297904f-03a9-81e5-ba68-ee0a4f006d19" class="">Glucagon is a hyperglycemic hormone, it <strong>stimulates glycogenolysis and lipolysis</strong>.</p><p id="2297904f-03a9-815c-94ca-cbe5c82867c3" class=""><strong>METABOLIC ALTERATIONS IN DIABETES</strong></p><p id="2297904f-03a9-81aa-8fb4-f17e19e20850" class="">If we consider the metabolic effects of insulin and glucagon, we can get what happens when insulin is not present, as in type 1 diabetes, or it cannot act on target cells, as in type 2 diabetes. The stable hyperglycemia present in all types of diabetes brings to a <strong>waste of glucose</strong>, it stays in the circulation and is not uptaken by</p><p id="2297904f-03a9-81bf-bdbd-d31ecbac948d" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-81be-af76-d0c041af3cd4" class="">89</p><p id="2297904f-03a9-81d7-bff4-fff009dfe892" class="">20.04.2023 GAMBA L.7</p><p id="2297904f-03a9-8174-a226-de111255e00e" class="">cells, and it binds to proteins <strong>glycosylating</strong> them (one of the main causes of chronic complications of diabetes).</p><p id="2297904f-03a9-8149-83e6-ff2bdda46172" class="">In healthy individuals, high glucose levels inhibit the release of glucagon. In diabetes mellitus, α cells are less sensitive to glucose, so <strong>glucagon secretion is not inhibited</strong>, resulting in hyperglycemia, worsening the levels of glucose in plasma (insulin not binding to receptors + insulin not inhibiting glucagon release).</p><p id="2297904f-03a9-81e5-ad9e-ca18176e1ebb" class=""><strong>TYPE 1DIABETES MELLITUS</strong></p><p id="2297904f-03a9-81ad-93f9-c2e3f684fa6c" class="">This type of diabetes in the past was called insulin-dependent diabetes mellitus or juvenile diabetes, because of the frequent onset of this type in children. But now it has been seen that not only type 1 may be dependent on insulin assumption, and it can be present also in adults and the elderly.</p><p id="2297904f-03a9-8100-94cb-c87738b020eb" class="">It is characterized by <strong>absolute deficiency of insulin</strong>, because of the destruction of β cells of the islets of Langerhans. It’s more rare in respect to the other types of diabetes, they are 5-10 % of all cases of diabetes mellitus.</p><p id="2297904f-03a9-8187-919c-f4e82563cc01" class="">There are two forms: type 1A and type 1B. The <strong>immune-mediated diabetes mellitus</strong> (1A) is the most common, it’s considered an autoimmune disorder, and it is multifactorial: there is a genetic predisposition but there must be some environmental factors activating it. The peak onset is during puberty, the 75% of cases occur between 3 and 18 years old, the rest in older ages. It is characterized by stable hyperglycemia, and in 10-40% of cases also by ketoacidosis, we’ll see later what it is.</p><figure id="2297904f-03a9-81b8-a922-ea91c0408972" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image12.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image12.png"/></a></figure><p id="2297904f-03a9-81ce-9bdb-e9e9104a8f10" class=""><em>Fig 13</em></p><p id="2297904f-03a9-8176-bb37-c50a76650097" class="">In this picture (<em>fig 13</em>) you can see a graph: on X axis you have the age, on Y axis the β cells mass. There is a phase between 5 and 10 years old that is considered a <strong>preclinical phase</strong> (called also the honeymoon period): it means that β cells are actually destroyed, but they can still guarantee a sufficient insulin production because of their hyper functionality (remaining cells producing more insulin than normal). The acute metabolic alterations typical of type 1 diabetes (hyperglycemia, ketoacidosis, glycosuria, polyuria...) occur when more than 90% of β cells are destroyed.</p><p id="2297904f-03a9-814b-85e5-c9f62bc4c430" class="">So, in most cases type 1 diabetes is an autoimmune disorder. There is a <strong>genetic predisposition</strong> to this disorder, but it is actually not sufficient for the onset of the diabetes. Some triggering factors are needed, <strong>environmental factors</strong> that activate the autoimmune response against beta cells. When the autoimmune response is activated, we observe <strong>insulitis</strong>, so inflammation of the islets characterized by lymphocytes infiltrates and production of specific antibodies called ICA antibodies (Islets Cells Auto-antibodies).</p><p id="2297904f-03a9-81e4-80d3-e2be5f7a6141" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-81e3-8977-de16ab0a8d63" class="">90</p><p id="2297904f-03a9-81d9-b745-f166c5749a51" class="">20.04.2023 GAMBA L.7</p><p id="2297904f-03a9-8114-8c81-c24f6e809a69" class="">Antibodies bind to insulin, so insulin is not able anymore to bind the insulin receptor. There can be also antibodies against some specific antigens present on beta cells, that avoid the production of insulin.</p><p id="2297904f-03a9-81fe-9133-e93e57c94f94" class="">There are some genes that can be involved in the genetic predisposition (you don’t have to remember them). The important thing for you is to recognize the presence of polymorphism of the gene encoded for the vitamin D receptor, so it may be involved in diabetic predisposition, or also mutations in the insulin gene bringing to the creation of an insulin molecule that is not correctly formed, so it cannot bind to the insulin receptors.</p><p id="2297904f-03a9-81c4-b699-f66a92ef34b2" class="">Genetic predisposition is not sufficient for the onset of type 1 diabetes, you need environmental factors that can trigger the autoimmune response. These environmental factors may be viral infections or dietary compounds, that in some people with genetic predisposition can trigger the immune response, such as proteins from cow’s milk (especially albumins, proteins present on the surface of β cells): in some people, the assumption of big quantities of <strong>bovine albumins</strong> can stimulate the formation ICA antibodies against these albumins, because due to a <strong>molecular mimesis</strong> the bovine albumin, which mimics a protein of beta cells, is recognized as antigen and attacked. Another possible environmental factor is the <strong>desegregation of antigens</strong>: some <strong>viral infections</strong> can damage the beta cells (not kill, only damage), allowing the cells to expose in the membrane some proteins normally found in the inner layer of the membrane, so they’re attacked by the antibodies.</p><figure id="2297904f-03a9-8190-ba9f-c41a0d7b796b" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image13.png"><img style="width:651px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image13.png"/></a></figure><p id="2297904f-03a9-81b7-a191-d2244e925650" class=""><strong>TYPE 2DIABETES MELLITUS</strong></p><p id="2297904f-03a9-8149-9848-de322748bc26" class="">About the morphology of the islets of Langerhans in diabetes type 1 just remember that due to the destruction of beta cells we have necrosis of these cells, and consequently an inflammatory reaction, insulitis.</p><p id="2297904f-03a9-8155-adee-e705dec6b9e8" class="">In this slide (<em>Fig 14</em>) you can see the little dots that are the monocyte-lymphocyte infiltrate (with nuclei occupying all the cell).</p><p id="2297904f-03a9-81c0-a59b-fdf2f3eb8bd8" class=""><em>Fig 14</em></p><p id="2297904f-03a9-818d-8fa2-d37291dae74f" class="">Type 2 diabetes mellitus represents the 80-90% of all types of diabetes mellitus. In the past it was called insulin-independent diabetes mellitus or adult-onset diabetes, but now is not correct because it occurs also in children due to obesity, which is one of the main triggering factors today.</p><p id="2297904f-03a9-81ef-b478-f2c14a596979" class="">It is mainly characterized by <strong>insulin resistance</strong>; it is not able for different causes to bind on its receptor and activate the signal transduction pathway. The other characteristic of this type is <strong>deficiency in insulin secretion</strong>: there is a complicated interplay between insulin resistance and insulin deficiency, this is why we cannot call type 1 diabetes insulin-dependent diabetes, because sometimes also type 2 patients may need insulin. Another characteristic is an increased hepatic synthesis of glucose.</p><p id="2297904f-03a9-813e-b10c-fc469fb9a34d" class="">Also in this case is a multifactorial disease, there is a <strong>genetic predisposition</strong>, but the main trigger event is <strong>obesity</strong>. These two factors bring together to insulin resistance and alterate function of β cells.</p><p id="2297904f-03a9-8168-ad91-d34bd7134c9d" class="">Endi Dingu, Elena Zeppegno</p><p id="2297904f-03a9-81b0-8f4e-c8029258fa2d" class="">91</p><p id="2297904f-03a9-81d8-b07d-d3dc062e5d02" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-8187-9dd7-e27ec233274e" class=""><strong>INSULIN RESISTANCE</strong></p><p id="2297904f-03a9-81e1-85be-dca697f6ebd5" class="">Due to the presence of insulin resistance and not a complete loss of beta-cells in the pancreas, we only have a relative insulin deficiency in type 2 diabetes and not a complete insulin deficiency as in type-1 diabetes.</p><p id="2297904f-03a9-81dc-89c9-dd2e2f1ff320" class="">Decreased peripheral insulin response mainly affects <strong>skeletal muscles, adipose tissue and the liver (most sensitive to insulin).</strong></p><p id="2297904f-03a9-81ce-b190-d9c1e618cf58" class="">There are three main causes of insulin resistance;</p><p id="2297904f-03a9-810b-8ba7-df9d0864f8c3" class=""><strong>1)RECEPTOR DEFECTS</strong> - considered as a genetic predisposition. This is related to a mutation in the gene coding for insulin receptors which can lead to a decrease in the number of INSR receptors on the surface of beta cells or the correct number of receptors with mutations that alter their ability to bind insulin. (Insulin is present but cannot bind to the receptors <em>fig.1).</em></p><p id="2297904f-03a9-8139-acbc-cdb936a41782" class=""><strong>2)POST-RECEPTOR DEFECTS -</strong> In this case, insulin is able to bind to the receptors, but the insulin signal transduction pathways are impaired. Perhaps mutations in the receptors can lead to alterations in the catalytic tyrosine kinase domain of the receptor or substrates of tyrosine kinases are altered or mutations in genes coding for GLUT-4 could prevent the translocation of GLUT receptors to the membrane or GLUT-4 is translocated to the membrane but due confirmational changes is unable to uptake glucose.</p><p id="2297904f-03a9-817e-adb7-e24d7ae5c4d5" class=""><strong>3)REDUCED INSULIN SENSITIVITY</strong>– Here insulin is</p><figure id="2297904f-03a9-81c5-8a3a-e6526fb3fdc7" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image14.png"><img style="width:572px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image14.png"/></a></figure><p id="2297904f-03a9-81ee-a76c-dd991d1b23be" class=""><em>Fig. 1</em></p><p id="2297904f-03a9-81bf-a9ff-f0bba0598c1c" class="">produced, but is unable to bind to the receptors due to abnormalities of the insulin molecule.</p><p id="2297904f-03a9-8194-beb6-f992e96c47dd" class="">The consequences of insulin resistance are;</p><p id="2297904f-03a9-81e1-9fb8-d27415b477e2" class="">- Failure to inhibit gluconeogenesis in the liver (elevated fasting glucose)</p><p id="2297904f-03a9-8198-8c76-ccdf689e7a95" class="">- Reduced glucose uptake (due to failure in GLUT-4 translocation) and glycogen synthesis in skeletal muscle after a meal (elevated postprandial blood glucose)</p><p id="2297904f-03a9-81bf-8aa6-cd79e79d94f5" class="">- Failure to inhibit the activity of the &quot;hormone sensitive&quot; lipase in adipose tissue → excessive degradation of triglycerides in adipocytes and an excess of circulating free fatty acids (FFA).</p><p id="2297904f-03a9-8154-a8b5-ea1545fbe09f" class=""><strong>GENETIC FACTORS</strong></p><p id="2297904f-03a9-8183-8adc-cb83f3092b96" class="">Genetic predisposition is greater in Type-2 Diabetes than in Type-1. However, the real risk factor together with genetic predisposition of Type-2 Diabetes is <strong>obesity</strong>.</p><ul id="2297904f-03a9-81e7-9d54-eb57c3f41700" class="bulleted-list"><li style="list-style-type:disc"><em>Possible to recognize family history</em></li></ul><ul id="2297904f-03a9-81d9-bb6a-cd6cebb8e8dc" class="bulleted-list"><li style="list-style-type:disc"><em>Homozygous twin concordance &gt; 90% (in DM1 40%)</em></li></ul><ul id="2297904f-03a9-8144-a425-fe25a576888f" class="bulleted-list"><li style="list-style-type:disc"><em>Risk of transmission if both parents are affected &gt; 50%</em></li></ul><p id="2297904f-03a9-81d0-b345-f1429603f8ef" class="">Some of the environmental/social factors that are related to genetic predistortion are; - Obesity - in fact about 60-80% of DM2 patients are obese</p><p id="2297904f-03a9-8182-9d0f-ee2444a50104" class="">- Sedentary life</p><p id="2297904f-03a9-81a7-a634-f310f6f74151" class="">- Unbalanced diet (diet rich in fats, especially saturated fatty acids, and sugars) -</p><p id="2297904f-03a9-81a7-bdec-d4a91bddc0dd" class="">Smoke - Hypertension</p><p id="2297904f-03a9-817c-b4d6-c622ce00f743" class="">In particular, <strong>abdominal obesity</strong> is the real risk factor because here the visceral adipose tissue produces a variety of metabolically active factors (like specific adipose tissue cytokines which induce inflammation, oxidative stress), some of which promote insulin resistance.</p><p id="2297904f-03a9-81b6-a38c-fa366abf097a" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-81fa-a89b-fc9673ba305b" class="">92</p><p id="2297904f-03a9-8158-88a7-edcecd5ba234" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-8187-9a9c-c0c59ca7ee91" class=""><strong>HOW DOES OBESITY CONTRIBUTE TO INSULIN RESISTANCE?</strong></p><p id="2297904f-03a9-81ce-8385-dac43a4b8c13" class="">Adipose tissue produces specific inflammatory cytokines that are called <strong>adipokines</strong> →hormones produced by the adipose tissue<strong>.</strong> The levels of these adipokines are regulated by a nuclear receptor called <strong>PPARγ (Peroxisome Proliferator-Activated Receptor-γ).</strong> This receptor induces the increased synthesis of adipokines.</p><p id="2297904f-03a9-81ec-aee9-f1af46055b5e" class="">Among these adipokines, there is <strong>adiponectin</strong>. Adiponectin favors insulin sensitivity in peripheral tissues. Normally, in DM2 patients these levels of adiponectin are reduced and this mechanism promotes insulin resistance <em>fig.2</em></p><p id="2297904f-03a9-81d0-908d-cfa43ae390d0" class="">DM2 patients are given specific drugs called ‘Thiazolidinediones’, which are agonists of PPARγ and can stimulate the production of adiponectin to improve insulin sensitivity.</p><p id="2297904f-03a9-8146-8c23-da3a695e10c5" class="">In obese patients, there are elevated levels of free fatty acids and these FFAs are shown to cause insulin resistance.</p><p id="2297904f-03a9-8139-bb2c-d66bf10cbf6e" class=""><em>FFA bind to G protein-coupled receptors and interfere with the insulin signaling pathway → alterations in the secretion of insulin, incretins, and glucagon and promote inflammation.</em></p><p id="2297904f-03a9-8165-80c6-ec3f7d665ed6" class="">Obesity also causes the release of some pro-inflammatory cytokines (TNF, IL6…) that can induce insulin resistance.</p><p id="2297904f-03a9-812a-b768-de874ea64c8a" class="">In insulin resistance favored by obesity, the beta-cells produce insulin which is unable to act. In the first phases of the disease,</p><figure id="2297904f-03a9-8181-b746-ec43fed57db3" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image15.png"><img style="width:357px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image15.png"/></a></figure><p id="2297904f-03a9-81a2-ac19-eb8d4bd0866b" class="">there is a <strong>compensatory hyperinsulinemia.</strong> This means that the <em>Fig. 2</em> beta-cells in the pancreas try to</p><p id="2297904f-03a9-8173-8a4b-ef0f8a52b673" class="">the target cells aren’t able to sense the presence of insulin. These beta-cells eventually die and undergo apoptosis (programmed cell death) and not necrosis as in DM1. Insulin atrophy is interconnected. resistance and beta-cell</p><figure id="2297904f-03a9-81e9-bc7e-fed9b536d1f8" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image16.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image16.png"/></a></figure><p id="2297904f-03a9-81f3-8eb7-ebae936fde0e" class="">compensate the insulin resistance by</p><p id="2297904f-03a9-81b1-b831-f205bc862405" class="">producing more insulin. So, they are</p><p id="2297904f-03a9-81e6-983c-e084ae442f96" class="">hyperactivated.</p><p id="2297904f-03a9-8181-89f5-e5616c0017d9" class="">However, at a certain point, they are</p><p id="2297904f-03a9-819e-aa4b-f2a623bd6c7a" class="">not able to produce a bigger amount</p><p id="2297904f-03a9-815d-b7a1-f0d122eb2189" class="">of insulin since insulin is altered and</p><p id="2297904f-03a9-81e5-9d3d-eb7c7b570160" class=""><strong>MORPHOLOGY</strong> <em>Fig. 3</em></p><p id="2297904f-03a9-8114-9b34-e7afe4b9dd24" class="">There <strong>is no necrosis of pancreatic β-cells,</strong> nor morphological lesions in these cells in DM2. In some islets, fibrous tissue <em>fig.4</em>accumulates, even to the point of obliterating them. The protein amyloid produced by β cells is often present in the islets, especially in patients over 60 years of age.</p><p id="2297904f-03a9-8199-b17d-efbb98f25c3d" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-8137-be1c-e43f7776e17f" class="">93</p><p id="2297904f-03a9-8149-aa0e-dba57ae472af" class="">20.04.2023 GAMBA L.8</p><figure id="2297904f-03a9-8141-aaee-c984e3eb7b65" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image17.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image17.png"/></a></figure><p id="2297904f-03a9-814c-a32a-f48d2e42b3c3" class=""><em>Fig. 4</em></p><p id="2297904f-03a9-8153-bce8-e8fabbe0c0e6" class=""><strong>ACUTE METABOLIC ALTERATIONS AND CLINICAL FEATURES OF DIABETES</strong></p><p id="2297904f-03a9-8172-866b-c2b4a7bd953d" class="">We will see some acute metabolic alterations, due to lack of insulin activity, that are related to both DM1 and DM2. As told before, the main characteristic is <strong>hyperglycemia</strong> which is present in DM1 and 2, which can lead to metabolic alterations.</p><p id="2297904f-03a9-8118-970b-fc86cb0a134e" class="">In addition to hyperglycemia, diabetes mellitus is characterized by a <strong>TRIAD</strong>, which is also indicated as the ‘illness of the 3Ps’. These are polyuria (increased urination), polydipsia (excessive thirst) and polyphagia (excessive hunger).</p><p id="2297904f-03a9-81af-90a1-f61b6923335a" class="">In addition to the TRIAD, there is <strong>asthenia</strong> (decreased muscle tone) and <strong>diabetic ketoacidosis (if DM is severe).</strong></p><p id="2297904f-03a9-814e-8d7e-db901ad40378" class="">Remember that insulin not only regulates glycemic metabolism, but also protein and lipid metabolism as shown in <em>fig.5</em>.</p><p id="2297904f-03a9-81b9-a6bf-d75ce404cb9a" class="">As regards to lipids, the role of insulin is to inhibit lipolysis by inhibiting adipocyte lipase and favors glycogenesis. At the same time, insulin favors protein synthesis.</p><figure id="2297904f-03a9-8176-96a3-e5256cdb5350" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image18.png"><img style="width:517px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image18.png"/></a></figure><p id="2297904f-03a9-816f-94fd-c58a8126c187" class=""><em>Fig. 5</em></p><p id="2297904f-03a9-8182-9e77-fcff43bd2ae7" class="">Loss of insulin function (insulin resistance) leads to consequences at the level of the adipose tissues and muscles. At the level of adipose tissues, due to insulin resistance, there is no inhibition of lipolysis. Increased lipolysis leads to the accumulation of free fatty acids. This is a form of dyslipidemia that is seen in DM patients which can cause severe complications like atherosclerosis. As regards to protein, due to insulin resistance there is reduced protein synthesis and an increased protein catabolism. Increased lipolysis and protein catabolism leads to polyphagia.</p><p id="2297904f-03a9-8128-bc22-f0b1234a8ab9" class="">In diabetic patients, the alpha cells of the pancreas are not sensible to hyperglycemia. So, glucagon is in excess and this can lead to glycogenolysis and gluconeogenesis which leads to the production of glucose causing hyperglycemia. When there is hyperglycemia (more than 180mg/dL), glucose can also be found in urine leading to <strong>glycosuria.</strong> Presence of glucose in urine can also lead to osmotic imbalance causing <strong>polyuria</strong> (excessive loss of water). This can result in diabetic coma together with ketoacidosis.</p><p id="2297904f-03a9-8150-b28b-deb1d13fe5ce" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-81ca-96e0-ecb409dc8c7e" class="">94</p><p id="2297904f-03a9-81e5-8ff8-c4f9055570bd" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-819f-a897-c6352496dd93" class=""><strong>DIABETIC KETOACIDOSIS</strong></p><p id="2297904f-03a9-8199-b498-f3af47016ce6" class="">This is caused due to the formation of <strong>ketone bodies</strong> <em>fig.6</em>, which is composed of three components called acetone, acetoacetic acid and β-hydroxybutyric acid.</p><p id="2297904f-03a9-811d-9c8f-cb8546998312" class="">These ketone bodies are produced in the liver due to increase lipolysis starting from the release of FFA (non-esterified fatty acids).</p><p id="2297904f-03a9-81d0-8774-f880bbe2c29e" class="">Accumulation of these ketone bodies in blood and urea leads to ketoacidosis. Acetoacetic and β-hydroxybutyric acid of ketone bodies are the two molecules that are responsible for the acidification of the pH.</p><figure id="2297904f-03a9-8155-b882-f94ceb8aef09" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image19.png"><img style="width:387px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image19.png"/></a></figure><p id="2297904f-03a9-81f6-86f4-d04e665633c8" class=""><em>Fig. 6</em></p><p id="2297904f-03a9-814f-b975-db471c3684a8" class="">Acetone, being volatile, in addition to passing in the urine, is eliminated with the exhaled air (rotten fruit breath).</p><p id="2297904f-03a9-8170-b173-cb1307021b50" class="">The clinical manifestations of ketoacidosis are;</p><p id="2297904f-03a9-81cd-a074-e98ae554c5e7" class="">- Fatigue</p><p id="2297904f-03a9-8134-b3eb-d4b2fb2c593c" class="">- Nausea and vomiting</p><p id="2297904f-03a9-8120-8ed8-c094f33be40b" class="">- Severe abdominal pain</p><p id="2297904f-03a9-8127-af99-c15a763b900b" class="">-</p><p id="2297904f-03a9-810c-ba2b-d8a77ee60bc7" class="">Deep, labored breathing (Kussmaul breathing) - Depression in cerebral consciousness</p><p id="2297904f-03a9-8168-914a-d65d277b671e" class="">- Coma</p><p id="2297904f-03a9-8163-9de1-f6d8e97f4188" class="">There are different types of comas such as;</p><p id="2297904f-03a9-811f-9c60-c299da476c3d" class="">- <strong>DIABETIC COMA</strong> due to diabetic ketoacidosis.</p><ul id="2297904f-03a9-813e-89c8-f17e7a40913e" class="bulleted-list"><li style="list-style-type:disc"><strong>HYPEROSMOLAR COMA</strong> (HYPEROSMOLAR HYPEROSMOTIC SYNDROME, HHS) due to severe dehydration resulting from sustained osmotic diuresis (polyuria).</li></ul><ul id="2297904f-03a9-8128-abf0-fff79a279946" class="bulleted-list"><li style="list-style-type:disc"><strong>HYPOGLYCEMIC COMA -</strong> usually occur in DM1 patients</li></ul><p id="2297904f-03a9-811d-a628-cb6ec26dd2b5" class=""><strong>METABOLIC DERANGEMENTS UNDERLYING THE CLINICAL MANIFESTATIONS OF DIABETES- SUMMARY</strong></p><p id="2297904f-03a9-8172-ba38-f2ef1258774d" class="">1.Since insulin is an important anabolic hormone, its deficiency causes a <strong>catabolic state that affects</strong> <strong>not only glucose metabolism, but also fat and protein metabolism.</strong></p><p id="2297904f-03a9-815d-9af9-ff72447db8c6" class="">2.<strong>↑ Glucagon secretion</strong> promotes hyperglycemia (it stimulates hepatic gluconeogenesis and glycogenolysis). Not only is the assimilation of glucose in the muscles and adipose tissue sharply decreased or abolished, but also the reserves are depleted (↑ glycogenolysis).</p><p id="2297904f-03a9-8143-8f5f-c889ec3abb17" class="">3.The resulting hyperglycemia exceeds the renal reabsorption threshold → <strong>glycosuria</strong>. Glycosuria induces osmotic diuresis and then <strong>polyuria</strong>, causing a profound loss of water and electrolytes → severe dehydration → activation of the osmoreceptors of the thirst centers of the brain → intense thirst (<strong>polydipsia</strong>).</p><p id="2297904f-03a9-8113-8810-ea1f7e7a234d" class="">4.Severe dehydration → <strong>hyperosmolar coma</strong> (hyperosmolar hyperosmotic syndrome, HHS) 5.Peripheral tissues are in a persistent condition of low glucose → protein and fat catabolism.</p><p id="2297904f-03a9-81de-b687-fd585820c0d9" class="">Proteolysis (skeletal muscle t.), releases «gluconeogenic» amino acids which are used as the building blocks of glucose → <strong>asthenia</strong>→ slimming (DM1). Insulin inhibits lipolysis so in the absence of insulin there is catabolism of fats → release of non-esterified fatty acids and TG → loss of fat body mass (DM1), hypertriglyceridemia and steatosis + <strong>hypercholesterolemia (dyslipidemia).</strong> Protein and fat catabolism tends to induce a negative energy balance, which in turn leads to increased appetite (polyphagia).</p><p id="2297904f-03a9-81dd-a67c-f83712a43583" class="">6.Excessive energy demolition of TG instead of glucose → free fatty acids reach the liver and are esterified and oxidized (β-oxidation of fatty acids) (<strong>ketogenesis</strong>) → release of ketone bodies (acetoacetic acid, acetone, β-hydroxybutyric acid) into the circulation = <strong>ketoacidosis</strong> (mainly in DM1).</p><p id="2297904f-03a9-81e0-9cd6-da794fd9a6b6" class="">Symptoms of ketoacidosis: nausea, vomiting, respiratory distress. Ketone bodies are eliminated in the urine (ketonuria). If the acidosis is not compensated, it leads to diabetic coma and death.</p><p id="2297904f-03a9-8105-8e00-c9874edf3225" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-8192-a203-ce18b203e5c8" class="">95</p><p id="2297904f-03a9-814f-a55e-d6a172c98a2f" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-81f5-b1cf-da3d47b03faa" class="">7.Ironically, the most common acute metabolic complication in both types of diabetes is <strong>hypoglycemia</strong></p><p id="2297904f-03a9-8129-acdf-d335c1a983ec" class="">(meal skipping, excessive physical</p><p id="2297904f-03a9-8123-94ef-d7495d71a744" class="">activity, excessive insulin</p><p id="2297904f-03a9-817f-9705-dc5fb068da20" class="">administration). Dizziness,</p><p id="2297904f-03a9-819d-952e-e820388f5eea" class="">confusion, sweating, palpitations</p><p id="2297904f-03a9-8104-b421-ca45d6687bb6" class="">and rapid heartbeat; loss of</p><p id="2297904f-03a9-8131-8903-e0ffdcc849b5" class="">consciousness may occur if</p><p id="2297904f-03a9-8177-8b3b-f58d0148298f" class="">hypoglycemia persists →</p><p id="2297904f-03a9-8190-8958-f48fba6940b3" class=""><strong>hypoglycemic coma</strong>. Reversal of</p><p id="2297904f-03a9-8135-8f78-c65fa1cb8dc9" class="">hypoglycemia with oral or</p><p id="2297904f-03a9-81d3-ab62-f016a735fbd4" class="">intravenous glucose prevents</p><p id="2297904f-03a9-819c-af5f-eb9517541aab" class="">permanent neurological damage.</p><p id="2297904f-03a9-818d-81e3-eb317c75ac52" class=""><strong>CHRONIC COMPLICATIONS OF DIABETES</strong></p><figure id="2297904f-03a9-81b9-a55b-f2f01d89815a" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image20.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image20.png"/></a></figure><p id="2297904f-03a9-819e-acf5-cfc3465526a9" class=""><em>Fig. 7</em></p><p id="2297904f-03a9-8199-aff1-c7c79b2c7bf4" class="">Till now we have discussed about the acute alterations of metabolism in DM. So, polyuria, polydipsia, ketoacidosis, etc... are all acute metabolic alterations of DM.</p><p id="2297904f-03a9-8133-bc51-fd34183a05a0" class="">Now moving on to the chronic complications of DM, they consist mainly of <strong>diabetic macroangiopathy and diabetic microangiopathy.</strong></p><p id="2297904f-03a9-8194-b722-e906e097ccd4" class="">So, what are the causes of these chronic complications of diabetes?</p><p id="2297904f-03a9-81b9-871f-dbce609e89f5" class="">The mechanisms responsible for these complications are;</p><p id="2297904f-03a9-8174-a157-e6a25e4eb92a" class="">- Formation of Advanced Glycation End Products (AGEs): - due to binding of glucose to proteins - Activation of Protein Kinase C (PKC)</p><p id="2297904f-03a9-81dd-bd77-cd1cf3b3de38" class="">- Oxidative stress and disturbances in polyol pathways</p><p id="2297904f-03a9-81ce-8fe1-c6a88a549c97" class="">- Hexosamine pathways and generation of fructose-6-phosphate</p><p id="2297904f-03a9-81cd-8468-de274c79a312" class=""><strong>GLYCOSYLATION OF PROTEINS</strong></p><p id="2297904f-03a9-81af-b0e1-f020f5f3f547" class="">AGEs are <strong>Advanced Glycation End Products (AGEs)</strong> that are formed due to the bonding of glucose to the amino groups of both intracellular and extracellular proteins <strong>nonenzymatically</strong> = nonenzymatic glycosylation (or glycation) of proteins. This binding can lead to a permanent alteration of the protein and its functionality.</p><p id="2297904f-03a9-81e3-8b99-e4da3a135117" class="">Another glycosylation of the proteins in the basal</p><p id="2297904f-03a9-8180-b6e8-ee7e8029c0e1" class="">lamina which results in the alteration of the</p><p id="2297904f-03a9-8184-9540-c81a230df359" class="">endothelium. This glycosylation favors the</p><p id="2297904f-03a9-8166-a02f-df9e1550455d" class="">entrance of LDL and is the first step of the</p><p id="2297904f-03a9-811f-9834-c3e925e11a78" class="">pathogenesis</p><p id="2297904f-03a9-81bb-b499-c062600ccd38" class="">Glycosylation</p><p id="2297904f-03a9-8136-9cb3-d5a55e5d7564" class="">important in the pathogenesis of DM. important</p><p id="2297904f-03a9-81f3-b342-f53ab95203e1" class="">of of</p><p id="2297904f-03a9-8183-b33f-d457513e1e64" class="">proteins</p><p id="2297904f-03a9-81b9-b1c8-cae1ce0e2aa4" class="">example</p><p id="2297904f-03a9-8142-9872-c667d8390a93" class="">atherosclerosis. is very is the</p><figure id="2297904f-03a9-819b-a897-fc341c675a2a" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image21.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image21.png"/></a></figure><p id="2297904f-03a9-81da-b8f5-f1d1873abeac" class="">AGEs have specific receptors called ‘RAGE’.</p><p id="2297904f-03a9-8186-bf5d-d121a4bc6c9d" class="">Few examples of AGE include hemoglobin</p><p id="2297904f-03a9-81c3-bb88-eca1eabaa28d" class="">bound to glucose forming glycated Hb in</p><p id="2297904f-03a9-8170-a12b-c8e76a133fc4" class="">blood, LDL apolipoprotein B (glycosylated LDL,</p><p id="2297904f-03a9-815d-b3ff-fcd0bd3c1d5d" class="">accelerated atherosclerosis). When LDL is</p><p id="2297904f-03a9-81c3-98ba-dced62ab4f82" class="">glycosylated, it is more pathogenic as it can</p><p id="2297904f-03a9-819a-823f-d943377c27eb" class="">easily penetrate the intima of big arteries.</p><p id="2297904f-03a9-81d2-9860-d7bb6f2cda1c" class=""><em>Fig. 8</em></p><p id="2297904f-03a9-8146-a981-d49e9601172e" class=""><em>Plasma albumin binds to the glycosylated basement membrane of capillaries contributing to the thickening of the vascular wall seen in diabetic microangiopathy.</em></p><p id="2297904f-03a9-81a2-bde8-e2fbd3af7322" class="">In <em>fig.8,</em>you can see how AGEs induce oxidative stress in the beta-cells of the pancreas and forms amyloid plaques (toxic -&gt; destroy beta-cells-&gt; reduction of insulin production). This is just for your knowledge and is not necessary to remember all these steps.</p><p id="2297904f-03a9-8117-98f7-dd44c8bb4df6" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-8108-819b-f6f01c324961" class="">96</p><figure id="2297904f-03a9-8182-8ade-ce588b223b13" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image22.png"><img style="width:700px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image22.png"/></a></figure><p id="2297904f-03a9-81d5-973b-e4a50da4b05a" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-8109-9523-f60ad9ee9e3f" class=""><strong>METABOLIC MEMORY</strong></p><p id="2297904f-03a9-81bb-a799-e74d31fbe775" class="">At the first stages of DM, hyperglycemic memory causes the formation of some AGEs. Even if hyperglycemia</p><p id="2297904f-03a9-81d2-a829-eee9f6ed4bf8" class="">is corrected by diet, it still can form AGEs due to metabolic memory <em>fig.9</em>. This is because previously</p><p id="2297904f-03a9-81ae-a54a-e245322ef4a2" class="">accumulated AGEs remain in tissues and continue to be responsible for the chronic complications of diabetes.</p><ul id="2297904f-03a9-81ee-b21f-c84f26c1212e" class="bulleted-list"><li style="list-style-type:disc"><em>The engagement of RAGE by AGEs leads to sustained</em></li></ul><p id="2297904f-03a9-81fe-aa2b-d105331bbf5f" class=""><em>cellular dysfunction, termed as “metabolic memory” → long-</em> <em>Fig. 9</em></p><p id="2297904f-03a9-8112-a8f1-f9504f705c94" class=""><em>term influence of previously accumulated AGEs that are</em></p><p id="2297904f-03a9-8161-8862-dfcd5b5e259d" class=""><em>capable of maintaining RAGE over-expression, sustained</em></p><p id="2297904f-03a9-81c2-b780-eb1475ea2c77" class=""><em>activation of NFkB, prolonged induction of tissue-specific</em></p><p id="2297904f-03a9-8140-9992-fbaee7a2f965" class=""><em>inflammation, initiation and progression of long-term</em></p><p id="2297904f-03a9-8177-9785-c02ef434747c" class=""><em>oxidative stress, which is persistent despite the reversal of</em></p><p id="2297904f-03a9-811c-aa8d-c2b6e9a249f9" class=""><em>hyperglycemia.</em></p><ul id="2297904f-03a9-81a8-977c-fc1278820ff9" class="bulleted-list"><li style="list-style-type:disc"><em>The phenomenon is associated with the pathogenesis of</em></li></ul><p id="2297904f-03a9-81ef-a64e-efa17f3c88c7" class=""><em>diabetes-related macrovascular</em> <em>and microvascular</em></p><p id="2297904f-03a9-8171-8c7e-faca0f1a4156" class=""><em>complications → impaired quality of life, accounting for</em></p><p id="2297904f-03a9-8163-8da2-f8bcfad95019" class=""><em>increased morbidity, disability, mortality.</em></p><p id="2297904f-03a9-816d-bf6a-f0214dc50ccb" class="">As previously told, the two main chronic</p><p id="2297904f-03a9-81cd-9a6f-cf0b1bf0e8c4" class="">complications of DM are diabetic</p><p id="2297904f-03a9-815a-ab9a-fa8aab04ed39" class="">macroangiopathy and diabetic</p><p id="2297904f-03a9-818c-b5e8-e6f558cece4e" class="">microangiopathy.</p><p id="2297904f-03a9-8150-8464-c2b07e580466" class=""><strong>MACROANGIOPATHY</strong>-&gt; means alterations in</p><p id="2297904f-03a9-81c3-b480-efcbbb01ff76" class="">big arteries resulting in an accelerated</p><p id="2297904f-03a9-81e0-8aad-d4743933ba0c" class="">atherosclerosis. This can further cause</p><p id="2297904f-03a9-81ec-9781-fc817efca504" class="">thrombosis, ischemia, stroke.</p><p id="2297904f-03a9-8182-b1e9-da5d7c41eb1a" class=""><strong>MICROANGIOPATHY</strong>-&gt; results in alterations of</p><p id="2297904f-03a9-8198-8f42-fed22d42cc7c" class="">the small vessels like capillaries. It is</p><p id="2297904f-03a9-813b-8164-ebe9a90b8b3d" class="">responsible for many complications like</p><p id="2297904f-03a9-81f0-88b3-f13d2981f369" class="">retinopathy, nephropathy, neuropathy,</p><p id="2297904f-03a9-81dd-b2ab-cdfcf68046ff" class="">infections <em>fig.10.</em></p><p id="2297904f-03a9-8148-868a-c9138f576a00" class=""><strong>DIABETIC MACROANGIOPATHY</strong></p><p id="2297904f-03a9-81bf-97bd-e5a9af13bd0d" class="">Here the arteries are modified making then</p><p id="2297904f-03a9-81ce-898b-cd9fefd8b377" class="">more susceptible to accelerated</p><p id="2297904f-03a9-8126-ab54-cf9daacacf29" class="">atherosclerosis. This means that</p><p id="2297904f-03a9-8141-9703-f78709f2d974" class="">atherosclerosis is premature and rapidly</p><p id="2297904f-03a9-8194-b860-e4ab4c761a9f" class="">progressive.</p><p id="2297904f-03a9-81cb-b11a-ed951d589970" class="">The two main causes of accelerate</p><p id="2297904f-03a9-815c-993e-d29dee26b60a" class=""><em>Fig. 10</em></p><p id="2297904f-03a9-8106-9f87-e8bfdacd81d4" class="">atherosclerosis in diabetic patients are <strong>dyslipidemia</strong> (due to high levels of LDL and low levels of HDL) and <strong>glycosylation of proteins</strong> (like LDL, basal membrane proteins).</p><p id="2297904f-03a9-8146-a720-e1c0287940f0" class="">2 to 4 times greater incidence of coronary artery disease and fourfold higher risk of dying for cardiovascular complications.</p><p id="2297904f-03a9-8167-84d8-c8918e47dc8d" class="">Diabetes is often accompanied by underlying conditions that favor the development of adverse cardiovascular events (hypertension in 75% of individuals with DM2; dyslipidemia).</p><p id="2297904f-03a9-8195-a654-d48b7734b066" class="">Atherosclerosis in diabetes is more aggressive than in the non-diabetic population, being premature, rapidly progressive, and with the involvement of multiple arterial districts at the same time. There is also an impaired function of cells involved in the maintenance of vascular homeostasis <em>fig.11</em> (ECs, SMCs, stromal cells, pericytes, inflammatory cells, circulating and tissue-resident vascular stem/progenitor cells) due to metabolic alterations of DM.</p><p id="2297904f-03a9-81d7-9c8d-c5151406af7d" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-81bf-9ef0-d7ba8c0d3a6a" class="">97</p><figure id="2297904f-03a9-8119-955c-d18b312ddad9" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image24.png"><img style="width:631px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image24.png"/></a></figure><p id="2297904f-03a9-8189-b5d3-fd7a0166bf22" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-81de-a54d-d9d2dd9d5acb" class="">For example, <strong>smooth muscle cells</strong>, which are in the tunica media, are important in atherosclerotic plaque</p><p id="2297904f-03a9-8112-ba9b-d1d4027b61c0" class="">formation. They proliferate, migrate to the intima and differentiate into fibroblasts to produce a fibrous cap (EM) that covers the atherosclerotic plaque.</p><p id="2297904f-03a9-8188-8c98-c0bb5cfb6fb0" class="">At the same time, it has been demonstrated that there are less <strong>EPCs</strong> (Endothelial progenitor cells) in DM patients. These cells are involved in repairing vascular damage. So, defects in the number of circulating progenitor cells are associated with a more rapid progression of vascular disease in DM. There is also another group of cells called <strong>OPCs (oligodendrocyte</strong> progenitor cells) which are abundant in DM patients and they come from the myeloid lineage (acquire some characteristics of osteoblasts). They stimulate ectopic calcification of the atherosclerotic plaque, which is another step in the pathogenies of atherosclerosis.</p><p id="2297904f-03a9-812d-b7ad-d283ba19234c" class="">Acceleration of atherosclerosis in DM is mainly due</p><figure id="2297904f-03a9-8194-b487-e32183bad498" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image23.png"><img style="width:489px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image23.png"/></a></figure><p id="2297904f-03a9-81ea-9006-db0e142ef64d" class=""><em>Fig. 11</em></p><p id="2297904f-03a9-8140-b13d-e2ec8250ee18" class="">to AGEs. Below is a summary on how AGEs contribute to macrovascular complications.</p><ul id="2297904f-03a9-817a-9d30-c1593cf12c4a" class="bulleted-list"><li style="list-style-type:disc"><strong>AGEs promote endothelial dysfunction</strong>→ AGEs induce oxidative stress in endothelial progenitor cells (EPCs) (EPCs contribute to re-reendothelialization, thus oxidative stress may hinder endothelial repair). Additionally, AGEs decrease the activity of the oxidative stress scavenger’s catalase and superoxide dismutase in ECs.</li></ul><ul id="2297904f-03a9-81f4-80f9-c8bed38e0a95" class="bulleted-list"><li style="list-style-type:disc"><strong>AGEs contribute to foam cell formation</strong>→ Due, at least partially, to the inhibition of cholesterol efflux via ATP binding cassette (ABC) A1.</li></ul><ul id="2297904f-03a9-81b7-8119-f55965d54a90" class="bulleted-list"><li style="list-style-type:disc"><strong>AGEs promote intraplaque inflammation</strong>→ AGEs induce macrophage polarization in the so-called M1 phenotype. Atherosclerosis is a chronic inflammatory disease.</li></ul><ul id="2297904f-03a9-819b-961d-f0e94f8bcb35" class="bulleted-list"><li style="list-style-type:disc"><strong>AGEs enhance proliferation of SMCs and synthesis of ECM.</strong></li></ul><ul id="2297904f-03a9-8166-99ac-f1ae6bea1cee" class="bulleted-list"><li style="list-style-type:disc"><strong>AGEs promote calcification</strong>→ Vascular calcification results from the deposition of hydroxyapatite minerals due to a phenotypic switch of VSMCs toward osteoblast-like cells. Calcification leads to vascular stiffening and concomitant cardiovascular risk.</li></ul><p id="2297904f-03a9-811d-a253-eafc57f2df56" class="">The presence of AGEs stimulates the progression of</p><p id="2297904f-03a9-8100-b2ee-f12cbef06134" class="">atherosclerotic plaque. They cause a switch from a</p><p id="2297904f-03a9-81cf-90d8-e82e59ef33eb" class="">stable to an unstable plaque <em>fig.12.</em></p><p id="2297904f-03a9-814e-bafd-d8f960db95b3" class="">In a stable plaque, the fibrous cap is thicker, necrotic</p><p id="2297904f-03a9-815e-9f3e-f8ec075b30bb" class="">core is smaller and are not prone to rupture. But AGEs</p><p id="2297904f-03a9-8161-89a2-cab91be74306" class="">favor the transition into an unstable plaque, which has</p><p id="2297904f-03a9-816d-a1f3-feec7789a78d" class="">a thinner fibrous cap, thicker necrotic core and are</p><p id="2297904f-03a9-815f-914c-dff31af109b1" class="">prone to rupture.</p><p id="2297904f-03a9-8152-86d5-fd9de2c7d374" class="">When the plaque ruptures, there is an immediate</p><p id="2297904f-03a9-81d0-8b88-e1398c1a166e" class="">formation of an acute thrombus, which that can be</p><p id="2297904f-03a9-812e-bafa-c20fd3b20902" class="">responsible for a stroke when the carotid artery is</p><p id="2297904f-03a9-81bd-bf61-d1afe9caa703" class="">blocked.</p><p id="2297904f-03a9-8163-9c1f-cb8af17a6b9b" class="">When a non-occluding plaque obstructs a coronary</p><p id="2297904f-03a9-81e6-957b-debf82d7f45a" class="">artery, it can cause angina. When there is an occluding</p><p id="2297904f-03a9-8102-b1c3-f0302b99d273" class="">plaque due to the formation of a thrombus, it can lead</p><p id="2297904f-03a9-8198-9fbc-f6b416fc0274" class="">to MI (Myocardial Infraction).</p><p id="2297904f-03a9-81cc-965b-e1d1740269d3" class=""><em>Fig. 12</em></p><p id="2297904f-03a9-81b1-8c79-c24e25776be4" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-812a-a398-fa1cdf6e0752" class="">98</p><p id="2297904f-03a9-8167-8d5c-c1395ab908eb" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-81d1-b0fb-e706bec17d31" class="">Another complication of macroangiopathy is diabetic foot. An atherosclerotic plaque leads to the hypoperfusion of the foot which can cause inflammation and necrosis of the tissues(gangrene).</p><p id="2297904f-03a9-8108-85fe-dc2a06c1816d" class=""><em>Peripheral atherosclerotic vascular diseases (especially lower limbs): claudicatio intermittens + gangrene and ulcers of the lower limbs and fingers (diabetic foot) → amputations (40% of cases).</em></p><p id="2297904f-03a9-81b6-bcb8-e203f28d3c8b" class=""><strong>DIABETIC MICROANGIOPATHY</strong></p><p id="2297904f-03a9-81f6-8703-d6f10a756e36" class="">Microangiopathy can cause alterations in microcirculation and this is again due to AGEs formation. There is glycosylation of the proteins present in the basal membrane of the tunica intima of the arterial wall of the microcirculation (capillaries of the skin, skeletal muscles, retina, glomeruli, renal medulla). It is the cause of the reduced ability to heal wounds, typical of diabetics.</p><p id="2297904f-03a9-81e7-8b1d-d58c31d72b61" class="">It also contributes to the onset of <strong>retinopathy, nephropathy and peripheral neuropathy.</strong></p><p id="2297904f-03a9-8185-b6bc-e272ca448fe3" class=""><strong>DIABETIC RETINOPATHY</strong></p><p id="2297904f-03a9-81ad-ac7a-fc5a71d468f0" class="">It is a frequent cause of blindness in the general population and is most severe and frequent in DM1. This is caused by neovascularization due to hypoxia-induced overexpression of VEGF (vascular endothelial growth factor which is responsible for angiogenesis) in the retina. Treatment includes antiangiogenic agents. Diabetic patients can also be affected with maculopathy, cataract, glaucoma leading to blindness.</p><p id="2297904f-03a9-81b0-ae72-d33264dad2a0" class=""><strong>DIABETIC NEPHROPATHY</strong></p><p id="2297904f-03a9-81e3-a8f7-d93adf4cfd65" class="">In case of DM1, 30-40% of patients experience renal failure, in DM2 it is 20%. It is the most common cause of dialysis or renal transplantation.</p><p id="2297904f-03a9-81b9-ae51-e3ab0474681e" class=""><strong>Pyelonephritis</strong> (serious condition) = inflammatory picture due to the passage of urinary tract infections to the kidney. Due to stagnation of urine in the bladder as a result of neuropathy + glucose in the urine represents a rich growth medium for microorganisms.</p><p id="2297904f-03a9-8119-a0ce-d7e6a7971c15" class="">Infections are very common in DM due to AGES formation, by binding to the proteins of the cytoskeleton of inflammatory cells (neutrophil/monocyte/macrophage). This causes reduced neutrophil function (chemotaxis, diapedesis, phagocytic activity, microbicidal activity) and impaired cytokine production by macrophages. Therefore, infections are common in DM since there is a reduced defense mechanism and also because the micro vessels, which are important in acute inflammation, are damaged (due to glycosylation of basal lamina proteins).</p><p id="2297904f-03a9-8126-9712-ddd7554d61fa" class=""><strong>DIABETIC NEUROPATHY</strong></p><p id="2297904f-03a9-8153-b7d7-ce245caeef12" class="">Neuropathy can lead to an autonomic nerve dysfunction resulting in bowel and bladder motility disorders.</p><p id="2297904f-03a9-81bd-982c-f547154aa6d2" class="">Diabetic neuropathy is responsible for the loss of tactile sensitivity. It can also cause:</p><p id="2297904f-03a9-81fb-86ed-eda14e3a31e7" class="">- Distal symmetric polyneuropathy of the lower extremities that affects both motor and sensory function.</p><ul id="2297904f-03a9-818c-8d3d-c12ff3af22e5" class="bulleted-list"><li style="list-style-type:disc">Alteration of axons, myelin sheath, Schwann cells.</li></ul><p id="2297904f-03a9-8153-b3b7-c3bca48b84b7" class="">Microangiopathy of the vessels supplying the nerves contributes to the disease. -</p><p id="2297904f-03a9-8140-a0d2-e601fd60a461" class="">- Pain, but they have a high pain threshold so the diabetic tends to ignore minor irritations and traumas to the toes, joints, lower limbs → ulcers.</p><ul id="2297904f-03a9-8147-91ca-dd0359465f9e" class="bulleted-list"><li style="list-style-type:disc">Paresthesias in the extremities.</li></ul><p id="2297904f-03a9-8145-901e-e8c883f607b0" class=""><strong>TYPE 3 DIABETES AND ALZHEIMER’S DISEASE</strong></p><p id="2297904f-03a9-812d-ab96-c6e1e0541f0f" class="">In the last years, Alzheimer’s disease has been considered as <strong>Type 3 diabetes</strong>. This is because in the brain of an Alzheimer’s disease patient there is some sort of insulin resistance.</p><p id="2297904f-03a9-81b5-85b8-cefaa93dab26" class="">Note that type 3 diabetes cannot be considered as another forms of diabetes as it something that is involved only in the brain.</p><p id="2297904f-03a9-81c4-aa3c-cef0e84092ef" class="">It manifests as insulin resistance within the brain with consequent impairment of central insulin signaling processes → neurodegeneration, neurons aren’t able uptake glucose so they die.</p><p id="2297904f-03a9-81b3-969e-eb277ab822e8" class=""><em>Peripheral insulin resistance leads to decrease insulin signaling in CNS → increased Aβ toxicity, Tau</em></p><p id="2297904f-03a9-8181-8fb6-f7174698dedb" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-81c3-8f1c-d70ddb9be606" class="">99</p><figure id="2297904f-03a9-81f4-8c80-d79d584ee146" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image26.png"><img style="width:693px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image26.png"/></a></figure><p id="2297904f-03a9-81e5-abe2-e8afc01c7112" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-8179-8a6f-f3c3477ff94c" class=""><em>hyperphosphorylation, oxidative stress and neuroinflammation → neurodegeneration.</em></p><p id="2297904f-03a9-8124-a304-e05f7b7373e7" class=""><em>Insulin circulating in the blood can cross the BBB through a receptor-mediated active transport system + insulin is produced in the brain. It has major potential to impact neurocognition and contributes to the etiology of Alzheimer’s disease.</em></p><p id="2297904f-03a9-8157-ba7e-e985bf6638f7" class="">Alzheimer’s disease will be further discussed</p><p id="2297904f-03a9-818b-9f8a-c3671a2c2d12" class="">later but what is important to know is that it is a</p><p id="2297904f-03a9-81b9-9981-e17b656f620c" class="">neurodegenerative disorder (means that there</p><p id="2297904f-03a9-81aa-8f3d-cec9cbd91c56" class="">is the accumulation of materials in cells).</p><p id="2297904f-03a9-8169-af86-fdffb2df59d4" class="">Alzheimer’s disease like all the other</p><p id="2297904f-03a9-8161-9da4-db58902a6e99" class="">neurodegenerative disorders is a selective</p><p id="2297904f-03a9-81c5-ae65-ce34078864e4" class="">degeneration which means that only some</p><p id="2297904f-03a9-8199-a3cc-dbd5486670f8" class="">particular areas of the brain are affected</p><p id="2297904f-03a9-8137-a8e2-e632b48bce9c" class="">(specifically the neurons of the cerebral cortex</p><p id="2297904f-03a9-81d8-8252-dbb3d958713a" class="">and hippocampus). Other neurons remain</p><p id="2297904f-03a9-8121-8463-fd3e4e9f4690" class="">intact.</p><p id="2297904f-03a9-8130-94c6-d49ff99cd2df" class="">Neuronal death in the cerebral cortex causes</p><p id="2297904f-03a9-818a-854b-ec44d4b72923" class="">atrophy.</p><p id="2297904f-03a9-818c-b1d6-fe2922516058" class=""><em>Fig. 13</em> Talking about the pathogenesis of</p><p id="2297904f-03a9-81c8-a455-d8d7307fa9fe" class="">Alzheimer’s disease, there are two pathological causes which are <strong>neurofibrillary tangles and amyloid plaques</strong> <em>fig.13.</em></p><p id="2297904f-03a9-8102-abdd-eb631ee2c356" class="">The neurofibrillary tangles are intraneuronal and are found inside the neurons. They are formed due to the modification of a protein called ‘tau’, that is involved in the stabilization of microtubules. When this protein is modified, it detaches from microtubules and aggregates in neurons giving rise to these tangles. The amyloid plaques are extracellular and are formed due to the accumulation of amyloid beta, which is neurotoxic causing the death of neurons from outside.</p><p id="2297904f-03a9-81e4-ab36-dd6230c5a175" class="">It has been shown that insulin resistance (T3D) can cause amyloid plaque formation of accumulation and neurofibrillary tangles.</p><p id="2297904f-03a9-810e-a123-cd8d45965ad7" class="">In <em>fig.14,</em>the mechanisms that occur in the neuron are shown. Here insulin binds to the receptor, then after a transduction pathway there is a translocation of GLUT-4 to the membrane that favors the uptake of glucose.</p><p id="2297904f-03a9-81bb-93c7-c874e1923bda" class="">This is a scheme of a Crosstalk Between Brain Cholesterol Oxidation and Glucose Metabolism in Alzheimer’s disease.</p><p id="2297904f-03a9-8121-90f8-e7a0c9e697ed" class="">In the lesson dyslipidemias, we learnt that alterations in cholesterol metabolism of the brain can cause Alzheimer’s disease. Now, we have seen that alteration in glucose metabolism is also responsible for the onset of this disease.</p><figure id="2297904f-03a9-817e-a53a-e33b19753afa" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image25.png"><img style="width:648px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image25.png"/></a></figure><p id="2297904f-03a9-8116-84d1-f7adb2a90759" class=""><em>Fig. 14</em> <strong>METABOLIC SYNDROME</strong></p><p id="2297904f-03a9-81d0-bddd-e523c7365f8b" class="">It is a highly prevalent condition defined by the presence of <strong>at least three out of five risk factors</strong> including central obesity, increased fasting glucose(hyperglycemia), high blood pressure (hypertension), and dyslipidemia.</p><p id="2297904f-03a9-8130-8eff-e65b03f12a33" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-8159-bc54-e357cdd51713" class="">100</p><p id="2297904f-03a9-8135-a2b6-f04cde6cd12e" class="">20.04.2023 GAMBA L.8</p><p id="2297904f-03a9-8103-a912-e1651311f006" class="">It is associated with a 2-fold increase in cardiovascular outcomes and a 1.5-fold increase in all-cause mortality.</p><p id="2297904f-03a9-819b-9e9c-e96b16f14baa" class="">These are the five risk factors that are used to diagnose a metabolic syndrome and if 3 out of these 5 are present it can be diagnosed as a metabolic syndrome.</p><p id="2297904f-03a9-81df-9530-f93b0eb8f54e" class="">1)Central (abdominal) obesity, waist circumference &gt; 94 cm in men and &gt; 80 cm in women (Europe, country-specific).</p><p id="2297904f-03a9-812b-afae-caa76e45e7f4" class="">2)Hypertriglyceridemia (≥ 150 mg/ml)</p><p id="2297904f-03a9-814a-8f23-ea78c00414b5" class="">3)Low blood levels of HDL cholesterol (&lt; 40%ml in men and &lt; 50%ml in women)</p><p id="2297904f-03a9-8147-ac44-ef8d702fc796" class="">4)Systemic hypertension (≥ 130 / ≥ 85 mmHg)</p><p id="2297904f-03a9-8136-9e20-d97dde6b0e77" class="">5)Elevated fasting blood glucose ≥ 110 mg/ml (index of more or less marked insulin resistance)</p><p id="2297904f-03a9-81f6-909f-dc691ea5c15d" class="">Usually, a metabolic syndrome is characterized by a state of hypercoagulability of the blood (increased blood levels of <strong>PAI-1</strong>: Plasminogen Activator Inhibitor-1). This is a risk factor for atherosclerosis as thrombus formation is favored.</p><p id="2297904f-03a9-81cf-bac0-ed0c1768750d" class="">In <em>fig.15</em>, you can see how central obesity differs from region to region. <em>Fig. 15</em></p><figure id="2297904f-03a9-81eb-82fb-caab169750f4" class="image"><a href="diabetes%20mellitus%202297904f03a981478257c24422a07273/image27.png"><img style="width:649px" src="diabetes%20mellitus%202297904f03a981478257c24422a07273/image27.png"/></a></figure><p id="2297904f-03a9-8150-8b81-dc27268bc389" class="">Jayamaha Tamasha, Zogheri Allegra</p><p id="2297904f-03a9-8112-afac-c80eac7d5661" class="">101</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

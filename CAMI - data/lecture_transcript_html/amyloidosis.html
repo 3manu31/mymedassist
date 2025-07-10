@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> amyloidosis</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81a2-bd18-dd74d8ca92cd" class="page sans"><header><h1 class="page-title"> amyloidosis</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-8145-9004-d191c65868ce" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-818a-ac23-ef4baf2505d8" class=""><strong>AMYLOIDOSIS</strong></p><p id="2297904f-03a9-81a9-92a4-e053e676a83a" class="">Today we will talk about a specific group of diseases which are associated with a number of inherited and inflammatory disorders.</p><p id="2297904f-03a9-817d-90d3-f37a004573dd" class="">Amyloidosis is related to the extracellular accumulation of amyloid, a deposit of fibrillary proteins. As a consequence of the deposition of these fibrillar proteins (misfolded proteins) in the extracellular tissues, the organs of the tissues involved will be compromised both from a morphological and functional point of view.</p><p id="2297904f-03a9-8150-aa03-d7e484cea3f7" class="">This is a dynamic process, there are some abnormal proteins that are produced. Due to some mechanisms they can not be removed, so they start to aggregate forming misfolded proteins, with a β-sheet conformation, therefore the enzymes in the tissues cannot digest them.</p><p id="2297904f-03a9-819a-a7e9-f4c0cf1ca2ad" class="">At least 23 different proteins have been identified. They are insoluble (so they cannot be degraded thanks to the action of specific enzymes), toxic (as they aggregate forming some deposits) to find a funny configuration, in the form of skeins of β-sheet fibrillary proteins.</p><p id="2297904f-03a9-815a-8c5a-e6c144e0f156" class="">We can distinguish two types of amyloid depositions:</p><p id="2297904f-03a9-8134-8726-c4f025f9cc55" class="">1.<strong>Systemic or generalised amyloidosis</strong>: Deposits are in various organs which are compromised from a morphological and functional point of view</p><p id="2297904f-03a9-814c-b81c-f52a5f584783" class=""><strong>2.Localised amyloidosis</strong>: Deposits only at the level of a specific organ, e.g. the brain or the heart.</p><p id="2297904f-03a9-8175-a4ec-d0a3babaece9" class="">Amyloidosis can also be:</p><p id="2297904f-03a9-81e4-a2ef-f1be9a9c1d0e" class="">1.<strong>Primary</strong> -&gt; idiopathic deposition of misfolded proteins</p><p id="2297904f-03a9-8150-97fa-f999e56dc786" class="">2.<strong>Secondary</strong> -&gt; deposition of abnormal proteins is associated to other pathological conditions</p><p id="2297904f-03a9-8191-9fbc-eceff5947ae2" class="">Amyloids are present in the extracellular space of various tissues and organs. It is observable in the organs of mesodermal origins but also in the parenchyma. So most of the target organs/tissues are peripheral nerves, skin, tongue, joints, heart, liver, spleen, kidneys, adrenals, some glands (adrenal, pituitary, …), lymph nodes, thyroid, etc.</p><p id="2297904f-03a9-816c-a1a6-ce40d4686474" class="">Amyloidosis affects the parenchymatous organs more frequently, where there is a chronic inflammation with some acute events. E.g. in case of tuberculosis, solid tumours, rheumatoid arthritis, osteomyelitis.</p><p id="2297904f-03a9-81ba-9a7f-dee0d4c06e45" class="">We can have deposition of amyloids also in the vessel walls and in other interstitial compartments. These accumulations are very dangerous as they compromise both morphological and functional points of view. They can compress the tissue and organ, compromising the blood vessels and causing a reduction in the distribution of the blood in the organs. Because of the altered exchanges between blood and tissues, the final result is that the cell starts to suffer and die causing atrophy of the tissue.</p><p id="2297904f-03a9-81a3-afb9-e97267a5a8fb" class="">Amyloid deposits were identified by Virchow in 1854. He discovered that these deposits had the property to <strong>react with iodine</strong> with a similar reaction of the starch. To recognize the starch we use an iodine solution but Virchow discovered that these misfolded proteins can react with the same iodine solution, for that reason he called them amyloid deposits, although these proteins have nothing to do with starch.</p><p id="2297904f-03a9-811a-ae7e-c5e2d7ecd8db" class="">Later on other techniques were used to study amyloid deposits.</p><p id="2297904f-03a9-81b6-87ab-fe9693caae68" class="">E.g. With <strong>H&amp;E</strong> and the <strong>light microscope</strong>, it was possible to observe that these extracellular deposits consist of an amorphous, homogeneous, eosinophilic, and hyaline extracellular substance.</p><p id="2297904f-03a9-810f-8094-e07cfb849485" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-8113-a90d-f07c86e6146c" class="">90</p><p id="2297904f-03a9-81a5-9396-f7cbf2ab72e4" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-8167-9e05-c13dea209fcc" class="">Thanks to <strong>electron microscope</strong> they discovered that amyloids consist of continuous non-branching fibrils.</p><p id="2297904f-03a9-8171-9428-dc9379f50496" class="">Moreover with <strong>X-ray crystallography</strong> and <strong>infrared spectroscopy</strong> they found out that these proteins are arranged according to an extremely stable cross-β-pleated sheet conformation.</p><p id="2297904f-03a9-816d-ab81-d36490b0d56d" class="">With another technique it has been observed that in these fibres there are selective points where the <strong>Congo red staining</strong> can bind to these fibrils. So it was possible to observe how amyloid deposits are not only composed of amorphous materials but also by fibrillar material, not a homogeneous material.</p><p id="2297904f-03a9-8128-94ea-d447221bd27b" class="">Here you can see the sites where the Congo red stain can bind (<em>fig.1</em>).</p><p id="2297904f-03a9-814f-a014-e741e4717d79" class=""><em>fig.1</em> <strong>FIBRILS:</strong></p><figure id="2297904f-03a9-814c-849f-dabbe8542ceb" class="image"><a href="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image1.png"><img style="width:433px" src="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image1.png"/></a></figure><p id="2297904f-03a9-81f8-a874-c1536bbc72cf" class="">Each fibre of amyloid is composed of 4 - 6 fibrils.</p><p id="2297904f-03a9-81b4-95ae-e5f28f3cbb86" class="">fibrils are without branches, and have a diameter of 7.5-10 nm.</p><p id="2297904f-03a9-81af-acd4-f25154c0d943" class="">Why can&#x27;t these deposits of amyloid be removed? Because with these specific conformations, they cannot be attacked by the normal enzymes. So these proteins are going to form deposits in the parenchyma causing different damages in the tissue or in the organ. So there is a failure of the organ at the end.</p><figure id="2297904f-03a9-81e3-9c7e-e9b6a9176da8" class="image"><a href="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image2.png"><img style="width:292px" src="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image2.png"/></a></figure><p id="2297904f-03a9-81e5-b1ac-d55f342b6c3a" class=""><em>fig.2</em></p><p id="2297904f-03a9-81aa-ae1f-d71b91db31b9" class="">These fibrils wound around one another to form the amyloid fiber that</p><p id="2297904f-03a9-81c7-9e99-e1b8ab02e289" class="">forms the β-sheet conformation.</p><p id="2297904f-03a9-81fc-ba9a-e04396513bc8" class="">Each fibril has variable length, it is rigid, non-branched and has a diameter of 7.5-10 nm.</p><p id="2297904f-03a9-8193-8b0b-e92ab588c66f" class="">For example, with the electron microscope you can observe how these</p><p id="2297904f-03a9-81b9-9969-caff3135a241" class=""><em>Q: What is the origin of these proteins?</em></p><p id="2297904f-03a9-816e-bde4-c1446326a74b" class=""><em>A: They are normal proteins that start to aggregate and accumulate in an excessive way and cannot be removed by the normal system (macrophages, ubiquitin proteasome system…).</em></p><p id="2297904f-03a9-81a5-ae93-e76b02fa8b66" class=""><em>Q: Which is the specific protein in the original form?</em></p><p id="2297904f-03a9-81e9-a226-cdaa8d8c2739" class=""><em>A: There are different proteins that can fold in that improper way, there is not a specific protein.</em></p><p id="2297904f-03a9-81b9-8114-d2df11a17e56" class=""><em>Q: Are prions involved in this process?</em></p><p id="2297904f-03a9-81ba-b205-dae6a0ee53cc" class=""><em>A: Yes</em></p><p id="2297904f-03a9-81cb-b787-d32363a6df2a" class=""><em>Q: What is the difference between prions and amyloids?</em></p><p id="2297904f-03a9-8120-a703-ed6364fc8bb4" class=""><em>A: Amyloid is a common way to identify any kind of misfolded proteins with these β-sheet conformation, that are insoluble and cannot be attacked/destroyed by enzymes. Independently of their origin they all react with the iodine solution, as well as it occurs when I want to recognize the starch or amylose. That’s why it is called amyloid. But it has nothing to do with the amylose.</em></p><p id="2297904f-03a9-81a7-b520-d6db0890368b" class=""><strong>STRUCTURE OF THE AMYLOID FIBRE</strong></p><p id="2297904f-03a9-81b9-a48e-f98ae0629167" class="">Concerning the structure of the amyloid fiber, it is formed in 95% of non-branched and rigid fibrils, but 5% is a globular lipoprotein plus some glycosaminoglycans. This globular glycoprotein is also called AP - amyloid P</p><p id="2297904f-03a9-8179-9d35-e1a978a7755c" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-8189-a565-c7dbf12c8b45" class="">91</p><p id="2297904f-03a9-819f-91cb-ceb5c3173ccc" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-81a1-a91e-d4a250f00931" class="">component. AP, together with the glycosaminoglycans, binds to the fibrils.</p><p id="2297904f-03a9-812f-8da4-eb78444e327d" class="">Amyloid P component (AP) is a globular glycoprotein:</p><p id="2297904f-03a9-8174-824a-c4ad13445ab9" class="">- belongs to the class of pentrassins (pentameric proteins consisting of 5 identical monomer subunits associated with Ca2+ which bind to each other to form a pentagonal structure)</p><p id="2297904f-03a9-8110-8671-e8b70cfd8b3f" class="">- It has a pentagonal shape</p><p id="2297904f-03a9-8138-a9ed-f0d3c3e0ade2" class="">- It binds to fibroids in a calcium-dependent way</p><p id="2297904f-03a9-818e-adf1-d03c78251d73" class="">- AP has a blood precursor (SAP - serum AP) which is free in the serum</p><p id="2297904f-03a9-8108-b7f9-ee64a2fa2664" class="">Amyloidosis is a group of diseases that results from abnormal folding of proteins which are insoluble, aggregate, and form deposits as fibrils in extracellular tissues.</p><p id="2297904f-03a9-81b7-b25c-e34580ed9061" class="">Normally we have some mechanisms to degrade them: misfolded proteins are degraded intracellularly in proteasomes or extracellularly by macrophages.</p><p id="2297904f-03a9-81e2-913f-d56a05d664b5" class="">In amyloidosis these mechanisms fail, so they are not able to completely remove these deposits, which start accumulating a misfolded protein outside the cells.</p><p id="2297904f-03a9-8148-8eed-f5b8d221c76b" class="">We can observe two general categories of proteins:</p><p id="2297904f-03a9-81a8-af9c-cc56460d6a14" class="">- Normal proteins that have an inherent tendency to fold improperly, associate and form fibrils when they are produced in increased amounts; therefore, when normal proteins are secreted in abnormal amounts.</p><ul id="2297904f-03a9-812c-9002-d8b4e4a0de10" class="bulleted-list"><li style="list-style-type:disc">Mutant proteins that are prone to misfolding and subsequent aggregation.</li></ul><p id="2297904f-03a9-81de-9cef-db0861ed5dbb" class=""><strong>FORMATION OF A B SHEET STRUCTURE</strong> (<em>fig.3</em>)</p><p id="2297904f-03a9-81ec-ae5f-cb7676638b2f" class="">We can have the formation of these deposits as a consequence of increased production of normal proteins, as in the case of increased proliferation of plasma cells. We can also have an increased production of proteins associated with diseases characterized by chronic inflammation, where we have an increased production of inflammatory mediators. Or we can have the production of a normal quantity of proteins but the proteins are mutated because of some genetic problems.</p><figure id="2297904f-03a9-819c-871d-fc9e39fc4e31" class="image"><a href="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image3.png"><img style="width:700px" src="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image3.png"/></a></figure><p id="2297904f-03a9-8146-be0f-e5dee9ac1050" class=""><em>fig.3</em></p><p id="2297904f-03a9-81d9-be18-f3c49b1b984e" class=""><em>Q: When we mentioned liver fibrosis, did we mean this? Is this what we talked about when talking about cirrhosis?</em></p><p id="2297904f-03a9-81f9-9bca-c45955967bbb" class=""><em>A: We can have some areas of cirrhosis characterised by amyloidosis because in case of cirrhosis we have a chronic inflammation and fibrosis. Fibrosis is when you have a deposition of fibrotic tissue because of an</em></p><p id="2297904f-03a9-81f2-9692-d080143550d0" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-8187-9d05-fb5a88182f53" class="">92</p><p id="2297904f-03a9-81f5-b032-ec685b2b8f77" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-81f5-96e4-c82325e609b7" class=""><em>increased production of extracellular matrix components such as collagen fibers, but we can also have amyloid deposits.</em></p><p id="2297904f-03a9-8123-87fd-f015adf198de" class=""><em>Q: What is the AL protein?</em></p><p id="2297904f-03a9-81bf-9771-ec936dbb252f" class=""><em>A: AL stands for Amyloid Light chain. Because this kind of amyloidosis is caused by an accumulation in case of monoclonal proliferation. We have proliferation of plasma cells with the production of lambda and k light chains.</em></p><p id="2297904f-03a9-8197-aef5-e72eff8b0609" class=""><strong>CLASSIFICATIONS:</strong></p><p id="2297904f-03a9-81da-a9b0-d0fd2174ca5d" class=""><strong>Systemic (generalised) amyloidosis</strong> in which many organs may be involved. We can have two subclasses: - <strong>Primary</strong> are associated with plasma cells disorders</p><p id="2297904f-03a9-81fe-a0cf-e28ee5294d7e" class="">- <strong>Secondary</strong> to other pathological conditions characterized by chronic inflammation</p><p id="2297904f-03a9-81a0-a4c0-e03d210b6e82" class=""><strong>Localised amyloidosis</strong>, when deposits are limited to a single organ, such as the heart or the brain.</p><p id="2297904f-03a9-8164-849a-e11ace42cf56" class=""><strong>SYSTEMIC AMYLOIDOSES</strong> (<em>fig. 4</em>)</p><p id="2297904f-03a9-81c0-9db3-ed5d36859f5b" class="">Four classes of systemic amyloidosis have been described.</p><p id="2297904f-03a9-819a-9f20-c91fba4a5c6b" class="">a.Reactive amyloidosis</p><p id="2297904f-03a9-81e7-b224-f83d0f31aeaa" class="">b.Amyloidosis associated with immunocytes disorders</p><p id="2297904f-03a9-8103-9cf2-ce23d1cdec58" class="">c.Amyloidosis associated with familiar defects</p><p id="2297904f-03a9-817e-a105-dee8e32be4bc" class="">d.Amyloidosis associated with hemodialysis</p><figure id="2297904f-03a9-817e-951c-eabadbefc8de" class="image"><a href="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image4.png"><img style="width:545px" src="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image4.png"/></a></figure><p id="2297904f-03a9-8188-8194-cb19af1ffd94" class=""><em>fig.4</em></p><p id="2297904f-03a9-8155-926c-ca5f697e1819" class=""><strong>A)REACTIVE SYSTEMIC AMYLOIDOSIS (AA FIBRILS)– SECONDARY AMYLOIDOSIS</strong></p><p id="2297904f-03a9-8170-a3d4-e7580e611667" class="">It is linked to other diseases associated (secondary) to chronic inflammation and tissue necrosis:</p><p id="2297904f-03a9-8193-88c6-c61bf6e21140" class="">Tuberculosis, chronic osteomyelitis, bronchiectasis, pressure (decubitus) ulcers, infected burns, rheumatoid arthritis, other connective tissue disorders (ankylosing spondylitis), inflammatory bowel disease (Crohn</p><p id="2297904f-03a9-81d4-97f1-eaf67ea20a09" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-8129-99c3-c4b3124b8f5c" class="">93</p><p id="2297904f-03a9-8124-ab0a-ec322a2d3f8c" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-8145-97ba-fbde70f30d6d" class="">disease and ulcerative colitis), solid tumours (renal cell carcinoma, mesotheliomas, Hodgkin lymphoma), etc. During these diseases there is a high synthesis of cytokines that are produced by the inflammatory process. These products stimulate the liver to produce the precursor, SAA (serum amyloid, acute phase) protein. In fact during chronic inflammation we have an increased production of the acute phase proteins.</p><p id="2297904f-03a9-81a7-a91a-f0764db2da9a" class="">These precursors are normally degraded by monocyte-derived enzymes (mainly metalloproteinase - MMPs), but if the action of the enzyme fails, the enzymes are not able to degrade the precursors. The results are incomplete breakdown of SAA insoluble AA molecules and genetic structural abnormality of SAA resistant to degradation by macrophages.</p><p id="2297904f-03a9-8152-8132-edaf881cb188" class="">To recognize these amyloidoses I can perform a histological diagnosis with anti-AA antibodies. You will see that in all the amyloidosis you will have the involvement mainly of kidney, liver and spleen.</p><p id="2297904f-03a9-81c5-bc9d-dfdd6f661dbd" class=""><em>Q: Is the non-soluble AA the SAA?</em></p><p id="2297904f-03a9-812a-a472-e0538a0a3af3" class=""><em>A: No, the SAA is the normal protein produced by the liver. These normal proteins if they are produced in excess they are degraded by some enzymes. If the enzymes do not work, the result is the formation of insoluble peptides (insoluble AA).</em></p><p id="2297904f-03a9-818a-ab7a-ef2434a36d65" class=""><em>Q: What is the function of SAA?</em></p><p id="2297904f-03a9-81bb-877a-d151e96c4665" class=""><em>A: SAA is an acute phase protein, which has the function to increase the inflammatory response. Some acute phase proteins are albumin, fibrinogens, reactive protein C. The amount of these proteins increase when there is an inflammatory process.</em></p><p id="2297904f-03a9-817f-bee3-cbe9b00b5aee" class=""><strong>B)IMMUNOCYTE DISORDERS WITH AMYLOIDOSIS (AL FIBRILS)–SYSTEMIC AND PRIMARY AMYLOIDOSIS</strong></p><p id="2297904f-03a9-8130-9f9c-ff5a48246c70" class="">Systemic because it can involve various organs, but is primary because it is not associated with other pathological conditions as the first form that we have seen.</p><p id="2297904f-03a9-81d5-add9-db5d9328332e" class="">Caused by exaggerated monoclonal proliferation of plasma cells. We can observe this kind of amyloidosis in: - 10-15% of multiple myeloma cases (degradation of the bone tissue caused by the osteoclasts. This patient have fragile bones which may break)</p><p id="2297904f-03a9-813f-86e4-d755afd5f5e8" class="">- 20-25% of light chain disease cases</p><p id="2297904f-03a9-810e-b0d0-cef03bfafb08" class="">- Some neoplastic and non-neoplastic proliferative processes of plasma cells and B lymphocytes The protein, which is prone to fold in the improper way, is the AL fibril protein (A: amyloid; L: light chains). These protein constituents are: free and unpaired k or lambda light chains or their fragments (referred to as Bence-Jones protein);</p><p id="2297904f-03a9-81b4-b217-e15654eba432" class="">- L-lambda are present 2-3 times more than L-k. These light chains are synthesized by the leukocytes.</p><p id="2297904f-03a9-8191-8b25-cb4daf6db7e2" class="">These diseases are caused by an excessive proliferation of immunocytes → A great proliferation of cells is a great production of light chains.</p><p id="2297904f-03a9-811f-81a1-c615905420d9" class="">Free light chains are present in the serum, urine and are also deposited in tissues as amyloid.</p><p id="2297904f-03a9-817d-a8e6-cb1829b27a9a" class="">Not all the free light chains can accumulate and aggregate forming the final amyloid deposits; only some of them have an amino acid sequence compatible with B-fibrillar configuration. That depends on the sequences of AAs. Only the lambda light chains have a specific sequence of AAs.</p><p id="2297904f-03a9-8152-a42f-cf7aa9a2641e" class="">Organs involved are heart, kidneys, liver, spleen, etc.</p><p id="2297904f-03a9-814d-86bc-c0aa56bf914e" class=""><strong>C)HEREDOFAMILIAL AMYLOIDOSIS (AA,ATTR FIBRILS)–SYSTEMIC AND PRIMARY AMYLOIDOSIS</strong></p><p id="2297904f-03a9-81c1-b3a4-caed4e7095fe" class="">In this case the quantity of the protein is normal, but the protein is a mutant one. We can have two types:</p><p id="2297904f-03a9-8151-bcda-d17d53fed4cf" class=""><strong>1. Non-neuropathic</strong></p><p id="2297904f-03a9-8128-8ada-de906822191e" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-81c9-aa72-cfcb5917bc86" class="">94</p><p id="2297904f-03a9-8149-82ec-cf6725ae57fa" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-81b8-b65e-db7c6970b729" class="">We can see this disease in familial Mediterranean fever (autosomal recessive). It is an auto inflammatory syndrome characterized by the presence of inflammatory cells that are not able to function properly (hereditary defects of PMN function). There is an excessive production of IL-1, which can stimulate the liver to produce a high quantity of acute phase proteins. There are also attacks of fever associated with inflammation of serosal surfaces (peritoneum, pleura, synovial membrane).</p><p id="2297904f-03a9-81e5-b3e1-c8f448452483" class="">The precursor that is produced is the SAA protein, serum amyloid acute phase protein, which will not be degraded properly, and so starts to accumulate.</p><p id="2297904f-03a9-81ea-a866-cb0f55ee55c7" class="">AA fibril protein (A: amyloid; A: acute phase) derives from the proteolytic degradation of SAA.</p><p id="2297904f-03a9-81af-bfed-d7378559d649" class=""><strong>2. Neuropathic</strong></p><p id="2297904f-03a9-8192-ad63-ea72af3946a5" class="">This type is associated with pathologies that affect the nerves, as Familial disorders such as polyneuropathies (e.g. familial amyloidotic polyneuropathies or FAP), cardiomyopathy, kidney disease (autosomal dominant).</p><p id="2297904f-03a9-8175-be7a-c5da04208ddd" class="">The misfolded proteins are indicated as ATTR fibril protein (A: amyloid, TTR: transthyretin), besides normal protein there are fragments of mutant TTR.</p><p id="2297904f-03a9-81db-9420-d462d56cef69" class="">The genetic defects of protein synthesis are due to a mutant transthyretin (TTR).</p><p id="2297904f-03a9-81d2-85bc-d36c80583e5f" class="">The most common defect is the replacement of single valine with methionine at position 30. TTR does not increase in blood but it is deposited as amyloid fibrils in the connective tissue because genetically determined alterations of structure promote TTR misfolding and aggregation.</p><p id="2297904f-03a9-8149-b056-e5f985f4dc98" class="">The organs involved are mainly kidneys and thyroid. In familial Mediterranean fever the organs involved are kidneys, blood vessels, spleen, respiratory tract. In case of FAP the deposition of amyloid is in peripheral and autonomic nerves.</p><p id="2297904f-03a9-8181-b56e-d5b9eb795df0" class=""><strong>D)HEMODIALYSIS-ASSOCIATED AMYLOIDOSIS (AH FIBRILS)– SYSTEMIC AND SECONDARY AMYLOIDOSIS</strong></p><p id="2297904f-03a9-814c-9fe3-feeb0d28bd48" class="">The main patients affected are on long-term hemodialysis for renal failure, after 7-10 years of hemodialysis. These deposits are present in the carpal ligament of the wrist resulting in compression of the median nerve, so these pathologies that cause it are called bilateral carpal tunnel syndrome, with cystic bone lesions and amyloid deposition in the synovium and bones.</p><p id="2297904f-03a9-81e3-91f4-e74df452ece0" class="">The misfolded protein involved is the AH fibril protein (A: amyloid; H: hemodialysis) or AB2m, while the protein component is B2-microglobulin; it is present in high concentrations in the serum of persons with renal dysfunction (it cannot be filtered through dialysis membranes). These proteins can bind to collagen and settle in the connective. They are synthesized in the liver. The target organs are skeletal and muscular systems.</p><p id="2297904f-03a9-81b7-a573-f1a93e350eca" class=""><em>Q: What is hemodialysis?</em></p><p id="2297904f-03a9-819c-a25b-ceee7ee2775b" class=""><em>A: It is a mechanism to eliminate the toxic compound (e.g. bilirubin) to the blood. It is an artificial substitution to the kidneys that do not function properly.</em></p><p id="2297904f-03a9-81ec-b312-cc783fb243f5" class=""><strong>LOCALISED FORMS OF AMYLOIDOSIS</strong></p><p id="2297904f-03a9-81fd-94d5-f8f789b0fa70" class="">Localised deposition of amyloid in a single organ or tissue, mainly veins and heart, (no involvement of other sites in the body). The deposits may produce detectable nodular masses or be evident only on microscopic examination.</p><p id="2297904f-03a9-81c7-8b8a-d1c0b0c0a71c" class=""><strong>A)AMYLOID OF AGEING (AS FIBRILS)– LOCALISED SENIL AMYLOIDOSIS</strong></p><p id="2297904f-03a9-8170-b6fc-d5e4fb8f8d41" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-8199-84fb-f6939f60e92c" class="">95</p><p id="2297904f-03a9-8123-b2ed-d6736b8f3725" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-81ee-afae-f5e1ea033b31" class="">Linked to older patients, they are responsible for serious degenerative CNS disorders:</p><p id="2297904f-03a9-8163-be02-f979527c0c6a" class="">- <strong>Alzheimer&#x27;s disease</strong>: The precursor is indicated as APP (Amyloid Precursor Protein). We have a proteolysis of this protein that can happen in two ways, leading to:</p><p id="2297904f-03a9-81a1-bfee-d79607611118" class="">1.A <strong>non amyloidogenic pathway</strong>: In this case, two enzymes are involved (alpha and gamma secretase). These enzymes are able to degrade the ATP in soluble fragments.</p><p id="2297904f-03a9-8127-95cf-db5948747dfd" class="">2.An <strong>amyloidogenic pathway</strong>: In this case, instead of the alpha secretase, we have the involvement of beta secretase. If the beta secretase plus the gamma secretase try to cut these proteins, the result is the formation of some soluble fragments plus an insoluble fragment that is the amyloid beta. This insoluble portion of the ATP can be composed of 40,41,42 or 43 amino acids. The most toxic type is composed of 42 amino acids.</p><p id="2297904f-03a9-81d4-9893-f1baa8a2377f" class="">AS fibril protein: (A: amyloid; S: senile)</p><p id="2297904f-03a9-8142-8d68-f45f23e19709" class="">- <strong>Prion encephalopathy</strong> (Gertsmann-Straussler-Sheinker or GSS): caused by the accumulation of abnormal prion proteins indicated as PrPc. This is responsible for severe damages in the central nervous system. This disease is fatal in a short time.</p><ul id="2297904f-03a9-819b-b632-ce72e7017014" class="bulleted-list"><li style="list-style-type:disc"><strong>Senile cardiac amyloidosis</strong> (increased levels of normal TTR): the excessive protein is normal but it is not eliminated so it starts to aggregate forming the deposits.</li></ul><ul id="2297904f-03a9-8140-ad57-d80d40425ab9" class="bulleted-list"><li style="list-style-type:disc">The target organs are brain and heart</li></ul><p id="2297904f-03a9-816d-b023-d9d3ae58ae6d" class="">Q: What are the possible symptoms of a possible amyloidosis on the heart?</p><p id="2297904f-03a9-816c-8c80-f196d74e3822" class="">A: The deposits start at the level of the endocardium but could get to the myocardium causing atrophy of the cells due to the pressure which is applied on them. The myocardium will lose its functions. These deposits could also appear in the valves of the heart, so finally there is a severe failure of the heart because it will be compromised from a functional point of view.</p><p id="2297904f-03a9-81b5-9da6-e476bedab80d" class=""><strong>B)ENDOCRINE AMYLOID (AE FIBRILS)- LOCALISED AMYLOIDOSIS ASSOCIATED WITH METABOLIC DISORDERS OR</strong></p><p id="2297904f-03a9-811e-b7e0-eaaf78d8c747" class=""><strong>TUMOURS OF ENDOCRINE GLANDS</strong></p><p id="2297904f-03a9-8111-8903-dc732c41ea70" class="">It may be involved in:</p><p id="2297904f-03a9-8181-8971-c3d4932dcd32" class="">- Medullary carcinoma of the thyroid gland;</p><p id="2297904f-03a9-818b-9ca4-cf753570a1d5" class="">- Islet tumours of the pancreas,</p><p id="2297904f-03a9-816e-ad6c-de655de270ac" class="">- Islet of Langerhans in type II diabetes mellitus, etc.</p><p id="2297904f-03a9-81a0-9d0c-f992af9c3d0e" class="">The misfolded protein is the AE fibril protein (A: amyloid, E: endocrine)</p><p id="2297904f-03a9-81b3-be25-e9e8e22ab5d5" class="">Protein component (locally produced peptides):</p><p id="2297904f-03a9-816d-bccb-ca0b902d459d" class="">- Precursor of calcitonin;</p><p id="2297904f-03a9-810d-85c2-ee03e8fa5e87" class="">- Precursor of amylin (IAPP, islet amyloid polypeptide) produced by the B cells of the pancreas.</p><p id="2297904f-03a9-811e-9582-c3dc6cdec6e7" class="">There are depositions of B-fibrils for anomalies of precursor metabolism in case of mutated precursors or in normal proteins in excess, or altered local conditions.</p><p id="2297904f-03a9-8141-a13c-e13f769f412e" class="">The target organs are the endocrine glands.</p><p id="2297904f-03a9-814a-93c2-d6d3da6da3cd" class="">TO SUMMARIZE: <em>Fig.5</em> gives the classification of amyloidosis.</p><p id="2297904f-03a9-8182-8c5c-d4dd913fd76c" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-811c-8ddb-d75b22ece8cd" class="">96</p><p id="2297904f-03a9-811d-8a75-f0beb37c8f3a" class="">16.05.2023 LEONARDUZZI L.8</p><figure id="2297904f-03a9-817c-9afb-dfb16cb204cc" class="image"><a href="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image5.png"><img style="width:700px" src="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image5.png"/></a></figure><p id="2297904f-03a9-8192-994c-c048fb995927" class=""><em>fig.5</em></p><p id="2297904f-03a9-8170-b35b-e8ee369a4b64" class=""><em>Q: How is it possible to accumulate only light chains? Aren’t light chains always bound to heavy chains? A: This is true for example for antibodies, but some types of amyloidosis are characterized by an increased proliferation of specific proteins. In this case we have diseases associated with increased proliferation of plasma cells, lymphocytes (multiple myeloma) etc. Normally we already have a higher production of light chains compared to heavy chains and when there is an overproduction of proteins (or mutated/abnormal) there are systems able to get rid of these proteins such as the ubiquitin-proteasome system. These pathways are important to eliminate excessive amounts of specific proteins or “wrong” proteins. The </em><em><strong>primary amyloidosis</strong></em><em> instead ischaracterized by the </em><em><strong>extra production of light chains</strong></em><em> (not all bound to the heavy chains) that aggregate and deposit in pairs or fragments because the light chains have abnormalities in the sequences of the amino acids.</em></p><p id="2297904f-03a9-81fe-a150-cfa682124f12" class=""><em>Q: Can you explain </em><em><strong>hemodialysis</strong></em><em>?</em></p><p id="2297904f-03a9-811f-8765-ef9a3b095458" class=""><em>A: Hemodialysis is a technique to remove from the blood all the wastes: metabolites and in general compounds that have to be eliminated. Usually, this function is exerted by the kidnes: they purify and clean the blood through filtration in order to eliminate all the substances with urine. If the kidneys do not work properly the toxic compounds (urea, ammonia…) cannot be eliminated from the blood, that’s why we use an external mechanism to purify it: hemodialysis. It’s important to purify the blood especially when the function of the kidneys is at 15-20%.</em></p><p id="2297904f-03a9-819e-a092-d17330a5caab" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-815d-9474-f11483bfcbe4" class=""><em>fig.6</em></p><figure id="2297904f-03a9-817c-9a93-d430b0dc4bc1" class="image"><a href="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image6.png"><img style="width:689px" src="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image6.png"/></a></figure><p id="2297904f-03a9-817e-a50c-c0d0c2a6af28" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-811b-b2e6-e47f4a72bac5" class=""><em>Methodology → The doctor inserts an access in the blood vessel of the patient (usually in the arm), the blood goes outside of the body and is filtered outside of the body by a particular machine called </em><em><strong>dialyzer</strong></em><em> (or artificial kidney). Once the blood is filtered it is inserted back into the vessels of the patient. All the proteins and cells of the blood are not lost obviously but only the toxic compounds that have a diameter small enough to be filtered.</em></p><p id="2297904f-03a9-81be-80f1-d467df155bc8" class=""><em>Q: Is it possible to have hypotension related to amyloidosis?</em></p><p id="2297904f-03a9-81ea-a4ed-e6b29afc67f7" class=""><em>A: The presence of deposits in the walls of vessels is responsible for the reduction of diameter of the lumen and thus can provoke alterations of the blood circulation (vasoconstriction). If these deposits affect the heart it’s possible to have hypotension. To keep the blood pressure at physiological values all the systems have to work properly: the cardiac output, the volume and peripheral resistance. If the heart is not able to work properly due to the deposits of amyloids this will cause atrophy of the myocardium and consequently the heart failure. In this case the patient can have hypotension because it is not possible to keep pressure at high levels.</em></p><p id="2297904f-03a9-81c9-9da6-cc9139ff4d5c" class=""><em>Another example is if the deposits of amyloids are in the kidneys. In this case it’s also possible to have hypotension because kidneys are important organs to control the blood pressure due to renin-angiotensin and aldosterone system.</em></p><p id="2297904f-03a9-8121-91b4-fb0f217df9a4" class=""><strong>CLINICAL MANIFESTATION</strong></p><p id="2297904f-03a9-81ac-99f1-f8abb397783b" class="">Clinical manifestation of amyloidosis depends on the severity of the accumulation of the deposits of amyloids and on the importance of the organ.</p><p id="2297904f-03a9-811e-8a86-dac06208637a" class="">We can have two situations:</p><p id="2297904f-03a9-8138-8323-dca3f4a2c4b9" class="">1.Amyloidosis with unexpected anatomic (conformation) change without clinical manifestations; 2.Amyloidosis with serious clinical problems and even death;</p><p id="2297904f-03a9-817d-8dfb-e81bcc2437df" class="">At the beginning the clinical manifestations are not specific. Subjects accuse weakness, weight loss, light-headedness, syncope, confusion, …, so they have general problems.</p><p id="2297904f-03a9-81d3-90e5-ea5ea547ad54" class="">Later, when the amounts of the deposits are increased we have the onset of some specific clinical manifestations: with renal, cardiac, GI tract involvement, and failure of the organs. This kind of disease is considered <strong>progressive</strong>.</p><p id="2297904f-03a9-8108-b741-f33dec5ad872" class="">Many organs are involved. In the case of systemic amyloidosis in fact the disease is fatal.</p><p id="2297904f-03a9-8134-bcf9-d09882ecdefa" class="">The prognosis for the patients is usually poor. The patients usually die.</p><p id="2297904f-03a9-8108-a9d2-e9958473a20f" class="">The main organs involved in amyloidosis are:</p><p id="2297904f-03a9-810a-8d70-ff62fac07fed" class=""><strong>KIDNEYS</strong></p><p id="2297904f-03a9-8131-b24d-c692156f476f" class="">At the beginning they can have normal size, shape and color but later on due to the increased deposition of amyloids in the vascular walls, the kidneys can become severely compromised with the reduction of the diameter of the arterioles, the involvement of the glomerulus and then interstitial peritubular tissues. At the beginning the patient will have a <strong>mild proteinuria</strong>, then with the progression of the disease a severe impairment of the kidneys resulting in an irreversible damage characterized by an <strong>irreversible uremia</strong>, then the <strong>renal failure</strong> that can lead to death.</p><p id="2297904f-03a9-816d-9eef-dbe5dcf2153c" class="">The only solutions to contrast the insufficiency of the kidney are hemodialysis or transplantation. It is very dangerous to keep all the toxic substances in our body (for example if ammonia accumulates it can reach the</p><p id="2297904f-03a9-813b-bf90-ef5270eb7425" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-819b-8fbc-eefa845ac4d1" class="">98</p><figure id="2297904f-03a9-81f4-b57b-d66c55f42e4a" class="image"><a href="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image8.png"><img style="width:683px" src="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image8.png"/></a></figure><p id="2297904f-03a9-8158-ba0b-ecb5ca59ee7b" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-813e-a11d-f18ef8015102" class="">brain and cause severe neurological problems such</p><p id="2297904f-03a9-813a-ab00-d28cc54ea9d4" class="">as encephalopathies).</p><p id="2297904f-03a9-81ce-8f03-d69699d255cb" class="">In <em>fig.7</em> you can see the accumulation of amyloids</p><p id="2297904f-03a9-81c4-a05d-c9252680ce2a" class="">in the glomeruli (dark areas) and it’s also possible</p><p id="2297904f-03a9-81bb-a2ed-d317dbbf417d" class="">to see how the architecture of the glomerulus is</p><p id="2297904f-03a9-817d-b86c-c8fc8e153ec7" class="">destroyed. This will compromise in a progressive</p><p id="2297904f-03a9-81bb-bbb9-e9d7259e7c32" class="">way the function of the kidneys: it’s impossible for</p><p id="2297904f-03a9-81f4-b0b5-f530ae3f9e3a" class="">them to remove toxic compounds from our blood.</p><p id="2297904f-03a9-81cc-a65b-e827350e41cf" class=""><em>fig.7</em></p><p id="2297904f-03a9-81ac-a77b-e434c3e68702" class=""><strong>LIVER</strong></p><p id="2297904f-03a9-8116-ac46-f57e1f25cbc1" class="">At the beginning the accumulation of amyloids</p><p id="2297904f-03a9-815e-ab3f-edf896ca6f3b" class="">causes a mild enlargement of the liver</p><p id="2297904f-03a9-816a-a21f-dcfe8d1207e0" class="">(<strong>hepatomegaly</strong>). With the progression of the</p><p id="2297904f-03a9-8103-8205-e9fcc3e727c9" class="">disease the enlargement becomes more marked causing a severe hepatomegaly. At the beginning amyloids start to accumulate in the Disse space and with the progression of the disease in the hepatocytes and in the sinusoids. The presence of these deposits disturb all the exchanges between the circulation and the tissue and can also press the tissue causing death of cells and finally atrophy of the organ. The hepatic vasculature can be affected too and deposits can be present in the vascular walls causing narrowing of vessels; every time that there is an obstruction or a narrowing of the hepatic vessels this cause the increase of pressure at the level of the portal vein (portal hypertension) with all its complications (e.g. ascites). The prognosis in this case is quite severe, because the liver is highly compromised by the presence of the deposits. <em>fig.8</em></p><figure id="2297904f-03a9-81de-8c2e-cf1a928affb3" class="image"><a href="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image7.png"><img style="width:700px" src="amyloidosis%202297904f03a981a2bd18dd74d8ca92cd/image7.png"/></a></figure><p id="2297904f-03a9-8155-98d0-cc8955e1f7a2" class="">In<em>fig.8</em>is possible to see the same slide of the liver stained with different stains:</p><p id="2297904f-03a9-8121-8992-ddcc268ef383" class="">- left → stained with Congo red. Reveals pink-red deposits of amyloid in the walls of blood vessels and along sinusoids.</p><ul id="2297904f-03a9-81c7-adc0-d21c34326ac3" class="bulleted-list"><li style="list-style-type:disc">right → yellow-green birefringence of the deposits.</li></ul><p id="2297904f-03a9-81cd-b15d-f5564cda52ef" class=""><strong>HEART</strong></p><p id="2297904f-03a9-81d3-a81e-c6d6e0472452" class="">It can be affected by both systemic and local amyloidosis. The deposits start to appear at the level of the endocardium, later in the myocardium and then in the pericardium. When the deposits start to accumulate in the myocardium the situation becomes very dangerous because they cross the myocardial fibers causing the death of the fibers (atrophy) and a reduced functionality of the myocardium. It may also involve valves. The consequences are the <strong>atrophy of the myocardial wall</strong> with a consequent <strong>hypomotility,</strong> often atrioventricular and intraventricular conduction are damaged that will lead to <strong>heart failure</strong> with <strong>cardiomegaly, cardiomyopathy</strong> and <strong>arrhythmias</strong> (fatal).</p><p id="2297904f-03a9-81f5-8355-eb43fc26e54b" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-8114-a65c-e3125c2eeeb6" class="">99</p><p id="2297904f-03a9-8194-b304-d768a9f83de2" class="">16.05.2023 LEONARDUZZI L.8</p><p id="2297904f-03a9-815b-a9e2-d33373e3f999" class=""><strong>ENDOCRINE SYSTEM</strong></p><p id="2297904f-03a9-8195-a4c6-fa92773bc20e" class="">Amyloidosis can affect several glands, for example pancreas, thyroids, adrenal glands and pituitary gland. It does not give significant clinical manifestations.</p><p id="2297904f-03a9-8187-95b6-e16a3efa0415" class=""><strong>SPLEEN</strong></p><p id="2297904f-03a9-81a2-baa3-fb887f7d0d2c" class="">Slowly it’s possible to observe a marked splenomegaly (also the activity of the spleen is increased and this will affect the life of the RBCs causing for example anemia). At the beginning the amyloids form the so-called “tapioca-like granules” that are separate accumulation of amyloids. With the progression of the disease these granules fuse together forming a single area occupied by amyloids called “lardaceous spleen”</p><p id="2297904f-03a9-817b-8667-d0a09c5a35a4" class=""><strong>SKIN</strong></p><p id="2297904f-03a9-81cb-87f0-d18d361b9c12" class="">Involved mainly in AL amyloidosis (55%) or AA amyloidosis (42%). In this case it’s possible to observe papules, slightly raised plaques with a waxy appearance mainly in the axillary region, in the anal or inguinal region, on the face, on the neck, and on mucous membranes (ear, tongue). It’s also possible to observe purpura and microhemorrhages.</p><p id="2297904f-03a9-8135-b70b-d1d45d7ec262" class=""><strong>GASTROINTESTINAL TRACT</strong></p><p id="2297904f-03a9-8176-9707-c07f7e8110f7" class="">The patient experiences more clinical symptoms like obstructions, disturbances in digestion, ulcerations, malabsorption, hemorrhages, diarrhea and the enlargement of the tongue (macroglossia). The areas involved in these depositions are the esophagus, the stomach and the large intestine.</p><p id="2297904f-03a9-81ac-8366-f380a9a6fc11" class=""><strong>NERVOUS SYSTEM</strong></p><p id="2297904f-03a9-813a-9863-d4e67efd982f" class="">Familial amyloidosis neuropathies (CNS) and the AL amyloidosis. The deposits can accumulate in CNS and PNS compromising their function. For example the carpal tunnel syndrome (accumulation of amyloids in the nerve of the wrist) and Alzheimer&#x27;s disease (accumulation in the brain of misfolded proteins).</p><p id="2297904f-03a9-8139-b217-d74dc4d1bc5b" class="">We can also have problems with increased blood pressure, sphincter incontinence, etc.</p><p id="2297904f-03a9-810e-9b3b-e57bc753e13d" class=""><strong>JOINTS</strong></p><p id="2297904f-03a9-8112-91d4-f67566b931d3" class="">Deformation of the joints that lead to arthritis but also the synovial membrane, synovial fluid and articular cartilage can be compromised.</p><p id="2297904f-03a9-810c-bdb4-e19604cba87b" class=""><strong>RESPIRATORY SYSTEM</strong></p><p id="2297904f-03a9-81cc-9b3e-d8e0439a9449" class="">Larynx, trachea, bronchi, lungs and all the respiratory organs can be affected by the deposition of amyloids. Here the amyloid aggregates cause the blockage of the ducts and so the air passage.</p><p id="2297904f-03a9-814c-812e-c79576612d13" class=""><strong>TREATMENT</strong></p><p id="2297904f-03a9-815d-b2dc-c04c00934892" class="">There are few ongoing trials that try to treat amyloidosis avoiding the deposition of amyloids in the organs. New drugs studied use different techniques:</p><p id="2297904f-03a9-81fc-b2b4-fa66b3d4c04e" class="">●help the elimination of misfolded proteins</p><p id="2297904f-03a9-819a-b27b-eb8248548a42" class="">●correct protein misfolding</p><p id="2297904f-03a9-8136-bc66-f379c73f03cc" class="">●inhibit the formation of amyloid fibrils</p><p id="2297904f-03a9-8132-9b9e-f6f8b9711e76" class="">●modify/cancel its extracellular deposition</p><p id="2297904f-03a9-814c-b38a-fa12a0f380aa" class="">●stimulate lysis and mobilization of fibrils</p><p id="2297904f-03a9-819f-a1ce-fe7eb5817148" class="">These are clinical trials, at the moment there isn’t a specific and functional treatment for this disease.</p><p id="2297904f-03a9-813e-b982-c468c45861ae" class="">Eleonora Deinite, Daria Ghasriani</p><p id="2297904f-03a9-819e-ace2-f4046d781ccb" class="">100</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

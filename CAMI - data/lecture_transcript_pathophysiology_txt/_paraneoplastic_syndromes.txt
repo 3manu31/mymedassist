@@ -1,0 +1,424 @@
+29.03.2023 BIASI L.4
+PARANEOPLASTIC SYNDROMES
+Paraneoplastic syndromes are different types of diseases that are associated with the presence of a tumor
+even if they are not directly dependent on the tumor presence. They can be associated with the response of
+the host to the tumor, and the manifestation can be in all of the body, also far from the tumor location. They
+are present in a high percentage (20-40%) of tumor patients and are not dependent on the stage of the
+malignancy, since they can develop in any step of the neoplasia. They can have subjective symptoms
+depending on the individual.
+They are often linked to malignant tumors. The diagnosis is important, also because some symptoms can be
+similar to other diseases.
+They are especially associated with some types of cancers, such as lung cancer and gastrointestinal cancer.
+There are also specific paraneoplastic syndromes linked to diseases of the skin and hematological cancers.
+M M P S
+AIN ECHANISMS FOR ARANEOPLASTIC YNDROMES
+The mechanisms by which these diseases occur are:
+● Tumors (hormones-dependent paraneoplastic syndromes) that act by producing hormones ectopically
+(in a different location from the normal one) or even from tissues that normally do not produce
+hormones. What is produced is not only hormones, but also molecules associated with the hormone
+responses (receptors for example) or molecules that are not hormones in the structure, but they are
+similar chemically (hormone-like substances) that act as ligands for the hormone receptors. So they can
+be in general active compounds that, directly or indirectly, can cause the symptoms of the paraneoplastic
+syndromes.
+For example, Adenocarcinoma is an epithelial malignant tumor that develops from the glandular tissue
+but can also develop from parenchymal cells that are not able to secrete hormones. The prefix “adeno-”
+is associated to the ability of this tumor tissue to produce hormones ectopically. This is due to cell
+alterations, such as the change of receptors on surface of cancer cells, the release of compounds that
+cause symptoms in tissues that are far from the cancer.
+● Deficiency of normal factors, and therefore this is not associated to hormones paraneoplastic syndromes
+but to other important molecules such as calcium or glucose. In this case, we lose functions. For example,
+the inactivation of some surface receptors.
+● The host response to the tumor, especially consequences of humoral or cellular immune mechanisms.
+In this case, paraneoplastic syndromes are in general neurological, diseases associated with CNS or PNS.
+Many of these syndromes are due to the production of substances that are associated with pathological gene
+activation by the tumors. This abnormality can lead to activation of immune response and result in
+autoimmune disease. Remember - every single cell of the body has a complete genome, consisting of about
+30,000 genes; however, only a fraction of the genes is expressed (around 1%), while the other genes are not
+transcribed and remain silent. In these syndromes, we have the expression of abnormal genes, for example
+of ectopic hormones or hormones similar but not identical to the ones that are normally produced.
+P S C
+ARANEOPLASTIC YNDROMES LASSIFICATION
+The paraneoplastic syndromes can be roughly divided into two categories:
+● Simple paraneoplastic syndromes: main category, associated to specific symptoms and particular types
+of tissue that are involved and are named after the type of tissue where these diseases are present
+Sara Schiffini, Lan Sandra Trinh
+32
+29.03.2023 BIASI L.4
+(neurologic, endocrine-metabolic, rheumatic, osteoarticular, dermatological, hematological, vascular
+and nephrological diseases).
+● Complex paraneoplastic syndromes: cachexia, anorexia, fever. One of the paraneoplastic syndromes
+that we have already seen is cachexia, and also fever due to the presence of the tumor is a type of
+paraneoplastic syndrome.
+A very general classification of the more frequent paraneoplastic syndromes depending on the type of the
+tissues is:
+● nephrological only 5% of patients.
+● neurological disorders in more than 10% of patients.
+● rheumatic-osteoarticular in more than 15% of patients.
+● dermatological in more than 15% of patients.
+● hematological-vascular in more than 15% of patients.
+● endocrine-metabolic: the most frequent (40%).
+APPENDIX
+I want to underline the difference between the increase in hormones production, associated with benign
+tumors that don’t cause paraneoplastic syndromes, and the ectopic production of hormones, which is typical
+of paraneoplastic syndromes due to malignant tumors. (Fig. 1) Here are some symptoms that we can see in
+an adenoma. The professor reads fig. 1
+fig.1
+ENDOCRINE PARANEOPLASTIC SYNDROMES
+Adenomas are able to produce in excess the GH, ACTH, TSH and so on, without causing a paraneoplastic
+syndrome. This is because the adenohypophysis is a glandular tissue, and the production is not ectopic.
+Depending on the hormone in excess, the tumor induces some symptoms and diseases. These secretions are
+due especially to benign tumors of glands that can produce in excess the different types of hormones, but
+they are not ectopic productions.
+Sara Schiffini, Lan Sandra Trinh
+33
+29.03.2023 BIASI L.4
+The same symptoms seen in fig. 1 can be seen also in paraneoplastic syndromes by malignant tumors, but in
+this case the production of hormones is ectopic from non-glandular tissues. They can produce substances
+that can inactivate precursors of hormones or that can increase them. Or substances that are inactive
+hormones precursors with only a small part of the biological activity compared to the one of the mature
+hormone. In particular, they are associated with small cell lung cancer and the ectopic production of ACTH,
+ADH, calcitonin and others.
+For instance, ACTH produced in excess by adenohypophysis probably induces Cushing's Syndrome, but in this
+case, we are in the presence of a benign tumor. Why do I underline Cushing’s Syndrome? Because there is a
+paraneoplastic Cushing’s Syndrome due to the fact that other tumors, that are not at the level of the
+adenohypophysis, are able to produce this excess of ACTH and induce a Cushing’s Syndrome that is similar to
+the normal one, but in this case, it is a paraneoplastic syndrome.
+The paraneoplastic is due to ectopic hormone production and the tumor has a malignant phenotype. These
+substances can also be inactive substances, or they can be hormone precursors produced in excess. In general,
+they are present in malignant tumors.
+D C T
+IAGNOSTIC RITERIA AND ESTS
+To identify endocrine-metabolic paraneoplastic syndromes and distinguish them from symptoms due to
+benign tumors:
+● Recognize an endocrine syndrome associated with a non-endocrine tumor. So, understand if these types
+of symptoms can be associated to an adenoma or another type of tumor.
+● Understand the high blood/urinary levels of hormones.
+● Decrease in blood/urinary levels of the hormone after the removal of the tumor with surgery.
+● Recurrence of hormone dosage in case of tumor recurrence (if, after tumor removal through surgery,
+the levels of the hormone decrease, but then the tumor comes back and the levels of the hormone in
+blood/urine increase again).
+● Absence of disease in the endocrine-related organ. In this case, it’s possible that the increase of
+hormonal levels in blood or urine is due to an ectopic production.
+● Remission/recurrence of the syndrome with tumor treatment/recurrence.
+There are also some diagnostic tests from the laboratory that allow us to understand if these productions of
+hormones are associated or not with paraneoplastic syndromes:
+● Evaluation of the gradient (= increase or decrease of the production) of the hormone between tumor
+and peripheral veins, so understand how the hormone is produced by the tumor in association to its
+presence in the veins.
+● Extraction of the hormone from neoplastic tissue by biopsy.
+● Determination of hormonal activity with biological tests such as RIA (radio-immune assay), important
+because it is very specific and it also evaluates very low levels of hormones in the body, and also
+immunological tests such as immunohistochemistry.
+● Biochemical characterization of peptides and other molecules produced by the tumor with a biochemical
+analysis
+● In vitro demonstration of hormonal production by cancer cells, for example in a primary culture
+(produced directly by the primary tumor. When inserted in a medium, they are able to grow and replicate
+for only 2-3 cycles and then they are not able to continue the line. In contrast, continuous cell lines are
+able to proliferate for years and years because they are a particular type of tumoral cells with mutations
+Sara Schiffini, Lan Sandra Trinh
+34
+29.03.2023 BIASI L.4
+on some genes associated with proliferation ex. p53, that allow them to continuously proliferate). In this
+case, in vitro demonstration, primary cell culture is required, and they proliferate for only 2-3 cycles, but
+is enough for the pathologist to demonstrate the production of associated hormones into the medium.
+● Identification of hormonal mRNA in the tissue or cell culture by real-time PCR (that is used also to amplify
+the viral sequences, for instance in Covid). In this case it is used to amplify the mRNA to get a high quantity
+of it, so that it can be analyzed.
+E H P
+CTOPIC ORMONE RODUCTION
+Paraneoplastic syndromes due to ectopic hormone production are classified according to the hormone
+produced ectopically:
+● ACTH and ADH (especially in small cell lung cancer).
+● Growth hormone GH
+● Parathormone (Parathyroid hormone or PTH) (squamous cell carcinoma of the kidney, ovary, bladder).
+● Calcitonin (breast cancer, lung cancer, small cell lung cancer, medullary thyroid cancer).
+● Insulin.
+E P ACTH
+CTOPIC RODUCTION OF
+It induces a paraneoplastic disease similar to Cushing’s Syndrome called paraneoplastic Cushing’s Syndrome,
+and especially it can be related to small cell lung cancer (50% of cases), but also to pancreatic neuroendocrine
+tumors such as of the islet cells and others (10%) and medullary thyroid cancer (5%).
+There is an ectopic hypersecretion of ACTH, usually produced by the anterior pituitary, but obviously this also
+has effect on the adrenal cortex and induces secretion of cortisol. In some cases, there may also be the
+production of proopiomelanocortin (POMC), a precursor of ACTH (already seen in cachexia in the Basic
+Pathology course. POMC is associated to cachexia because is linked to the glycolysis and the decrease of the
+adipose tissue. Its production is induced by Leptin). It increased in cancer patients (with ectopic production)
+and not in patients with Cushing’s Syndrome.
+The symptoms of the paraneoplastic Cushing’s syndrome are very similar to the ones of the Cushing’s disease.
+The main difference is that while the latter is chronic, the paraneoplastic syndrome is acute.
+Clinical features of (non-paraneoplastic) Cushing’s Syndrome include:
+● Obesity (one of the main features).
+● Moon face (one of the main features).
+● Loss of muscle mass and strength.
+● High blood pressure (hypertension).
+● Alterations in the skin, that is fragile and bruises easily.
+● Thicker or more visible body and facial hair (hirsutism).
+These were the clinical features of (non-paraneoplastic) Cushing’s Syndrome. Since paraneoplastic
+syndromes are generally due to malignancies, these types of syndromes have not enough time to induce all
+of the clinical features into the patients, they are acute. So, we see only the early phase symptoms.
+Therefore, the main symptoms present in a paraneoplastic Cushing’s Syndrome, due to the rapid onset of the
+malignancy, are:
+- first of all hypertension
+Sara Schiffini, Lan Sandra Trinh
+35
+29.03.2023 BIASI L.4
+- decrease in blood levels electrolytes like potassium (hypokalemia), therefore those symptoms
+associated with muscles (cramps, weakness) and also weight loss
+So, in this case there is no obesity and moon face that are associated only with the non-paraneoplastic
+Cushing’s Syndrome since in paraneoplastic one only fast symptoms show (hypertension first of all).
+E P GH
+CTOPIC RODUCTION OF
+Another ectopic production is associated with GH (or somatotropin), which is very rare and present in a very
+low percentage among the paraneoplastic syndromes. It is usually due to the secretion of GHRH (GH
+Releasing Hormone) which increases the GH's production and secretion from the anterior pituitary lobe.
+It can be due to different times of cancers (like pancreatic neuroendocrine tumors), but especially lung cancer
+(bronchial carcinoids)
+GH in generally induces acromegaly, different from gigantism (gigantism is a proportioned growth of each
+part of the body and it occurs generally in the first years of the life or even in morphogenesis, while acromegaly
+is just accumulation of the hormone that induces a disproportionate growth in some parts of the body),
+because there is a major probability that this type of paraneoplastic syndrome can occur in adulthood.
+E P ADH
+CTOPIC RODUCTION OF
+Another paraneoplastic syndrome is due to the ectopic production of ADH. This syndrome is called syndrome
+of inappropriate antidiuretic hormone secretion (SIADH). It is associated again with small cell lung cancer
+(in 60% of cases, secretion of a hormone similar to vasopressin) but also to hypothalamic tumors (secretion
+of vasopressin).
+The physiological role of ADH is to increase water reabsorption from renal tubules when there is
+hypovolemia (low volume in blood), that also means dehydration, so vasopressin induces reabsorption of
+water in blood.
+In this case it is considered inappropriate because secretion of ADH is also present even if we have
+normovolemia, so it is not induced by a demand of the body.
+In case of this paraneoplastic syndrome, we have two characteristic features that are hyponatremia ([Na+] <
+135 mEq/L) and hypoosmolarity in plasma (less than 270 mOsm/L) associated with urine hyperosmolarity.
+The normal concentration of urine has a specific weight of about 1007-1030, but in case of urine
+hyperosmolarity this value is higher due to the increased concentration of sodium in it (increase of more than
+40 mEq/L from the normal value that ranges from 40-220 mEq/L) despite hyponatremia.
+SIADH clinical features are related to both the degree of hyponatremia and to its time and rate of onset.
+Associated symptoms include anorexia, nausea, vomiting, confusion, and seizures. What is important is that
+SIADH is characterized by absence of edema and hypovolemia, since it’s an inappropriate production.
+H
+YPERCALCEMIA
+Other types of paraneoplastic syndromes may be due to the alteration in calcium level (occurring in 15-20
+cases over 100000), calcium production or the induction of PTH production.
+Hypercalcemia is not focused on particular types of tumors (T-cell lymphoma, multiple myeloma,
+bronchogenic carcinoma, spinocellular carcinoma, breast cancer, kidney, ovarian and gallbladder carcinoma),
+but in general it can be seen in the latter steps of tumors, since it can be due to osteolysis, damage of bones
+that induces release of calcium, for example due to multiple myeloma (the main cause), or bone metastases
+derived from other tumors.
+Sara Schiffini, Lan Sandra Trinh
+36
+29.03.2023 BIASI L.4
+Hypercalcemia can be due to increased production of pro-inflammatory humoral factors, for example
+cytokines such as IL-6, TGF-α and β (especially in epithelial-mesenchymal transition, so metastatization), TNF-
+α (especially produced in case of T-cell lymphoma and multiple myeloma). Also, there is an increase in the
+levels of PTH-like protein (ubiquitous, but rare in normal tissues), that is structurally different from PTH but
+it is able to bind to its receptors and act as a ligand. The increase in this protein can induce hypercalcemia
+because it increases reabsorption of calcium in blood at the level of the bone (increased osteolysis) and
+decreases calcium excretion from the kidneys, therefore there is an increase in the blood calcemia. Calcium
+levels are normally 8.5-10.5 mg/dL, and if they increase it can cause confusion, lethargy, nausea, and
+constipation (values between 12 and 14 mg/dL) and if they increase even more, it can cause coma.
+H
+YPOCALCEMIA
+Hypocalcemia is more related to lung and breast carcinoma and is due to the secretion of calcitonin by the
+thyroid, which inhibits the reabsorption and increases the renal excretion of calcium, the opposite of PTH.
+Therefore, there is an alteration of the neuronal transmission. Symptoms that are often not even present,
+associated with hypocalcemia are related to muscles such as tetany, fasciculation, and hyperreflexia.
+H
+YPOGLYCEMIA
+Hypoglycemia can be also associated with paraneoplastic syndromes, and it is especially due to
+gastrointestinal tumors such as hepatocellular and adrenocortical carcinomas in very low quantities (23%
+and 10%, respectively), and mesenchymal tumors in the majority (45%).
+This is due to the production of an insulin-like growth factor, also called big IGF-II due to its high molecular
+weight, that stimulates the entry of glucose into tumor cells by inhibiting hepatic glucose uptake.
+H P S
+EMATOLOGICAL ARANEOPLASTIC YNDROMES
+Hematological paraneoplastic syndromes can be due to anemias in general, since most of the tumors induce
+alterations in the number of blood cells. So, we can see red cells aplasia, anemia, erythrocytosis, leukemoid
+reaction, eosinophilia, or basophilia. This kind of effects can be associated with different types of cancers.
+Alternatively, they can induce coagulopathies (alterations in coagulation steps) and the presence of
+hypercoagulability. This can be due to tumors or because of cancer treatment. Clinical manifestations usually
+include deep vein thrombosis and pulmonary embolism.
+Another important feature in coagulopathies of cancer patients is DIC (Disseminated Intravascular
+Coagulation) which is a pathological coagulation that can induce thrombosis and pulmonary embolism. DIC
+is seen especially in leukemias, especially a subtype of acute myeloid leukemia prostate cancer.
+This type of DIC can also be associated for example to thrombotic endocarditis, in patients that suffer from
+mucoid tumors (for example in GI tract) that produce mucus. The hyperproduction of mucus induces
+thrombus due to the presence of floating mucus. This type of thrombus can reach the endocardium and
+induce thrombotic endocarditis, which is non-bacterial but due to the mucus. This is called marantic
+endocarditis. Clinical manifestations include vessel occlusions in the periphery, embolism that leads to
+occlusion of nervous system vessels with acute neurological deficit and encephalopathy. Thromboembolism
+is also associated to thrombosis in superficial veins due to presence of mucins, so due to DIC. This is also
+called Trousseau syndrome, associated to thrombophlebitis, especially to thrombophlebitis migraines, also
+called migratory thrombophlebitis since it induces thrombi in the circulation determining phlebitis.
+Note from the sbobinatore: last year, the professor explained the previous topics in much greater detail, which
+also reflects what is found in the slides. The material skipped can be found below.
+Sara Schiffini, Lan Sandra Trinh
+37
+29.03.2023 BIASI L.4
+One in particular among the coagulopathies is idiopathic thrombocytopenic purpura (ITP), which is a
+complication in patients with Hodgkin’s Disease because it also induces an autoimmune hemolytic anemia.
+Anemias in general depending on alteration in erythrocytes, or alteration in hemoglobin, or alteration in ferric
+cytochrome, are very common and they can be also normocytic (dimension of RBCs is normal) and
+normochromic (color of RBCs is normal). The normal range of serum iron (50-150 mg/dL) is unchanged or
+decreased, while the ferritin in the blood (male 30 -120; female 30 - 260 ng/mL) is unchanged or slightly
+decreased.
+H P S : A H A
+EMATOLOGICAL ARANEOPLASTIC YNDROMES UTOIMMUNE EMOLYTIC NEMIA
+Autoimmune hemolytic anemia can be due to host response, so in this case the activation of the autoimmune
+response by the host that induces this anemia mediated by:
+● warm antibodies (IgG) activated in warm temperatures especially in the B cell lymphomas and leukemias.
+In this case hemolysis is extravascular, it consists of phagocytosis in the spleen.
+● cold antibodies (IgM) activated in cold temperatures and attack erythrocytes as autoantibodies. In this
+case hemolysis is intravascular.
+Signs and symptoms are related to small vessels’ occlusion such as acrocyanosis (blue color in the periphery)
+of hands, feet or face (ears and nose) but generally in all the peripheral parts of the body and is due to a
+decrease in the blood flow.
+H P S : E
+EMATOLOGICAL ARANEOPLASTIC YNDROMES RYTHROCYTOSIS
+Sometimes tumors produce erythrocytosis (polycythemia) and is due especially to increase in synthesis of
+erythropoietin, normally secreted by the kidneys and induces the production and the maturation of
+erythrocytes
+It is associated with cerebellar hemangioblastoma (20%), renal adenoma and renal cyst (15%) and
+hepatocellular carcinoma (15%) but it is not so easy to see this type of paraneoplastic syndrome since
+erythrocytosis is much more frequently due to anemia.
+H P S : L R
+EMATOLOGICAL ARANEOPLASTIC YNDROMES EUKEMOID EACTION
+There is also the leukemoid reaction that is similar to the erythroid and is induced by the overproduction of
+particular types of growth factors that induce the production and increase in maturation of leukocytes in
+particular those associated with stimulation of maturation of granulocytes, so granulocytes colony
+stimulating factor (G-CSF) or granulocyte-macrophage colony stimulating factor (GM-CSF) and other types of
+growth factor or interleukins, in particular interleukin 3 (IL-3).
+H P S : C
+EMATOLOGICAL ARANEOPLASTIC YNDROMES OAGULOPATHIES
+We also have coagulopathies due to the induction of coagulation, and these occur normally closer to the
+tumor that induces itself a block, so it induces thrombosis or can induce, in case of lung cancer, the pulmonary
+embolism.
+The main damage is DIC (disseminated intravascular coagulation) that can complicate metastatic tumor
+course and is often present in patients with acute promyelocytic leukemia (but with leukemias in general,
+and with prostate cancer.
+H P S : N T E
+EMATOLOGICAL ARANEOPLASTIC YNDROMES ONBACTERIAL HROMBOTIC NDOCARDITIS
+Sara Schiffini, Lan Sandra Trinh
+38
+29.03.2023 BIASI L.4
+Due to the presence of thrombi, but also due to the presence of the tumor mass in general. In some patients
+can occur another type of damage which is nonbacterial thrombotic endocarditis, also called marantic
+endocarditis because this type of endocarditis is due to a tumor, not bacterial, and there is an increased
+secretion of mucus. In this case the primary tumor that can induce a nonbacterial thrombotic endocarditis is
+lung adenocarcinoma, but also other tissues able to produce mucus such as intestines and ovaries.
+Due to this production of mucus that induces the thrombus there is an occlusion in the vessels, in particular
+in the peripheral parts (acute peripheral arterial occlusion). Therefore you can see clinical manifestation as
+encephalopathy and acute neurological deficits in the case in which the occlusion is at the level of the vessels
+in the brain.
+H P S : T A
+EMATOLOGICAL ARANEOPLASTIC YNDROMES HROMBOVASCULAR CCIDENT
+Another particular type of paraneoplastic syndrome is Trousseau’s Syndrome, the thromboembolism, also
+called migratory thrombophlebitis, that is a damage due to the increase in mucus level, also induced by
+nonbacterial thrombotic endocarditis and coagulopathies in general.
+Pathogenesis is not completely clear, but it may be due to the activation of serine proteases that activate
+factor X and trigger the coagulation pathway.
+P S K
+ARANEOPLASTIC YNDROMES OF THE IDNEYS
+About paraneoplastic syndromes of the kidney, they are due especially to immune complexes in response to
+the tumor by the host, that are considered as autoimmune damage. However, they have not been studied
+enough and they are not well known. This is a slide (fig.2) where some of them are listed only to give a flash
+on this type of paraneoplastic syndromes, but there are many different types, some very rare, others more
+frequent. The syndromes are usually due especially to the damage of the renal tissue due to the response of
+the host.
+They can be present in patients with colon cancer, ovarian cancer, and lymphomas due to circulating immune
+complexes.
+fig.2
+P N S
+ARANEOPLASTIC EUROLOGIC YNDROMES
+The other important is the association with neurological diseases due to the host defense, so the activation
+of autoimmune immunoglobins (host response). They are present in a high percentage (70%) when there is
+small cell lung tumor.
+Sara Schiffini, Lan Sandra Trinh
+39
+29.03.2023 BIASI L.4
+P N S : L -E
+ARANEOPLASTIC EUROLOGIC YNDROMES AMBERT ATON
+One of the main ones is Lambert-Eaton myasthenic syndrome, which is due to autoimmune antibodies
+against channels for the passage of calcium, the P/Q channels. These antibodies anti-P/Q, decrease the
+quantity of calcium that enters in nervous cells, causing a decrease in acetylcholine release at the level of
+neuromuscular junctions, and therefore a decrease in transmission of the signal leading to weakness in
+muscles.
+Lambert-Eaton is a myasthenic syndrome since it is very similar to myasthenia gravis- a genetic disease cause
+absence of the receptors for acetylcholine and that induces weakness in muscle. The symptoms of these two
+conditions are the same, but the cause is different. In Lambert Eaton we have damage of the channels, but
+the acetylcholine receptors are functional. On the other hand, in myasthenia there is damage of acetylcholine
+receptors, so signal transmission does not happen even with the right concentration of acetylcholine
+released. So, in both there is an alteration of muscle contraction.
+There are also some other differences, since Lambert-Eaton:
+● Typically involves particular types of muscles, the ones of the proximal arms and legs.
+● In very few cases induces weakness and damages in the bulbar muscles of the eyes.
+● The main difference is that in case of repeated stimulation of the muscles the strength of the contraction
+increases each time while this does not occur in case of myasthenia.
+● With electromyography (EMG): repeated stimuli lead to sufficient delivery of calcium induced release of
+acetylcholine and contraction, while in myasthenia gravis nothing happens since receptors still don’t
+function. This is very important for the diagnosis.
+P N S : E
+ARANEOPLASTIC EUROLOGIC YNDROMES NCELOPHATY
+Paraneoplastic encephalopathy is associated with the production of ANNA (anti-neuronal nuclear
+autoantibodies) that are increased in response to small cell lung cancer but also breast cancer and they are
+type 1 (anti-HU) and type 2. ANNA can also be increased when there is also an autoimmune disease (for
+example, in Multiple Sclerosis), not only in the case of a tumor. It is possible to see if a patient has an
+autoimmune disease by evaluating these antinuclear autoantibodies. Effects of this encephalopathy on the
+CNS are dementia and seizures.
+P N S : O N
+ARANEOPLASTIC EUROLOGIC YNDROMES THER EUROPATHIES
+The other neuropathies are divided in sensory and peripheral sensorimotor neuropathies depending on the
+type of nerves that in the PNS are affected:
+● They are sensory if we have a degeneration or a loss of the neurons in the dorsal and posterior horns of
+the spinal cord. They are generally related to small cell lung cancer. Cerebellar and brainstem
+degeneration are variable. Symptoms are both sensory and psychological, they include anxiety,
+depression, amnesia, dizziness, confusion, hallucination, and behavioral abnormalities. In some patients,
+ANNA-1 antibodies are detected in the blood and in the cerebrospinal fluid.
+● In case of loss of neurons of the anterior horns of the spinal cord, we have sensorimotor neuropathy. It
+is the more frequent long-distance effect produced by cancer on the peripheral nervous system. Again, in
+this case it is related to small cell lung cancer and ANNA-1 are involved. Signs and symptoms include
+distal sensorimotor neuropathy fatigue, slight strength deficit, hypoesthesia, or absent distal reflexes. It
+can be due to malnutrition, but it doesn't respond well to nutritional therapy.
+Sara Schiffini, Lan Sandra Trinh
+40
+29.03.2023 BIASI L.4
+P N S : C S
+ARANEOPLASTIC EUROLOGIC YNDROMES EREBELLAR YNDROME
+The last one associated with the nervous system is the paraneoplastic cerebellar syndrome that induces
+severe ataxia, a very intense sense of fatigue responsible for the progressive disturbances in carrying out
+voluntary, planned movements by the extremities and the eyes, and this can start as symmetric disturbances
+but then it becomes asymmetric. Symptoms are related to a lack of muscle control and of movement
+coordination and to a defective sense of equilibrium due to damage to the cerebellum.
+Cerebellar syndrome is related to small cell lung carcinoma and ANNA-1 are involved but, in this case, there
+is also another type of antibody that is Purkinje cell cytoplasmic antibody type 1 (anti-Yo or PCA1). PCA1 are
+against Purkinje cells of the cerebellum and induce their necrosis. Therefore, any attempt to treat, such as
+immunotherapy used against these antibodies, is unable to counteract the damage because the cerebellar
+Purkinje cells are destroyed.
+P S S
+ARANEOPLASTIC KIN YNDROMES
+Other paraneoplastic syndromes affect the skin. They are especially associated with hematological diseases
+and are considered collateral diseases in paraneoplastic syndromes. They are precancerous.
+Pigmented skin lesions or keratosis are:
+- Acanthosis nigricans (associated with gastric cancer): dark, round skin lesion. They are especially
+found in skin folds (like inguinal folds). Can be related to different types of cancer. The
+etiopathogenesis appears to be immunological due to the hypersecretion of epidermal growth
+factor. However, it is not sure.
+- Generalized melanosis (associated with lymphoma, melanoma, HCC)
+- Bowen’s disease (associated with lung and gastric cancers): it is an in situ carcinoma but can occur
+also as a paraneoplastic syndrome when linked to other cancers.
+- Leser-Trélat sign (associated with lymphomas and gastric cancer): Onset of multiple seborrheic
+keratoses that increase in number and size. It is also associated with Acanthosis, as they often occur
+together.
+Other skin syndromes are:
+- Sweet syndrome or acute febrile neutrophilic dermatosis (linked to hemolymphopoietic cancers):
+Characterized by fever due to increase of neutrophils production which induces erythematous
+nodules
+- Palmar hyperkeratosis (related to T-cell-non-Hodgkin lymphomas): stratum corneum degeneration
+- Ichthyosis (linked to Hodgkin lymphomas): Hyperkeratosis with “fish-like” skin with scales that lift
+up.
+Paraneoplastic syndromes often are also precancerous conditions, so there is a difference in the timing: they
+can be both precancerous and paraneoplastic, so associated with other types of cancer.
+This type of classification is the main one, but others also exist. Each type may also have severe
+subclassifications.
+Sara Schiffini, Lan Sandra Trinh
+41

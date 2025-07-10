@@ -1,0 +1,512 @@
+26.04.2023 LEONARDUZZI L.04
+THROMBOSIS AND EMBOLISM
+T
+HROMBOSIS
+Thrombosis is characterized by the formation of semisolid masses, because of an abnormal blood clot
+formation without an injury of the vessel wall.
+These thrombi consist of blood cells (different types, mainly platelets) and fibrin (important for the
+stabilization of the blood clot). As just said, these blood clots generally have the same composition of normal
+blood clots; however, in this case, they adhere to the vessel wall following an abnormal hemostatic process.
+For this reason, these blood clots (even if their composition is normal) are named “thrombi”, since they imply
+a pathological process without an injury of the vessel wall (bleeding); on the contrary to normal blood clots
+that have the aim to block the bleeding.
+This process is due to an inappropriate and pathological activation of the hemostatic processes occurring
+inside the vessels. This abnormality may be caused by:
+● increased activity of coagulation factors: hypercoagulability;
+● reduction of hemostasis control: reduction of the cascade inhibitors;
+● reduced fibrinolytic activity;
+● reduction of all the inhibitors that control the coagulation cascade.
+Thrombosis can affect any point of the cardiovascular system. In fact the thrombi can develop in the cardiac
+cavities, especially at the sites of the valvular cusps, but also inside the arteries, veins and capillaries. So, any
+district of our cardiovascular system can be affected.
+V
+IRCHOW TRIAD IN THROMBOSIS
+In 1856, the scientist Virchow suggested
+possible causes of thrombosis proposing the
+so-called “triad in thrombosis” (fig.1).
+This theory includes the three main
+important conditions that can lead to the
+development of thrombosis:
+1. Endothelial injury: a dysfunction in the
+endothelium. It is mainly caused by
+hypercholesterolemia and
+atherosclerosis or in general any
+inflammation at the level of the vessel
+wall.
+Fig.1
+Indeed, as said in the previous lecture,
+a well functioning endothelium has anti-thrombogenic properties inhibiting aggregation and adhesion
+of the platelets. This is possible through the secretion of some factors as: NO and prostaglandin E2
+that inhibit platelet adhesion and aggregation, and other factors that can stimulate fibrinolytic activity
+as tissue plasminogen activators that will lead to the formation of plasminogen (main player in clot
+formation).
+In case of a damage, the endothelium is not able to contrast the platelets aggregation, losing its anti-
+aggregative properties. So, if the fibrinolytic system is not functioning, there will be problems in
+dissolving the abnormal blood clot. In this situation we can have formation of thrombi, especially in the
+heart and arteries.
+Nikola Pavlos, Alice Bertozzi
+43
+26.04.2023 LEONARDUZZI L.04
+The major causes for endothelial injury are:
+a. Infectious causes (bacteria, virus, parasites),
+b. Mechanical causes (trauma, iatrogenic maneuvers),
+c. Toxic and chemical causes (drugs, radiation, hyperlipidemia; most frequently
+hypercholesterolemia in atherosclerosis, bile pigments, homocystinuria, cyanide and carbon
+monoxide anoxia, cigarette smoke, etc. - Note: all these factors are present also in
+atherosclerosis: indeed, the risk of thrombosis is directly associated with atherosclerosis. In fact,
+in advanced plaques, the rupture of a plaque is very easy to happen, resulting in the formation
+of a thrombus on the top of the plaque itself)
+d. Immunological causes (immunocomplex or anti-endothelial antibodies cytotoxic lymphocytes).
+2. Abnormal blood flow: especially in stasis conditions, in which blood flow is reduced, or in case of
+turbulence (so in changes in force, quantity and direction of the blood flow).
+a. One of the most common causes of thrombosis is the reduction of the blood flow: a condition
+of stasis (common especially in hospitalized patients in bed for long or that are immobilized for
+a long time).
+b. Another condition contributing to abnormal flow is blood stasis, when there is a marked
+reduction in the blood flow due to an irregularity in the vessel wall or an abrupt change in flow
+direction. This cas be seen in vascular bifurcations, arterial arches or when there is a narrowing
+of vessels.
+c. Another point that can favor the formation of thrombi is the formation of vortices and
+turbulence. This is typical in case of aneurysms, narrowing, ectasia (dilation)... In fact, these
+conditions alter the speed and regularity of the laminar blood flow resulting in:
+i. the promotion of platelet adhesion to the endothelium,
+ii. in reduced dilution of procoagulant factors,
+iii. in delayed flow of inhibitors of factors
+iv. in endothelial cell activation.
+Difference in probability of thrombosis in arteries and veins:
+We know that arterial blood flow is faster; hence, platelet adhesion and thrombus formation are
+limited. However, all these situations in which there is turbulence and/or a reduction in blood flow
+speed (like in aneurysms) can contribute to arterial and cardiac thrombi formation. Note: in case of
+arterial thrombi, usually you have only partial occlusion of the vessel, not a total one; this is due to
+the faster blood flow.
+Venous flow is slower. So, the thrombus is more easily formed and grows more quickly, especially
+when there is a stasis of blood flow. Therefore, it is more common to have clots occluding totally the
+vessels. This condition is typical of veins of the lower extremities that, because of the numerous
+valves, allow venous thrombi to begin in their pockets.
+3. The third point regards the hypercoagulability, meaning an increased coagulation that depends on:
+● abnormal trigger of the coagulation cascade,
+● increased production and secretion of factors that favor coagulation cascade
+● reduction or lack of one or more anticoagulative factors: factors negatively controlling the
+coagulation process.
+● alteration of the fibrinolytic system. This means that there is a predisposition to activate the
+coagulation cascade
+Nikola Pavlos, Alice Bertozzi
+44
+26.04.2023 LEONARDUZZI L.04
+C
+AUSES OF HYPERCOAGULABILITY
+Hypercoagulability has many different causes:
+Primitive forms (genetic):
+○ mutations of the factor V
+○ deficiency of antithrombin III that control the excessive coagulation
+○ defects of fibrinolysis
+Secondary forms (acquired or associated to specific pathological conditions):
+○ prolonged bed rest or immobilization: these patients are more prone to develop thrombosis,
+○ myocardial infarction,
+○ atrial fibrillation,
+○ tissue injury (fracture, burn, surgery that imply an immobilization in bed for a long time).
+○ cancers,
+○ prosthetic cardiac valves: the thrombi can form more easily at the level of these artificial
+valves
+D :
+IFFERENT TYPES OF THROMBI
+The type of thrombus that will be formed depends on:
+1. SPEED of the BLOOD FLOW
+2. RAPIDITY of the COAGULATIVE PROCESS CASCADE.
+From an anatomical point of view, in a thrombus we can observe:
+● head: attachment point to the endothelium wall,
+● body: variable size, composition, and mobility,
+● tail: this is the part of the thrombus not attached to the vessel, often long. This is the portion that
+more easily detaches in the veins. This fragment, when detached, can travel in the circulation system,
+giving rise to the embolus. Hence, the difference between thrombus and embolus is:
+- A thrombus is attached to the wall
+- the embolus travels into the circulation
+C :
+LASSIFICATION BASED OF MORPHOLOGICAL CHARACTERISTICS
+There are different types of thrombi, which can be classified based on morphological characteristics.
+● White thrombi: they have a grayish-white appearance and are the most friable and fragile, so they
+can be fragmented more easily causing an embolism. They are white in color because they consist
+mainly of platelets and fibrin. If there is inflammation, the white thrombus may contain leukocytes
+and erythocytes as well.
+○ In arteries, the rapid blood flow makes it difficult for white thrombi to grow, resulting in
+normally small thrombi that do not occlude completely lumen of the vessels.
+○ In case of a Slow-down current in veins (reduction of blood flow), these white thrombi can
+enlarge, become totally obstructive and contain increasing amounts of erythrocytes that are
+progressively entrapped in the thrombi and that substitute some of the platelets.
+● Red thrombi: tenacious, elastic, firm, attached to the vessel wall with only a very small portion of the
+head (white thrombi are attached with the whole head). They are red in color because they consist
+of a few platelets, fibrin and a prevalence of red blood cells and some leukocytes.
+Nikola Pavlos, Alice Bertozzi
+45
+26.04.2023 LEONARDUZZI L.04
+○ Typically formed in the venous district where the blood flow slows down (stasis), contributing
+to the quick growth of the thrombi, resulting in a very high risk of occlusion of veins. So, as
+venous flow is slower, these thrombi can become obstructive. They are typically found in the
+lower extremities due to immobilization.
+● Mixed or variegated thrombi (fig.2): thrombi with grossly and
+microscopically apparent white laminations called lines of Zahn,
+which are pale platelet and fibrin deposits alternated with
+darker erythrocytes-rich layers. Mainly present in heart and less
+frequently in the legs.
+- In the white lines - lines of Zahn: prevalence of platelets
+Fig.2
+- In the red lines: prevalence of erythrocytes
+C :
+LASSIFICATION ACCORDING TO THE EFFECTS ON THE VESSEL CANALIZATION
+● Parietal or mural thrombi: adherent to the wall, usually white, more frequent in arteries, especially
+in the the aortic lumen, and in heart chambers. Generally, they are not completely obstructive, just
+partially.
+○ Aortic thrombi: mural or parietal, usually develop at the site of an aneurysm or on the top
+of an ulcerated atherosclerotic plaque (ruptured). Remember that one of the most severe
+risks of an advanced plaque is the rupture where, at the site of ulceration, there is the
+immediate activation of the platelet aggregation and activation of the coagulation cascade
+resulting in the formation of a thrombus that can compromise the already partially occluded
+artery.
+○ Cardiac mural thrombi: develop in the heart
+chambers due to abnormal myocardial
+contraction. For example, in case of arrhythmias,
+dilated cardiomyopathy, myocardial infarction or
+endomyocardial injury.
+■ In fig.3 are represented thrombi in the left
+and right ventricular apices (arrows),
+Fig.3
+overlying white fibrous scar.
+● Obstructive thrombi: they occupy all the vessel’s lumen determining the obstruction and the block
+of the circulation. They can lead not only to ischemia but also to an infarction in case of a total
+obstruction (ischemic necrosis). Usually they are mixed or mostly red thrombi because the red
+thrombi can develop in the venous system where the blood flow is slower in comparison to that of
+arterial blood flow, resulting in easier growth.
+C - - :
+LASSIFICATION BASED ON THE VESSEL FORMATION DISTRICT LOCATION
+● Cardiac thrombosis:
+mural (or parietal) thrombi that don't occlude totally. They are formed in the cardiac cavities, quite
+often at the level of valve leaflets. Thrombi that develop at the sides of the heart valves are
+specifically called vegetations. They are generally favored by :
+○ arrhythmias,
+Nikola Pavlos, Alice Bertozzi
+46
+26.04.2023 LEONARDUZZI L.04
+○ atrial dilatations or fibrillation
+○ by bloodborne bacteria or fungi. These microorganisms can adhere and direcly damage the
+valves (e.g. rheumatic heart disease) leading also to endocarditis.
+They are usually white or mixed (very fragile). Hence, they easily embolize and can go to:
+- the lungs if they are in the right part of the heart → pulmonary embolism
+- or to other areas such as the brain, kidneys and so on if they are in the left part.
+● Arterial thrombosis:
+white thrombi present in the arteries and consisting mainly of platelets and fibrin. They are mural or
+parietal and usually not occlusive but, in conditions in which blood flow is slower, the thrombi can
+grow in size and become occlusive. They grow in a retrograde fashion (against blood flow) with
+respect to the point of attachment, meaning that they propagate towards the heart, and because of
+the blood flow that is opposite to their growth, it's more difficult for them to become bigger.
+○ Causes: usually superimposed on a ruptured atherosclerotic plaque or other inflammatory
+vascular injury such as vasculitis, traumas or where there is a marked turbulence; at the
+level of aneurysms (aortic aneurysm) or in turbulent areas, like vessel bifurcation; stasis in
+the infarcted area due to non-contractile myocardium, stasis due to dilation of the left atrium
+following atrial fibrillation or cardiac rheumatism which causes stenosis of the mitral valve,
+ischemic necrosis or cerebral infarction/stroke.
+○ Most common sites include major arteries like the coronary arteries, cerebral and femoral
+arteries, but also aorta.
+○ High risk of embolization, like in cardiac thrombosis, which may target the brain, kidneys
+and spleen, as these thrombi are more fragile.
+● Venous thrombosis:
+Characterized by red thrombi that consist mainly of red blood cells and only a few platelets and
+fibrin. They develop usually due to stasis (reduction in blood flow compared to arteries) where they
+can grow and easily become occlusive. In the veins, we can sometimes also find mixed thrombi. They
+can reach large dimensions and a morphological complexity. They grow in the direction of blood flow,
+meaning that they propagate towards the heart.
+We can distinguish two types of venous thrombosis, depending on the fact if they are associated with
+an inflammatory state or not:
+■ Thrombophlebitis: condition in which these venous thrombi are implanted on endothelial
+lesions of inflammatory nature that cause the endothelial dysfunction. The
+symptomatology is similar to that of an inflammatory response: pain especially of legs,
+including redness, edema, pain, etc.
+■ Phlebothrombosis: condition in which the venous thrombi are implanted on endothelial
+lesions in the absence of inflammation. As a result, this non-inflammatory condition
+presents no symptoms or a very limited edema because of obstaculation of blood flow. It
+is also typical of legs.
+90% of venous thrombosis affects the legs. In particular, we can also distinguish among deep and
+superficial thrombi:
+■ Superficial venous thrombosis: affects the saphenous vein with the formation of varicose
+veins (varicosities) causing local pain, congestion, swelling and tenderness that then
+Nikola Pavlos, Alice Bertozzi
+47
+26.04.2023 LEONARDUZZI L.04
+degenerate towards varicose ulcers with rupture of the varices and sometimes rare
+embolization (they are the least severe type of thrombi).
+■ Deep venous thrombosis: most severe, affects the popliteal, femoral, iliac veins. It is
+asymptomatic in 50% of cases, but local pain and edema can be present in the remaining
+cases. This condition is more serious because these thrombi can easily embolize, resulting
+in pulmonary embolism. In fact, we can also talk about pulmonary thromboembolism
+because it is caused by fragments of venous thrombi that have ruptured/detached from
+the main thrombus in the legs and traveled via the circulation to the lungs.
+Venous thrombosis is one of the most frequent thrombosis because it is associated with all the cases
+of hypercoagulation and of stasis such as:
+- surgery,
+- traumas and burns
+- cancer,
+- long immobilization, advanced age and reduced physical activity
+- after childbirth
+- oral contraceptive (which can induce hypercoagulation of blood)
+A particularly serious form of venous thrombosis is the one occurring at the level of the sine of dura
+madre. This is an life-threatening condition, as it is often connected to septic processes and infections
+of mastoid, auricular or sinus cavities (sinusitis) that activate hypercoagulation. The result is a
+neurological problem.
+T
+HROMBUS EVOLUTION
+A thrombus can totally or partially occlude the blood flow of a vessel (more often totally in veins), causing:
+- ischemia if it is partial
+- or ischemic necrosis or infarction when total.
+After being formed, the thrombus can also be digested by the
+fibrinolytic system and monocytes and macrophages, resulting in
+its resolution/digestion.
+However, in this case the thrombus becomes more fragile and can
+easily be fragmented. The risk is that these fragments can travel in
+the circulatory system causing embolism where they meet a
+narrow vessel and block it.
+Another evolution is the reorganization of the thrombus, in which
+new vessels develop within the thrombus. Therefore, we have
+vascularization, causing the thrombus to grow faster and quickly.
+As a result, this now bulkier thrombus, which previously only
+partially occluded the lumen of the vessel, can now completely
+Fig.4
+occlude the vessel causing infarction.
+Another possibility is that there is a recanalization within the thrombus, meaning that there is a continuity
+of the circulation (with new vessels formed) through the thrombus thanks to the interaction between the
+thrombus vessels and other vessels nearby it. In this way, as this process develops, there will be an
+integration of the thrombus in the vessel wall after a 'reorganization' of the thrombus, and a resulting
+thickening of the wall in the point where the thrombus was.
+Nikola Pavlos, Alice Bertozzi
+48
+26.04.2023 LEONARDUZZI L.04
+Reported below is the mechanism of thrombus evolution taken from the slides:
+1) After 1 day from aggregation there is the autolysis of platelets and their replacement by erythrocytes and
+fibrin (initially all the thrombi are white and subsequently become red or variegated)
+2) Thrombus is then invaded by monocytes/macrophages. The macrophage activity and fibrinolysis cause
+lysis or dissolution or softening of the thrombus, which all result in the resolution or dissolution: reduce
+the blood flow obstruction.
+3) This process is a risk factor for embolization: where part of thrombus dislodges and travels to other sites
+in the vasculature. The total digestion of the thrombus and repair of the vessel (recent thrombi) can be
+achieved.
+4) ECs, SMCs, and fibroblast can invade the thrombus forming solid cords and then capillary channels can
+organize to favor the growth of the thrombus and lead to occlusion.
+5) Subsequently, possible recanalization of the vessel: event that restores the continuity of the blood flow,
+takes place. In the end the thrombus is a vascularized mass of connective/fibrous tissue embedded in the
+wall (intimate thickening or scar repair) (older thrombus)
+6) Further evolution of the thrombus may consist in the precipitation of calcium salts resulting in
+calcification.
+C
+LINICAL FEATURES OF THROMBOSIS
+The presence of a thrombus in the vessels’ lumen is a highly dangerous condition characterized by symptoms
+that are mainly due to the alteration of the blood circulation following the obstruction or occlusion (partial or
+total) of arteries or veins, or the rise of emboli. Therefore, thrombosis complications present different degrees
+of severity:
+1. In the absence of collateral circulation, the total occlusion evolves in serious damage and eventually an
+infarction characterized by ischemic necrosis.
+(Sometimes, also in the case of a complete occlusion, some collateral vessels may be formed perfusing
+the obstructed area. Hence, This way, we won’t have an infarction but only ischemia).
+2. Partial occlusion or possibility of collateral circulation results in more or less serious damage leading to
+hypoxia, swelling, hypotrophy or atrophy, fibrosis over time.
+3. Complete or partial detachment of the thrombus causes embolism, a very high-risk condition. As
+previously stated, we can distinguish three different types of thrombosis:
+● cardiac thrombosis: detachment of part of the thrombus can easily happen resulting in the high risk
+of pulmonary embolism, especially when the thrombus is present in the right side of the heart.
+Similarly, if the thrombus originates from the left side of the heart, its partial or complete detachment
+can cause embolism in other target organs.
+● arterial thrombosis: fragmentation of these thrombi can cause embolism in various organs.
+● venous thrombosis: fragments of these thrombi, which are mainly located in the lower extremities,
+are also responsible for mainly pulmonary embolism.
+P
+REVENTION OR THERAPIES
+Treatment for thrombosis is focused on reducing the possibility of the formation of these abnormal clots, by
+administering:
+● Main antithrombotic therapies:
+o Antiplatelet drugs to prevent arterial thrombosis.
+o Anticoagulants, like heparin, dicumarolic or activators of the fibrinolytic system
+(plasminogen activators), to dissolve the clots and prevent venous thrombosis.
+Nikola Pavlos, Alice Bertozzi
+49
+26.04.2023 LEONARDUZZI L.04
+● Thrombus removal:
+o Angioplasty and subsequent placement of a medicated STENT (treated with antiproliferative
+and antithrombotic factors). (Addition from the web) A stent is a tiny tube that is inserted
+into a blocked passageway to keep it open. The stent restores the flow of blood or other fluids,
+depending on where it’s placed.
+● Thrombotic disease prevention:
+o Risk factor control focused on the lifestyle: diet (i.g. The Mediterranean diet to prevent
+hypercholesterolemia and the rupture/ulceration of atherosclerotic plaques), physical
+activity, smoking, oral contraceptives (in particular when reaching a certain age).
+E
+MBOLISM
+Embolism is the presence in the blood of material, including even components of the blood, that cannot be
+mixed with the blood itself. Emboli travel through the blood until they encounter vessels that are too small
+to permit further passage. Therefore, when the size of the vessel is smaller than that of the embolus, it causes
+a partial or complete vascular occlusion that results in the alteration of the circulation leading to local
+ischemia and, in worst cases, in tissue infarction in case of total occlusion. In fact, emboli can lodge anywhere
+in the vascular tree and their clinical consequences depend on:
+● position and size of the lodged embolus
+● which vessels is occluded,
+● occluded vessel caliber,
+● vulnerability of the tissue to ischemia,
+● degree and duration of the occlusion and of ischemia,
+● existence or not of collateral blood supply, etc.
+● organ that is not perfused
+Embolism, as well as thrombosis, is a frequent cardiovascular problem, commonly leading to death.
+C / :
+LASSIFICATION ACCORDING TO THEIR NATURE STATE
+We can distinguish three different types of emboli depending on their physical states:
+A. solid,
+B. fluid,
+C. gaseous (air).
+The fluid and gaseous emboli can cause permanent obstruction of small vessels.
+A. SOLID EMBOLISM, Different types:
+1. Thrombotic masses detached from the sites of fragmentation. They are solid masses detached from
+a thrombus, following fragmentations. We refer to it as “thromboembolism”. As This makes up the
+99% of cases, this is the most common type of solid thrombus.
+Most common systemic emboli (80%) arise from intracardiac mural thrombi, which are present in
+the chambers of the heart:
+a. 2/3 are present in the left ventricular wall and are associated with left ventricular
+wall infarction,
+b. 1/3 are associated with left atrial dilatation and fibrillation,
+c. The remaining emboli originates from aortic aneurysms, atherosclerotic plaques
+(atherosclerotic debris or cholesterol emboli), valvular vegetations, or venous
+thrombi.
+Nikola Pavlos, Alice Bertozzi
+50
+26.04.2023 LEONARDUZZI L.04
+2. Fragments of pathological tissues (detaching from neoplasms that have permeated the vessels,
+from endocarditic or atherosclerotic ulcers → the emboli will be composed of some of the necrotic
+material detached from the plaque), or even from normal tissues (liver cells, marrow cells, etc.).
+3. Microscopic and macroscopic parasites and fungi that utilize the circulation to spread:
+echinococcus, schistosome filarias, ascarids, hookworms, plasmodia, leishmanias, trypanosomes,
+or from fungi, etc.
+4. Foreign bodies of various kinds (needles, bullets, spines, etc.) which have occasionally or
+accidentally penetrated into the cardiocirculatory system.
+One of the main risks associated with solid embolism is pulmonary embolism:
+Pulmonary thromboembolism
+Pulmonary emboli (PE) mainly originate from deep venous thrombosis of lower extremities (95% of
+cases), but also from thrombi originating in the right side of the heart, and it is the most common
+form of thromboembolic disease. It has a high incidence in hospitalized patients that are immobilized
+in bed, which allows the emboli to be carried through progressively larger veins, reaching the right
+part of the heart through the vena cava before slamming into the pulmonary arterial vasculature.
+From a clinical point of view depending on the size and on the artery occluded, the embolus can:
+● occlude the main pulmonary artery leading to very severe consequences,
+● stop in the pulmonary artery bifurcation, in this case we are talking about a saddle embolus,
+● pass out into the smaller branching arteries, if smaller in size.
+Quite frequently, there are often multiple emboli, from one or more thrombi, occurring sequentially
+or simultaneously as a “shower of smaller emboli” from a single large mass. This shower of smaller
+emboli can occlude smaller branches of the arteries. In this case for a patient who had one, they are
+at high risk for more over time.
+Clinical consequences of pulmonary embolism
+- In 60-80% of PE cases the emboli are small, making them “clinically silent” as they cannot trigger any
+clinical manifestations. Later on, small emboli can become organized and be incorporated into the
+vascular wall that will show fibrosis.
+- In other cases (5% of cases), bulky emboli can obstruct more than 60% of vessels and alter the
+pulmonary circulation causing sudden death, right heart failure, or cardiovascular collapse, due to
+the fact that the area is not perfused anymore.
+- Sometimes, the embolic obstruction of medium-sized arteries can cause the vascular rupture and
+subsequent pulmonary hemorrhage. Normally, we do not talk about pulmonary infarction because
+the bronchial arteries are sufficient to perfuse the affected area even if the pulmonary arteries are
+occluded. In other words, the bronchial arterial flow acts as a collateral blood supply that is sufficient
+at maintaining a basal circulation.
+If there is a left-sided cardiac failure, the bronchial arterial flow is compromised and leads to a lung
+infarction. This can also be seen in the occlusion of small end-branches of pulmonary arteries, as they
+can also result in pulmonary hemorrhages or infarction.
+- Lastly, multiple emboli, over time, can progress towards chronic pulmonary hypertension with right
+ventricular hypertrophy because of the difficulty for the blood to reach lungs from the heart and
+therefore there will be an increased workload for the heart → right ventricular failure.
+Nikola Pavlos, Alice Bertozzi
+51
+26.04.2023 LEONARDUZZI L.04
+B. FLUID EMBOLISM: consists of
+1. lipids and oil material not miscible with blood. In fact, these fats or oil can accidentally penetrate
+the veins and cause FAT EMBOLISM because of:
+a. Erroneous intravenous injections of drugs dissolved in oil that should for example go
+intramuscularly
+b. Microscopic fat globules, sometimes with associated hematopoietic bone marrow, that
+have escaped from the adipose tissue after long bone fractures or tissue trauma and
+burns. This is the most common cause of fat embolism, especially in the elderly
+population and especially following femoral fractures. As known, elderly long bones
+contain yellow bone marrow, which contains high amounts of adipose tissue, instead of
+brown bone marrow. Therefore, after a fracture the risk is the release of yellow marrow
+into the circulation, which can then occlude the pulmonary and cerebral
+microvasculature resulting in pulmonary insufficiency, neurological
+Fig.5
+symptoms, etc.
+Fat embolism occurs in 90% of individuals with
+severe skeletal injuries but less than 10% of
+them have clinical findings. Still, the fatality is
+5%-15% of cases and fat embolism is
+considered one of the main causes of death in
+elderly patients that have fractured their
+femur.
+Fig.5 represent an image of fat embolism
+2. amniotic fluid embolism with introduction of amniotic fluid into maternal venous and pulmonary
+systems at the time of labor.
+A: How are these fat emboli resolved physiologically?
+Q: there are some compensatory mechanism of the body, but these emboli are difficult to be solved by
+ourselves. In general, it is always better to directly act on it and remove them with therapy treatment
+(dissolving fats) or surgically (as typically occurs in the lungs). The Professor does not know precisely, however
+most probably the aim is to dissolve or remove the embolus.
+C. AIR EMBOLISM:
+Gas bubbles within the circulation that can obstruct vascular flow and cause distal ischemic injury. A large
+volume of air, more than 100 cc, in the blood is necessary to produce clinical effects and occlude the vessel. A
+typical form of gas embolism is the “decompression sickness”, typical condition associated to
+hyperbaropathy and present especially in scuba and deep-sea divers, underwater construction workers, etc.
+Two forms of decompression sickness:
+a. acute // b. chronic
+a. Focusing more specifically on deep sea and scuba divers, they can develop acute decompression
+sickness due to the tank full of gases they use. Increased amounts of gas (nitrogen) is dissolved
+in the blood and tissue when they go deep down underwater. The problem concerns nitrogen,
+which normally is removed easily via respiration, as the nitrogen changes form from liquid to gas,
+but in a controlled way and by providing enough time.
+When divers ascend (depressurize) too quickly without compensation stages, the liquid nitrogen
+changes its status again via dissolution in the tissue and in the blood and forms gas bubbles and
+even aggregate together forming bigger bubbles. Different consequences:
+Nikola Pavlos, Alice Bertozzi
+52
+26.04.2023 LEONARDUZZI L.04
+- These big gas bubbles spread to skeletal muscles and skeletal tissues, especially
+accumulating around joints, causing severe pain and necrosis. This occurs especially in
+the legs.
+- Then, they can reach and stop in the lung vasculature causing edema, hemorrhage,
+focal emphysema, resulting in severe respiratory distress.
+- In cases in which the gas embolism reaches the heart or brain, patients can die.
+b. There is also a chronic form, known as Caisson disease, that mainly affects underwater
+construction workers (i.g. who may be involved in the construction of tunnels under the sea) and
+is caused by the persistence of gas emboli in the skeletal system which then generates multiple
+foci of ischemic necrosis in the femoral heads, tibia, and/or homerus.
+The treatment consists of placing affected individuals in a hyperbaric chamber (chamber under high pressure)
+to force gas bubbles back into solution (so to simulate again the change of status of nitrogen from gaseous
+to liquid). Thanks to a slow decompression, gradual resorption and exhalation of nitrogen can take place to
+avoid intoxication.
+C :
+LASSIFICATION ACCORDING TO THEIR LOCATION
+Emboli can never exceed the capillary filter, because of their mass, so they remain located in the left or right
+circulation section in which they were originated. So if they are in arteries they will stay in arteries and same
+for veins. In general, an arterial embolus cannot pass into the venous system, and vice versa → so we can
+distinguish between venous embolism and arterial embolism. On the contrary, very rarely a venous embolism
+can pass into the arterial circulation due to the presence of a cardiac defect, an interatrial or interventricular
+defect, that allows its translocation. This is commonly seen in conditions of Patent foramen ovale (PFO). In
+this consition, the foramen ovale did not close properly at birth. Therefore, in these patients, venous emboli
+can go into arterial circulation by passing through the foramen.
+We can have:
+● Arterial embolisms: most severe, it is responsible for ischemic necrosis or infarction of various organs
+whose arteries are occluded, such as heart or brain. It is one of the most common causes of death,
+especially when the embolus occludes major arteries.
+● Venous embolisms: even if they are not as severe as the previous ones, they usually reach the lungs,
+which is the most affected organ, causing pulmonary embolism (main cause of death in hospitalized
+patients). They origin from deep venous thrombosis of the lower extremities and then travel to the
+lungs where they lodge. This is different from arterial emboli, which instead travel to a wide variety
+of different sites.
+Venous embolism mainly affects the lungs. While the arterial ones can reach any organ in our body.
+Following the effects of gravity in arterial embolism:
+- Arterial emboli in 60-70% of the cases will stop in the legs (of course less dangerous than in other
+cases);
+- 10-20% in the brain;
+- the remaining in the intestine, kidneys, spleen and upper extremities.
+The Professor advised us to watch the following videos:
+Platelet activation: https://www.youtube.com/watch?v=R8JMfbYW2p4
+Thrombosis: https://www.youtube.com/watch?v=aW6WscFqli8
+https://www.youtube.com/watch?v=2vVqBjk-oqQ
+Nikola Pavlos, Alice Bertozzi
+53

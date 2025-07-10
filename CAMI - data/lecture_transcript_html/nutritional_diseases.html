@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> nutritional diseases</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81a7-a445-fac2fd17dcb9" class="page sans"><header><h1 class="page-title"> nutritional diseases</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81c6-80ed-fe7f887bf97f" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-8157-b096-c5cf9cfc9180" class=""><strong>NUTRITIONAL DISEASES</strong></p><p id="2297904f-03a9-81ff-840f-e6a64836c1f9" class=""><em>Last year, the topics of this lecture were explained by another professor. The parts colored in gray are those explained by him previously and not by Gamba during this year’s lecture, but were kept in the sbobina because they may add useful information.</em></p><p id="2297904f-03a9-8158-9047-f18cfecd2433" class="">The main subjects we try to address are nutritional diseases and disorders, adverse reactions to food, allergies and intolerances, celiac disease.</p><p id="2297904f-03a9-817c-a178-f61ca459b950" class=""><strong>MALNUTRITION</strong></p><p id="2297904f-03a9-8150-ae7f-e252333fa4c8" class="">An appropriate diet should provide sufficient energy in the form of carbohydrates, fats and proteins, vitamins and minerals.</p><p id="2297904f-03a9-8118-a4d1-e10cf00dde55" class=""><em>The proper diet should contain at least 50-55% of the food intake in carbohydrates. So carbohydrates should be the main source in a proper balanced diet. For people doing sports it is the same. Carbohydrates represent the most important fuel in our body, in fact if you think about the ATP production by a single molecule of glucose you easily recognize the importance.</em></p><p id="2297904f-03a9-81ff-9ca2-f92b61add324" class=""><em>It is not necessary to eat too many proteins because you just overload the kidney function (10-20%). As far as lipids are concerned, not many are needed, maximum 20-30%.</em></p><p id="2297904f-03a9-814c-8515-e6c56374f2aa" class=""><em>We have two main carbohydrates classes: </em><em><strong>simple sugars</strong></em><em> and </em><em><strong>complex sugars</strong></em><em>. We need to eat complex sugars and not too many simple sugars because they are almost immediately absorbed, on the contrary complex sugars have a delayed effect because it takes two/three hours to absorb them. So when we say that a balanced diet should contain at least 50-55% of the food intake in carbohydrates, we are mainly talking about complex sugars even if it depends on physical activity, basal metabolism and energy demand.</em></p><p id="2297904f-03a9-81db-a7c7-c5f12c9036d5" class=""><em>An equilibrated diet should also include a wise way of food intake meaning it is better to split the daily calorie intake into 3 or 5 different small meals instead of eating the majority of food for instance in the evening. If you eat all the majority of your calories in the evening you go to bed and do not consume the calories. It is better to eat dividing meals at different moments.</em></p><p id="2297904f-03a9-813f-9441-eb3ee2e99d58" class="">It is important to differentiate between <strong>primary malnutrition</strong> and <strong>secondary malnutrition</strong>.</p><p id="2297904f-03a9-81a4-b646-e2dd6b4a3a0f" class="">Primary malnutrition is when all the components are missing from the diet, while secondary malnutrition is a type of malnutrition due to other pathologies, related to malabsorption for example. At the end the result is the same, this components are missing from the body, but the difference depends on the etiology of the malnutrition.</p><p id="2297904f-03a9-81ed-9952-fe5e9e85610a" class="">The conditions that may lead to malnutrition are a lot:</p><p id="2297904f-03a9-8185-b77d-cfd8ed3e4946" class="">- poverty;</p><p id="2297904f-03a9-8131-9b4c-f9ce53f64801" class="">- self-imposed dietary restrictions (conditions like anorexia or bulimia);</p><p id="2297904f-03a9-8145-bc4a-df85a8f707fe" class="">- ignorance and failure of diet supplementation. Ignorance because for example we should know that folic acid is essential in pregnant women, but because of ignorance it may not be</p><p id="2297904f-03a9-814c-ae96-f2206fb556b9" class="">supplemented;</p><p id="2297904f-03a9-8174-b499-c0c25ad9c5b2" class="">- advanced cancers in which cachexia occurs;</p><p id="2297904f-03a9-8111-a9ff-c56dc4ab8692" class="">- chronic alcoholism;</p><p id="2297904f-03a9-8185-b881-c51b1b05a964" class="">- gastrointestinal pathologies and malabsorption syndromes, genetic diseases (may cause malabsorption and secondary malnutrition);</p><p id="2297904f-03a9-8168-8f61-f4fba37b13f6" class="">- specific pharmacological therapies and total parenteral nutrition;</p><p id="2297904f-03a9-8148-94ba-db4737731073" class="">- infections.</p><p id="2297904f-03a9-81f1-b17a-f998f9f131e8" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-815e-9587-d8945ed59d8b" class="">50</p><p id="2297904f-03a9-8123-86bc-d025cac5ef60" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-8135-b123-d9e4f8ae6f3a" class=""><strong>MAJOR DISEASES AND CONDITIONS ASSOCIATED WITH INADEQUATE DIGESTION AND FOOD MALABSORPTION</strong></p><p id="2297904f-03a9-81cb-9a2f-c4c9ce73b793" class="">1) Gastric resection, accelerated gastric emptying (short bowel syndrome = sindrome dell’intestino corto)</p><p id="2297904f-03a9-8162-a367-c0987e81ed85" class="">2) Pancreatic insufficiency (for example we have seen cystic fibrosis, a recessive disorder whose name comes from this fibrotic tissue at the level of the pancreas. In the case of cystic fibrosis we have a pancreatic insufficiency and the lack of production of pancreatic enzymes leads to a malabsorption due to genetic disorders.)</p><p id="2297904f-03a9-816b-9c43-f3042cc238f0" class="">3) Pathologies of the liver and biliary tract with cholestasis</p><p id="2297904f-03a9-810c-b4c3-e1fb92ff297d" class="">4) Congenital or acquired lactase deficiency</p><p id="2297904f-03a9-819e-9235-d31090fa7990" class="">5) Intestinal villous atrophy (celiac disease)</p><p id="2297904f-03a9-8124-9654-e5b60da2582a" class="">6) Chronic inflammation of the intestinal mucosa</p><p id="2297904f-03a9-8150-86fa-df6c4e407583" class="">The last two of course lead to malabsorption and secondary malnutrition.</p><p id="2297904f-03a9-8116-9267-d6a8dcc25588" class=""><em>It is important to not intake an insufficient amount of carbohydrates because we need glucose for energy, if it is not sufficient we use lipids and then proteins - amino acids and fatty acids to produce energy and this is not good.</em></p><p id="2297904f-03a9-8153-9e52-e97ddaf6e0c0" class=""><em>On the contrary, an excessive carbohydrate uptake especially in the case of simple sugars is not good because then they become a good substrate for new lipid synthesis, so you increase the rate of lipid synthesis especially in the liver causing the production of TGs (triglycerides) and so </em><em><strong>liver steatosis</strong></em><em>. Moreover, too many lipids in the gut make the digestion difficult, causing </em><em><strong>diarrhea</strong></em><em>, </em><em><strong>meteorism</strong></em><em> because the microbiota takes advantage of this excess of lipids.</em></p><p id="2297904f-03a9-81a0-aa94-c3635936ff0d" class=""><em>If we do not have enough amino acids and protein intake our protein synthesis will be impaired and lead to </em><em><strong>blood clotting deficit</strong></em><em> (due to deficit in protein synthesis), </em><em><strong>impairment of immunological defenses</strong></em><em>.</em></p><p id="2297904f-03a9-81df-9ed2-c0d98816cfcd" class=""><em>On the other hand, if we eat too many proteins we give extra work to our kidneys. It depends on age, in aging people the problems are amplified.</em></p><p id="2297904f-03a9-8133-94ff-e69dc33d9036" class=""><em>If we do not have a sufficient uptake of lipids we have an </em><em><strong>impaired absorption of fat soluble vitamins (A, E, K, D)</strong></em><em> and also we need long chain fatty acids, whereas short chain FAs could be provided by a physiological healthy microbiota.</em></p><p id="2297904f-03a9-8155-8cb1-c388510edd28" class=""><em>An excessive uptake of lipids will lead to troubles in digestion. Long digestion problems like diarrhea are present.</em></p><p id="2297904f-03a9-8128-89a1-e8198beb2b20" class=""><strong>SAM</strong></p><p id="2297904f-03a9-8109-a2f6-eaaa2a48f33d" class="">SAM stands for <strong>Severe Acute Malnutrition</strong>. It is a new way to indicate PEM, that stands for Protein Energy Malnutrition (in Italian <em>malnutrizione protidoenergetica</em>), and was used until some years ago. Now in new textbooks, it is called SAM and it is common in low income countries and around 25% of children are affected by it. Malnutrition is determined based on the <strong>BMI</strong> (body mass index). BMI is the calculated as the ratio between weight (expressed in kg) and squared height (expressed as squared meters). If this value is less than 16 kg/m2, the person is considered to be affected by malnutrition. Two people can appear different and still have the same BMI because it also depends on the distribution of fats and skeletal muscles.</p><p id="2297904f-03a9-81ae-a104-ff6c72a3ad75" class="">Other useful parameters are:</p><p id="2297904f-03a9-818b-b4b3-d66d85eaef71" class="">- fat reserves (thickness of skin folds),</p><p id="2297904f-03a9-8118-9efc-fc54a86e801a" class="">- muscle mass (reduced circumference of the central part of the arm),</p><p id="2297904f-03a9-81b8-a8a8-d04965e0eb59" class="">- serum protein (the measurement of albumin and transferrin). Proteins like albumin are measured in order to understand whether you are in front of a person will malnutrition, because a typical sign of malnutrition is hypoalbulinemia (low levels of albumin in the blood),</p><p id="2297904f-03a9-8148-a369-e25f47145a01" class="">- gut microbioma (it changes in people with malnutrition)</p><p id="2297904f-03a9-8150-b3ad-c13a1714c5fe" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-8112-9e28-f25898f36744" class="">51</p><p id="2297904f-03a9-81b3-930b-dc327edb96b9" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-8114-a6d5-f77707855a04" class="">There are two differently regulated protein compartments in the body:</p><p id="2297904f-03a9-817b-b5f9-d0e5a5cd7d37" class="">1) <strong>somatic compartment</strong> (proteins in skeletal muscles)</p><p id="2297904f-03a9-813c-9b0e-c0e066144d9a" class="">2) <strong>visceral compartment</strong> (protein stores in the visceral organs, primarily the liver). It is composed by the proteins that are more vital for our organs.</p><p id="2297904f-03a9-81df-8a51-f4dc772be262" class=""><strong>MARASMUS</strong></p><p id="2297904f-03a9-8123-a9f6-fbc63d6e64fe" class="">In Italian it is called <em>Marasma</em>. It is characteristic mainly of children that are lacking calories, they have a <strong>deficit in total calories</strong>, not only proteins. These are children that do not eat enough fats or proteins. A child is considered to have marasmus when weight falls to 60% of normal for sex, height, and age and has low BMI (lower than 16). They are characterized by <strong>growth retardation</strong> and <strong>loss of muscle</strong> because in case of deficit in total calories we have catabolism and depletion of the <strong>somatic protein compartment</strong>. The <strong>visceral protein compartment</strong>, which is presumably more precious and critical for survival, is only marginally depleted, and hence serum albumin levels (and other proteins in the blood) are either normal or only slightly reduced. Subcutaneous fat is also mobilized and used as source of energy. <strong>Anemia</strong> may be also present and signs of multiple vitamin deficiencies are present. For example we have seen that <strong>vitamin B12</strong> is essential for DNA synthesis and a <strong>megaloblastic anemia</strong> can be present. <strong>Vitamin C</strong> is important for the absorption of iron, so in case of a deficiency also iron is depleted and there is a <strong>sideroblastic anemia</strong>. and there is evidence of immune deficiency (concurrent infections).</p><figure id="2297904f-03a9-814f-b2c3-e23150ba571b" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image1.png"><img style="width:245px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image1.png"/></a></figure><p id="2297904f-03a9-8163-9b32-e31fa57ff5b1" class=""><em>and the few that reach the blood are bigger. This is because the proerythblasts try to divide, so the cytoplasm becomes bigger but the DNA is not able to duplicate and divide, so this gives rise to a bigger cell. This depends also on the susceptibility of the child, because he may have a megaloblastic anemia because of the lack of B12 but microcytic anemia because of the lack of iron.</em></p><p id="2297904f-03a9-814d-b814-fc179299e019" class=""><em>Question: why we see megaloblastic anemia in this?</em></p><p id="2297904f-03a9-81a7-bad9-d40268cc8434" class=""><em>Answer: because vitamin B12 is present in all the foods of animal origin and the precursors of red blood cells in the bone marrow are not able to divide and proliferate and it causes megaloblastic anemia, so megaloblasts die inside the bone marrow and so few red blood cells are released in the blood</em></p><p id="2297904f-03a9-8113-b9a1-c0ec5b7f8c09" class=""><em>Fig. 1</em></p><p id="2297904f-03a9-819f-9cd4-cc5fbf357162" class=""><strong>KWASHIORKOR</strong></p><p id="2297904f-03a9-818c-8ac7-d147b8b14704" class="">The most common form of SAM in African children who have been weaned</p><figure id="2297904f-03a9-81fd-b4bb-ca03b1f990a3" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image2.png"><img style="width:250px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image2.png"/></a></figure><p id="2297904f-03a9-8132-8b82-c478cb51f5f4" class="">gives rise to generalized edema. This is because the low colloidosmotic pressure in the blood brings fluid to exit from the blood and reach the tissues. This kind of edema is called transudate, not to be confused with inflammatory edema, the exudates. The loss of weight in these patients is masked by the increased fluid retention, very severe condition.</p><p id="2297904f-03a9-8138-bc62-f98eb5f24e96" class=""><em>Fat deposits are maintained, muscle atrophy is less marked than in marasmus. Less severe forms can be</em></p><p id="2297904f-03a9-81e6-b023-f2e6ff45e5b9" class="">too early and fed, almost exclusively, a carbohydrate diet. They do not eat proteins but only carbohydrates and so a marked protein deprivation is associated with severe depletion of the</p><p id="2297904f-03a9-8132-83cf-ea62ba2f66a1" class=""><strong>visceral protein compartment</strong></p><p id="2297904f-03a9-816d-a840-f648d9ec317e" class="">. Proteins of the liver are catabolized and the resultant</p><p id="2297904f-03a9-8142-b5cc-f2b26b2f87a8" class=""><strong>hypoalbuminemia</strong></p><p id="2297904f-03a9-81a2-8761-fccdbe967a48" class=""><em>seen in individuals with chronic diarrheal states.</em></p><p id="2297904f-03a9-810e-addb-c07231aee399" class=""><em>Fig. 2</em> The term is originated from Ghana and it means “the disease of the first child”. This is because when the second child is born, the mother gives milk to the second and the</p><p id="2297904f-03a9-812f-a361-fe99e184565e" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81da-ab04-d0b2305f657d" class="">52</p><p id="2297904f-03a9-81de-9b22-ec5c1ba3382b" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-8112-bc92-fc8befb0f894" class="">first child loses his milk.</p><p id="2297904f-03a9-8123-8e93-c008e05c03f1" class="">Both <strong>marasmus</strong> and <strong>kwashiorkor</strong> are characterized by different types of anemia. It may be <strong>microcytic</strong> because of the lack of iron or <strong>macrocytic</strong> because of the lack of vitamin B12.</p><p id="2297904f-03a9-8148-b4da-fb6a2bda7b32" class="">The <strong>brain</strong> may be also affected if the child suffers from this malnutrition during the first 1 or 2 years of life or if children are born from mother that suffer from malnutrition, the brain may be less developed have and cerebral atrophy already at birth.</p><p id="2297904f-03a9-81d9-9885-df8ad7ec5168" class=""><strong>SECONDARY MALNUTRITION</strong></p><p id="2297904f-03a9-81b8-bf89-f2447f28611d" class=""><strong>Secondary malnutrition</strong> often develops in chronically ill, elderly, and bedridden patients. More than 50% of older residents in nursing homes in the United States are malnourished. The signs of secondary malnutrition are:</p><p id="2297904f-03a9-818f-b88f-f89bbb079036" class="">(1) Depletion of subcutaneous fat</p><p id="2297904f-03a9-8147-9016-c99687943e0b" class="">(2) Muscle atrophy</p><p id="2297904f-03a9-8190-9802-d8cec96a48b5" class="">(3) Ankle or sacral edema</p><p id="2297904f-03a9-8117-8e47-e3d23993f933" class="">(4) Increased risk of infection</p><p id="2297904f-03a9-81de-a662-eb5e64e751c5" class="">(5) Impaired wound healing</p><p id="2297904f-03a9-81a7-942d-f29aefe67376" class="">(6) Anemia</p><p id="2297904f-03a9-81b4-839f-fe48ce9c0251" class=""><strong>CACHEXIA</strong></p><p id="2297904f-03a9-81e9-ac83-cfe5c626f11b" class=""><strong>Cachexia</strong> is a sort of secondary malnutrition that occurs in patients with advanced cancers. It is a highly debilitating condition characterized by:</p><p id="2297904f-03a9-814b-b312-cf17b0685417" class="">1) Extreme weight loss</p><p id="2297904f-03a9-819b-89e9-fb910ace7580" class="">2) Fatigue</p><p id="2297904f-03a9-81ea-bf5e-f4c6502f9dbf" class="">3) Muscle atrophy (Mortality is generally the consequence of atrophy of the diaphragm)</p><p id="2297904f-03a9-8191-bf7f-cac225645901" class="">4) Anemia</p><p id="2297904f-03a9-8125-9874-f693e7c9d8e6" class="">5) Anorexia</p><p id="2297904f-03a9-8100-96c5-e668e97dffff" class="">NFkB. NFkB translocates to the nucleus and activates the transcription of several pro-inflammatory cytokines and also some muscle specific ubiquitin ligases. So NFkB activation favors the ubiquitination of proteins and proteins that are ubiquitinated are recognized by the proteasome and are degraded by it. This results in the loss of myocytes. I won’t ask you about cachexia, this is just an</p><figure id="2297904f-03a9-8108-ad25-d189164a6592" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image3.png"><img style="width:378px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image3.png"/></a></figure><p id="2297904f-03a9-8114-b79c-de7f6791cb97" class="">6) Edema</p><p id="2297904f-03a9-81b7-a9e7-c8dd68bb939f" class="">The major mechanism of cachexia is the destruction of proteins by the proteasome. In particular we have the <strong>PIF</strong> (proteolysis-inducing factor) that together with the <strong>TNF</strong> and other cytokines released by the tumor or by the host cell bind to specific receptors and activates</p><p id="2297904f-03a9-815a-a0a6-e94c2eab5185" class="">example I wanted to add. <em>Fig. 3</em></p><p id="2297904f-03a9-81a3-b1d5-dfbcfa81810d" class=""><strong>VITAMIN DEFICIENCIES</strong></p><p id="2297904f-03a9-810d-974e-e3e42de4c793" class="">Vitamins may be <strong>fat soluble</strong> or <strong>water soluble</strong>. Vitamin A, vitamin K and vitamin D are all liposoluble. Vitamins can be <strong>synthesized</strong> by our body or <strong>absorbed</strong> through the diet. Vitamin D is an example of a vitamin synthesized by our body but it can be also assumed with the diet.</p><p id="2297904f-03a9-81c2-a6aa-ff62c5fd04f8" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-8134-9899-ea42fa176f1e" class="">53</p><figure id="2297904f-03a9-810d-a5ff-f3643fcba4ce" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image4.png"><img style="width:405px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image4.png"/></a></figure><p id="2297904f-03a9-81ed-adc5-e1cd0d4be8b0" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-8120-a8df-c487e778c8fa" class="">Vitamin deficiency can also be primary or secondary (due to other diseases that avoid the absorption</p><p id="2297904f-03a9-8171-9e2c-d47a84879d16" class="">of the vitamin).</p><p id="2297904f-03a9-817b-b168-d91e91ea75df" class="">●<strong>Vitamin A</strong></p><p id="2297904f-03a9-8126-9b0e-ef642f040aa7" class="">Vitamin A is a fat soluble vitamin. It is present as <strong>preformed VitA</strong> in foods of animal origin. Also, the <strong>preformed VitA</strong> represents 70% of all the vitamin A that we have to assume. The other 30% is represented by the vitamin A in the form of <strong>provitamin A</strong> present in vegetables, for example the <strong>carotenoids</strong> and <strong>beta-carotene</strong> is the main one present in vegetables, like in carrots. Beta carotene or vitamin A in the form of retinol is absorbed by the intestine and charged in <strong>lipoproteins</strong> called <strong>chylomicrons</strong>. These reach the liver and bind to specific receptors on hepatocytes that recognize the <strong>apolipoprotein E</strong> that surrounds chylomicros. Retinol enters the hepatocytes and it is esterified into <strong>retinyl esters</strong>, which is the form of retinol that can be stored in the tissues. In case of need, the retinol binds to specific binding proteins and reach the peripheral tissues. Also in the peripheral tissues, retinol may be esterified in order to be stored and used only when needed.</p><p id="2297904f-03a9-81b9-a98e-c6dbde4aafbc" class="">Its main functions are:</p><p id="2297904f-03a9-8185-8cc7-fe0c9ec1f3ca" class="">1) Maintenance of normal vision</p><p id="2297904f-03a9-817c-8bc0-df4241441dc4" class="">2) Cell growth and mainteinance of the differentiation of <em>Fig. 4</em></p><p id="2297904f-03a9-8100-9985-db1fb4bc6192" class="">epithelial cells (important in the differentiation of the muco- secreting epithelium). The compound that in particular is responsible for the maintenance of the differentiation of epithelial cells is the <strong>retinoid acid</strong> that comes from the oxidation of retinol in the periphery.</p><p id="2297904f-03a9-817a-9bbf-caf9fec32f9e" class="">3) Metabolic effects (e.g. drug metabolism, fatty acids…)</p><p id="2297904f-03a9-8178-9c02-d48ae6d33e98" class="">4) Stimulation of the immune system</p><p id="2297904f-03a9-81ba-8ab3-c86189d67432" class="">5) Photoprotection</p><p id="2297904f-03a9-81ba-a0aa-f533e93be47b" class="">6) Antioxidant</p><p id="2297904f-03a9-817d-b4cb-e8ea59459137" class="">It is protective towards all epithelia, it has an epithelial tropism.</p><p id="2297904f-03a9-81c9-9444-c4b2daa5b886" class="">The causes of vitamin A deficiency are <strong>general undernutrition</strong> (or primary malnutrition) and secondary malnutrition due to malabsorption of fats that characterizes cystic fibrosis. In cystic fibrosis, we have the lack of pancreatic enzymes that brings to fat malabsorption, steatorrhea, diarrhea and all the vitamins that are fat-soluble are lost.</p><p id="2297904f-03a9-8156-bdba-df525534a2dd" class="">The vitamin A deficiency brings to impaired vision, in particular in reduced light.</p><p id="2297904f-03a9-81e0-b426-d2b30c4e4a6d" class="">In particular you have problems because of the purple pigment, the production of which needs a sufficient amount of vitamin A. If this doesn’t happen we have hemeralopia, where in the late afternoon you don’t see properly because of the low levels of light. In particular, even in the conjunctiva and cornea you have an increased production of connective tissue.</p><p id="2297904f-03a9-81f7-97b5-e608cc6bb3c3" class="">It causes epithelial metaplasia and keratinization. As I told you, retinol is important in maintaining the differentiation of cells. <strong>Metaplasia</strong> is characterized by the morphological changes of well differentiated cells in another well differentiated cells. For example the <strong>squamous metaplasia</strong>. The term squamous refers to the cells in their final conformation. In the airways, the epithelium is psudostratified (monolayer that appears as a multilayer because of the organization of the nuclei), columnar and ciliated. The metaplasia is characterized by the loss of the cilia and the acquisition of new phonotypical characteristics and the cells become squamous. The squamous metaplasia of the</p><p id="2297904f-03a9-8183-8dce-e9cc3d1f2bda" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81bf-b299-ce30599cf722" class="">54</p><p id="2297904f-03a9-8137-88a3-f2365198fbb7" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-811c-a0d9-d3074b15dec8" class="">epithelia is a characteristic of the vitamin A deficiency and this happens mainly at the level of the epithelium of the <strong>conjunctiva</strong> and the <strong>lacrimal ducts</strong> bringing to this pathological condition called <strong>xeroftalmia</strong>, characterized by dryness of the conjunctiva (also called dry eye). At the level of the eye, we can find the <strong>bitot spots</strong>, <strong>corneal ulcers</strong> and also <strong>keratomalacia</strong>, which is the more severe condition at the level of the eye and can lead to blindness and is characterized by the erosion of the corneal surface. This is due to the dry eye and to the fact that this squamous metaplasia sometimes is also characterized by <strong>keratinization</strong> (deposition of keratin). This characteristics can be also present at the level of the <strong>respiratory tract</strong>, so a kind of keratinized squamous metaplasia similar to the metaplasia that appears in the smokers. Remember that metaplasia is an adaptation to a condition, in this case vitamin A deficiency so it is a reversible condition in case of the restoration of normal quantities of vitamin A and tissue may be again normal, but the problem is that metaplasia is a precancerousis so it has high probability to become a malignant tumor.</p><p id="2297904f-03a9-81f2-bfab-c801a4f5e68a" class="">A deficiency could cause problems in all epithelia, including intestinal, neurological and cardiovascular. We should be very careful about supplementing vitamin A because it could easily lead to hypervitaminosis. When you give a vitamin complex, a mixture of different vitamins that includes vitamin A, you should be careful not to prolong the vitamin supplementation over two or three months, to avoid hypervitaminosis.</p><p id="2297904f-03a9-810c-be74-d2d8325676bf" class="">●<strong>Vitamin D</strong></p><p id="2297904f-03a9-81f0-9938-fa964e724b78" class="">It is another fat-soluble vitamin. it is characterized by endogenous synthesis in the skin starting from</p><figure id="2297904f-03a9-81ef-bb2a-c6b447f93e24" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image5.png"><img style="width:521px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image5.png"/></a></figure><p id="2297904f-03a9-8136-9afc-de1d6243249b" class=""><em>Fig. 5</em></p><p id="2297904f-03a9-8149-9e6c-e2cce15c45f0" class="">the <strong>precursor 7-dehydrocholesterol</strong> that thanks to a <strong>photochemical reaction (UVB radiation)</strong> (~ 90%). This reaction results in the synthesis of <strong>cholecalciferol</strong>, known as vitamin D3 and synthesized endogenously in the skin. It can also be assumed in the diet, only 10% is present in food, for example dairy foods. <strong>Cholecalciferol</strong> is not so active, it has to be metabolized by the liver and the kidney. In the kidney there are important enzymes that oxidize vitamin D giving rise to<strong>1,25-dihydroxy-vitamin D</strong>. 1 and 25 are the positions in which cholecalciferol is oxidized. Remember that this oxidized form is created thanks to the enzymes present in kidney and liver, so if we have problems at the level of the liver or kidney also vitamin D may not be oxidized and so activated.</p><p id="2297904f-03a9-81e5-8907-f14624bef440" class="">The main steps of vitamin D metabolism are:</p><p id="2297904f-03a9-8111-a064-c9f4fd4eca24" class="">1) Photochemical synthesis of vitamin D from <strong>7-dehydrocholesterol</strong> in the skin and absorption of vitamin D from foods</p><p id="2297904f-03a9-8133-a719-c17572ed2f29" class="">2) Binding of vitamin D to <strong>plasma α1- globulin</strong> (<strong>D-</strong></p><p id="2297904f-03a9-8164-97de-f13eee4d4c04" class=""><strong>binding protein or DBP</strong>, which is a transporter) and transport into the liver.</p><p id="2297904f-03a9-811d-8f4f-cafc67073af8" class="">3) Conversion of vitamin D into <strong>25-hydroxycholecalciferol [25-OH-D]</strong> in the liver, through the action of <strong>25- hydroxylases</strong> (enzyme present in the liver), including CYP27A1 and other CYPs.</p><p id="2297904f-03a9-8112-8e1b-cb6251481b56" class="">4) Conversion of 25-OH-D into <strong>1,25- dihydroxyvitamin D [1α,25(OH)2D3]</strong>, the most active form of vitamin D, by the enzyme <strong>1α-hydroxylase</strong> in the kidney.</p><p id="2297904f-03a9-811e-811a-e3443e10283a" class="">Main functions of vitamin D are to preserve the adequate plasma levels of calcium and phosphorus. Conditions of <strong>hypocalcemia</strong> or <strong>hypophosphatemia</strong> are able to be sensed by the kidney that activates these enzymes and brings to the formation in that moment of more active vitamin D. The</p><p id="2297904f-03a9-811c-b1d8-d434aadc330f" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81ed-b1a6-f4836b364723" class="">55</p><p id="2297904f-03a9-81d6-93ca-cc7b6ee4abd9" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-81af-90da-f9bdb744532f" class="">high levels of active vitamin D bring to a sort of negative feedback, because if we have too much or sufficient active vitamin D the kidney stops oxidizing new 25-hydroxycholecalciferol, while if it is needed it is oxidized.</p><p id="2297904f-03a9-8149-9937-e9d1f9e3397e" class="">1,25- dihydroxyvitamin Dstimulates the intestinal absorption of calcium and phosphorus, made through active transport in the small intestine and passive transport in the colon. Vitamin D regulates especially the absorption of calcium, especially in the small intestine where the transport is active. Vitamin D is important for bones and muscle function and reactivity, and also against infections. Also the parathyroid glands have the important role to sense the extracellular concentration o calcium. When there is a condition of hypocalcemia, the parathyroid glands produce the PTH that stimulates the kidney to oxidize the inactive form of vitamin D creating the active form and at the same time the PTH stimulates the maturation of the osteoclasts that degrade bones bringing the release of calcium.</p><p id="2297904f-03a9-81ff-9f4f-f6c36d54c3f3" class="">For instance, during Covid-19, in many groups with moderate to severe disease, vitamin D was very low. This is probably a secondary consequence, but some people suggested supplementing Covid patients with vitamin D, and other people suggested using vitamin D to prevent viral infections. Vitamin D is an oxysterol, and it could contribute to good antiviral response.</p><figure id="2297904f-03a9-8122-9688-e3f344b67602" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image6.png"><img style="width:700px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image6.png"/></a></figure><p id="2297904f-03a9-817c-a304-c89147ead97a" class=""><em>Fig. 7</em></p><p id="2297904f-03a9-815a-a036-c3eec76884a1" class="">I prefer to start explaining this (fig.6) from point 4. When you have low serum concentration of calcium and phosphate in the blood, the parathyroid gland produces PTH. PTH stimulates the maturation of osteoclasts so calcium is taken from the bones and at the same time it stimulates the kidney to oxidize the 25-hydroxycholecalciferol to the 1,25- dihydroxyvitamin D. This active compound goes to stimulate the absorption of calcium and phosphorus to restore their concentration in blood. The consequencies of hypocalcemia and hypophosphatemia are at the level of the bone mineralization and it can bring to <strong>rickets</strong> (in Italian <em>rachitismo</em>) in children (fig.7). In growing children it is characterized by micrifractures, skeletal malformations, malformations not only at the level of the legs that have a particular shape similar to arches and also at the level of the head which has flat occipital bones and deformation of the parietal ones. Also the sternum may be</p><p id="2297904f-03a9-8137-a108-e9194c62c4f8" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81e5-99e2-c0f8afea56fe" class="">56</p><figure id="2297904f-03a9-8119-8a0f-f1bd1327a20a" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image8.png"><img style="width:151px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image8.png"/></a></figure><p id="2297904f-03a9-8139-b2a7-f2eb5b85be82" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-814c-9c65-e6057a8ba026" class=""><em>Fig. 6</em> convex. In adults the lack of vitamin D is called <strong>osteomalacia</strong>, characterized mainly by being prone to fracture. Hypocalcemic tetany is a convulsive state due to the low calcium concentration of ionized calcium, which is required for normal neural excitation and the relaxation of muscles.It’s easy to get a vitamin D deficiency, especially in some areas where there’s not enough exposure to sun. Hypervitaminosis D is very rare, even in supplemented people, contrary to hypervitaminosis A.</p><p id="2297904f-03a9-81a8-b6b4-fa73392ada6e" class=""><em>Fig. 7</em></p><p id="2297904f-03a9-81b7-8f3e-f3f468e9a707" class="">● <strong>Vitamin C</strong></p><p id="2297904f-03a9-8152-8170-f72a42f61291" class="">It is also called ascorbic acid and it is a water soluble vitamin. It derives exclusively from the diet (liver, milk, fish, lemons, oranges, tomatoes and the food that contains the biggest quantity vitamin C is the pepper). The main function of vitamin C are: • activation of enzymes that lead to the formation of <strong>collagen</strong> in particular the vitamin C accelerates the hydroxylation of pro-collagen and in this way collagen can be produced and excreted from the fibroblasts in the right way;</p><p id="2297904f-03a9-8169-9933-c85a3b090ae9" class="">• it has antioxidant properties (for examples a lot of creams for women are rich in vitamin C because of their anti-oxidant properties)</p><p id="2297904f-03a9-816c-93df-cf9d2fd889eb" class="">• Facilitates intestinal absorption of iron. Iron, to be absorbed, must be in the reduced form, and vitamin C needs to be absorbed in the oxidized form. Thanks to vitamin C iron can be absorbed and used for the production of red blood cells. Often young ladies using iron supplementation are provided with iron and vitamin C in the oxidized form, that reduces iron. It’s easier to absorb iron if it’s coupled with vitamin C.</p><p id="2297904f-03a9-812a-8938-defa24cff4b7" class=""><strong>Scurvy</strong> (in Italian <em>scorbuto</em>) is the consequence of hypovitaminosis C, and it gives many problems. It’s difficult to have hypovitaminosis C in our area, but there are countries in which fruits and vegetables are not of easy assumption and in 15th and 16th century it was diffused in sailors that did not have fresh fruits. In our case vitamin C</p><figure id="2297904f-03a9-8119-894e-c90570856ae1" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image7.png"><img style="width:700px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image7.png"/></a></figure><p id="2297904f-03a9-8100-8ea4-c0c50c9117c0" class=""><em>Fig. 8</em></p><p id="2297904f-03a9-81e9-a609-c0bdf9a24967" class="">deficiency could be only due to a specific malnutrition, like alcoholism, which interferes with the absorption of various nutrients. Alcohol can give gastritis and gastroenteritis, it could favor damage to our gastric and intestinal mucosa. It is characterized by poor vessels support that results in bleeding tendency because and collagen is missing, it is impaired. This shown at the level of the gums, the skin</p><p id="2297904f-03a9-81be-9fc5-e937fae38855" class="">because the little vessels may rupture, impaired wound healing or scar formation.</p><p id="2297904f-03a9-81c2-ba25-d56277f5a765" class="">It is well absorbed in our intestine especially in oxidized form, so dehydroascorbic acid (the reduced form is ascorbic acid). Vitamin C and <strong>vitamin E</strong> react well together. Vitamin E is in the cell membranes, and one single molecule of vitamin E keeps under control about 2000/3000 molecules of polyunsaturated fatty acids, because of the very tight and efficient interaction with vitamin C. When polyunsaturated fatty acids undergo oxidation, vitamin E rapidly gives an electron so the free radical reaction is blocked and the polyunsaturated fatty acid is not damaged and not broken down. But now vitamin E is oxidized in the middle of the membrane, and once it’s oxidized the molecule</p><p id="2297904f-03a9-810c-b65a-e635e56d2efa" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81c2-9e4a-efea9850bd48" class="">57</p><p id="2297904f-03a9-81ee-b0d8-fc8c0d667e6c" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-81e9-9db9-d3fd277cc59a" class="">moves towards the cytoplasm and it’s at the internal border of the membrane. Here it’s able to interact with hydrosoluble antioxidant vitamin C, which loves to be oxidized. As soon as it interacts with vitamin E, vitamin C gets oxidized, gives the electron to vitamin E and vitamin E is ready to go back in the middle of the membrane and work to protect polyunsaturated fatty acids.After 2-3 months of vitamin A retinol supplementation there is a risk of moderate hypervitaminosis, so epithelia may be in trouble.</p><p id="2297904f-03a9-8163-b8c9-f9c7237e6549" class="">Usually vitamin E employed in supplements is ɑ-Tocopherol. There are 4 tocopherols and 4 tocotrienols. The molecule exerting the best antioxidant action is ɑ-Tocopherol, so that’s what supplements provide. Vitamin E has a strong antioxidant activity, as said above.</p><p id="2297904f-03a9-8133-b409-c963245c040b" class="">●<strong>Vitamin B12</strong></p><p id="2297904f-03a9-8163-bc7e-ede89e80c958" class="">We spoke about this when talking about anemia<strong>. Vitamin B12</strong> or <strong>methylcobalamin</strong> is an important co-factor in the synthesis of B12. It is present in food of animal origin like meat or milk and it is taken up by the protein. To be absorbed at the level of the intestine</p><figure id="2297904f-03a9-8165-b5ac-eddab485aded" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image9.png"><img style="width:406px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image9.png"/></a></figure><p id="2297904f-03a9-811d-891f-e819e2ac5e41" class=""><em>Fig. 9</em></p><p id="2297904f-03a9-8112-880d-e4315a267668" class="">needs to be bound to this violet molecule (fig.9) that is <strong>intrinsic factor</strong>.</p><p id="2297904f-03a9-81d2-873e-d7c0725346eb" class="">The intrinsic factor is produced and released by the parietal cells of the stomach and binds vitamin B12 and at the level of the intestine the intrinsic factor binds to specific receptors and in this way the binding of B12 can be passive. I want to focus on the intrinsic factor that is necessary. The lacking of vitamin B12 can be due both to a <strong>primary malnutrition</strong> (like veganism, because they do not eat foods of animal origin) or it can be due to a <strong>secondary malnutrition</strong> for example <strong>chronic gastritis</strong> conditions in which the cells of the stomach are not able to produce the intrinsic factor. It can be also due to conditions at the level of the intestine in which the receptor for intrinsic factor are not exposed or there is an inflammatory condition that avoids the binding and the absorption of the complex vitamin B12-intrisic factor. Or there is another disease, that is <strong>pernicious anemia</strong>. It is an autoimmune condition in which there are auto-antibodies directly against the gastric parietal cells. So these antibodies block the production of the intrinsic factor or they can be directly against the intrinsic factor itself and in this case it is not able to bind the vitamin B12 or against <strong>cubilin</strong>, which is the receptor. In this case B12 is assumed, but cannot be absorbed. Also pernicious anemia is a cause of</p><p id="2297904f-03a9-810d-8dc4-f44fb649600f" class="">secondary malnutrition. The consequence is a <strong>megaloblastic anemia</strong>. At the level of the bone marrow these proerythroblasts are bigger than normal because they are trying to divide, but the DNA is impaired. So bigger erythroblasts are present in the bone marrow and usually they die in the bone marrow, so it is an intramedullary death of the precursors of the red blood cells. The consequence is an insufficient erythropoiesis, few erythrocytes are released in the blood and those few are bigger than normal. These macrocytic erythrocytes are often destroyed also in circulation.</p><p id="2297904f-03a9-817a-96c6-f5bec15c774c" class="">Folic acid and vitamin B12 are similar in the symptomatology. Pregnant ladies are given folic acid supplementation independently of their serum concentration, because there’s no problem with hyperaccumulation and it’s important to have sufficient folic acid for DNA synthesis. Folic acid and vitamin B12 behave in a similar way but with an exception: only vitamin B12, in case of deficiency,</p><p id="2297904f-03a9-81c0-ad96-f907098a23ea" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81b8-aeaf-e87f9201a8bc" class="">58</p><p id="2297904f-03a9-811f-bbef-d4a040d90393" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-81e9-9209-c5ddaddbd0e9" class="">is able to induce neurological symptoms. They are very important in nucleic acid synthesis and in the synthesis of the heme group. This activity is essential, otherwise you would have megaloblastic anemia.</p><p id="2297904f-03a9-81c9-80a0-d0327962a990" class="">●<strong>Vitamin K</strong></p><p id="2297904f-03a9-81b1-8ee1-ccd71e498bcb" class="">Vitamin K can have two different sources: vegetables (K2) and our microbiota, good commensals are producing vitamin K1 for us. We don’t really face any hypervitaminosis with vitamin K. Vitamin K is important in blood clotting and a decrease in vitamin K you have derangement of blood coagulation.</p><p id="2297904f-03a9-814a-ba8a-eede95744288" class="">Hydrosoluble vitamins don’t give hypervitaminosis, you can eat as much as you want and they don’t accumulate, the body removes the excess. But there are different deficiencies, and some of them are of interest in the REDOX biology of our body. Some vitamins belonging to the B family are important in redox biology, regulating oxidative and reductive processes.</p><p id="2297904f-03a9-8140-8089-eec587f6f0a6" class="">●<strong>Thiamine, B1</strong></p><p id="2297904f-03a9-8117-98a1-fb81eec878dc" class="">It is important in regulating carbohydrate metabolism. Deficiency of this vitamin leads especially to neurological problems. Beri-Beri is a syndrome not frequent anymore but typical of the far East, where the diet was deficient in particular of vitamin B1. The symptomatology was characterized by immunological problems, intestinal problems and cardiovascular problems.</p><p id="2297904f-03a9-8144-aa19-fc68e6cdffb0" class="">●<strong>Vitamin B2 and B3</strong></p><p id="2297904f-03a9-81b8-a138-e880f4be3315" class="">They are important in the redox regulation of different functions of our cells and organs. They are so important because they are the main component of coenzymes FAD, NAD and NADPH. Vitamin A, E, B2, B3, C are important in the redox regulation of many functions. The main biochemical pathways regulating metabolism and functions in cells are dependent on calcium, on</p><p id="2297904f-03a9-81b3-9579-c6d3b2b3bcc2" class="">phosphorylation/dephosphorylation and on reduction and oxidation.</p><p id="2297904f-03a9-81b7-b05f-f88ecc926b02" class="">●<strong>Vitamin B6 and B7</strong> are important in different metabolisms, in particular in the structure and function of skeletal muscle.</p><p id="2297904f-03a9-815d-b205-ff9930c9ed63" class=""><strong>ADVERSE REACTIONS TO FOOD</strong></p><p id="2297904f-03a9-81fd-9bbc-ff977180154b" class="">They can be</p><p id="2297904f-03a9-81be-9882-ff5b4ef06fb5" class=""><strong>1.toxic reactions</strong>, they are intoxications, there is not individual difference</p><p id="2297904f-03a9-8187-8632-e1182f773741" class=""><strong>2.non toxic reactions,</strong> could be</p><p id="2297904f-03a9-81de-9c5d-c9e4ce2516bb" class="">a.due to altered immune response (=<strong>allergies</strong>)</p><p id="2297904f-03a9-8107-9acb-deeae2a4f0a7" class="">i. IgE dependent</p><p id="2297904f-03a9-81ac-892e-f8b85fd9c8b6" class="">ii. non-IgE dependent (characterized by other types of immunoglobulins that are produced)</p><p id="2297904f-03a9-8118-a5af-c8a5d58f8f66" class="">iii.mixed</p><p id="2297904f-03a9-81cb-8944-ed2ffa65defc" class="">a.not of immunologic order (=<strong>intolerances</strong>, which are difficult to diagnose)</p><p id="2297904f-03a9-81c5-807b-cf884b998b0b" class="">i.enzymatic type</p><p id="2297904f-03a9-81f2-b2cf-cb1f5d97d797" class="">ii.pharmacologic type</p><p id="2297904f-03a9-81c3-8f98-eae1f94dee26" class="">iii.induced by food additives</p><p id="2297904f-03a9-81ce-80a5-f7b51280659e" class="">1.<strong>Toxic type (intoxications)</strong></p><p id="2297904f-03a9-811c-87d5-ceb26e0cf33c" class="">There is not any distinction among individuals so the toxin hit all of us. There are different types of toxins: from poisonous mushrooms like <strong>Amanita phalloides</strong>, <strong>Amanita verna</strong>, <strong>Amanita virosa</strong> which may be fatal; then from <strong>contaminants</strong> of food stuff, when the storage is not adequate (like in the</p><p id="2297904f-03a9-81e0-b90a-fd17909da057" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-813c-83fe-c084295df361" class="">59</p><p id="2297904f-03a9-8100-9d33-dde8cadce0ba" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-81cb-ae12-fb31acfb35b0" class="">so called <strong>biological foods</strong>) we can have the growth of dangerous microorganisms e.g. <strong>aspergillus</strong> which produces <strong>aflatoxins</strong>. The carcinogenic properties of these compounds imply that the consumption is repeated along the time, along the years. More common and frequent are intoxications because of <strong>Clostridium Botulinum</strong>, <strong>Staphylococcus Aureus</strong> and <strong>Salmonella Typhi</strong>. Intoxications are involved in all the people assuming the contaminated food.</p><p id="2297904f-03a9-8198-ae23-e920faea6b44" class=""><em>Fig. 10</em></p><figure id="2297904f-03a9-814a-b093-c2aa110d6275" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image10.png"><img style="width:367px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image10.png"/></a></figure><p id="2297904f-03a9-8139-93a1-e4fe7611cdbf" class=""><strong>2a. Allergies</strong></p><p id="2297904f-03a9-81a7-8796-c5760162dba2" class="">This are adverse reactions to foods that are non toxic. They are very diffused. They can be IgE dependent or not, for example in the case of IgA or IgG antibodies. The latter is the case of the celiac disease, which is a non toxic adverse reaction to food non IgE mediated and can be considered also an autoimmune disorder, but is wrong to consider it as an intolerance. The <strong>food allergies</strong> mediated by IgE can be mediated by allergens and is characterized by the release of IgE. Usually give symptoms in a few minutes, hours so the reaction is fast, <strong>acute</strong>, sometimes very strong as in the case of anaphylaxis. An allergen stimulates the production of IgE. IgE are bound specifically to the mast cells, that we saw in acute inflammations. They are rich in granules that contain a lot of inflammatory mediators like histamine. In case of repeated exposure to allergen, so a second exposure to the allergen, the latter finds already IgE on the surface of mast cells so the binding of the allergen with the IgE leads to the explosive degranulation of the mast cells, and so all the vasoactive amines and histamine are released causing the allergic reaction. This is just to say that IgE mediated allergies are characterized by IgE production and degranulation of the mast cells.</p><p id="2297904f-03a9-8140-b86f-e2b9fad1e553" class="">On the contrary, the allergies not mediated by IgE, but still mediated by improper <strong>reaction of the innate immunity</strong>, show a late onset of symptoms. To complicate the all picture there is an increasing number of conditions characterized by IgE and non IgE mediated symptoms: you have the symptoms from the very beginning lasting for hours or days.</p><p id="2297904f-03a9-8141-bc6d-c4251584c560" class="">Mechanism of allergies (figure below): allergens start the first phase of sensitization of cells, in particular mastocytes and basophils that start expressing on the surface IgE and it is only the second encounter with the same or similar allergen because of the reaction of IgE on the surface of the cell, there is a massive, acute release of inflammatory mediators like histamine and prostaglandins that cause the allergic reaction which leads to local and systemic symptoms in particular conjunctivitis, nasal allergy, asthma, urticaria.</p><p id="2297904f-03a9-815b-97f3-d2bc1dd18387" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81ae-acda-d07e227c67d6" class="">60</p><p id="2297904f-03a9-8184-be9a-d8f70bc6d6b8" class="">24.03.2023 GAMBA L.5</p><figure id="2297904f-03a9-81ec-9e86-c79c3ea83182" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image11.png"><img style="width:611px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image11.png"/></a></figure><p id="2297904f-03a9-8147-bffd-d7677b57933b" class="">structure allergen.</p><p id="2297904f-03a9-81f0-b68d-f408b5d93442" class=""><em>Fig. 11</em></p><p id="2297904f-03a9-81d3-b5d1-f92fb4d8eb95" class="">The symptoms of IgE mediated food allergies: the individual reaction can be specific so symptoms depend on the single individual and also on the amount of sensitizing bacteria.</p><p id="2297904f-03a9-8192-adde-e4b79743cf3f" class="">More frequent causes of IgE mediated</p><p id="2297904f-03a9-81d4-93bd-f033ae755856" class="">inflammatory reactions, local or systemic: milk, wheat, eggs.</p><p id="2297904f-03a9-8159-b79b-ed8704af6676" class="">The cross reactivity of different allergens: the reaction is not triggered only by the same allergen that made the sensitization but also by a close</p><figure id="2297904f-03a9-81c6-9273-df6a3a742f81" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image12.png"><img style="width:700px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image12.png"/></a></figure><p id="2297904f-03a9-81ee-a611-ec6ae573e9c5" class=""><em>Fig. 12</em></p><p id="2297904f-03a9-8110-ab6d-ca6e744f5e3c" class="">Here is just a list of <strong>non IgE mediated allergies</strong>: <strong>the first 3 are enteropathies</strong> (<strong>colitis</strong>, <strong>proctocolitis</strong>), they are occurring very early in the childhood and are characterized by abnormal innate immune responses to some protein content of a given food.</p><p id="2297904f-03a9-81d1-ab7c-cbd9f76d9083" class="">The T helper reactions could be mainly driven by type 1 and 2. Another similarity is the involvement of inflammatory cells, dendritic cells, production of proinflammatory cytokines.</p><p id="2297904f-03a9-81f9-896e-d8fdcb00c653" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81fd-a30a-f35e1a6ed026" class="">61</p><figure id="2297904f-03a9-81b7-960b-c86dc80b13fd" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image13.png"><img style="width:700px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image13.png"/></a></figure><p id="2297904f-03a9-8165-a503-e2e99cfbe588" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-817d-bed0-e3e376a5ede7" class="">Regarding eosinophilic GI disorders, they could</p><p id="2297904f-03a9-813e-a988-c53cbae4d3a8" class="">be divided into esophagitis, gastritis,</p><p id="2297904f-03a9-81d4-b0db-ff949a584b82" class="">enterocolitis. In this case you have a mixed</p><p id="2297904f-03a9-81bb-a2bd-f71ea9fa068d" class="">condition in which IgE is present but not only</p><p id="2297904f-03a9-8147-956c-c146977854bc" class="">IgE so it is a IgE non IgE dependent condition.</p><p id="2297904f-03a9-812b-b61e-d46bb3827572" class="">Again, usually in these disorders the</p><p id="2297904f-03a9-813a-a7e1-c84617413a3e" class="">inflammation is T helper 2 type.</p><p id="2297904f-03a9-8136-8d42-f9f12fe2ef13" class="">The response mediated by Th1 is mainly leading</p><p id="2297904f-03a9-8182-a873-eb007582c536" class="">to activation of cytotoxic T cells response while</p><p id="2297904f-03a9-8147-908c-f2f318879957" class="">Th2 response, typical of allergies, is producing</p><p id="2297904f-03a9-815c-8f4c-f3671f47032b" class="">antibodies.</p><p id="2297904f-03a9-817a-8427-d86e6472dde9" class=""><em>Fig. 13</em></p><p id="2297904f-03a9-817f-9b77-c3845cedb3ec" class=""><em>Fig. 14</em></p><p id="2297904f-03a9-810f-88b5-c2d19e2d9f27" class=""><strong>CELIAC DISEASE</strong></p><p id="2297904f-03a9-8118-ac71-fe8ca3a51348" class="">This disease is very diffused. The incidence is <strong>1 out of 100</strong> people so it is pretty common.</p><p id="2297904f-03a9-81ee-90be-ff0d5a720fdc" class="">Also in literature, celiac disease is commonly called gluten intolerance or an autoimmune disorder without going in depth about the etiology, <strong>BUT IT IS NOT AN INTOLERANCE</strong>, it is an autoimmune disease. Also in the texts it is difficult to define it. What is sure is that this is a <strong>non-IgE mediated food allergy</strong>. It is an immune mediated disorder that can be also considered an autoimmune disorder because the immunoglobulin produced can also attack cells and tissue and it triggered by the <strong>ingestion of gluten-containing foods</strong> and also other foods that are naturally gluten-free but they may be contaminated by gluten because they are made in the same laboratory in which gluten is used. IgE are not involved, the <strong>celiac disease is in between allergies and intolerances</strong>. Allergies and autoimmune diseases are close.</p><p id="2297904f-03a9-8143-b4cd-d9a891abc127" class="">Symptoms are different, but only some people will show this adverse reaction and the reaction will be different among different celiac patients. They include digestive problems, anemia, skin rash, and joint pain, in children also growth retardation.</p><p id="2297904f-03a9-819d-808f-c39e5d2edb02" class="">It is a disease that causes secondary malnutrition, due to malabsorption of the main components of the diet only when the patients eats these kinds of food containing gluten. The gluten-free diet completely restores the normal condition.</p><p id="2297904f-03a9-8113-9e7d-eb1eb3da8aa7" class="">The prevalence of the disease varies in different regions and depends on the wheat consumption. In some papers it is written that in countries in which wheat is widely used, like in Western countries, the celiac disease is more diffused. It may also depend on age in which wheat has been given to</p><p id="2297904f-03a9-81be-930e-fdab3fbe8c9f" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-8108-9035-d97d8a454586" class="">62</p><figure id="2297904f-03a9-818f-9cd8-ca0d4912dab2" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image14.png"><img style="width:700px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image14.png"/></a></figure><p id="2297904f-03a9-81c8-8b05-d84ba4d21064" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-8172-be00-d3189ade793d" class="">babies. This disease can occur in young children but also in adults, between the ages of 30 and 60. It is characterized by chronic diarrhea, bloating, or chronic fatigue, but is often asymptomatic. There are patients that if they eat some gluten have no symptoms while others have acute ones. These cases may present with anemia due to chronic iron and vitamin malabsorption.</p><p id="2297904f-03a9-81b6-b141-f2ac9df8d27e" class=""><strong>PATHOGENESIS OF CELIAL DISEASE</strong> <em>Fig. 15</em></p><p id="2297904f-03a9-813f-bd7b-c7d16b19e660" class="">When celiac disease is active (when the patients eats gluten), it is characterized by the loss of villi in the intestine.</p><p id="2297904f-03a9-819d-82b7-cadebea3cb1a" class="">The main problem with celiac disease is structural change of the upper part of the small intestine (duodenum, jejunum) where the majority of villi are present. You could have maybe only a lymphocytic inflammation, so typical of chronic type and then damage of the villi so flattened mucosa. There are different degrees of severity of syntomps. The picture shows you normal and flattened villi.</p><p id="2297904f-03a9-8186-b293-c333acf09053" class="">We have a flattening of the villi by the increase number of intraepithelial lymphocytes and the increase mitosis of the enterocytes. Gluten is digested into lipopeptides creating some aminoacids and also lipopeptides that cannot be digested like <strong>gliadin</strong>. Gliadin is a 33 amino acid peptide. Gliadin stimulates enterocytes to produce <strong>zonulin</strong>. Zonulin binds specific receptors on the enterocytes and this binding leads to the contraction of enterocytes and the destruction of tight junctions. Gliadin is present at the surface of the lumen of our intestine stimulates the enterocytes to produce interleukin 15. <strong>Interleukin 15</strong> is able to stimulate the proliferation of the intraepithelial lymphocytes. The <strong>intraepithelial lymphocytes</strong> express on their surface this marker, <strong>NKG2D</strong> (not important to remember), and it is important because it allows the lymphocytes to recognize the enterocytes that have expressed <strong>MIC-A</strong> (ligand of the marker) and it is expressed by those enterocytes that are under stress (for example inflammation, altered microbiota and other stimuli). The epithelial lymphocytes attack the enterocytes expressing MIC-A and they destroy them, so they die of necrosis. Moreover in this way some spaces are created between the enterocytes and gliadin passes and enters the epithelium. At the same time gliadin also stimulates the epithelial cells to produce a molecule called <strong>osteogen</strong> that destroys the tight junctions, such as occludin, that are</p><p id="2297904f-03a9-8169-b9f9-f977782f1e7d" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81cf-9abf-c95e6fd033d7" class="">63</p><p id="2297904f-03a9-81b3-abb7-c832346f1263" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-81a8-9f37-c0b15cd1548e" class="">binding the enterocytes creating new spaces in which gliadin can pass.</p><p id="2297904f-03a9-811e-82d0-dbb7349a9bb0" class="">Gliadin when enters the epithelium it finds an enzyme (the green one fig.16) that is <strong>tissue transglutaminase (tTG)</strong> that is released by the damaged cells. It is an enzyme of enterocytes and in case of destruction of enterocytes it is released. The role of the enzyme is to deamidate the gliadin. So we have now a deaminidated gliadin. The deaminidated gliadin binds specifically to <strong>HLA-DQ2</strong> or <strong>HLA-DQ8</strong> that are present in the celiac disease patient that are on the surface <strong>antigen presenting cells (APC)</strong>. In turn this binding brings the activation of lymphocytes that produces specific antibodies that are IgA or IgG directed against gliadin, so they are <strong>antigliadin antibodies</strong> and <strong>anti-tTG</strong> that recognize the enzyme tissue transglutaminase and also <strong>anti-endomysium</strong>, that is that part of the subendothelium exposed at the damage of the endothethelial cells that expose the basal lamina and the endomesium. These antibodies reach the endomysium that is a self tissue, but it is normally not exposed. In this way, celiac disease can be considered an autoimmune disorder, because of the presence of these antibodies. When the <strong>antigliadin antibodies</strong> and <strong>anti-tTG</strong> act near the endothelium they damage even more the endothelium. So the cause of the destruction of the enterocytes are the intraepithelial leukocytes that directly kill the enterocytes or the antigliadin</p><p id="2297904f-03a9-81b8-832c-e5e506e7a353" class=""><em>Fig. 16</em></p><figure id="2297904f-03a9-814f-a802-c5a09913e09d" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image15.png"><img style="width:700px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image15.png"/></a></figure><p id="2297904f-03a9-8127-997a-e68e0760f273" class="">antibodies and anti-tTG that attack in</p><p id="2297904f-03a9-813e-9ec0-f45a894c1684" class="">the nearby of the enterocytes or the</p><p id="2297904f-03a9-8148-9964-e6b723761eff" class="">anti-endomysium antibodies.</p><p id="2297904f-03a9-8174-b26c-fedb72c35792" class="">There is another type of diagnosis, the <strong>genetic diagnosis</strong>.</p><p id="2297904f-03a9-816a-8cf7-fb250d11be7d" class="">So the trigger element is <strong>gluten</strong>, which is not a single protein but a complex of proteins. Some of us that develop enterocytes are processing the gluten in an improper way - those affected by celiac disease.</p><p id="2297904f-03a9-8134-b94a-e7d558aea7d6" class="">Usually enterocytes endocytose gluten, fragment it and express on the surface to the MHC receptors in a way to give tolerance to that component of gluten.</p><p id="2297904f-03a9-81c9-9ca1-cac4f064f98d" class="">In some people there is a different expression of these receptors, the <strong>DQ types</strong>, and in an unusual way the DQ receptors expressed on the surface of enterocytes are of the class <strong>DQ2</strong>, <strong>DQ8</strong>. In this way, the <strong>cytotoxic T lymphocytes are recruited and activated</strong> and you have a <strong>cytotoxic reaction</strong> against the cells expressing on the surface DQ2 and DQ8.</p><p id="2297904f-03a9-819f-a26f-e696b0987225" class="">Here there is the second method of diagnosis: the genetic analysis of DQ class, you find DQ2 and</p><p id="2297904f-03a9-8175-9299-f4afe955bc09" class="">DQ8 highly expressed. There is a genetic predisposition and a genetic analysis can be done to</p><p id="2297904f-03a9-81b2-8585-efdfcf0ccacb" class="">understand if in the family there are cases of celiac disorder not to test continuously every year the</p><p id="2297904f-03a9-819d-86ad-dbb413bff1e4" class="">antibodies or perform other invasive exams but analyze if there are <strong>HLA-DQ2</strong> or <strong>HLA-DQ8</strong> on the</p><p id="2297904f-03a9-8172-a80a-f8d8e6a6e148" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-8176-a504-f24851d35eb3" class="">64</p><figure id="2297904f-03a9-81ad-8322-ec245bb0f39c" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image16.png"><img style="width:700px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image16.png"/></a></figure><p id="2297904f-03a9-8168-ab4e-e3250047dd3e" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-811f-b6b3-d4e1a683e93d" class="">APC. This indicates a predisposition, not a <em>Fig. 17</em></p><p id="2297904f-03a9-81d0-a6e5-f260f08bff44" class="">sure condition of celiac disease.</p><p id="2297904f-03a9-8166-a92f-db4ca28f1edb" class="">From necrotic cells you have material</p><p id="2297904f-03a9-81ae-93ca-d6e80e83124c" class="">released and some of it could act as antigens</p><p id="2297904f-03a9-8174-9780-d1307e18cffd" class="">now, you could have antibodies, not IgE,</p><p id="2297904f-03a9-81eb-ad0d-c93e725f4f00" class="">against transglutaminase, also against</p><p id="2297904f-03a9-81d3-9d2f-f9a1bcca2699" class="">endomysium,</p><p id="2297904f-03a9-818d-bc98-c2e7ab5a8a7b" class="">so antibodies like transglutaminase - the most used as lab</p><p id="2297904f-03a9-81f9-9431-c463b9d15cdf" class="">marker for celiac disease. To treat it (which is</p><p id="2297904f-03a9-8151-b92d-fb35c9c31a31" class="">not sufficient of course to treat celiac</p><p id="2297904f-03a9-810b-9c8c-dc25283d30ca" class="">disease) we can prescribe antibodies against</p><p id="2297904f-03a9-8159-9f10-cb48c253dd72" class="">transglutaminase.</p><p id="2297904f-03a9-81bf-9adc-fb4b8ca28d4f" class="">These are the symptoms (of course present only when gluten is eaten):</p><p id="2297904f-03a9-81c1-adf9-c82c852f6580" class="">Digestive symptoms are more common in children and can include:</p><p id="2297904f-03a9-815d-bcf9-ef9763c1b057" class="">•feeling of fullness or swelling in the abdomen</p><p id="2297904f-03a9-81d0-b531-d8f576f9792d" class="">•chronic diarrhea</p><p id="2297904f-03a9-81f5-a448-c9321b5edd74" class="">•constipation</p><p id="2297904f-03a9-81cf-8449-d31c0e27107a" class="">•gas</p><p id="2297904f-03a9-8188-a371-d7f89d762141" class="">•nausea</p><p id="2297904f-03a9-8195-93e2-ca02c953af01" class="">•pale, foul-smelling, fatty stools</p><p id="2297904f-03a9-81fa-9480-d1575aee0b76" class="">•stomach pain</p><p id="2297904f-03a9-8173-aa72-ebb16216fc5c" class="">•vomiting</p><p id="2297904f-03a9-81e6-9e06-e168d7de08f9" class="">Adults are less likely to have digestive symptoms and, instead, may have one or more of the following:</p><p id="2297904f-03a9-8133-9caa-d5b47b68581a" class="">•anemia</p><p id="2297904f-03a9-81ff-b873-c0eab90c78f5" class="">•bone or joint pain</p><p id="2297904f-03a9-81a7-8783-eebef301ab26" class="">•depression or anxiety</p><p id="2297904f-03a9-8187-8d74-dbb67fcefda3" class="">•dermatitis herpetiformis</p><p id="2297904f-03a9-815c-8ca9-f413fc7d6c7a" class="">•headaches</p><p id="2297904f-03a9-81cd-8730-faae405f6499" class="">•infertility or repeated miscarriage</p><p id="2297904f-03a9-8149-b665-ca04aa6c921b" class="">•missed menstrual periods</p><p id="2297904f-03a9-81bc-a798-efb5c8fcd62f" class="">•seizures</p><p id="2297904f-03a9-81ed-b6ab-c9d40d4754d2" class="">These are the exams that can be done to understand if a person is celiac.</p><p id="2297904f-03a9-81a1-a0dd-f2c6f0e64cb0" class="">Detection in vitro of:</p><p id="2297904f-03a9-819e-88e1-dab9f6bb12f1" class="">- IgA anti-Transglutaminase</p><p id="2297904f-03a9-812f-adb0-fa2cb4525af4" class="">- IgG anti-Transglutaminase</p><p id="2297904f-03a9-8151-a636-d66f578ca5f4" class="">- IgA anti-endomisium</p><p id="2297904f-03a9-8161-ae67-e4235d85cd9a" class="">In vivothe final conclusive diagnosis of celiac disease is just made by <strong>endoscopy</strong> because you see <strong>altered small intestine mucosa</strong>, maybe in the bioptic sample you see just a lymphocytic infiltration (the first degree of celiac disease) or you recognize an already damaged villi. These antibodies determine the atrophy and the loss of the villi of the intestine. This is clinical manifestation of the celiac disease. This happens always when a celiac patient eats some gluten by mistake, because also a little amount of gluten or a contamination may cause the atrophy of the villi and the clinical manifestations. It can also be asymptomatic. The celiac person even if asymptomatic, it does not mean that they can eat gluten, because also in asymptomatic patients it changes the structure of</p><p id="2297904f-03a9-81d1-9c32-c4dd3cd13a70" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-819c-86f1-d95c5872569a" class="">65</p><p id="2297904f-03a9-81da-b160-dc5093cce1b9" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-81d7-a6b6-c0bb8ab13d75" class="">the villi and may bring to cancer. This is because a change in the differentiation in the morphology of the cells is always due to changes at the level of the DNA, some genes are overexpressed while other are downregulated. It may lead eventually to mutation and cancer if the gluten free diet is not followed.</p><p id="2297904f-03a9-819d-9c4d-ecf462764daa" class=""><em>Question: do we call celiac disease precancerosis or is simply a predisposition?</em></p><p id="2297904f-03a9-8159-a707-f3e3c2173c8a" class=""><em>Answer: no, because if the diet is followed the intestines are normal, there is not atrophy of the villi. The atrophy of the villi occurs in patients that do not follow the diet because they are asymptomatic and maybe they do not know. In that case it is a precancerous condition.</em></p><p id="2297904f-03a9-81d2-b059-d4ebcdf09f0f" class="">This (fig.18) is the proposed screening algorithm for celiac disease. It seems complicated but I like to explain this because it can be useful. Here (top of the image) we have a patient with signs and symptoms (anemia, diarrhea and some general malaise). He first thing to do is to measure IgA anti-Transglutaminase, but also the total IgA to understand if the total quantity of IgA is normal, otherwise identifying a specific type of IgA may be difficult. If there is a positive result for IgA anti-Transglutaminase, we have to perform the duodenal biopsy. If there is a positive result, we see the atrophy of the villi and there is the certain diagnosis of celiac disease. Otherwise, if the IgA anti-Transglutaminase result is negative, we cannot exclude celiac disease because have have to evaluate whether the total IgA is lower than normal. If they are lower than normal we have to measure the other antibodies created in celiac disease: IgG anti-Transglutaminase and IgA anti-endomisium. If they are positive, the biopsy is performed and if the biopsy is positive the celiac disease diagnosis is confermed. Otherwise if the total IgA are normal and the anti-Transglutaminase are negative, it is unlikely that we have a celiac disease and the biopsy is not performed since it is an invasive procedure.</p><figure id="2297904f-03a9-8142-8dfc-fb839ddfaee6" class="image"><a href="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image17.png"><img style="width:673px" src="nutritional%20diseases%202297904f03a981a7a445fac2fd17dcb9/image17.png"/></a></figure><p id="2297904f-03a9-8120-9c04-df1e03ef9c63" class=""><em>Fig. 18</em></p><p id="2297904f-03a9-8166-807e-e925908da5b3" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81ee-b195-d92436ace71e" class="">66</p><p id="2297904f-03a9-811c-b9e9-f32bd6e86a27" class="">24.03.2023 GAMBA L.5</p><p id="2297904f-03a9-81d4-89b9-dfb1cefdda19" class=""><strong>2b.Intolerances</strong></p><p id="2297904f-03a9-81c7-bfb6-e9d0eb405fa7" class="">We can now spend some time on food intolerances. They are difficult to diagnose but if you are not able to find any type of immunoglobulins you should consider the possibility of facing an intolerance. Intolerances could recognize enzymatic, pharmacological, food additives mechanisms. <strong>Lactose intolerance</strong> is more frequent than celiac disease. Lactose is a <strong>disaccharide</strong>. The most famous is lactose intolerance due to a <strong>deficit of lactase</strong>, the enzymes able to digest lactose dividing it in glucose and galactose. Lactase is present on the brush border of the small intestine. <strong>Deficit does not mean absence</strong>. If lactase is not present or present in low amounts, lactose remains as a disaccharide in the lumen and so as a consequence water brings to a very severe diarrhea. An intolerance is different from, for example, celiac disease in which we have an immune response. There are foods that contain histamine or other vasoactive amines and that if consumed together with an allergen, a reaction can occur. Or if we ingest foods that stimulate the degranulation of mast cells and the consequence is the release of histamine. It is not a immune reaction, because it is not the immune system that reacts but these foods already contain vasoactive amines.</p><p id="2297904f-03a9-81ac-af80-fbcda27aee05" class=""><em>She will not ask all the foods cited in the slides, they are only added for our interest.</em></p><p id="2297904f-03a9-81cc-8375-ffd2e6021003" class="">Now there are very good tests to detect lactose intolerance: breath test in which you measure hydrogen produced by respiration. The lactose is not broken down so it is fermented by our microbiota so consequently you have bloating, gut pain and diarrhea. The lactose intolerance incidence is <strong>30-40%</strong> but it is important the degree of severity.</p><p id="2297904f-03a9-8194-9410-fe4933afd79c" class="">Another intolerance due to enzymatic mechanisms is the <strong>intolerance to ethanol</strong>: ladies are much less tolerant to alcohol than men because they have <strong>30% less alcohol dehydrogenase in the stomach</strong>. Eastern people do not tolerate alcohol like western people because they have different isotypes of alcohol dehydrogenase (more active) so they produce more acetaldehyde and less active aldehyde dehydrogenase so the steady state amount of acetaldehyde is higher than western people. <strong>Food intolerances of pharmacological type</strong> are very frequent. There are foods containing high amounts of vasoactive amines, for instance fermented cheese, milk as well, giving a reaction similar to that occurring in allergies. The difference in the reactions between people is in the ability to eliminate vasoactive amines. Vasoactive amines may trigger the same reactions occurring in allergies. You could become intolerant just once because you ingest too many vasoactive amines: in this case it is an episode, I am not intolerant. The disease condition is when every time I eat, for example, gorgonzola, I am intolerant so it is a disease condition.</p><p id="2297904f-03a9-8162-b829-fa6bdece2aef" class="">There are foods able to favor degranulation of mastocytes, so you have a pseudoallergic condition but you do not find antibodies. These are difficult to diagnose, usually it is used in a food diary. In addition there are some foods that are <strong>inhibitors</strong> of the normal catabolism of serotonin (<strong>5-hydroxytryptamine</strong>), so <strong>inhibitors of monoaminoxidase</strong>, and in the case of <strong>histamine inhibition of diamine oxidase</strong>. Often the situation is complex so you have bigger content of vasoactive amines and also presence of inhibitors of amine catabolism and eventually in the case of histamine and serotonin, the catabolism leads to the production of imidazole acetate that means that aldehyde dehydrogenase is important. So the best competitive inhibitor of diamine oxidase or monoamine oxidase, meaning a good substrate for aldehyde dehydrogenase is alcohol. If I eat food rich in histamine and I drink alcohol I impari the histamine removal and I keep the histamine levels high. Finally, the food intolerances could be due to ingestion of food additives: <strong>sulphites</strong> (present in wine, they are stressors of gastric mucosa), <strong>sodium benzoate</strong> (probably it causes impairment of vasoactive amines catabolism). <strong>Glutamate</strong> is still considered as a possible cause of food intolerance but it is still debated.</p><p id="2297904f-03a9-811a-9d7a-eadd282a7f56" class="">Carolina Gervasio. Fereshteh Tarakemeh</p><p id="2297904f-03a9-81e6-a3a9-feb69e7f4454" class="">67</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

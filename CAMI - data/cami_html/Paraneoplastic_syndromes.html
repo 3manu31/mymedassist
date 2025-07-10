@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Paraneoplastic syndromes</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-817b-be6c-d9de0d94999a" class="page sans"><header><h1 class="page-title">Paraneoplastic syndromes</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-812f-be2e-e5c200d4a64b" class="">Paraneoplastic syndromes</p><p id="2297904f-03a9-81ed-9cb1-e42baebd649a" class="">●what are paraneoplastic syndromes?</p><p id="2297904f-03a9-81f0-8343-f0ed6ceef055" class="">Paraneoplastic syndromes are different types of diseases that are associated with the presence of a tumor but that manifest in regions that are unrelated to the anatomical distribution of the tumor or its metastasis.</p><p id="2297904f-03a9-8198-a7ff-e5430dc5fca6" class="">They are present in up to 40% of cancer (mainly lung, GI, skin and blood cancers) patients and can develop at any stage of the neoplastic growth: preceding neoplasia diagnosis, corresponding to cell</p><p id="2297904f-03a9-8122-b5f2-d3bcb5660d8d" class="">dissemination or tumor relapsing, or it can worsen the course of the disease itself.</p><p id="2297904f-03a9-816f-a9fb-e8dc6c2bded4" class="">●what are the main mechanisms of paraneoplastic syndrome? 1. excessive or ectopic production of hormones, or other physiologically active compounds.</p><p id="2297904f-03a9-8114-826e-c2cfa5fecdcf" class="">2. deficiency of normal factors such as calcium or glucose host response to the tumor (main way in which neurological 3.</p><p id="2297904f-03a9-8169-95d3-c877ceff91f6" class="">paraneoplastic syndrome presents)</p><p id="2297904f-03a9-81b6-b468-ed04d8e6504c" class="">●how are paraneoplastic syndromes classified?</p><p id="2297904f-03a9-81e3-b0ee-d0c1f45aab30" class="">Paraneoplastic Syndromes can be roughly divided into two types:</p><p id="2297904f-03a9-814e-a589-cb35a76cf09e" class="">○ Simple paraneoplastic syndromes: named after the particullar type of tissue where these diseases are present (neurologic, endocrine-metabolic, rheumatic, osteoarticular, dermatological, hematological, vascular and nephrological diseases).</p><p id="2297904f-03a9-8194-a55b-d3c1eb8b25c8" class="">○ Complex paraneoplastic syndromes: cachexia, anorexia, fever.</p><p id="2297904f-03a9-8186-b04f-d1d3847460d2" class="">●A very general classification of the more frequent paraneoplastic syndromes depending on the type of the tissues is:</p><p id="2297904f-03a9-8141-b2e2-e849ca9e7127" class="">○ endocrine-metabolic: the most frequent (40%).</p><p id="2297904f-03a9-8114-8945-ea8eaa87b9d0" class="">○ rheumatic-osteoarticular in more than 15% of patients.</p><p id="2297904f-03a9-81d0-9296-f07bafe36562" class="">○ dermatological in more than 15% of patients.</p><p id="2297904f-03a9-8144-ad99-fa4dff21eaed" class="">○ hematological-vascular in more than 15% of patients.</p><p id="2297904f-03a9-8160-8a7e-cbab81c77b5d" class="">○ neurological disorders in more than 10% of patients.</p><p id="2297904f-03a9-81db-aa10-c25b0d99cd59" class="">○ nephrological only 5% of patients.</p><p id="2297904f-03a9-8125-b7d2-e80ae45b0404" class="">●describe endocrine paraneoplastic syndrome</p><p id="2297904f-03a9-81cb-a39c-ffb4f3c3cee5" class="">By definition, the responsible cancers are not of endocrine origin (≠ adenomas). So there’s ectopic hormone production. Symptoms therefore might be similar or the same as endocrine diseases but the cause is different. The tumors that cause endocrine Pn. S. have a malignant phenotype.</p><p id="2297904f-03a9-8182-a81a-f86c6b3600ac" class="">○ The most common presentation is the Paraneoplastic Cushing syndrome</p><p id="2297904f-03a9-8173-bc7d-fa18f2ad81e2" class="">◆approximately 50% of the affected individuals have small cell lung carcinoma</p><p id="2297904f-03a9-815e-8ff0-c8cc6910d1c9" class="">◆excessive production of ACTH (by pituitary) and its precursor pro-opiomelanocortin (POMC)</p><p id="2297904f-03a9-812c-a63f-ce80e6a3563a" class="">◇ in normal Cushing there is not an elevation in POMC.</p><p id="2297904f-03a9-81b1-97c9-ce48707bc596" class="">◇ POMC is associated with lipolysis in cachexia and leptin stimulates its production.</p><p id="2297904f-03a9-8174-95d9-f4131cf8b7f0" class="">◆signs and symptoms are different too, due to rapid onset</p><p id="2297904f-03a9-819c-9a17-d26b5ac8c16a" class="">◇ there is no obesity or moon face, but rather weight loss.</p><p id="2297904f-03a9-81e6-9519-e3e7ad5fc6b8" class="">◇ high BP</p><p id="2297904f-03a9-81b3-b1d3-c1cf76216a48" class="">◇ Hypokalemia → muscle cramping and weakness</p><p id="2297904f-03a9-8122-a73b-f1ba1a509055" class="">○ Paraneoplastic Hypercalcemia</p><p id="2297904f-03a9-8105-921a-e218c52fbec6" class="">Hypercalcemia is probably the most common type of</p><p id="2297904f-03a9-81fa-a949-cd0123da6905" class="">paraneoplastic syndrome, in fact, symptomatic hypercalcemia is more often related to cancer than to hyperparathyroidism.</p><p id="2297904f-03a9-814a-9bed-c2a02ea26eb1" class="">Associated cancers: T-cell lymphoma, multiple myeloma, squamous cell carcinoma of the lung</p><p id="2297904f-03a9-8164-a4aa-f3f77d0a92d3" class="">Due to a production of IL-1 TGF-α, TNF-α and Parathyroid-hormone related protein (PTHRP) that acts like PTH (induces bone reabsorption and decreases renal calcium excretion) symptoms include confusion, lethargy, nausea, coma.</p><p id="2297904f-03a9-81c1-b6c2-c204eb93e050" class="">osteolysis can also be induced by cancer, whether primary in the bone as in multiple myeloma, or metastatic to bone.</p><p id="2297904f-03a9-8130-a2a7-d0ca2bbc7917" class="">○ Paraneoplastic (SIADH)</p><p id="2297904f-03a9-8189-b24a-e1350a6f5cd2" class="">remember: vasopressin = ADH</p><p id="2297904f-03a9-81cb-bc90-dd1657aaa7ac" class="">Major forms of underlying cancer: small cell lung cancer, intracranial neoplasms.</p><p id="2297904f-03a9-81ed-8915-d6219bcd1f74" class="">Inappropriate release of ADH (even with euvolemia). SIADH is characterized by absence of edema and hypervolemia.</p><p id="2297904f-03a9-81b2-9714-f9068325727f" class="">As a result, there’s</p><p id="2297904f-03a9-8153-af16-e36a1550863c" class="">◆dilutional Hyponatremia ([Na+] &lt; 135 mEq/L)</p><p id="2297904f-03a9-81a2-b6d6-ec5c4d274da2" class="">◆hypo-osmolarity in plasma <em>(less than 270 mOsm/L)</em></p><p id="2297904f-03a9-817f-9618-ebb7dbe03eb5" class="">◆urine hyperosmolarity.</p><p id="2297904f-03a9-813c-bc25-d5befd17d904" class="">◆other clinical features depending on the degree of hyponatremia and to its time and rate of onset include: anorexia, nausea, vomiting, confusion, and seizures.</p><p id="2297904f-03a9-81b5-8d02-e2936f66489f" class="">○ Paraneoplastic Hypocalcemia</p><p id="2297904f-03a9-8115-9222-fcb5853fe06c" class="">related to lung and breast carcinoma</p><p id="2297904f-03a9-8140-8a60-ffb38cdde024" class="">Secretion of calcitonin inhibits reabsorption and increases the renal excretion of calcium</p><p id="2297904f-03a9-8130-8e64-ee4588359c4f" class="">Often asymptomatic. Sometimes tetany, fasciculation, <em>and</em> hyperreflexia.</p><p id="2297904f-03a9-818b-b99a-cd27ad19f33c" class="">○ Paraneoplastic Hypoglycemia</p><p id="2297904f-03a9-810d-aabe-f653552eecd8" class="">20% in gastrointestinal tumors, 45% in mesenchymal tumors Production of big IGF-II that stimulates the entry of glucose into tumor cells by inhibiting hepatic glucose uptake.</p><p id="2297904f-03a9-8191-84c5-f52af928f440" class="">○ Paraneoplastic acromegaly (very rare)</p><p id="2297904f-03a9-8171-bde3-feed37598560" class="">due to the presence of neuroendocrine tumors in the pancreas</p><p id="2297904f-03a9-8110-b2c6-e6528a0706fd" class="">(islet cells and others) or bronchial carcinoids.</p><p id="2297904f-03a9-81d5-b1b3-c831debe558c" class="">They secrete GH Releasing Hormone which increases the GH&#x27;s</p><p id="2297904f-03a9-81c9-9bf8-ec289deb2bf7" class="">production and secretion from the anterior pituitary lobe.</p><p id="2297904f-03a9-8164-8d54-decfce4ae93a" class="">●what is the diagnostic criteria for endocrine-metabolic paraneoplastic</p><p id="2297904f-03a9-81a9-a207-f6b5b87cbdcc" class="">syndrome?</p><p id="2297904f-03a9-818b-9c78-f81e9fa97efb" class="">○ To recognize an endocrine syndrome associated with a non-</p><p id="2297904f-03a9-81a7-8001-fe5ad08540a7" class="">endocrine tumor</p><p id="2297904f-03a9-81f7-bcdb-d3089c1a85e7" class="">○ High blood/urinary levels of the hormone</p><p id="2297904f-03a9-81c8-8a99-c3e29fedc40f" class="">○ Low blood levels of the hormone after tumor surgery</p><p id="2297904f-03a9-81ec-907c-fc72cb721b73" class="">○ Absence of disease in the endocrine-related organ</p><p id="2297904f-03a9-8128-8e7b-f2df3a77fba1" class="">○ Remission/recurrence of the syndrome with tumor treatment/</p><p id="2297904f-03a9-813d-a35a-dbef1e78ec6b" class="">recurrence</p><p id="2297904f-03a9-8185-aceb-f904ad3c7379" class="">○ Hormone gradient between tumor and peripheral vein: establishing</p><p id="2297904f-03a9-81d3-ae94-f9a185a50e9a" class="">a relationship (ratio) between tumor size/malignancy and hormone</p><p id="2297904f-03a9-8146-9586-c9407b635bee" class="">levels in the blood</p><p id="2297904f-03a9-81d4-b27f-d72b25579e5e" class="">○ Extraction of the hormone from neoplastic tissue</p><p id="2297904f-03a9-814d-b9e1-ceb6e1b6e63f" class="">○ Determination of hormonal activity with biological, RIA (radio</p><p id="2297904f-03a9-81a7-b14e-f03b4ce39f0b" class="">immuno assay), immunological tests (check the hormones are</p><p id="2297904f-03a9-8178-b44b-d9b5b381bd6a" class="">biologically active)</p><p id="2297904f-03a9-8117-9c04-d349851abfaf" class="">○ Biochemical characterization of peptides produced by the tumor</p><p id="2297904f-03a9-813a-a2c5-e2396ea2bebe" class="">(check if it’s making precursor hormones)</p><p id="2297904f-03a9-81fd-86b2-da6695d73478" class="">○ In vitro demonstration of hormonal production by cancer</p><p id="2297904f-03a9-81f8-bb6b-eb17a9310026" class="">○ Identification of hormonal mRNA in the tissue or cell culture</p><p id="2297904f-03a9-814c-bc6f-e33b35922c02" class="">●describe hematological paraneoplastic syndrome</p><p id="2297904f-03a9-8176-a30a-e28948b6ba2b" class="">Hematological paraneoplastic syndromes commonly present with</p><p id="2297904f-03a9-810f-bf5a-d49ee7c03dc2" class="">anemias, generally normocytic, normochromic with normal or slightly</p><p id="2297904f-03a9-812f-b06b-fa168d20c38b" class="">decreased iron and ferritin. And coagulopathies.</p><p id="2297904f-03a9-81f9-adcc-f924f2883814" class="">There’s different types</p><p id="2297904f-03a9-81e0-a90a-c835c027bd37" class="">○ Coagulopathies:</p><p id="2297904f-03a9-8128-9e6c-e3e680319f7c" class="">tumors activate clotting. Usually closer to the tumor site.</p><p id="2297904f-03a9-816e-a294-ed2b8911e92c" class="">◆disseminated intravascular coagulation (DIC): cancer cells</p><p id="2297904f-03a9-810a-a2cc-fa8bb09f118a" class="">can release procoagulant substances or trigger the release of</p><p id="2297904f-03a9-81f7-94ef-e237aaf396e7" class="">tissue factor, initiating a widespread activation of the blood</p><p id="2297904f-03a9-810d-98fe-d724603bda17" class="">clotting cascade throughout the body. This can complicate</p><p id="2297904f-03a9-81c5-993a-ec623181a0ca" class="">metastatic tumor course and is often present in leukemiasand</p><p id="2297904f-03a9-8198-84bc-d4641ccdf107" class="">prostate cancer</p><p id="2297904f-03a9-81d5-a619-d2a137463daa" class="">◆Trousseau’s Syndrome (thromboembolism) excessive mucins</p><p id="2297904f-03a9-81e3-bafe-d2fa88478203" class="">causing activation of ****serine proteases that activate factor X</p><p id="2297904f-03a9-81f4-91cb-c3f07fe5f340" class="">and trigger the coagulation pathway. Common in pancreatic</p><p id="2297904f-03a9-816b-b8cc-ebb29b5f7dd1" class="">and lung cancer</p><p id="2297904f-03a9-8175-be59-cad29c2fdd7d" class="">◆nonbacterial thrombotic endocarditis caused by</p><p id="2297904f-03a9-81f7-b474-e7285077b390" class="">hypercoagulability. Common in cancers where there’s an</p><p id="2297904f-03a9-8133-8b70-f56f6f2d909b" class="">◆</p><p id="2297904f-03a9-8174-b341-f71a48f784e6" class="">increased secretion of mucus that induces a thrombus and</p><p id="2297904f-03a9-81c8-b886-f547204c4a44" class="">occludes the vessels: lung adenocarcinoma, colon cancer</p><p id="2297904f-03a9-8121-9168-fed81d0d1daf" class="">and ovarian cancer. If vessels in the brain are occluded there’s</p><p id="2297904f-03a9-81bc-b7f5-e46b43418543" class="">encephalopathy and acute neurological deficits</p><p id="2297904f-03a9-8111-b9af-fedeb2887e4f" class="">○ autoimmune hemolytic anemia</p><p id="2297904f-03a9-8141-93ba-ff5c83ed9252" class="">Hemolytic anemia can be mediated by two types of antibodies:</p><p id="2297904f-03a9-811f-9c8a-dcd9e0675963" class="">◆&quot;warm&quot;antibodies(IgG),especially in the B-cell lymphomas</p><p id="2297904f-03a9-8188-b809-ddd9797293e2" class="">and leukemias:</p><p id="2297904f-03a9-817f-b418-e9d1b64e4633" class="">◇ hemolysis is extravascular in the spleen by phagocytosis</p><p id="2297904f-03a9-81bd-a521-de2d0709330e" class="">◆“cold” antibodies (IgM),</p><p id="2297904f-03a9-8110-bdd5-cb8fe7dd204e" class="">◇ intravascular hemolysis, in which antibodies attack red</p><p id="2297904f-03a9-81e9-963c-dd9d549ad82c" class="">blood cells at low temperature.</p><p id="2297904f-03a9-8108-b332-c58d29eb5887" class="">○ Signs and symptoms are related to small vessels’ occlusion:</p><p id="2297904f-03a9-8133-a53f-c71b52645220" class="">acrocyanosis of hands, feet, or face (ears, nose).</p><p id="2297904f-03a9-8140-b1bb-d8196b312cb2" class="">○ erythrocytosis</p><p id="2297904f-03a9-8157-aa58-febb5c5daaa6" class="">Sometimes some tumors cause erythocytosis due to the ectopic</p><p id="2297904f-03a9-8117-9080-fec7ea79fac1" class="">synthesis of hematopoietic growth factors and erythropoietin.</p><p id="2297904f-03a9-813a-9db7-e1c78cdd9c06" class="">Secondary erythrocytosis is related to:</p><p id="2297904f-03a9-81eb-835c-cec2a3d0318f" class="">◆cerebellar hemangioblastoma (20%)</p><p id="2297904f-03a9-815f-a7f7-e7ea1c83c352" class="">◆renal adenoma and renal cyst (15%),</p><p id="2297904f-03a9-814d-bf0b-e5d8b44daa94" class="">◆hepatocellular carcinoma (15%).</p><p id="2297904f-03a9-81c2-bc71-cee0d3876afb" class="">○ leukemoid reaction</p><p id="2297904f-03a9-81ef-bc1b-c22e5f07c26a" class="">there’s excessive production of leukocytes induced by the</p><p id="2297904f-03a9-81c8-8a71-d12edc786b3e" class="">overproduction of</p><p id="2297904f-03a9-8137-b9f5-ebde67958b5e" class="">◆granulocyte colony stimulating factor (G-CSF)</p><p id="2297904f-03a9-81d8-b7f9-ec8e707e7cf2" class="">◆macrophage colony stimulating factor (GM-CSF)</p><p id="2297904f-03a9-8161-a51a-c3ab55de976b" class="">◆IL-3 and other interleukeins</p><p id="2297904f-03a9-814c-beb5-d097d711ad5e" class="">●describe paraneoplastic syndrome of the kidney</p><p id="2297904f-03a9-81df-bae8-ee7ac07c94e5" class="">They are considered as autoimmune damage.</p><p id="2297904f-03a9-8117-8d81-e7822fa0bcfa" class="">They can be present in patients with colon cancer, ovarian cancer,</p><p id="2297904f-03a9-817c-acd8-c8b7e869b630" class="">and lymphomas due to circulating immune complexes.</p><p id="2297904f-03a9-81b3-a89a-e5615fac0aa3" class="">○ Paraneoplastic membrano-proliferative glomerulonephritis</p><p id="2297904f-03a9-81c0-82bd-f970515ffb54" class="">○ Primary IgA nephropathy (deposition of the IgA antibody in the</p><p id="2297904f-03a9-8176-95eb-e9fa3d0eb7b8" class="">glomerulus)</p><p id="2297904f-03a9-8120-b114-c70a72452af2" class="">○ Focal glomerulosclerosis</p><p id="2297904f-03a9-81e7-8b89-c6e296ab6a02" class="">○ Nephrotic syndrome due to glomerulopathy mimicking</p><p id="2297904f-03a9-81e3-8256-cbe2dfa40988" class="">membrano-proliferative glomerulonephritis</p><p id="2297904f-03a9-819e-8c80-e294339ff22a" class="">●describe paraneoplastic neurological syndrome</p><p id="2297904f-03a9-815e-b3ef-daa665a21995" class="">These are the main ones associated with the host immune response.</p><p id="2297904f-03a9-8151-ab65-c623e01de3c1" class="">Mostly related to small cell lung cancer</p><p id="2297904f-03a9-810d-88aa-f41448b3eb1b" class="">○ Lambert-Eaton myasthenic syndrome (main)</p><p id="2297904f-03a9-817e-841b-c122f7634693" class="">◆70% associated with small cell lung cancer</p><p id="2297904f-03a9-8180-928e-d1cab2c661f6" class="">◆it’s an autoimmune calcium-channelopathy affecting <em>P</em>-type</p><p id="2297904f-03a9-81e0-9abe-e1a2db5a1f3d" class="">Ca++ <em>channel,</em> a type of voltage-gated Ca++ <em>channel</em>: anti-P/</p><p id="2297904f-03a9-81c0-ba4b-e1f2dbc08b08" class="">◆</p><p id="2297904f-03a9-8112-b73f-e2169187c06e" class="">Q antibodies→less Ca++ entry at nerve ending → less ACh</p><p id="2297904f-03a9-8168-b6db-c5c26ea410ef" class="">release at the neuromuscular junction leading to</p><p id="2297904f-03a9-815b-aaa5-ee6c88c582a4" class="">◇ weakness of proximal limbs and occasionally in the</p><p id="2297904f-03a9-817b-afbf-f557b2021e22" class="">muscles head and neck (bulbar muscles)</p><p id="2297904f-03a9-8163-ac25-ec9e935d8dd2" class="">◆similar to myasthenia gravis (absence of the ACh receptors).</p><p id="2297904f-03a9-81d4-ba45-f26485349039" class="">The main difference is that in case of repeated stimulation of</p><p id="2297904f-03a9-81e7-ba39-f894b23306cf" class="">the muscles the strength of the contraction increases each</p><p id="2297904f-03a9-81e1-ac97-ca99cbe9f17f" class="">time while this does not occur in case of myasthenia.</p><p id="2297904f-03a9-8111-a42f-e125f11091f2" class="">○ Paraneoplastic encephalopathy</p><p id="2297904f-03a9-81f2-981d-c8f204d8fbb3" class="">◆small cell lung cancer, breast cancer</p><p id="2297904f-03a9-81fc-95be-db1adc80a3e3" class="">◆progressive dementia, mood swings, seizures, occasional focal</p><p id="2297904f-03a9-8100-96b8-ef9b713b13a6" class="">sensory-motor impairment</p><p id="2297904f-03a9-81f1-9fbd-de5283892581" class="">◆Anti-Neuronal Nuclear Autoantibodies (ANNA-1 and</p><p id="2297904f-03a9-81e5-8ac0-d23f69840329" class="">ANNA-2) detected in the blood of some patients and react</p><p id="2297904f-03a9-81d1-becd-df9d2375bea0" class="">with a group of proteins that are located in the neuron nucleus.</p><p id="2297904f-03a9-8192-ba68-c8b6cadba0cc" class="">○ Paraneoplastic neuropathies</p><p id="2297904f-03a9-8198-a88d-c135d6d19bee" class="">◆small cell lung cancer</p><p id="2297904f-03a9-814c-87c4-e186a6ac6720" class="">◆Including Peripheral neuropathy which is the more frequent</p><p id="2297904f-03a9-8142-96e2-c1684f86ff92" class="">long-distance effect produced by cancer on the peripheral</p><p id="2297904f-03a9-81a7-bb74-c52fa55ae3bd" class="">nervous system</p><p id="2297904f-03a9-81f7-b052-dfdde6bb9aca" class="">◆painful peripheral neuropathies, with sensory loss,</p><p id="2297904f-03a9-8149-a57b-e373ccf05962" class="">proprioception loss and loss of vibratory sensation</p><p id="2297904f-03a9-817d-8b52-c8235857f085" class="">◆variable degeneration of brainstem and cerebellum</p><p id="2297904f-03a9-817c-ae59-daf9faec35b9" class="">◆Anxiety and depression, amnesia, dizziness, confusion,</p><p id="2297904f-03a9-81b0-a5ee-f46767fe3ee7" class="">hallucination and behavioral abnormalities.</p><p id="2297904f-03a9-815e-90b1-dd53429338a2" class="">◆In some patients, ANNA-1 antibodies are detected</p><p id="2297904f-03a9-812f-9ef0-ef070feebc9a" class="">○ Paraneoplastic cerebellar syndrome</p><p id="2297904f-03a9-81f4-baa0-dc78c26c8de9" class="">◆small cell lung cancer, ovarian cancer, breast cancer, Hodgkin’s</p><p id="2297904f-03a9-81a2-9ee4-f1c252ba17e0" class="">lymphona.</p><p id="2297904f-03a9-8156-b006-eb770cb28665" class="">◆severe ataxia symmetric in the beginning and they become</p><p id="2297904f-03a9-81cf-b44c-ef9b08734c59" class="">asymmetric.</p><p id="2297904f-03a9-8122-a29e-f89a99efcb06" class="">◆Antibodies involved: Purkinje cell cytoplasmic antibody type 1</p><p id="2297904f-03a9-81e4-9a62-fc26c255778e" class="">(anti-Yo or PCA1), Type 1 antineuronal nuclear antibody (anti-</p><p id="2297904f-03a9-811a-9c06-cb341c38d62f" class="">Hu or ANNA 1).</p><p id="2297904f-03a9-8150-b4dd-e536b5496471" class="">◇ Basically, it is an immune response predominantly against</p><p id="2297904f-03a9-8152-87ea-ea5a91dc2629" class="">the Purkinje cells of the cerebellum.</p><p id="2297904f-03a9-814a-8d0f-e8b317558f5d" class="">◆These syndromes usually do not respond to the treatment</p><p id="2297904f-03a9-8148-abcb-d3f7e8e5e147" class="">(including immunotherapies) because of an early T-cell-</p><p id="2297904f-03a9-8126-8e3d-d25c6be045d2" class="">mediated destruction of the Purkinje cells occurs.</p><p id="2297904f-03a9-81f4-abfd-f80264f963d7" class="">●describe paraneoplastic skin syndrome</p><p id="2297904f-03a9-816e-8185-ef37f3c26d46" class="">There are pigmented skin lesions or keratosis associated to cancer:</p><p id="2297904f-03a9-81e3-82f1-f91bd016de52" class="">1. Acanthosis nigricans (gastric cancer): thickened,</p><p id="2297904f-03a9-81bf-920a-f90e8b45f2fd" class="">hyperpigmented skin with a velvet-like texture in skin folds</p><p id="2297904f-03a9-8179-9965-e591c30c2c57" class="">2. Generalized melanosis (lymphomas, melanoma, hepatocellular</p><p id="2297904f-03a9-81d5-bad8-f4fe1ede6791" class="">2.</p><p id="2297904f-03a9-81e6-91c9-efe77836a172" class="">carcinoma),</p><p id="2297904f-03a9-81fc-b3b5-e753b9d0f6fd" class="">3. Bowen&#x27;s disease (lung cancers, gastric cancers): in situ</p><p id="2297904f-03a9-8133-a66b-f5bb7ed7461a" class="">carcinoma that appears as a dark red eczematous plaque</p><p id="2297904f-03a9-81f8-a36d-f67e4de5fb22" class="">4. Sudden appearance of multiple seborrheic keratosis (Leser- Trèlat sign) (lymphoma, GI cancers and melanoma)</p><p id="2297904f-03a9-8188-be16-cdbb275d3b74" class="">5.</p><p id="2297904f-03a9-81f7-87d5-da4ba597c928" class="">Sweet syndrome (acute febrile neutrophilic dermatosis) fever, neutrophilia, erythematous nodules or plaques on the face and upper limbs.</p><p id="2297904f-03a9-8178-9483-c985241dab88" class="">6. Palmar hyperkeratosis (non Hodgkin lymphoma)</p><p id="2297904f-03a9-8178-9a2f-e7106e08d404" class="">7. Ichthyosis: hyperkeratosis “fish-like skin” (Hodgkin lymphoma)</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

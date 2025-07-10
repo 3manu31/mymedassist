@@ -1,0 +1,1002 @@
+16.03.2023 GAMBA L.3
+CONGENITAL AND GENETIC DISORDERS
+The focus of this lesson will be some genetic diseases emphasizing the pathophysiology of the diseases, so
+the molecular and cellular mechanisms. In the first part of the lesson, some rules of genetics about mutation
+(point mutations, missense mutations…) will be defined.
+I will not ask you to speak about point mutations or other general aims during the exam. However, we are
+going to repeat them very quickly in order to revise them.
+D
+IFFERENCE BETWEEN GENETIC DISORDERS AND CONGENITAL DISORDERS
+Genetic (or hereditary) disorders arise due to permanent changes in the DNA (mutations), that most of the
+time are derived from one parent and transmitted to the germline, so they are familial.
+Congenital disorders refer to all disorders already present at birth.
+A genetic disorder can either be congenital, meaning that it is already manifested at birth, or it can develop
+later in life, as in case of Huntington’s disease.
+C
+AUSES OF CONGENITAL DISORDERS
+As fig.1 shows, around 70% of congenital disorders are due to unknown
+causes. 20% are genetic, so hereditary. A small percentage of
+congenital disorders are due to cytogenetic diseases, so abnormalities
+related to chromosomes.
+Then there are 2% due to drugs, chemicals, radiation; another 2% are
+due to biological agents that can cause infections; then maternal
+metabolic factors, trauma at birth and uterine factors that represent a
+small percentage.
+T
+ERATOLOGY
+Fig. 1
+Teratology is the study of developmental anomalies of congenital disorders.
+Teratogens are all the factors that can cause a congenital disorder, for example chemicals, drugs, physical
+and biological agents, cytotoxic drugs, antiepileptic drugs, alcohol, heavy metals, thalidomide.
+G
+ENERAL PRINCIPLES OF TERATOLOGY
+1. The susceptibility to teratogens is variable: depending on the genotypes of the fetus and of the mother,
+there are people that are more susceptible to drugs, bacteria, and other teratogens. For example, fetal
+alcohol syndrome is a syndrome that appears in the newborns when the mother is an alcoholic. In this
+case not all the children of alcoholic mothers will manifest this syndrome, because it depends on the
+genotype of both the mother and the fetus.
+2. The susceptibility for the teratogens is specific for each embryological stage. There are specific periods
+of pregnancy in which the fetus is more susceptible to specific teratogens. Mainly the first trimester of
+pregnancy, when the most important tissues and organs are forming.
+3. The mechanism of teratogenesis is specific for each teratogen.
+4. The teratogenesis is dose dependent. The more the teratogen present, the more dangerous it is for the
+fetus.
+5. Teratogens induce death, growth retardation, malformation, and functional impairment.
+Hojsíková Alžbeta, Saghafi Romina
+27
+16.03.2023 GAMBA L.3
+Fig. 2 depicts the sensitivity to
+teratogenic agents of specific
+organs at different stages of
+human embryogenesis. The first
+trimester, so from week 0 to
+week 12, is the most delicate. In
+fact, the susceptibility is higher,
+because in this semester the
+CNS, heart, extremities, eyes,
+genitalia, and auditory system
+are created.
+Fig. 2
+T
+HALIDOMIDE
+Thalidomide is a teratogen that has been assumed by mothers as a sedative
+drug in the early stages of pregnancy to counteract nausea in the 1960s. In
+those years, it caused a lot of congenital disorders in newborns, and only
+one pill, one dose of 50mg, was enough to cause embryogenic deformities
+in 50% of pregnancies, especially if taken in the first trimester.
+It mainly causes phocomelia (“focomelia” in Italian, “bambini focomelici”)
+which is characterized by skeletal anomalies. The arms are short and
+malformed, similar to seal fins. In rare cases, the limbs are completely
+absent (Amelia). There may be defects of other organs, mainly at the level
+of the ear and the heart, but the CNS is not affected, so there is no mental
+deficit. This drug was banned in 1962 for the use of counteracting nausea
+Fig. 3
+in pregnancy.
+However, thalidomide is still used in chemotherapy because it induces apoptosis and inhibits angiogenesis.
+In cancer the apoptotic pathways are not regulated, so the neoplastic cells never die, but this drug is able to
+induce apoptosis and cancer cells. Moreover, angiogenesis is fundamental for tumor growth and nutrition of
+tumor cells, so its inhibition will stop the tumor from growing. As a result, inhibition of angiogenesis and the
+induction of apoptosis leads to a reduction of the tumor mass. Due to these effects, also the teratogenesis
+occurs.
+F
+ETAL ALCOHOL SYNDROME
+Fetal alcohol syndrome is another congenital disorder.
+It is caused by increased and chronic consumption of alcohol during pregnancy, particularly during the first
+trimester. The susceptibility to the alcohol intake by the mother depends on the genetic background of the
+mother and of the child.
+The less severe manifestations include clumsy movements, impulsive behavior, being underwight.
+Among the more severe deformities there is microcephaly, malformations of the heart, limbs, joints, and also
+mental retardation.
+Fetal alcohol syndrome is the most common case of acquired mental retardation.
+If only some of these alterations are present, it is only called fetal alcohol effect, not syndrome.
+Hojsíková Alžbeta, Saghafi Romina
+28
+16.03.2023 GAMBA L.3
+There are also some facial deformities that make this syndrome
+phenotypically easy to recognize:
+1. small and widely spaced eyes
+2. thin upper lip
+3. small nose, pointed upwards
+4. receding chin
+5. corneal damage
+6. drooping eyelids
+7. poorly developed midline of the upper lip (philtrum)
+Fig. 4
+T
+ORCH COMPLEX
+Torch is an acronym that stands for Toxoplasma, Others
+(Syphilis, Parvovirus B19, hepatitis, HIV), Rubella,
+Cytomegalovirus and Herpes simplex virus. These are the
+main causes of this syndrome, and the main overall causes of
+neonatal morbidity and mortality.
+During pregnancy a toxoplasma test is done and if the mother
+is negative for toxoplasma, she for example cannot eat
+prosciutto crudo (raw ham) or unwashed vegetables.
+The spectrum of symptoms is common for all the different
+biological causes: lethargy, fever, feeding difficulties, anemia,
+petechiae.
+The most frequent are growth retardation, brain damage like
+microcephaly or calcification, cataracts, conjunctivitis,
+splenomegaly, and heart abnormalities (fig. 5).
+Fig. 5
+T
+YPES OF HUMAN GENETIC DISORDERS
+1. Monogenic diseases: They are related to mutations in a single gene. For example cystic fibrosis,
+where the gene CFTR is mutated.
+2. Chromosomal disorders: Arise from structural or numerical alteration in autosomes or sex
+chromosomes.
+3. Multigenic diseases: Also called polygenic or multifactorial diseases. They are caused by interactions
+between multiple variant forms of genes and environmental factors.
+4. Single-gene disorders with nonclassical patterns of inheritance: Caused by a mutation in a single
+gene but they do not follow the Mendelian pattern of inheritance. For example, triplet repeat
+mutations, which will be explained later.
+T M
+YPES OF UTATIONS
+Mutations are stable, heritable changes in DNA:
+1. Genomic mutations: The loss or acquisition of an entire chromosome (monosomies or trisomy).
+2. Chromosomal mutations: Visible structural variation of chromosomes.
+3. Gene/Genetic mutations
+G
+ENETIC MUTATIONS
+Genetic mutations are due to partial or complete deletions of a gene, or more often mutation of a single
+Hojsíková Alžbeta, Saghafi Romina
+29
+16.03.2023 GAMBA L.3
+base:
+- Point mutations
+- Expansion of unstable trinucleotide repeats sequences, of triplets
+- Frame-shift mutations: due to nucleotide insertion or deletion, and consequently all the sequence
+of bases is shifted to the right or to the left, completely changing the DNA meaning
+- Large deletions
+Point mutations are the most frequent mutations. They can happen due to either a substitution of a base
+with a different base, a deletion, so loss of a base, or an insertion of a new base. With deletions and
+insertions, there are frameshifts.
+P
+OINT MUTATIONS DUE TO A SUBSTITUTION
+This mutation happens when a single base is substituted with a different base. The genetic information is
+encoded in codons, so triplets of 3 bases. Each codon codes for one amino acid (3 bases -> 1 amino acid).
+Therefore, the substitution of a base may have 3 different outcomes:
+1. Silent mutation: This happens when the substitution of the base
+does not alter the meaning of the sequence. The new codon
+codifies for the same amino acid as the old one.
+Fig. 6
+Generally, it arises due to the substitution of the third base. In
+this case (fig.6) CCA, that codes for Proline, becomes CCC that still codes for Proline.
+2. Missense mutation: When the substituted base changes
+the meaning, so the code of the triplet, and another amino
+acid is synthesized. It can be conservative if the new amino
+acid does not drastically change the function of the overall
+protein, or non-conservative if the function of the protein
+Fig. 7
+is changed due to this new amino acid.
+In this case (fig.7) CTC becomes CAC and the codon that normally
+codifies for Glutamic acid now codes for Valine. This is a missense
+mutation that occurs in the globin-β that is a part of hemoglobin
+present on the RBCs; this mutation gives rise to sickle cell anemia
+(in Italian “anemia falciform”). RBCs assume a particular shape that
+resembles a sickle (“falce,” shown in fig.8), and become rigid, which
+can cause them to remain trapped inside small vessels where they
+are destroyed. This is an example of hemolytic anemia. Fig. 8
+3. Nonsense mutation: When the substitution of the base brings to the creation of a stop codon, so the
+protein will be smaller and
+Hojsíková Alžbeta, Saghafi Romina
+30
+16.03.2023 GAMBA L.3
+Fig. 9 can be useful to revise some concepts.
+Let's imagine a normal protein, composed of 4
+amino acids (aa): Arginine, Leucine, Proline, and
+Isoleucine. Every aa is codified by a triplet, so the
+three bases of Arginine are CGG, Leucine is TTA…
+Second line is a missense mutation, so a point
+mutation with a substitution of a thymine with
+cytosine. This substitution brings to the formation
+of another triplet, TCA that codifies for Serine, and
+the resulting protein is different.
+The third line is a nonsense mutation, so a
+mutation in which the substitution of thymine
+with adenine brings to the formation of a TAA
+codon, which is a stop codon. The protein that will
+be synthesized will be truncated (shortened), and
+most probably degraded.
+The last two are examples of frame-shift
+mutations.
+The insertion of a single base leads to a complete
+Fig. 9
+shift of the meaning of the DNA to the right. So, if
+the DNA codons are read, 3 bases at time, all the aa here are different: Phenylalanine, Threonine, Aspartate.
+In the case of a deletion of the thymine base, the message is shifted to the left and the aa are Tyrosine,
+Arginine and Leucine. The frame-shift mutations can have huge and devastating effects on the proteins, as
+it drastically changes all the aa downstream from the mutation site, and thus the resulting proteins are
+completely different.
+P
+OINT MUTATIONS DUE TO A DELETION OR INSERTION
+If the bases that are deleted or inserted are a multiple of 3 there are no real differences in the DNA message,
+because some aa are inserted or deleted but the others remain normal.
+Fig.10 is an example of the deletion of 3 bases that
+codify for Phenylalanine in the gene coding for CFTR – a
+channel for chloride.
+Cystic fibrosis is an autosomal recessive disease in which
+the main mutation is the deletion of Phenylalanine that
+brings to the alteration in this CFTR protein. Due to this
+mutation the protein is not able to reach the plasma
+membrane after being synthesized. It is similar to the
+native protein, but it remains trapped in the Golgi or ER.
+Because of that, CFTR will be missing from the surface of
+Fig. 10
+exocrine glands, and the clinical manifestations of cystic
+fibrosis are due to the lack of these channels on the surface of the exocrine glands.
+Hojsíková Alžbeta, Saghafi Romina
+31
+16.03.2023 GAMBA L.3
+If the bases inserted or deleted are not a multiple
+of 3 (so 1,2,4…), it is a frame-shift mutation, so the
+whole DNA information is shifted to the left or to
+the right and lots of aa are completely changed.
+In fig.11 four bases (TATC) are inserted, which
+results in a frame shift to the right and the reading
+frame is completely changed. This happens in Tay-
+Sachs disease, which is a neurodegenerative
+disease with lysosome accumulation in cells.
+Fig. 11
+T -
+RINUCLEOTIDE REPEAT MUTATIONS
+Another type of mutations are trinucleotide-repeat mutations, in which a codon is repeated too many times
+in the DNA. In general, they involve repetitions of triplets which contain C or G. There are a lot of diseases
+related to that mutation, for example Huntington disease and X fragile syndrome.
+H (HD)
+UNTINGTON DISEASE
+HD, also called chorea of Huntington, is a rare neurodegenerative disorder characterized by a severe damage
+of the cerebral cortex that also extends to the basal ganglia. It is an autosomal dominant hereditary disease.
+It arises due to a pathological repetition of CAG triplets. In a normal brain, there are already 10 – 30
+repetitions of CAG triplets, but sometimes these repetitions start repeating too many times later in life, which
+will lead to the development of Huntington’s disease. The main clinical manifestations involve the alteration
+of movements and balance, the patients move involuntarily and lose balance, which looks similar to dancing.
+Neurodegenerative diseases in general arise due to an accumulation of proteins in cells, more specifically in
+neurons, which leads to a progressive degeneration. This is true for HD, Alzheimer’s, Parkinson’s, ALS, or Tay-
+Sachs.
+The brain of patients with HD is atrophic, and looks smaller and lighter. This is
+because of the death of neurons that are permanent cells, so once they are
+dead, they cannot regenerate, and there is deficient brain tissue. (fig.12)
+It is a genetic disorder but not congenital, so the patients are not born with it. It
+manifests in patients from 30 to 45 years old and it is a chronic progressive
+disorder that brings death around 15 years from onset.
+Fig. 12
+Nowadays there are tests able to measure the number of repeats of codons in Huntington disease, but there
+are a lot of discussions about the ethical impact of these tests, because usually at the age of 30/40, people
+already have children, and there is no cure for it.
+CAG triplet codes for glutamic acid and when there is an expansion of the CAG triplet inside the gene, it codes
+for a protein called huntingtin. Normally huntingtin is a ubiquitous protein in the body, mainly presenting at
+the level of the brain, where it is neuroprotective (protects neurons from dying). However, in case of an
+abnormal CAG repetition, the new huntingtin protein will have a long polyglutamic tract, which will cause
+the protein to lose its neuroprotective properties and becomes toxic for the neurons. This neurotoxic
+huntingtin will accumulate especially at the level of cerebral cortex and basal ganglia, leading to progressive
+degeneration of these areas.
+Hojsíková Alžbeta, Saghafi Romina
+32
+16.03.2023 GAMBA L.3
+Q: Why is it accumulating specifically in cerebral cortex and basal ganglia?
+A: We do not know. The research in HD is not as progressed.
+Involuntary movements will affect
+all body segments, so from a certain
+point of progression, the clinical
+manifestations will involve bizarre
+grimaces, sudden movements of
+the upper limbs, difficulty walking
+(similar to a dance), difficulty
+performing the most basic
+movements necessary for everyday
+life, dysarthria (difficulty speaking),
+inability to swallow due to
+uncoordinated movements of the
+pharyngo-laryngeal musculature,
+and dementia.
+The more the disease develops, the
+Fig. 13
+more the cognitive functions and
+the common movement abilities are affected. Fig.13 shows the age of the patients and the functional abilities
+of the patient that start to decrease significantly at the age of 45. Moreover, there is an inverse relationship
+between the number of CAG repeats and the age of the onset. The higher the number of the repeats is, the
+earlier is the age of onset that involves abnormalities in muscle coordination, psychomotor and cognitive
+functions.
+After the pathological repetition of CAG, the toxic
+huntingtin will first aggregate into oligomers, and then
+into fibrils, which will precipitate inside the cell. The
+aggregated toxic huntingtin accumulates both in the
+cytoplasm and in the nucleus. The accumulation of this
+abnormal huntingtin in the nucleus causes the
+expression of genes that are not normally expressed in
+neurons and cause mitochondrial toxicity, synaptic
+dysfunctions, and axonal transport impairments. In this
+sense they become more and more susceptible to
+oxidative stress. When there is cell necrosis,
+consequently there is also inflammation and with
+inflammation comes oxidative stress, mainly because
+of neutrophils. This oxidative stress becomes
+dangerous, and it is a vicious cycle that leads to the
+Fig. 14
+progressive neurodegeneration and cell death.
+Q: Why is the presence of these triplets not dangerous at the beginning?
+A: Because if you have a small repetition the polyglutamic tract is not too long to cause an alteration of the
+function, it is not sufficient to change the function of the protein.
+As of January 2023, there are no approved disease-modifying treatment.
+Hojsíková Alžbeta, Saghafi Romina
+33
+16.03.2023 GAMBA L.3
+F
+RAGILE X SYNDROME
+Fragile X syndrome is another disease caused by the expansion of a triplet. In this
+case the triplet is CGG, which codes for Arginine. The problem in this case is the
+expansion of this sequence at the level of the FMR1 gene encoding for FMRP
+(familial mental retardation protein). FMRP is important for neuronal
+development, so same as huntingtin, it is a prosurvival, neuroprotective and pro-
+developmental protein. When there is an expansion of the trinucleotide triplet
+Fig. 15
+inside the gene coding for FMR1, the protein becomes toxic, loses the ability to
+protect neurons and this leads to mental retardation. The severity of the manifestations depends on the level
+of the expansion.
+It is a mutation specifically related to the X chromosome. The expansion of this triplet brings to two fragile
+sites at the level of the long arm of the X chromosome - for that reason it is called fragile X syndrome. As the
+mutation is located on the X chromosome, the transmission is x-linked, not following the classical Mendelian
+inheritance. Moreover, it is a dynamic mutation, meaning that subsequent generations have greater genetic
+damage.
+Fig. 16
+Fig.16 shows how a family tree can be affected in case of a male carrier. The first generation of children is
+characterized by the fact that all the males are healthy, without any mutation present. Instead, the daughters
+are normal but have the premutation inherited from the father, because the X chromosome of the father
+goes to the daughter. They are not really affected because women have another healthy X chromosome from
+the mother, and even in the affected chromosome from the father the repetition is not as high to cause the
+syndrome. Talking about the children of a carrier daughter, the granddaughters have a higher expansion of
+the trinucleotide, because over the generation this mutation increases, so they have a full mutation, but they
+are usually normal, due to the presence of the other X chromosome. Only 50% of these females will be
+affected, and only mildly. Instead, the grandsons have a fully mutated X chromosome, and they are affected
+by the disorder, because they only have one X, in which there are two fragile sites in which Arginine is altered.
+People with fragile X syndrome have some typical physical
+characteristics, including a high forehead, a long face with a large
+mandible, a large nose, thin or retracted lips, large everted ears, and
+macro-orchidism in males.
+They have also some behavioral characteristics, such as stereotyped
+movements, atypical social development, shyness, and autism.
+Fig. 17
+Hojsíková Alžbeta, Saghafi Romina
+34
+16.03.2023 GAMBA L.3
+FMRP is able to bind mRNA and transport this mRNA into synapses. If this
+protein is mutated it is no longer able to bind mRNA necessary for the
+synaptic function and for that reason the neurons die.
+FMRP is most abundant in brain and testes and that is why these two organs
+are affected the most.
+Genetic diseases involving a mutation in only one gene are typically
+Fig. 18
+transmitted as either autosomal dominant, autosomal recessive, or x-linked.
+A
+UTOSOMAL DOMINANT DISORDERS
+Autosomal dominant disorders manifest already in a heterozygous state, because only one mutated allele is
+sufficient to cause the disease.
+Fig.19 shows a model of inheritance in case of one heterozygous parent,
+therefore affected by the disease. A mutation in one allele of the gene is
+sufficient to cause the disease. Overall, there is a 50% probability to have a
+healthy child, and 50% to have a sick one.
+While if both parents are heterozygous and affected by the disease, there is a
+25% probability to have two mutated alleles. This condition is usually, but not
+Fig. 19
+always, not compatible with life. This model of inheritance is later shown in
+fig.22.
+Some examples of autosomal dominant disorders are listed in fig.20.
+Fig. 20
+A
+CHONDROPLASIA
+Achondroplasia, “nanismo” in Italian, is the most frequent from a group of
+genetic osteochondrodysplasias. It affects the development of chondroblasts of
+the epiphysis of long bones. Achondroplasia is disharmonic dwarfism (“nanismo
+disarmonico”), because the head is very big with a prominent forehead, saddle
+nose, but the limbs are very short.
+Fig. 21
+Hojsíková Alžbeta, Saghafi Romina
+35
+16.03.2023 GAMBA L.3
+The mutation is on chromosome 4, on a gene coding for the fibroblast growth factor receptor type 3 (FGFR3).
+It is a receptor present on fibroblasts, and in case of its absence, fibroblasts cannot bind the growth factor.
+It is not a structural protein, but a receptor protein that is lacking or not
+functioning
+Fig.22 is an example of both parents affected. There is a 25% probability to have
+a healthy child, so tall and not affected, another 25% probability of death during
+pregnancy, and 50% probability to have a child affected by disharmonic
+dwarfism.
+Fig. 22
+It affects the development of chondroblasts of epiphyses of long bones. The
+average height for affected males is 130cm, and for females it is 125cm. The intelligence is not affected at
+all.
+O
+STEOGENESIS IMPERFECTA
+There are some disorders
+that are characterized by
+mutations in genes coding
+for structural proteins, for
+example osteogenesis
+imperfecta, Ehlers-Danlos
+syndrome and Marfan
+syndrome.
+Osteogenesis imperfecta,
+also called “glass bone”
+disease, is another
+autosomal dominant
+disease. It is an autosomal
+Fig. 23
+dominant disorder characterized by mutations in the gene coding for type I collagen.
+It has 8 types, but all are characterized by defective synthesis of type I collagen. The types depend on whether
+the mutation of the gene causes a complete absence of the protein, or a defective function of
+the protein. Type II is not compatible with life.
+In osteogenesis imperfecta bones are too little, fragile, deformed, and multiple spontaneous
+fractures may occur. Dental problems, ocular problems and hearing loss are also present. In
+short, it impacts tissues rich in type I collagen (joints, eyes, ears, skin, and teeth).
+M
+ARFAN SYNDROME
+Marfan syndrome is an autosomal dominant disorder characterized by a mutation in the gene
+coding for fibrillin-1, the name of the gene is FBN1. Fibrillin-1 is an extracellular glycoprotein
+of the connective tissue which forms the microfibrils of the extracellular matrix, especially in
+tendons and walls of big vessels. Therefore, in the case of a mutation, there will be problems
+related mostly with the tendons, big vessels (aorta) and eyes. One third of the cases is caused
+by sporadic mutations, arising de novo.
+Fig. 24
+There are different forms, phenotypes, and consequently different severity of the disease.
+There are people that only manifest phenotypic characteristics, usually they are very tall with
+Hojsíková Alžbeta, Saghafi Romina
+36
+16.03.2023 GAMBA L.3
+long arms, hands, and legs. It can also be characterized by spider fingers, which are abnormally long fingers
+and toes (shown in fig.25). The ligaments of the hands and of the feet are lax and hyperextensible. Spinal
+deformities may be present, as well as deformities of the chest, such as pectus excavatum, in which the
+sternum is deeply depressed and the pigeon-breast deformity, in which the chest is external. So the main
+problems are related to the skeletal system.
+However, it is important to recognize and diagnose Marfan
+syndrome, for example in really tall people (basketball
+players, volleyball people), as the problems related to Marfan
+syndrome are not only related to the skeletal system.
+Ocular changes are frequently present, for example a typical
+Fig. 25
+mark of the disease is the bilateral dislocation of the lens,
+called ectopia lentis. Severe myopia or retinal detachment can also be present.
+Most importantly, Marfan syndrome can cause cardiovascular lesions. Overall, aorta is very lax and fragile,
+which may lead to a dilation of aorta and subsequently aortal aneurysm. This is the cause of death in around
+30% of patients due to the internal hemorrhage and hypovolemic shock caused by the aneurysm. The therapy
+consists of drugs that protect against aortic dilation, drugs against hypertension, or a surgical insertion of an
+aortal stent.
+Fig. 26
+Normally, fibrillin-1 regulates the function
+of TGFβ. When fibrillin is present, TGFβ is
+trapped in fibrillin, and it is released only
+when it is necessary. While in Marfan
+syndrome, when fibrillin-1 is lacking, TGFβ
+is overactivated (because it is free from
+fibrillin), and it binds to the TGFβ receptor,
+present on the surface of the plasma
+membrane, stimulating the downstream
+pathways (SMAD proteins and so on).
+SMAD proteins translocate to the nucleus
+and activate gene expression of matrix
+metalloproteinases (MMPs). MMPs are overproduced and degrade the extracellular matrix. It is a vicious
+cycle: lack of fibrillin-1 causes overproduction of MMPs which further degrade ECM.
+E -D S (EDS)
+HLER ANLOS YNDROMES
+This is a wide spectrum of clinically and genetically heterogeneous disorders
+belonging to the autosomal dominant disorders. It is defined as a group of
+diseases because there are different features of the disease depending on the
+type of mutation. EDS belong is caused by a mutation on a gene coding for type
+I, III and V collagen.
+There are 6 variants of EDS. The affected tissues are those that are rich in
+collagen: skin, joints, ligaments. The skin becomes hyperextensible, and the
+joints are hyperflexible, as can be seen in fig.27.
+Apart from these typical characteristics, there can be some other serious
+consequences, since collagen is also present in organs. For example, there can
+be hyperelasticity and fragility of the skin, delayed wound healing, joint
+hypermobility and joint dislocation, rupture of arteries, intestines and uterus
+Fig. 27
+during pregnancy, eye injuries and blindness, skeletal deformities, and
+Hojsíková Alžbeta, Saghafi Romina
+37
+16.03.2023 GAMBA L.3
+periodontal diseases (loss of teeth within 30 years of age).
+The most severe internal complications that may occur are the rupture of the colon and large arteries, ocular
+fragility with rupture of cornea and retinal detachment and diaphragmatic hernia.
+Because of these dangerous complications, it is important to recognize this disorder as soon as possible and
+prevent the complications.
+F H
+AMILIAL YPERCHOLESTEROLEMIA
+The main cause of familial hypercholesterolemia is a mutation at the level of the gene coding for LDL
+receptors (LDLR), located on the surface of hepatocytes. Lipoproteins are the particles that carry lipids in
+blood because lipids cannot freely flow in blood due to their hydrophobic properties. Lipids need to be carried
+by proteins, otherwise they would aggregate immediately and form a lipid embolus.
+In hypercholesterolemia there is a high level of LDL (low density lipoproteins) in blood. LDL are also called
+“bad cholesterol,” because they carry lipids from liver (where lipids are synthetized) to the peripheral tissues.
+If the level of LDL gets too high, they accumulate inside arterial walls, giving rise to atherosclerosis. On the
+other side, HDL (high density lipoproteins) are also called the “good cholesterol,” as they carry lipids from
+the periphery to the liver, where these lipids are recycled. Therefore, the more HDL a person has, the better.
+And the more LDL a person has, the worse. It is called hypercholesterolemia, even though it is an increase in
+LDL, because the main component of LDL is cholesterol. If the LDLR on the hepatocytes surface is not present
+or not properly working, LDL are not taken up by the liver and they remain in the bloodstream. For this
+reason, the levels of LDL are very high in those patients.
+In familial hypercholesterolemia there are different clinical manifestations, from milder to severe. It is again
+an autosomal dominant disease.
+In heterozygous patients there are elevated plasma cholesterol levels even at birth (around 350 mg/dL),
+tendon xanthomas (accumulation of cholesterol at the level of tendons) before the age of 30, early
+atherosclerosis, leading to a coronary artery disease before the age of 40.
+In homozygous patients the mutation is still compatible with life, but the manifestations are worse. The levels
+of plasma cholesterol are higher (from 600 to 1200 mg/dL), the patients can have cutaneous and tendon
+xanthomas, coronary atherosclerosis can occur even in pediatric age, and myocardial infarction even before
+the age of 30.
+Q: What is the correct concentration of LDL cholesterol?
+A: About 120 mg/dL in normal people. In people with risk factors or subjects that have undergone a
+myocardial infarction that take drugs to reduce cholesterol levels, the ideal concentration is 50 mg/dL.
+This is what LDL looks like (fig.28). In the center there are
+cholesterol esters, then cholesterol, phospholipids, and
+triglycerides. The hydrophilic part surrounds the
+hydrophobic center. A protein called ApoB100 wraps
+around the LDL particle and can bind to LDLR on the surface
+of the liver.
+Fig. 28
+Hojsíková Alžbeta, Saghafi Romina
+38
+17.03.2023 GAMBA L.4
+GENETIC DISORDERS PART 2
+F H
+AMILIAL YPERCHOLESTEROLEMIA
+It’s a disorder that can have many different causes.
+Mutation of the gene coding for LDL receptor
+The main one is a mutation at the level of the gene coding for the LDL (low density lipoproteins) receptor,
+which is mainly located on the surface of hepatocytes and has the role of binding and keeping LDL out of the
+circulation. This receptor is involved in the transport and metabolism of cholesterol, as LDL are the particles
+that carry lipids in the bloodstream as they cannot freely flow in it due to their hydrophobic properties.
+The LDL receptor is also present on the surface of the cells of the periphery, as LDL goes from the liver to the
+periphery in order to bring cholesterol to the cells that synthesize steroid hormones, form new cell
+membranes, or that may need it for other uses.
+It is important to keep in mind the difference between LDL (bad cholesterol, takes cholesterol from the liver
+and brings it to the peripheric cells) and HDL (good cholesterol, takes cholesterol from the peripheric cells
+and brings it to the liver), which are different in the structure, even if both are lipoproteins that allow lipids
+to flow in the blood.
+Overall, familial hypercholesterolemia is due to the lack of the LDL receptor in hepatocytes and a
+manifestation of high levels of LDL concentration on blood.
+The physiological amount of LDL is about 120 mg/dL in normal people, while in people with risk factors or
+subjects that have undergone a myocardial infarction that take drugs to reduce cholesterol levels, the ideal
+concentration is 50 mg/dL.
+Familial hypercholesterolemia is an autosomal dominant disorder so both heterozygous and homozygous
+present the disease, with the homozygous manifest more severe symptoms.
+In heterozygous patients have elevated plasma cholesterol levels even at birth (around 350 mg/dL), tendon
+xanthomas (accumulation of cholesterol at the level of tendons) before age 30, early atherosclerosis (chronic
+inflammatory disorder that arises at the level of the medium and big arteries, mainly caused by elevated
+levels of plasmatic LDL, which penetrates in the intima of these arteries and forms atherosclerotic plaques
+that cause occlusions).
+In homozygous patients the levels of plasma cholesterol go from 600 to 1200 mg/dL, the patients can have
+cutaneous and tendon xanthomas, coronary atherosclerosis and myocardial infarction even before the age
+of 30.
+Other mutations
+Mutations of LDL receptors are the main cause, but there are other genetic conditions that can lead to familial
+hypercholesterolemia.
+For example, in 10-15% of hypercholesterolemia cases are mutations at the level of the gene of the
+apolipoprotein B100 (Apo-B100), the protein that surrounds LDL.
+Considering that LDLR on the surface of hepatocytes specifically recognizes Apo-B100, a mutation leads to
+the lack of the binding between the receptor and the protein.
+In other cases (2-5%) there can be a mutation at the level of the protein PCSK9 that regulates the recycling
+of LDLR.
+Treatment
+To reduce the concentration of LDL in blood the drugs that are given are statins. Statins, however, have lots
+of side effects. Some people can’t sustain their intake because of the side effects like muscle pain. For those
+subjects there are some new drugs: specific antibodies against PCSK9. By binding PCSK9 these antibodies
+prevent the recycle of the LDLR, which remains on the surface of hepatocytes, allowing to keep more LDL
+away from the blood circulation.
+Fiamma Cusumano, Samuele Scagliola
+39
+17.03.2023 GAMBA L.4
+In the cases in which antibodies have to be administered, cardiologists aim to reach 50 mg/dL of LDL because
+these patients are at risk of myocardial infarction.
+Remember that LDL levels increase also due to a lipid rich diet, so a correction in alimentation would be
+enough to bring LDL levels back to normal ranges.
+LDL
+STRUCTURE
+(fig.1) In the centre of an LDL there are cholesterol esters, then
+cholesterol, phospholipids, triglycerides.
+All of them have to be carried in the bloodstream and to do so
+they need the ApoB100, which is a protein that wraps around the
+LDL particle and that can bind to LDLR on the surface of the liver.
+fig.1 LDL receptors are also present in the brain, in the skin.
+LDL
+METABOLISM
+Figure 2 depicts an hepatocyte with a LDLR, but it also
+shows that the liver is able to create VLDL too (very low-
+density lipoproteins), that are mainly composed of
+triglycerides (the yellow part in the figure) and a small
+amount of esterified cholesterol.
+VLDL have 3 Apo proteins on their surface: ApoC, ApoB
+and ApoE. VLDL are useful because triglycerides are used
+by muscles for energy and by adipocytes for their storage
+and this is possible thanks to the action of the enzyme
+lipoprotein lipase that separates triglycerides from the
+rest of the lipoprotein.
+The consequence is the creation of IDL (intermediate
+density lipoprotein) that have lost ApoC and are left with
+only ApoE and ApoB. 50% of IDL goes back to the liver
+where it binds the LDLR, which specifically recognizes
+B100, and the components of these IDL are recycled.
+The other 50% of IDL loses the remaining triglycerides
+and becomes LDL.
+HDL takes cholesterol from the periphery where it is in
+excess, and it shuttles it to the hepatocytes where it is fig.2
+recycled, starting a new cycle.
+So, if the LDL receptor is not present on the cell’s surface, either of or hepatocytes or peripheric cells, or if
+it’s present in lower amounts, LDL remains in the bloodstream.
+In this figure (fig.3), it is possible to see LDLR on the
+fig.3
+surface of hepatocytes that bind LDL, clathrin-coated
+vesicles are created, and they fuse with lysosomes. LDLR
+is recycled, so it goes back to the surface, LDL is degraded,
+APO-B100 is degraded in amino acids, and cholesterol
+exits from the lysosome to reach the cytoplasm to be
+recycled.
+In order for the cholesterol to exit the lysosome two main
+proteins present at the level of the lysosomes are needed:
+NPC1 and NPC2 (NP stands for Niemann-Pick).
+Once cholesterol reaches the cytoplasm, it regulates
+several pathways as it has a lot of physiological functions.
+Fiamma Cusumano, Samuele Scagliola
+40
+17.03.2023 GAMBA L.4
+However, when cholesterol levels are too high, cholesterol inhibits the synthesis of cholesterol, with negative
+feedback. In particular, it inhibits the main rate limiting enzyme for cholesterol synthesis which is HMG CoA
+reductase and so the synthesis of cholesterol is reduced. Moreover, cholesterol activates the enzymes
+necessary to create cholesterol esters.
+Another way to inhibit cholesterol accumulation is the inhibition of the gene expression and synthesis of
+LDLR. In this way LDLR are not synthesized ex novo and on the surface of hepatocytes the level of LDLR is
+reduced.
+=
+Three separate processes are affected by the released intracellular cholesterol:
+1) Cholesterol suppresses cholesterol synthesis within the cell by inhibiting the activity of the enzyme 3-
+hydroxy-3-methylglutaryl coenzyme A (HMG CoA) reductase, which is the ratelimiting enzyme in the
+synthetic pathway.
+2) Cholesterol activates the enzyme acyl-coenzyme A: cholesterol acyltransferase, favoring esterification and
+storage of excess cholesterol.
+3) Cholesterol suppresses the synthesis of LDL receptors, thus protecting the cells from excessive
+accumulation of cholesterol.
+Q: So we have production of lipids other than cholesterol but we don’t have their secretion, right?
+A: Yes, we have the production of other lipids but cholesterol is particularly able to regulate its own production
+Depending on the type of mutation of the gene mutate, there are different outcomes (fig.4).
+There are more than 150 mutations of the gene coding for LDLR.
+They are sometimes responsible for the complete non-
+expression of the gene, in this case the LDLR are completely
+absent on the cell's surface.
+In other cases, the protein is synthesized but it’s trapped in the
+endoplasmic reticulum or Golgi apparatus, causing an
+intracisternal retention. The final effect is the same as the non
+gene expression one because even in this case we won’t have
+LDLR on the surface. In these two cases the disease is severe.
+There can be some other mutations at the level of the LDLR
+gene that still allow the protein to be synthesized, to be
+transported to the cell’s surface but the protein doesn’t work
+properly. This might be due to an abnormal conformation of the
+protein and the receptor can’t correctly bind LDL. In this last
+case the disease is less severe. We can also have some other
+problems dealing with the recycling of the receptor.
+So the same disease can have different levels of severity.
+fig.4
+Q: How does the problem in the synthesis lead to hypercholesterolemia?
+A: In hypercholesterolemia there is a mutation that leads to a lack of LDLR synthesis. If you don’t have LDLR,
+on the surface of hepatocytes there will be no LDLR. So LDL are produced, they are in the bloodstream but are
+not taken up by the liver. They remain in the liver leading to hypercholesterolemia.
+Fiamma Cusumano, Samuele Scagliola
+41
+17.03.2023 GAMBA L.4
+AUTOSOMAL RECESSIVE DISORDERS
+In the case of autosomal recessive disorders, the recessive pathological gene determines the disease only in
+the homozygous state, meaning inheriting both pathologic genes,
+while the heterozygous state determines a healthy carrier.
+Figure 5 shows that if both the mother and the father are
+heterozygous for the pathologic gene, they don't manifest the disease,
+but they have a 25% probability to have a child that does manifest it
+in the homozygous form (aa), 50% that it will be a healthy carrier (Aa)
+and 25% that it will be a healthy subject (AA).
+These are some examples of autosomal recessive disorders (fig.6). fig.5
+fig.6
+N -P T C (NP-C) D
+IEMANN ICK YLE ISEASE
+It’s an autosomal recessive neurodegenerative lysosomal storage disorder characterized by mutations at
+the level of two main intracellular transporter proteins:
+- NPC1, which encodes late endosome/lysosome transmembrane-bound protein
+- NPC2, which encodes a soluble protein
+They both lead to the same process: the exit of cholesterol from the lysosomes. The functions of NCP1 and
+NCP2 are different but they are interconnected. Even if just one of these two proteins doesn’t work, the
+disease occurs.
+In the majority of cases NCP1 is mutated (95% of cases).
+Pathogenesis
+Niemann-pick disease is a
+neurodegenerative disorder that is
+characterized by the loss of function in
+either NPC1 or NPC2, which leads to the
+accumulation of cholesterol and other
+lipids in the late endosomal/lysosomal
+intracellular compartment (fig.7).
+So, cholesterol can’t be used for
+membrane formation.
+fig.7
+Fiamma Cusumano, Samuele Scagliola
+42
+17.03.2023 GAMBA L.4
+The main outcome arises at the level of the brain,
+leading to neurodegeneration (fig.8), but NCP1
+and NPC2 are present also in other tissues and,
+as a consequence, cholesterol accumulates also
+in the lysosomes of the liver and spleen, causing,
+reduced life expectancy, hepatosplenomegaly,
+and lung deficiency, so it affects all the tissues,
+but mostly the liver, spleen and brain.
+Niemann pick is also known as child Alzheimer
+disease because it shares many features with
+Alzheimer's disease, but in children.
+In the transfer of cholesterol from LDL to
+lysosomal membrane the lysosomes appear
+fig.8
+filled with cholesterol (fig.7).
+NPC2 is a soluble protein that flows inside the lysosome, it is able to bind cholesterol and acts as a shuttle to
+bring cholesterol to the lysosomal membrane where it finds NPC1.
+NPC1 is a transmembrane protein with several transmembrane domains on the surface of lysosomes, it binds
+cholesterol and it inserts it on the lysosomal membrane, allowing it to get out of the lysosome.
+The loss of function in either NPC1 or NPC2 leads to the same result: cholesterol is trapped in the lysosomes.
+The age of onset of NP-C is very early in life:
+1. Newborn NP-C: liver disease at or soon after birth and causes early death, with erythroblastosis
+fetalis;
+2. Early and late infantile NP-C (0-6 years)
+3. Juvenile NP-C (6-15 years)
+4. Adolescent/adult NP-C (>15 years)
+They are characterized mainly by neurological symptoms and visceral symptoms (in particular in children).
+Neuropathological features
+- Neuronal degeneration, due to cholesterol accumulation
+- child Alzheimer disease*, Alzheimer's-like neurofibrillary tangles and amyloid beta accumulation in
+the extracellular space. They are the two main histopathological features of this disease, at the level
+of the cerebral cortex. Neurofibrillary tangles are present intracellularly, in the cytoplasm of neurons.
+They are due to the hyperphosphorylation of tau protein, a protein essential for neurons because it
+is responsible for microtubules stabilization. When tau is hyperphosphorylated, it detaches from
+microtubules, accumulates inside the neurons and they die. Another histopathological feature is the
+accumulation of amyloid beta accumulation in the extracellular space forming amyloid plaques,
+which are neurotoxic and cause neurons’ death.
+- Neuroaxonal dystrophy
+- Demyelination
+- Neonatal jaundice
+- Hepatosplenomegaly
+- difficulty in speaking and in swallowing
+Clinical presentation
+• Cerebellar ataxia (movements disorder in 85-90% of NP-C patients)
+• Dystonia contributes to patient disability. it can either be focal (affecting hands, face, or upper limbs,
+or more generalized). Dystonia tends to occur later than other neurological signs during the course
+of NP-C.
+• Psychiatric disorders
+• Cognitive deficits, dementia (childhood Alzheimer’s)
+*Niemann-Pick is a very rare disorder and there is not a cure for this disease, just like Alzheimer.
+Fiamma Cusumano, Samuele Scagliola
+43
+17.03.2023 GAMBA L.4
+The only known information is that in these children there are some lesions that are similar to the ones
+present in Alzheimer’s disease and in other neurodegenerative disorders (eg. Lewy bodies typical of
+Parkison’s disease can be observed in NP too).
+This (fig.9) is an example of a little boy that was born without any symptoms, but was diagnosed with NP-C
+disease and probably had mutations at the level of NPC1.
+Since it is a progressive disease, symptoms started to arise at 3-4 years of age and they quickly got worse and
+worse. At 9 years old he was unable to swallow and wheelchair-bound.
+Unfortunately died at 10 years old.
+fig.9
+When you have a reduced presence of NPC1 or NPC2, the quantity of cholesterol in lysosome is increased,
+while in the plasma membrane cholesterol is reduced.
+Some studies have demonstrated that cholesterol inside endosomes is responsible for the increased
+production of two proteins:
+• APP → amino precursor protein, which will give rise to amyloid plaques)
+• BACE → beta secretase, the main enzyme that cuts APP leading to the formation of amyloid plaques.
+Some ongoing studies are trying to understand the pathogenic mechanisms leading to amyloid plaques and
+neurofibrillary tangles.
+Q: What are amyloid plaques?
+A: They are accumulations of amyloid beta which is a neurotoxic protein produced starting from APP protein,
+which is a transmembrane protein present on the surface of neurons. This protein is cut by different proteases,
+it accumulates outside and it’s neurotoxic. It kills the neuron and inhibits the transmission of signals.
+C F
+YSTIC IBROSIS
+It is an autosomal recessive disorder, also called mucoviscidosis. It is characterized by different mutations
+at the level of the gene coding for CFTR (cystic fibrosis transmembrane conductance regulator).
+CFTR is an epithelial chloride channel protein present on the surface of all exocrine glands, both mucus
+secreting glands and sweat glands.
+Age of onset
+Cystic fibrosis affects children, between birth and late childhood, and it’s very variable. It is usually said that
+the average life expectancy is 30 years, but there are many different grades of severity depending on the
+type of gene mutation so it’s difficult to predict the life expectancy. Some subjects have very severe cystic
+fibrosis, while in others this disease is compatible with life.
+Fiamma Cusumano, Samuele Scagliola
+44
+17.03.2023 GAMBA L.4
+CFTR structure
+This is a physiological CFTR (fig.10).
+After gene expression, the protein goes through the
+ER, Golgi apparatus and finally reaches the surface
+where it has two transmembrane domains.
+CFTR is present on the surface of all exocrine glands,
+both in mucous and in sweat glands, but in these
+two types of glands, it in the opposite way.
+fig.10
+Pathogenesis
+In mucous secreting glands, CFTR regulates the passage of chloride from the inside to the outside of cells.
+In parallel, CFTR regulates two other membrane proteins:
+• ENaC (epithelial Na+ channel). It is a sodium channel that brings sodium inside the cell.
+CFTR regulates ENaC by inhibiting it and sodium remains out of the cell. So outside there will be
+sodium chloride salts, which bring water out of the cell. By doing so the mucus becomes normally
+hydrated.
+• ORCC (outwardly rectified chloride channel). It is another chloride channel activated by CFTR and it
+has the same function as CFTR: to bring chloride out.
+When CFTR is not present or is not working properly, as in the right side of fig.11, chloride can’t go out
+anymore and it remains inside the cells.
+Moreover, CFTR is not able to inactive ENaC channels so too much sodium goes inside the cells, followed by
+water. Since water goes inside the cells, the mucous becomes very dehydrated.
+Normally, as shown on the right of fig.11, CFTR is present and working, so chloride goes out and just a small
+amount of sodium gets in (very thin arrow) because CFTR inhibits ENaC channels. Similarly, just a small
+amount of water gets in. So outside we have sodium and water and the mucous will be normal, hydrated.
+fig.11
+In sweat secreting glands CFTR works in the opposite way (fig.12): chloride is taken up by CFTR. In cystic
+fibrosis, since CFTR is not present or not properly working, chloride remains outside of the cell. This doesn’t
+lead to problems at the level of the sweat gland itself, but the only important consequence is that the sweat
+is very salty. This is important because it’s a way to recognize if a newborn might be affected by cystic fibrosis.
+fig.12
+Fiamma Cusumano, Samuele Scagliola
+45
+17.03.2023 GAMBA L.4
+Mutations
+There are different mutations
+responsible for cystic fibrosis (fig.13).
+The mutations might lead to the
+complete absence of CFTR on the cell’s
+membrane or there could be an
+intracisternal retention in the ER or
+Golgi. In these two cases the disease is
+very severe. In some other cases CFTR
+is only produced in less amounts so on
+the surface you find CFTR but it’s not
+enough to exert its function. This is a
+less severe form of cystic fibrosis.
+There could also be a normal amount
+of CFTR present on the membrane but
+it is not able to bind ATP correctly and
+does not work.
+fig.13
+The main gene mutation (fig. 14) that leads to cystic fibrosis is the deletion of a codon in position 508: delta
+phenylalanine 508. This deletion is responsible for the intracisternal retention of CFTR. It’s a very severe
+form, so if phenylalanine is lacking, CFTR will still be produced but it will be trapped in the Golgi apparatus
+and there will be no CFTR on the surface.
+fig.14
+In these pictures (fig.15) it is possible to find:
+• normal CFTR in which chloride goes out of the cell
+• absent CFTR in which chloride, sodium and water remain inside the cell
+• non normal CFTR that allows the passage of just a small amount of chloride, water and sodium. The
+mucous will be only partially hydrated.
+fig.15
+Fiamma Cusumano, Samuele Scagliola
+46
+17.03.2023 GAMBA L.4
+C
+YSTIC FIBROSIS IN THE DIFFERENT AFFECTED ORGANS OF EXOCRINE
+fig.16
+Pancreas
+The term “cystic fibrosis” comes from cystic/fibrosis formation that
+occur at the level of the pancreas.
+90% of patients have pancreatic abnormalities (chronic pancreatitis)
+because the mucous is so thick in the exocrine pancreas that it occludes
+the pancreatic ducts bringing to atrophy of the exocrine glands and cell
+necrosis.
+Eventually necrosis induces inflammation (acute pancreatitis, that then
+becomes chronic pancreatitis) and then there is an attempt to repair
+the damage thanks to the activation of fibroblasts that secrete
+extracellular matrix. As a consequence, fibrosis increases at the level of
+the pancreas giving rise to cystic fibrosis (fig.16).
+If the exocrine part of the pancreas doesn't work, pancreatic juices are
+not produced and this leads to steatorrhea (abundant and smelling
+excrements due to no fat absorption), growth retardation, nutritional
+deficiency (lack of fat-soluble vitamins: avitaminosis A, D, K) and
+squamous metaplasia of the lining epithelium of the ducts in the
+pancreas.
+This process only affects the exocrine portion.
+Respiratory tract
+At the level of the respiratory tract the mucus is particularly thick and
+dehydrated (fig.17), the consequence is that there is a tendency to
+develop infections that can lead to pneumonia. Recurrent bronchitis
+and pneumonia are the main causes of cell death.
+Pulmonary changes are observed in all cases of cystic fibrosis and they
+are the most serious complication of the disease. There is marked
+hypertrophy and hyperplasia of mucosal glands.
+The insufficient hydration of the mucus and the consequent alteration
+of the activity of the celia, determines the inability to effectively
+remove the bacteria (eg. pseudomonas aeruginosa is the most
+common pathogen).
+fig.17
+Gastrointestinal tract
+The typical symptom is meconium ileus (in italiano “ileo da meconio”): an obstruction of the small intestine
+in newborns. This is a way to identify a child that is affected by cystic fibrosis, together with salty sweat.
+Meconium derives from the ingestion of liquids coming from the mother during pregnancies. If two or three
+days after birth the baby is not able to evacuate, meconium is not released, exams have to be carried out
+immediately in order to understand if the baby is affected with cystic fibrosis. Therefore, mothers and doctors
+have to pay attention to this in the immediate postpartum.
+Liver
+Bile canaliculi are plugged by mucus material. Hepatic steatosis is not an uncommon finding in liver biopsies.
+If this situation lasts for a long time, cirrhosis can develop.
+This liver involvement is found only in 5% of patients with CF.
+Reproductive system
+At the level of the reproductive system, males have some peculiarities: congenital bilateral absence of vas
+deferens or obstruction of the vas deferens by dense secretions that lead to infertility.
+Fiamma Cusumano, Samuele Scagliola
+47
+17.03.2023 GAMBA L.4
+There’s also the lack of some fat-soluble vitamins, due to steatorrhea, that lead to anovulatory cycles in
+women, which can be a cause of infertility. Thick and adherent cervical mucus plug is also present.
+Salivary glands
+The salivary glands frequently show histologic changes similar to those described in the pancreas: progressive
+dilation of ducts, squamous metaplasia of the lining epithelium, and glandular atrophy followed by fibrosis.
+Treatment
+There isn’t a definite treatment able to cure cystic fibrosis. The main forms of treatment are:
+- Infection control: removal of pulmonary secretions and antibiotic therapy
+- Prevention of spreading of infection by wearing masks
+- Administration of pancreatic enzyme substitutes (before eating, patients need to get pancreatic
+enzymes because the exocrine pancreas doesn’t work)
+- Lung and liver-pancreas transplantation
+Gene therapy
+CFTR has been cloned. The transfer of the non-mutated gene encoding CFTR into cells of patients cultured in
+vitro is able to correct the transport defect of chlorine and restore its normal functionality.
+The professor mentions a couple of articles on gene therapy that she found on pubmed. These are the links:
+• https://pubmed.ncbi.nlm.nih.gov/27662105/
+• https://pubmed.ncbi.nlm.nih.gov/30873022/
+I E M
+NBORN RRORS OF ETABOLISM
+There are many recessive disorders that are due to the
+lack of key enzymes in metabolic pathways (fig.18).
+Now phenylketonuria and alkaptonuria will be discussed,
+these are two disorders related to the metabolism of
+phenylalanine.
+fig.18
+P
+HENYLKETONURIA
+It is an autosomal recessive disorder in which there is a deficiency of phenylalanine hydroxylase (PAH), an
+enzyme that transforms phenylalanine into tyrosine.
+If the enzyme is lacking, tyrosine is not created, and phenylalanine accumulates in blood. This is why
+phenylketonuria is also called hyperphenylalaninemia.
+This disorder brings to CNS development alterations after birth because tyrosine is necessary for the
+biosynthesis of catecholamines, so neurotransmitters that are necessary for brain development, a condition
+called phenylpyruvic oligophrenia.
+Moreover, affected children have very blonde hair and blue eyes because tyrosine is a key molecule
+responsible for melanin production. These physical features are similar to those of albinism, in which the
+enzyme that transforms tyrosine into melanin is lacking. In phenylketonuria this enzyme is present but since
+less tyrosine sick people don’t produce much melanin.
+Since this is an autosomal recessive disorder, the affected child has to be homozygous, and the mother will
+for sure be heterozygous. During pregnancy the baby is able to use the PAH of the mother, while after birth
+he can’t do that anymore
+To sum up, in newborns there are:
+• cerebral damage and mental retardation: phenylpyruvic oligophrenia
+• light-colored skin, eyes and hair
+The treatment consists in the elimination of phenylalanine from the diet, as it is present in all products from
+animal origin. Therefore, patients need to take semi-synthetic formulations that have no phenylalanine and
+are rich in tyrosine.
+Fiamma Cusumano, Samuele Scagliola
+48
+17.03.2023 GAMBA L.4
+Maternal phenylketonuria → elevated maternal phenylalanine levels during pregnancy are teratogenic, so
+phenylalanine and its metabolites cross the placenta and affect specific foetal organs during development.
+In order to avoid disorders in the embryo, maternal dietary restriction of phenylalanine has to be initiated
+before conception and continued throughout pregnancy. Moreover, if the foetus is homozygous for the
+mutation, the mother is administered with tyrosine.
+Malignant hyperphenylalaninemia → these are some severe cases in which the dietary intake of tyrosine
+and the elimination of phenylalanine is not sufficient. In this case there is also a malfunction and deficit of
+tetrahydrobiopterin (BH4). Patients with malignant hyperphenylalaninemia cannot be treated by dietary
+restriction of phenylalanine.
+A
+LKAPTONURIA
+It is the first metabolic disorder to have been discovered.
+Alkaptonuria is a recessive disorder caused by mutations in the gene coding for homogentisic acid oxidase,
+an enzyme belonging to phenylalanine metabolism which normally degrades homogentisic acid into water
+and carbon dioxide. As a consequence, in alkaptonuria there is an accumulation of homogentisic acid
+(alkapton).
+Alkaptonuria leads to (fig.19):
+- Dark urine due to presence of akapton inside
+- Generalized pigmentation of nails, ears, skin, sclera
+and blue cartilage tending to black
+- Arthritis
+It doesn’t reduce patients’ life expectancy.
+fig.19
+Fiamma Cusumano, Samuele Scagliola
+49

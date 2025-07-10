@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Hemostasis</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81ff-aceb-e4ba1efe1b71" class="page sans"><header><h1 class="page-title">Hemostasis</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81cb-b2cf-cc9c3284f74c" class="">Hemostasis</p><p id="2297904f-03a9-817f-aab3-ddc998d980df" class="">●what is hemostasis?</p><p id="2297904f-03a9-81ac-b63b-d23ff4f0a674" class="">hemostasis is the blood clotting process that prevents excessive hemorrhage after blood vessel damage.</p><p id="2297904f-03a9-8162-a7e2-e7251ebad1e5" class="">●describe the sequence of events leading to hemostasis at the site of vascular injury</p><p id="2297904f-03a9-81d6-8354-d082293f5113" class="">1. Arteriolar vasoconstriction: is immediate and transient. Mediated by neurogenic reflex, and augmented by *endothelin *****(EC- secreted potent vasoconstrictor) and other similar factors.</p><p id="2297904f-03a9-8192-b650-cefc2dffcc77" class="">Primary hemostasis: formation of primary platelet plug. The 2.</p><p id="2297904f-03a9-8152-89b1-e239fdfa6ba6" class="">damaged endothelium exposes subendothelial collagen and Van Willebrand factor (vWF). Platelets bind via GpIb receptors to vWF on exposed ECM and are activated (shape change + granule content release). Platelets release secretory granules containing (among other things) ADP, and Thromboxane A2 (TxA2) that recruit additional platelets and induce platelet aggregation through platelet GpIIb-IIIa receptor binding to fibrinogen.</p><p id="2297904f-03a9-8131-b539-f90d8b6d3dc3" class="">3. Secondary hemostasis: The exposed subendothelial cells</p><p id="2297904f-03a9-81bd-96d1-ef880efb6170" class="">(fibroblasts, SMCs) express a membrane-bound procoagulant glycoprotein, Tissue Factor, which activates Factor VII. Factor VII activation generates a coagulation cascade that culminates in the formation of Thrombin. Thrombin has two roles: it is a potent platelet activator, so it promotes additional platelet aggregation at the site of injury, and it also cleaves fibrinogen into fibrin. Fibrin creates a meshwork that stabilizes the clot.</p><p id="2297904f-03a9-8167-ab7a-ce28702182b9" class="">4. Clot stabilization and resorption: the clot (platelets and</p><p id="2297904f-03a9-819c-b1c8-ee2dd12c8c25" class="">polymerized fibrin) contracts to become a solid, permanent clot. At this point there is release from the regenerated endothelium of thrombomodulin that blocks the coagulation cascade, and tissue plasminogen activator (t-PA) that promote fibrinolysis and clot dissolution.</p><p id="2297904f-03a9-81a3-a0aa-f60a0ca71bd8" class="">●in general, what are the features of platelets that confer their functions?</p><p id="2297904f-03a9-81d9-b2a1-e55e413b0000" class="">Platelets have</p><p id="2297904f-03a9-8105-8386-fb0b8b6049a7" class="">○ several glycoprotein receptors</p><p id="2297904f-03a9-813d-889f-e9c9db2ff1fd" class="">○ a contractile cytoskeleton</p><p id="2297904f-03a9-810e-b63f-db140c41d4d8" class="">○ alpha granules containing</p><p id="2297904f-03a9-81b9-a37c-c025f2b23bf8" class="">◆adhesion molecule P-selectin on the membranes of the granules</p><p id="2297904f-03a9-8180-95ff-f0839d40450c" class="">◆coagulation proteins including fibrinogen, coagulation factor V, and vWF.</p><p id="2297904f-03a9-8110-9ad9-f4244b4d2ea4" class="">◆protein factors involved in wound healing: fibronectin, platelet</p><p id="2297904f-03a9-8194-9af1-fef29748ce4f" class="">◆</p><p id="2297904f-03a9-8126-bc4a-e88ec56f7824" class="">factor 4, PDGF, TGF-beta.</p><p id="2297904f-03a9-8199-a0d2-c7dc0a7f6bc2" class="">○ dense (delta) granules containing</p><p id="2297904f-03a9-8159-a591-f95e90ee3a73" class="">◆ADP</p><p id="2297904f-03a9-8198-9013-e80e45704a21" class="">◆ATP</p><p id="2297904f-03a9-81b3-ab33-d19d2ad8d3ad" class="">◆Ca++</p><p id="2297904f-03a9-81c9-84eb-ee60e94e075a" class="">◆serotonin</p><p id="2297904f-03a9-81fc-abf2-fb2c4d3d2e48" class="">◆epinephrine</p><p id="2297904f-03a9-8124-8abe-f47087fb0c81" class="">●what intrinsic properties of platelets allow platelet adhesion?</p><p id="2297904f-03a9-81c8-961b-e66f9592bc37" class="">○ interaction between membrane-bound Glycoprotein Ib (GpIb) in</p><p id="2297904f-03a9-81a1-9f48-da7979041d92" class="">platelets with Von Willebrand factor in the subendothelium (that</p><p id="2297904f-03a9-811d-9590-ef6c1f5769dd" class="">is in turn bound to collagen, so it acts as a bridge).</p><p id="2297904f-03a9-81e8-81d4-d80a4ab2101a" class="">Deficiency in Von Willebrand causes Von Willebrand disease.</p><p id="2297904f-03a9-818a-a31e-cfe4731334e4" class="">Deficiency in GpIb causes Bernard-Soulier syndrome. Both are</p><p id="2297904f-03a9-8184-b03d-d780e73ec787" class="">bleeding disorders.</p><p id="2297904f-03a9-8178-b3db-f3820d6b67a3" class="">○ direct binding to type I and IV collagen via Glycoprotein Ia / IIa</p><p id="2297904f-03a9-817d-97a6-d4bb80ae3a1c" class="">complex (GpIa/IIa)</p><p id="2297904f-03a9-81ac-9729-c42c61f6cd27" class="">●what allows platelet aggregation?</p><p id="2297904f-03a9-81e5-9206-fc8eb5bc8fa2" class="">○ Aggregation is accomplished by GpIIb-IIIa receptors on</p><p id="2297904f-03a9-812a-83f2-c9865053086c" class="">different platelets binding fibrinogen</p><p id="2297904f-03a9-812d-bf3b-fcefe32592ad" class="">○ This receptor is “activated” (it acquires high affinity for fibrinogen)</p><p id="2297904f-03a9-81b1-875e-fbb01e415f8f" class="">by the conformational change that takes place when the platelets</p><p id="2297904f-03a9-813c-99a2-c38afe999188" class="">are activated.</p><p id="2297904f-03a9-81a5-8780-ecb02c4d4481" class="">●</p><figure id="2297904f-03a9-81b5-acff-da95e2f65208" class="image"><a href="Hemostasis%202297904f03a981ffacebe4ba1efe1b71/image1.png"><img style="width:48px" src="Hemostasis%202297904f03a981ffacebe4ba1efe1b71/image1.png"/></a></figure><p id="2297904f-03a9-8165-845d-f569993fab30" class="">●what triggers platelet activation?</p><p id="2297904f-03a9-811c-9bc5-e502f470914a" class="">○ Platelet activation is trigger by (among other things) Thrombin</p><p id="2297904f-03a9-81c3-abdb-e8a7f3969c52" class="">and ADP</p><p id="2297904f-03a9-8155-a16a-c2b623cf7fe7" class="">◆Thrombin activates platelets by activating GPCR called</p><p id="2297904f-03a9-8173-9446-fe3ba45612f6" class="">protease-activated receptor-1 (PAR-1) by proteolytic</p><p id="2297904f-03a9-816e-aa82-c1bcea35ff0e" class="">cleavage.</p><p id="2297904f-03a9-81d7-925a-f3fbff1febce" class="">◇ Initial wave of aggregation is reversible (with the activation</p><p id="2297904f-03a9-8168-856f-fa8ccdf62ed8" class="">of thrombin, the platelet plug will be irreversible)</p><p id="2297904f-03a9-8150-92e4-e1747bf4f7b8" class="">◆ADP binds P2Y(1) and P2Y(12) receptors (GPCRs) → platelet</p><p id="2297904f-03a9-81f7-a37c-cf620d9873bc" class="">recruitment</p><p id="2297904f-03a9-8190-97fc-d6d6f8b49702" class="">○ activated platelets produce Thromboxin A2 (TXA2) (generated</p><p id="2297904f-03a9-8170-b5c3-e185b4b02ec4" class="">from prostaglandin H2) which is in turn a potent inducer of platelet</p><p id="2297904f-03a9-81e6-b62a-d53dce0807d0" class="">aggregation.</p><p id="2297904f-03a9-811f-85db-f8950c5150c2" class="">●what are the changes in platelets upon their activation?</p><p id="2297904f-03a9-819b-987c-c8eec5a80117" class="">○ Upon activation platelets:</p><p id="2297904f-03a9-81e6-ab44-e62e526f1029" class="">◆release of alpha and delta granules: Ca++, ADP (further platelet</p><p id="2297904f-03a9-8124-8a07-fd697221d090" class="">activation), coagulation proteins, wound healing factors, etc.</p><p id="2297904f-03a9-8137-aa93-e470904ac6a3" class="">◆change their shape (thanks to their contractile cytoskeleton),</p><p id="2297904f-03a9-817a-93cd-c4bf04c178c5" class="">with that there’s</p><p id="2297904f-03a9-819a-86c5-da041a114d83" class="">◇ conformational change of the membrane bound</p><p id="2297904f-03a9-81f2-9ed4-fd50745cf64a" class="">glycoprotein IIa/IIIb that increases its affinity for</p><p id="2297904f-03a9-81e3-8fb3-ed17c85601ef" class="">◇</p><p id="2297904f-03a9-81bd-b88a-e3e5c792cf42" class="">fibrinogen</p><p id="2297904f-03a9-8144-9243-fff3ac5f3c73" class="">◇ translocation of phosphatidylserine to the outer membrane surface that binds Ca++ and this serves as a nucleation site for the assembly of coagulation factor complexes</p><p id="2297904f-03a9-81a6-a375-d14a485609d5" class="">●describe the coagulation cascade</p><p id="2297904f-03a9-816d-aea9-c77bfbffc2b5" class="">it’s a series of Ca++ dependent reactions that activate coagulation factors, and culminates in the formation of fibrin and consequently the deposition of insoluble fibrin clot.</p><p id="2297904f-03a9-813a-b76e-cc480b942f24" class="">1. Platelet activation → negatively charged phospholipids to the platelet surface and release of Factor V from alpha granules.</p><p id="2297904f-03a9-8155-a1de-dfa46297ee13" class="">2. Factor V binds to phospholipids and acts as a cofactor for factor Xa. Factor Xa converts Prothrombin → Thrombin. Thrombin converts Fibrinogen → Fibrin clot.</p><p id="2297904f-03a9-81fc-859a-e0483de8464f" class="">3. The formation of factor Xa is the convergence point between two possible pathways:</p><p id="2297904f-03a9-8167-a7c9-dfdb8c2b406d" class="">Intrinsic pathway: (AP→ 12→11→9+(8)→ 10) activated (by 1.</p><p id="2297904f-03a9-8115-a4a0-cb45d14b00ba" class="">platelets) factor XII activates factor XI which activates factor IX, which in turn, with the help of activated cofactor VIII, activate factor X.</p><p id="2297904f-03a9-81e4-bd76-ddaf03d51734" class="">2. Extrinsic pathway:</p><p id="2297904f-03a9-818b-b33f-db0767bbdd84" class="">In vitro: (TF+ 7 → 10) Tissue factor acts as a cofactor in the reaction where proteolytic enzyme (factor VIIa) activates factor X.</p><p id="2297904f-03a9-81e7-92e8-e5b205944761" class="">In vivo: (7+ TF → 9+8 → 10) tissue factor and factor 7 first activate factor IX, which then activates factor X with factor VIII as a cofactor.</p><p id="2297904f-03a9-81d8-aeef-c1ba32ca871b" class="">3.</p><figure id="2297904f-03a9-8197-ae8e-d728936acfd8" class="image"><a href="Hemostasis%202297904f03a981ffacebe4ba1efe1b71/image1.png"><img style="width:48px" src="Hemostasis%202297904f03a981ffacebe4ba1efe1b71/image1.png"/></a></figure><p id="2297904f-03a9-816f-990d-e126ef2c9e00" class="">●describe the functions of Thrombin</p><p id="2297904f-03a9-8134-b117-c9ff8523b4d0" class="">○ stimulates platelet recruitment and degranulation (aggregation and activation)</p><p id="2297904f-03a9-81eb-bece-d284d92659aa" class="">○ participates in the generation of cross-linked fibrin:</p><p id="2297904f-03a9-817b-ae80-d5ee6d6aa668" class="">◆fibrinogen (soluble) → fibrin monomers</p><p id="2297904f-03a9-81f4-9d00-e1a1d7cfeafe" class="">◆activates factor XIII that covalently cross-links fibrin</p><p id="2297904f-03a9-8100-aac4-c532bdfb3954" class="">○ amplifies coagulation cascade by activating several factors (XI, V, VIII, XIII)</p><p id="2297904f-03a9-8100-9736-ef7240deadae" class="">○ it activates protease-activated receptors (PARs) expressed on many cells, contributing to ****</p><p id="2297904f-03a9-8179-a1ef-c2276f62718e" class="">◆in platelets: TxA2 production → platelet aggregation</p><p id="2297904f-03a9-8181-b298-cd93d5f2e60e" class="">◆in ECs: expression of adhesion molecules and a variety of fibrinolytic (tPA), vasoactive (NO, PGI2), and cytokine mediators (PDGF)</p><p id="2297904f-03a9-812d-a78a-c89202999729" class="">◇ tissue repair and angiogenesis</p><p id="2297904f-03a9-81d0-95de-f498a31a6aa3" class="">◆leukocytes: activation</p><p id="2297904f-03a9-81ce-913d-ccf03b5511ee" class="">○ Anticoagulant effects: it can acts as anticoagulant preventing</p><p id="2297904f-03a9-81c0-8559-fbe8e44a61f2" class="">clotting from extending beyond the site of the vascular injury</p><p id="2297904f-03a9-81a2-8a22-c677705a6b9f" class="">●describe the fibrinolytic cascade</p><p id="2297904f-03a9-810f-bb00-ff659d3db900" class="">Activation of the coagulation cascade also sets into motion a</p><p id="2297904f-03a9-8142-975e-c10282ee4689" class="">fibrinolytic cascade (24h later) ****that activates Plasmin and as a</p><p id="2297904f-03a9-81c5-bb4c-e68e717f8b4b" class="">result it limits the size of the clot and contributes to its later</p><p id="2297904f-03a9-819c-8422-db621df1a507" class="">dissolution.</p><p id="2297904f-03a9-81db-a543-fff04549008c" class="">Plasmin breaks down fibrin, fibrinogen and some coagulation factors,</p><p id="2297904f-03a9-81c4-bddc-f8a87fa5d777" class="">interferes with fibrin polymerization.</p><p id="2297904f-03a9-811b-a66a-d0abcf411de5" class="">Plasminogen (found inside the clot) is hydrolyzed into PLASMIN by</p><p id="2297904f-03a9-8188-8b17-c4d9d08900bc" class="">○ Mainly t-PA (tissue plasminogen activator) secreted by ECs</p><p id="2297904f-03a9-814e-a87f-dec922eecb04" class="">○ urochinase, secreted by ECs</p><p id="2297904f-03a9-81dc-b81a-d4ca76339971" class="">○ kallikrein (plasma enzymes) or factor XII-dependent pathway</p><p id="2297904f-03a9-8152-b350-c02cd76b377e" class="">(possibly explaining the link between factor XII deficiency and</p><p id="2297904f-03a9-8107-a2d8-eaa1cc997ce3" class="">thrombosis)</p><p id="2297904f-03a9-81b3-a73a-d65b3a1da392" class="">○ or by microorganism-derived proteins (streptokinase,</p><p id="2297904f-03a9-8121-bc10-d89899afdf30" class="">staphylokinase)</p><p id="2297904f-03a9-815d-97b0-e7625ba88e9c" class="">●After activation, plasmin is controlled by:</p><p id="2297904f-03a9-813b-a7a5-fa07a599ef2b" class="">○ Plasminogen activator inhibitors (PAI): main inhibitor of tissue-</p><p id="2297904f-03a9-81e1-b88f-de0b3d9a46b3" class="">type plasminogen activator (tPA) and urokinase (uPA),</p><p id="2297904f-03a9-8135-9e9d-f026d749216a" class="">○ α2-plasmin inhibitor (plasma protein: binds and inhibits free</p><p id="2297904f-03a9-8132-bc4e-dda0e4ad0268" class="">plasmin)</p><p id="2297904f-03a9-8137-8c2f-fe331f2c0d6b" class="">○ α2-macroglobulin (inhibits plasmin, kallikrein and thrombin)</p><p id="2297904f-03a9-81ae-b23f-c44131badeaf" class="">○ and the immune response.</p><p id="2297904f-03a9-811f-8c35-cc1ffb4eb789" class="">●what ensures the coagulation is confined to the site of injury?</p><p id="2297904f-03a9-81d0-ace8-f00cb928f707" class="">Release of t-PA (fibrinolysis) and thrombomodulin (blocks coagulation</p><p id="2297904f-03a9-8113-abd1-ffd6fd73311c" class="">cascade) confine the hemostatic process to the site of injury.</p><p id="2297904f-03a9-81c2-bca5-e6ed7c509a62" class="">●how does the endothelium prevent thrombosis and limit clotting to</p><p id="2297904f-03a9-8175-9c05-cb894bb64224" class="">sites of vascular damage?</p><p id="2297904f-03a9-8176-ac2d-ed55414a4162" class="">Normal conditions, the ECs expresses factors that</p><p id="2297904f-03a9-8189-87ba-e633be6f791b" class="">○ inhibit platelet aggregation and activation:</p><p id="2297904f-03a9-8158-acfc-e348737fa26a" class="">◆Prostacyclin (also called prostaglandin I2 or PGI2) It inhibits</p><p id="2297904f-03a9-8146-aad3-f048f7ba85e6" class="">platelet activation and is also an effective vasodilator.</p><p id="2297904f-03a9-8198-b0b6-f29737302e7d" class="">◆NO</p><p id="2297904f-03a9-8150-ba26-f05f098d343d" class="">◆ADP</p><p id="2297904f-03a9-8100-a746-cd5b2c21c3f6" class="">○ inhibit coagulation</p><p id="2297904f-03a9-8143-9281-cb2472e04cb9" class="">◆thrombomodulin</p><p id="2297904f-03a9-8174-ac64-e4de8e965cdd" class="">◆endothelial protein C receptor</p><p id="2297904f-03a9-8151-8035-ff35d00ddd27" class="">◆heparin-like molecules (TF pathway inhibition)</p><p id="2297904f-03a9-815b-b994-d120ec7843d5" class="">◆t-PA (fibrinolysis)</p><p id="2297904f-03a9-81e8-8d99-ff39728971dc" class="">○ ECs also bing thrombin and alter its activity</p><p id="2297904f-03a9-816e-a49d-e1b915e85540" class="">●what sort of disorders arise from deranged hemostasis?</p><p id="2297904f-03a9-8157-86ae-fb314cce3455" class="">○ hemorrhagic disorders</p><p id="2297904f-03a9-81e0-a3a5-e54f720ad541" class="">○ thrombotic disorders</p><p id="2297904f-03a9-8199-8311-e9b0396e28bd" class="">●describe defects of primary hemostasis</p><p id="2297904f-03a9-8171-bae0-fe6b6afb69ab" class="">Defects of primary hemostasis are caused by platelet defects, vessel</p><p id="2297904f-03a9-8102-a950-dc76882154c1" class="">defects or von Willebrand disease.They can be genetic or acquired.</p><p id="2297904f-03a9-81b4-9557-ece3dfdb9649" class="">○ impaired vasoconstriction</p><p id="2297904f-03a9-8152-aadd-ead01216e305" class="">◆degenerative → amyloidosis, elastosis</p><p id="2297904f-03a9-814b-a19b-e226bd345b84" class="">◆vessel malformation</p><p id="2297904f-03a9-8160-a9fc-d845ae1f1572" class="">○ von Willebrand disease: most common blood clotting disorder</p><p id="2297904f-03a9-8141-b43d-d1fd08de5188" class="">○ defects in platelet function</p><p id="2297904f-03a9-8193-8d14-eb0e3fd5e7d1" class="">◆Plateletosis: N°of platelets above 600,000/µl</p><p id="2297904f-03a9-817e-b350-fa56f7fd115f" class="">(myeloproliferative syndromes. Platelets have functional and</p><p id="2297904f-03a9-81d7-9ee6-e876e87ff8cb" class="">morphological alterations.</p><p id="2297904f-03a9-8113-81fc-f0bab5fbea8e" class="">○ thrombocytopenia low number of platelets below 100,000 (nv</p><p id="2297904f-03a9-8158-b1d0-e2b989d026d7" class="">150,000- 400,000/µL)</p><p id="2297904f-03a9-81ae-ab29-eeace8bde95f" class="">●describe defects of secondary hemostasis</p><p id="2297904f-03a9-81b7-9852-f8f3b603b275" class="">○ hemophilias (genetic deficiency of coagulation factors)</p><p id="2297904f-03a9-8101-8a9b-ea59761fc9e3" class="">○ defects in coagulation factor production</p><p id="2297904f-03a9-81bf-b9af-d1147b2acb6e" class="">◆hepatic diseases</p><p id="2297904f-03a9-8183-bdda-ff4c0670e053" class="">◆anticoagulant therapies (vit.K antagonists, heparin, etc)</p><p id="2297904f-03a9-81b0-b1b8-fdc4cb025244" class="">○ excessive destruction (e.g. disseminated intravascular proteolysis)</p><p id="2297904f-03a9-8171-bdef-c1992b8b44ea" class="">○ defects in receptors (thrombin receptors)</p><p id="2297904f-03a9-81b3-9083-d0f57afffe52" class="">○ others</p><p id="2297904f-03a9-816c-bdc9-d466e4990a76" class="">●describe diseases of the fibrinolytic system</p><p id="2297904f-03a9-8101-8665-de00fba0a774" class="">Components of the fibrinolytic system: plasminogen, plasminogen</p><p id="2297904f-03a9-818c-b46a-f91006afc86a" class="">activators, inhibitors of plasminogen activators, specific plasmin</p><p id="2297904f-03a9-814c-8e2e-e40136756019" class="">inhibitors (alpha2-antiplasmin, alpha2- macroglobulin)</p><p id="2297904f-03a9-81f8-860e-ceeed79958c2" class="">○ Genetic or acquired deficiency of plasmin inhibitors</p><p id="2297904f-03a9-81c9-b9c5-f0e4b1ee5273" class="">(hyperfibrinolytic syndromes) → excessive fibrinolysis →</p><p id="2297904f-03a9-81b5-baf6-ed0a0cdfdd92" class="">hemorrhage</p><p id="2297904f-03a9-81a7-a126-c436c11866df" class="">○ Anti-protease deficiency (prevalence of venous thrombosis,</p><p id="2297904f-03a9-81c5-af84-d44de9c5d1fa" class="">thromboembolism): Main antiproteases (control of proteases and</p><p id="2297904f-03a9-819c-ac16-c5869f3cb6e2" class="">factors VIII, V, XII):</p><p id="2297904f-03a9-81da-aedb-ff7b31aa5315" class="">◆alpha1-antitrypsin, alpha1-antichymotrypsin, antithrombin III,</p><p id="2297904f-03a9-8149-be43-cab66981e1f4" class="">protein C and S, C1 inactivator, protein C inhibitor</p><p id="2297904f-03a9-812e-8ed7-fd6d19cde4bd" class="">○ Genetic or acquired (liver diseases, carcinomas, leukemia, sickle</p><p id="2297904f-03a9-8139-9555-ce4f7987c644" class="">cell disease, hyperfibrinolytic syndromes, oral contraceptives)</p><p id="2297904f-03a9-818d-9354-c55579552eea" class="">deficiency of antithrombin III: recurrent venous thrombosis</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

@@ -1,0 +1,325 @@
+21.04.2023 LEONARDUZZI L.03
+HEMOSTASIS
+Hemostasis is a physiological process that occurs when we have a lesion at the level of the vessel walls.
+It is a process activated at the site of vascular injury in order to form blood clots to prevent or limit the extent
+of bleeding hemorrhage. You know that the blood is liquid and the blood cells run in the middle of the vessel
+(erythrocytes in the middle and leukocytes more laterally, but they never touch or adhere to a normal
+endothelium). When there is a lesion in the vessel wall the blood assumes a semisolid or gelatinous
+consistency forming the so-called blood clot which is fundamental to stop the bleeding. It is a complex
+process and it involves injured blood vessels and different types of blood cells: platelets, ECs, SMCs, plasma
+and tissue proteins.
+The normal hemostasis mechanism involved different type of elements at the site of the vascular injury. We
+have platelets, extracellular and smooth muscle cells and different proteins.
+The 3 groups of tissue proteins involved are:
+1. Procoagulant factors that promote blood clot formation at the site of the vessel injury and stop the
+leakage of blood.
+2. Anticoagulant factors that act to stop or limit blood clot formation in the absence of a lesion on the
+vessel wall and control the formation of the clot. They prevent thrombosis.
+3. Fibrinolytic factors are involved in dissolution and disgregation of the blood clot when the lesion has
+been repaired. Firstly, we need to repair the endothelium and when the lost endothelial cytes are
+replaced by new ones and the wall is repaired, the blood clot can be dissolved and this is due to the
+function of these factors.
+V I
+ASCULAR NJURY
+When a vascular injury, also called lesion, occurs there is immediately a vagal response that consists in
+vasoconstriction mediated by both a neurogenic reflex mechanism, and local release of factors such as
+endothelin secreted by endothelial cytes (powerful vasoconstrictor). The aim of vasoconstriction is to
+reduce the lesion and the quantity of blood that flows out of the vessel. bleeding will resume if not for
+platelet activation and coagulation factor, so this step is fundamental.
+Q: In which type of artery or veins does it happen?
+A: It happens everywhere in our body. Of course the hemorrhage will be severe if it involves important vessels.
+If I have a lesion at the level of the capillaries I will not have a big hemorrhage but a minor bleeding that
+stops immediately.
+Figure 1
+Eleonora Deinite, Chiara Rosa
+33
+21.04.2023 LEONARDUZZI L.03
+P
+LATELETS AGGREGATION AND ADHESION
+After the initial transient vasoconstriction we have the activation of platelets that start to adhere to
+endothelium and to each other. Platelets are disc-shaped anucleate cell fragments (deriving from
+megakaryocytes). In normal condition they never adhere to intact endothelium or aggregate to each other,
+they only start to adhere at the site of the lesion to close the hole.
+The function of these activated platelets depends on several specific glycoprotein receptors, and also on their
+capacity of contraction of the cytoskeleton. They are fundamental in this process since they release several
+factors present in two specific types of cytoplasmic granules:
+- α-granules: contain the proteins of coagulation cascade: fibrinogen, factor V, von Willebrand factor
+(vWF), fibronectin, PDGF, TGFb, adhesion molecules.
+- The second type of granules are the dense, or δ-granules: we can find adenosine diphosphate (ADP),
+adenosine triphosphate (ATP), calcium, serotonin, histamine and many other factors. During the
+activation of the platelets all the granule content will be released because each factor has an
+important rule in all the process.
+P H
+RIMARY AEMOSTASIS
+When there is a lesion of the vascular wall I lose endothelocytes and I have immediate exposition of highly
+thrombogenic constituents of the subendothelial connective tissue. So the subendothelial collagen is directly
+exposed to the blood and because of its thrombogenic properties, the platelets start to adhere at the site of
+the lesion and aggregate to each other to form the first platelet plug. This step is indicated as primary
+hemostasis (or primary platelet plug) that occludes the injured vessel and prevents blood to flow out.
+T
+HE MECHANISM OF PLATELET AGGREGATION
+The adhesion of platelets is favored by the presence of the vWF which acts as an adhesion bridge between
+the exposed collagen and glycoprotein platelet receptors. It is basically the bridge between collagen and
+platelet. The aggregation of other platelets to each other is possible thanks to fibrinogen, which acts as a
+bridge between two receptor complexes on different platelets, composed of GpIIb-IIIa. When ATP that is
+present in dense granules is released, it can change the conformation of the receptor complex increasing the
+activity for fibrinogen. The deficiency of one receptor is responsible for disorders such as deficiency of von
+Willebrand disease. The patient suffering from these disorders will have troubles in the hemostasis process
+and in forming an appropriate blood clot.
+Figure 2
+Eleonora Deinite, Chiara Rosa
+34
+21.04.2023 LEONARDUZZI L.03
+When the platelets start to be activated they change their shape, from a smooth disc to a spiky “sea urchins”,
+that increase the surface area and contemporary there is also the release of granule contents. All these
+factors accumulated in the two types of granules will be released.
+Platelet activation is induced by the same factors that are released, including ADP and will stimulate platelet
+recruitment. Platelets will arrive at the site of the lesion, will be activated thanks to the factors present in
+the granules and will start to adhere and aggregate. In this step we have the release of thromboxane A2
+(TxA2) that will further stimulate aggregation of the platelet itself. This step can be defined as additional
+platelet aggregation.
+At the beginning the initial wave of aggregation is reversible (with the activation of thrombin, the platelet
+plug will be irreversible), but later when there is the production of insoluble fibrin (necessary for stabilization
+of blood clot), this aggregation of platelets becomes irreversible. So at this point the primary clot will become
+irreversible.
+Figure 3
+This picture (fig3) summarizes the primary hemostasis which results in the formation of the platelet plug.
+We have activation, recruitment and release of granules content. These factors stimulate adhesion and
+aggregation of platelets (vWF acts as a bridge between the principal receptor of platelet to sub endothelial
+collagen). So they bind the extra cell matrix exposed after the lesion, they change their shape. This is the
+formation of the first platelet plug.
+Q: I didn't get the action of fibrin, could you please explain it again?
+The professor explains again fibrinogen action:
+The fibrinogen that is present in the granules of the platelets is also one of the plasmatic proteins. It
+contributes to favoring the aggregation among other platelets, it can bind to a receptor complex present on
+the surface of the platelets (made by GpIIB and IIIA) and on the other side binds to another complex receptor
+present on a second platelet. It connects the two platelets promoting aggregation. So these receptors are
+ALWAYS present on the surface of platelets but can be modified by the release of these factors, to increase
+affinity and bind to fibrinogen, resulting in aggregation.
+C C
+OAGULATION ASCADE
+Immediately after the formation of the primary plug, only made of aggregated platelets, there is a
+coagulation cascade which consist in a series of amplifying enzymatic reactions which results in deposition
+of an insoluble fibrin clot, important to stabilize the plug.
+Only with the presence of fibrin the plaque is strong and at this point this plug is irreversible. It consist in a
+series of factor activation in which the first factor will activate the second one and so on. During platelet
+Eleonora Deinite, Chiara Rosa
+35
+21.04.2023 LEONARDUZZI L.03
+activation it is important to activate the coagulation cascade because there is the translocation of negatively
+charged phospholipids on their surface. The presence of these phospholipids is important because
+phospholipids can act as a receptor for factor X, important for coagulation cascade, and will promote the
+assembly of coagulation factor complexes.
+We have 2 types of coagulation cascades: intrinsic and extrinsic pathways; the 2 pathways converge in the
+activation of factor X Calcium-dependent reactions.
+The intrinsic pathway is activated by factors that are only present in the blood. The first factor is Hageman’s
+factor, it is a starter of many cascades in inflammatory response. All these factors are present in the blood as
+precursors, so inactive. The activation of Hageman’s factor is possible thanks to activated platelets (because
+they are activated before the coagulation cascade) and plasma proteins. After activation of factor XII we have
+the activation of factor XI and so on, as you can see. The involvement of activated platelets contribute in
+the middle of cascade to favor bind of factor 5 and 10, even if this does not happen before the activation of
+the pathways. activation factor are only present in the blood. A clotting is initiated in laboratory by adding
+phospholipids calcium and wither a negative charged substances of a source of tissue factor. the red
+polypeptides ( in picture 4) are inactive factors, the dark green are active polypeptides while the light green
+one correspond to cofactors.
+The extrinsic coagulation cascade is activated by vascular damage and is induced by the release of a tissue
+factor, tissue thromboplastin (TF), which is not present in the blood and activated by vascular damage but is
+released by damaged tissue. Tissue thromboplastin is the starter of extrinsic coagulation cascade. in the end
+we have activation of prothrombin which lead to activation of thrombin, which is a fundamental protein
+which main activity is to activate transformation of fibrinogen ( soluble) to fibrin (insoluble).
+Figure 4
+These two pathways converge in a bond that consists in the activation of factor X. In Both cases the result is
+the formation of fibrin, important for platelet plug. The insoluble fibrin is the result of fibrinogen conversion
+that in turn is catalyzed by thrombin. The thrombin arises from the precursor prothrombin and is important
+for the conversion of fibrinogen into insoluble fibrin, important for the stabilization of primary platelet plug.
+Eleonora Deinite, Chiara Rosa
+36
+21.04.2023 LEONARDUZZI L.03
+T
+HROMBIN
+The thrombin is a fundamental enzyme in all the coagulation cascade because it has many functions which
+all lead to one main purpose: amplify the formation of blood clot. the functions are
+● Stimulate the activation of platelets by stimulating
+● release of granules content
+● recruitment of other platelets
+● platelet contraction (contraction of cytoskeletal proteins, important for consolidation of
+their aggregation)
+● Converts soluble fibrinogen into fibrin monomers that polymerize into an insoluble clot cementing
+the platelets. At this point we have the formation of a secondary definitive platelet plug or clot. It
+can happen that some red cells and leukocytes can be entrapped inside the clot (made of platelets
+and fibrin).
+● Stimulate the coagulation process by activating factor XI, but also V and VIII
+● Stabilize the secondary platelet plug by activating factor XIII, which forms more solid covalent cross-
+links between fibers of fibrin.
+● Stimulate clot contraction, important because during clot contraction, the serum is removed.
+● Pro-inflammatory effects: activates protease-activated receptors (PARs) expressed on inflammatory
+cells, endothelium, and other cells contributing to tissue repair and angiogenesis. After the
+stimulation of these receptors the inflammatory cells can release all the factors that are involved in
+the repair and angiogenesis process.
+● Anticoagulant effects: it stimulates endothelial cytes to release factors such as NO and PGI2, with
+which the blood clot is composed. It is important to prevent the formation of the clot outside the
+site of injury. It can act as an anticoagulant preventing the clot from extending beyond the site of the
+vascular injury.
+Figure 5
+Q: Those factors bind platelets or remain free in the blood? Because it can stimulate coagulation in other
+sites being free in the blood.
+A: no they don't because activated platelets are present only at the site of the injury. It is a local, not diffused
+event, otherwise it would be a pathological process, not a physiological one.
+The most important function of thrombin is that it favors the release of granules content of platelets, and
+converts fibrinogen into insoluble fibrin, important for the stabilization of a clot.
+Thrombin can also stimulate
+- inflammatory cells to release other important factors that are involved in the angiogenesis, these
+factors can stimulate the smooth muscle cells.
+- release by ECs of factors that can control the formation of the blood clot, preventing the formation
+Eleonora Deinite, Chiara Rosa
+37
+21.04.2023 LEONARDUZZI L.03
+of the clot outside the site of the lesion, such as NO and PGI2.
+Figure 6
+- secretion of the tissue plasminogen activator is important for the formation of plasmin, one of the
+most important for the dissolution of the clot. This factor is released to limit the clot only at the site
+of the lesion.
+From this picture we can summarize all the functions of thrombin, (the most important enzyme in the
+coagulation cascade, but also the hemostatic process). fig.6
+S H
+ECONDARY EMOSTASIS
+Figure 7
+Now we have a CPI at the level of the secondary hemostasis with the secondary platelet plug, that is the
+definitive clot.
+So we have the coagulation cascade, intrinsic or extrinsic, with the final formation of the insoluble fibrin,
+important to stabilize the previous platelet plug, to obtain the secondary clot. This process can also be called
+cementing the clot. The clot is stable, we stop the blood from flowing out, then in 24 hours we should have
+the repair of the endothelium and the dissolution of the blood clot. To dissolve the clot we have the activation
+of the fibrinolysis through the enzymatic activity of plasmin. It has 2 functions:
+- It limits clot size
+- It contributes to dissolution of the blood clot
+The enzyme important for the dissolution of the blood clot is plasmin, we obtain it from the enzymatic
+hydrolysis of plasminogen, present in the action of various factors that are able to activate plasminogen and
+convert it into plasmin. plasmin breaks down fibrin, fibrinogen and some coagulation factors . The
+Eleonora Deinite, Chiara Rosa
+38
+21.04.2023 LEONARDUZZI L.03
+plasminogen can be activated by factors present in the blood, such as Hageman factor or factorXIIa, and
+kallikrein deriving from the immediate vicinity of the clot.
+Other tissue factors that can activate it are released by microorganisms for example urokinase, streptokinase
+and staphylokinase.
+The most important plasminogen activator is tissue plasminogen activator, indicated with t-PA, as seen in
+the scheme it will lead to the activation of plasminogen.
+Figure 8
+After plasminogen activation we have the formation of the plasmin which is able to digest fibrin and other
+factors that can be in touch with the clot such as fibrinogen and some coagulation factors, obtaining the
+dissolution of the clot.
+The action of plasmin must be controlled, in this case we have other factors that must regulate its action.
+There are some anticoagulant factors to prevent the formation of the clot outside the site of the injury. This
+process is the result of the balance of pro coagulation factors and anticoagulation factors and fibrinolytic
+factors. The clot must be formed only at the level of the injury so contemporary to its formation we have
+the release of a factor to limit the extension of the clot. In this case we have the release of plasmin that has
+to digest the blood clot and other factors are released to inhibit the excess action of plasmin. Factors that
+inhibit plasmin are alpha -plasmin inhibitors that limit its action only where and when it is necessary.
+2
+The last phase of the hemostasis is characterized by clot contraction to eliminate the liquid part, the serum.
+Then we have the activation of plasminogen through the release of intrinsic and extrinsic activation factors,
+mainly t-PA. There is also the release of some factors that prevent excessive coagulation such as a
+fibrinolytic product, and thrombomodulin. It is a real balance between all the factors of the three groups
+(coagulation, anticoagulation and fibrinolytic factors).
+Eleonora Deinite, Chiara Rosa
+39
+21.04.2023 LEONARDUZZI L.03
+Figure 9
+We have ECs that can release t-PA and urokinase to activate plasminogen, that increases the conversion of
+plasminogen into plasmin, that starts to digest fibrin and other coagulation factors that are in the blood. To
+avoid the excessive action of these activator factors of plasminogen, inhibitors such as PKI are released. On
+the other side we have free plasmin that must be controlled: if necessary plasmin can digest the blood clot
+but if it is overproduced, immediately it is blocked by specific inhibitors such as alpha plasmin that bind it to
+2-
+stop the functioning.
+E
+NDOTHELIUM
+The endothelium has a fundamental role in the hemostatic process, it regulates the formation, propagation
+and dissolution of the clot. It can control all the phases of the hemostatic process because it is important to
+regulate the balance between anticoagulant and procoagulant activities. Normal endothelium is a barrier,
+and it releases factors to inhibit platelet adhesion and aggregation, for example NO and PGI2, ADP, when it
+is intact. Normal ECs express several factors that can also inhibit coagulation, for example thrombomodulin
+(inhibitor or regulator of coagulation cascade), endothelial protein C receptor, heparin-like molecules, they
+can also stimulate the release of tissue plasminogen activator.
+ECs can also regulate coagulation cascade by binding and altering activity of thrombin, a potent platelet
+activator. The normal endothelium has to fight against the formation of the clot. All anticoagulation and
+fibrinolytic factors act to prevent thrombosis and to prevent the formation of abnormal clots, when there
+isn’t any damage in the vascular clot.
+Eleonora Deinite, Chiara Rosa
+40
+21.04.2023 LEONARDUZZI L.03
+Figure 10
+When there is a lesion at the level of the endothelium, it loses all its antithrombogenic properties and at that
+point the platelets are able to form clots.
+From this picture (fig10) also we can see the function of the endothelium summarized. There are many
+factors which are antithrombogenic such as heparin-like molecules that stop and limit thrombin and the
+possibility to form clots when it is not necessary (because there is no lesion), or to release other coagulation
+factors as Prostaglandin 2, released to inhibit platelet aggregation. So the endothelium has an
+important function in the hemostatic process.
+D , H
+ERANGED HEMOSTASIS EMORRHAGIC AND THROMBOTIC DISORDERS
+There are situations characterized by the alteration of the hemostatic process. The result is the appearance
+of hemorrhagic or thrombotic disorders.
+hemorrhagic disorders: alteration concerning the coagulation cascade and the coagulation factors
+thrombogenic events: increased action of the coagulation factors and anticoagulation factors.
+In case of hemorrhagic disorders characterized by excessive bleeding, we have some alteration in one of the
+steps of the hemostatic process. For example we have problems forming primary or secondary hemostatic
+plug, we are not able to stop blood flowing out, some of the clinical signs that can indicate an hemostatic
+disorder is the formation in the skin of petechiae, purpura, ecchymoses so skin hemorrhage.
+In case of thrombotic disorders we have the formation of blood clots without an injury at the level of the
+vascular wall so these clots can form everywhere. Thrombosis is an abnormal hemostatic process because
+the formation of the clot occurs without a lesion.
+C
+AUSES OF HEMORRHAGIC DISORDERS
+Some hemorrhagic disorders are dependent on vessel factors.
+They can be genetic or acquired diseases.
+There could be
+● Lack or insufficient constriction of the vasal lumen.
+Eleonora Deinite, Chiara Rosa
+41
+21.04.2023 LEONARDUZZI L.03
+The first step is vasoconstriction and if this step is missing due to degenerative diseases at the level of the
+vessel wall (so in case of angiomatosis or hemastosis) there can be malformation of vessels or permanent
+dilation, resulting in the incapacity of SMCs to control vasoconstriction.
+● Altered functions of ECs.
+There are diseases characterized by deficiency of von Willebrand factors (important for adhesion of platelets,
+acting as a bridge between receptor and sub endothelial collagen
+● Vessel wall component alterations (collagen, elastin, etc.)
+● Alterations in SMCs and fibroblasts.
+Other hemorrhagic disorders are due to platelet disorders.
+They can be genetic or acquired diseases.
+Caused by
+● Defects in platelet formation
+● Reduced number of platelets is reduced due to a reduced number of precursors (megakaryocytes) 🡪
+maturation defects or increased destruction.
+● Increased number of platelets, in presence of plateletosis, characterized by myeloproliferative
+syndromes such as chronic myelogenous leukemia, myeloid metaplasia, etc.
+Other Hemorrhagic disorders dependent on coagulation disorders.
+Can be either genetic or acquired diseases.
+● Hemophilia (genetic disorder)
+● Hemophilia A is caused by a deficiency in factor VIII, but also the mutation of a few
+coagulation factors
+● hemophilia B is due to a deficiency of factor IX
+● Deficiency of coagulation factor production in case of hepatic diseases. In the liver there is the
+synthesis of many coagulation factors, in case of hepatic diseases (cirrhosis or hepatitis) there is a
+deficiency in the synthesis of coagulation factors and a lack in the coagulation cascade
+● Excessive destruction in case of disseminated intravascular proteolysis, or failed binding to
+receptors.
+We can have alterations in the coagulation control.
+For example
+● Diseases of the fibrinolytic system 🡪 components of the fibrinolytic system are plasminogen,
+plasminogen activators or inhibitors, inhibitors of plasminogen activators, specific plasmin inhibitors
+(𝛼2-antiplasnin, 𝛼2- macroglobulin).
+● Genetic or acquired deficiency of plasmin inhibitors. In this case there is an excessive action
+of plasmin, excessive fibrinolysis with consequent hemorrhagic events, because fibrinolytic
+system is amplified as plasmin is not regulated by inhibitors of plasmin. As a consequence it
+works in an excessive way and the results are hemorrhagic manifestations.
+● Antiprotease deficiency
+Regarding the main antiproteases that control coagulation factors that are antitrypsin, antichymotrypsin,
+antithrombin III, protein C and S, C1 inactivator, protein C inhibitors. All these factors regulate the formation
+of clots, especially antithrombin.
+● Genetic acquired deficiency of antithrombin III, the result is the presence of thrombotic
+events.
+Eleonora Deinite, Chiara Rosa
+42

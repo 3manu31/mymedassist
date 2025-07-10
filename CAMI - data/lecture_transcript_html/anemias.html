@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> anemias</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81de-90ae-e0397196f6b8" class="page sans"><header><h1 class="page-title"> anemias</h1><p class="page-description"></p></header><div class="page-body"><figure id="2297904f-03a9-812f-baea-f982d39b8c70" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image2.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image2.png"/></a></figure><p id="2297904f-03a9-8169-8965-f794314b5b18" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-819e-bc3f-e5b6f965112a" class=""><strong>ANEMIAS</strong></p><p id="2297904f-03a9-81e2-806e-e47f7c03995e" class=""><strong>BLOOD COMPOSITION</strong></p><p id="2297904f-03a9-81cb-b18a-e7f0de421ca6" class="">Blood composition is summarized as follows:</p><ul id="2297904f-03a9-812b-84d1-c06db41a4423" class="bulleted-list"><li style="list-style-type:disc"><strong>Solid Portion</strong>: 45% of volume</li></ul><ul id="2297904f-03a9-8135-bf9e-fb5949c5e053" class="bulleted-list"><li style="list-style-type:disc"><strong>Liquid Portion</strong>: plasma, defined as serum when it is free of fibrinogen and other coagulation proteins</li></ul><p id="2297904f-03a9-815c-85e3-ea0f7f441da1" class="">The main cells present in blood are the erythrocytes (5 million every mL) and leukocytes (4500-11000 every</p><p id="2297904f-03a9-8157-b048-e696612a2e6c" class="">mL).</p><p id="2297904f-03a9-8140-9033-c3e34ea286f5" class=""><em>Fig.1</em> presents a table describing the adult reference range of leukocytes in adults (leukocytes formula):</p><p id="2297904f-03a9-81e0-b15a-dff33202e9dc" class="">- <strong>Neutrophils</strong> - 60% of total leukocytes, most abundant. Neutrophils are the main player in acute inflammation.</p><ul id="2297904f-03a9-81ea-807b-e55517feb49c" class="bulleted-list"><li style="list-style-type:disc"><strong>Lymphocytes</strong> - 31%</li></ul><p id="2297904f-03a9-81d7-be12-c841b975afc7" class="">- <strong>Monocytes</strong> - 5%</p><p id="2297904f-03a9-8112-ba1e-cb86ac0f38ed" class="">- <strong>Eosinophils</strong> - 3,5%.</p><ul id="2297904f-03a9-8183-9a9b-c2f937720501" class="bulleted-list"><li style="list-style-type:disc"><strong>Basophils</strong> - 0,5%</li></ul><figure id="2297904f-03a9-8118-bace-f4f8f593f657" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image1.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image1.png"/></a></figure><p id="2297904f-03a9-814a-81b3-c88548ea492d" class=""><em>Fig.1</em></p><p id="2297904f-03a9-8122-98cd-d1e6f20d93cb" class="">In <em>fig.2</em> you can find the normal adult reference ranges concerning red blood cells (<em>to be known</em></p><p id="2297904f-03a9-812e-8c50-cff3c4af6c05" class=""><em>if examining anaemic patient)</em>:</p><p id="2297904f-03a9-81c6-b1bb-fa2fb6e43db7" class="">- <strong>Haemoglobin</strong> is a globular protein responsible for O2 transport in RBCs, its concentration is measured in g/dL. Generally: <strong>13 g/dL in men and 12 g/dL in women</strong>, under these values the patient is anaemic. - <strong>Hematocrit</strong> is the volume occupied by RBCs, it is expressed in %. Generally: <strong>44% in men and 38% in women</strong>. - <strong>MCV</strong> - <strong>mean cell volume</strong>– it expresses the average cell volume of red blood cells; it is expressed in femtoliters (fL). To calculate it, the hematocrit has to be divided for the number of RBCs, which ranges around <strong>~80 fL</strong>. <strong>Hematocrit/n° red cells.</strong> This value is really important because some anemias are characterised by an abnormal MCV.</p><ul id="2297904f-03a9-81e6-b993-c7dbcad54809" class="bulleted-list"><li style="list-style-type:disc"><strong>MCH</strong> - <strong>mean cell haemoglobin</strong> - concentration of Hb in one RBC, expressed in picograms <strong>[Hb]/n° red cells</strong>. - <strong>MCHC</strong> - <strong>mean corpuscular haemoglobin concentration</strong> - refers to the average concentration of Hb in a given volume of cells, expressed in <strong>g/100mL</strong>.</li></ul><p id="2297904f-03a9-814e-ade4-ce78d3b89d4d" class=""><em>Fig.2</em></p><p id="2297904f-03a9-8139-ae9f-f282769ce940" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-8117-b556-d724bc5ea1c8" class="">1</p><p id="2297904f-03a9-818a-b140-f777b91b2553" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-8183-b0bf-ce17dc995acc" class=""><strong>HEMATOPOIESIS</strong></p><p id="2297904f-03a9-81a8-a6c0-c4f5e8cc8ab0" class="">It concerns the process, which takes place in the <strong>bone marrow</strong><em>(fig.3)</em>, consisting in the formation,</p><p id="2297904f-03a9-81e2-910e-dfeac31ad555" class="">proliferation and differentiation of new blood cells, deriving from the same initial progenitor, which is a pluripotent stem cell (<strong>total stem cell- HSC</strong>) <em>(progenitor cells are mainly multipotent cells that can differentiate into many types of cells, while precursor cells are unipotent cells that can only differentiate into a particular type of cells)</em>.</p><p id="2297904f-03a9-81ce-8208-cb707a23c685" class=""><strong>HSC</strong> is at the apex of the hierarchy of bone marrow progenitors, maintaining a normal volume of hematopoietic tissue over time, increasing it if needed.</p><p id="2297904f-03a9-81f2-91f3-d95ec3bdf3d5" class="">In the bone marrow are present many progenitor cells: - 60% give rise to granulocytes’ lineage.</p><ul id="2297904f-03a9-81f5-8354-c458c62c1ca2" class="bulleted-list"><li style="list-style-type:disc">25% are erythroblasts and give rise to RBCs’ lineage.</li></ul><ul id="2297904f-03a9-818c-81fd-fadc0979feee" class="bulleted-list"><li style="list-style-type:disc">15% give rise to lymphoid lineage, platelets, and fibroblasts’ precursors.</li></ul><figure id="2297904f-03a9-819d-ace4-df7fc607106e" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image3.png"><img style="width:413px" src="anemias%202297904f03a981de90aee0397196f6b8/image3.png"/></a></figure><p id="2297904f-03a9-812c-8ae9-ea7463f557ef" class=""><em>Fig.3</em></p><p id="2297904f-03a9-8166-aaf0-eb7b863a24c5" class="">After the totipotent stem cell, two stem cells lineages are produced <em>(fig.4)</em>:</p><figure id="2297904f-03a9-81d1-8090-d0e237e2aa6a" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image4.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image4.png"/></a></figure><p id="2297904f-03a9-8100-a737-d9ad0d4019ce" class=""><em>Fig.4</em></p><p id="2297904f-03a9-813d-a4a0-e8f8ac823ea5" class="">1. <strong>CFU-GEMM</strong>: colony forming units of granulocytes (G), erythrocytes (E), then monocytes (M)</p><p id="2297904f-03a9-81cf-9cef-c57ce73c5141" class="">(which differentiate into macrophages in the different tissues) and megakaryocytes (M); it brings to the formation of all the <strong>myeloid lineage</strong>.</p><p id="2297904f-03a9-81c6-a9bf-c91d1603c560" class="">To be remembered about erythrocytes’ lineage:</p><p id="2297904f-03a9-8183-9217-cc23549772f0" class="">- <strong>Proerythroblast</strong>, containing specific receptors for EPO on the surface that stimulate the differentiation of the lineage when detected.</p><ul id="2297904f-03a9-815e-8e4c-d0f7c9117e1d" class="bulleted-list"><li style="list-style-type:disc"><strong>Basophilic erythroblast</strong></li></ul><p id="2297904f-03a9-8111-bbca-eabc86d53d5d" class="">- <strong>Polychromatic erythroblast</strong></p><p id="2297904f-03a9-81de-98c7-da2c92cf7800" class="">- <strong>Reticulocyte</strong>, which the last precursor of the red blood cells and it is already released into the blood. There is a condition called reticulocytosis which consist in the presence of a lot of reticulocytes in the blood.</p><ul id="2297904f-03a9-8172-9b96-f61ddf5c4160" class="bulleted-list"><li style="list-style-type:disc"><strong>Erythrocytes</strong></li></ul><p id="2297904f-03a9-81b8-8f6a-c1d22cb5f5d6" class="">2. <strong>CFU-L</strong>: colony forming unit of lymphocytes, giving rise to the <strong>lymphoid lineage</strong>.</p><p id="2297904f-03a9-81dc-91d7-fd2e012b9be1" class="">Stem cells initially proliferate repeatedly forming a <strong>proliferative compartment</strong>. Then the proliferative activity slows down (because their proliferation ability decreases) and they start differentiating and maturating start, this process occurs in a particular compartment of the bone marrow called <strong>maturation-proliferation compartment</strong>. At the end, the cells lose their ability to proliferate and these non-proliferating cells in the advanced maturation state accumulate in the <strong>maturation compartment</strong>. This is followed by the <strong>storage and functional compartment</strong>.</p><p id="2297904f-03a9-81ac-a16d-c4a1b61d7de5" class="">There is not a storage compartment, in the bone marrow, for the erythrocytes. Instead, there is a storage compartment for granulocytes, they get released in the blood in case of need (e.g. during acute inflammation,</p><p id="2297904f-03a9-81ee-8a35-eefb50543be9" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-81c4-acf7-f926fb670b94" class="">2</p><p id="2297904f-03a9-81c0-959e-e372ebaf1e73" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-81a2-bca0-d115c33b0a34" class="">or in the presence of a damage in a tissue).</p><p id="2297904f-03a9-812a-992b-f385112f02b5" class="">Cells lifespan in the bone marrow and outside of it varies <em>(fig.5)</em>:</p><p id="2297904f-03a9-810d-9b34-f50f8b90f006" class="">- <strong>Neutrophils</strong> are found in the bone marrow in the proliferation-maturation compartment and storage as well, some of them are functional in the peripheral blood (50%), they are the only one emigrating to peripheral tissues, where they exert their macrophagic function.</p><ul id="2297904f-03a9-81ca-9aa7-d3c09386d93b" class="bulleted-list"><li style="list-style-type:disc"><strong>Platelets and erythrocytes</strong>, as they are just formed, are released and do not form a storage compartment in the bone marrow. In fact, all erythrocytes are present in circulation, they remain there for 120 days and then become senescent and die, there is no storage compartment.</li></ul><figure id="2297904f-03a9-81ab-a83a-d1bd3886dfc0" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image5.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image5.png"/></a></figure><p id="2297904f-03a9-81d8-8301-c3fe93b473d0" class=""><em>Fig.5</em></p><p id="2297904f-03a9-817f-a1d4-ec49f06c426a" class=""><strong>BONE MARROW TRANSPLANT (HEMATOPOIETIC STEM CELL TRANSPLANT):</strong></p><p id="2297904f-03a9-811d-8101-e42f2c5b749d" class=""><em>Malignant Disease:</em></p><ul id="2297904f-03a9-81e3-98d5-e4da72c0e317" class="bulleted-list"><li style="list-style-type:disc"><em>Acute Myeloid Leukaemia/Acute Lymphocytic Leukaemia - Chronic Myeloid Leukaemia/Chronic Lymphocytic Leukaemia</em></li></ul><p id="2297904f-03a9-812d-9ea6-c614bcdbb3ee" class=""><em>Non-Malignant Diseases:</em></p><ul id="2297904f-03a9-817e-a03d-d13e7d733e1c" class="bulleted-list"><li style="list-style-type:disc"><em>Aplastic anaemia</em></li></ul><ul id="2297904f-03a9-81c4-94a2-c112051b0443" class="bulleted-list"><li style="list-style-type:disc"><em>Severe Combined Immune Deficiency Syndrome (SCID)</em></li></ul><ul id="2297904f-03a9-8186-a875-dbbd4ec1452a" class="bulleted-list"><li style="list-style-type:disc"><em>Thalassemia</em></li></ul><ul id="2297904f-03a9-8131-8f3f-c9d79a02ef9b" class="bulleted-list"><li style="list-style-type:disc"><em>Sickle Cell anaemia</em></li></ul><ul id="2297904f-03a9-81e8-add9-f93a828fd7d4" class="bulleted-list"><li style="list-style-type:disc"><em>Fanconi anaemia</em></li></ul><p id="2297904f-03a9-81ac-baa9-e6a2ec59003d" class=""><strong>RETICULOCYTES</strong></p><p id="2297904f-03a9-8168-aa0b-e54ed99ca876" class="">They are immature RBCs, consisting in the last passage of the differentiation and they are released in the blood. In the blood there might be reticulocytosis, indicating high levels of reticulocytes when new RBCs are requested by the body, in case of anaemia or conditions such as anaemia, hypobaropathy.</p><p id="2297904f-03a9-8124-8ec2-fae1671e6468" class="">They differentiate from RBCs for still possessing nuclei and some mitochondria, they can still synthesise Hb, after 24/48 they become RBCs, which are anucleated (for this reason they appear pale in the centre) and biconcave, they cannot synthesise new haemoglobin.</p><p id="2297904f-03a9-81ee-9c46-dfa16e894d5e" class="">Formation of red blood cell:</p><p id="2297904f-03a9-81d9-ac9b-fb9d16565118" class="">- Progressive nuclear condensation → elimination of nucleus- Progressive accumulation of Hb</p><p id="2297904f-03a9-8100-a290-f1a804724b56" class="">Quantity of reticulocytes: 0.5%/1.5% of all erythrocytes present in the bloodstream (both mature and immature). The daily loss of 1% of the erythrocytes is balanced by an equal production of reticulocytes.</p><p id="2297904f-03a9-817e-9db3-fd158032124a" class=""><strong>HEMATOPOIETIC GROWTH FACTORS (HGF)</strong></p><p id="2297904f-03a9-81fe-ab38-d60ea75eb379" class="">Hematopoietic growth factors contribute to the production of blood cells. There are many of them, the most</p><p id="2297904f-03a9-8167-97fd-e24a0f9da1e6" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-8105-b73b-dbfd06f1df0d" class="">3</p><p id="2297904f-03a9-81d9-b5c6-d462c27ebff7" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-814f-ab10-d31c92cc6933" class="">important are <strong>Multi colony stimulating factor (M-CSF)</strong> or <strong>IL3</strong>, and <strong>EPO</strong> (which stimulates the differentiation of erythrocytes in the bone marrow). The rate of production of EPO is controlled by hypo-oxygenation of tissues, inducing erythropoiesis. In case of <strong>hypoxia</strong> (e.g., in hypobaropathy) kidneys and liver produce EPO, which goes into the bone marrow, binds to its receptor located on the surface of pro-erythroblasts and stimulates their differentiation into erythrocytes. By doing this EPO induce <strong>bone marrow hyperplasia</strong> (cell adaptation in which the specific tissue increases in dimension, because the cells composing that tissue are increasing in number).</p><p id="2297904f-03a9-8106-9e1a-e9dc46d8cdae" class="">The main transcription factor that regulate the expression and synthesis (and the release by the kidneys) of EPO is <strong>HIF-1 (hypoxia inducible factor-1)</strong>. HIF-1 is normally present in sarcoplasm in the form of a heterodimer composed by two subunits, alpha and beta subunits. In normal conditions (when the level of oxygen is normal), the alpha subunit is hydroxylated (this reaction is favored by oxygen), after that it is ubiquitinated (bound to ubiquitin), in this way it is marked for proteosome degradation (this system is called <strong>ubiquitin-proteosome system</strong> and it is activated). The proteosome recognize this subunit and degrades it. In this way HIF-1 is not working and can’t induce the synthesis of EPO.</p><p id="2297904f-03a9-81a9-98e9-edeec0765472" class="">In case of hypoxia, the alpha subunit is not hydroxylated (the enzyme regulating hydroxylation is not activated by oxygen) and, hence, it can’t be ubiquitinated and degraded by proteosome. Hence, HIF-1 remains active and it is able to translocate in the nucleus and binds to specific site of the DNA leading to the over expression of genes encoding for EPO.</p><p id="2297904f-03a9-81ce-931d-d56f586c2ba2" class="">Another important factor is the VEGF (vascular endothelial growth factor), which is involved in angiogenesis.</p><p id="2297904f-03a9-811b-a2fb-ce3f5cfab823" class="">Angiogenesis is stimulated in case of hypoxia, and it is also an important process in case of a tumor.</p><p id="2297904f-03a9-81dc-9d5a-c8e20336bffb" class=""><strong>MONOCYTE-MACROPHAGE CELL LINE</strong></p><p id="2297904f-03a9-81fc-bc06-d326931f6106" class=""><em>(Fig.6)</em> After being formed, monocytes go into bloodstream, once in the tissue monocytes can differentiate into macrophages, by expressing and synthesize new molecules on cell’s surface, able to recognize foreign bodies present in the environmental space. They are pivotal in chronic inflammation (while the exit of neutrophils from blood is the main key-point process in acute inflammation).</p><p id="2297904f-03a9-8116-84e4-ca46a6bbac71" class=""><em>Fig.6</em></p><p id="2297904f-03a9-8157-a205-fd46261ce45d" class=""><strong>CHARACTERISTICS OF RBCS</strong></p><figure id="2297904f-03a9-8144-9f49-cdfb77dafa1d" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image6.png"><img style="width:411px" src="anemias%202297904f03a981de90aee0397196f6b8/image6.png"/></a></figure><p id="2297904f-03a9-81d7-8757-fdcbee8849a5" class="">cellular component. -</p><p id="2297904f-03a9-81e6-951f-e26ae0d02bf1" class=""><strong>Their plasma membrane is particularly flexible</strong></p><p id="2297904f-03a9-81b8-93d8-ccaa553dd6a2" class="">(deformable), as RBCs have to pass in small capillaries changing their physical characteristics</p><p id="2297904f-03a9-8157-a951-ea30085f9b34" class=""><em>(they run from 300 to 400 km along vessels that also</em></p><figure id="2297904f-03a9-81c3-a66a-ec9b1d957382" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image7.png"><img style="width:446px" src="anemias%202297904f03a981de90aee0397196f6b8/image7.png"/></a></figure><ul id="2297904f-03a9-81db-94fb-d831635393b8" class="bulleted-list"><li style="list-style-type:disc">They are <strong>responsible for transport of O2</strong> to the tissue, <strong>and CO2</strong> to the pulmonary alveoli. Since this transport takes place via hemoglobin, it has the task of maintaining the functionality of this</li></ul><p id="2297904f-03a9-81a0-b896-c41f84d16d0e" class=""><em>have a smaller diameter than its own, so it must be able to change</em></p><ul id="2297904f-03a9-8199-8979-f6f44757f1f5" class="bulleted-list"><li style="list-style-type:disc"></li></ul><p id="2297904f-03a9-81e1-8331-c0050754eaae" class=""><strong>The diameter of a RBC is about 8 μM, thickness of about 2.5 μM at the periphery and 0.8 μ</strong></p><p id="2297904f-03a9-81c9-b92c-f9eb014b09a7" class="">M in the centre; average life of about</p><p id="2297904f-03a9-81b4-a039-de05324b0c2e" class=""><strong>120 days</strong></p><p id="2297904f-03a9-811b-b847-c4e7737be624" class="">; By observation of a blood smear</p><p id="2297904f-03a9-8188-9864-ff58fefd33e2" class=""><em>(fig.8)</em></p><p id="2297904f-03a9-81da-b021-c7bd65ecec82" class="">, they normally have the size of a nucleus of a small lymphocyte, whose nucleus completes almost all of its surface. If smaller, then the patient is affected by a</p><p id="2297904f-03a9-816d-af07-ed569ec6486c" class=""><strong>microcytic anaemia</strong></p><p id="2297904f-03a9-814a-ad52-d22e9f695903" class="">, if bigger</p><p id="2297904f-03a9-8174-ba58-d02606e68852" class=""><strong>macrocytic anaemia</strong></p><p id="2297904f-03a9-817b-af82-f0988d480e6b" class="">.</p><figure id="2297904f-03a9-8148-8f18-e6069e80a975" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image8.png"><img style="width:285px" src="anemias%202297904f03a981de90aee0397196f6b8/image8.png"/></a></figure><p id="2297904f-03a9-8104-a00e-ed39e525e886" class=""><em>its shape)</em>, and if they are not deformable, they break down → <em>Fig.7</em> <strong>haemolytic anaemia</strong>.</p><ul id="2297904f-03a9-813b-aea0-d5c239d2a671" class="bulleted-list"><li style="list-style-type:disc">The nucleus is not present (<strong>anucleated</strong>). In a transversal section <em>(fig.7)</em> they look biconcave (in the middle it is empty), from upwards they look circular and less coloured in the centre.</li></ul><p id="2297904f-03a9-812b-9fd2-ee35ecbf51bb" class=""><em>Fig.8</em></p><p id="2297904f-03a9-8195-937e-d41900ab3d91" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-818e-a510-d4a0d341b4d7" class="">4</p><p id="2297904f-03a9-81e0-be07-d46272f16e36" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-8121-953f-e802b8c1bb08" class=""><strong>HAEMOGLOBIN (HB)</strong></p><figure id="2297904f-03a9-814b-be58-c8588e358412" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image9.png"><img style="width:289px" src="anemias%202297904f03a981de90aee0397196f6b8/image9.png"/></a></figure><p id="2297904f-03a9-8160-927a-cd2b062e2286" class=""><em>Fig.9</em></p><p id="2297904f-03a9-812f-8a0f-c17b073d4094" class="">adults, composed of 2α-2β globin chains. -</p><p id="2297904f-03a9-81e7-a054-d0ebdb1cba59" class=""><strong>Hb A2 type</strong></p><p id="2297904f-03a9-81f3-8b26-e8d14d6cb27c" class="">- making up 3% of all Hb in adults, composed of 2α and 2δ chains. -</p><p id="2297904f-03a9-8159-aa0c-d51dc5242982" class=""><strong>Foetal Hb</strong></p><p id="2297904f-03a9-81f6-8d2b-e2fd2784ec92" class="">- composed of 2α and 2γ chains; after birth it is completely substituted by the standard ones.</p><figure id="2297904f-03a9-8128-a5c9-c1e913db50b7" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image10.png"><img style="width:306px" src="anemias%202297904f03a981de90aee0397196f6b8/image10.png"/></a></figure><p id="2297904f-03a9-8187-b70a-e790d5de60f8" class="">Hb <em>(fig.9)</em> is composed of 4 globin chains bound to the heme group, consequently binding iron.</p><p id="2297904f-03a9-8113-b6bb-d72e03d276c1" class="">There are 3 types of Hb:</p><p id="2297904f-03a9-81ff-b3a4-d6135178a795" class="">- <strong>Hb A type</strong><em>(fig.10)</em> - making up 97% of all Hb in</p><p id="2297904f-03a9-81f2-be6d-dc7d0ff9057c" class=""><strong>ANEMIAS</strong> <em>Fig.10</em></p><p id="2297904f-03a9-8195-a17e-eb2ab68329da" class="">It is a non-malignant blood disease, consisting in the reduction of the Hb concentration and/or of the number of red blood cells below normal limits<em>(fig.2)</em> in subjects of the same age and same sex. The oxygen-carrying capacity of the blood is reduced, leading to tissue hypoxia.</p><p id="2297904f-03a9-810a-966c-c8ee2391cd9b" class="">They can be classified according to morphological or pathophysiological criteria.</p><p id="2297904f-03a9-81a6-ac88-c9a92ceef223" class=""><strong>MORPHOLOGICAL CLASSIFICATION</strong></p><p id="2297904f-03a9-819b-95e0-c1af27068489" class="">● <strong>Basing on the red cell size</strong> (evaluated by MCV):</p><p id="2297904f-03a9-8138-836a-f494a2f62290" class="">- Microcytic anaemia - the dimension of the RBC is lower than the normal one.</p><ul id="2297904f-03a9-81fe-ba52-e54ffa128a34" class="bulleted-list"><li style="list-style-type:disc">Normocytic anaemia - the dimension of the RBC remains unchanged (what changes is the number of erythrocytes).</li></ul><ul id="2297904f-03a9-8188-ae18-da3660a6e147" class="bulleted-list"><li style="list-style-type:disc">Macrocytic anaemia - the dimension of the RBC is bigger than the normal one.</li></ul><p id="2297904f-03a9-81c1-a6a1-e4e4874e38e6" class="">● <strong>Basing on the degree of hemoglobinization</strong>, which is reflected on the colour of red cells and indicates the quantity of Hb:</p><p id="2297904f-03a9-816a-9fb2-c6bf8a7811dd" class="">- Normochromic anaemia.</p><ul id="2297904f-03a9-81bc-b30f-e219d06a9a51" class="bulleted-list"><li style="list-style-type:disc">Hypochromic anaemia, paler.</li></ul><p id="2297904f-03a9-81f5-b5fb-efb4e1df6e5e" class="">There are also conditions in which anemias addressed as hyperchromic, but in these cases the color is not due to an increased in the quantity of Hb but it is due an increased size of the cells (macrocytic anemias).</p><p id="2297904f-03a9-8145-9044-e0f0afc64613" class="">● <strong>Basing on the shape of red cells – morphology</strong> <em>(fig.11) (the professor prefers this method of classification)</em>: Blood smear allows the identification of abnormalities in the morphology of the red cells → <strong>poikilocytosis</strong>, the shape of RBCs is different from the normal one. The correct identification of the specific type of poikilocytes allows to distinguish the various forms of anaemia, the shape might be anomalous:</p><p id="2297904f-03a9-81d2-9dd8-cad538069bda" class="">- <strong>Sickle cells anaemia</strong>→ the RBCs look like a sickle.</p><ul id="2297904f-03a9-8177-9cab-ef388434537d" class="bulleted-list"><li style="list-style-type:disc"><strong>Acanthocytosis</strong>→ deformation appears on the surface (at the level of the membrane) and might be due to accumulation of cholesterol.</li></ul><ul id="2297904f-03a9-81db-a60d-c1977095c33f" class="bulleted-list"><li style="list-style-type:disc"><strong>Spherocytosis</strong>→ circular shape (not biconcave) due to alteration of cytoskeleton. It is a <strong>hemolytic anemia</strong>. - <strong>Elliptocytosis</strong>→ elliptic shape, their volume is unchanged, but they are more rigid, RBCs are trapped and destroyed in smaller vessels → <strong>hemolytic anaemia</strong>.</li></ul><ul id="2297904f-03a9-81fc-81b6-c3406b8a97bf" class="bulleted-list"><li style="list-style-type:disc"><strong>Sideropenic anaemia</strong>→ paler RBCs and smaller than usual (<strong>hypochromic-microcytic anaemia</strong>). It’s caused by iron deficiency.</li></ul><p id="2297904f-03a9-81b0-9f5c-e8806510f565" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-81fc-b16c-d6f2a90f77d8" class="">5</p><figure id="2297904f-03a9-81b8-aa01-d13c76aa45ba" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image11.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image11.png"/></a></figure><p id="2297904f-03a9-8147-be09-c30802409684" class="">02.03.2023 GAMBA L.1</p><ul id="2297904f-03a9-819c-9bf0-ed166e507789" class="bulleted-list"><li style="list-style-type:disc"><strong>Megaloblastic anaemia</strong>→ due to the deficiency of vitamin B12, cells look bigger and can be destroyed in smaller vessels.</li></ul><p id="2297904f-03a9-818a-9755-c028092da04d" class=""><em>Fig.11</em></p><p id="2297904f-03a9-818e-a82c-f18d05c69dda" class=""><em>Q: “What is the difference between megaloblastic and macrocytic anemia?”</em></p><p id="2297904f-03a9-81eb-9cfd-c5fc8546c540" class=""><em>A: “I’ll show you later, however in macrocytic the mature red blood cells are bigger than normal, megaloblastic anemia is the same type of anemia but is mainly referred to the precursors in the bone marrow, which are bigger than normal. Most of the time these bigger precursors die in the bone marrow, however sometimes they can mature and give rise to bigger erythrocytes”.</em></p><p id="2297904f-03a9-817f-8d4d-d0744bfe520f" class=""><strong>PATHOPHYSIOLOGICALCLASSIFICATION</strong></p><p id="2297904f-03a9-81c2-9515-e0e22e4e04d9" class="">Pathophysiological classification is based on the <strong>etiology</strong> and characteristics of diseases. They all cause a state of hypoxia in the tissues, but the cause of their origin is different.</p><p id="2297904f-03a9-81fe-8aef-d915eccdfa46" class="">1.<strong>Anemias of blood loss</strong>, hemorrhagic conditions.</p><p id="2297904f-03a9-8125-98aa-facb9afe1402" class="">2.<strong>Anemias of reduced erythropoiesis</strong>, bone marrow is not able to produce the right amount RBCs. It is caused by a damage to the stem compartment (aplasia) or a damage to the proliferating compartment. If the cell damaged is the totipotent stem cell, all blood elements are lacking (this condition is called <strong>pancytopenia</strong>).</p><p id="2297904f-03a9-81ba-bd25-e06c947c7129" class="">a.Aplastic anaemia</p><p id="2297904f-03a9-81ef-a55b-ccf153275977" class="">b.Pure red cell aplasia</p><p id="2297904f-03a9-8171-b205-ea8b2f98a7ca" class="">c.Anemias due to chronic renal failure</p><p id="2297904f-03a9-8119-840e-c74f6c1bcfea" class="">d.Anemias due to endocrine disorders</p><p id="2297904f-03a9-816c-bdeb-d69a448421fa" class="">e.Anemias due to altered DNA synthesis → due to vitamin B12 deficiency (e.g. pernicious anaemia) or due to folate deficiency.</p><p id="2297904f-03a9-81f8-a536-efabfb855d86" class="">f.Anemias due to altered heme synthesis→ iron deficiency anaemia.</p><p id="2297904f-03a9-81f1-a386-db8bcca97a07" class="">g.Anemias due to decreased synthesis of globin → thalassemia syndrome.</p><p id="2297904f-03a9-813e-881a-e2d086392cec" class="">3. <strong>Hemolytic anemias</strong> caused by RBCs excessively destroyed in blood, though their production is regular.</p><p id="2297904f-03a9-8162-9b62-e4e39adc42be" class=""><strong>a)</strong>Hemolytic anemias with intra-globular defects:</p><p id="2297904f-03a9-81e6-af72-d5df201bb71b" class="">I. Intrinsic defects in the red blood cell membrane → hereditary spherocytosis, elliptocytosis, acanthocytosis.</p><p id="2297904f-03a9-81b4-a6ca-e9c5857bac73" class="">II. Extrinsic factors→e.g. immune reaction or in runners (their continuous running brings to the continuous destruction of RBCs).</p><p id="2297904f-03a9-81c7-9b97-d414d3de64d3" class="">III. Defects in the Hb structure→ sickle cell disease.</p><p id="2297904f-03a9-8137-bb43-d08180962d7f" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-8135-9d86-cd6b8e923f28" class="">6</p><p id="2297904f-03a9-81bc-8693-d67fa1a8ced2" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-811a-8ad4-c580a922fed3" class="">IV. Red cell enzyme defects → PK deficiency, G6PD deficiency.</p><p id="2297904f-03a9-8108-b70b-ff033806c41a" class=""><strong>b)</strong>Hemolytic anemias with extra-globular defects</p><p id="2297904f-03a9-8161-85de-de27de4a3a6f" class="">I. Antibody-mediated destruction→ hemolytic disease of the newborn II. Resulting from trauma to red cells</p><p id="2297904f-03a9-81c6-a7f7-d83fe1dc5157" class="">III. From infectious, chemical, and physical agents</p><p id="2297904f-03a9-8187-992e-f0ba3530f8d7" class="">Keep in mind that sometimes you can find, for example, pernicious anemia and/or thalassemia syndrome classified among hemolytic anemias. That’s because, from the pathophysiological point of view thalassemia syndrome are caused by a decreased synthesis of globin, hence there is a reduced production of RBCs, but the produced RBCs are not normal and they may be destroyed in the circulation. To sum up, classifying thalassemia syndrome (or pernicious anemia) as hemolytic anemia is not a mistake, as it’s not a mistake classifying it among the anemia of reduced erythropoiesis.</p><p id="2297904f-03a9-818f-8b17-d7afde65c2ef" class=""><strong>ANEMIA OF BLOOD LOSS</strong></p><p id="2297904f-03a9-8115-af22-c0511c077cf6" class="">In this type of anemia, the red blood cells are lost due to an hemorrhage.</p><ul id="2297904f-03a9-8107-8c4e-d673613f576d" class="bulleted-list"><li style="list-style-type:disc">Characterized by <strong>normocytic</strong> and <strong>normochromic anemia</strong>.</li></ul><ul id="2297904f-03a9-81ff-b01d-d5f9937040cb" class="bulleted-list"><li style="list-style-type:disc">Immediately after the blood loss, anemia may appear less severe than how it turns out later.</li></ul><ul id="2297904f-03a9-8118-8287-c80f5e3ca074" class="bulleted-list"><li style="list-style-type:disc">24-48 hours after the blood loss, the blood volume (just the volume, not the quantity of RBCs) is rapidly restored by the intravascular shift of water from the interstitial fluid compartment. <strong>Hemodilution</strong> takes place (lowering of the hematocrit), the production of new erythrocytes does not occur immediately, when bleeding stops there is <strong>hyperplasia of the erythroid series</strong> (bone marrow hyperplasia) mediated by the EPO. Generally new RBCs are produced when erythrocytes come at the end of their life span.</li></ul><ul id="2297904f-03a9-81b1-8046-d4c334e6d977" class="bulleted-list"><li style="list-style-type:disc">The <strong>reduction in oxygenation triggers increased secretion of erythropoietin</strong> from the kidney, which stimulates the <strong>proliferation of committed erythroid progenitors (CFU-E)</strong> in the marrow. It takes about 5 days for the progeny of these CFU-Es to mature and appear as newly released red cells (reticulocytes) in the peripheral blood.</li></ul><p id="2297904f-03a9-819b-b9b0-dd8e3144dd81" class=""><em>Possible exam question (mentioned in 2021-2022’ lecture): Reduced amount of RBCs synthesis is not compensated with compensation of more Hb produced, but of progenitors’ hyperplasia in the bone marrow. What kind of process is this hyperplasia of the bone marrow? → cell adaptation (reversible increase in the number of tissues of a certain tissue). If the stimulus that started the process comes back to normal (O2 supply in this case) it goes back to physiological conditions. For normoplasia to be restored, there must be the induction of cell apoptosis of those proliferated cells.</em></p><p id="2297904f-03a9-8127-9f7d-f0837af0cb8d" class=""><strong>ANEMIA OF REDUCED ERYTHROPOIESIS</strong></p><p id="2297904f-03a9-81de-b187-ede82e2906bf" class=""><em>Fig.12</em> <strong>a)Aplastic</strong> <strong>anaemia.</strong> It is a disease concerning the</p><ul id="2297904f-03a9-8192-8180-e571ee0ff9ba" class="bulleted-list"><li style="list-style-type:disc">cause progressive weakness, pallor, and dyspnea. Primitive causes → hereditary Fanconi’s syndrome, present in</li></ul><p id="2297904f-03a9-8159-8f35-f84533792cf7" class=""><strong>hereditary pancytopenia</strong></p><p id="2297904f-03a9-81e2-b766-ca8b9b9ed978" class="">and</p><p id="2297904f-03a9-81ea-93b6-fb40aae0beeb" class=""><strong>idiopathics</strong></p><p id="2297904f-03a9-815a-a56d-fa160bdfb72b" class="">. There are 23 genes causing the syndrome, leading to bone marrow failure, progressive damage and failure of the pluripotent stem cell, and a high predisposition of cancer.</p><figure id="2297904f-03a9-817c-ba53-df0375c458ab" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image12.png"><img style="width:361px" src="anemias%202297904f03a981de90aee0397196f6b8/image12.png"/></a></figure><p id="2297904f-03a9-8112-a359-e550ac20fc6a" class="">totipotent/pluripotent stem cell <em>(fig.12)</em>, leading to bone marrow failure and its hypocellularity. Consequently, all blood cells reduce in number → <strong>pancytopenia</strong> (leukocytes, and platelets are reduced too, causing leukopenia and thrombocytopenia). Anaemia can</p><ul id="2297904f-03a9-819a-a8bb-d5e4109a472f" class="bulleted-list"><li style="list-style-type:disc">Secondary causes</li></ul><p id="2297904f-03a9-811c-b0e1-d1d70017a544" class="">➢<strong>chemical agents</strong> (benzene, xylol, insecticides)</p><p id="2297904f-03a9-814d-8e6a-f4d80c20c705" class="">➢<strong>physical agents</strong> (ionizing radiations)</p><p id="2297904f-03a9-8196-a320-e866c4fe90b2" class="">➢<strong>drugs</strong> (cytostatics,arsenic compounds, anticonvulsants) ➢<strong>infectious agents</strong> (viral hepatitis, tuberculosis)</p><p id="2297904f-03a9-81bf-b6eb-ec34466715fd" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-81ae-bb64-fb370792b717" class="">7</p><figure id="2297904f-03a9-81ae-b464-e2eb2e3d5e77" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image14.png"><img style="width:594px" src="anemias%202297904f03a981de90aee0397196f6b8/image14.png"/></a></figure><p id="2297904f-03a9-81cf-8a47-f89e6e145c31" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-81ab-a0e8-ce7227490257" class="">The damaged stem cells can give rise to a stem cell apparently identical to the original one but with reduced proliferative an differentiative capacity (leading to <strong>bone marrow aplasia</strong>), or, eventually, they can bring to the expression of specific molecules (new antigens) to the surface of stem cells, which are immediately recognized and stimulate an autoimmune reaction. Hence, the stem cells are destroyed, or they slowdown in differentiation and proliferation, leading to failure of bone marrow.</p><figure id="2297904f-03a9-81a3-8751-cff52d596b47" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image13.png"><img style="width:557px" src="anemias%202297904f03a981de90aee0397196f6b8/image13.png"/></a></figure><p id="2297904f-03a9-813f-8f49-cf47031d8d84" class=""><em>Fig.13</em></p><p id="2297904f-03a9-8192-800d-f5030d9f4ac9" class=""><em>Fig.13</em> shows a biopsy of the bone marrow, the precursor of all lineages (myeloid lineage and lymphoid lineage) normally occupies spaces which here are replaced by adipocytes <em>(the white cells in fig.13)</em>. When the slide is prepared sulfate is used.</p><p id="2297904f-03a9-818a-8c77-d05bb27e54f2" class=""><strong>Fanconi’s anaemia</strong><em>(fig.14)</em>: it’s an example of aplastic anemia, due to a hereditary condition. It is characterised by bone marrow aplasia and consequently pancytopenia. It presents mutations in several genes (twenty-two FA genes),</p><p id="2297904f-03a9-8166-bcb1-cd69260ea816" class="">leading to bone marrow failure and high predisposition to cancer (breast and ovarian cancer susceptibility). Fanconi’s anemia is not only characterised by a very</p><p id="2297904f-03a9-816a-be0d-c30283308251" class="">sever aplastic anemia, but also by skeletal</p><p id="2297904f-03a9-812c-99fa-f8aaae3d4065" class="">malformations, cardiac defects, short stature and a lot</p><p id="2297904f-03a9-8117-a833-d0e2bfdbab11" class="">other clinical features.</p><p id="2297904f-03a9-8119-9891-e8b40019e820" class=""><strong>b)Pure cell aplasia</strong></p><p id="2297904f-03a9-81b2-9eea-ce4a99e4611d" class="">Primary marrow disorder in which only</p><p id="2297904f-03a9-81aa-ad5d-e108f1605a85" class="">erythroid progenitors are suppressed, the bone</p><p id="2297904f-03a9-81ca-94e6-dd1ec7cac5c3" class="">marrow is aplastic. In severe cases, red cell <em>Fig.14</em> progenitors are completely absent from the</p><p id="2297904f-03a9-8184-967b-febafaee9a95" class="">marrow, due to a specific proliferative defect of the precursors of the red cells. Leukocytes and platelets are normal, there are different types:</p><p id="2297904f-03a9-810b-b97f-d9444ca3b20f" class="">➢<strong>Acquired</strong> (haemolytic anemias, infections, or drug exposure)</p><p id="2297904f-03a9-81b6-b795-f4ce714031c5" class="">➢<strong>Constitutional</strong></p><p id="2297904f-03a9-81f3-993c-c9b4eaabffe6" class="">Bone marrow cellularity is normal (despite the severe lack of erythrocyte precursors). The erythroid series may be missing entirely or be blocked at the erythroblast stage.</p><p id="2297904f-03a9-8135-a219-f40cbcf9280c" class=""><strong>c)Anemias due to chronic renal failure</strong></p><p id="2297904f-03a9-81cc-8797-e5caad367a13" class="">It is a normochromic and normocytic anemia characterized by a decreased production and increased destruction of erythrocytes. The decreased production of RBCs is due both to a metabolic damage to the erythroblasts, and to a decreased production of EPO from the kidneys to proerythroblasts. The main cause is the reduced production of EPO → Treatment: EPO administration.</p><p id="2297904f-03a9-816f-ae44-f03bd968cdc0" class=""><strong>d)Anemias of endocrine disorders</strong></p><p id="2297904f-03a9-8137-96e9-f9efa4bc255c" class="">It is a normochromic and normocytic anemia. It is due to hormone deficiencies affecting erythropoiesis such as those found in hypopituitarism, hypothyroidism, Addison&#x27;s disease (adrenal insufficiency) and hypogonadism.</p><p id="2297904f-03a9-81be-acfc-c5b6c39c6544" class=""><strong>e)Anemias due to altered DNA synthesis</strong></p><p id="2297904f-03a9-81d8-a00f-e5887291eb76" class="">They are mainly related to deficiency in <strong>vitamin B12</strong> (e.g. pernicious anemia) and <strong>folic acids</strong> (vitamin B9), necessary for DNA synthesis. Both types of anaemia are <strong>megaloblastic</strong>, in the bone marrow it is possible to find bigger precursors than normal ones.</p><p id="2297904f-03a9-8194-b275-ccb60d8f8802" class="">The deficiency results in this a abnormal size, and they are directly destroyed in the bone marrow (intra-medullary death) as they have difficulties passing over it → <strong>ineffective erythropoiesis</strong>. In the blood there aren’t enough RBCs. The few RBCs found in the blood are bigger than normal, and they might be destroyed as well in the periphery → might be classified also as <strong>haemolytic anaemia</strong>.</p><p id="2297904f-03a9-819c-bd38-e29061fd59b8" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-81c7-9d35-f8d082f9b7c5" class="">8</p><figure id="2297904f-03a9-8114-b56e-edeb14723472" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image16.png"><img style="width:531px" src="anemias%202297904f03a981de90aee0397196f6b8/image16.png"/></a></figure><p id="2297904f-03a9-812e-8370-e1f73af0269c" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-81fb-a94b-e7c12334651a" class="">The impairment in the DNA production, brings to the formation of big cells with a defective nuclear maturation, they try to proliferate becoming bigger, but then they are not able to divide due to <strong>nucleus - cytoplasm asynchronicity</strong>. The cytoplasm is not proportional to the nucleus, resulting in bigger than physiological circumstances. The large erythroid precursors and RBCs are destroyed, and <strong>bone marrow hyperplasia</strong> is stimulated, being a response to less O2 supply and increased levels of growth factors, such as EPO.</p><p id="2297904f-03a9-8110-a08f-f77a83c60ff4" class="">Anemias due to altered synthesis of DNA often give rise to <strong>pancytopenia</strong>, because the difficulty in proliferating involves all the types of cells.</p><p id="2297904f-03a9-81fa-b1f4-e6881ea834d6" class="">➢<strong>Vitamin B12 deficiency</strong>. Vitamin B12 (<strong>cobalamin</strong>) is</p><p id="2297904f-03a9-81cc-9058-f0df32860372" class="">proteins (thanks to the action of pepsin) and binds to a salivary protein called</p><p id="2297904f-03a9-81c2-af42-da75212c372a" class=""><strong>haptocorrin</strong></p><p id="2297904f-03a9-8141-8cb4-fafdd149d1da" class=""><em>(green in fig.15)</em></p><p id="2297904f-03a9-818c-833e-feae5013f6e6" class="">, forming the vitamin B12-haptocorrin complex. -Then, the thanks to the action of pancreatic enzymes (proteases) haptocorrin is dissociated from vit. B12 and, always in the stomach, the action of pepsin allows vit. B12 to bind to an</p><p id="2297904f-03a9-8182-8882-dd50117ecf6c" class=""><strong>intrinsic factor (F1)</strong></p><p id="2297904f-03a9-81a2-bce0-f70b591b17f8" class="">, which is produced by the gastric parietal cells. - In the intestine (at the level of the terminal ileum) the vit. B12-F1 complex finds specific receptors (called</p><p id="2297904f-03a9-811a-9fdf-d4cda7792970" class=""><strong>cubilin</strong></p><p id="2297904f-03a9-8122-ba27-c32c0fc4fc75" class="">) for the intrinsic factor itself. In this way, B12</p><figure id="2297904f-03a9-813c-bb06-e634d155f241" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image15.png"><img style="width:408px" src="anemias%202297904f03a981de90aee0397196f6b8/image15.png"/></a></figure><p id="2297904f-03a9-81c3-aa56-c917e2231764" class="">fundamental for DNA synthesis.</p><p id="2297904f-03a9-8184-840d-cc36853a33bb" class="">Metabolism of vitamin B12 <em>(fig.15)</em>: it is taken up with</p><p id="2297904f-03a9-8166-9e2d-d74cec138020" class="">the diet and synthesized by the intestinal flora. Vit.</p><p id="2297904f-03a9-8144-85b2-d198fd3a4aac" class="">B12 is contained in foods of animal origin, hence,</p><p id="2297904f-03a9-8100-8386-ed02513e9038" class="">people who follow a vegan diet (and do not assume</p><p id="2297904f-03a9-8184-825c-da729632bbde" class="">extra vit. B12) might have a deficiency of this vitamin.</p><p id="2297904f-03a9-818d-a1d2-d59afacf0d2c" class="">Vitamin B12 is bound to binding proteins contained in</p><p id="2297904f-03a9-816c-ab4a-fff385bfb4e5" class="">food:</p><p id="2297904f-03a9-8143-8d9f-c8194cf4f8bc" class="">- In the stomach, the vitamin is freed from the binding</p><p id="2297904f-03a9-811d-a19a-fe6cc9203123" class="">is absorbed. <em>Fig.15</em> - In the blood vitamin B12 is transported by a group of proteins: <strong>transcobalamin</strong>.</p><p id="2297904f-03a9-818a-90bf-f4bd410293b9" class="">In case of a deficiency of vit. B12 or folate, the nucleic maturation is not carried on, due to altered DNA synthesis. However, cytoplasmic maturation and Hb</p><p id="2297904f-03a9-8195-b537-f80fd30cd084" class=""><em>Fig.16</em> maturation proceed regularly → <strong>nucleus - cytoplasm</strong></p><p id="2297904f-03a9-811d-82ba-dcc859fd0b53" class=""><strong>asynchronicity</strong> (the nucleus is small, and the cytoplasm is very</p><p id="2297904f-03a9-812f-b200-dcb8ce23fe35" class="">big).</p><p id="2297904f-03a9-81b2-b36f-edd2270fbd0d" class="">This causes the formation of larger precursors - <strong>megaloblastic precursors</strong> <em>(fig.16)</em> - in the bone marrow, most of them are destroyed in the bone marrow (<strong>ineffective hematopoiesis</strong>) and, those that mature, result macrocytic and they are destroyed in the peripheral vessels (<strong>hemolytic anaemia</strong>). It should be normochromic.</p><p id="2297904f-03a9-813f-930f-c45abd50dbb8" class="">In the blood smear <em>(fig.17)</em> peculiar <strong>neutrophils</strong> can be found,</p><p id="2297904f-03a9-81d1-b8e1-e6384b3c8e49" class="">being <strong>hypersegmented and six- lobed nucleus</strong>. It can also be noticed the <strong>poikilocytosis</strong> (the RBCs have different shapes, some are bigger, some are smaller, some are elongated and so on) and <strong>anisocytosis</strong> (difference in size).</p><p id="2297904f-03a9-81df-bc00-c87f59b36a5c" class="">An example of vitamin B12 deficiency is <strong>pernicious anaemia</strong>: it is due to vitamin B12 deficiency, lack of absorption, due to an autoimmune disorder.</p><p id="2297904f-03a9-8136-983c-f63bae20da49" class="">It is characterized by the presence of <strong>auto-antibodies against the intrinsic factor</strong>, masking its binding site to</p><p id="2297904f-03a9-81ee-8d97-e33ad4f3e32f" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-8133-abbe-dbe49831d929" class="">9</p><figure id="2297904f-03a9-81be-a46c-de2b4e36c530" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image18.png"><img style="width:566px" src="anemias%202297904f03a981de90aee0397196f6b8/image18.png"/></a></figure><p id="2297904f-03a9-816a-994a-c44eb2e5ce58" class="">02.03.2023 GAMBA L.1</p><p id="2297904f-03a9-8135-b04b-f91b73f5332c" class=""><em>Fig.17</em> the one of the vit B12 (anti-F1 auto-Ab), or <strong>auto-antibodies</strong> <strong>against the parietal cells</strong> of the stomach (anti-parietal auto-Ab) leading to the lack of production of F1. There is also an other auto-immune condition in which the auto- antibodies bind the receptors for the vit. B12-F1 complex in the gut. In all these cases the vitamin is not absorbed.</p><p id="2297904f-03a9-81da-a7e8-caf23c73d87f" class="">Characteristics of pernicious anaemia:</p><p id="2297904f-03a9-8121-be96-ce47509807c2" class="">- <strong>Fundic gland atrophy</strong> and <strong>metaplastic change</strong> (intestinalization: the cells of the stomach differentiate in cells similar to the one present at the level of the gut. It is a precancerous condition) → when antibodies are directed to enterocytes.</p><p id="2297904f-03a9-8138-a403-f5a7809383b3" class="">NB: parenteral administration of vitamin B12 corrects the megaloblastic changes in the marrow but gastric atrophy persists.</p><p id="2297904f-03a9-8116-9882-ffde7859593e" class="">NB: The gastric atrophy and metaplastic changes are due to autoimmunity and not vit B12 deficiency! - Atrophic glossitis (the tongue becomes shiny, glazed and “beefy”).</p><ul id="2297904f-03a9-8131-b073-eef77a689b51" class="bulleted-list"><li style="list-style-type:disc">Spastic paresis, sensory ataxia and severe paresthesias in the lower limbs.</li></ul><p id="2297904f-03a9-8151-9dee-f4bfe6da349a" class="">➢<strong>Folate deficiency</strong>, Folic acid is fundamental for the synthesis of DNA. It is mostly present in our blood in the form of <strong>methyltetrahydrofolate</strong>.</p><p id="2297904f-03a9-8176-9bfc-c3b4c0975188" class=""><em>Recap:</em></p><p id="2297904f-03a9-813e-89df-c3391311b272" class="">Classification of anemias is based on their pathophysiology: 1.<strong>Anemias due to blood loss</strong>.</p><p id="2297904f-03a9-8138-9199-e39642fb8584" class="">2.<strong>Anemias due to diminished erythropoiesis</strong>, among the different types were included the ones due to:</p><p id="2297904f-03a9-81aa-b3f0-fd852811c6a8" class="">e) <strong>Altered DNA synthesis</strong>, due to:</p><p id="2297904f-03a9-81ef-a5ab-dc8f0b2a6c36" class="">I. Vitamin B12 deficiency <em>(fig.18)</em>, which is macrocytic for the presence of megaloblasts, producing RBCs being bigger than usual, they cannot mature in the bone marrow and die. Anyway, some of the RBCs can mature and be released in the bloodstream, being bigger than normal. At the end they are destroyed at peripheral circulation, this type of anaemia can also be classified as hemolytic anaemia, for the presence of inefficient erythropoiesis and hemolysis.</p><p id="2297904f-03a9-8126-bfa1-e25a89a0135b" class="">Folate deficiency <em>(fig.18)</em> II.</p><figure id="2297904f-03a9-8187-a644-f29c88c82b75" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image17.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image17.png"/></a></figure><p id="2297904f-03a9-813f-91c5-c163195f76d5" class=""><em>Fig.18 3.</em><strong>Hemolytic anemias</strong>.</p><p id="2297904f-03a9-81f6-8598-e23a9cca0057" class="">Alice Bertozzi, Ekin Raman</p><p id="2297904f-03a9-81bc-9456-f112ff6845d1" class="">10</p><p id="2297904f-03a9-81aa-81f9-c1e3221f5cf3" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-8123-85b5-cad190b2b875" class=""><strong>ANEMIA</strong></p><p id="2297904f-03a9-8118-bb78-df644b65e8eb" class=""><strong>LAST LESSON RECAP</strong></p><p id="2297904f-03a9-81e5-ba48-cd4800969b55" class="">Classification of anemias is based on their pathophysiology:</p><ul id="2297904f-03a9-8111-897e-f619421e002c" class="bulleted-list"><li style="list-style-type:disc"><strong>Anemias due to blood loss.</strong></li></ul><ul id="2297904f-03a9-81bc-b9bb-eb3c0f1b623c" class="bulleted-list"><li style="list-style-type:disc"><strong>Anemias due to diminished erythropoiesis</strong>, among the different types were included the ones due</li></ul><p id="2297904f-03a9-81b6-a47d-d7d1400957d2" class="">to:</p><p id="2297904f-03a9-81ce-864b-db7b8249d046" class="">o<strong>AlteredDNA synthesis,</strong> due to:</p><p id="2297904f-03a9-81e3-9a96-e2d747f27625" class="">▪ <strong>Vitamin B12 deficiency</strong>, which is <strong>macrocytic</strong> for the presence of <strong>megaloblasts</strong>,</p><p id="2297904f-03a9-8145-90a6-f82434dbd04a" class="">producing RBCs bigger than usual, that cannot mature in the bone marrow and die</p><p id="2297904f-03a9-810b-8bd3-cd9fdfec81ad" class="">there. Anyways, some of the RBCs can mature and be released in the bloodstream,</p><p id="2297904f-03a9-81d9-8dd6-d8d666f8103a" class="">being bigger than normal. However, at the end, they are destroyed at the level 0of</p><p id="2297904f-03a9-81c9-85c9-e5ac8411d3f8" class="">the peripheral circulation. This type of anemia can also be classified as hemolytic</p><p id="2297904f-03a9-8147-920d-ce436d4e5ff9" class="">anemia, for the presence of inefficient erythropoiesis and hemolysis.</p><p id="2297904f-03a9-81e0-8ea8-c3d703bfbd43" class="">▪ <strong>Folate deficiency</strong></p><ul id="2297904f-03a9-814d-995e-ed4c75a9cef7" class="bulleted-list"><li style="list-style-type:disc"><strong>Hemolytic anemias,</strong> in which we have less red blood cells because of an increased hemolysis.</li></ul><figure id="2297904f-03a9-813c-aca1-d0ee24a78963" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image19.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image19.png"/></a></figure><p id="2297904f-03a9-8116-9598-f06e51d2e7e8" class=""><strong>ANEMIA DUE TO DIMINISHED ERYTHROPOIESIS</strong></p><p id="2297904f-03a9-81f5-9a39-ff6725d235e4" class=""><strong>ANEMIADUETOALTEREDDNASYNTHESIS</strong></p><p id="2297904f-03a9-817a-adc9-c9be27c5f7cf" class=""><strong>VITAMIN B12DEFICIENCY</strong></p><p id="2297904f-03a9-81ad-80f1-eaa9e16f903b" class="">Lack of vitamin B12 can drive from:</p><p id="2297904f-03a9-8142-ae62-ce366cf2c3aa" class="">●Decreased or inadequate intake of vitamin</p><p id="2297904f-03a9-8180-ac88-c7e5e079c4c6" class="">●Vegetarian diet (B12 is mainly found in food of animal origin)</p><p id="2297904f-03a9-819e-9dd4-def7de011877" class="">●Impaired absorption due to <span style="border-bottom:0.05em solid">Intrinsic factor deficiency</span>, which can be caused by:</p><p id="2297904f-03a9-8199-a1e0-deee235918a2" class="">○an autoimmune response against the Intrinsic factor</p><p id="2297904f-03a9-81e7-aee0-deaae4b89466" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-81ae-88ce-f708ffb1da67" class="">11</p><p id="2297904f-03a9-812e-843a-e0890f68ca2f" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-81fd-8b9c-d86da2727988" class="">○an autoimmune response against the gastric parietal cells of the stomach that</p><p id="2297904f-03a9-81c3-b130-f624f3d4c9e5" class="">produce the intrinsic factor for absorption of vitamin B12.</p><p id="2297904f-03a9-8147-90ca-ec9128ab3aa8" class="">→ <strong>pernicious anemia</strong></p><p id="2297904f-03a9-8152-a26c-c889ae16ef9b" class="">In case of pernicious anemia, <strong>megaloblasts</strong> are found in the bone marrow and <strong>macrocytic RBCs</strong> are found</p><p id="2297904f-03a9-81b7-9405-daebbbef468e" class="">in the bloodstream.</p><p id="2297904f-03a9-818c-8813-fa022e30fea8" class=""><strong>ANEMIADUETOALTEREDHEMESYNTHESIS</strong></p><p id="2297904f-03a9-81aa-86f6-d21dc83a2801" class=""><strong>IRON DEFICIENCY ANEMIA</strong></p><p id="2297904f-03a9-8164-afc1-e16889fbb4ea" class="">It can be caused by:</p><ul id="2297904f-03a9-8156-b4d7-ef05b980cefa" class="bulleted-list"><li style="list-style-type:disc">deficiency of iron, necessary for heme synthesis</li></ul><ul id="2297904f-03a9-8151-a675-dd9fc2a6cc1d" class="bulleted-list"><li style="list-style-type:disc">Defective iron uptake</li></ul><ul id="2297904f-03a9-8109-aa20-c6993cc4fe6c" class="bulleted-list"><li style="list-style-type:disc">Increased iron requirement (pregnancy and lactation)</li></ul><ul id="2297904f-03a9-8170-89eb-faa456db4083" class="bulleted-list"><li style="list-style-type:disc">Altered use of iron</li></ul><ul id="2297904f-03a9-8172-bc62-ca5a2990293e" class="bulleted-list"><li style="list-style-type:disc">Faulty synthesis of heme</li></ul><ul id="2297904f-03a9-8100-aeaf-c2c8acd97798" class="bulleted-list"><li style="list-style-type:disc">Chronic blood loss</li></ul><p id="2297904f-03a9-81c6-a53e-f9b37f643d83" class=""><em>fig.1</em></p><figure id="2297904f-03a9-81c0-853d-f74c5b196a83" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image20.png"><img style="width:423px" src="anemias%202297904f03a981de90aee0397196f6b8/image20.png"/></a></figure><p id="2297904f-03a9-81b1-979c-c2298e21c6ff" class="">It is a <strong>microcytic</strong> anemia. In order to notice it, it is necessary to observe the blood smear and compare the dimension of the red cells with the <strong>nucleus of a lymphocyte</strong> (the dark purple cell). In normal conditions they have the same dimension but in this case the red cells are much smaller.</p><p id="2297904f-03a9-814d-b7e1-ca69514e82c9" class="">It is a <strong>hypochromic</strong> anemia: red cells are less colored than normal. The central pale area (due to the absence of a nucleus) is larger than in normal cells, where it is ⅓ the diameter of the erythrocyte.</p><p id="2297904f-03a9-8117-9a34-f8439b3b9f24" class="">Furthermore, it is also possible to highlight the alteration in the shape of erythrocytes. Looking at this blood smear (<em>fig.2</em>) we can observe a microcytic and hypochromic anemia, characterized by the presence of normal cells (the more colored erythrocytes) which are due to a recent blood transfusion.</p><p id="2297904f-03a9-81ee-b682-e255e9eaadaf" class="">There are also different shapes of erythrocytes in the same blood smear and this phenomenon is called <strong>poikilocytosis</strong>. In fact in the smear (<em>fig.2</em>) some cells are round, some others are very elongated (<strong>pencil cells</strong>).</p><figure id="2297904f-03a9-81ba-b2ff-ca2d1272a6c8" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image21.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image21.png"/></a></figure><p id="2297904f-03a9-8119-9605-d8a82cb895d1" class=""><em>fig.2</em></p><p id="2297904f-03a9-81c8-a7bb-ecaea9be0b34" class=""><strong>IRONMETABOLISM</strong></p><p id="2297904f-03a9-81b7-8164-ca5464c06552" class="">The dietary iron intake is <strong>20 mg/day</strong> and to maintain a normal iron balance, about 1 mg of iron must be <strong>absorbed</strong> from the diet every day. This is due to the fact that <strong>only 10% of the iron that we ingest is actually absorbed</strong>. It is estimated that men usually intake more iron than necessary, for it has been estimated that men eat meat more than women.</p><p id="2297904f-03a9-813d-a494-d59bbeb4e7d9" class="">Iron is absorbed in the gut, by the duodenum and proximal jejunum. <strong>About 85% of the absorbed iron is transported in the blood by iron-binding glycoproteins,</strong> such as <strong>transferrin</strong>, and is incorporated into the maturing red blood cells (in the bone marrow) thanks to specific receptors.</p><p id="2297904f-03a9-81f0-98b3-c4098bb7bb81" class="">When <strong>senescent erythrocytes</strong> are removed from the circulation through the spleen (after 120 days), Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8124-8866-c2b6b2f2c615" class="">12</p><p id="2297904f-03a9-8123-abde-c4491904ff77" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-819b-a5ee-dd0a4b4ea716" class="">hemoglobin is degraded and <strong>iron is recycled</strong>.</p><p id="2297904f-03a9-8196-ab56-edc689f7467a" class="">Free iron is present also in vegetables, but mainly present in the oxidized form Fe3+ (ferric iron). Proteins located on the surface of the epithelial cells such as duodenal cytochrome B (ferrireductase) reduce iron in the form Fe2+ (ferrose iron), easier to absorb. The acidic environment present in the stomach, and also the ascorbic acid (vitamin C), facilitate the maintenance of iron in the reduced form. Onceinside the mucosal cells, iron can bind</p><p id="2297904f-03a9-81ec-85d6-c28acdf95ae8" class=""><strong>ferritin</strong></p><p id="2297904f-03a9-81ea-a58d-e167f44692c7" class="">, then it can either - Non-heme iron → DMT1 transporter, more difficult to be absorbed.</p><figure id="2297904f-03a9-8107-9889-df0cff98edcb" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image22.png"><img style="width:409px" src="anemias%202297904f03a981de90aee0397196f6b8/image22.png"/></a></figure><p id="2297904f-03a9-8145-8b07-c7b2fa726bb8" class="">Excess iron is accumulated as <strong>hemosiderin</strong> (disorganized aggregates of iron) or <strong>ferritin</strong> (ordered aggregates of iron with apoferritin).</p><p id="2297904f-03a9-8124-9d85-ece187731556" class=""><em>fig.3</em> <strong>Iron absorption - gut</strong></p><p id="2297904f-03a9-8163-8637-de4203659a01" class="">Food iron can be absorbed in two different ways (<em>fig.4)</em>:</p><p id="2297904f-03a9-812d-bb28-cb09c92d8483" class="">- Heme iron (that we eat in meat) → easily absorbed through heme transporter, 25% of heme iron is absorbed directly from the gut.</p><p id="2297904f-03a9-8164-a3ac-ce23922bfd70" class="">remain inside the cell without being used to produce red blood cells or</p><p id="2297904f-03a9-8161-becb-ea3a9b19b2aa" class="">it can pass into the circulation through <strong>ferroportin,</strong> which is a transporter located in the basal membrane of the mucosal cells.</p><p id="2297904f-03a9-810b-b401-cac37d3ac7a7" class=""><strong>Ferroportin</strong> is regulated by <strong>hepcidin</strong>, a protein produced by the liver, which once produced inhibits ferroportin. Instead, when RBCs need to be produced1, the liver slows down the production of hepcidin so that ferroportin is not inhibited and iron is absorbed more efficiently → <strong>negative loop</strong>.</p><p id="2297904f-03a9-81b7-8b94-fe1a9085f79d" class="">Once iron has passed through ferroportin, it can <strong>enter the blood</strong> and, once <strong>oxidized again in ferric iron</strong>, it binds a protein called <strong>transferrin</strong>, that <strong>transport iron in the bone marrow</strong>, where it finds on the surface of erythroid precursor, some <strong>specific receptors</strong> that have high affinity with tranferrin iron. So, the erythroid precursors absorb iron through <strong>receptor-mediated endocytosis</strong> and then <strong>iron is used for heme synthesis.</strong></p><p id="2297904f-03a9-816e-bcb9-f0f226fa3aa5" class="">Once in the bone marrow, iron will be used to produce erythrocytes while, once in the liver, it will act as a signal increasing the production of <span style="border-bottom:0.05em solid">hepcidin</span>.</p><p id="2297904f-03a9-819e-b3c5-ffb3b0f122dc" class="">1in case of anemias, haemorrhages or hypobaropathies → hyperoxygenation of the tissue → EPO production → bone marrow hyperplasia.</p><p id="2297904f-03a9-81b4-8392-fe91d1e0b5de" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8175-869d-cc4032f193b0" class="">13</p><p id="2297904f-03a9-81b1-ab08-e1814b12452c" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-81e6-b782-df9d9c139337" class=""><em>fig.4</em></p><figure id="2297904f-03a9-81a2-89e5-cf51c2a494e7" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image23.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image23.png"/></a></figure><p id="2297904f-03a9-8177-af17-dd5d8fec5753" class="">Causes of iron deficiencies:</p><p id="2297904f-03a9-812f-9cd6-fec39ded4e28" class="">●Insufficient intake with diet (vegetarianism/veganism).</p><p id="2297904f-03a9-8102-82ce-dc266d76643d" class="">●Defective iron uptake</p><p id="2297904f-03a9-813b-8f12-f86220df6e56" class="">●Increased iron requirement (pregnancy, lactation)</p><p id="2297904f-03a9-8158-ab5e-c04921794d81" class="">●Chronic blood loss because of a gastrointestinal or genitourinary (females) hemorrhage (the most frequent cause).</p><p id="2297904f-03a9-81d0-b7a1-d841541e7f11" class="">●Chronic inflammatory disorders, <em>altered use of iron in chronic diseases</em>.</p><p id="2297904f-03a9-814c-8a5a-e817e09b3b9d" class="">●<strong>sideroblastic anemias:</strong> <em>iron is accumulated in the bone marrow but is not used for the synthesis of heme, so it accumulates in the mitochondria of erythroblasts, altering their functions. Intramedullary death of erythroid precursor (ineffective erythropoiesis).</em></p><p id="2297904f-03a9-8108-a630-ddb468adfb61" class=""><em>This type of anemia can be:</em></p><p id="2297904f-03a9-81c8-b1c5-f36b98d848ef" class="">- <em>Idiopathic</em></p><p id="2297904f-03a9-81c7-91f3-fad02edcd5f3" class="">- <em>Secondary to inflammatory diseases, neoplasms, drugs and ethanol.</em></p><p id="2297904f-03a9-8192-9dc1-f432c80c087c" class=""><strong>ANEMIASDUETODECREASEDSYNTHESISOFGLOBIN</strong></p><p id="2297904f-03a9-81a0-8ff1-e2ebd0f0f110" class=""><strong>THALASSEMIA SYNDROMES</strong></p><p id="2297904f-03a9-8128-8225-d86578c7cf1e" class="">Thalassemia syndromes might be classified also among hemolytic anemias. They are diffused in the Mediterranean basin and are a <strong>heterogeneous group of disorders</strong>. They are caused by <strong>inherited mutations</strong> that decrease the synthesis of either:</p><p id="2297904f-03a9-812c-9b2e-c0687e52014d" class="">- <strong>α-globin chain</strong></p><p id="2297904f-03a9-815b-984c-fcf45f4a6caa" class="">- <strong>β-globin chain</strong></p><p id="2297904f-03a9-8127-86ea-ccdaf846227b" class="">Both of them compose adult hemoglobin, therefore the reduced synthesis of these chains leads to the formation of an abnormal hemoglobin and this causes the <strong>aggregation of hemoglobin in the plasma membrane</strong>. This leads to the formation of <strong>rigid red blood cells,</strong> that are destroyed in the peripheral bloodstream, characterizing thalassemia by <strong>hemolysis of RBCs</strong>→ <strong>hemolytic anemia.</strong></p><p id="2297904f-03a9-8193-a925-f09b3b101a64" class="">This type of anemia is put in second class, because the aggregation of four α chains or β chains already occurs in the bone marrow, so, the precursors of the red blood cells are already abnormal, too rigid, and they usually die in the bone marrow → <strong>reducedineffective erythropoiesis.</strong></p><p id="2297904f-03a9-8187-bc5e-e4a6f8857a38" class=""><em>Haemoglobin A (</em>α2β2<em>) abnormalities lead to anemia, tissue hypoxia, and red cell hemolysis related to imbalance in globin chain synthesis.</em> β<em>-thalassemia represents a </em><em><strong>chronic state of ineffective erythropoiesis</strong></em><em> (due to the death of erythrocyte precursors).</em></p><p id="2297904f-03a9-81f7-8feb-c9759cb283c6" class="">Thalassemias are <strong><span style="border-bottom:0.05em solid">hypochromic</span></strong><strong> and </strong><strong><span style="border-bottom:0.05em solid">microcytic</span></strong><strong> anemias</strong>. We can</p><p id="2297904f-03a9-811b-8740-c647e07d3512" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-81c4-a5ce-e04e8d464e27" class="">14</p><p id="2297904f-03a9-818a-b946-f60c865d356b" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-8114-ad31-e791fa5e8657" class="">divide them in:</p><p id="2297904f-03a9-81e7-a9db-c1602cba28a2" class="">●<strong>β-Thalassemia:</strong> caused by a deficient synthesis of β chains</p><p id="2297904f-03a9-8157-abbb-c87c8fca3e5d" class="">●<strong>α-Thalassemia:</strong> caused by a deficient synthesis of α chains</p><p id="2297904f-03a9-8186-8960-f0e6a1b8ff62" class="">In <em>fig.5</em> is present a blood smear of a patient suffering from β-thalassemia, we can easily observe:</p><ul id="2297904f-03a9-81b0-bd59-c2f5f39f0700" class="bulleted-list"><li style="list-style-type:disc">Variation in size (Anisocytosis)</li></ul><ul id="2297904f-03a9-81fd-a4e4-c250ba86fd2b" class="bulleted-list"><li style="list-style-type:disc">Variation in shape (Poikilocytosis)</li></ul><ul id="2297904f-03a9-819f-b0f3-df126312feab" class="bulleted-list"><li style="list-style-type:disc">Microcytosis</li></ul><ul id="2297904f-03a9-81ac-9c53-c1a76db327ad" class="bulleted-list"><li style="list-style-type:disc">Hypochromia (pale color of red cells)</li></ul><figure id="2297904f-03a9-81ea-b71c-d3eb5eac66df" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image24.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image24.png"/></a></figure><p id="2297904f-03a9-81d1-af9a-d3e31337d9ed" class=""><em>fig.5</em></p><p id="2297904f-03a9-81e0-b5a1-f022dd32f16a" class="">Eventually, some pale erythrocytes have a pink dot in their centre, which represents only an</p><p id="2297904f-03a9-81e4-bdfa-da4298edf44b" class="">accumulation of hemoglobin and NOT a nucleus. These cells are also called <strong>target cells</strong>2.</p><p id="2297904f-03a9-81f5-8678-c553b3787f17" class="">Furthermore, we can see what resembles a nucleated erythrocyte, possessing a nucleus → purple dot</p><p id="2297904f-03a9-81b0-9799-d3f5cac9c93a" class="">in the centre, which is a <strong>normoblast</strong>, nucleated red cell precursor. They may be released into the</p><p id="2297904f-03a9-8103-8ba3-ed552803f06e" class="">blood.</p><p id="2297904f-03a9-819c-9395-f630fbb23151" class=""><strong>Β-THALASSEMIA</strong></p><p id="2297904f-03a9-8158-8690-f0045ca8ed47" class="">It is caused by a <strong>nonsense point mutation3</strong>in the gene that leads to diminishing the synthesis of β-globin</p><p id="2297904f-03a9-819e-9935-f422355ee773" class="">chains. It is the most common genetic disorder in the world. It is very widespread in the countries of the</p><p id="2297904f-03a9-81a0-8f06-d34098af03ab" class="">Mediterranean basin (Italy, mainly Sardinia, Sicily, Ferrara, and Greece), it accounts for 3 million cases,</p><p id="2297904f-03a9-8184-aa92-ff7e989887d9" class="">mostly heterozygous.</p><p id="2297904f-03a9-8156-9684-ebc95d721976" class="">It can be divided into:</p><p id="2297904f-03a9-81ba-b59c-c5047187111e" class="">●<strong>Major (Homozygous-Cooley disease)</strong></p><p id="2297904f-03a9-81d9-bc1a-f881d7d17df6" class="">●<strong>Minor (Heterozygous disease)</strong></p><ul id="2297904f-03a9-817e-a727-cf7b940cf916" class="bulleted-list"><li style="list-style-type:disc"><strong>Major β-Thalassemia</strong>: is characterized by ineffective production of β-globin and Hemoglobin A is</li></ul><p id="2297904f-03a9-8161-91c4-f9036fa12856" class="">composed of 4 α-chains, instead of 2α-chains and 2 β-chains. This leads to an unstable</p><p id="2297904f-03a9-81d3-81a9-d312e5f27bcf" class="">hemoglobin that precipitates on the cell membrane of the RBCs precursors, making red blood</p><p id="2297904f-03a9-81ab-98e6-f2def73b6212" class="">cells very fragile and rigid. Particular types of <strong>hemolytic anemias</strong> are actually <strong>due to alterations</strong></p><p id="2297904f-03a9-81f2-9b6a-fdacb025b190" class=""><strong>in the plasma membrane of the RBCs</strong> since the membrane must be deformable to pass through</p><p id="2297904f-03a9-81a6-8ff3-e969310fa000" class="">2 <em>Cellule bersaglio</em>, in italian</p><p id="2297904f-03a9-81bf-8f4e-c297700c3a77" class="">3 Nonsense point mutation changes the aa codon into a stop codon, truncating the protein, without function.</p><p id="2297904f-03a9-81c5-b224-f8f85c0d545a" class="">Ex. beta globin gene: CAG (glutamine) → UAG (STOP codon) → autosomal recessive mutation, causing the protein to</p><p id="2297904f-03a9-81fa-b01f-d8c542c4e0f1" class="">be rapidly degraded</p><p id="2297904f-03a9-81a1-9a2e-e843ba0fcec3" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-81d0-b0b8-ea39cdc3ff6d" class="">15</p><p id="2297904f-03a9-8164-95a3-e1b6a794b2ff" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-816b-a397-ec9961bfa424" class="">the capillaries.</p><p id="2297904f-03a9-81c1-b1b9-fa0d9e1dc6aa" class="">The ineffective erythropoiesis leads to <strong>intramedullary deathof erythrocytes precursor</strong> and the remaining red cells, which circulate with a very low amount of hemoglobin and present numerous metabolic abnormalities, undergo hemolysis.</p><p id="2297904f-03a9-81a6-8a6c-f9ffe39238b6" class="">The symptoms appear in the first year of life, being fatal in the first two decade of life:</p><p id="2297904f-03a9-81cf-b5e9-c3bf0b0c0c33" class="">- <strong>Development deficit</strong></p><p id="2297904f-03a9-8170-9305-efb93e95a755" class=""><strong>Alteration of all short bones</strong> (<em>fig.6</em>): anemia causes hypoxia, the kidneys begin to secrete -</p><p id="2297904f-03a9-81d5-bb32-e74d29442054" class="">erythropoietin trying to increase the amount of erythrocytes and so trying to increase oxygenation of tissues. This leads to hyper proliferation of red blood cells precursors resulting in a hyperplasia of the bone marrow with the consequent deformity of the bones.</p><figure id="2297904f-03a9-81b6-9460-d1a83620caef" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image25.png"><img style="width:400px" src="anemias%202297904f03a981de90aee0397196f6b8/image25.png"/></a></figure><p id="2297904f-03a9-8146-b3c1-d092c2aec460" class=""><em>fig.6</em></p><p id="2297904f-03a9-810e-8132-ca29fea7488f" class="">- <strong>Hepatic-splenomegaly:</strong> the spleen is rich in resident macrophages whose role is to destroy the old apoptotic red blood cells. In case of a non-physiological hemolysis, the amount of red blood cells to be destroyed increases and consequently also the <strong>resident</strong> <strong>macrophages increase</strong>, leading to the enlargement of this organ.</p><p id="2297904f-03a9-819c-b58a-ffa5b9e13f90" class=""><strong>Infections</strong> -</p><p id="2297904f-03a9-8107-89db-f1c5ac17cd29" class="">- <strong>Cardiac complications</strong></p><p id="2297904f-03a9-815d-ae2f-f9b7e3a67777" class="">- <strong>Iron accumulation in Heart and Liver</strong> due to a massive hemolysis that can lead to iron overload and Hemochromatosis.</p><p id="2297904f-03a9-81ff-a7d6-c0f98d5ef729" class="">In fig.7 we see a normal erythroblast in the blood marrow, its hemoglobin has 2α2β chains, so also the red blood cells will be normal, because the bone marrow will release normal reticulocytes that will mature within 24-48 hours. In β-thalassemia, β globin is not synthesized, so in the plasma membrane we may find insoluble α globin aggregates that lead to the formation to abnormal and rigid erythroblasts in the bone marrow. Most erythroblast die intramedullary, and this leads to ineffective erythropoiesis. The kidney sense that there is an hypoxic condition in the tissue, and in response they release erythropoietin that go in the bone marrow, bind to specific receptors in the precursors and tries to stimulate erythropoiesis. In order to allow the formation of new precursor, we have to absorb bigger quantities of iron to create more heme. Sometimes iron absorption is too much in comparison to the one that is actually needed, so we can have a <strong>systemic iron overload</strong>. The few abnormal red cells that leave the bone marrow have <strong>α globin aggregates in the plasma membrane</strong>, so they are not deformable, so they are <strong>destroyed in the capillaries of the peripheral blood</strong>, but also at the level of the <strong>spleen</strong>, the <strong>liver</strong>.</p><p id="2297904f-03a9-813f-9768-e7970be65370" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-81fe-b215-d462688d9b3e" class="">16</p><p id="2297904f-03a9-81c3-8d4a-c1f6cb313cfc" class="">13.03.2023 GAMBA L.2</p><figure id="2297904f-03a9-81e7-b259-d1713e3944d2" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image26.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image26.png"/></a></figure><p id="2297904f-03a9-81e5-9c7b-de7cca67da10" class=""><em>fig.7</em></p><ul id="2297904f-03a9-81bf-adfc-d6da72960140" class="bulleted-list"><li style="list-style-type:disc"><strong>Minor β-Thalassemia</strong>: is the heterozygous form of β-thalassemia, meaning that it has only one mutated allele and that there is a reduction of 50% in the production of globin β chains. It is usually <strong>asymptomatic or mild</strong> and can aggravate in female patients during pregnancy or during severe infectious processes.</li></ul><p id="2297904f-03a9-81b9-9ce3-c7ea44241d8e" class=""><strong>HEMOLYTIC ANEMIAS</strong></p><p id="2297904f-03a9-81aa-a548-c207da010f56" class="">This type of anemias are characterised by an increased destruction of circulating red blood cells.</p><p id="2297904f-03a9-8168-9aa5-d760539bf017" class="">They are divided into two groups:</p><p id="2297904f-03a9-8188-8ef5-d757a714cf20" class="">●<strong>Intra-globular defects</strong> (problems related to red blood cells)</p><p id="2297904f-03a9-8199-9f92-cc130b5dbc40" class="">●<strong>Extra-globular defects</strong> (problems related to something which is not a red blood cell)</p><p id="2297904f-03a9-8126-a13f-e9cd07ede034" class="">In physiological conditions, red blood cells undergo apoptosis when senescent (after 120 days). It is an active process that needs ATP resulting in the formation of apoptotic bodies, which are then digested by spleen resident macrophages.</p><p id="2297904f-03a9-81e6-9514-f121146c0802" class="">In pathological condition hemolysis can be classified as:</p><p id="2297904f-03a9-8161-ac9e-e7f5cff1ea02" class="">- <strong>Intravascular</strong> (less common): RBCs are destroyed in the peripheral circulation due to a <strong>mechanical</strong> <strong>injury.</strong></p><p id="2297904f-03a9-8118-b193-f86237b539f9" class="">Ex. this can happen during a marathon run, where RBCs are destroyed under the feet at each step, or in people who play drums with their hands, where RBCs break with each percussion (obviously after a long time of playing the instrument).</p><p id="2297904f-03a9-8154-9b69-fd41bb6557fe" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-81af-b3c4-f7cee4b3b865" class="">17</p><p id="2297904f-03a9-8105-915f-c98792b2ef09" class="">13.03.2023 GAMBA L.2</p><ul id="2297904f-03a9-81a8-a81e-c9f79692cb9a" class="bulleted-list"><li style="list-style-type:disc"><strong>Extravascular</strong> (majority): is caused by alteration that renders RBC membranes less deformable,</li></ul><p id="2297904f-03a9-817c-9f95-c4ad45cdbd15" class="">leading to their <strong>sequestration and phagocytosis by spleen resident macrophages</strong>. This process</p><p id="2297904f-03a9-8151-8061-f1a684c4534b" class="">will lead to <strong>macrophages hyperplasia</strong> and so to <strong>splenomegaly.</strong></p><p id="2297904f-03a9-8176-9fda-d739c16981b7" class="">Hemolytic anemias share the following features:</p><ul id="2297904f-03a9-818d-9932-e2ea8d0b5bb4" class="bulleted-list"><li style="list-style-type:disc">Shortened RBC life span (below the normal 120 days);</li></ul><ul id="2297904f-03a9-8137-8099-f1adf2fc7dcf" class="bulleted-list"><li style="list-style-type:disc">Elevated erythropoietin levels and a <strong>compensatory increase in erythropoiesis</strong> (compensatory</li></ul><p id="2297904f-03a9-8184-a822-fbee3faeea4c" class="">hyperplasia);</p><ul id="2297904f-03a9-8126-845b-d20462b467de" class="bulleted-list"><li style="list-style-type:disc">Prominent reticulocytosis in the peripheral blood, due to increased erythropoiesis;</li></ul><ul id="2297904f-03a9-8181-9a5b-c7e0ac7ba4ee" class="bulleted-list"><li style="list-style-type:disc">Accumulation of hemoglobin degradation products (iron accumulation in the spleen, liver and</li></ul><p id="2297904f-03a9-8115-afd1-e85880cb8a25" class="">bone marrow, hemosiderosis).</p><p id="2297904f-03a9-81a4-b344-c6841b9c59cd" class="">Clinical manifestations:</p><ul id="2297904f-03a9-8135-93d9-c0b3debd2fb2" class="bulleted-list"><li style="list-style-type:disc">Variable grade anemia;</li></ul><ul id="2297904f-03a9-8185-824f-e71ad9039792" class="bulleted-list"><li style="list-style-type:disc">Pre-hepatic jaundice (increase</li></ul><p id="2297904f-03a9-816b-8aa1-d8bbde800e0c" class="">in the quantity of</p><p id="2297904f-03a9-8177-9540-d2115386f246" class="">unconjugated bilirubin in the</p><p id="2297904f-03a9-8172-9d25-fdd7ffa3e443" class="">blood, which comes from</p><p id="2297904f-03a9-81bc-bc27-e34b053f6303" class="">heme degradation);</p><ul id="2297904f-03a9-81f8-b098-dfde36f752c1" class="bulleted-list"><li style="list-style-type:disc">Asthenia and fatigue (low</li></ul><p id="2297904f-03a9-81a9-84b1-dd05e7fa725c" class="">quantity of oxygen);</p><ul id="2297904f-03a9-8115-a25f-c019e5388a8b" class="bulleted-list"><li style="list-style-type:disc">Lower limb ulcers;</li></ul><ul id="2297904f-03a9-8120-bfa5-d772b5a26c7b" class="bulleted-list"><li style="list-style-type:disc">Splenomegaly;</li></ul><ul id="2297904f-03a9-819f-8e30-fd9364ea015d" class="bulleted-list"><li style="list-style-type:disc">Aplastic crisis;</li></ul><ul id="2297904f-03a9-81e9-a182-edc8a5ea5cf8" class="bulleted-list"><li style="list-style-type:disc">Skeletal abnormalities.</li></ul><figure id="2297904f-03a9-81ce-a1e1-eb142725764b" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image27.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image27.png"/></a></figure><p id="2297904f-03a9-815c-9077-da11290415d1" class=""><em>fig.8</em></p><p id="2297904f-03a9-818a-a4bc-f9dc13227f61" class=""><strong>HEMOLYTICANEMIASWITHINTRA-GLOBULARDEFECTS</strong></p><p id="2297904f-03a9-810d-b9c4-c97ae861efb8" class=""><strong>INTRINSIC DEFECTS IN THE RED CELL MEMBRANE</strong></p><p id="2297904f-03a9-81f8-8c08-e652887b2b0a" class="">The <strong>shape and the elasticity of the RBC</strong> are guaranteed by the <strong>structure of the plasma membrane</strong> and by <strong>proteins</strong> located just below the plasma membrane, connecting the membrane with the cytoskeleton: <strong>spectrin</strong> and <strong>ankyrin</strong>. The deficiency of one of these two protein does not allow the erythrocyte to maintain the <strong>biconcave shape.</strong></p><figure id="2297904f-03a9-8182-a94e-e3476712adef" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image28.png"><img style="width:622px" src="anemias%202297904f03a981de90aee0397196f6b8/image28.png"/></a></figure><p id="2297904f-03a9-8153-a28b-e2d17f0f7e7f" class=""><em>fig.9</em></p><p id="2297904f-03a9-815b-875a-d43dea3f5e5c" class=""><strong>Spherocytosis</strong> is observed through molecular defects of these proteins. The aberrant RBCs (spherocytes) have a spherical shape, resulting less elastic and poorly deformable than normal ones, so they can die intravascularly or they can be retained by the spleen and then destroyed through hemolysis by macrophages.</p><p id="2297904f-03a9-81fc-a9cb-d82a8e48f47b" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-81e4-bc7c-ca362f154b79" class="">18</p><p id="2297904f-03a9-810b-9b99-eddcff62a4d1" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-81ad-9d30-cb30e1babc12" class="">Looking at a blood smear, they will not present the characteristic central pale area because they are not</p><p id="2297904f-03a9-81fd-aac3-c47f8df13221" class="">biconcave but completely spherical, so they <strong>appear homogeneously pink</strong>.</p><p id="2297904f-03a9-812e-8eee-d22b7da4b094" class="">It is an autosomal dominant inheritance with the highest prevalence in Northern Europe (1:5000)</p><p id="2297904f-03a9-81be-9c0b-ea24aaaa3cc1" class="">Patients affected by this disease can develop some complications:</p><p id="2297904f-03a9-815c-a1c2-cc73938a6012" class="">●Hemolytic crisis: rapid worsening of anemia and jaundice, triggered by an infection.</p><p id="2297904f-03a9-812f-a62c-c2933daf5c39" class="">●Aplastic crises: rapid fall in hemoglobin concentration precipitated by parvovirus B19 infection</p><p id="2297904f-03a9-81b9-8040-cd45fb6d2bac" class="">●Megaloblastic crisis: worsening anemia resulting from severe Folate deficiency caused by</p><p id="2297904f-03a9-8124-a9a1-f5bc1faf6875" class="">increased bone marrow requirement in hemolysis.</p><p id="2297904f-03a9-818a-abc5-fd2f9923bc2b" class="">●Skeletal abnormalities</p><p id="2297904f-03a9-818b-86a5-f82fdb260f0b" class="">●Leg ulcers</p><figure id="2297904f-03a9-817c-a374-f05bd613864a" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image29.png"><img style="width:528px" src="anemias%202297904f03a981de90aee0397196f6b8/image29.png"/></a></figure><p id="2297904f-03a9-8195-9659-f2ffe76977d2" class=""><em>fig. 10</em></p><p id="2297904f-03a9-8190-b4fa-cc98aaa399d8" class=""><strong>Elliptocytosis</strong> is another type of anemia which is very similar to the one just described, the only difference</p><p id="2297904f-03a9-81db-83d0-f960bb4072e3" class="">is that RBCs have an <strong>elliptic shape</strong>.</p><p id="2297904f-03a9-8146-9971-dfcffeb2a12c" class=""><strong>Acanthocytosis</strong> is another type of hemolytic anemia, and it is due to an increased amount of cholesterol</p><p id="2297904f-03a9-8159-abc9-d59e9eaad048" class="">in the plasma membrane, which makes it less elastic.</p><p id="2297904f-03a9-81bd-bce8-ec9dc1a8fb7b" class=""><strong>Paroxysmal nocturnal hemoglobinuria</strong> is another type of hemolytic anemia, in which the malformation</p><p id="2297904f-03a9-8193-8d10-c472c7904a5c" class="">of the membrane occurs in the totipotent stem cells, giving rise to erythrocytes, platelets, monocytes and</p><p id="2297904f-03a9-8198-ab41-cf0f06918cf6" class="">granulocytes with plasma membrane alterations that will cause <strong>hemolytic crisis</strong>, mainly <strong>during the night</strong>.</p><p id="2297904f-03a9-813e-b81e-e324930763ad" class=""><strong>Clinical features:</strong></p><ul id="2297904f-03a9-81e8-92f3-c90b062520e2" class="bulleted-list"><li style="list-style-type:disc">Anemia</li></ul><ul id="2297904f-03a9-8115-970f-fdae68d472f2" class="bulleted-list"><li style="list-style-type:disc">Splenomegaly</li></ul><ul id="2297904f-03a9-8162-af10-ddd2795eb967" class="bulleted-list"><li style="list-style-type:disc">Jaundice</li></ul><p id="2297904f-03a9-81c9-a246-f8845553e85a" class="">Patients with HS can develop serious complications as:</p><ul id="2297904f-03a9-8141-ab03-c28ff1a219a6" class="bulleted-list"><li style="list-style-type:disc">Hemolytic crisis: rapid worsening of anemia and jaundice, triggered by infection.</li></ul><ul id="2297904f-03a9-81b3-a218-ec2144929d6a" class="bulleted-list"><li style="list-style-type:disc">Aplastic crisis: rapid fall in hemoglobin concentration precipitated by parvovirus B19 infection</li></ul><ul id="2297904f-03a9-81f3-a93c-d2b3ca4e9da3" class="bulleted-list"><li style="list-style-type:disc">Megaloblastic crisis: worsening anemia resulting from <strong>severe folate deficiency</strong>, caused by</li></ul><p id="2297904f-03a9-8107-a584-f60d9b40c3ff" class="">increased bone marrow requirement in hemolysis.</p><p id="2297904f-03a9-81c2-9eb8-ca2f08511eaf" class="">Other complications: pigmented gallstones, growth failure, skeletal abnormalities and leg ulcers.</p><p id="2297904f-03a9-8143-9fa2-e04d094993e9" class=""><strong>CLINICAL DIAGNOSIS</strong></p><p id="2297904f-03a9-8135-9f98-d660401e4a7a" class="">A 41yo white woman presented to the emergency department. She described fever, cough and exercise</p><p id="2297904f-03a9-817c-ac94-c0d0ace82e91" class="">intolerance, yellowish discoloration of her eyes, and pain in the left upper quadrant that had been ongoing</p><p id="2297904f-03a9-81f9-a17d-f79d74ec28d8" class="">for three days. She had experienced three similar episodes in the past five years. Each episode resolved</p><p id="2297904f-03a9-81b8-8b87-f0e258d96aeb" class="">completely after treatment with antibiotics prescribed by her general practitioner. She had no other</p><p id="2297904f-03a9-81a9-ae25-dd36613445ab" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-814e-9b7f-c3a7b23a9360" class="">19</p><p id="2297904f-03a9-81cd-a0f1-da2481f56fcd" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-8167-a50c-dd5935d53959" class="">notable medical condition or family history.</p><p id="2297904f-03a9-815e-a403-eddd1b755824" class="">She appeared pale and had scleral icterus. Her spleen was enlarged and palpable below the left costal margin, firm inconsistency, and mildly tender on palpation.</p><p id="2297904f-03a9-81f6-920d-c69ba74401bf" class="">●Examination of peripheral blood film revealed abnormalities in red blood cell morphology: marked <strong>spherocytosis and polychromasia</strong> on peripheral blood smear</p><p id="2297904f-03a9-8143-a75b-d5a091d2ff6b" class="">●Ultrasonography of the abdomen confirmed <strong>splenomegaly</strong> with spleen size of 16 cm.</p><p id="2297904f-03a9-814e-bc4d-d85cc13a881e" class="">The diagnosis is <strong>hereditary spherocytosis,</strong> presenting a hemolytic crisis.</p><p id="2297904f-03a9-8177-bca5-c332e3b43ed5" class="">In <em>fig.11</em> is analyzed a blood smear: spherocytes are the cells pointed by the red arrows, while blue arrows point to reticulocytes. Polychromasia (reticulocytosis) is an important sign, which helps to understand that the bone marrow is functioning and has activated a hyperplastic mechanism with the aim to restore the normal amount of RBC.</p><p id="2297904f-03a9-811f-b212-ec95ddf5c571" class=""><em>fig.11</em></p><figure id="2297904f-03a9-8177-a8cf-d9e697b7d34b" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image30.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image30.png"/></a></figure><p id="2297904f-03a9-8185-bb9a-d15af1b74303" class="">The results of the laboratory investigations reported (<em>fig.12</em>):</p><p id="2297904f-03a9-81ba-95c3-e3f3f17620eb" class="">●<strong>Reduction in hemoglobin concentration,</strong> as spherocytes are destroyed peripherally. ●<strong>Increase of reticulocytes,</strong> because the bone marrow is trying to restore the normal amount</p><p id="2297904f-03a9-8141-b497-f924823456ec" class="">of RBCs.</p><p id="2297904f-03a9-8151-8935-fa5d1c7e6dc9" class="">●<strong>Increase in lactate dehydrogenase</strong> (LDH), an enzyme released by cells that undergo necrosis</p><p id="2297904f-03a9-8180-87bf-c7112e5a813c" class="">(due to the lack of functioning RBCs and so of a hypoxic condition of tissues).</p><p id="2297904f-03a9-81f6-af85-fbce78e7229e" class="">●<strong>Increase in bilirubin levels</strong>, resulting from an increase in heme destruction.</p><p id="2297904f-03a9-8115-88cc-cdfa9ad92dfd" class="">●<strong>Reduction in haptoglobin</strong>: this protein is very important and is considered a <strong>markerof</strong></p><p id="2297904f-03a9-81bc-b027-cea5b124acce" class=""><strong>hemolytic anemia</strong>, it normally binds free hemoglobin. Keep in mind that, during lab analysis,</p><p id="2297904f-03a9-817d-8fd2-ce90a681b193" class="">we measure the amount of free haptoglobin (not bound to heme).</p><p id="2297904f-03a9-811c-be8f-cf8e28afb96e" class="">○In physiological conditions, we can detect a normal amount of this protein because</p><p id="2297904f-03a9-81f4-bca7-f48d5a4d2c42" class="">there is no free heme in the blood circulation and so haptoglobin will not bind</p><p id="2297904f-03a9-8120-b9a1-e7df73134de8" class="">anything.</p><figure id="2297904f-03a9-8127-8d0b-c99d6e155553" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image31.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image31.png"/></a></figure><p id="2297904f-03a9-81c9-9fff-d12ccd4225e1" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-812e-8919-ddc4bf55d086" class="">○ When there is hemolytic</p><p id="2297904f-03a9-81ec-8627-d3dc49c8e3cd" class="">anemia, lots of heme is free in</p><p id="2297904f-03a9-81a2-ba11-d35a5c1e8065" class="">the blood. It will bind to</p><p id="2297904f-03a9-81f2-a78c-fd0ad2dbc63f" class="">haptoglobin and so the</p><p id="2297904f-03a9-81f1-bd12-f8f070f79d45" class="">amount of haptoglobin</p><p id="2297904f-03a9-81ac-a9b3-eef641f49611" class="">measured in the lab will be</p><p id="2297904f-03a9-818c-a0fb-f07d055cc7d3" class="">smaller than normal.</p><p id="2297904f-03a9-8115-b09f-f3af209ee457" class=""><em>fig.12</em></p><p id="2297904f-03a9-81db-87b8-ce06ebce1428" class="">Therapy:</p><ul id="2297904f-03a9-81db-9183-c3647a7e56a8" class="bulleted-list"><li style="list-style-type:disc">If the patient is</li></ul><p id="2297904f-03a9-8102-9a51-cc2f00cf2955" class="">asymptomatic, no treatment is</p><p id="2297904f-03a9-817c-a118-e95739835f8f" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-8152-90d0-f91d0dcf92bc" class="">required</p><ul id="2297904f-03a9-8143-b6e1-c4763583cad4" class="bulleted-list"><li style="list-style-type:disc">Infections can precipitate hemolytic crisis in people with this condition</li></ul><ul id="2297904f-03a9-81a5-8e25-d8cd1aa47fa6" class="bulleted-list"><li style="list-style-type:disc">Moderate/severe cases can require:</li></ul><ul id="2297904f-03a9-818d-b4bc-c41c3a4e1215" class="bulleted-list"><li style="list-style-type:disc">Splenectomy</li></ul><ul id="2297904f-03a9-8117-9f33-fd91b71ee4be" class="bulleted-list"><li style="list-style-type:disc">Folic acid supplementation</li></ul><ul id="2297904f-03a9-812e-9a72-c511c177b95b" class="bulleted-list"><li style="list-style-type:disc">Regular blood transfusion, generally performed in young children.</li></ul><p id="2297904f-03a9-8161-a412-c4d91b4c794a" class="">In <em>fig.13</em> two blood smear of:</p><figure id="2297904f-03a9-81fb-a543-c2002d57a8ab" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image32.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image32.png"/></a></figure><p id="2297904f-03a9-819d-a133-d414cc81f717" class=""><em>Fig.13</em></p><figure id="2297904f-03a9-8123-8e3a-e313317ba454" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image33.png"><img style="width:414px" src="anemias%202297904f03a981de90aee0397196f6b8/image33.png"/></a></figure><p id="2297904f-03a9-81d9-a74b-e6c8a4c45392" class=""><em>fig.14: pathophysiology of HS</em></p><p id="2297904f-03a9-81d6-86d3-ee022f3caf0b" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8128-994d-da8f7381b543" class="">21</p><p id="2297904f-03a9-8119-9453-eb1b15c48f12" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-814f-833e-ee1b273d58af" class=""><strong>Defects in the haemoglobin structure 🡪 Sickle cell anemia</strong></p><p id="2297904f-03a9-8137-a560-fb6e34081b92" class="">The RBCs acquire a <strong>peculiar sickle shape</strong>. It is the most diffused disease of this category.</p><p id="2297904f-03a9-81c5-b79b-f64de2374822" class="">It is a common hereditary hemoglobinopathy caused by a <strong>point mutation</strong> in the sixth codon of β-globin gene that leads to the replacement of a glutamate acid with a valine residue (<strong>missense mutation</strong>).</p><figure id="2297904f-03a9-816f-8408-edf747c753fd" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image34.png"><img style="width:560px" src="anemias%202297904f03a981de90aee0397196f6b8/image34.png"/></a></figure><p id="2297904f-03a9-8145-b06e-d90474b7e060" class=""><em>fig.15</em></p><p id="2297904f-03a9-81ea-9119-fa24e7c44ee4" class="">The mutation promotes the <strong>polymerization of deoxygenated hemoglobin</strong>, leading to red cells distortion and consequently hemolytic anemia, micro vascular obstruction and ischemic tissue damage. Structurally <strong>abnormal Hb is less soluble</strong> than the native protein, especially in the deoxygenated form, it <strong>precipitates</strong> inside the RBC <strong>forming fibers</strong> that can damage the membrane.</p><p id="2297904f-03a9-8170-ae70-c54d2c905fae" class="">Falcization (acquisition of the sickle shape) of the erythrocyte is not constitutive (the RBC of an affected patient are not all sickle shaped) but occurs under specific conditions:</p><p id="2297904f-03a9-8188-97b6-fdc7281a5b9d" class="">●Hypoxia</p><p id="2297904f-03a9-8195-bbae-d9b0dc03beac" class="">●Increased acidity</p><p id="2297904f-03a9-81ad-a1fe-c079fa60626e" class="">●Temperature rise</p><p id="2297904f-03a9-8176-8fd8-e2c2f9e29567" class=""><em>About 8% to 10% of African Americans, or roughly 2 million individuals, are heterozygous for HbS, a largely asymptomatic condition known as </em><em><strong>sickle cell trait</strong></em><em>. The offspring of two heterozygotes has a 1 in 4 chance of being homozygous for the sickle mutation, a state that produces symptomatic sickle cell disease. In such individuals, almost all the hemoglobin in the red cell is HbS (α2βs2). There are about 70,000 individuals with sickle cell disease in the United States. In certain populations in Africa the prevalence of heterozygosity is as high as 30%</em></p><figure id="2297904f-03a9-8110-ae77-ece63fb23350" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image35.png"><img style="width:700px" src="anemias%202297904f03a981de90aee0397196f6b8/image35.png"/></a></figure><p id="2297904f-03a9-818f-8560-e245c0a8e6ce" class=""><em>fig. 16</em></p><p id="2297904f-03a9-81a4-92d9-fce6cc41b3d9" class="">As we can see, the “sickle transition” does not last too long and does not excessively damage the membrane. When the intracellular calcium concentration increases and an augmented excretion of water</p><p id="2297904f-03a9-817f-939b-d74229315131" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8135-9f18-edb302ced5a8" class="">22</p><p id="2297904f-03a9-817d-850c-c41da64b33f3" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-81a0-a946-df959325da6e" class="">and potassium takes place, the cell becomes dehydrated. It can be reversed when the RBC is relatively young and is reoxygenated, at the end it will be again rehydrated. This cannot occur anymore when the RBC has become senescent.</p><p id="2297904f-03a9-81ca-956f-e5aed50e5e59" class="">Irreversibly, sickle cells are destroyed mainly by the spleen and can also cause micro vascular occlusion leading to ischemic events at the level of tissue like chest, bones, abdomen and can cause pain.</p><p id="2297904f-03a9-8174-9b5d-c5ce9324298c" class="">Clinical Features:</p><p id="2297904f-03a9-81a4-862d-f1ab8819681c" class="">●Sickled cells</p><p id="2297904f-03a9-81e2-ab93-e92a4ea79019" class="">●Reticulocytosis</p><p id="2297904f-03a9-818f-a354-d9fcc2124a9b" class="">●Hyperbilirubinemia</p><p id="2297904f-03a9-81db-8ad3-ebd22b6aa7cf" class="">●Vaso-occlusive crises, also called pain crises (hypoxic injury and infarction that cause severe pain in the affected region. The most commonly involved sites are the bones, lungs, liver, brain, spleen, and penis)</p><p id="2297904f-03a9-81c6-bf42-cfd17112edc8" class="">●stroke and retinopathy leading to loss of visual acuity and even blindness</p><p id="2297904f-03a9-8197-a1ce-d6ff81343fd5" class=""><strong>HEMOLYTIC DISEASE DUE TO RED CELL ENZYMES DEFECT</strong></p><p id="2297904f-03a9-8141-bc35-e7ce6a082a08" class="">The most important are two:</p><p id="2297904f-03a9-81e7-a53d-fcf1f116c264" class=""><strong>●PK deficiency,</strong> due to the deficiency of the pyruvate kinase, an enzyme that is involved in the last phases of glycolysis.</p><p id="2297904f-03a9-81f0-86a4-f3b4a6acae1c" class="">●<strong>G6PD</strong> deficiency (Glucose 6 phosphate dehydrogenase) that leads to a disease called <strong>Favism</strong>. G6PD is fundamental for the antioxidant response of cells. It is responsible for the reduction of NADP+ in NADPH, which in turn is necessary for the conversion of oxidized glutathione into <strong>reduced glutathione</strong> (an important antioxidant). The lack of this important antioxidant causes hemoglobin to besusceptibleto <strong>oxidative stress:</strong></p><p id="2297904f-03a9-81a9-8886-fc0acc68ebae" class="">oIt will detach from the heme</p><p id="2297904f-03a9-813e-a3b2-c1f0364ad841" class="">oIt will precipitate in the form of Heinz bodies making the red blood cell rigid. In turn Heinz bodies can also damage the membrane. This condition is also a hemolytic anemia.</p><p id="2297904f-03a9-816f-ba13-ee3006becb48" class=""><em>Favism</em>, the condition that develops, is characterized by the</p><p id="2297904f-03a9-818a-8155-e2af765396a4" class="">after the ingestion of fava beans and peas and some drugs (such as Aspirin, sulfonamides, antibiotics, vitamin K). It is normocytic and normochromic.</p><figure id="2297904f-03a9-814d-ae67-c2be1efd3497" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image36.png"><img style="width:387px" src="anemias%202297904f03a981de90aee0397196f6b8/image36.png"/></a></figure><p id="2297904f-03a9-811d-bee7-c645bd87265b" class="">presence of <strong>Heinz Bodies</strong>: membrane-bound precipitates, dark inclusion bodies within red blood cells stained with crystal violet. Moreover, the cells look as bite, they are the result of the splenic macrophages plucking out the inclusion bodies. It is triggered</p><p id="2297904f-03a9-813d-8847-ce014772c483" class=""><em>A blood smear: fig.17</em></p><p id="2297904f-03a9-81fd-89f2-f97a4f5b6a18" class=""><em>The most important characteristic is the “Bite cells”:</em></p><p id="2297904f-03a9-8173-b990-c9596b59a604" class=""><em>are the result of the splenic macrophages plucking</em></p><p id="2297904f-03a9-8169-aab5-dfacb15464c3" class=""><em>out the inclusion bodies</em>.</p><p id="2297904f-03a9-8159-a366-dc81e56952ee" class=""><em>fig.17</em> <strong>HEMOLYTICANEMIASWITHEXTRA-GLOBULARDEFECTS</strong></p><p id="2297904f-03a9-812a-abe1-c5e24fcfd94a" class="">3 types:</p><p id="2297904f-03a9-8140-bd08-c490451326bd" class="">oAntibody mediated destruction</p><p id="2297904f-03a9-8127-8672-fa3d52883843" class="">oResulting from trauma to RBCs</p><p id="2297904f-03a9-8165-be69-d3ed733186f8" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8120-a701-dede8f6e1450" class="">23</p><p id="2297904f-03a9-8126-b372-e98362e20352" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-8118-8090-ca18d8bf7168" class="">oFrom infectious, chemical and physical agent</p><p id="2297904f-03a9-8103-abd1-ced382c06173" class=""><strong><span style="border-bottom:0.05em solid">Antibody-mediated destruction: hemolytic disease of newborns</span></strong></p><p id="2297904f-03a9-819d-98e6-e13beff82609" class="">Immune hydrops or <strong>hydrops fetalis</strong> is a type of hemolytic anemia caused by an autoimmune reaction against RBCs: blood-group antigen incompatibility between mother and fetus, causing the accumulation of <strong>edema fluid in the fetus</strong> during intrauterine growth.</p><p id="2297904f-03a9-81b0-8276-c82d029357ff" class="">Specific case:</p><ul id="2297904f-03a9-8106-b5e5-c120aec4700b" class="bulleted-list"><li style="list-style-type:disc">mother Rh-</li></ul><p id="2297904f-03a9-81fd-ab4f-e6b98cf28145" class="">- father Rh+</p><p id="2297904f-03a9-8138-a627-c28c22d98907" class="">- fetus Rh+</p><p id="2297904f-03a9-81a9-b3f1-c0fbf87ce556" class="">Generally in the first pregnancy it is not risky as the mother only produces IgM (don’t cross the placenta), but for the following ones, where IgG antibodies are formed (cross the placenta), it is. This particular type of hemolytic anemia is caused by <strong>Rh blood group incompatibility between mother and fetus</strong>: in particular, it happens in Rh positive fetuses carried by a mother presenting a Rh negative phenotype.</p><p id="2297904f-03a9-819c-b374-efeec563f730" class="">Intrauterine fluid is accumulated on the fetal tissues:</p><p id="2297904f-03a9-8119-a569-f12c12f0387a" class=""><em>fig.18</em></p><figure id="2297904f-03a9-81f7-9346-fbe01de4cf3c" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image37.png"><img style="width:524px" src="anemias%202297904f03a981de90aee0397196f6b8/image37.png"/></a></figure><ul id="2297904f-03a9-81ca-b1db-e9e2fbd469e4" class="bulleted-list"><li style="list-style-type:disc">It can be a <strong>generalised edema of the fetus</strong> (commonly known as hydrops fetalis), it is a usually lethal condition.</li></ul><ul id="2297904f-03a9-81f3-9e86-e6f6ebd34c2f" class="bulleted-list"><li style="list-style-type:disc">A more <strong>localised edema</strong> is compatible with life and usually occurs in the <strong>post nuchal area</strong>. In this case it is known as “<strong>cystic hygroma</strong>”. The reaction occurs in second and subsequent pregnancies from a Rh negative mother and a Rh positive father, when the fetus inherits the Rh antigens from the father on its RBC.</li></ul><p id="2297904f-03a9-81a2-a9e4-e707b110674b" class=""><em>From the slides:</em></p><p id="2297904f-03a9-8153-b07d-f014ed6aeb04" class=""><em>Fetal RBCs can reach the maternal circulation only during the last trimester of pregnancy or during childbirth itself, thus the mother becomes sensitized to the foreign antigens.</em></p><p id="2297904f-03a9-81ef-b9d2-f1dd2141e10b" class=""><em>The initial exposure to Rh antigen (first pregnancy) evokes the formation of IgM antibodies.</em></p><p id="2297904f-03a9-81d0-b3a1-fe6ba0591b99" class=""><em>Exposure during a subsequent pregnancy generally leads to the formation of IgG and the risk of immune hydrops. </em><em><strong>D antigen</strong></em><em> is a major cause of Rh incompatibility. Concurrent ABO incompatibility protects the mother against Rh immunisation because the fetal red cells are promptly coated and removed from the maternal circulation by anti-A or anti-B IgM antibodies that do not cross the placenta.</em></p><p id="2297904f-03a9-8112-a521-da31b385be83" class=""><em>Administration of Rh-Ig (Rhesus Immune globulin containing anti-D antibodies) at 28 weeks of gestation and within 72 hours of delivery to Rh- negative mothers (first pregnancy or after abortions) significantly decreases the risk for hemolytic disease in Rh-positive neonates and in subsequent pregnancies. </em><em><strong>Fetal hemolysis caused by maternal-fetal ABO incompatibility</strong></em><em> (20-25% of pregnancy, severe in 1:200 cases). ABO hemolytic disease occurs almost exclusively in infants of group A or B who are born of group O mothers. Most anti-A and anti-B antibodies are of the IgM type and hence do not cross the placenta.</em></p><p id="2297904f-03a9-81e7-a150-d5dba7e036a4" class=""><em>Neonatal red cells express blood group antigens A and B poorly. Many cells other than red cells express A and B antigens and thus absorb some of the transferred antibody. For unknown reasons, certain group O women possess IgG antibodies directed against group A or B antigens (or both) even without prior</em></p><p id="2297904f-03a9-811d-b5e6-d990a5cd5e6c" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8177-b729-f188dd8f4988" class="">24</p><p id="2297904f-03a9-8191-8263-e66efd031d30" class="">13.03.2023 GAMBA L.2</p><p id="2297904f-03a9-81b5-afff-eff36267d063" class=""><em>sensitization. Therefore, the first born may be affected.</em></p><p id="2297904f-03a9-81cc-8f49-feda13fcd422" class=""><span style="border-bottom:0.05em solid">Consequences</span></p><ul id="2297904f-03a9-81ec-b2f7-dd54469dfe99" class="bulleted-list"><li style="list-style-type:disc">mild hemolysis, anemia.</li></ul><ul id="2297904f-03a9-81a1-bd9f-e7d8b05a96ef" class="bulleted-list"><li style="list-style-type:disc">severe hemolysis causes hypoxic injury to all the body of the fetus, especially liver and heart, giving rise to reduced production of the main plasmatic proteins, causing a reduction of oncotic pressure and generalized edema.</li></ul><p id="2297904f-03a9-8115-9d3a-cb8ee6582a9a" class=""><em>From the slides:</em></p><p id="2297904f-03a9-8141-8b26-fbe8e01516ab" class=""><em><strong>→ </strong></em><em><strong><span style="border-bottom:0.05em solid">Anemia</span></strong></em><em>.</em></p><p id="2297904f-03a9-8101-8054-fc191b578030" class=""><em>If hemolysis is mild, increased red cell production may suffice to maintain near-normal levels of red cells. However, with more severe hemolysis, progressive anemia develops and may result in hypoxic injury to the heart and liver. Because of liver injury, plasma protein synthesis decreases, and levels of these proteins may drop to as low as 2 to 2.5 mg/dL. Cardiac hypoxia may lead to cardiac decompensation and failure. The combination of reduced plasma oncotic pressure and increased hydrostatic pressure in the circulation (secondary to cardiac failure) results in generalized edema, culminating in hydrops fetalis</em></p><p id="2297904f-03a9-8181-950f-d29126c4f482" class="">●<em>Both the fetus and placenta are pale.</em></p><p id="2297904f-03a9-818a-806d-ecdb628f79b2" class="">●<em>Liver and spleen are enlarged.</em></p><p id="2297904f-03a9-81e4-baa0-c4cd881049b7" class="">●<em>The bone marrow demonstrates compensatory hyperplasia of Erythroid.</em></p><p id="2297904f-03a9-8130-bcb1-d6361f307c45" class="">●<em>Extramedullary hematopoiesis in the liver, spleen, lymph nodes, and possibly other tissues such as</em> <em>the kidneys, lungs, and even the heart.</em></p><p id="2297904f-03a9-81e0-807e-d69a4299a8a5" class="">●<em>Presence in the peripheral circulation of large numbers of immature red cells, including reticulocytes</em> <em>and erythroblasts (erythroblastosis fetalis).</em></p><p id="2297904f-03a9-812a-8d1a-f7451dfd0a33" class="">●<em>The most serious threat in fetal hydrops is CNS damage, known as </em><em><strong>kernicterus</strong></em><em>.</em></p><p id="2297904f-03a9-8120-b124-f5d634318f25" class="">25</p><p id="2297904f-03a9-817d-a511-c05e3f13e03a" class="">when sectioned, has a bright yellow color, particularly the basal ganglia, thalamus, cerebellum, cerebral grey matter and spinal cord.</p><p id="2297904f-03a9-81f3-9fcf-ea6f8ce032a7" class=""><em>Fig.19</em></p><figure id="2297904f-03a9-81a3-853d-ebcf9084d3cd" class="image"><a href="anemias%202297904f03a981de90aee0397196f6b8/image38.png"><img style="width:547px" src="anemias%202297904f03a981de90aee0397196f6b8/image38.png"/></a></figure><p id="2297904f-03a9-813b-9df2-f31e7ce19180" class=""><strong>→ </strong><strong><span style="border-bottom:0.05em solid">Jaundice</span></strong></p><p id="2297904f-03a9-81a9-94bb-eb32788a9a0e" class="">Jaundice develops since hemolysis causes the release in blood of unconjugated bilirubin, which can pass through the infant’s poorly developed BBB. Being water-insoluble, bilirubin binds to lipids in the brain and, since the brain is the organ with the highest amount of cholesterol, the presence of bilirubin can damage the CNS, causing kernicterus. The brain is enlarged and edematous and,</p><p id="2297904f-03a9-8164-b77c-d311e8c493da" class="">Eleonora Deinite, Chiara Rosa</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

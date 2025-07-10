@@ -1,0 +1,779 @@
+24.03.2023 GAMBA L.5
+NUTRITIONAL DISEASES
+Last year, the topics of this lecture were explained by another professor. The parts colored in gray
+are those explained by him previously and not by Gamba during this year’s lecture, but were kept in
+the sbobina because they may add useful information.
+The main subjects we try to address are nutritional diseases and disorders, adverse reactions to
+food, allergies and intolerances, celiac disease.
+M
+ALNUTRITION
+An appropriate diet should provide sufficient energy in the form of carbohydrates, fats and proteins,
+vitamins and minerals.
+The proper diet should contain at least 50-55% of the food intake in carbohydrates. So carbohydrates
+should be the main source in a proper balanced diet. For people doing sports it is the same.
+Carbohydrates represent the most important fuel in our body, in fact if you think about the ATP
+production by a single molecule of glucose you easily recognize the importance.
+It is not necessary to eat too many proteins because you just overload the kidney function (10-20%).
+As far as lipids are concerned, not many are needed, maximum 20-30%.
+We have two main carbohydrates classes: simple sugars and complex sugars. We need to eat
+complex sugars and not too many simple sugars because they are almost immediately absorbed, on
+the contrary complex sugars have a delayed effect because it takes two/three hours to absorb them.
+So when we say that a balanced diet should contain at least 50-55% of the food intake in
+carbohydrates, we are mainly talking about complex sugars even if it depends on physical activity,
+basal metabolism and energy demand.
+An equilibrated diet should also include a wise way of food intake meaning it is better to split the
+daily calorie intake into 3 or 5 different small meals instead of eating the majority of food for instance
+in the evening. If you eat all the majority of your calories in the evening you go to bed and do not
+consume the calories. It is better to eat dividing meals at different moments.
+It is important to differentiate between primary malnutrition and secondary malnutrition.
+Primary malnutrition is when all the components are missing from the diet, while secondary
+malnutrition is a type of malnutrition due to other pathologies, related to malabsorption for
+example. At the end the result is the same, this components are missing from the body, but the
+difference depends on the etiology of the malnutrition.
+The conditions that may lead to malnutrition are a lot:
+- poverty;
+- self-imposed dietary restrictions (conditions like anorexia or bulimia);
+- ignorance and failure of diet supplementation. Ignorance because for example we should know
+that folic acid is essential in pregnant women, but because of ignorance it may not be
+supplemented;
+- advanced cancers in which cachexia occurs;
+- chronic alcoholism;
+- gastrointestinal pathologies and malabsorption syndromes, genetic diseases (may cause
+malabsorption and secondary malnutrition);
+- specific pharmacological therapies and total parenteral nutrition;
+- infections.
+Carolina Gervasio. Fereshteh Tarakemeh
+50
+24.03.2023 GAMBA L.5
+M
+AJOR DISEASES AND CONDITIONS ASSOCIATED WITH INADEQUATE DIGESTION AND FOOD MALABSORPTION
+1) Gastric resection, accelerated gastric emptying (short bowel syndrome = sindrome dell’intestino
+corto)
+2) Pancreatic insufficiency (for example we have seen cystic fibrosis, a recessive disorder whose
+name comes from this fibrotic tissue at the level of the pancreas. In the case of cystic fibrosis we
+have a pancreatic insufficiency and the lack of production of pancreatic enzymes leads to a
+malabsorption due to genetic disorders.)
+3) Pathologies of the liver and biliary tract with cholestasis
+4) Congenital or acquired lactase deficiency
+5) Intestinal villous atrophy (celiac disease)
+6) Chronic inflammation of the intestinal mucosa
+The last two of course lead to malabsorption and secondary malnutrition.
+It is important to not intake an insufficient amount of carbohydrates because we need glucose for
+energy, if it is not sufficient we use lipids and then proteins - amino acids and fatty acids to produce
+energy and this is not good.
+On the contrary, an excessive carbohydrate uptake especially in the case of simple sugars is not good
+because then they become a good substrate for new lipid synthesis, so you increase the rate of lipid
+synthesis especially in the liver causing the production of TGs (triglycerides) and so liver steatosis.
+Moreover, too many lipids in the gut make the digestion difficult, causing diarrhea, meteorism
+because the microbiota takes advantage of this excess of lipids.
+If we do not have enough amino acids and protein intake our protein synthesis will be impaired and
+lead to blood clotting deficit (due to deficit in protein synthesis), impairment of immunological
+defenses.
+On the other hand, if we eat too many proteins we give extra work to our kidneys. It depends on age,
+in aging people the problems are amplified.
+If we do not have a sufficient uptake of lipids we have an impaired absorption of fat soluble vitamins
+(A, E, K, D) and also we need long chain fatty acids, whereas short chain FAs could be provided by a
+physiological healthy microbiota.
+An excessive uptake of lipids will lead to troubles in digestion. Long digestion problems like diarrhea
+are present.
+SAM
+SAM stands for Severe Acute Malnutrition. It is a new way to indicate PEM, that stands for Protein
+Energy Malnutrition (in Italian malnutrizione protidoenergetica), and was used until some years ago.
+Now in new textbooks, it is called SAM and it is common in low income countries and around 25%
+of children are affected by it. Malnutrition is determined based on the BMI (body mass index). BMI
+is the calculated as the ratio between weight (expressed in kg) and squared height (expressed as
+2
+squared meters). If this value is less than 16 kg/m , the person is considered to be affected by
+malnutrition. Two people can appear different and still have the same BMI because it also depends
+on the distribution of fats and skeletal muscles.
+Other useful parameters are:
+-
+fat reserves (thickness of skin folds),
+- muscle mass (reduced circumference of the central part of the arm),
+- serum protein (the measurement of albumin and transferrin). Proteins like albumin are measured
+in order to understand whether you are in front of a person will malnutrition, because a typical sign
+of malnutrition is hypoalbulinemia (low levels of albumin in the blood),
+- gut microbioma (it changes in people with malnutrition)
+Carolina Gervasio. Fereshteh Tarakemeh
+51
+24.03.2023 GAMBA L.5
+There are two differently regulated protein compartments in the body:
+1) somatic compartment (proteins in skeletal muscles)
+2) visceral compartment (protein stores in the visceral organs, primarily the liver). It is composed
+by the proteins that are more vital for our organs.
+M
+ARASMUS
+In Italian it is called Marasma. It is characteristic mainly of children that are lacking calories, they
+have a deficit in total calories, not only proteins. These are children that do not eat enough fats or
+proteins. A child is considered to have marasmus when weight falls to 60% of normal for sex, height,
+and age and has low BMI (lower than 16). They are characterized by growth retardation and loss of
+muscle because in case of deficit in total calories we have catabolism and depletion of the somatic
+protein compartment. The visceral protein compartment, which is presumably more precious and
+critical for survival, is only marginally depleted, and hence serum albumin levels (and other proteins
+in the blood) are either normal or only slightly reduced. Subcutaneous fat is also mobilized and used
+as source of energy. Anemia may be also present and signs of multiple vitamin deficiencies are
+present. For example we have seen that vitamin B12 is essential for DNA synthesis and a
+megaloblastic anemia can be present. Vitamin C is important for the absorption of iron, so in case
+of a deficiency also iron is depleted and there is a sideroblastic anemia. and there is evidence of
+immune deficiency (concurrent infections).
+Question: why we see megaloblastic anemia in this?
+Answer: because vitamin B12 is present in all the foods of animal origin and
+the precursors of red blood cells in the bone marrow are not able to divide
+and proliferate and it causes megaloblastic anemia, so megaloblasts die
+inside the bone marrow and so few red blood cells are released in the blood
+and the few that reach the blood are bigger. This is because the
+proerythblasts try to divide, so the cytoplasm becomes bigger but the DNA is
+not able to duplicate and divide, so this gives rise to a bigger cell. This
+depends also on the susceptibility of the child, because he may have a
+megaloblastic anemia because of the lack of B12 but microcytic anemia
+because of the lack of iron.
+Fig. 1
+K
+WASHIORKOR
+The most common form of SAM in African children who have been weaned
+too early and fed, almost exclusively, a carbohydrate diet. They do not eat
+proteins but only carbohydrates and so a marked protein deprivation is
+associated with severe depletion of the visceral protein compartment.
+Proteins of the liver are catabolized and the resultant hypoalbuminemia
+gives rise to generalized edema. This is because the low colloidosmotic
+pressure in the blood brings fluid to exit from the blood and reach the tissues.
+This kind of edema is called transudate, not to be confused with inflammatory
+edema, the exudates. The loss of weight in these patients is masked by the
+increased fluid retention, very severe condition. Fat deposits are maintained,
+muscle atrophy is less marked than in marasmus. Less severe forms can be
+seen in individuals with chronic diarrheal states.
+Fig. 2
+The term is originated from Ghana and it means “the disease of the first
+child”. This is because when the second child is born, the mother gives milk to the second and the
+Carolina Gervasio. Fereshteh Tarakemeh
+52
+24.03.2023 GAMBA L.5
+first child loses his milk.
+Both marasmus and kwashiorkor are characterized by different types of anemia. It may be
+microcytic because of the lack of iron or macrocytic because of the lack of vitamin B12.
+The brain may be also affected if the child suffers from this malnutrition during the first 1 or 2 years
+of life or if children are born from mother that suffer from malnutrition, the brain may be less
+developed have and cerebral atrophy already at birth.
+S
+ECONDARY MALNUTRITION
+Secondary malnutrition often develops in chronically ill, elderly, and bedridden patients. More than
+50% of older residents in nursing homes in the United States are malnourished. The signs of
+secondary malnutrition are:
+(1) Depletion of subcutaneous fat
+(2) Muscle atrophy
+(3) Ankle or sacral edema
+(4) Increased risk of infection
+(5) Impaired wound healing
+(6) Anemia
+C
+ACHEXIA
+Cachexia is a sort of secondary malnutrition that occurs in patients with advanced cancers. It is a
+highly debilitating condition characterized by:
+1) Extreme weight loss
+2) Fatigue
+3) Muscle atrophy (Mortality is generally the consequence of atrophy of the diaphragm)
+4) Anemia
+5) Anorexia
+6) Edema
+The major mechanism of cachexia is the destruction of proteins by
+the proteasome. In particular we have the PIF (proteolysis-inducing
+factor) that together with the TNF and other cytokines released by
+the tumor or by the host cell bind to specific receptors and activates
+NFkB. NFkB translocates to the nucleus and activates the
+transcription of several pro-inflammatory cytokines and also some
+muscle specific ubiquitin ligases. So NFkB activation favors the
+ubiquitination of proteins and proteins that are ubiquitinated are
+recognized by the proteasome and are degraded by it. This results in
+the loss of myocytes. I won’t ask you about cachexia, this is just an
+Fig. 3
+example I wanted to add.
+V
+ITAMIN DEFICIENCIES
+Vitamins may be fat soluble or water soluble. Vitamin A, vitamin K and vitamin D are all liposoluble.
+Vitamins can be synthesized by our body or absorbed through the diet. Vitamin D is an example of
+a vitamin synthesized by our body but it can be also assumed with the diet.
+Carolina Gervasio. Fereshteh Tarakemeh
+53
+24.03.2023 GAMBA L.5
+Vitamin deficiency can also be primary or secondary (due to other diseases that avoid the absorption
+of the vitamin).
+● Vitamin A
+Vitamin A is a fat soluble vitamin. It is present as preformed
+VitA in foods of animal origin. Also, the preformed VitA
+represents 70% of all the vitamin A that we have to assume. The
+other 30% is represented by the vitamin A in the form of
+provitamin A present in vegetables, for example the
+carotenoids and beta-carotene is the main one present in
+vegetables, like in carrots. Beta carotene or vitamin A in the
+form of retinol is absorbed by the intestine and charged in
+lipoproteins called chylomicrons. These reach the liver and
+bind to specific receptors on hepatocytes that recognize the
+apolipoprotein E that surrounds chylomicros. Retinol enters
+the hepatocytes and it is esterified into retinyl esters, which is
+the form of retinol that can be stored in the tissues. In case of
+need, the retinol binds to specific binding proteins and reach
+the peripheral tissues. Also in the peripheral tissues, retinol may
+be esterified in order to be stored and used only when needed.
+Its main functions are:
+1) Maintenance of normal vision
+2) Cell growth and mainteinance of the differentiation of
+Fig. 4
+epithelial cells (important in the differentiation of the muco-
+secreting epithelium). The compound that in particular is
+responsible for the maintenance of the differentiation of epithelial cells is the retinoid acid that
+comes from the oxidation of retinol in the periphery.
+3) Metabolic effects (e.g. drug metabolism, fatty acids…)
+4) Stimulation of the immune system
+5) Photoprotection
+6) Antioxidant
+It is protective towards all epithelia, it has an epithelial tropism.
+The causes of vitamin A deficiency are general undernutrition (or primary malnutrition) and
+secondary malnutrition due to malabsorption of fats that characterizes cystic fibrosis. In cystic
+fibrosis, we have the lack of pancreatic enzymes that brings to fat malabsorption, steatorrhea,
+diarrhea and all the vitamins that are fat-soluble are lost.
+The vitamin A deficiency brings to impaired vision, in particular in reduced light.
+In particular you have problems because of the purple pigment, the production of which needs a
+sufficient amount of vitamin A. If this doesn’t happen we have hemeralopia, where in the late
+afternoon you don’t see properly because of the low levels of light. In particular, even in the
+conjunctiva and cornea you have an increased production of connective tissue.
+It causes epithelial metaplasia and keratinization. As I told you, retinol is important in maintaining
+the differentiation of cells. Metaplasia is characterized by the morphological changes of well
+differentiated cells in another well differentiated cells. For example the squamous metaplasia. The
+term squamous refers to the cells in their final conformation. In the airways, the epithelium is
+psudostratified (monolayer that appears as a multilayer because of the organization of the nuclei),
+columnar and ciliated. The metaplasia is characterized by the loss of the cilia and the acquisition of
+new phonotypical characteristics and the cells become squamous. The squamous metaplasia of the
+Carolina Gervasio. Fereshteh Tarakemeh
+54
+24.03.2023 GAMBA L.5
+epithelia is a characteristic of the vitamin A deficiency and this happens mainly at the level of the
+epithelium of the conjunctiva and the lacrimal ducts bringing to this pathological condition called
+xeroftalmia, characterized by dryness of the conjunctiva (also called dry eye). At the level of the
+eye, we can find the bitot spots, corneal ulcers and also keratomalacia, which is the more severe
+condition at the level of the eye and can lead to blindness and is characterized by the erosion of the
+corneal surface. This is due to the dry eye and to the fact that this squamous metaplasia sometimes
+is also characterized by keratinization (deposition of keratin). This characteristics can be also
+present at the level of the respiratory tract, so a kind of keratinized squamous metaplasia similar to
+the metaplasia that appears in the smokers. Remember that metaplasia is an adaptation to a
+condition, in this case vitamin A deficiency so it is a reversible condition in case of the restoration of
+normal quantities of vitamin A and tissue may be again normal, but the problem is that metaplasia
+is a precancerousis so it has high probability to become a malignant tumor.
+A deficiency could cause problems in all epithelia, including intestinal, neurological and
+cardiovascular. We should be very careful about supplementing vitamin A because it could easily
+lead to hypervitaminosis. When you give a vitamin complex, a mixture of different vitamins that
+includes vitamin A, you should be careful not to prolong the vitamin supplementation over two or
+three months, to avoid hypervitaminosis.
+● Vitamin D
+It is another fat-soluble vitamin. it is characterized by endogenous synthesis in the skin starting from
+the precursor 7-dehydrocholesterol that thanks to a
+photochemical reaction (UVB radiation) (~ 90%). This
+reaction results in the synthesis of cholecalciferol,
+known as vitamin D3 and synthesized endogenously in
+the skin. It can also be assumed in the diet, only 10% is
+present in food, for example dairy foods.
+Cholecalciferol is not so active, it has to be
+metabolized by the liver and the kidney. In the kidney
+there are important enzymes that oxidize vitamin D
+giving rise to 1,25-dihydroxy-vitamin D. 1 and 25 are
+the positions in which cholecalciferol is oxidized.
+Remember that this oxidized form is created thanks to
+the enzymes present in kidney and liver, so if we have
+problems at the level of the liver or kidney also vitamin
+D may not be oxidized and so activated.
+The main steps of vitamin D metabolism are:
+1) Photochemical synthesis of vitamin D from 7-
+dehydrocholesterol in the skin and absorption of
+vitamin D from foods
+Fig. 5
+2) Binding of vitamin D to plasma α1- globulin (D-
+binding protein or DBP, which is a transporter) and transport into the liver.
+3) Conversion of vitamin D into 25-hydroxycholecalciferol [25-OH-D] in the liver, through the action
+of 25- hydroxylases (enzyme present in the liver), including CYP27A1 and other CYPs.
+4) Conversion of 25-OH-D into 1,25- dihydroxyvitamin D [1α,25(OH)2D3], the most active form of
+vitamin D, by the enzyme 1α-hydroxylase in the kidney.
+Main functions of vitamin D are to preserve the adequate plasma levels of calcium and phosphorus.
+Conditions of hypocalcemia or hypophosphatemia are able to be sensed by the kidney that
+activates these enzymes and brings to the formation in that moment of more active vitamin D. The
+Carolina Gervasio. Fereshteh Tarakemeh
+55
+24.03.2023 GAMBA L.5
+high levels of active vitamin D bring to a sort of negative feedback, because if we have too much or
+sufficient active vitamin D the kidney stops oxidizing new 25-hydroxycholecalciferol, while if it is
+needed it is oxidized.
+1,25- dihydroxyvitamin D stimulates the intestinal absorption of calcium and phosphorus, made
+through active transport in the small intestine and passive transport in the colon. Vitamin D
+regulates especially the absorption of calcium, especially in the small intestine where the transport
+is active. Vitamin D is important for bones and muscle function and reactivity, and also against
+infections. Also the parathyroid glands have the important role to sense the extracellular
+concentration o calcium. When there is a condition of hypocalcemia, the parathyroid glands
+produce the PTH that stimulates the kidney to oxidize the inactive form of vitamin D creating the
+active form and at the same time the PTH stimulates the maturation of the osteoclasts that degrade
+bones bringing the release of calcium.
+For instance, during Covid-19, in many groups with moderate to severe disease, vitamin D was very
+low. This is probably a secondary consequence, but some people suggested supplementing Covid
+patients with vitamin D, and other people suggested using vitamin D to prevent viral infections.
+Vitamin D is an oxysterol, and it could contribute to good antiviral response.
+Fig. 7
+I prefer to start explaining this (fig.6) from point 4. When you have low serum concentration of
+calcium and phosphate in the blood, the parathyroid gland produces PTH. PTH stimulates the
+maturation of osteoclasts so calcium is taken from the bones and at the same time it stimulates the
+kidney to oxidize the 25-hydroxycholecalciferol to the 1,25- dihydroxyvitamin D. This active
+compound goes to stimulate the absorption of calcium and phosphorus to restore their
+concentration in blood. The consequencies of hypocalcemia and hypophosphatemia are at the level
+of the bone mineralization and it can bring to rickets (in Italian rachitismo) in children (fig.7). In
+growing children it is characterized by micrifractures, skeletal malformations, malformations not
+only at the level of the legs that have a particular shape similar to arches and also at the level of the
+head which has flat occipital bones and deformation of the parietal ones. Also the sternum may be
+Carolina Gervasio. Fereshteh Tarakemeh
+56
+24.03.2023 GAMBA L.5
+convex. In adults the lack of vitamin D is called osteomalacia, characterized
+Fig. 6
+mainly by being prone to fracture. Hypocalcemic tetany is a convulsive state
+due to the low calcium concentration of ionized calcium, which is required
+for normal neural excitation and the relaxation of muscles. It’s easy to get a
+vitamin D deficiency, especially in some areas where there’s not enough
+exposure to sun. Hypervitaminosis D is very rare, even in supplemented
+people, contrary to hypervitaminosis A.
+Fig. 7
+● Vitamin C
+It is also called ascorbic acid and it is a water soluble vitamin. It derives
+exclusively from the diet (liver, milk, fish, lemons, oranges, tomatoes and the
+food that contains the biggest quantity vitamin C is the pepper). The main function of vitamin C are:
+• activation of enzymes that lead to the formation of collagen in particular the vitamin C accelerates
+the hydroxylation of pro-collagen and in this way collagen can be produced and excreted from the
+fibroblasts in the right way;
+• it has antioxidant properties (for examples a lot of creams for women are rich in vitamin C because
+of their anti-oxidant properties)
+• Facilitates intestinal absorption of iron. Iron, to be absorbed, must be in the reduced form, and
+vitamin C needs to be absorbed in the oxidized form. Thanks to vitamin C iron can be absorbed and
+used for the production of red blood cells. Often young ladies using iron supplementation are
+provided with iron and vitamin C in the oxidized form, that reduces iron. It’s easier to absorb iron if
+it’s coupled with vitamin C.
+Scurvy (in Italian scorbuto) is the consequence of hypovitaminosis C, and it gives many problems.
+It’s difficult to have hypovitaminosis C in our area, but there are countries in which fruits and
+th th
+vegetables are not of easy assumption and in 15 and 16 century it was diffused in sailors that did
+not have fresh fruits. In our case vitamin C
+deficiency could be only due to a specific
+malnutrition, like alcoholism, which
+interferes with the absorption of various
+nutrients. Alcohol can give gastritis and
+gastroenteritis, it could favor damage to
+our gastric and intestinal mucosa. It is
+characterized by poor vessels support that
+results in bleeding tendency because and
+collagen is missing, it is impaired. This
+Fig. 8
+shown at the level of the gums, the skin
+because the little vessels may rupture, impaired wound healing or scar formation.
+It is well absorbed in our intestine especially in oxidized form, so dehydroascorbic acid (the reduced
+form is ascorbic acid). Vitamin C and vitamin E react well together. Vitamin E is in the cell
+membranes, and one single molecule of vitamin E keeps under control about 2000/3000 molecules
+of polyunsaturated fatty acids, because of the very tight and efficient interaction with vitamin C.
+When polyunsaturated fatty acids undergo oxidation, vitamin E rapidly gives an electron so the free
+radical reaction is blocked and the polyunsaturated fatty acid is not damaged and not broken down.
+But now vitamin E is oxidized in the middle of the membrane, and once it’s oxidized the molecule
+Carolina Gervasio. Fereshteh Tarakemeh
+57
+24.03.2023 GAMBA L.5
+moves towards the cytoplasm and it’s at the internal border of the membrane. Here it’s able to
+interact with hydrosoluble antioxidant vitamin C, which loves to be oxidized. As soon as it interacts
+with vitamin E, vitamin C gets oxidized, gives the electron to vitamin E and vitamin E is ready to go
+back in the middle of the membrane and work to protect polyunsaturated fatty acids. After 2-3
+months of vitamin A retinol supplementation there is a risk of moderate hypervitaminosis, so
+epithelia may be in trouble.
+Usually vitamin E employed in supplements is ɑ-Tocopherol. There are 4 tocopherols and 4
+tocotrienols. The molecule exerting the best antioxidant action is ɑ-Tocopherol, so that’s what
+supplements provide. Vitamin E has a strong antioxidant activity, as said above.
+● Vitamin B12
+We spoke about this when talking about anemia. Vitamin B12 or methylcobalamin is an important
+co-factor in the synthesis of B12. It is present in food of animal origin like meat or milk and it is taken
+up by the protein. To be absorbed at the level of the intestine
+needs to be bound to this violet molecule (fig.9) that is
+intrinsic factor.
+The intrinsic factor is produced and released by the parietal
+cells of the stomach and binds vitamin B12 and at the level of
+the intestine the intrinsic factor binds to specific receptors and
+in this way the binding of B12 can be passive. I want to focus
+on the intrinsic factor that is necessary. The lacking of vitamin
+B12 can be due both to a primary malnutrition (like veganism,
+because they do not eat foods of animal origin) or it can be
+due to a secondary malnutrition for example chronic gastritis
+conditions in which the cells of the stomach are not able to
+produce the intrinsic factor. It can be also due to conditions at
+the level of the intestine in which the receptor for intrinsic
+factor are not exposed or there is an inflammatory condition
+that avoids the binding and the absorption of the complex
+vitamin B12-intrisic factor. Or there is another disease, that is
+pernicious anemia. It is an autoimmune condition in which
+there are auto-antibodies directly against the gastric parietal
+cells. So these antibodies block the production of the intrinsic
+factor or they can be directly against the intrinsic factor itself
+and in this case it is not able to bind the vitamin B12 or against
+cubilin, which is the receptor. In this case B12 is assumed, but
+Fig. 9
+cannot be absorbed. Also pernicious anemia is a cause of
+secondary malnutrition. The consequence is a megaloblastic anemia. At the level of the bone
+marrow these proerythroblasts are bigger than normal because they are trying to divide, but the
+DNA is impaired. So bigger erythroblasts are present in the bone marrow and usually they die in the
+bone marrow, so it is an intramedullary death of the precursors of the red blood cells. The
+consequence is an insufficient erythropoiesis, few erythrocytes are released in the blood and those
+few are bigger than normal. These macrocytic erythrocytes are often destroyed also in circulation.
+Folic acid and vitamin B12 are similar in the symptomatology. Pregnant ladies are given folic acid
+supplementation independently of their serum concentration, because there’s no problem with
+hyperaccumulation and it’s important to have sufficient folic acid for DNA synthesis. Folic acid and
+vitamin B12 behave in a similar way but with an exception: only vitamin B12, in case of deficiency,
+Carolina Gervasio. Fereshteh Tarakemeh
+58
+24.03.2023 GAMBA L.5
+is able to induce neurological symptoms. They are very important in nucleic acid synthesis and in
+the synthesis of the heme group. This activity is essential, otherwise you would have megaloblastic
+anemia.
+● Vitamin K
+Vitamin K can have two different sources: vegetables (K2) and our microbiota, good commensals
+are producing vitamin K1 for us. We don’t really face any hypervitaminosis with vitamin K. Vitamin
+K is important in blood clotting and a decrease in vitamin K you have derangement of blood
+coagulation.
+Hydrosoluble vitamins don’t give hypervitaminosis, you can eat as much as you want and they don’t
+accumulate, the body removes the excess. But there are different deficiencies, and some of them
+are of interest in the REDOX biology of our body. Some vitamins belonging to the B family are
+important in redox biology, regulating oxidative and reductive processes.
+● Thiamine, B1
+It is important in regulating carbohydrate metabolism. Deficiency of this vitamin leads especially to
+neurological problems. Beri-Beri is a syndrome not frequent anymore but typical of the far East,
+where the diet was deficient in particular of vitamin B1. The symptomatology was characterized by
+immunological problems, intestinal problems and cardiovascular problems.
+● Vitamin B2 and B3
+They are important in the redox regulation of different functions of our cells and organs. They are
+so important because they are the main component of coenzymes FAD, NAD and NADPH. Vitamin
+A, E, B2, B3, C are important in the redox regulation of many functions. The main biochemical
+pathways regulating metabolism and functions in cells are dependent on calcium, on
+phosphorylation/dephosphorylation and on reduction and oxidation.
+● Vitamin B6 and B7 are important in different metabolisms, in particular in the structure and
+function of skeletal muscle.
+A
+DVERSE REACTIONS TO FOOD
+They can be
+1. toxic reactions, they are intoxications, there is not individual difference
+2. non toxic reactions, could be
+a. due to altered immune response (=allergies)
+i. IgE dependent
+ii. non-IgE dependent (characterized by other types of immunoglobulins that
+are produced)
+iii. mixed
+a. not of immunologic order (=intolerances, which are difficult to diagnose)
+i. enzymatic type
+ii. pharmacologic type
+iii. induced by food additives
+1. Toxic type (intoxications)
+There is not any distinction among individuals so the toxin hit all of us. There are different types of
+toxins: from poisonous mushrooms like Amanita phalloides, Amanita verna, Amanita virosa which
+may be fatal; then from contaminants of food stuff, when the storage is not adequate (like in the
+Carolina Gervasio. Fereshteh Tarakemeh
+59
+24.03.2023 GAMBA L.5
+so called biological foods) we can have the growth of dangerous microorganisms e.g. aspergillus
+which produces aflatoxins. The carcinogenic properties of these compounds imply that the
+consumption is repeated along the time, along the years. More common and frequent are
+intoxications because of Clostridium Botulinum, Staphylococcus Aureus and Salmonella Typhi.
+Intoxications are involved in all the people assuming the contaminated food.
+Fig. 10
+2a. Allergies
+This are adverse reactions to foods that are non toxic. They
+are very diffused. They can be IgE dependent or not, for
+example in the case of IgA or IgG antibodies. The latter is the
+case of the celiac disease, which is a non toxic adverse
+reaction to food non IgE mediated and can be considered
+also an autoimmune disorder, but is wrong to consider it as
+an intolerance. The food allergies mediated by IgE can be
+mediated by allergens and is characterized by the release of
+IgE. Usually give symptoms in a few minutes, hours so the
+reaction is fast, acute, sometimes very strong as in the case
+of anaphylaxis. An allergen stimulates the production of IgE.
+IgE are bound specifically to the mast cells, that we saw in
+acute inflammations. They are rich in granules that contain
+a lot of inflammatory mediators like histamine. In case of
+repeated exposure to allergen, so a second exposure to the
+allergen, the latter finds already IgE on the surface of mast
+cells so the binding of the allergen with the IgE leads to the
+explosive degranulation of the mast cells, and so all the
+vasoactive amines and histamine are released causing the
+allergic reaction. This is just to say that IgE mediated
+allergies are characterized by IgE production and
+degranulation of the mast cells.
+On the contrary, the allergies not mediated by IgE, but still mediated by improper reaction of the
+innate immunity, show a late onset of symptoms. To complicate the all picture there is an increasing
+number of conditions characterized by IgE and non IgE mediated symptoms: you have the symptoms
+from the very beginning lasting for hours or days.
+Mechanism of allergies (figure below): allergens start the first phase of sensitization of cells, in
+particular mastocytes and basophils that start expressing on the surface IgE and it is only the second
+encounter with the same or similar allergen because of the reaction of IgE on the surface of the cell,
+there is a massive, acute release of inflammatory mediators like histamine and prostaglandins that
+cause the allergic reaction which leads to local and systemic symptoms in particular conjunctivitis,
+nasal allergy, asthma, urticaria.
+Carolina Gervasio. Fereshteh Tarakemeh
+60
+24.03.2023 GAMBA L.5
+Fig. 11
+The symptoms of IgE mediated food allergies: the
+individual reaction can be specific so symptoms
+depend on the single individual and also on the
+amount of sensitizing bacteria.
+More frequent causes of IgE mediated
+inflammatory reactions, local or systemic: milk,
+wheat, eggs.
+The cross reactivity of different allergens: the
+reaction is not triggered only by the same allergen
+that made the sensitization but also by a close
+structure allergen.
+Fig. 12
+Here is just a list of non IgE mediated allergies: the first 3 are enteropathies (colitis,
+proctocolitis), they are occurring very early in the childhood and are characterized by abnormal
+innate immune responses to some protein content of a given food.
+The T helper reactions could be mainly driven by type 1 and 2. Another similarity is the
+involvement of inflammatory cells, dendritic cells, production of proinflammatory cytokines.
+Carolina Gervasio. Fereshteh Tarakemeh
+61
+24.03.2023 GAMBA L.5
+Regarding eosinophilic GI disorders, they could
+be divided into esophagitis, gastritis,
+enterocolitis. In this case you have a mixed
+condition in which IgE is present but not only
+IgE so it is a IgE non IgE dependent condition.
+Again, usually in these disorders the
+inflammation is T helper 2 type.
+The response mediated by Th1 is mainly leading
+to activation of cytotoxic T cells response while
+Th2 response, typical of allergies, is producing
+antibodies.
+Fig. 13
+Fig. 14
+C
+ELIAC DISEASE
+This disease is very diffused. The incidence is 1 out of 100 people so it is pretty common.
+Also in literature, celiac disease is commonly called gluten intolerance or an autoimmune disorder
+without going in depth about the etiology, BUT IT IS NOT AN INTOLERANCE, it is an autoimmune
+disease. Also in the texts it is difficult to define it. What is sure is that this is a non-IgE mediated
+food allergy. It is an immune mediated disorder that can be also considered an autoimmune
+disorder because the immunoglobulin produced can also attack cells and tissue and it triggered by
+the ingestion of gluten-containing foods and also other foods that are naturally gluten-free but
+they may be contaminated by gluten because they are made in the same laboratory in which gluten
+is used. IgE are not involved, the celiac disease is in between allergies and intolerances. Allergies
+and autoimmune diseases are close.
+Symptoms are different, but only some people will show this adverse reaction and the reaction will
+be different among different celiac patients. They include digestive problems, anemia, skin rash,
+and joint pain, in children also growth retardation.
+It is a disease that causes secondary malnutrition, due to malabsorption of the main components of
+the diet only when the patients eats these kinds of food containing gluten. The gluten-free diet
+completely restores the normal condition.
+The prevalence of the disease varies in different regions and depends on the wheat consumption.
+In some papers it is written that in countries in which wheat is widely used, like in Western countries,
+the celiac disease is more diffused. It may also depend on age in which wheat has been given to
+Carolina Gervasio. Fereshteh Tarakemeh
+62
+24.03.2023 GAMBA L.5
+babies. This disease can occur in young children but also in adults, between the ages of 30 and 60.
+It is characterized by chronic diarrhea, bloating, or chronic fatigue, but is often asymptomatic. There
+are patients that if they eat some gluten have no symptoms while others have acute ones. These
+cases may present with anemia due to chronic iron and vitamin malabsorption.
+P
+ATHOGENESIS OF CELIAL DISEASE
+Fig. 15
+When celiac disease is active (when
+the patients eats gluten), it is
+characterized by the loss of villi in
+the intestine.
+The main problem with celiac
+disease is structural change of the
+upper part of the small intestine
+(duodenum, jejunum) where the
+majority of villi are present. You
+could have maybe only a
+lymphocytic inflammation, so
+typical of chronic type and then
+damage of the villi so flattened
+mucosa. There are different degrees
+of severity of syntomps. The picture shows you normal and flattened villi.
+We have a flattening of the villi by the increase number of intraepithelial lymphocytes and the
+increase mitosis of the enterocytes. Gluten is digested into lipopeptides creating some aminoacids
+and also lipopeptides that cannot be digested like gliadin. Gliadin is a 33 amino acid peptide. Gliadin
+stimulates enterocytes to produce zonulin. Zonulin binds specific receptors on the enterocytes and
+this binding leads to the contraction of enterocytes and the destruction of tight junctions. Gliadin is
+present at the surface of the lumen of our intestine stimulates the enterocytes to produce
+interleukin 15. Interleukin 15 is able to stimulate the proliferation of the intraepithelial
+lymphocytes. The intraepithelial lymphocytes express on their surface this marker, NKG2D (not
+important to remember), and it is important because it allows the lymphocytes to recognize the
+enterocytes that have expressed MIC-A (ligand of the marker) and it is expressed by those
+enterocytes that are under stress (for example inflammation, altered microbiota and other stimuli).
+The epithelial lymphocytes attack the enterocytes expressing MIC-A and they destroy them, so they
+die of necrosis. Moreover in this way some spaces are created between the enterocytes and gliadin
+passes and enters the epithelium. At the same time gliadin also stimulates the epithelial cells to
+produce a molecule called osteogen that destroys the tight junctions, such as occludin, that are
+Carolina Gervasio. Fereshteh Tarakemeh
+63
+24.03.2023 GAMBA L.5
+binding the enterocytes creating new spaces in which gliadin can pass.
+Gliadin when enters the epithelium it finds an enzyme (the green one fig.16) that is tissue
+transglutaminase (tTG) that is released by the damaged cells. It is an enzyme of enterocytes and in
+case of destruction of enterocytes it is released. The role of the enzyme is to deamidate the gliadin.
+So we have now a deaminidated gliadin. The deaminidated gliadin binds specifically to HLA-DQ2 or
+HLA-DQ8 that are present in the celiac disease patient that are on the surface antigen presenting
+cells (APC). In turn this binding brings the activation of lymphocytes that produces specific
+antibodies that are IgA or IgG directed against gliadin, so they are antigliadin antibodies and anti-
+tTG that recognize the enzyme tissue transglutaminase and also anti-endomysium, that is that part
+of the subendothelium exposed at the damage of the endothethelial cells that expose the basal
+lamina and the endomesium. These antibodies reach the endomysium that is a self tissue, but it is
+normally not exposed. In this way, celiac disease can be considered an autoimmune disorder,
+because of the presence of these antibodies. When the antigliadin antibodies and anti-tTG act near
+the endothelium they damage even more the endothelium. So the cause of the destruction of the
+enterocytes are the intraepithelial leukocytes that directly kill the enterocytes or the antigliadin
+antibodies and anti-tTG that attack in
+Fig. 16
+the nearby of the enterocytes or the
+anti-endomysium antibodies.
+There is another type of diagnosis, the
+genetic diagnosis.
+So the trigger element is gluten, which
+is not a single protein but a complex of
+proteins. Some of us that develop
+enterocytes are processing the gluten in
+an improper way - those affected by
+celiac disease.
+Usually enterocytes endocytose gluten,
+fragment it and express on the surface
+to the MHC receptors in a way to give
+tolerance to that component of gluten.
+In some people there is a different expression of these receptors, the DQ types, and in an unusual
+way the DQ receptors expressed on the surface of enterocytes are of the class DQ2, DQ8.
+In this way, the cytotoxic T lymphocytes are recruited and activated and you have a cytotoxic
+reaction against the cells expressing on the surface DQ2 and DQ8.
+Here there is the second method of diagnosis: the genetic analysis of DQ class, you find DQ2 and
+DQ8 highly expressed. There is a genetic predisposition and a genetic analysis can be done to
+understand if in the family there are cases of celiac disorder not to test continuously every year the
+antibodies or perform other invasive exams but analyze if there are HLA-DQ2 or HLA-DQ8 on the
+Carolina Gervasio. Fereshteh Tarakemeh
+64
+24.03.2023 GAMBA L.5
+APC. This indicates a predisposition, not a
+Fig. 17
+sure condition of celiac disease.
+From necrotic cells you have material
+released and some of it could act as antigens
+now, you could have antibodies, not IgE,
+against transglutaminase, also against
+endomysium, so antibodies like
+transglutaminase - the most used as lab
+marker for celiac disease. To treat it (which is
+not sufficient of course to treat celiac
+disease) we can prescribe antibodies against
+transglutaminase.
+These are the symptoms (of course present only when gluten is eaten):
+Digestive symptoms are more common in children and can include:
+•feeling of fullness or swelling in the abdomen
+•chronic diarrhea
+•constipation
+•gas
+•nausea
+•pale, foul-smelling, fatty stools
+•stomach pain
+•vomiting
+Adults are less likely to have digestive symptoms and, instead, may have one or more of the
+following:
+•anemia
+•bone or joint pain
+•depression or anxiety
+•dermatitis herpetiformis
+•headaches
+•infertility or repeated miscarriage
+•missed menstrual periods
+•seizures
+These are the exams that can be done to understand if a person is celiac.
+Detection in vitro of:
+- IgA anti-Transglutaminase
+- IgG anti-Transglutaminase
+- IgA anti-endomisium
+In vivo the final conclusive diagnosis of celiac disease is just made by endoscopy because you see
+altered small intestine mucosa, maybe in the bioptic sample you see just a lymphocytic infiltration
+(the first degree of celiac disease) or you recognize an already damaged villi. These antibodies
+determine the atrophy and the loss of the villi of the intestine. This is clinical manifestation of the
+celiac disease. This happens always when a celiac patient eats some gluten by mistake, because also
+a little amount of gluten or a contamination may cause the atrophy of the villi and the clinical
+manifestations. It can also be asymptomatic. The celiac person even if asymptomatic, it does not
+mean that they can eat gluten, because also in asymptomatic patients it changes the structure of
+Carolina Gervasio. Fereshteh Tarakemeh
+65
+24.03.2023 GAMBA L.5
+the villi and may bring to cancer. This is because a change in the differentiation in the morphology
+of the cells is always due to changes at the level of the DNA, some genes are overexpressed while
+other are downregulated. It may lead eventually to mutation and cancer if the gluten free diet is not
+followed.
+Question: do we call celiac disease precancerosis or is simply a predisposition?
+Answer: no, because if the diet is followed the intestines are normal, there is not atrophy of the villi.
+The atrophy of the villi occurs in patients that do not follow the diet because they are asymptomatic
+and maybe they do not know. In that case it is a precancerous condition.
+This (fig.18) is the proposed screening algorithm for celiac disease. It seems complicated but I like
+to explain this because it can be useful. Here (top of the image) we have a patient with signs and
+symptoms (anemia, diarrhea and some general malaise). He first thing to do is to measure IgA anti-
+Transglutaminase, but also the total IgA to understand if the total quantity of IgA is normal,
+otherwise identifying a specific type of IgA may be difficult. If there is a positive result for IgA anti-
+Transglutaminase, we have to perform the duodenal biopsy. If there is a positive result, we see the
+atrophy of the villi and there is the certain diagnosis of celiac disease. Otherwise, if the IgA anti-
+Transglutaminase result is negative, we cannot exclude celiac disease because have have to
+evaluate whether the total IgA is lower than normal. If they are lower than normal we have to
+measure the other antibodies created in celiac disease: IgG anti-Transglutaminase and IgA anti-
+endomisium. If they are positive, the biopsy is performed and if the biopsy is positive the celiac
+disease diagnosis is confermed. Otherwise if the total IgA are normal and the anti-Transglutaminase
+are negative, it is unlikely that we have a celiac disease and the biopsy is not performed since it is
+an invasive procedure.
+Fig. 18
+Carolina Gervasio. Fereshteh Tarakemeh
+66
+24.03.2023 GAMBA L.5
+2b. Intolerances
+We can now spend some time on food intolerances. They are difficult to diagnose but if you are not
+able to find any type of immunoglobulins you should consider the possibility of facing an
+intolerance. Intolerances could recognize enzymatic, pharmacological, food additives mechanisms.
+Lactose intolerance is more frequent than celiac disease. Lactose is a disaccharide. The most
+famous is lactose intolerance due to a deficit of lactase, the enzymes able to digest lactose dividing
+it in glucose and galactose. Lactase is present on the brush border of the small intestine. Deficit
+does not mean absence. If lactase is not present or present in low amounts, lactose remains as a
+disaccharide in the lumen and so as a consequence water brings to a very severe diarrhea. An
+intolerance is different from, for example, celiac disease in which we have an immune response.
+There are foods that contain histamine or other vasoactive amines and that if consumed together
+with an allergen, a reaction can occur. Or if we ingest foods that stimulate the degranulation of mast
+cells and the consequence is the release of histamine. It is not a immune reaction, because it is not
+the immune system that reacts but these foods already contain vasoactive amines.
+She will not ask all the foods cited in the slides, they are only added for our interest.
+Now there are very good tests to detect lactose intolerance: breath test in which you measure
+hydrogen produced by respiration. The lactose is not broken down so it is fermented by our
+microbiota so consequently you have bloating, gut pain and diarrhea. The lactose intolerance
+incidence is 30-40% but it is important the degree of severity.
+Another intolerance due to enzymatic mechanisms is the intolerance to ethanol: ladies are much
+less tolerant to alcohol than men because they have 30% less alcohol dehydrogenase in the
+stomach. Eastern people do not tolerate alcohol like western people because they have different
+isotypes of alcohol dehydrogenase (more active) so they produce more acetaldehyde and less active
+aldehyde dehydrogenase so the steady state amount of acetaldehyde is higher than western people.
+Food intolerances of pharmacological type are very frequent. There are foods containing high
+amounts of vasoactive amines, for instance fermented cheese, milk as well, giving a reaction similar
+to that occurring in allergies. The difference in the reactions between people is in the ability to
+eliminate vasoactive amines. Vasoactive amines may trigger the same reactions occurring in
+allergies. You could become intolerant just once because you ingest too many vasoactive amines: in
+this case it is an episode, I am not intolerant. The disease condition is when every time I eat, for
+example, gorgonzola, I am intolerant so it is a disease condition.
+There are foods able to favor degranulation of mastocytes, so you have a pseudoallergic condition
+but you do not find antibodies. These are difficult to diagnose, usually it is used in a food diary.
+In addition there are some foods that are inhibitors of the normal catabolism of serotonin (5-
+hydroxytryptamine), so inhibitors of monoaminoxidase, and in the case of histamine inhibition of
+diamine oxidase. Often the situation is complex so you have bigger content of vasoactive amines
+and also presence of inhibitors of amine catabolism and eventually in the case of histamine and
+serotonin, the catabolism leads to the production of imidazole acetate that means that aldehyde
+dehydrogenase is important. So the best competitive inhibitor of diamine oxidase or monoamine
+oxidase, meaning a good substrate for aldehyde dehydrogenase is alcohol. If I eat food rich in
+histamine and I drink alcohol I impari the histamine removal and I keep the histamine levels high.
+Finally, the food intolerances could be due to ingestion of food additives: sulphites (present in wine,
+they are stressors of gastric mucosa), sodium benzoate (probably it causes impairment of
+vasoactive amines catabolism). Glutamate is still considered as a possible cause of food intolerance
+but it is still debated.
+Carolina Gervasio. Fereshteh Tarakemeh
+67

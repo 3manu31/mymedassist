@@ -1,0 +1,199 @@
+Atherosclerosis
+● what is atherosclerosis?
+Atherosclerosis is the most common type of arteriosclerosis
+(hardening of the arteries).
+It is a chronic inflammatory condition that underlies coronary heart
+disease, cerebral vascular disease and peripheral vascular disease.
+ASCVD (atherosclerotic cardiovascular disease) causes more
+morbidity and mortality than any other disease. The major
+consequences of atherosclerosis are myocardial infarction, aortic
+aneurysm, stroke, and peripheral vascular disease (gangrene of the
+legs).
+It happens when arteries suffer a variety of insults: mainly damage to
+the endothelium, accumulation of lipids, lipid oxidation and
+inflammatory infiltrate into the intima, that cause a chronic
+inflammatory response and an attempt at vascular healing.
+● where is atherosclerosis most commonly found?
+The most extensively involved vessels are the abdominal aorta, the
+iliac arteries, the coronary arteries, the popliteal arteries, the internal
+carotid arteries and the circle of willis.
+It is absent in veins, lymphatics and capillaries.
+In terms of where in the vessel: the most susceptible places are the
+branchings and curvatures of vessels or similar areas where the flow is
+turbulent. This is because laminar flow stimulates local production
+of TFs (such as Kruppel-like-factor-2) that are protective against
+atheromas.
+● what are the constitutional risk factors for atherosclerosis?
+○ Age: it is a slowly progressing disease. Fatty streaks can be seen
+as early as in adolescence but it is usually around and after middle
+age when there’s significant development of the disease due to
+accumulated insults throughout life. The risk keeps increasing with
+each decade of life.
+○ Being a post menopausal female (protective effect of estrogen).
+Post menopause the incidence is higher than men of the same age.
+○ Genetics: family history is the most important independent risk
+factor. Familial predisposition is most frequently polygenic.
+However there are certain Mendelian disorders that are strongly
+associated (e.g. familial hypercholesterolemia)
+● what are the modifiable risk factors for atherosclerosis?
+○ Smoking: doubles the rate of ischemic heart disease.
+○ Hypercholesterolemia: lipoproteins containing apolipoprotein
+B100 (LDL, VLDL,Lp(a)). High risk with high Lpa independent from
+○ LDL. Protective role of HDL. Hypercholesterolemia alone is
+sufficient to initiate the lesion.
+◆ Statins (HMG-CoA reductase inhibitors), PCSK9 inhibitors,
+Ezetimibe
+○ Hyperhomocysteinemia: promotes atherosclerosis through
+increased oxidant stress, impaired endothelial function, and
+induction of thrombosis. Most commonly caused by B-vitamin
+deficiencies, especially folic acid. Homocysteinuria (rare autosomal
+disease) causes premature vascular disease.
+○ Inflammation: CRP is an acute phase reactant synthesized
+primarily by the liver. Its expression is increasd by a number of
+inflammatory cytokines such as IL6. Elevated CRP is astrong
+marker for risk of myocardial infarction, stroke, peripheral vascular
+disease, etc.
+○ Hypertension: mainly systolic >160 mmHg but also diastolic. It
+increases risk of ischemic heart disease by 60%.
+○ Diabetes mellitus: induces hypercholesterolemia. Doubles risk of
+myocardial infarction.
+○ Others: chronic stress, central obestiy, metabolic syndrome, bad
+diet, Chlamydia pneumoniae and CMV infections.
+● explain the pathophysiology of atherosclerosis
+Overview: A variety of insults, primarily endothelial damage, lipid
+oxidation, and lipid accumulation, cause a chronic inflammatory
+response and and attempt at vascular healing.
+1. Endothelial dysfunction caused by chronic injury: hypertension,
+smoking, toxins, infections, homocysteine, hemodynamic
+disturbances (turbulent flow) and hypercholesterolemia. ApoB100
+particles enter endothelial cells by interacting with LDLr. Inside the
+dysfunctional ECs subjected to chronic injury, LDL particles can
+undergo oxidative modification due to ROS.
+2. Expression of Adhesion Molecules: Oxidized LDL stimulates
+endothelial cells to express adhesion molecules, such as vascular
+cell adhesion molecule-1 (VCAM-1) and intercellular adhesion
+molecule-1 (ICAM-1).
+3. Monocyte Adhesion and Infiltration: adhesion and infiltration of
+circulating monocytes into the arterial wall.
+4. Inflammation: activation of the inflammasome → IL1 release →
+recruitment of macrophages and T lymphocytes → more
+inflammation.
+5. Macrophages engulf LDLox particles → foam cells → fatty streak
+6. SMCs proliferate in the intima and also ingest LDL. In response to
+the fat ingestion, these cells secrete inflammatory cytokines
+7. Vascular cells: ECs, macrophages, platelets, start expressing
+PDGF, FGF and TGFa → collagen (ECM) deposition in the intima
+converting the fatty streak into a mature atheroma
+● what is the role of oxLDL?
+○ ox LDL induces expression of CD36 scavenger receptors in
+macrophages, which triggers signaling cascades for inflammatory
+responses (IL-1, IL-18), allows oxLDL uptake and foam cell
+formation, and inhibits macrophage migration
+○ oxLDL induce release of cytokines, growth factors (e.g. TGFβ1,
+MCP-1, IL-8, PDGF, MCSF) by other (vascular) cells
+○ oxLDL are chemotactic for circulating monocytes and contribute
+to their differentiation
+○ oxLDL increase the adhesion of monocytes by induction of
+adhesion molecules by ECs
+○ oxLDL induce the proliferation of SMCs
+○ oxLDL activate T lymphocytes and platelets
+○ oxLDL are cytotoxic for vascular cells
+○ oxLDL stimulate metallopreoteinase (MMP) expression in
+macrophages and reduce tissue inhibitor of metallopreoteinase
+(TIMP) expression, this leads to an increased collagen-
+degrading activity that may contribute to destabilization of
+atherosclerotic plaques
+● describe the progression of the atherosclerotic lesion
+1. Fatty streak: In the beginning, there’s a flat or slightly protruding
+yellow lesion composed of foam cells. Begin as multiple small
+yellow spots that eventually fuse (1 cm or longer). Not all become
+mature lesions. They can appear in aortas of children; coronary
+and carotid fatty streaks begin to form in adolescence. They are
+reversible.
+2. Initial atheroma: foam cells, a few T cells, migration of SMCs into
+the intima.
+3. Fibrous cap formation: As the lesion becomes a mature atheroma
+with SMCs that proliferate in the intima and form a fibrous
+(collagenous) cap, there’s initially an expansion of the media
+towards the outside of the vessel, so the lumen does not shrink.
+4. Advanced plaque: Eventually the atheroma grows until the
+expansion of the outer wall is no longer allowed, so it starts to
+expand towards the lumen → stenosis.
+Morphology: Fibrous cap: SMCs surrounded by collagen, elastic
+fibers and proteoglycans (ECM), more thick connective tissue, few
+lymphocytes
+Neovascularization
+Continuous recruitment and proliferation of monocytes/
+macrophages, accumulation of intra- and extracellular lipids
+Continuous recruitment of SMCs, proliferation and deposition of
+ECM
+Death of foam cells (apoptosis or necrosis) →Necrotic core:
+4.
+cellular debris, foam cells, lipid accumulation, fibrin and other
+plasma proteins,
+Cholesterol crystals
+Calcification
+● describe the complications of an advanced atherosclerotic plaque
+○ Calcification: deposition of calcium salts in the advanced
+atheroma, both focal (in the core) and diffuse→ arterial stiffness
+○ Hemorrhage: rupture of the overlying fibrous cap, or the thin-
+walled vessels in the areas of neovascularization (high blood
+pressure) → intraplaque hemorrhage → plaque expantion
+○ Plaque ulceration, erosion, or rupture: exposure of substances with
+aggregating and highly thrombogenic properties → thrombus
+formation which may partially or completely occlude the vessel
+lumen;
+○ Thrombosis: platelet aggregation and fibrin deposition→ thrombus
+which may occlude the vessel lumen
+◆ partially → stenosis (flow reduction) → chronic tissue ischemia
+→ atrophy.
+◆ completely → ischemic necrosis (infarction) of the tissue →
+myocardial infarction (heart attack), cerebral infarction (stroke),
+gangrene of intestine or legs, etc
+○ Embolism:
+a) dissolution of the thrombus → emboli → complete occlusion of
+vessels with a smaller diameter.
+b) following rupture, necrotic debris and/or so-called cholesterol
+crystals emboli may be released into the bloodstream→
+microemboli
+○ Aneurysms: chronic ischemia and pressure→ atrophy of the media,
+loss of elastic tissue → weakening of the vascular wall → rupture→
+hemorrhage
+● Frequent atheromas in the coronary arteries (especially in the SX
+coronary) → progressive stenosis of the lumen and painful → angina
+pectoris (reduced blood supply → myocardial ischemia (retrosternal
+pain). Chronic ischemia→ atrophy of myocardial and fibrous fibers→
+myocardiosclerosis. Persistent pain (ischemic necrosis): rapid and
+total coronary artery occlusion→ myocardial infarction (heart attack)
+Slow occlusion of brain arteries → progressive ischemia→ dementia
+Complete occlusion of carotid artery or of a branch of cerebral
+arteries→ cerebral infarction (stroke). Pogressive stenosis of the main
+leg arteries: tissue hypoxia with a painful symptomatology, especially
+after muscular effort but also at rest: claudication intermittens.
+Occlusion of a large arterial vessel of legs does not lead to infarction
+(collateral circulation) but necrosis and gangrene may occur. Artery
+● occlusion also caused by an embolus deriving from the fragmentation
+of a thrombus localized on an atherosclerotic lesion. Sclerotic vessel is
+rigid and does not withstand blood pressure: formation of aneurysms.
+Aneurysm rupture → death due to hemorrhage.
+● depending on the intrinsic properties of the atheroma, what are its
+possible fates?
+Atherosclerotic plaques are susceptible to clinically important
+pathologic changes that vary mainly depending on the thickness
+(stability) and composition of the fibrous cap (intrinsic properties), as
+well as extrinsic properties (blood pressure, platelet reactivity, etc).
+○ Clinical stenosis happens when the plaque is large enough that
+75% of the lumen is occluded, this can result in tissue ischemia.
+○ Plaques with a thick fibrous cap can undergo erosion/ulceration,
+exposing thrombogenic factors that induce thrombosis. In the most
+severe of cases this results in sudden cardiac death, however it is
+more likely that this results in a rapid expansion of the plaque and
+more prominent calcification (which in turn may lead to critical
+stenosis)
+○ Vulnerable plaques are plaques with thin fibrous caps and active
+inflammatory cells over a necrotic core. The loss (necrosis) of
+SMCs and the overexpression of MMPs as well as underexpression
+of TIMP lead to collagen degradation and reduced collagen
+synthesis which results in a thiner, less stable cap. This is highly
+prome to plaque rupture which induce thrombosis that is often
+completely occlusive → sudden cardiac death.

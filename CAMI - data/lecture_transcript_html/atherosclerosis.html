@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>atherosclerosis</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8157-82e4-d79086dc445b" class="page sans"><header><h1 class="page-title">atherosclerosis</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81db-91c7-cbc6813d73b8" class="">03.04.2023 LEONARDUZZI L.02</p><p id="2297904f-03a9-81b4-a434-e6a3962a7c35" class=""><strong>ATHEROSCLEROSIS</strong></p><p id="2297904f-03a9-8110-92f6-ec5ffb55662c" class="">Having already seen the lipoproteins, we can start talking about atherosclerosis.</p><p id="2297904f-03a9-81c1-89fb-ea1dd446af57" class="">Atherosclerosis is a <strong>progressive and chronic degenerative disease</strong>, affecting the intima of large and medium-sized arteries of elastic and muscle-elastic type.</p><p id="2297904f-03a9-813d-939e-e6693ba86201" class="">The starting point is a chronic inflammatory response.</p><p id="2297904f-03a9-8149-8469-c81a27364758" class="">The disease involves:</p><p id="2297904f-03a9-81c3-97a4-dad06fe02ef4" class="">- intima thickening</p><p id="2297904f-03a9-8105-b0bf-d4aad8b20318" class="">- loss of wall elasticity</p><p id="2297904f-03a9-8173-8792-ce790bb42a4e" class="">- presence of typical lesion called “<strong>atheroma</strong>” or “atherosclerotic plaque”</p><p id="2297904f-03a9-81ca-bbd5-e4bb0cd3f652" class=""><strong>ATHEROMA:CHARACTERISTICS AND DEVELOPMENT</strong></p><ul id="2297904f-03a9-813d-bac6-d8c515e89853" class="bulleted-list"><li style="list-style-type:disc">accumulation of lipids in sub-endothelial area (in the intima), carried by LDL</li></ul><p id="2297904f-03a9-8165-aa2e-e109b666fc0e" class="">• presence of fibroinflammatory reaction:</p><p id="2297904f-03a9-8135-9477-c83f0bf98e78" class="">ocontinuous <strong>cell migration</strong> (monocytes mainly);</p><p id="2297904f-03a9-8198-afbe-eed7e610f944" class="">o<strong>sclerosis</strong> (abundant collagen fibers with numerous intermolecular connections loss of elasticity). Smooth muscle cells in the intima migrate to intima and secrete collagen fibers.</p><p id="2297904f-03a9-817f-853e-e38b43621e3a" class="">The morphology is of a patchy white-yellow lesion growing on the lumen of the artery, involving only a portion of the arterial wall.</p><p id="2297904f-03a9-81f3-a7cf-f94be9d56dd4" class="">The principal arteries that are affected by this progressive degenerative disease are: - coronary arteries</p><p id="2297904f-03a9-8175-aa03-d9699f481736" class="">- arteries of the cerebral circulation</p><p id="2297904f-03a9-8175-8973-d0102a74e425" class="">- internal carotid arteries</p><p id="2297904f-03a9-8171-a9da-c75de2ba22ed" class="">-</p><p id="2297904f-03a9-81b6-8880-ed82a9f359ae" class="">abdominal and thoracic aorta - iliac arteries</p><p id="2297904f-03a9-813a-8ed9-f015cd635b9f" class="">- femoral arteries</p><p id="2297904f-03a9-8126-a5ea-f4aa562033d5" class="">- popliteal arteries</p><p id="2297904f-03a9-81ca-b30a-dcfb97834dcc" class="">This disease is totally absent in capillaries, veins, and lymphatic circulation.</p><p id="2297904f-03a9-8122-bd26-e301f67465de" class="">It usually happens at the level of curvatures and bifurcations: this is due to higher pressure and turbulence, that can favor the formation of these lesions.</p><p id="2297904f-03a9-819e-a0b7-c6ce06a3d2ff" class=""><strong>ATHEROSCLEROSIS IS MULTIFACTORIAL</strong></p><p id="2297904f-03a9-81ae-b10d-dcae1c3f9768" class="">Multiple risk factors can increase the risk of developing atherosclerosis. Risk factors can divide into modifiable and non-modifiable.</p><p id="2297904f-03a9-819e-9232-cfa21ca8a23d" class="">➢<strong>Modifiable</strong> risk factors:</p><p id="2297904f-03a9-81a6-ab05-cb7f5af919e4" class="">1.<strong>Hyperlipidemia</strong>: due to <em>hypertriglyceridemia</em> but mostly <em>hypercholesterolemia</em> (per se sufficient to develop atherosclerosis). An increased amount of cholesterol concentration will cause the increase of <strong>LDL</strong>, lipoproteins which carry lipids from the liver to the body (lipids can’t be present in the blood alone). This cholesterol can be defined as “bad cholesterol”, due to its ability to increase the risk of forming atherosclerosis. HDL, on the other hand, collects all the cholesterol not used or derived from the turnover of membrane cells. The excessive cholesterol is carried from peripheral tissues to the liver. The balance between these lipoproteins is very important: a higher LDL/HDL ratio is associated with atherosclerosis.</p><p id="2297904f-03a9-819f-b515-cd885e529cda" class="">To avoid the risk it is possible to decrease LDL and raise HDL through diet, exercise (increases HDL) and drugs (that either lower LDL or total cholesterol or raise HDL).</p><p id="2297904f-03a9-81fb-8b46-dcbecec4628b" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-81fe-b843-fec32c28db01" class="">23</p><p id="2297904f-03a9-812c-b544-e3b6132925a8" class="">03.04.2023 LEONARDUZZI L.02</p><p id="2297904f-03a9-8128-be01-dcfc142ed48d" class="">To sum up, hypercholesterolemia causes are:</p><p id="2297904f-03a9-817a-9712-cd43739b8dac" class="">- increased LDL cholesterol levels</p><p id="2297904f-03a9-8179-baba-f870cc9f1b34" class="">- decreased HDL cholesterol levels</p><p id="2297904f-03a9-8100-b2fd-d16c1d23d402" class="">- increased levels of abnormal lipoprotein (altered form of LDL: apo B-100 linked to apo A) - hypercholesterolemia ROS production EC dysfunction</p><p id="2297904f-03a9-81d3-a543-fcfd65f05381" class=""><strong>2.Hypertension</strong> (especially systolic): in arterial circulation the pressure is high, but in case of hypertension the high pressure can cause a disfunction of endothelium (especially in curvatures and bifurcations). The hypertension can cause damage to artery walls.</p><p id="2297904f-03a9-81f5-999b-d1347c1a1d6a" class=""><strong>3.Diabetes mellitus:</strong> characterized by hyperglycemia (<em>explained in detail in Gamba’s “Diabetes mellitus” lesson</em>). Glucagon mobilizes lipids in adipose tissue in order to obtain energy causing hypercholesterolemia. Glucose that is free in the circulation can also bind to proteins of the inflamed arterial wall increasing the inflammatory response.</p><p id="2297904f-03a9-81a3-8177-f2a05069c74d" class=""><strong>4.Cigarette smoking:</strong> hydrocarbon radicals and nicotine are produced through smoking, and both can stimulate growth factors and inflammatory process at the level of arterial walls.</p><p id="2297904f-03a9-818a-b4aa-d2f5647abc11" class="">➢<strong>Constitutional</strong> risk factors (non-modifiable):</p><p id="2297904f-03a9-81fa-b581-eec4e5671aca" class="">1.<strong>Genetic factors</strong>: hypertension, diabetes and hypercholesterolemia can be familial diseases with a genetic basis. Familial hypercholesterolemia, for example, is an autosomal dominant due to absence or defect of the <strong>hepatic receptor for LDL</strong>.</p><p id="2297904f-03a9-8121-8a9d-fea120d603ab" class="">2.<strong>Age</strong>: can start at the age of 20-50 staying asymptomatic. It can become symptomatic starting at the age of 40-60.</p><p id="2297904f-03a9-81ff-9339-c41825688cc2" class="">3.<strong>Gender</strong>: more frequent in men than premenopausal women (protected by estrogens), as well as the risk of myocardial infarction.</p><p id="2297904f-03a9-817e-a157-cd12b4b28786" class="">➢<strong>Additional</strong> risk factors (non-modifiable):</p><p id="2297904f-03a9-81f8-92c6-d4611f1bab6d" class="">1.<strong>Hyperhomocysteinemia</strong> (methionine metabolite): high levels of homocysteine (if present in urine = homocystinuria). Due to rare inborn errors of metabolism (autosomal recessive disease). The effects are:</p><p id="2297904f-03a9-81b4-9736-f59aa40f54a5" class="">a.endothelial lesion (inducing ROS production)</p><p id="2297904f-03a9-8126-a5b8-fff8c40751be" class="">b.inhibition of anticoagulative, antithrombotic, and vasodilator systems induced by nitric oxide</p><p id="2297904f-03a9-81eb-b260-f169ed43e96a" class="">c.contribution of inflammatory response</p><p id="2297904f-03a9-81cf-84de-eabf80dd975a" class="">2.<strong>Inflammation</strong>: C reactive protein (<strong>CRP</strong>) produced during inflammation --&gt; contribute to inflammatory state by increasing production of inflammatory mediators. It is a strong marker for myocardial infarction and stroke.</p><p id="2297904f-03a9-8161-b19a-c34f22e113af" class="">3.<strong>Lack of exercise, obesity, dietary, stressful life style (like alcohol abuse)</strong> 4.<strong>Viral infections</strong> (e.g. Chlamydia pneumoniae and cytomegalovirus)</p><p id="2297904f-03a9-8191-9824-fa7e7cb3cf67" class="">These factors are not fundamental but can increase the risk.</p><p id="2297904f-03a9-815d-a9e5-eeb5d21b00fa" class=""><em>Q.: I didn’t understand the role of the C reactive protein.</em></p><p id="2297904f-03a9-81eb-a16b-df6dd7ef214b" class=""><em>A.: The C reactive protein is one of the APP. During the inflammatory response there are ways to recognize</em></p><p id="2297904f-03a9-8135-a4d7-ccace33d30c6" class=""><em>this state, like increased erythrocyte sedimentation rate (SED: velocity of sedimentation in erythrocytes) due</em></p><p id="2297904f-03a9-819a-b4dd-ef67625f243d" class=""><em>to increased APP, including CRP. An increased level of CRP leads to higher risk of atherosclerosis. The start of</em></p><p id="2297904f-03a9-81c6-93a7-faaf05b87607" class=""><em>atherosclerosis is always due to inflammation, caused by one or more of the risk factors mentioned above.</em></p><p id="2297904f-03a9-812d-b35d-fcdffa3e7210" class=""><em>CRP can contribute to inflammation by producing other inflammatory mediators.</em></p><p id="2297904f-03a9-8139-ba03-fd78ba39832c" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-815c-ba0c-f9071f05b12e" class="">24</p><p id="2297904f-03a9-81ac-9faa-f9f8b8a763f5" class="">03.04.2023 LEONARDUZZI L.02</p><p id="2297904f-03a9-8154-b89d-c280e4e9ba84" class=""><strong>“RESPONSE TO INJURY” HYPOTHESIS</strong></p><p id="2297904f-03a9-8147-be69-fcda076b8193" class="">Atherosclerosis can be a response to injury.</p><p id="2297904f-03a9-8197-b367-f5530a0a35aa" class="">1.The risk factors are responsible of a disfunction of the endothelium (not properly a lesion but an inflammation). The endothelium is impermeable, so the cells can’t adhere. But when the endothelium starts to lose its anticoagulant and antifibrinolytic ability the cells can attach to the endothelium.</p><p id="2297904f-03a9-8140-b7e0-d96990ed394f" class="">2.Due to the disfunction there is an increase in permeability, so that the LDL rich in cholesterol starts to cross in the endothelium and to accumulate in the intima. Following the accumulation in the intima there is an accumulation of monocytes, that start to differentiate and phagocyte the LDL with the aim to remove all of it. This response to injury is protective because it can remove the LDL.</p><p id="2297904f-03a9-8131-a124-c7ae8f2e126b" class=""><strong>ATHEROSCLEROSIS PATHOGENESIS</strong></p><p id="2297904f-03a9-810e-8926-cd0e6c171499" class="">1.<em>Chronic endothelial injury and dysfuction</em>: increased vascular permeability, leukocyte adhesion</p><p id="2297904f-03a9-81c1-bcee-d5cc3c664144" class="">2.<em>Accumulation of lipoproteins in the intima</em>: in the vessel wall; mainly LDL and oxidized LDL. Here the lipids and apoproteins get oxidized, and particularly oxidized LDL is the main atherogenic element, responsible for the lesion.</p><p id="2297904f-03a9-815c-81e5-ee4f064b86ce" class="">3.<em>Monocyte adhesion to the endothelium</em>: migration into the intima, differentiation into macrophages “foam cells” (due to lipid accumulation within them they have these bubbles appearing within them)</p><p id="2297904f-03a9-8121-a9bc-fe53a2ac3d5c" class=""><em>4.Platelet adhesion</em></p><p id="2297904f-03a9-819b-8281-ccf5a3369255" class="">5.<em>Inflammatory factor release</em>: from all the cells involved</p><p id="2297904f-03a9-81bd-b031-ebf32dd2df85" class="">6.<em>Smooth muscle cell migration to sub endothelium</em>: proliferation, ECM production, especially collagen (SMC start to act as fibroblasts: modify their morphology and start to look and act like fibroblasts), <em>and T cell recruitment</em></p><p id="2297904f-03a9-8168-b404-da3f27891f17" class="">7.<em>Atherosclerotic plaqueformation</em>: composed by a <strong>central necrotic</strong> <strong>(lipid) chore</strong>, full of extracellular and intracellular lipids. Given that lipids are cytotoxic the cells start to die and release them outside.</p><p id="2297904f-03a9-8193-a8b8-f2d944c8ff90" class="">Cells, lipids form the necrotic chore. Under the endothelium there is fibrotic tissue (collagen fibers) called <strong>fibrotic cap</strong>, responsible for the rigidity of the arterial wall.</p><p id="2297904f-03a9-81ec-833e-c7b6953690dd" class="">The main causes of endothelium dysfunction, as already mentioned, are: - <strong>Hemodynamic disturbances</strong>: turbulence (especially in curvatures) - <strong>Hypercholesterolemia</strong> (sufficient to cause endothelial disfunction). Definable as &gt;200 mg/dl of cholesterol. <em>The professor</em> <em>repeats the causes seen in the modifiable risks.</em></p><p id="2297904f-03a9-8179-bdd9-f83ee473e837" class="">Alessandra Giorgi, Beatriz Vitorino</p><figure id="2297904f-03a9-8122-a63b-ed09f012d081" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image1.png"><img style="width:382px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image1.png"/></a></figure><p id="2297904f-03a9-811b-a854-e588eaee33e5" class=""><em>fig.1</em></p><figure id="2297904f-03a9-8107-8454-ef73a636e8ea" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image2.png"><img style="width:451px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image2.png"/></a></figure><p id="2297904f-03a9-8133-bfd6-fe3e1455b648" class="">03.04.2023 LEONARDUZZI L.02</p><p id="2297904f-03a9-81bf-99aa-c8357ffc237a" class="">In fig. 2 it is possile to see the composiiton of LDL.</p><p id="2297904f-03a9-817a-bbc0-d26a8e593916" class=""><em>fig.2</em></p><p id="2297904f-03a9-8103-9595-f343d1482e39" class=""><strong>ROLE OF OXLDLS</strong></p><p id="2297904f-03a9-81c8-aa1c-f8cc83248116" class="">LDLs become very dangerous when they are oxidized because they have a high atherogenic activity. OxLDLs</p><p id="2297904f-03a9-81b0-b889-d17e254d966d" class="">have different actions:</p><ul id="2297904f-03a9-81b1-b41c-cab0152b9956" class="bulleted-list"><li style="list-style-type:disc">Macrophages can uptake the oxLDL through the scavenger receptor, especially CD36, and LDL itself</li></ul><p id="2297904f-03a9-81e8-aa03-cc4d4b61169f" class="">can induce the expression/synthesis of it</p><ul id="2297904f-03a9-8105-bd38-cdb7e72392fb" class="bulleted-list"><li style="list-style-type:disc">Increase the synthesis and release of cytokines and GF ((e.g. TGFβ1, MCP-1) by vascular cells</li></ul><p id="2297904f-03a9-814f-975c-fb4ff09b9002" class="">(macrophages, T cells, platelets ecc).</p><ul id="2297904f-03a9-81a0-8e3d-ea54785dcefe" class="bulleted-list"><li style="list-style-type:disc">chemotactic for circulating monocytes and contribute to their differentiation</li></ul><ul id="2297904f-03a9-81e3-a284-d14dabd211de" class="bulleted-list"><li style="list-style-type:disc">increase the adhesion of monocytes by induction of adhesion molecules by ECs</li></ul><ul id="2297904f-03a9-8155-954f-ccd81ad761ac" class="bulleted-list"><li style="list-style-type:disc"><em>inhibit the mobility of macrophages residing in the intima</em></li></ul><ul id="2297904f-03a9-813d-9f64-df4ad52fd9c3" class="bulleted-list"><li style="list-style-type:disc"><em>cytotoxic for vascular cells</em></li></ul><ul id="2297904f-03a9-81fb-9a6c-e0714f37cfa5" class="bulleted-list"><li style="list-style-type:disc">induce the proliferation of SMCs</li></ul><ul id="2297904f-03a9-81e4-bbe6-cbb869a31b21" class="bulleted-list"><li style="list-style-type:disc">activate T lymphocytes and platelets</li></ul><ul id="2297904f-03a9-81ab-b27b-fc257fa22164" class="bulleted-list"><li style="list-style-type:disc"><strong>stimulateMMP</strong> expression in macrophages and <strong>reduce TIMP</strong> expression</li></ul><p id="2297904f-03a9-818d-802a-e5c2492849fd" class=""><strong>SEQUENCE OF CELLULAR INTERACTION IN ATHEROSCLEROSIS</strong></p><p id="2297904f-03a9-81c9-9be9-f5853facef39" class="">The crosstalk of the cells involved in atherosclerosis is very important. Each cell stimulates the other cells to</p><p id="2297904f-03a9-813a-9d4c-d05d531b4a86" class="">release a huge number of inflammatory mediators, cytokines, GF ecc.. The cells stimulate in particular the</p><p id="2297904f-03a9-8155-9336-d7ad4a219bf2" class="">macrophages and the smooth muscle cells.</p><p id="2297904f-03a9-8157-b3cc-cb420f7b7c2f" class="">1.<strong>Chronic hyperlipidemia</strong>: endothelium disfunction followed by increased permeability allows LDLs to</p><p id="2297904f-03a9-817a-9762-fa3ebaafac98" class="">accumulate within the intima, where they may aggregate or become oxidized by free radicals</p><p id="2297904f-03a9-8112-85ec-c69f31e93036" class="">produced by inflammatory cells.</p><p id="2297904f-03a9-8131-8ea2-f07b9992b421" class="">2.<strong>Migration of macrophages and uptake of oxLDL</strong> through <strong>scavenger receptors</strong> (e.g. CD36) inducing</p><p id="2297904f-03a9-81b5-bfc8-ca5db58c7b15" class="">the formation of “foam cells”. Their death will release the oxLDL.</p><p id="2297904f-03a9-815a-986d-e4578d477409" class="">3.<strong>SMCs</strong>can similarly transform into “foam cells” and produce ECM</p><p id="2297904f-03a9-8147-833f-d1084f846756" class="">oxLDs stimulate the release of adhesion molecules, growth factors, cytokines, chemokines, etc</p><ul id="2297904f-03a9-8105-81e1-fce8362f46d9" class="bulleted-list"><li style="list-style-type:disc">monocyte recruitment and macrophage activation</li></ul><ul id="2297904f-03a9-8178-be43-ce124a3d33af" class="bulleted-list"><li style="list-style-type:disc">SMC proliferation and migration</li></ul><ul id="2297904f-03a9-8120-9177-cd578402c9b7" class="bulleted-list"><li style="list-style-type:disc">matrix synthesis</li></ul><p id="2297904f-03a9-81f7-b7a2-c9a08977e688" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-819e-ad98-d3f2c123482a" class="">26</p><figure id="2297904f-03a9-81db-b43e-e9036efa3ad2" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image3.png"><img style="width:700px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image3.png"/></a></figure><p id="2297904f-03a9-81e9-bb6d-effed330389c" class="">03.04.2023 LEONARDUZZI L.02</p><p id="2297904f-03a9-8193-b286-e31bf392602a" class=""><em>fig.2</em></p><p id="2297904f-03a9-81ea-ad18-e8457bcd9bba" class="">In the fig. … it</p><p id="2297904f-03a9-81e6-9c2a-d740213c1cf5" class="">is possible to see an atherosclerotic plaque in a</p><p id="2297904f-03a9-81b4-8878-e8b6dc65ee7c" class="">human carotid artery. The squared region contains</p><p id="2297904f-03a9-819f-9059-fb9c6795a8c8" class="">the atheroma:</p><p id="2297904f-03a9-815f-a06c-f783984fe961" class="">- brown staining of the CD36 of the</p><p id="2297904f-03a9-812b-b44f-f438fd43ce6d" class="">macrophages</p><p id="2297904f-03a9-815c-aad5-cdc8e1dfde15" class="">- green staining of the CD68 of macrophages</p><p id="2297904f-03a9-81c2-9637-c7da3b8372ba" class="">- green fluorescent staining of Apo-B100</p><p id="2297904f-03a9-8167-a14b-d62b1de304bc" class="">- red staining of lipids</p><p id="2297904f-03a9-8151-a63d-d2573fd2b2c4" class=""><em>fig. 3</em></p><p id="2297904f-03a9-81d3-b0a9-defa74ceb038" class=""><em>Any risk factor can cause endothelial dysfunction by increasing the permeability of endothelium. The</em></p><p id="2297904f-03a9-815b-848d-f38739ffae9c" class=""><em>increased permeability allows LDL to cross the endothelium, passing from the blood into the intima. Our body</em></p><p id="2297904f-03a9-8140-938c-ca17f3844842" class=""><em>tries to avoid the change of location of LDL through a defense mechanism that consists in monocytes that</em></p><p id="2297904f-03a9-81d7-a00a-c5c0b45ebf8b" class=""><em>start to migrate into the intima, here they differentiate into macrophages with the purpose of phagocytosing</em></p><p id="2297904f-03a9-8150-b2c4-c8dff5d8d1d8" class=""><em>LDL. Sometimes, in the beginning, macrophages are able to remove all the LDL, so this condition can be</em></p><p id="2297904f-03a9-811a-8d45-faffb5e389df" class=""><em>reversible, but this is not always possible, that’s why is important to eliminate the risk factors responsible for</em></p><p id="2297904f-03a9-81e1-87db-f542e529b9c9" class=""><em>endothelial dysfunction to avoid completely the passage of LDL from the blood to the intima. If the risk factor</em></p><p id="2297904f-03a9-81b4-bf5e-fa697abc5f74" class=""><em>is present for months or years, the damage is not reversible, and the endothelial dysfunction causes the</em></p><p id="2297904f-03a9-81f0-91b3-f905bebc0bdb" class=""><em>accumulation of LDL in the intima and the consequent formation of atheroma.</em></p><p id="2297904f-03a9-811e-9fbd-c63d5801626c" class=""><strong>PATHOGENESIS AND DEVELOPMENT OF ATHEROMA</strong></p><p id="2297904f-03a9-812b-a11a-f667700d3b8e" class="">In the pathogenesis of atheroma two phases can be distinguished:</p><p id="2297904f-03a9-8104-93a6-c70d3eeed2ab" class="">• <strong>Pre-Clinical Phase</strong>→ In this phase atheroma is developing without symptoms (slowly and progressively, can take years). Usually young age.</p><ul id="2297904f-03a9-8105-a113-fe13c8437d67" class="bulleted-list"><li style="list-style-type:disc"><strong>Clinical Phase</strong>→ In this phase the clinical manifestations arise. Usually middle age to elderly.</li></ul><p id="2297904f-03a9-8163-aaaa-f3b4ba520e0f" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-815f-ac14-c7b8db8683da" class="">27</p><p id="2297904f-03a9-814e-a645-e5b4441e1fb4" class="">03.04.2023 LEONARDUZZI L.02</p><figure id="2297904f-03a9-8113-be48-c671ba13eb41" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image4.png"><img style="width:700px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image4.png"/></a></figure><p id="2297904f-03a9-8188-bb5d-f6a592fc717f" class=""><em>fig. 4</em></p><p id="2297904f-03a9-81b8-bd26-ea437812ae94" class=""><strong>PRE-CLINICALPHASE</strong></p><p id="2297904f-03a9-818c-b34b-d52cd2d9d327" class="">1.<strong>Fatty Streak</strong> (at this point the lesion can be <strong>reversible</strong>)</p><p id="2297904f-03a9-819a-8663-c9e50b6dec4f" class="">o Fatty streak is a <strong>yellow and flat lesion slightly protruding in the lumen</strong>.</p><p id="2297904f-03a9-81f1-8038-f2b7ac03d500" class="">o Lipids start to accumulate in the intima <strong>without disturbing the circulation</strong> (because it does not accumulate in the lumen of the artery, but in the intima).</p><p id="2297904f-03a9-8122-be84-d67a70d29a1c" class="">o Is composed mainly by LDL and macrophages which start to phagocytose the LDL to remove it. At the beginning, some <strong>yellow, small spots</strong> can be observed, later these spots can form one large, <strong>elongated fatty streak</strong>.</p><p id="2297904f-03a9-8131-816d-d5f575eb8e03" class="">o Appear early in age: in the 20s or in infants, always before 40s.</p><p id="2297904f-03a9-813d-90a0-dfde480d109a" class="">o The progression process from fatty streaks to fibrofatty plaque takes months, or even years, since it’s a chronic inflammation.</p><figure id="2297904f-03a9-81a3-aee2-e68f17ab3cc1" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image5.png"><img style="width:587px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image5.png"/></a></figure><p id="2297904f-03a9-811a-aea6-d69c4f0c5a7d" class="">o Can regress if the dysfunction of the</p><p id="2297904f-03a9-8193-9919-d76252d2bb98" class="">endothelium stops (by removing the risk</p><p id="2297904f-03a9-810b-8d5a-eba21aa3e8ad" class="">factors) and all the LDL is removed by</p><p id="2297904f-03a9-811a-a0fa-c7547b8b7dff" class="">macrophages. Otherwise, if the risk</p><p id="2297904f-03a9-81c4-93c2-cdea5639a923" class="">factors persist the atheroma forms.</p><p id="2297904f-03a9-814a-825d-f778d8f44cfd" class=""><em>fig. 5</em></p><figure id="2297904f-03a9-81c1-a3c1-c7d6e0a09794" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image6.png"><img style="width:522px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image6.png"/></a></figure><figure id="2297904f-03a9-813e-84ca-eebdb3e53bd1" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image7.png"><img style="width:519px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image7.png"/></a></figure><p id="2297904f-03a9-8167-af07-e893cda2e55a" class=""><em>fig. 7 fig.8</em></p><p id="2297904f-03a9-81a9-8175-d6fa63419625" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-8182-a317-d2e8f2338880" class="">28</p><p id="2297904f-03a9-8195-9cad-f5b7944f0cba" class="">03.04.2023 LEONARDUZZI L.02</p><p id="2297904f-03a9-81dc-8655-ce4080a0b7c9" class="">Fig. 7 and fig. 8 are examples of <strong>initial atheroma</strong>, the beginning of the formation of the fatty streak. In the</p><p id="2297904f-03a9-81b4-8c37-c3366d802baf" class="">images, the foam cells and macrophages full of lipids can be observed.</p><p id="2297904f-03a9-8168-a02f-ec5be7c22a52" class=""><strong>2.Fibrofatty Plaque</strong> (in addition to lipids the fibrotic tissue starts to form)</p><p id="2297904f-03a9-81db-8041-fec3515c2285" class="">o Is a white/white-yellow intimal thickening which tends to protrude into the lumen of the artery due to the increased accumulation of cells and lipids (it partially occupies the lumen of the artery). The clinical manifestations are not present yet but the compromission of the circulation starts.</p><p id="2297904f-03a9-81e0-8992-f4f507a0318b" class="">The migration in the intima of LDL, macrophages and T-o</p><p id="2297904f-03a9-8130-9c97-d3efeb48a6a4" class="">lymphocytes occurs.</p><figure id="2297904f-03a9-8164-a706-f18b0b5bdb55" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image8.png"><img style="width:399px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image8.png"/></a></figure><p id="2297904f-03a9-81fe-a1a5-eb59870b406d" class=""><em>fig. 9</em></p><p id="2297904f-03a9-81d9-b540-fd606fc53812" class="">o Thanks to inflammatory mediators released by vascular cells and by the oxidized LDL, smooth muscle cells are stimulated and start to migrate and to proliferate, modifying their morphology and functions: they transform into <strong>myofibroblasts</strong> responsible for the production of the extracellular matrix (mainly collagen) causing the thickening of the cell wall (they are not fibroblasts, but they are muscle cells acting like fibroblasts). Therefore, the formation of the fibrotic tissue occurs slowly, causing <strong>rigidity</strong> (loss of elasticity).</p><p id="2297904f-03a9-8155-aac3-e61df964127d" class=""><strong>3.Advanced/Vulnerable Plaque</strong></p><p id="2297904f-03a9-819f-b3a4-d39c34964720" class="">o Atheroma causes a critical <strong>reduction of the lumen</strong> of the artery due to months/years of accumulation of lipids. As the plaque enlarges and protrudes into the lumen causes critical stenosis.</p><p id="2297904f-03a9-81f5-83a5-c632e9381b1e" class="">o The area under the epithelium is deformed due to the formation of the fibrotic tissue. This fibrotic atheroma is called “<strong>fibrotic cap</strong>” and is made mainly by collagen. The presence of the fibrotic cap is responsible for the rigidity of the wall and can also protect the atheromic cells allowing the plaque to be stronger.</p><p id="2297904f-03a9-81d5-bd8b-c3109f1e7ace" class="">o There is the formation of new blood vessels (<strong>neovascularization</strong>) inside the plaque, a continuous recruitment of blood cells, proliferation of smooth muscle cells and extracellular matrix.</p><p id="2297904f-03a9-81e9-bd41-f4bd497e2ea5" class="">o The accumulation of oxidized LDL takes place mainly in macrophages, but also in smooth muscle cells. The presence of these lipids in the cytoplasm is toxic, as a consequence the cells start to die, release outside the oxidized LDL phagocytosed before. The center of the atheroma is formed: is composed of debris (necrotic cells), foam cells and extracellular lipids and is called the “<strong>necrotic core</strong>” or “lipid core”.</p><p id="2297904f-03a9-8104-89b3-c25275ee5f10" class="">Other areas where advanced plaque can be observed:</p><p id="2297904f-03a9-817e-8deb-e1867b27e20f" class="">• An area with <strong>calcium deposition</strong> (area of calcification) that can contribute to the rigidity of the wall;</p><p id="2297904f-03a9-8125-9cde-c94f1966a789" class="">• An area with <strong>cholesterol crystals accumulation</strong></p><p id="2297904f-03a9-816d-96ce-ff77db57f93c" class="">Both are responsible for <strong>loss of elasticity</strong>: The artery cannot anymore change its diameter (vasoconstriction/vasodilation) because the wall is rigid.</p><p id="2297904f-03a9-813d-af50-ce9db43adcd2" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-81b7-aa72-d73ab67ece71" class="">29</p><p id="2297904f-03a9-8116-bb7d-ce29f546e7eb" class="">03.04.2023 LEONARDUZZI L.02</p><figure id="2297904f-03a9-81c1-9f69-c591266b3bfd" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image9.png"><img style="width:700px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image9.png"/></a></figure><p id="2297904f-03a9-8136-9b38-c7956a8a75f5" class=""><em>fig.10</em></p><p id="2297904f-03a9-8141-a3f4-cb0080819eaa" class=""><em>Fig.10: The central part of the plaque is called necrotic core and is composed of necrotic cells, foam cells, cholesterol crystals, calcification, and intra/extracellular lipids. The fibrotic cap is composed of fibrotic tissue mainly composed of collagen, new vessels and other elements all contributing to the rigidity of the wall.</em></p><p id="2297904f-03a9-81b5-bee2-f8f91445e543" class="">There are two types of advanced plaque:</p><p id="2297904f-03a9-812d-ba2a-e08173c12c01" class="">1.<strong>Stable Plaque</strong>→ The necrotic core is small in size. There is less inflammation and the fibrous cap is very thick and strong (can protect the atheromic cells).</p><p id="2297904f-03a9-81a2-8ab5-f4c987610ffc" class="">Stenosis of the vessel with reduction of the lumen (kind of vasoconstriction) is present, thus the pressure is higher and the blood has difficulty in flowing through.</p><p id="2297904f-03a9-819b-afe4-cc0313b5ba39" class="">Normally, the increased pressure can easily break the plaque that protrudes in the lumen, however, as long as the fibrous cap is thick and strong, it prevents the break of the plaque.</p><p id="2297904f-03a9-8128-bb9d-c1de5a7d23f3" class="">2.<strong>Unstable (Vulnerable) Plaque</strong>→ Very big</p><figure id="2297904f-03a9-819a-bb90-f2e187f48bfc" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image10.png"><img style="width:664px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image10.png"/></a></figure><p id="2297904f-03a9-81e0-be63-ca22b9c8dbec" class=""><em>fig. 11</em></p><p id="2297904f-03a9-8160-97ae-dc0397568e28" class="">necrotic core and strong inflammatory state. The fibrous cap is thin, atheroma is not strong and so</p><p id="2297904f-03a9-8197-9a19-eaca09eb6d83" class="">the pressure of the blood can easily provoke the rupture of the plaque. The integrity of the fibrous</p><p id="2297904f-03a9-8191-87c3-d15d7bc37961" class="">cap depends on the production and degradation of the matrix components: if there is a high</p><p id="2297904f-03a9-8176-8c5a-ea6b86305de2" class="">production of MMPs and a decreased production of TIMPs, the matrix will be degraded and the</p><p id="2297904f-03a9-81a6-ac47-eec5502139cb" class="">fibrous cap becomes thin and breaks easily.</p><p id="2297904f-03a9-8133-bc55-c435b9d6e1af" class=""><strong>CLINICALPHASE</strong></p><p id="2297904f-03a9-816e-b593-c9c73b8fc35c" class="">Usually occurs in middle-aged or elderly people.</p><p id="2297904f-03a9-8188-993c-f830513f3678" class="">Clinical phase is characterized by progressive growth of the plaque (the plaque grows very slowly). It is impossible for the plaque to grow enough to completely occlude the tubule, there are clinical manifestations caused by critical steatosis before (e.g. hypoxia of the myocardium, which is called “angina pectoris”, caused by reduction of oxygen).</p><p id="2297904f-03a9-8126-8280-e039b66aa7e7" class="">When the plaque breaks the formation of a thrombus can immediately take place. If it occurs on the top of a plaque that already is protruding and partially occluding the lumen of the artery, the risk of the total occlusion of the artery (infarction) is very high.</p><p id="2297904f-03a9-814c-b856-def70bea4b5e" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-81fe-b31e-edcae37a1dc7" class="">30</p><p id="2297904f-03a9-815f-ae5d-f67b59d29f52" class="">03.04.2023 LEONARDUZZI L.02</p><p id="2297904f-03a9-81b3-b4f6-ef525d088c89" class="">Plaque rupture occurs most frequently in the <strong>shoulder</strong> region (point between the normal endothelium and the plaque itself), where the cap is very thin and has the highest infiltration of foam cells (macrophages).</p><p id="2297904f-03a9-8101-a93d-cb0b17889b71" class="">With the rupture of the endothelium, the pro-thrombotic factors present on exposed SMCs (for example <strong>thromboplastin</strong> aka <strong>tissue factor</strong>) can come in contact with the extrinsic coagulation factors. The contact of the coagulation factor with the plaque itself can immediately stimulate the coagulation cascade (the recruitment and the activation of the platelets, an extrinsic coagulation cascade). This</p><figure id="2297904f-03a9-8171-9bbc-c7294d4b0087" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image11.png"><img style="width:454px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image11.png"/></a></figure><p id="2297904f-03a9-818a-9b68-c2b474ce3e83" class=""><em>fig. 12</em></p><p id="2297904f-03a9-81ff-b91f-f0db863d6cf7" class="">process results in the formation of an abnormal clot aka thrombus immediately on the top of the plaque (abnormal because no hemorrhage is present, but the process is the same).</p><p id="2297904f-03a9-8123-8c20-d341d0b00d89" class="">After the exposition of the sub-endothelial basement the blood has higher thrombogenic properties that can provoke the aggregation of platelets, fibrin activation and formation of an abnormal clot called <strong>thrombus</strong>. The plaque already partially occludes the lumen, grow slowly hampering the circulation (very rarely it totally occludes the artery). It causes a critical stenosis with partial occlusion and ischemia. The true severe risk is the rupture: the thrombus (usually) completely occludes the lumen, causing <strong>infarction</strong> and stroke.</p><p id="2297904f-03a9-8111-9b2a-e66f9712bb34" class=""><strong>COMPLICATIONS OF ATHEROMATOUS PLAQUE</strong></p><p id="2297904f-03a9-81e1-8bbe-d3639805df10" class="">1.<strong>Calcification</strong>→ Deposition of calcium salts that contribute to the stiffness of the artery wall 2.<strong>Hemorrhage</strong>→ Rupture of the fibrous cap or of the thin-walled vessels in the areas of neovascularization (due to high blood pressure) cause intraplaque hemorrhage and consequently plaque expansion.</p><p id="2297904f-03a9-81b8-b8b6-c1340a090b90" class="">3.<strong>Plaque ulceration, erosion, or rupture</strong>→ Exposure of substances with aggregating and highly thrombogenic properties that result in thrombus formation which may partially or completely occlude the vessel lumen</p><p id="2297904f-03a9-81f4-8d34-de8b036dc398" class="">4.<strong>Thrombosis</strong>→ Rupture of the plaque is the most important trigger: it immediately stimulates the release of tissue factors that cause the deposition of thrombogenic constituents which induce the activation of platelets and so the formation of a thrombus.</p><p id="2297904f-03a9-81e9-8786-ef3978e7c335" class="">5.<strong>Embolism</strong>→ a) dissolution of the thrombus in fragments → emboli → complete occlusion of vessels with a smaller diameter. b) following rupture, necrotic debris and/or so-called cholesterol crystals (that can’t mix with blood) emboli may be released into the bloodstream → micro emboli.</p><p id="2297904f-03a9-8138-8fad-f020a3658f26" class="">6.<strong>Aneurysm</strong>→ Very dangerous complication that can occur when there is an advanced plaque (quite frequent in the aorta due to the very high pressure). In this case, instead of growing inside the lumen, the plaque pushes in the opposite direction. The plaque is then responsible for the <strong>atrophy</strong> of the media layer that loses its elasticity and becomes weak due to the progressive thinning. An aneurysm is an enlargement of the artery. The walls become bulged causing the formation of turbulence which can contribute to an inflammatory state. The artery has a high risk to break causing a very severe hemorrhage that can also cause the death of the patient for hemorrhagic or hypovolemic shock.</p><p id="2297904f-03a9-81ee-a91e-faf3dee0faf3" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-8130-b83d-e5a47c798b93" class="">31</p><p id="2297904f-03a9-816b-846c-c6a3d2609223" class="">03.04.2023 LEONARDUZZI L.02</p><figure id="2297904f-03a9-8197-b829-f0695a476f08" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image12.png"><img style="width:454px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image12.png"/></a></figure><p id="2297904f-03a9-81c0-9ac6-d810efe15299" class=""><em>fig.13</em></p><p id="2297904f-03a9-81f1-a846-df52216e223e" class=""><em>a) Stenosis of the lumen</em></p><p id="2297904f-03a9-8127-a3ee-d4d8b244e76f" class=""><em>b) Thrombus formation and embolism</em></p><p id="2297904f-03a9-8188-b631-ee647a716f7b" class=""><em>c) Intraplaque hemorrhage</em></p><p id="2297904f-03a9-81db-86e0-d6cba4e8b66f" class=""><em>d) Aneurysm formation</em></p><p id="2297904f-03a9-811f-a008-ea3deca8edc6" class="">From a clinical point of view, the complications depend on the size of the plaque.</p><p id="2297904f-03a9-81fa-a683-f219f17b228b" class="">When the atheroma occludes the artery partially, some pathological conditions caused by hypoxia can occur. - partial occlusion occurs in the carotid arteries → risk is to develop <strong>dementia</strong> due to progressive cerebral ischemia;</p><p id="2297904f-03a9-8149-91da-c4a4bd7e6f0b" class="">- hypoxia in the myocardium results in <strong>angina pectoris</strong> that is the step before the myocardial infarction;</p><p id="2297904f-03a9-81df-af16-c67b30a61261" class="">-</p><p id="2297904f-03a9-8114-b99a-c30e6277f543" class="">presence of the plaques in the lower limbs can cause ischemia, so the <strong>necrosis of muscles and</strong> <strong>tissues</strong>, but no infarction thanks to collateral arteries, anyway necrosis is quite painful and the patients with the femoral artery affected start to limp because of the pain (<em>claudication</em> walk). - In case of the occlusion of the renal artery, there can be <strong>renal failures</strong>.</p><figure id="2297904f-03a9-8153-b3c4-eae23ff6692b" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image13.png"><img style="width:605px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image13.png"/></a></figure><figure id="2297904f-03a9-81f1-a21a-df340253c488" class="image"><a href="atherosclerosis%202297904f03a9815782e4d79086dc445b/image14.png"><img style="width:659px" src="atherosclerosis%202297904f03a9815782e4d79086dc445b/image14.png"/></a></figure><p id="2297904f-03a9-8182-8863-d3c1be3b5976" class=""><em>fig.14 fig.15</em></p><p id="2297904f-03a9-8130-b752-db9d0edbfe34" class="">Alessandra Giorgi, Beatriz Vitorino</p><p id="2297904f-03a9-8138-b2c2-df06149c8cfb" class="">32</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

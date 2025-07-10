@@ -1,0 +1,778 @@
+20.04.2023 GAMBA L.7
+DIABETES MELLITUS
+G
+ENERAL FEATURES
+You have already heard about diabetes mellitus in other courses, I will explain more the pathophysiology
+than the clinical part of it. The term comes from the Greek diabetes, meaning “to pass through”, and mellitus
+meaning “sweet”. It is characterized by polyuria (big quantity of urine expelled) associated with glycosuria
+(emission of glucose in the urine), so urine is sweet due to alterations of carbohydrates metabolism mainly,
+but also proteins and lipids metabolism.
+All the types of diabetes mellitus are characterized by a stable hyperglycemia, so high levels of glucose in the
+blood that may be due to different causes, such as lack of insulin or insulin resistance. There are complications
+over time, such as macro and micro-vascular diseases, we will see them in detail.
+If hyperglycemia is too high, so higher than 180 mg/dL is associated with polyuria and glycosuria.
+Fig 1
+In this important paper (fig. 1) there’s a projection for 2045 to see how many cases of diabetes mellitus are
+present nowadays and how many are expected to be present in 20 years more or less. In general, in the world
+in 2021 there were 530 millions of people affected by this disease, while in 2000 they were only 151 millions.
+In 2045 there will be 780 million.
+Fig. 1 shows also the countries in which there will be a higher increase in the diabetes mellitus cases, they
+are countries that are developing more and more, like Africa.
+Endi Dingu, Elena Zeppegno
+83
+20.04.2023 GAMBA L.7
+Fig 2 & 3
+Here (fig 2) you can see in 2021 the diabetes mellitus prevalence by age and the fact that it increases with
+age; the incidence in males and females is more or less the same.
+Here (fig 3) you see the difference between rural areas and urban areas: in 2045 compared to 2021 there is
+not so much difference in rural areas, the big difference is in cities. Of course, this is related mainly to the
+diet.
+C
+LASSIFICATION
+Diabetes mellitus can be classified into 4 main groups: type 1 and 2, diabetes for other causes and gestational
+diabetes. We will focus more on the first two.
+Type 1 diabetes in the past was called insulin-dependent diabetes (now it is more correct to call it just type
+1 diabetes, because also other diabetes can be related to insulin, not only type 1) or juvenile diabetes
+(because usually is diagnosed in children but keep in mind that it can appear later in life and not only during
+childhood). Type 1 diabetes occurs in 10% of all diabetes cases, it is characterized by an absolute insulin
+deficiency caused by destruction of the cells of endocrine pancreas producing it, the β cells. For this reason,
+it is considered an autoimmune disorder. Insulin is a hypoglycemic hormone, and when it lacks it causes
+accumulation of glucose in blood, so hyperglycemia.
+There are two forms of this type of diabetes:
+- Type 1A (immune-mediated diabetes mellitus): the autoimmune form of the disease
+- Type 1B (idiopathic diabetes mellitus): a rare form with unknown etiology
+Type 2 diabetes was in the past called insulin-independent diabetes (not correct anymore) and adult-onset
+diabetes (because mainly occurs in adults and the elderly, but since diabetes type 2 diabetes is associated
+with obesity, that is one of the main risk factors, and obesity now is very diffused also in young people, it’s
+not correct anymore to call it that way). It is caused by a relative insulin insufficiency, it is produced by β
+cells of the pancreas, but there is a sort of resistance, so cells of the periphery are not able to sense insulin:
+insulin is not able to bind to its receptor and it’s not able to activate the transduction pathway.
+The third class is diabetes mellitus from other causes, it can be caused by the removal of the pancreas
+because of a tumor for example, pancreatitis so inflammation of the pancreas, pancreatic tumors, cystic
+fibrosis, structural abnormalities of insulin, genetic defects in β cells and other causes.
+Endi Dingu, Elena Zeppegno
+84
+20.04.2023 GAMBA L.7
+Then there is the gestational diabetes mellitus, a diabetes that occurs in pregnant women. If the woman is
+already diabetic before pregnancy, we speak about pre-gestational diabetes, which may be more severe and
+dangerous for the newborn, because if it is not controlled it can cause malformations. The gestational
+diabetes which occurs later during pregnancy is less dangerous, but it has to be strongly controlled in order
+to avoid possible complications such as macrosomia of the fetus. Usually, this condition is completely
+reversed after delivery. Gestational diabetes is a sort of insulin resistance, so it’s similar to type 2 diabetes:
+insulin is still produced but it’s not able to act in the right way.
+D
+IAGNOSIS
+The diagnosis of diabetes mellitus is made in the presence of the classic symptoms: polyuria (big amount of
+urine produced), polydipsia (great thirst), unexplained weight loss (we’ll see that in diabetes there’s the
+catabolism of lipids and proteins); and then a stable hyperglycemia, always documented in all types of
+diabetes.
+The basic tests to evaluate blood glucose levels are:
+- Fasting Plasma Glucose (FPG), the measurement of blood glucose levels when fasting
+- 2-hours Plasma Glucose (2-h PG), the measurement of glucose levels after 2 hours of the assumption
+of big amount of sugar (75 g of glucose), called the OGTT (oral glucose tolerance test), in order to
+evaluate how our body is able to use this glucose
+- Glycated hemoglobin (HbA1c), we’ll see that the glucose in the blood if present in high
+concentrations is able to bind to proteins, so proteins are glycosylated; so the measurement of
+hemoglobin that has been glycated is a marker of hyperglycemia.
+How is the OGTT, also called “load curve”, performed?
+First of all, the fasting plasma glucose is measured in order to see the basal levels of glucose
+in the blood; then the patient ingests 75 g of glucose and at different intervals the plasma
+glucose is measured 2 hours after the OGTT test.
+The healthy subject there will be, after the ingestion of 75g of glucose, a slight increase in
+blood sugar that over time drops to the basal level.
+The diabetic patient already starts from a higher basal level of glucose, then they
+accumulate glucose in the blood and is very difficult to lose it, it remains in the blood.
+Fig 4
+This (fig 5) is a table which is very important for you
+to know as medical doctors. In normal conditions a
+healthy patient should have a FPG lower than 110
+mg/dl, a 2-h PG after the intake of glucose lower than
+126 mg/dl, and a glycated hemoglobin lower than
+5,7% (percent meaning respect to the total
+hemoglobin).
+Diabetic patients will have a FPG higher than 126
+mg/dl (it should be measured at least 2 times on
+different days to say that it is a diabetic condition), a
+2-h PG higher than 200 mg/dl, and a glycated
+hemoglobin higher than 6,5%.
+Fig 5
+In the middle there’s a condition called impaired glucose tolerance, these patients will have a FPG between
+110-125 mg/dl, a 2-h PG between 140-199 mg/dl and an HbA1c between 5,7-6,4%.
+Endi Dingu, Elena Zeppegno
+85
+20.04.2023 GAMBA L.7
+P
+ANCREAS
+The main hormones regulating glycemia are insulin and glucagon, and they are produced by the endocrine
+pancreas, in particular in the islets of Langerhans.
+The pancreatic islets are dispersed in the pancreas parenchyma, and there are different cells in them:
+- β cells, the most abundant (80%), they are responsible for the production of insulin;
+- α cells (15%), they produce glucagon;
+- δ cells (3-5%), produce somatostatin;
+- PP cells (1-2%), produce the Pancreatic Polypeptide hormone.
+Let’s focus on insulin and glucagon.
+Insulin is a hypoglycemic hormone: it is produced when there is a high concentration of glucose in blood, it’s
+the glucose itself that stimulates β cells to produce insulin. Insulin stimulates the cells of peripheral tissues
+to reduce its concentration in blood.
+Glucagon has an opposite function: it is a hyperglycemic hormone, so it’s produced by α cells when there’s
+a low level of glucose in the blood. For example, in the morning before breakfast, after fasting during night.
+It increases glycemia by stimulating gluconeogenesis in the liver and glycogenolysis.
+Fig 6
+This picture (fig 6) shows you two immunohistochemistry: they are the islets of Langerhans, in brown (A
+picture) you can see the β cells producing insulin, and here (B picture) the α cells producing glucagon.
+G
+LUCOSE HOMEOSTASIS
+Glucose homeostasis is regulated by different processes:
+- Gluconeogenesis, so the production of glucose in the liver;
+- Glucose uptake by cells of the peripheral tissues, that have to use it as an energy source;
+- Action of insulin and glucagon regulating the glucose uptaken by the periphery.
+After an overnight fasting, low levels of glucose in the blood are present, so there is an increase in the
+synthesis of glucagon (hyperglycemic) and simultaneously a decrease in the release of insulin. Glucagon
+increases gluconeogenesis and glycogenolysis (degradation of glycogen to produce glucose).
+After the meal, the production of insulin is increased, and the production of glucagon is decreased. By this
+way, insulin stimulates the peripheral cells to uptake glucose, decreasing the glycemia.
+G
+LUCOSE ROLE IN INSULIN RELEASE
+Glucose itself has a role in the release of insulin. When you have hyperglycemia after a meal, so postprandial
+hyperglycemia, the glucose stimulates the β cells to produce insulin.
+Endi Dingu, Elena Zeppegno
+86
+20.04.2023 GAMBA L.7
+Fig 7
+Glucose enters the pancreatic β cells by diffusion through a channel called GLUT-2, and once inside the cell
+it is used for glycolysis, so it is phosphorylated to Glucose-6-phosphate by a glucokinase and so on; at the
+end you obtain ATP.
+ATP inhibits the passage of potassium through the K+ channel: this brings to the depolarization of plasma
+membrane, and the Ca2+ channels (which are voltage-gated channels, so are able to sense the
+depolarization) open and calcium enters inside the cell. So, the result is that you have an increase in the
+intracellular amount of calcium. The increase in calcium concentration is responsible for the release of insulin
+by β cells.
+Insulin secretion is not modulated only by glucose, but also other compounds like intestinal hormones called
+incretins. These hormones are produced by the intestine when there are high levels of glucose in blood.
+Two main incretins are known: GLP1 (Glucagon-like Peptide 1) and GIP (Glucose-dependent Insulinotropic
+Polypeptide).
+Incretins are able to increase the insulin production and simultaneously reduce the glucagon production;
+then they have an important role in delaying the gastric emptying, giving a sense of satiety. This is what
+happens physiologically.
+In diabetic people, incretins are not functioning, or they are not produced: in general, the incretin effect is
+attenuated. There are two new classes of drugs to restore the incretin function and mimic sometimes their
+effect: there are agonists of the receptor for GLP-1, if GLP1 is not functioning and binding to its receptors
+located in the pancreas and stomach, they’re similar to GLP1, and bind the GLP-1 receptor restoring the
+normal function; inhibitors of DPP-4, DPP-4 is the enzyme that normally degrades incretins, bringing to
+increase in their level.
+I added this picture (fig 8) yesterday: this is a drug that is not
+anymore available in pharmacies, because it is used a lot by
+people who want to lose weight, and it is an agonist of GLP-1
+receptor, inducing a sense of satiety.
+Fig 8
+A
+CTION OF INSULIN AT THE CELLULAR AND MOLECULAR LEVEL
+Glucose by entering to GLUT-2 stimulates the production of insulin by β cells of the pancreas. Insulin goes to
+the periphery, maybe in muscles and adipose tissue, to give its signal in order to uptake glucose. How does
+it act?
+Endi Dingu, Elena Zeppegno
+87
+20.04.2023 GAMBA L.7
+Fig 9
+Insulin has specific receptors that bind it (fig 9). The receptor is composed of two α subunits, which are
+extracellular, and two transmembrane β subunits.
+α subunits have the binding site for insulin, while the β have the catalytic domain. After insulin binds the
+receptor, there is a conformational
+change in the receptor bringing to the
+activation of the signal transduction
+pathway that is responsible for the
+uptake of glucose. As a consequence of
+the activation of the signaling cascade,
+we have the translocation to the
+membrane of the GLUT-4: it is
+responsible for the uptake of plasma
+glucose, so glycemia is reduced.
+So again, after a carbohydrate-rich
+meal, you have an increase in glycemia,
+stimulating β cells to produce insulin, as
+we described before; insulin acts on target cells and induces glucose uptake. Fig 10
+Q from a student: where does the glucose go after?
+Answer: depends, glucose in the liver can be synthesized as glycogen, or it is used to produce energy for lipid
+and protein metabolisms and muscle tissue, or as an energy storage in adipose tissue.
+The main player in the pathophysiology of diabetes is of course glucose because insulin strictly regulates
+glucose uptake, but it also regulates the lipid metabolism by inhibiting glycolysis (so stimulating glycogenesis)
+and also protein metabolism.
+Insulin, in order to be hypoglycemic, suppresses the hepatic gluconeogenesis and inhibits glycogenolysis, the
+opposite of what glucagon does.
+Endi Dingu, Elena Zeppegno
+88
+20.04.2023 GAMBA L.7
+We see more in detail the insulin binding (fig 11) to the α subunit
+of the receptor: after that you see the conformational change in
+the receptor, so the β subunit containing the catalytic domain,
+which has tyrosine kinase activity, is activated and it undergoes
+autophosphorylation of the receptor. The autophosphorylation
+of the β subunit is responsible for the activation of enzymes
+present in the cytoplasm belonging to the IRS family (Insulin
+Receptor Substrates). The enzymes will activate two very
+important pathways, the MAP kinase pathway and PI3 kinase
+pathway: these pathways bring to the translocation of GLUT-4
+in the membrane, so that glucose is now able to enter the cell.
+Fig 11
+M
+ETABOLIC EFFECTS OF INSULIN AND GLUCAGON
+Fig 12
+Insulin has many metabolic effects. The most known of insulin of course regards glucose, so in adipose tissue
+and in muscles there is an increase in glucose uptake, but it also reduces gluconeogenesis and increases
+glycogen synthesis, in order to be hypoglycemic.
+Insulin is also able to regulate lipid and protein metabolisms: it is an anabolic hormone, so it increases lipid
+and protein synthesis. In lipids, it is able to increase their synthesis but not directly: it inhibits lipolysis, so
+lipids are not degraded and accumulate, and it stimulates the synthesis of fatty acids. In proteins, it
+stimulates their synthesis in muscles. This is important to understand later the acute metabolic alterations
+that occur in diabetes.
+Glucagon is a hyperglycemic hormone, it stimulates glycogenolysis and lipolysis.
+M
+ETABOLIC ALTERATIONS IN DIABETES
+If we consider the metabolic effects of insulin and glucagon, we can get what happens when insulin is not
+present, as in type 1 diabetes, or it cannot act on target cells, as in type 2 diabetes. The stable hyperglycemia
+present in all types of diabetes brings to a waste of glucose, it stays in the circulation and is not uptaken by
+Endi Dingu, Elena Zeppegno
+89
+20.04.2023 GAMBA L.7
+cells, and it binds to proteins glycosylating them (one of the main causes of chronic complications of
+diabetes).
+In healthy individuals, high glucose levels inhibit the release of glucagon. In diabetes mellitus, α cells are less
+sensitive to glucose, so glucagon secretion is not inhibited, resulting in hyperglycemia, worsening the levels
+of glucose in plasma (insulin not binding to receptors + insulin not inhibiting glucagon release).
+T 1 D M
+YPE IABETES ELLITUS
+This type of diabetes in the past was called insulin-dependent diabetes mellitus or juvenile diabetes, because
+of the frequent onset of this type in children. But now it has been seen that not only type 1 may be dependent
+on insulin assumption, and it can be present also in adults and the elderly.
+It is characterized by absolute deficiency of insulin, because of the destruction of β cells of the islets of
+Langerhans. It’s more rare in respect to the other types of diabetes, they are 5-10 % of all cases of diabetes
+mellitus.
+There are two forms: type 1A and type 1B. The immune-mediated diabetes mellitus (1A) is the most
+common, it’s considered an autoimmune disorder, and it is multifactorial: there is a genetic predisposition
+but there must be some environmental factors activating it. The peak onset is during puberty, the 75% of
+cases occur between 3 and 18 years old, the rest in older ages. It is characterized by stable hyperglycemia,
+and in 10-40% of cases also by ketoacidosis, we’ll see later what it is.
+Fig 13
+In this picture (fig 13) you can see a graph: on X axis you have the age, on Y axis the β cells mass. There is a
+phase between 5 and 10 years old that is considered a preclinical phase (called also the honeymoon period):
+it means that β cells are actually destroyed, but they can still guarantee a sufficient insulin production
+because of their hyper functionality (remaining cells producing more insulin than normal). The acute
+metabolic alterations typical of type 1 diabetes (hyperglycemia, ketoacidosis, glycosuria, polyuria...) occur
+when more than 90% of β cells are destroyed.
+So, in most cases type 1 diabetes is an autoimmune disorder. There is a genetic predisposition to this
+disorder, but it is actually not sufficient for the onset of the diabetes. Some triggering factors are needed,
+environmental factors that activate the autoimmune response against beta cells. When the autoimmune
+response is activated, we observe insulitis, so inflammation of the islets characterized by lymphocytes
+infiltrates and production of specific antibodies called ICA antibodies (Islets Cells Auto-antibodies).
+Endi Dingu, Elena Zeppegno
+90
+20.04.2023 GAMBA L.7
+Antibodies bind to insulin, so insulin is not able anymore to bind the insulin receptor. There can be also
+antibodies against some specific antigens present on beta cells, that avoid the production of insulin.
+There are some genes that can be involved in the genetic predisposition (you don’t have to remember them).
+The important thing for you is to recognize the presence of polymorphism of the gene encoded for the
+vitamin D receptor, so it may be involved in diabetic predisposition, or also mutations in the insulin gene
+bringing to the creation of an insulin molecule that is not correctly formed, so it cannot bind to the insulin
+receptors.
+Genetic predisposition is not sufficient for the onset of type 1 diabetes, you need environmental factors that
+can trigger the autoimmune response. These environmental factors may be viral infections or dietary
+compounds, that in some people with genetic predisposition can trigger the immune response, such as
+proteins from cow’s milk (especially albumins, proteins present on the surface of β cells): in some people,
+the assumption of big quantities of bovine albumins can stimulate the formation ICA antibodies against these
+albumins, because due to a molecular mimesis the bovine albumin, which mimics a protein of beta cells, is
+recognized as antigen and attacked. Another possible environmental factor is the desegregation of antigens:
+some viral infections can damage the beta cells (not kill, only damage), allowing the cells to expose in the
+membrane some proteins normally found in the inner layer of the membrane, so they’re attacked by the
+antibodies.
+About the morphology of the islets of Langerhans in
+diabetes type 1 just remember that due to the
+destruction of beta cells we have necrosis of these
+cells, and consequently an inflammatory reaction,
+insulitis.
+In this slide (Fig 14) you can see the little dots that
+are the monocyte-lymphocyte infiltrate (with nuclei
+occupying all the cell).
+Fig 14
+T 2 D M
+YPE IABETES ELLITUS
+Type 2 diabetes mellitus represents the 80-90% of all types of diabetes mellitus. In the past it was called
+insulin-independent diabetes mellitus or adult-onset diabetes, but now is not correct because it occurs also
+in children due to obesity, which is one of the main triggering factors today.
+It is mainly characterized by insulin resistance; it is not able for different causes to bind on its receptor and
+activate the signal transduction pathway. The other characteristic of this type is deficiency in insulin
+secretion: there is a complicated interplay between insulin resistance and insulin deficiency, this is why we
+cannot call type 1 diabetes insulin-dependent diabetes, because sometimes also type 2 patients may need
+insulin. Another characteristic is an increased hepatic synthesis of glucose.
+Also in this case is a multifactorial disease, there is a genetic predisposition, but the main trigger event is
+obesity. These two factors bring together to insulin resistance and alterate function of β cells.
+Endi Dingu, Elena Zeppegno
+91
+20.04.2023 GAMBA L.8
+I
+NSULIN RESISTANCE
+Due to the presence of insulin resistance and not a complete loss of beta-cells in the pancreas, we only have
+a relative insulin deficiency in type 2 diabetes and not a complete insulin deficiency as in type-1 diabetes.
+Decreased peripheral insulin response mainly affects skeletal muscles, adipose tissue and the liver (most
+sensitive to insulin).
+There are three main causes of insulin resistance;
+1) RECEPTOR DEFECTS - considered as a genetic predisposition. This is related to a mutation in the gene
+coding for insulin receptors which can lead to a decrease in the number of INSR receptors on the
+surface of beta cells or the correct number of receptors with mutations that alter their ability to bind
+insulin. (Insulin is present but cannot bind to the receptors fig.1).
+2) POST-RECEPTOR DEFECTS - In this case, insulin is
+able to bind to the receptors, but the insulin signal
+transduction pathways are impaired. Perhaps
+mutations in the receptors can lead to alterations
+in the catalytic tyrosine kinase domain of the
+receptor or substrates of tyrosine kinases are
+altered or mutations in genes coding for GLUT-4
+could prevent the translocation of GLUT receptors
+to the membrane or GLUT-4 is translocated to the
+membrane but due confirmational changes is
+unable to uptake glucose.
+Fig. 1
+3) REDUCED INSULIN SENSITIVITY – Here insulin is
+produced, but is unable to bind to the receptors due to abnormalities of the insulin molecule.
+The consequences of insulin resistance are;
+- Failure to inhibit gluconeogenesis in the liver (elevated fasting glucose)
+- Reduced glucose uptake (due to failure in GLUT-4 translocation) and glycogen synthesis in skeletal
+muscle after a meal (elevated postprandial blood glucose)
+- Failure to inhibit the activity of the "hormone sensitive" lipase in adipose tissue → excessive
+degradation of triglycerides in adipocytes and an excess of circulating free fatty acids (FFA).
+G F
+ENETIC ACTORS
+Genetic predisposition is greater in Type-2 Diabetes than in Type-1. However, the real risk factor together
+with genetic predisposition of Type-2 Diabetes is obesity.
+• Possible to recognize family history
+• Homozygous twin concordance > 90% (in DM1 40%)
+• Risk of transmission if both parents are affected > 50%
+Some of the environmental/social factors that are related to genetic predistortion are;
+- Obesity - in fact about 60-80% of DM2 patients are obese
+- Sedentary life
+- Unbalanced diet (diet rich in fats, especially saturated fatty acids, and sugars)
+- Smoke
+- Hypertension
+In particular, abdominal obesity is the real risk factor because here the visceral adipose tissue produces a
+variety of metabolically active factors (like specific adipose tissue cytokines which induce inflammation,
+oxidative stress), some of which promote insulin resistance.
+Jayamaha Tamasha, Zogheri Allegra
+92
+20.04.2023 GAMBA L.8
+H ?
+OW DOES OBESITY CONTRIBUTE TO INSULIN RESISTANCE
+Adipose tissue produces specific inflammatory cytokines that are called adipokines → hormones produced
+by the adipose tissue. The levels of these adipokines are regulated by a nuclear receptor called PPARγ
+(Peroxisome Proliferator-Activated Receptor-γ). This receptor induces the increased synthesis of
+adipokines.
+Among these adipokines, there is adiponectin. Adiponectin favors insulin sensitivity in peripheral tissues.
+Normally, in DM2 patients these levels of adiponectin are reduced and this mechanism promotes insulin
+resistance fig.2
+DM2 patients are given specific drugs called ‘Thiazolidinediones’, which are agonists of PPARγ and can
+stimulate the production of adiponectin to improve insulin sensitivity.
+In obese patients, there are elevated levels of free fatty acids and
+these FFAs are shown to cause insulin resistance.
+FFA bind to G protein-coupled receptors and interfere with the
+insulin signaling pathway → alterations in the secretion of insulin,
+incretins, and glucagon and promote inflammation.
+Obesity also causes the release of some pro-inflammatory
+cytokines (TNF, IL6…) that can induce insulin resistance.
+In insulin resistance favored by obesity, the beta-cells produce
+insulin which is unable to act. In the first phases of the disease,
+there is a compensatory hyperinsulinemia. This means that the Fig. 2
+beta-cells in the pancreas try to
+compensate the insulin resistance by
+producing more insulin. So, they are
+hyperactivated.
+However, at a certain point, they are
+not able to produce a bigger amount
+of insulin since insulin is altered and
+the target cells aren’t able to sense the
+presence of insulin.
+These beta-cells eventually die and
+undergo apoptosis (programmed cell
+death) and not necrosis as in DM1.
+Insulin resistance and beta-cell
+atrophy is interconnected.
+Fig. 3
+M
+ORPHOLOGY
+There is no necrosis of pancreatic β-cells, nor morphological lesions in these cells in DM2. In some islets,
+fibrous tissue fig.4 accumulates, even to the point of obliterating them. The protein amyloid produced by β
+cells is often present in the islets, especially in patients over 60 years of age.
+Jayamaha Tamasha, Zogheri Allegra
+93
+20.04.2023 GAMBA L.8
+Fig. 4
+A
+CUTE METABOLIC ALTERATIONS AND CLINICAL FEATURES OF DIABETES
+We will see some acute metabolic alterations, due to
+lack of insulin activity, that are related to both DM1 and
+DM2. As told before, the main characteristic is
+hyperglycemia which is present in DM1 and 2, which
+can lead to metabolic alterations.
+In addition to hyperglycemia, diabetes mellitus is
+characterized by a TRIAD, which is also indicated as the
+‘illness of the 3Ps’. These are polyuria (increased
+urination), polydipsia (excessive thirst) and polyphagia
+(excessive hunger).
+In addition to the TRIAD, there is asthenia (decreased
+muscle tone) and diabetic ketoacidosis (if DM is
+severe).
+Remember that insulin not only regulates glycemic
+metabolism, but also protein and lipid metabolism as
+shown in fig.5.
+As regards to lipids, the role of insulin is to inhibit
+Fig. 5
+lipolysis by inhibiting adipocyte lipase and favors
+glycogenesis. At the same time, insulin favors protein
+synthesis.
+Loss of insulin function (insulin resistance) leads to consequences at the level of the adipose tissues and
+muscles. At the level of adipose tissues, due to insulin resistance, there is no inhibition of lipolysis. Increased
+lipolysis leads to the accumulation of free fatty acids. This is a form of dyslipidemia that is seen in DM patients
+which can cause severe complications like atherosclerosis. As regards to protein, due to insulin resistance
+there is reduced protein synthesis and an increased protein catabolism. Increased lipolysis and protein
+catabolism leads to polyphagia.
+In diabetic patients, the alpha cells of the pancreas are not sensible to hyperglycemia. So, glucagon is in
+excess and this can lead to glycogenolysis and gluconeogenesis which leads to the production of glucose
+causing hyperglycemia. When there is hyperglycemia (more than 180mg/dL), glucose can also be found in
+urine leading to glycosuria. Presence of glucose in urine can also lead to osmotic imbalance causing polyuria
+(excessive loss of water). This can result in diabetic coma together with ketoacidosis.
+Jayamaha Tamasha, Zogheri Allegra
+94
+20.04.2023 GAMBA L.8
+D
+IABETIC KETOACIDOSIS
+This is caused due to the formation of ketone bodies fig.6,
+which is composed of three components called acetone,
+acetoacetic acid and β-hydroxybutyric acid.
+These ketone bodies are produced in the liver due to increase
+lipolysis starting from the release of FFA (non-esterified fatty
+acids).
+Accumulation of these ketone bodies in blood and urea leads
+Fig. 6
+to ketoacidosis. Acetoacetic and β-hydroxybutyric acid of
+ketone bodies are the two molecules that are responsible for
+the acidification of the pH.
+Acetone, being volatile, in addition to passing in the urine, is eliminated with the exhaled air (rotten fruit
+breath).
+The clinical manifestations of ketoacidosis are;
+- Fatigue
+- Nausea and vomiting
+- Severe abdominal pain
+- Deep, labored breathing (Kussmaul breathing)
+- Depression in cerebral consciousness
+- Coma
+There are different types of comas such as;
+- DIABETIC COMA due to diabetic ketoacidosis.
+- HYPEROSMOLAR COMA (HYPEROSMOLAR HYPEROSMOTIC SYNDROME, HHS) due to severe
+dehydration resulting from sustained osmotic diuresis (polyuria).
+- HYPOGLYCEMIC COMA - usually occur in DM1 patients
+M -
+ETABOLIC DERANGEMENTS UNDERLYING THE CLINICAL MANIFESTATIONS OF DIABETES SUMMARY
+1. Since insulin is an important anabolic hormone, its deficiency causes a catabolic state that affects
+not only glucose metabolism, but also fat and protein metabolism.
+2. ↑ Glucagon secretion promotes hyperglycemia (it stimulates hepatic gluconeogenesis and
+glycogenolysis). Not only is the assimilation of glucose in the muscles and adipose tissue sharply
+decreased or abolished, but also the reserves are depleted (↑ glycogenolysis).
+3. The resulting hyperglycemia exceeds the renal reabsorption threshold → glycosuria. Glycosuria
+induces osmotic diuresis and then polyuria, causing a profound loss of water and electrolytes →
+severe dehydration → activation of the osmoreceptors of the thirst centers of the brain → intense
+thirst (polydipsia).
+4. Severe dehydration → hyperosmolar coma (hyperosmolar hyperosmotic syndrome, HHS)
+5. Peripheral tissues are in a persistent condition of low glucose → protein and fat catabolism.
+Proteolysis (skeletal muscle t.), releases «gluconeogenic» amino acids which are used as the building
+blocks of glucose → asthenia → slimming (DM1). Insulin inhibits lipolysis so in the absence of insulin
+there is catabolism of fats → release of non-esterified fatty acids and TG → loss of fat body mass
+(DM1), hypertriglyceridemia and steatosis + hypercholesterolemia (dyslipidemia). Protein and fat
+catabolism tends to induce a negative energy balance, which in turn leads to increased appetite
+(polyphagia).
+6. Excessive energy demolition of TG instead of glucose → free fatty acids reach the liver and are
+esterified and oxidized (β-oxidation of fatty acids) (ketogenesis) → release of ketone bodies
+(acetoacetic acid, acetone, β-hydroxybutyric acid) into the circulation = ketoacidosis (mainly in DM1).
+Symptoms of ketoacidosis: nausea, vomiting, respiratory distress. Ketone bodies are eliminated in
+the urine (ketonuria). If the acidosis is not compensated, it leads to diabetic coma and death.
+Jayamaha Tamasha, Zogheri Allegra
+95
+20.04.2023 GAMBA L.8
+7. Ironically, the most common acute metabolic complication in both types of diabetes is hypoglycemia
+(meal skipping, excessive physical
+activity, excessive insulin
+administration). Dizziness,
+confusion, sweating, palpitations
+and rapid heartbeat; loss of
+consciousness may occur if
+hypoglycemia persists →
+hypoglycemic coma. Reversal of
+hypoglycemia with oral or
+intravenous glucose prevents
+permanent neurological damage.
+Fig. 7
+C
+HRONIC COMPLICATIONS OF DIABETES
+Till now we have discussed about the acute alterations of metabolism in DM. So, polyuria, polydipsia,
+ketoacidosis, etc... are all acute metabolic alterations of DM.
+Now moving on to the chronic complications of DM, they consist mainly of diabetic macroangiopathy and
+diabetic microangiopathy.
+So, what are the causes of these chronic complications of diabetes?
+The mechanisms responsible for these complications are;
+- Formation of Advanced Glycation End Products (AGEs): - due to binding of glucose to proteins
+- Activation of Protein Kinase C (PKC)
+- Oxidative stress and disturbances in polyol pathways
+- Hexosamine pathways and generation of fructose-6-phosphate
+G
+LYCOSYLATION OF PROTEINS
+AGEs are Advanced Glycation End Products (AGEs) that are formed due to the bonding of glucose to the
+amino groups of both intracellular and extracellular proteins nonenzymatically = nonenzymatic glycosylation
+(or glycation) of proteins. This binding can lead to a permanent alteration of the protein and its functionality.
+AGEs have specific receptors called ‘RAGE’.
+Few examples of AGE include hemoglobin
+bound to glucose forming glycated Hb in
+blood, LDL apolipoprotein B (glycosylated LDL,
+accelerated atherosclerosis). When LDL is
+glycosylated, it is more pathogenic as it can
+easily penetrate the intima of big arteries.
+Another important example is the
+glycosylation of the proteins in the basal
+lamina which results in the alteration of the
+endothelium. This glycosylation favors the
+entrance of LDL and is the first step of the
+pathogenesis of atherosclerosis.
+Glycosylation of proteins is very
+important in the pathogenesis of DM.
+Fig. 8
+Plasma albumin binds to the glycosylated basement membrane of capillaries contributing to the thickening
+of the vascular wall seen in diabetic microangiopathy.
+In fig.8, you can see how AGEs induce oxidative stress in the beta-cells of the pancreas and forms amyloid
+plaques (toxic -> destroy beta-cells-> reduction of insulin production). This is just for your knowledge and is
+not necessary to remember all these steps.
+Jayamaha Tamasha, Zogheri Allegra
+96
+20.04.2023 GAMBA L.8
+M M
+ETABOLIC EMORY
+At the first stages of DM, hyperglycemic memory causes the formation of some AGEs. Even if hyperglycemia
+is corrected by diet, it still can form AGEs due to metabolic memory fig.9. This is because previously
+accumulated AGEs remain in tissues and continue to be responsible for the chronic complications of diabetes.
+• The engagement of RAGE by AGEs leads to sustained
+cellular dysfunction, termed as “metabolic memory” → long- Fig. 9
+term influence of previously accumulated AGEs that are
+capable of maintaining RAGE over-expression, sustained
+activation of NFkB, prolonged induction of tissue-specific
+inflammation, initiation and progression of long-term
+oxidative stress, which is persistent despite the reversal of
+hyperglycemia.
+• The phenomenon is associated with the pathogenesis of
+diabetes-related macrovascular and microvascular
+complications → impaired quality of life, accounting for
+increased morbidity, disability, mortality.
+As previously told, the two main chronic
+complications of DM are diabetic
+macroangiopathy and diabetic
+microangiopathy.
+MACROANGIOPATHY-> means alterations in
+big arteries resulting in an accelerated
+atherosclerosis. This can further cause
+thrombosis, ischemia, stroke.
+MICROANGIOPATHY-> results in alterations of
+the small vessels like capillaries. It is
+responsible for many complications like
+retinopathy, nephropathy, neuropathy,
+infections fig.10.
+D M
+IABETIC ACROANGIOPATHY
+Here the arteries are modified making then
+more susceptible to accelerated
+atherosclerosis. This means that
+atherosclerosis is premature and rapidly
+Fig. 10
+progressive.
+The two main causes of accelerate
+atherosclerosis in diabetic patients are dyslipidemia (due to high levels of LDL and low levels of HDL) and
+glycosylation of proteins (like LDL, basal membrane proteins).
+2 to 4 times greater incidence of coronary artery disease and fourfold higher risk of dying for cardiovascular
+complications.
+Diabetes is often accompanied by underlying conditions that favor the development of adverse
+cardiovascular events (hypertension in 75% of individuals with DM2; dyslipidemia).
+Atherosclerosis in diabetes is more aggressive than in the non-diabetic population, being premature, rapidly
+progressive, and with the involvement of multiple arterial districts at the same time. There is also an impaired
+function of cells involved in the maintenance of vascular homeostasis fig.11 (ECs, SMCs, stromal cells,
+pericytes, inflammatory cells, circulating and tissue-resident vascular stem/progenitor cells) due to metabolic
+alterations of DM.
+Jayamaha Tamasha, Zogheri Allegra
+97
+20.04.2023 GAMBA L.8
+For example, smooth muscle cells, which are in the tunica media, are important in atherosclerotic plaque
+formation. They proliferate, migrate to the intima
+and differentiate into fibroblasts to produce a
+fibrous cap (EM) that covers the atherosclerotic
+plaque.
+At the same time, it has been demonstrated that
+there are less EPCs (Endothelial progenitor cells) in
+DM patients. These cells are involved in repairing
+vascular damage. So, defects in the number of
+circulating progenitor cells are associated with a
+more rapid progression of vascular disease in DM.
+There is also another group of cells called OPCs
+(oligodendrocyte progenitor cells) which are
+abundant in DM patients and they come from the
+myeloid lineage (acquire some characteristics of
+osteoblasts). They stimulate ectopic calcification of
+the atherosclerotic plaque, which is another step in
+the pathogenies of atherosclerosis.
+Fig. 11
+Acceleration of atherosclerosis in DM is mainly due
+to AGEs. Below is a summary on how AGEs contribute to macrovascular complications.
+- AGEs promote endothelial dysfunction → AGEs induce oxidative stress in endothelial progenitor
+cells (EPCs) (EPCs contribute to re-reendothelialization, thus oxidative stress may hinder endothelial
+repair). Additionally, AGEs decrease the activity of the oxidative stress scavenger’s catalase and
+superoxide dismutase in ECs.
+- AGEs contribute to foam cell formation → Due, at least partially, to the inhibition of cholesterol
+efflux via ATP binding cassette (ABC) A1.
+- AGEs promote intraplaque inflammation → AGEs induce macrophage polarization in the so-called
+M1 phenotype. Atherosclerosis is a chronic inflammatory disease.
+- AGEs enhance proliferation of SMCs and synthesis of ECM.
+- AGEs promote calcification → Vascular calcification results from the deposition of hydroxyapatite
+minerals due to a phenotypic switch of VSMCs toward osteoblast-like cells. Calcification leads to
+vascular stiffening and concomitant cardiovascular risk.
+The presence of AGEs stimulates the progression of
+atherosclerotic plaque. They cause a switch from a
+stable to an unstable plaque fig.12.
+In a stable plaque, the fibrous cap is thicker, necrotic
+core is smaller and are not prone to rupture. But AGEs
+favor the transition into an unstable plaque, which has
+a thinner fibrous cap, thicker necrotic core and are
+prone to rupture.
+When the plaque ruptures, there is an immediate
+formation of an acute thrombus, which that can be
+responsible for a stroke when the carotid artery is
+blocked.
+When a non-occluding plaque obstructs a coronary
+artery, it can cause angina. When there is an occluding
+plaque due to the formation of a thrombus, it can lead
+to MI (Myocardial Infraction).
+Fig. 12
+Jayamaha Tamasha, Zogheri Allegra
+98
+20.04.2023 GAMBA L.8
+Another complication of macroangiopathy is diabetic foot. An atherosclerotic plaque leads to the
+hypoperfusion of the foot which can cause inflammation and necrosis of the tissues(gangrene).
+Peripheral atherosclerotic vascular diseases (especially lower limbs): claudicatio intermittens + gangrene and
+ulcers of the lower limbs and fingers (diabetic foot) → amputations (40% of cases).
+D
+IABETIC MICROANGIOPATHY
+Microangiopathy can cause alterations in microcirculation and this is again due to AGEs formation. There is
+glycosylation of the proteins present in the basal membrane of the tunica intima of the arterial wall of the
+microcirculation (capillaries of the skin, skeletal muscles, retina, glomeruli, renal medulla). It is the cause of
+the reduced ability to heal wounds, typical of diabetics.
+It also contributes to the onset of retinopathy, nephropathy and peripheral neuropathy.
+D
+IABETIC RETINOPATHY
+It is a frequent cause of blindness in the general population and is most severe and frequent in DM1. This is
+caused by neovascularization due to hypoxia-induced overexpression of VEGF (vascular endothelial growth
+factor which is responsible for angiogenesis) in the retina. Treatment includes antiangiogenic agents. Diabetic
+patients can also be affected with maculopathy, cataract, glaucoma leading to blindness.
+D
+IABETIC NEPHROPATHY
+In case of DM1, 30-40% of patients experience renal failure, in DM2 it is 20%. It is the most common cause
+of dialysis or renal transplantation.
+Pyelonephritis (serious condition) = inflammatory picture due to the passage of urinary tract infections to
+the kidney. Due to stagnation of urine in the bladder as a result of neuropathy + glucose in the urine
+represents a rich growth medium for microorganisms.
+Infections are very common in DM due to AGES formation, by binding to the proteins of the cytoskeleton of
+inflammatory cells (neutrophil/monocyte/macrophage). This causes reduced neutrophil function
+(chemotaxis, diapedesis, phagocytic activity, microbicidal activity) and impaired cytokine production by
+macrophages. Therefore, infections are common in DM since there is a reduced defense mechanism and also
+because the micro vessels, which are important in acute inflammation, are damaged (due to glycosylation of
+basal lamina proteins).
+D
+IABETIC NEUROPATHY
+Neuropathy can lead to an autonomic nerve dysfunction resulting in bowel and bladder motility disorders.
+Diabetic neuropathy is responsible for the loss of tactile sensitivity. It can also cause:
+- Distal symmetric polyneuropathy of the lower extremities that affects both motor and sensory
+function.
+- Alteration of axons, myelin sheath, Schwann cells.
+- Microangiopathy of the vessels supplying the nerves contributes to the disease.
+- Pain, but they have a high pain threshold so the diabetic tends to ignore minor irritations and traumas
+to the toes, joints, lower limbs → ulcers.
+- Paresthesias in the extremities.
+T 3 A ’
+YPE DIABETES AND LZHEIMER S DISEASE
+In the last years, Alzheimer’s disease has been considered as Type 3 diabetes. This is because in the brain of
+an Alzheimer’s disease patient there is some sort of insulin resistance.
+Note that type 3 diabetes cannot be considered as another forms of diabetes as it something that is involved
+only in the brain.
+It manifests as insulin resistance within the brain with consequent impairment of central insulin signaling
+processes → neurodegeneration, neurons aren’t able uptake glucose so they die.
+Peripheral insulin resistance leads to decrease insulin signaling in CNS → increased Aβ toxicity, Tau
+Jayamaha Tamasha, Zogheri Allegra
+99
+20.04.2023 GAMBA L.8
+hyperphosphorylation, oxidative stress and neuroinflammation → neurodegeneration.
+Insulin circulating in the blood can cross the BBB through a receptor-mediated active transport system +
+insulin is produced in the brain. It has major potential to impact neurocognition and contributes to the etiology
+of Alzheimer’s disease.
+Alzheimer’s disease will be further discussed
+later but what is important to know is that it is a
+neurodegenerative disorder (means that there
+is the accumulation of materials in cells).
+Alzheimer’s disease like all the other
+neurodegenerative disorders is a selective
+degeneration which means that only some
+particular areas of the brain are affected
+(specifically the neurons of the cerebral cortex
+and hippocampus). Other neurons remain
+intact.
+Neuronal death in the cerebral cortex causes
+atrophy.
+Fig. 13
+Talking about the pathogenesis of
+Alzheimer’s disease, there are two pathological causes which are neurofibrillary tangles and amyloid
+plaques fig.13.
+The neurofibrillary tangles are intraneuronal and are found inside the neurons. They are formed due to the
+modification of a protein called ‘tau’, that is involved in the stabilization of microtubules. When this protein
+is modified, it detaches from microtubules and aggregates in neurons giving rise to these tangles.
+The amyloid plaques are extracellular and are formed due to the accumulation of amyloid beta, which is
+neurotoxic causing the death of neurons from outside.
+It has been shown that insulin resistance
+(T3D) can cause amyloid plaque
+accumulation and formation of
+neurofibrillary tangles.
+In fig.14, the mechanisms that occur in the
+neuron are shown. Here insulin binds to the
+receptor, then after a transduction pathway
+there is a translocation of GLUT-4 to the
+membrane that favors the uptake of
+glucose.
+This is a scheme of a Crosstalk Between
+Brain Cholesterol Oxidation and Glucose
+Metabolism in Alzheimer’s disease.
+In the lesson dyslipidemias, we learnt that
+alterations in cholesterol metabolism of the
+brain can cause Alzheimer’s disease. Now,
+we have seen that alteration in glucose
+metabolism is also responsible for the onset
+of this disease.
+Fig. 14
+M
+ETABOLIC SYNDROME
+It is a highly prevalent condition defined by the presence of at least three out of five risk factors including
+central obesity, increased fasting glucose(hyperglycemia), high blood pressure (hypertension), and
+dyslipidemia.
+Jayamaha Tamasha, Zogheri Allegra
+100
+20.04.2023 GAMBA L.8
+It is associated with a 2-fold increase in cardiovascular outcomes and a 1.5-fold increase in all-cause mortality.
+These are the five risk factors that are used to diagnose a metabolic syndrome and if 3 out of these 5 are
+present it can be diagnosed as a metabolic syndrome.
+1) Central (abdominal) obesity, waist circumference > 94 cm in men and > 80 cm in women (Europe,
+country-specific).
+2) Hypertriglyceridemia (≥ 150 mg/ml)
+3) Low blood levels of HDL cholesterol (< 40%ml in men and < 50%ml in women)
+4) Systemic hypertension (≥ 130 / ≥ 85 mmHg)
+5) Elevated fasting blood glucose ≥ 110 mg/ml (index of more or less marked insulin resistance)
+Usually, a metabolic syndrome is characterized by a state of hypercoagulability of the blood (increased blood
+levels of PAI-1: Plasminogen Activator Inhibitor-1). This is a risk factor for atherosclerosis as thrombus
+formation is favored.
+In fig.15, you can see how central obesity differs from region to region. Fig. 15
+Jayamaha Tamasha, Zogheri Allegra
+101

@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> paraneoplastic syndromes</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8180-b552-c91c613d314a" class="page sans"><header><h1 class="page-title"> paraneoplastic syndromes</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81e7-8c58-e06d31aaeae1" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-814f-afba-dd385c97f619" class=""><strong>PARANEOPLASTIC SYNDROMES</strong></p><p id="2297904f-03a9-8101-bb0f-c239fda95bae" class="">Paraneoplastic syndromes are different types of <strong>diseases that are associated with the presence of a tumor</strong> even if they are <strong>not directly dependent</strong> on the tumor presence. They can be associated with the response of the host to the tumor, and the manifestation can be in all of the body, also far from the tumor location.They are present in a high percentage <em>(20-40%)</em> of tumor patients and are not dependent on the stage of the malignancy, since they can develop in any step of the neoplasia. They can have subjective symptoms depending on the individual.</p><p id="2297904f-03a9-8190-9227-f756de96d6f5" class=""><em>They are often linked to malignant tumors.</em> The diagnosis is important, also because some symptoms can be similar to other diseases.</p><p id="2297904f-03a9-81fd-8483-fd8341f63cb9" class="">They are especially associated with some types of cancers, such as <strong>lung</strong> cancer and <strong>gastrointestinal</strong> cancer. There are also specific paraneoplastic syndromes linked to diseases of the <strong>skin</strong> and <strong>hematological</strong> cancers.</p><p id="2297904f-03a9-8161-b2cb-faaaa4adb577" class=""><strong>MAIN MECHANISMS FOR PARANEOPLASTIC SYNDROMES</strong></p><p id="2297904f-03a9-811f-ba2d-e65883193ad7" class="">The mechanisms by which these diseases occur are:</p><p id="2297904f-03a9-8192-8558-d7c3ae1beb4e" class="">●<strong>Tumors</strong> (hormones-dependent paraneoplastic syndromes) that act by <strong>producing hormones ectopically</strong> (in a different location from the normal one) or even from tissues that normally do not produce hormones. What is produced is not only hormones, but also molecules associated with the hormone responses (receptors for example) or molecules that are not hormones in the structure, but they are similar chemically (<strong>hormone-like substances</strong>) that act as ligands for the hormone receptors. So they can be in general active compounds that, directly or indirectly, can cause the symptoms of the paraneoplastic syndromes.</p><p id="2297904f-03a9-81a8-ba80-f10548784029" class="">For example, Adenocarcinoma is an epithelial malignant tumor that develops from the glandular tissue but can also develop from parenchymal cells that are not able to secrete hormones. The prefix “adeno-” is associated to the ability of this tumor tissue to produce hormones ectopically. This is due to cell alterations, such as the change of receptors on surface of cancer cells, the release of compounds that cause symptoms in tissues that are far from the cancer.</p><p id="2297904f-03a9-81d5-a9ee-e4bbc4485621" class="">●<strong>Deficiency</strong> of normal factors, <em>and therefore this is not associated to hormones paraneoplastic syndromes but to other important molecules such as </em><em><strong>calcium</strong></em><em> or </em><em><strong>glucose</strong></em><em>.</em> In this case, we lose functions. For example, the inactivation of some surface receptors.</p><p id="2297904f-03a9-81a3-9fa2-e0bb9a07c7ed" class="">●The <strong>host responseto the tumor</strong>, especially consequences of humoral or cellular immune mechanisms.</p><p id="2297904f-03a9-81c3-a3d6-d13f919708b6" class="">In this case, paraneoplastic syndromes are in general <strong>neurological</strong>, diseases associated with <strong>CNS</strong> or <strong>PNS</strong>.</p><p id="2297904f-03a9-814c-be66-d429c577887b" class="">Many of these syndromes are due to the production of substances that are associated with pathological <strong>gene activation</strong> by the tumors. This abnormality can lead to activation of immune response and result in autoimmune disease. <em>Remember - every single cell of the body has a complete genome, consisting of about 30,000 genes; however, only a fraction of the genes is expressed (around 1%), while the other genes are not transcribed and remain silent.</em> In these syndromes, we have the expression of abnormal genes, for example of ectopic hormones or hormones similar but not identical to the ones that are normally produced.</p><p id="2297904f-03a9-816a-a1a4-ca1ba821706f" class=""><strong>PARANEOPLASTIC SYNDROMES CLASSIFICATION</strong></p><p id="2297904f-03a9-81da-aa5e-e185a8f5d6c2" class="">The paraneoplastic syndromes can be roughly divided into two categories:</p><p id="2297904f-03a9-81ce-a15a-cb94b62c8e41" class="">●<strong>Simple paraneoplastic syndromes</strong>: main category, associated to specific symptoms and particular types of tissue that are involved and are named after the type of tissue where these diseases are present</p><p id="2297904f-03a9-81ab-8b38-fe0a0f2a8b1c" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-8164-9f27-e9e7cdc7aef5" class="">32</p><p id="2297904f-03a9-8124-81d2-d280c5bc333a" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-81c4-ab61-f9a4e8fb929d" class="">(neurologic, endocrine-metabolic, rheumatic, osteoarticular, dermatological, hematological, vascular and nephrological diseases).</p><p id="2297904f-03a9-81ac-9318-dc418d0ecf95" class="">●<strong>Complex paraneoplastic syndromes</strong>: cachexia, anorexia, fever. One of the paraneoplastic syndromes that we have already seen is <strong>cachexia</strong>, and also <strong>fever</strong> due to the presence of the tumor is a type of paraneoplastic syndrome.</p><p id="2297904f-03a9-81eb-be9e-f22961249296" class="">A very general classification of the more frequent paraneoplastic syndromes depending on the type of the tissues is:</p><p id="2297904f-03a9-81a5-9f75-f5f8e98d9cf3" class="">●nephrological only 5% of patients.</p><p id="2297904f-03a9-813c-a15b-d23821465f65" class="">●neurological disorders in more than 10% of patients. ●rheumatic-osteoarticular in more than 15% of patients. ●dermatological in more than 15% of patients.</p><p id="2297904f-03a9-8119-b71f-e51b9e697008" class="">●hematological-vascular in more than 15% of patients.</p><p id="2297904f-03a9-8139-a7bf-e7e4758513c7" class="">●endocrine-metabolic: the <strong>most frequent</strong> (40%).</p><p id="2297904f-03a9-813d-a737-dbd10a866f65" class=""><strong>APPENDIX</strong></p><p id="2297904f-03a9-8102-99b6-cc2137b8f204" class="">I want to underline the difference between the <strong>increase in hormones production</strong>, associated with <strong>benign</strong> tumors that don’t cause paraneoplastic syndromes, and the <strong>ectopic</strong> production of hormones, which is typical of paraneoplastic syndromes due to <strong>malignant</strong> tumors. <em>(Fig. 1)</em> Here are some symptoms that we can see in an adenoma. <em>The professor reads fig. 1</em></p><figure id="2297904f-03a9-81f8-a6ec-cb6fb75c79a3" class="image"><a href="paraneoplastic%20syndromes%202297904f03a98180b552c91c613d314a/image1.png"><img style="width:700px" src="paraneoplastic%20syndromes%202297904f03a98180b552c91c613d314a/image1.png"/></a></figure><p id="2297904f-03a9-810f-a0d4-f8e0c9f21815" class=""><em>fig.1</em></p><p id="2297904f-03a9-81db-a016-c0b13a75c313" class=""><strong>ENDOCRINEPARANEOPLASTICSYNDROMES</strong></p><p id="2297904f-03a9-813d-8521-d2c5d4390d8b" class="">Adenomas are able to produce in excess the GH, ACTH, TSH and so on, without causing a paraneoplastic syndrome. This is because the adenohypophysis is a glandular tissue, and the production is not ectopic. Depending on the hormone in excess, the tumor induces some symptoms and diseases. These secretions are due especially to benign tumors of glands that can produce in excess the different types of hormones, but they are not ectopic productions.</p><p id="2297904f-03a9-81f3-8b86-cefeb0374904" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-81e3-8986-eda16c7c2c0d" class="">33</p><p id="2297904f-03a9-8166-bc5d-f70b3bd9737f" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-81ac-bcc6-e2b9562b94b6" class="">The same symptoms seen in fig. 1 can be seen also in paraneoplastic syndromes by malignant tumors, but in this case the production of hormones is ectopic from non-glandular tissues. They can produce substances that can inactivate precursors of hormones or that can increase them. Or substances that are inactive hormones precursors with only a small part of the biological activity compared to the one of the mature hormone. In particular, they are associated with <strong>small cell lung cancer</strong> and the ectopic production of ACTH, ADH, calcitonin and others.</p><p id="2297904f-03a9-810f-aa21-fd3009930d1d" class=""><em>For instance, ACTH produced in excess by adenohypophysis probably induces </em><em><strong>Cushing&#x27;s Syndrome</strong></em><em>, but in this case, we are in the presence of a benign tumor. Why do I underline Cushing’s Syndrome? Because there is a </em><em><strong>paraneoplastic Cushing’s Syndrome</strong></em><em> due to the fact that other tumors, that are not at the level of the adenohypophysis, are able to produce this excess of ACTH and induce a Cushing’s Syndrome that is similar to the normal one, but in this case, it is a paraneoplastic syndrome.</em></p><p id="2297904f-03a9-8184-bdf7-edba52caf4f5" class=""><em>The paraneoplastic is due to </em><em><strong>ectopic hormone production</strong></em><em> and the tumor has a </em><em><strong>malignant phenotype</strong></em><em>. These substances can also be inactive substances, or they can be hormone precursors produced in excess. In general, they are present in malignant tumors.</em></p><p id="2297904f-03a9-8116-8e4d-c17763f6099e" class=""><strong>DIAGNOSTIC CRITERIA AND TESTS</strong></p><p id="2297904f-03a9-8131-9509-ce6e9d2bf7be" class="">To identify endocrine-metabolic paraneoplastic syndromes and distinguish them from symptoms due to benign tumors:</p><p id="2297904f-03a9-8179-ac51-e46c0f911f20" class="">●Recognize an endocrine syndrome associated with a <strong>non-endocrine tumor</strong>. So, understand if these types of symptoms can be associated to an adenoma or another type of tumor.</p><p id="2297904f-03a9-812d-a6e6-f539decfa17b" class="">●Understand the <strong>high blood/urinary levels</strong> of hormones.</p><p id="2297904f-03a9-81f8-9d68-ee8c7b853e6c" class="">●<strong>Decrease in blood/urinary levels</strong> of the hormone after the <strong>removal of the tumor</strong> with surgery. ●Recurrence of hormone dosage in case of <strong>tumor recurrence</strong> (if, after tumor removal through surgery, the levels of the hormone decrease, but then the tumor comes back and the levels of the hormone in blood/urine increase again).</p><p id="2297904f-03a9-811d-8d9a-ed2d787932e7" class="">●<strong>Absence of disease in the endocrine-related organ</strong>. In this case, it’s possible that the increase of hormonal levels in blood or urine is due to an ectopic production.</p><p id="2297904f-03a9-81c3-8ca9-e2307fcac22a" class="">●<strong>Remission/recurrence</strong> of the syndrome with tumor treatment/recurrence.</p><p id="2297904f-03a9-814d-8a25-e9e33b85d458" class="">There are also some <strong>diagnostic tests</strong> from the laboratory that allow us to understand if these productions of hormones are associated or not with paraneoplastic syndromes:</p><p id="2297904f-03a9-817f-ae7b-ffbc73e6ce13" class="">●Evaluation of the <strong>gradient</strong> (= increase or decrease of the production) <strong>of the hormone</strong> between tumor and peripheral veins, so understand how the hormone is produced by the tumor in association to its presence in the veins.</p><p id="2297904f-03a9-8116-8557-e72f0011738b" class="">●<strong>Extraction of the hormone</strong> from neoplastic tissue by biopsy.</p><p id="2297904f-03a9-8141-87f2-eeee49d40373" class="">●Determination of hormonal activity with biological tests such as <strong>RIA</strong> (<strong>radio-immune assay</strong>), important because it is <span style="border-bottom:0.05em solid">very specific</span> and it also <span style="border-bottom:0.05em solid">evaluates very low levels</span> of hormones in the body, and also immunological tests such as <strong>immunohistochemistry</strong>.</p><p id="2297904f-03a9-81b4-8e07-f8cc6c3bd2f9" class="">●<strong>Biochemical characterization</strong> of peptides and other molecules produced by the tumor with a biochemical analysis</p><p id="2297904f-03a9-81fb-94c2-eedf1e217b89" class="">●<strong>In vitro demonstration</strong> of hormonal production by cancer cells, for example in a <strong>primary culture</strong> <em>(produced directly by the primary tumor. When inserted in a medium, they are able to grow and replicate</em> <em>for only 2-3 cycles and then they are not able to continue the line. In contrast, continuous cell lines are</em> <em>able to proliferate for years and years because they are a particular type of tumoral cells with mutations</em></p><p id="2297904f-03a9-817e-808b-ce89b7a66f89" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-816b-b1ff-f17a6f731ef6" class="">34</p><p id="2297904f-03a9-81ca-9510-dd519e114667" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-81be-9d68-d9c27fb1b693" class=""><em>on some genes associated with proliferation ex. p53, that allow them to continuously proliferate). In this</em> <em>case, in vitro demonstration, primary cell culture is required, and they proliferate for only 2-3 cycles, but</em> <em>is enough for the pathologist</em> to demonstrate the production of associated hormones into the medium. ●Identification of <strong>hormonal mRNA</strong> in the tissue or cell culture by real-time PCR (that is used also to amplify the viral sequences, for instance in Covid). In this case it is used to amplify the mRNA to get a high quantity of it, so that it can be analyzed.</p><p id="2297904f-03a9-8124-946b-fd424938d34e" class=""><strong>ECTOPIC HORMONE PRODUCTION</strong></p><p id="2297904f-03a9-8150-ab96-c3b8ce60b759" class="">Paraneoplastic syndromes due to ectopic hormone production are classified according to the hormone produced ectopically:</p><p id="2297904f-03a9-810c-9f01-d1d81aab5e42" class="">●<span style="border-bottom:0.05em solid">ACTH and ADH</span> (especially in <span style="border-bottom:0.05em solid">small cell lung cancer</span>).</p><p id="2297904f-03a9-816e-b2ca-dc453f525b35" class="">●<em>Growth hormone GH</em></p><p id="2297904f-03a9-8111-9734-db80d60ee7d5" class="">●Parathormone (Parathyroid hormone or PTH) <em>(squamous cell carcinoma of the kidney, ovary, bladder)</em>. ●Calcitonin <em>(breast cancer, lung cancer, small cell lung cancer, medullary thyroid cancer)</em>.</p><p id="2297904f-03a9-8137-816f-ea9463ac966b" class="">●Insulin.</p><p id="2297904f-03a9-8156-b3d5-e12f543ee56f" class=""><strong>ECTOPIC PRODUCTION OF ACTH</strong></p><p id="2297904f-03a9-8111-a09b-d2d6336f4e65" class="">It induces a paraneoplastic disease similar to Cushing’s Syndrome called <strong>paraneoplastic Cushing’s Syndrome</strong>, and especially it can be related to <strong>small cell lung cancer</strong> <em>(50% of cases), but also to pancreatic neuroendocrine tumors such as of the islet cells and others (10%) and medullary thyroid cancer (5%)</em>.</p><p id="2297904f-03a9-817f-a56e-f75ac521e577" class="">There is an ectopic hypersecretion of <strong>ACTH</strong>, usually produced by the anterior pituitary, but obviously this also has effect on the adrenal cortex and induces secretion of <strong>cortisol</strong>. In some cases, there may also be the production of <strong>proopiomelanocortin</strong> (POMC), a precursor of ACTH <em>(already seen in cachexia in the Basic Pathology course. POMC is associated to cachexia because is linked to the glycolysis and the decrease of the adipose tissue. Its production is induced by Leptin)</em>. It increased in cancer patients (with ectopic production) and <strong>not</strong>in patients with Cushing’s Syndrome.</p><p id="2297904f-03a9-818d-82c4-d9c89dd361fd" class="">The symptoms of the paraneoplastic Cushing’s syndrome are very similar to the ones of the Cushing’s disease. The main difference is that while the latter is <span style="border-bottom:0.05em solid">chronic</span>, the paraneoplastic syndrome is <span style="border-bottom:0.05em solid">acute</span>.</p><p id="2297904f-03a9-819d-a061-c65423585826" class="">Clinical features of (non-paraneoplastic) Cushing’s Syndrome include: ●Obesity (one of the main features).</p><p id="2297904f-03a9-8130-ae6e-c5e16c14526e" class="">●Moon face (one of the main features).</p><p id="2297904f-03a9-817e-9d7c-dd2a69038d8a" class="">●Loss of muscle mass <em>and strength</em>.</p><p id="2297904f-03a9-8192-be91-f57d700aea17" class="">●High blood pressure (hypertension).</p><p id="2297904f-03a9-8189-92cf-f8601920717c" class="">●Alterations in the skin, that is fragile <em>and bruises easily</em>. ●Thicker or more visible body and facial hair (hirsutism).</p><p id="2297904f-03a9-8124-9743-d5a7e63d852e" class="">These were the clinical features of (non-paraneoplastic) Cushing’s Syndrome. Since paraneoplastic syndromes are generally due to malignancies, these types of syndromes have <strong>not enough time to induce all of the clinical features</strong> into the patients, they are acute. So, we see only the early phase symptoms. Therefore, the main symptoms present in a paraneoplastic Cushing’s Syndrome, <em>due to the rapid onset of the malignancy,</em>are:</p><p id="2297904f-03a9-81f7-b84b-dae62affcdc4" class="">- first of all <strong>hypertension</strong></p><p id="2297904f-03a9-810f-ad40-cbdc253f8787" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-81b6-872f-ed605ebde5e4" class="">35</p><p id="2297904f-03a9-8111-889e-e5eba107c89e" class="">29.03.2023 BIASI L.4</p><ul id="2297904f-03a9-81a7-8ad9-d475e0174fc0" class="bulleted-list"><li style="list-style-type:disc">decrease in blood levels electrolytes like potassium (<strong>hypokalemia</strong>), therefore those <strong>symptoms</strong> <strong>associated with muscles</strong> (cramps, weakness) <em>and also weight loss</em></li></ul><p id="2297904f-03a9-81b7-bf0e-c8a9a5efe963" class=""><em>So, in this case there is </em><em><strong>no obesity and moon face that</strong></em><em> are associated only with the non-paraneoplastic Cushing’s Syndrome since in paraneoplastic one only fast symptoms show (hypertension first of all).</em></p><p id="2297904f-03a9-8159-9617-d11dc722613d" class=""><strong>ECTOPIC PRODUCTION OF GH</strong></p><p id="2297904f-03a9-81b8-af07-dfd02efab5d9" class="">Another ectopic production is associated with <strong>GH</strong><em>(or somatotropin)</em>, which is very rare and present in a very low percentage among the paraneoplastic syndromes. It is usually due to the secretion of GHRH (GH Releasing Hormone) which increases the GH&#x27;s production and secretion from the anterior pituitary lobe. It can be due to different times of cancers <em>(like pancreatic neuroendocrine tumors)</em>, but especially lung cancer <em>(bronchial carcinoids)</em></p><p id="2297904f-03a9-8129-b8af-c506eb8d7f88" class=""><em>GH in generally induces </em><em><strong>acromegaly</strong></em><em>, different from gigantism (gigantism is a proportioned growth of each part of the body and it occurs generally in the first years of the life or even in morphogenesis, while acromegaly is just accumulation of the hormone that induces a disproportionate growth in some parts of the body), because there is a major probability that this type of paraneoplastic syndrome can </em><em><strong>occur in adulthood</strong></em><em>.</em></p><p id="2297904f-03a9-8102-974f-d7499ee7a89d" class=""><strong>ECTOPIC PRODUCTION OF ADH</strong></p><p id="2297904f-03a9-81d8-a2b9-df2068801ce5" class="">Another paraneoplastic syndrome is due to the ectopic production of <strong>ADH</strong>. This syndrome is called <strong>syndrome of inappropriate antidiuretic hormone secretion</strong> (<strong>SIADH</strong>). It is associated again with small cell lung cancer <em>(in 60% of cases, secretion of a hormone similar to vasopressin)</em>but also to hypothalamic tumors <em>(secretion of vasopressin)</em>.</p><p id="2297904f-03a9-8197-a073-f461d189cfe2" class="">The physiological role of ADH is to <strong>increase water reabsorption</strong> from renal tubules when there is hypovolemia (low volume in blood), that also means dehydration, so vasopressin induces reabsorption of water in blood.</p><p id="2297904f-03a9-81da-9638-f31729d6ad78" class="">In this case it is considered inappropriate because <strong>secretion of ADH is also present even if we have normovolemia</strong>, so it is not induced by a demand of the body.</p><p id="2297904f-03a9-810c-9fc5-d04cb2f70374" class="">In case of this paraneoplastic syndrome, we have two characteristic features that are <strong>hyponatremia</strong> ([Na+] &lt; 135 mEq/L) and <strong>hypoosmolarityin plasma</strong> (less than 270 mOsm/L)associated with <strong>urine hyperosmolarity</strong>. The normal concentration of urine has a specific weight of about 1007-1030, but in case of urine hyperosmolarity this value is higher due to the increased concentration of sodium in it (increase of more than 40 mEq/L from the normal value that ranges from 40-220 mEq/L) despite hyponatremia.</p><p id="2297904f-03a9-8108-9b69-ed0943ddfc09" class="">SIADH <strong>clinical features</strong> are related to both the degree of hyponatremia and to its time and rate of onset. Associated symptoms include anorexia, nausea, vomiting, confusion, and seizures. What is important is that SIADH is characterized by <strong>absence of edema and hypovolemia</strong>, since it’s an inappropriate production.</p><p id="2297904f-03a9-8193-8456-ff38158f6638" class=""><strong>HYPERCALCEMIA</strong></p><p id="2297904f-03a9-81bb-b489-e61fd59ace4b" class="">Other types of paraneoplastic syndromes may be due to the alteration in calcium level <em>(occurring in 15-20 cases over 100000)</em>, calcium production or the induction of PTH production.</p><p id="2297904f-03a9-8141-ae4e-f314bf2ffa75" class="">Hypercalcemia is <strong>not focused on particular types of tumors</strong><em>(T-cell lymphoma, multiple myeloma, bronchogenic carcinoma, spinocellular carcinoma, breast cancer, kidney, ovarian and gallbladder carcinoma)</em>, but in general it can be seen in the <strong>latter steps of tumors</strong>, since it can be due to <strong>osteolysis</strong>, damage of bones that induces release of calcium, for example due to <strong>multiple myeloma</strong> (the main cause), or bone <strong>metastases</strong> derived from other tumors.</p><p id="2297904f-03a9-81fd-af8c-e46ef6e7cd4f" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-8156-9241-c374b605eba0" class="">36</p><p id="2297904f-03a9-8138-bfef-d6086234845e" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-8140-9a20-e2dc41618c71" class=""><strong>Hypercalcemia</strong> can be due to increased production of pro-inflammatory humoral factors, for example cytokines such as IL-6, TGF-α and β (especially in epithelial-mesenchymal transition, so metastatization), TNF-α <em>(especially produced in case of T-cell lymphoma and multiple myeloma).</em> Also, there is anincrease in the levels of <strong>PTH-like protein</strong><em>(ubiquitous, but rare in normal tissues)</em>, that is <strong>structurally different from PTH</strong> but it is able to <strong>bind to its receptors</strong> and act as a ligand. The increase in this protein can induce hypercalcemia because it increases reabsorption of calcium in blood at the level of the bone (<strong>increased osteolysis</strong>) and <strong>decreases calcium excretion</strong> from the kidneys, therefore there is an increase in the blood calcemia. Calcium levels are normally 8.5-10.5 mg/dL, and if they increase it can cause confusion, lethargy, nausea, and constipation (values between 12 and 14 mg/dL) and if they increase even more, it can cause coma.</p><p id="2297904f-03a9-81ca-9d78-ebeba51c1b95" class=""><strong>HYPOCALCEMIA</strong></p><p id="2297904f-03a9-810b-97a4-df681f7bc300" class="">Hypocalcemia is more related to <strong>lung and breast carcinoma</strong> and is due to the secretion of <strong>calcitonin</strong> by the thyroid, which inhibits the reabsorption and increases the renal excretion of calcium, the opposite of PTH. Therefore, there is an alteration of the neuronal transmission. <strong>Symptoms</strong> <em>that are often not even present,</em> associated with hypocalcemia are related to muscles such as tetany, fasciculation, <em>and hyperreflexia</em>.</p><p id="2297904f-03a9-81e7-a819-fd78a532be95" class=""><strong>HYPOGLYCEMIA</strong></p><p id="2297904f-03a9-8183-9b42-f0f123c9ce9d" class="">Hypoglycemia can be also associated with paraneoplastic syndromes, <em>and it is especially due to </em><em><strong>gastrointestinal tumors</strong></em><em> such as hepatocellular and adrenocortical carcinomas in very low quantities (23% and 10%, respectively), and mesenchymal tumors in the majority (45%).</em></p><p id="2297904f-03a9-8100-b55d-d76b40534a14" class="">This is due to the production of an <strong>insulin-like growth factor</strong>, also called <strong>big IGF-II</strong> due to its high molecular weight, that stimulates the entry of glucose into tumor cells by inhibiting hepatic glucose uptake.</p><p id="2297904f-03a9-81fd-9e54-dd5f52fe1373" class=""><strong>HEMATOLOGICAL PARANEOPLASTIC SYNDROMES</strong></p><p id="2297904f-03a9-8150-a4f2-c9b1276124c7" class="">Hematological paraneoplastic syndromes can be due to <strong>anemias in general</strong>, since most of the tumors induce alterations in the number of blood cells. So, we can see red cells aplasia, anemia, erythrocytosis, leukemoid reaction, eosinophilia, or basophilia. This kind of effects can be associated with different types of cancers. Alternatively, they can induce <strong>coagulopathies</strong> (alterations in coagulation steps) and the presence of <strong>hypercoagulability</strong>. This can be due to tumors or because of cancer treatment. Clinical manifestations usually include deep vein thrombosis and pulmonary embolism.</p><p id="2297904f-03a9-8174-bd99-e674a9a8b795" class="">Another important feature in coagulopathies of cancer patients is <strong>DIC</strong> (Disseminated Intravascular Coagulation) which is a pathological coagulation that can induce thrombosis and pulmonary embolism. DIC is seen especially in leukemias, especially a subtype of acute myeloid leukemia prostate cancer.</p><p id="2297904f-03a9-812a-ac81-e9fdbb7381bb" class="">This type of DIC can also be associated for example to thrombotic endocarditis, in patients that suffer from mucoid tumors (for example in GI tract) that produce mucus. The hyperproduction of mucus induces thrombus due to the presence of floating mucus. This type of thrombus can reach the endocardium and induce thrombotic endocarditis, which is non-bacterial but due to the mucus. This is called <strong>marantic endocarditis</strong>. Clinical manifestations include vessel occlusions in the periphery, embolism that leads to occlusion of nervous system vessels with acute neurological deficit and encephalopathy. Thromboembolism is also associated to thrombosis in superficial veins due to presence of mucins, so due to DIC. This is also called <strong>Trousseau syndrome</strong>, associated to thrombophlebitis, especially to <strong>thrombophlebitis migraines</strong>, also called migratory thrombophlebitis since it induces thrombi in the circulation determining phlebitis.</p><p id="2297904f-03a9-81d9-abd9-c60908b2dac6" class=""><em>Note from the sbobinatore: last year, the professor explained the previous topics in much greater detail, which also reflects what is found in the slides. The material skipped can be found below.</em></p><p id="2297904f-03a9-8181-b86f-d74f9c78c24d" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-8177-ba5b-cde835e99dfa" class="">37</p><p id="2297904f-03a9-81a6-820c-ef8329e666ed" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-81a1-bc2d-cfc076720520" class=""><em>One in particular among the coagulopathies is idiopathic thrombocytopenic purpura (ITP), which is a complication in patients with Hodgkin’s Disease because it also induces an autoimmune hemolytic anemia. </em><em><strong>Anemias</strong></em><em> in general depending on alteration in erythrocytes, or alteration in hemoglobin, or alteration in ferric cytochrome, are very </em><em><strong>common</strong></em><em> and they can be also </em><em><strong>normocytic</strong></em><em> (dimension of RBCs is normal) and </em><em><strong>normochromic</strong></em><em> (color of RBCs is normal). The normal range of serum iron (50-150 mg/dL) is unchanged or decreased, while the ferritin in the blood (male 30 -120; female 30 - 260 ng/mL) is unchanged or slightly decreased.</em></p><p id="2297904f-03a9-8171-9a59-ffaf7f4c9015" class=""><em><strong>HEMATOLOGICAL PARANEOPLASTIC SYNDROMES:AUTOIMMUNE HEMOLYTIC ANEMIA</strong></em></p><p id="2297904f-03a9-816a-bee7-c59bfe8ed213" class=""><em><strong>Autoimmune hemolytic anemia</strong></em><em> can be due to </em><em><strong>host response</strong></em><em>, so in this case the activation of the autoimmune response by the host that induces this anemia mediated by:</em></p><p id="2297904f-03a9-81f6-81de-ca7700014ca6" class="">●<em><strong>warm antibodies</strong></em><em> (IgG) activated in warm temperatures especially in the B cell lymphomas and leukemias.</em> <em>In this case hemolysis is extravascular, it consists of phagocytosis in the spleen.</em></p><p id="2297904f-03a9-817d-a389-f1997f805ad2" class="">●<em><strong>cold antibodies</strong></em><em> (IgM) activated in cold temperatures and attack erythrocytes as autoantibodies. In this</em> <em>case hemolysis is intravascular.</em></p><p id="2297904f-03a9-81fe-a9ef-d9634f447338" class=""><em>Signs and symptoms are related to small vessels’ occlusion such as </em><em><strong>acrocyanosis</strong></em><em> (blue color in the periphery) of hands, feet or face (ears and nose) but generally in all the peripheral parts of the body and is due to a decrease in the blood flow.</em></p><p id="2297904f-03a9-81ac-92a2-f911312a40a6" class=""><em><strong>HEMATOLOGICAL PARANEOPLASTIC SYNDROMES:ERYTHROCYTOSIS</strong></em></p><p id="2297904f-03a9-81fa-b182-e1943ae4aafc" class=""><em>Sometimes tumors produce </em><em><strong>erythrocytosis</strong></em><em> (polycythemia) and is due especially to increase in synthesis of </em><em><strong>erythropoietin</strong></em><em>, normally secreted by the kidneys and induces the production and the maturation of erythrocytes</em></p><p id="2297904f-03a9-81d9-9860-fec3f43be5ae" class=""><em>It is associated with cerebellar hemangioblastoma (20%), renal adenoma and renal cyst (15%) and hepatocellular carcinoma (15%) but it is not so easy to see this type of paraneoplastic syndrome since erythrocytosis is much more frequently due to anemia.</em></p><p id="2297904f-03a9-8195-8818-dec08a4f1a03" class=""><em><strong>HEMATOLOGICAL PARANEOPLASTIC SYNDROMES:LEUKEMOID REACTION</strong></em></p><p id="2297904f-03a9-81ed-85e0-f20f6f377828" class=""><em>There is also the </em><em><strong>leukemoid reaction</strong></em><em> that is similar to the erythroid and is induced by the </em><em><strong>overproduction of particular types of growth factors</strong></em><em> that induce the production and increase in maturation of leukocytes in particular those associated with stimulation of maturation of granulocytes, so granulocytes colony stimulating factor (</em><em><strong>G-CSF</strong></em><em>) or granulocyte-macrophage colony stimulating factor (</em><em><strong>GM-CSF</strong></em><em>) and other types of growth factor or interleukins, in particular interleukin 3 (</em><em><strong>IL-3</strong></em><em>).</em></p><p id="2297904f-03a9-81e6-b2d5-e1e7062254e8" class=""><em><strong>HEMATOLOGICAL PARANEOPLASTIC SYNDROMES:COAGULOPATHIES</strong></em></p><p id="2297904f-03a9-8103-96df-dc74e307f60b" class=""><em>We also have coagulopathies due to the induction of coagulation, and these occur normally closer to the tumor that induces itself a block, so it induces </em><em><strong>thrombosis</strong></em><em> or can induce, in case of lung cancer, the </em><em><strong>pulmonary embolism</strong></em><em>.</em></p><p id="2297904f-03a9-813b-af0b-eae0b7e92e78" class=""><em>The main damage is </em><em><strong>DIC</strong></em><em> (disseminated intravascular coagulation) that can complicate metastatic tumor course and is often present in patients with </em><em><strong>acute promyelocytic leukemia</strong></em><em> (but with leukemias in general, and with </em><em><strong>prostate cancer</strong></em><em>.</em></p><p id="2297904f-03a9-818a-920b-da064f85724a" class=""><em><strong>HEMATOLOGICAL PARANEOPLASTIC SYNDROMES:NONBACTERIAL THROMBOTIC ENDOCARDITIS</strong></em></p><p id="2297904f-03a9-817e-bf5e-c1dff05719c4" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-813f-9830-c9a6d5eb4b06" class="">38</p><p id="2297904f-03a9-81ad-858f-f3006e5f8948" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-8151-b494-c6ede1d54538" class=""><em>Due to the presence of </em><em><strong>thrombi</strong></em><em>, but also due to the presence of the </em><em><strong>tumor mass</strong></em><em> in general. In some patients can occur another type of damage which is </em><em><strong>nonbacterial thrombotic endocarditis</strong></em><em>, also called </em><em><strong>marantic endocarditis</strong></em><em> because this type of endocarditis is due to a tumor, not bacterial, and there is an </em><em><strong>increased secretion of mucus</strong></em><em>. In this case the primary tumor that can induce a nonbacterial thrombotic endocarditis is </em><em><strong>lung adenocarcinoma</strong></em><em>, but also other tissues able to produce mucus such as </em><em><strong>intestines</strong></em><em> and </em><em><strong>ovaries</strong></em><em>. Due to this production of mucus that induces the thrombus there is an </em><em><strong>occlusion in the vessels,</strong></em><em> in particular in the peripheral parts (acute peripheral arterial occlusion). Therefore you can see clinical manifestation as </em><em><strong>encephalopathy</strong></em><em> and acute </em><em><strong>neurological deficits</strong></em><em> in the case in which the occlusion is at the level of the vessels in the brain.</em></p><p id="2297904f-03a9-8182-87f6-d32656484ae8" class=""><em><strong>HEMATOLOGICAL PARANEOPLASTIC SYNDROMES:THROMBOVASCULAR ACCIDENT</strong></em></p><p id="2297904f-03a9-8156-a357-c8ec04caa1b5" class=""><em>Another particular type of paraneoplastic syndrome is </em><em><strong>Trousseau’s Syndrome</strong></em><em>, the thromboembolism, also called </em><em><span style="border-bottom:0.05em solid">migratory thrombophlebitis</span></em><em>, that is a damage due to the increase in mucus level, also induced by nonbacterial thrombotic endocarditis and coagulopathies in general.</em></p><p id="2297904f-03a9-8198-a101-df1d8a6d533c" class=""><em>Pathogenesis is not completely clear, but it may be due to the activation of </em><em><strong>serine proteases</strong></em><em> that activate </em><em><strong>factor X</strong></em><em> and trigger the coagulation pathway.</em></p><p id="2297904f-03a9-8110-9284-d8add7706607" class=""><strong>PARANEOPLASTIC SYNDROMES OF THE KIDNEYS</strong></p><p id="2297904f-03a9-8133-923c-fcf54787d8e8" class="">About paraneoplastic syndromes of the kidney, they are due especially to <strong>immune complexes</strong> in response to the tumor by the host, that are considered as autoimmune damage. However, they have not been studied enough and they are not well known. This is a slide <em>(fig.2)</em> where some of them are listed only to give a flash on this type of paraneoplastic syndromes, but there are many different types, some very rare, others more frequent. The syndromes are usually due especially to the damage of the renal tissue due to the response of the host.</p><p id="2297904f-03a9-8174-a358-cf7c971c888f" class=""><em>They can be present in patients with colon cancer, ovarian cancer, and lymphomas due to circulating immune complexes.</em></p><figure id="2297904f-03a9-81cf-99bf-e9e5411f8746" class="image"><a href="paraneoplastic%20syndromes%202297904f03a98180b552c91c613d314a/image2.png"><img style="width:700px" src="paraneoplastic%20syndromes%202297904f03a98180b552c91c613d314a/image2.png"/></a></figure><p id="2297904f-03a9-81c7-b4d1-e6788f909dff" class=""><em>fig.2</em></p><p id="2297904f-03a9-81e8-8a15-e754b37f148c" class=""><strong>PARANEOPLASTIC NEUROLOGIC SYNDROMES</strong></p><p id="2297904f-03a9-81e7-804c-f877e6758485" class="">The other important is the association with <strong>neurological diseases</strong> due to the host defense, so the activation of <strong>autoimmune immunoglobins</strong> (host response). They are present in a high percentage <em>(70%)</em> when there is <strong>small cell lung tumor</strong>.</p><p id="2297904f-03a9-81eb-94e4-d83bfc942cba" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-8163-9788-f29bf1027d42" class="">39</p><p id="2297904f-03a9-8196-b0fd-c87c8807845c" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-81cd-930f-ecbf50098fbc" class=""><strong>PARANEOPLASTIC NEUROLOGIC SYNDROMES:LAMBERT-EATON</strong></p><p id="2297904f-03a9-8182-8e6d-d4a10d0bc952" class="">One of the main ones is <strong>Lambert-Eaton myasthenic syndrome</strong>, which is due to autoimmune antibodies against channels for the passage of calcium, the <strong>P/Q channels</strong>. These <strong>antibodies anti-P/Q</strong>, decrease the quantity of calcium that enters in nervous cells, causing a decrease in <strong>acetylcholine</strong> release at the level of neuromuscular junctions, and therefore a decrease in transmission of the signal leading to weakness in muscles.</p><p id="2297904f-03a9-81d9-bdb3-d77554e2fdc8" class="">Lambert-Eaton is a myasthenic syndrome since it is very similar to <strong>myasthenia gravis</strong>- a genetic disease cause absence of the receptors for acetylcholine and that induces weakness in muscle. The symptoms of these two conditions are the same, but the cause is different. In Lambert Eaton we have damage of the channels, but the acetylcholine receptors are functional. On the other hand, in myasthenia there is damage of acetylcholine receptors, so signal transmission does not happen even with the right concentration of acetylcholine released. So, in both there is an alteration of muscle contraction.</p><p id="2297904f-03a9-81c3-b9bb-e96ba632b84c" class="">There are also some other differences, since Lambert-Eaton:</p><p id="2297904f-03a9-81b1-992d-fca4b750ec66" class="">●Typically involves <strong>particular types of muscles</strong>, the ones of the proximal arms and legs.</p><p id="2297904f-03a9-81fc-81ff-f50a3dee4b2d" class="">●In very few cases induces weakness and damages in the <strong>bulbar muscles</strong> of the eyes.</p><p id="2297904f-03a9-8182-a593-c6417b791f59" class="">●The main difference is that in case of <strong>repeated stimulation</strong> of the muscles the strength of the <strong>contraction</strong> <strong>increases</strong> each time while this does not occur in case of myasthenia.</p><p id="2297904f-03a9-812c-8e71-d6492171e183" class="">●With <strong>electromyography</strong> (EMG): repeated stimuli lead to sufficient delivery of calcium induced release of acetylcholine and contraction, while <strong>in myasthenia gravis nothing happens</strong> since receptors still don’t function. This is very important for the diagnosis.</p><p id="2297904f-03a9-8196-bc44-c2de8f7d50e8" class=""><strong>PARANEOPLASTIC NEUROLOGIC SYNDROMES:ENCELOPHATY</strong></p><p id="2297904f-03a9-8132-8e5c-e327ceb0e2c1" class=""><strong>Paraneoplastic encephalopathy</strong> is associated with the production of <strong>ANNA</strong> (anti-neuronal nuclear autoantibodies) that are increased in response to <strong>small cell lung cancer</strong><em>but also breast cancer</em> and they are type 1 (anti-HU) and type 2. ANNA can also be increased when there is also an autoimmune disease (for example, in Multiple Sclerosis), not only in the case of a tumor. It is possible to see if a patient has an autoimmune disease by evaluating these antinuclear autoantibodies. Effects of this encephalopathy on the CNS are dementia and seizures.</p><p id="2297904f-03a9-8139-87fd-df8183a8f1b4" class=""><strong>PARANEOPLASTIC NEUROLOGIC SYNDROMES:OTHER NEUROPATHIES</strong></p><p id="2297904f-03a9-81b0-9ebf-d37119650d6c" class="">The other neuropathies are divided in <strong>sensory</strong> and <strong>peripheral sensorimotor neuropathies</strong> depending on the type of nerves that in the PNS are affected:</p><p id="2297904f-03a9-81b0-8ae2-c6717445cfee" class="">●They are <strong>sensory</strong> if we have a degeneration or a loss of the neurons in the <strong>dorsal and posterior horns</strong> of the spinal cord. They are generally related to small cell lung cancer. <em>Cerebellar and brainstem</em> <em>degeneration are variable.</em> Symptoms are both sensory and psychological<em>, they include anxiety,</em> <em>depression, amnesia, dizziness, confusion, hallucination, and behavioral abnormalities.</em> In some patients, <em>ANNA-1</em> antibodies are detected in the blood and in the cerebrospinal fluid.</p><p id="2297904f-03a9-8135-8f0b-da27fb878e11" class="">●In case of loss of neurons of the <strong>anterior horns</strong> of the spinal cord, we have <strong>sensorimotor</strong> neuropathy. <em>It is the more frequent long-distance effect produced by cancer on the peripheral nervous system.</em> Again, in this case it is related to small cell lung cancer and ANNA-1 are involved. Signs and symptoms include distal sensorimotor neuropathy fatigue, slight strength deficit, hypoesthesia, or absent distal reflexes. <em>It can be due to malnutrition, but it doesn&#x27;t respond well to nutritional therapy.</em></p><p id="2297904f-03a9-8121-b1ab-fa57a864c5c6" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-8187-b773-d7659f675d1e" class="">40</p><p id="2297904f-03a9-818a-aca6-d958664e1cef" class="">29.03.2023 BIASI L.4</p><p id="2297904f-03a9-816c-9d7c-f1f030a54917" class=""><strong>PARANEOPLASTIC NEUROLOGIC SYNDROMES:CEREBELLAR SYNDROME</strong></p><p id="2297904f-03a9-8182-8ee5-f77e9b14b020" class="">The last one associated with the nervous system is the paraneoplastic <strong>cerebellar syndrome</strong> that induces <strong>severeataxia</strong>, a very intense sense of fatigue <em>responsible for the progressive disturbances in carrying out voluntary, planned movements by the extremities and the eyes, and this can start as symmetric disturbances but then it becomes asymmetric.</em> Symptoms are related to a lack of muscle control and of movement coordination and to a defective sense of equilibrium due to damage to the cerebellum.</p><p id="2297904f-03a9-81ba-9dea-e09c53bf8018" class="">Cerebellar syndrome is related to small cell lung carcinoma and ANNA-1 are involved but, in this case, there is also another type of antibody that is <strong>Purkinje cell cytoplasmic antibody type 1</strong> (anti-Yo or PCA1). PCA1 are against Purkinje cells of the cerebellum and induce their necrosis. Therefore, any attempt to treat, such as immunotherapy used against these antibodies, is unable to counteract the damage because the cerebellar Purkinje cells are destroyed.</p><p id="2297904f-03a9-817d-98b5-c67270ae11d4" class=""><strong>PARANEOPLASTIC SKIN SYNDROMES</strong></p><p id="2297904f-03a9-81a0-b9e5-e4653df4528d" class="">Other paraneoplastic syndromes affect the skin. They are especially associated with hematological diseases and are considered collateral diseases in paraneoplastic syndromes. They are precancerous.</p><p id="2297904f-03a9-8159-8b8d-c7e53eb24b95" class="">Pigmented skin lesions or keratosis are:</p><p id="2297904f-03a9-81f8-8744-d70f813c4fcc" class="">- <strong>Acanthosis nigricans</strong> (associated with gastric cancer): dark, round skin lesion. They are especially found in skin folds (like inguinal folds). Can be related to different types of cancer. The etiopathogenesis appears to be immunological due to the hypersecretion of epidermal growth factor. However, it is not sure.</p><ul id="2297904f-03a9-81d3-89ea-c763cbb52c0e" class="bulleted-list"><li style="list-style-type:disc"><em><strong>Generalized melanosis</strong></em><em> (associated with lymphoma, melanoma, HCC)</em></li></ul><p id="2297904f-03a9-812c-8920-d4baae953a5c" class="">- <strong>Bowen’s disease</strong> (associated with lung and gastric cancers): it is an in situ carcinoma but can occur also as a paraneoplastic syndrome when linked to other cancers.</p><ul id="2297904f-03a9-8116-aa94-e35c76e449af" class="bulleted-list"><li style="list-style-type:disc"><strong>Leser-Trélat sign</strong> (associated with lymphomas and gastric cancer): Onset of multiple seborrheic keratoses that increase in number and size. It is also associated with Acanthosis, as they often occur together.</li></ul><p id="2297904f-03a9-8161-8469-d148b8efa25b" class="">Other skin syndromes are:</p><p id="2297904f-03a9-81a5-a721-cf82933dd30d" class="">- <strong>Sweet syndrome</strong> or <strong>acute febrile neutrophilic dermatosis</strong> (linked to hemolymphopoietic cancers): Characterized by fever due to increase of neutrophils production which induces erythematous nodules</p><p id="2297904f-03a9-81fd-8c24-d794a46de1a8" class="">- <strong>Palmar hyperkeratosis</strong> (related to T-cell-non-Hodgkin lymphomas): stratum corneum degeneration -</p><p id="2297904f-03a9-8136-af20-d22c0cb787ed" class=""><strong>Ichthyosis</strong> (linked to Hodgkin lymphomas): Hyperkeratosis with “fish-like” skin with scales that lift up.</p><p id="2297904f-03a9-8174-b8df-f154d597175a" class=""><em>Paraneoplastic syndromes often are also precancerous conditions, so there is a difference in the timing: they can be both precancerous and paraneoplastic, so associated with other types of cancer.</em></p><p id="2297904f-03a9-81cf-9616-fb2d2855f2c7" class="">This type of classification is the main one, but others also exist. Each type may also have severe subclassifications.</p><p id="2297904f-03a9-81cb-a616-f5163eb53264" class="">Sara Schiffini, Lan Sandra Trinh</p><p id="2297904f-03a9-8142-8dc8-ec2e986952e2" class="">41</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

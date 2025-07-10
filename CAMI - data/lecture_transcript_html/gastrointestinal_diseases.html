@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> gastrointestinal diseases</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8196-8792-ff4597ddd35a" class="page sans"><header><h1 class="page-title"> gastrointestinal diseases</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81b2-9cc2-c866c7586652" class="">22.03.2023 BIASI L.2</p><p id="2297904f-03a9-8187-a149-ea5bbd0cce16" class=""><strong>PATHOPHYSIOLOGY OF THE GASTROINTESTINAL SYSTEM</strong></p><p id="2297904f-03a9-814b-b933-c2d992e06dee" class="">This lecture will talk about the main gastrointestinal diseases starting from the esophagus to the colon and the rectum.</p><p id="2297904f-03a9-8180-a3c3-c7c7c4a5938a" class="">In general, the main pathologies interesting the esophagus are congenital pathologies, meaning that they regard infants. There are two important features associated with the morphology of the esophagus: atresia and fistula.</p><p id="2297904f-03a9-81d6-ab3d-e75e33006872" class=""><strong>Atresia</strong> is the interruption of a part of the esophagus, while a fistula is associated with other organs, not only in the esophagus but also in the gastrointestinal tract. <strong>Fistula</strong> is defined as the abnormal connection between one organ that has a hollow structure and another organ. Speaking about the atresia in the esophagus, it is in general congenital and can come with or without fistulae. It is a sporadic disease <em>(although it remains the most common congenital anomaly of the stomach)</em> linked to soon birthing infants and ranges from 1 in every 2,000-3,000 births; the main symptom experienced by these infants is low weight. Nowadays, thanks to the increase in the money in neonatal intensive care and the surgeons, there is an increase in the possibility of these infants to survive.</p><p id="2297904f-03a9-810b-937a-ec3a59b7f57a" class=""><strong>ESOPHAGEAL ATRESIA</strong></p><figure id="2297904f-03a9-817f-846a-db6363350602" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image1.png"><img style="width:700px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image1.png"/></a></figure><p id="2297904f-03a9-8159-9cd2-ea2a9b954e37" class=""><em>Fig. 1</em></p><p id="2297904f-03a9-8167-ac38-f10129691748" class="">Atresias are classified into five main types, from A to E, with another additional type that is the F type. These types are also linked to the severity of the disease, which is considered as II, III, IIIb, IIIa or H-type. - <strong>Type A</strong> is only atresia, so there is a fraction. There is a complete block of the canalicular structure of the esophagus, so we have atresia in the upper part and also in the bottom part;</p><p id="2297904f-03a9-81d1-8922-f615cc3cfa0d" class="">- <strong>Type B</strong> presents an atresia in the bottom part and a fistula in the upper part;</p><p id="2297904f-03a9-81bf-a33f-d5bc7d5b865f" class="">-</p><p id="2297904f-03a9-817f-ac3a-eb10a619cfac" class=""><strong>Type C</strong> is exactly the opposite, so the atresia is in the upper part; - <strong>Type D</strong> presents two fistulae;</p><p id="2297904f-03a9-81a0-aa34-c6b5b4c72c3d" class="">- In <strong>type E</strong>, there is a fistula between the esophagus and trachea without atresia. So, on the fistula</p><p id="2297904f-03a9-816b-bbbe-dd7fd187b350" class="">Scian Pier Paolo, Bertozzi Alice</p><p id="2297904f-03a9-81f8-9cb8-f035513d08e2" class="">11</p><p id="2297904f-03a9-81af-97ef-dc75d9e26c7e" class="">22.03.2023 BIASI L.2</p><p id="2297904f-03a9-8109-becc-ec1e8d561d2d" class="">there is a narrowing of the trachea and a narrowing of the esophagus, with a fistula that is concentrated in one part only without the atresia;</p><p id="2297904f-03a9-814a-b75a-f93f0271c8ef" class="">- <strong>Type F</strong> is the additional one, which is congenital and it induces a stenosis (an occlusion of the esophagus).</p><p id="2297904f-03a9-8146-a516-f2eeae09c6ec" class="">What happens in the esophagus undergoing these different types of alterations (fig.2)?</p><figure id="2297904f-03a9-81f6-8194-fac180c0d4f6" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image2.png"><img style="width:630px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image2.png"/></a></figure><p id="2297904f-03a9-81a2-98e9-de26985c6d6f" class=""><em>Fig.2</em></p><p id="2297904f-03a9-8177-b3b1-dfc571896ef4" class="">There is a narrowing of the esophagus which is called <strong>esophageal stenosis</strong>, there can be an achalasia, an ectopia or a reflux esophagitis.</p><p id="2297904f-03a9-8101-b102-cdeb147017a0" class=""><strong>Achalasia</strong> is a loss of peristalsis of the esophagus, due to the alteration in the muscles, meaning that the esophagus is unable to maintain relaxation and contraction. The symptomatology of this achalasia is a pain in the retro-sternal part.</p><p id="2297904f-03a9-81d6-8862-fc3e9af42267" class=""><strong>Ectopia</strong> occurs when some residues from the diet, from the nutrients, are present; these types of residues can be due to eating and can be due also to the presence of, in the case of chronic gastritis, of gastric mucosa into the esophagus. The presence of gastric mucosa in the esophagus can induce also an alteration in the morphology, associated with pre-cancerous conditions, for example the Barret’s esophagus. In general, it is a kind of metaplasia when part of the tissue, in the case of the esophagus, becomes structurally like the type of mucosa present in the stomach. Because the gastric mucosa is in the ectopic part, in the esophagus it can produce acids like in the stomach and can induce the Barret’s esophagus, which is a metaplasia and can become cancer, that’s why it is pre-cancerous.</p><p id="2297904f-03a9-81ac-a454-dfc70a76fc60" class="">There can also be a development in the symptomatology, very similar to ectopia, which is <strong>reflux esophagitis</strong>: it is due to an alteration in the mechanism of contraction. So, there is also in this case the possibility of developing Barrett’s esophagus.</p><p id="2297904f-03a9-8185-8dfc-de8c90b9a800" class="">Another cause of reflux esophagitis can be also herniation, in particular, the <strong>hiatal hernia</strong>, which causes a herniation of the stomach through the diaphragm.</p><p id="2297904f-03a9-813b-8560-fe0ae6e69a2c" class="">The hiatal hernia can be divided into different types of morphologies (fig.3):</p><p id="2297904f-03a9-811e-8f52-fc250bc754ed" class="">- <strong>Sliding hiatal hernia</strong>, which is when a part of the stomach is inserted into the level the diaphragmatic hiatus (so it can insert itself towards the upper part, towards the</p><p id="2297904f-03a9-81ac-a7c3-d8a3c58ae606" class="">esophagus).</p><ul id="2297904f-03a9-81d7-9b70-e327313e227e" class="bulleted-list"><li style="list-style-type:disc"><strong>Paraesophagealhernia</strong> (it is less common) is when this herniation is a protuberance in the</li></ul><p id="2297904f-03a9-81cb-9e39-e31e541c74f7" class="">Scian Pier Paolo, Bertozzi Alice</p><figure id="2297904f-03a9-81a2-9af8-ce4198eed7bf" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image3.png"><img style="width:620px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image3.png"/></a></figure><p id="2297904f-03a9-818d-9061-c1bd903501ef" class=""><em>Fig. 3</em></p><p id="2297904f-03a9-8141-bae8-c64c62b7221a" class="">22.03.2023 BIASI L.2</p><p id="2297904f-03a9-81ba-b3e1-dd9b18824b34" class="">lateral part, also in this case for dilation of the diaphragmatic hiatus, so there is a kind of dislocation of the gastric mucosa.</p><p id="2297904f-03a9-815f-9135-d1b9d6486a8f" class="">These two are the main types that we can see in the clinical practice. The other alterations are particular:</p><ul id="2297904f-03a9-8145-b12c-e9fcc4a48b6e" class="bulleted-list"><li style="list-style-type:disc"><strong>Acalasia</strong> corresponds, in this case, to the narrowing of part of this portion of the gastric mucosa.</li></ul><p id="2297904f-03a9-81fd-8ac5-ce4b604856f9" class="">This type of achalasia can also induce the formation of fibrous protrusions into the channel, which are called <strong>Schatzki rings</strong>, where the mucosal part develops into the median part of the esophagus. - The other alteration is the <strong>reflux esophagitis</strong> (fig.4) : as it has been said before, the reflux is due to, in general, a metaplasia and therefore consists of a change of the type of tissue, and of the function of the tissue, since the stratified squamous epithelium in the esophagus is replaced by the mucosal columnar epithelium of the stomach to counteract the presence of the reflux and so the presence</p><figure id="2297904f-03a9-8161-a56f-d0228802419f" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image4.png"><img style="width:639px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image4.png"/></a></figure><p id="2297904f-03a9-81ba-9ef2-dd02d8432f8e" class="">of the acids that come from the stomach. Fig.4, for example, shows a mild reflux of esophagitis, in which these red cells are eosinophils, and this tissue, that now is still a stratified squamous epithelium is completely changed with the mucosal and columnar epithelium, like in the stomach, with an increase also of eosinophils into the tissue. And therefore, if this</p><p id="2297904f-03a9-811f-95fc-c71a4ede4b95" class="">esophagitis becomes chronic (and so if it becomes a disease which is called chronic gastroesophageal reflux disease), it can induce Barret’s esophagus.</p><p id="2297904f-03a9-81d2-a90e-fc4a683078c6" class=""><em>Fig. 4</em></p><figure id="2297904f-03a9-81ac-968d-ddfed81ef7e4" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image5.png"><img style="width:365px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image5.png"/></a></figure><p id="2297904f-03a9-81c5-acc5-d6691f74a509" class="">hypertension. The fibrotic tissue is the one that induces a narrowing of the portal vein so, when there is a block in the portal vein, it is an example of the formation of</p><p id="2297904f-03a9-813d-99e1-e237d5e9abf7" class=""><strong>collateral veins</strong></p><p id="2297904f-03a9-8133-88c4-e798fb07f341" class="">. Collateral veins are collateral vessels that form</p><figure id="2297904f-03a9-812f-94b2-ea3e0a8c7650" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image6.png"><img style="width:381px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image6.png"/></a></figure><p id="2297904f-03a9-81ff-a731-f444ac789898" class="">Another type of damage into the</p><p id="2297904f-03a9-81e4-9ecd-f25b1a2005da" class="">esophagus are the <strong>varices</strong> (fig.5 and 6).</p><p id="2297904f-03a9-81c4-a041-d2b3ddf89f2b" class="">The main esophageal varices sources are</p><p id="2297904f-03a9-81e2-b11e-d1c58312964f" class="">the veins produced during a portal</p><p id="2297904f-03a9-81c7-9273-f5e72f67fd29" class=""><em>Fig.5</em></p><p id="2297904f-03a9-81c5-bb5a-ec7e0990c5e8" class=""><em>Fig.6</em></p><p id="2297904f-03a9-816e-a521-d6b6eb5a2603" class="">when there is an increase in the blood flow, which in turn lead to an increase in the pressure against the wall of the vessels. These esophageal varices can be broken, and so the rupture results into the esophageal bleeding.</p><p id="2297904f-03a9-815c-b45e-efe5b3b16f8f" class=""><strong>STOMACH DISEASES</strong></p><p id="2297904f-03a9-811a-80aa-f29c3d7d81cc" class="">The stomach can be interested by different types of diseases: <strong>gastritis</strong>, which is the damage to the structure of the stomach, for example due to a wound or ulceration (in this case there is a necrosis of the mucosa). There can also be an <strong>obstruction</strong> of the gastric mucosa that can be due, for example, to the presence of antigens or to the presence of a tumor. There can also be the so-called <strong>gastric constipation</strong>, consisting of a sensation of feeling unease. There can also be a benign hypertrophy of the muscles at the level of the pylorus, which can close the stomach (emptying it) and can close the passage of dietary compounds. Some particular types of changes in the morphology, like dilation, torsion, a tumor, the alteration for different causes of the</p><p id="2297904f-03a9-8119-a286-debeae8ef65b" class="">Scian Pier Paolo, Bertozzi Alice</p><p id="2297904f-03a9-81ba-b55a-ecac0a5a2ad4" class="">13</p><p id="2297904f-03a9-8145-a00b-ce2e5b5a4e8f" class="">22.03.2023 BIASI L.2</p><p id="2297904f-03a9-8142-8e99-fe9302a38087" class="">motility of the muscles are associated with the ulcer.</p><p id="2297904f-03a9-81e1-b26e-ebcd2cd3dd46" class=""><strong>GASTRITIS</strong></p><p id="2297904f-03a9-81d1-8c07-dd8d7e45a388" class="">Gastritis is an <strong>inflammation of the gastric mucosa</strong>, and, in general, is an alteration of the surface of the</p><p id="2297904f-03a9-813f-bffe-f157d39bff59" class="">mucosa: this causes an alteration in the production of mucins. Mucins are very important for the mucosa</p><p id="2297904f-03a9-817a-8089-feb882f663a0" class="">because they protect it from suffering damages caused by the acid.</p><p id="2297904f-03a9-8181-8393-f67447f23680" class="">Gastritis can be due to different factors. We can have different types of symptomatology, depending on the</p><p id="2297904f-03a9-8148-b6af-facddb40aef1" class="">causes:</p><p id="2297904f-03a9-81cd-8338-db2947a3e182" class="">- <strong>Epigastric pyrosis</strong>, which causes a sensation of a burden on the stomach. When there is pyrosis, the symptom can radiate to the back. So, when you are in the presence of a patient that has a pain on the back, it is also possible that it can be due to gastritis.;</p><p id="2297904f-03a9-8194-90a2-ed52cd5e982f" class="">- <strong>Frequent belching and gurgling of the stomach</strong> that is due to the hyperproduction the gastric acids -</p><p id="2297904f-03a9-8140-b407-cbe9f1a671d1" class=""><strong>Nausea and vomit</strong>; - <strong>Fever</strong> (only in the case of acute gastritis);</p><p id="2297904f-03a9-814d-b843-ddd5b272b9d2" class="">- <strong>Inflammation of the gastric mucosa</strong> is associated in general to the damage on the upper part of the gastrointestinal tract, so on the esophagus. It can also be associated with a sensation of pain also in the bottom, so it can also be associated with an alteration in the motility and the absorption of the intestinal tract, so inducing diarrhea and abdominal swelling.</p><p id="2297904f-03a9-81f7-8268-ec010a11118d" class="">Gastritis is divided into two types, <strong>acute</strong> and <strong>chronic</strong>, depending on the duration of the disease and on the</p><p id="2297904f-03a9-81d0-9830-d319e6aab5b2" class="">amount of damage.</p><p id="2297904f-03a9-81b7-a9b8-da5809c3ef84" class="">The <strong>acutegastritis</strong> has many possible causes, which can be:</p><ul id="2297904f-03a9-8112-bda6-fe5b37e4cd35" class="bulleted-list"><li style="list-style-type:disc"><strong>Ingestion of acid or basic substances</strong> (in particular aliphatic acids, which have a corrosive action). - <strong>Ingestion of natural detergents</strong> (like lecithins for example) as they induce a physical damage of the mucosa.</li></ul><ul id="2297904f-03a9-81e5-8282-f325fe939eb7" class="bulleted-list"><li style="list-style-type:disc"><strong>Excessive alcohol intake</strong>, which can induces inflammation, edema and inflammatory infiltrates. It can cause an erosion, so also a necrosis of the mucosa, and then an ulcer. In this case, the cause of the excessive alcohol ingestion is called as alcoholic gastritis.</li></ul><ul id="2297904f-03a9-8136-9a20-d8e6186094c3" class="bulleted-list"><li style="list-style-type:disc"><strong>Smoking</strong> .</li></ul><ul id="2297904f-03a9-81b5-a111-d2ad24d0833c" class="bulleted-list"><li style="list-style-type:disc"><strong>Chemotherapies</strong> also can induce damage to the mucosa.</li></ul><ul id="2297904f-03a9-81e6-b5e7-c3a360e5a283" class="bulleted-list"><li style="list-style-type:disc"><strong>Helicobacter pylori</strong>, which is the only bacteria known to be a risk factor for gastritis. Helicobacter pylori can be associated with acute gastritis but is especially associated with chronic gastritis.</li></ul><ul id="2297904f-03a9-8193-abb7-df1d62c56c1b" class="bulleted-list"><li style="list-style-type:disc">Some components which are very important in inducing acute gastritis, are drugs such as aspirin (<strong>acetylsalicylic acid</strong>), and <strong>non-steroidal anti-inflammatory drugs</strong>. The acetylsalicylic acid is, obviously, an acid, so it decreases the pH, because it is dissociated, and induces an increase in the acidity. This increase of hydrogen ions stimulates the release of histamine, and this in turn induces an over-secretion of chloride acid, therefore there is an amplification in the production by the mucus of chloride acid. All of these conditions can increase inflammation, so we can also see edema in the mucosal layer. Non-steroidal anti-inflammatory drugs reduce the mediator of inflammation, prostaglandins: their function is to reduce the production of mucus, therefore, if there is a reduction of the mucus on the layer, it cannot defend itself from the caustic acids.</li></ul><p id="2297904f-03a9-813d-a7ff-c71470696059" class="">The evolution of acute gastritis is not only inflammation, but a massive wound necrosis that induces hemorrhaging, because it is inserted in the deeper layers of the stomach and not only in the superficial mucosa. The maximum evolution is the formation of this <strong>acute hemorrhagic erosive gastritis</strong>. Therefore, remember, when there is a gastritis, do not give to the patient aspirin or non-steroidal anti-inflammatory drugs. <strong>Cortisone</strong> and <strong>corticosterone</strong> are better than these anti-inflammatory drugs. That’s why, also, when we need to ingest non-steroidal anti-inflammatory drugs, we have to ingest them after eating: this is done to defend the gastric mucosa from the effect of these drugs.</p><p id="2297904f-03a9-8175-a3fa-dbfdae3a1578" class="">Scian Pier Paolo, Bertozzi Alice</p><p id="2297904f-03a9-8186-851f-d6ddd5749be5" class="">14</p><p id="2297904f-03a9-8100-b169-d13a7abaab16" class="">22.03.2023 BIASI L.2</p><p id="2297904f-03a9-814e-ac12-fe5498895077" class=""><strong>Chronic gastritis</strong> is a chronic inflammation classified into two types, specific and non-specific. Therefore, we</p><p id="2297904f-03a9-81a8-a878-d18a597c782e" class="">can sub-classify chronic gastritis depending on the morphology of the gastric mucosa.</p><p id="2297904f-03a9-817f-872d-e58e12ab6391" class=""><strong>Specific chronic gastritis</strong> is due to a specific cause, for example, a bacterial infection, and in particular,</p><p id="2297904f-03a9-8179-b9c3-f825bfa37fea" class="">Helicobacter. Among the different types of helicobacters, the main one which is responsible for chronic</p><p id="2297904f-03a9-8145-bf03-d6b8f54cd3e0" class="">gastritis is Helicobacter pylori.</p><p id="2297904f-03a9-819b-b759-eea98d644807" class="">The <strong>non-specific types of chronic gastritis</strong> are dependent on the morphology and the cells that are involved</p><p id="2297904f-03a9-81e5-8092-d624cc0482b9" class="">in this inflammation:</p><ul id="2297904f-03a9-81e2-be6b-fdc4856e6c0d" class="bulleted-list"><li style="list-style-type:disc"><strong>Lymphoplasmacyticgastritis</strong> is due to the infiltration of lymphocytes and plasma cells into the lamina propria of the stomach, the deeper part of the mucosa;</li></ul><p id="2297904f-03a9-81e4-bba4-eaef196d8cac" class="">- <strong>Eosinophilic gastritis</strong>, is due to the infiltration of eosinophils. This is in particular very rare and is present in children or young people only;</p><p id="2297904f-03a9-8153-8a47-c4fcd541e74b" class="">- <strong>Granulomatousgastritis</strong>, where we can see a granuloma, a chronic type of inflammation where we have a high quantity of inflammatory cells in general. This type of granuloma is associated with the presence of another disease, an intestinal disease, called <strong>Crohn&#x27;s disease</strong>.</p><p id="2297904f-03a9-8130-ac19-c028c9f9118a" class="">When we have an intestinal disease, we also have a link to the other part of the gastrointestinal tract, which</p><p id="2297904f-03a9-8133-a397-df7cf3404748" class="">is the stomach. When these repeated inflammations are present, there can be the damaging and <strong>necrosis</strong> of</p><p id="2297904f-03a9-8197-b4f9-dbbecc8491ea" class="">an area of the stomach. The necrosis can be accompanied by inflammation and the formation of granulation</p><figure id="2297904f-03a9-814f-a1d8-d2e3726eab3f" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image7.png"><img style="width:378px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image7.png"/></a></figure><p id="2297904f-03a9-812e-9dc6-deb1f938ee27" class=""><em>Fig.7</em></p><p id="2297904f-03a9-8128-a9a1-d7cb4a935aca" class="">tissue, which is the tissue part of the wound repair. So, there is a necrosis, there is a repair association, and therefore the presence of the positional fibrous tissue, so the presence of a fibrous reaction. This is called <strong>peptic ulcer</strong> (fig.7) . It is exactly defined as a lesion characterized by a denuded mucosa, with the defect extending into the <strong>submucosa</strong> and <strong>muscularis propria</strong>: it is always accompanied by acid hypersecretion and, as I told you before, the main risk factors are those that can reduce the mucosal failure of the gastric mucosa in the stomach, which are infection (for example from helicobacter pylori) alcohol and</p><p id="2297904f-03a9-81e2-9330-d28d9320c665" class="">tobacco consumption, acids, and non-steroidal drugs. The main among all these are non-steroidal drugs, anti-inflammatory drugs, and helicobacter pylori infections.</p><p id="2297904f-03a9-81bf-b0a3-d7e4907dadd2" class="">The ulcer induces erosion which ion turn causes hemorrhages. Considering that there is also in this case, like in Barret’s esophagus, an alteration in the function of these cells, this ulcer can be a risk for the development of neoplastic transformation.</p><figure id="2297904f-03a9-81ad-a558-e87ace93c9ba" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image8.png"><img style="width:700px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image8.png"/></a></figure><p id="2297904f-03a9-818b-bc6b-f8ff9d436005" class=""><em>Fig.8</em></p><p id="2297904f-03a9-81c3-9f40-cf4062e866ec" class="">Fig.8 shows the normal mucosa, that is the upper part, which produces the mucus during chronic gastritis; with injury, this mucus can be reduced and this reduction of the mucus induces the increase in the damage, also in the deeper layers of the stomach. So, it can induce an alteration in the reduction of inflammation and</p><p id="2297904f-03a9-81d1-8f6e-f1d69298b7c1" class="">Scian Pier Paolo, Bertozzi Alice</p><p id="2297904f-03a9-8192-a296-c944e6cfc907" class="">15</p><p id="2297904f-03a9-816d-82ce-f8757e874d7c" class="">22.03.2023 BIASI L.2</p><p id="2297904f-03a9-8109-88b0-f421b4200eed" class="">the formation of wounds, and so, ulcers in the deeper layers.</p><p id="2297904f-03a9-81f3-a84d-f95dd4916abc" class=""><strong>HELICOBACTER PYLORI</strong></p><p id="2297904f-03a9-81bc-ad52-f757b9f2ab85" class="">As we said before, helicobacter pylori is the main source of chronic gastritis, although it rarely can also cause acute gastritis. The action of helicobacter pylori was discovered recently, only 10 years ago.</p><p id="2297904f-03a9-81b1-942e-e54b0cf7daf8" class="">What is the mechanism behind chronic gastritis caused by Helicobacter pylori? Helicobacter pylori produces <strong>urease</strong>, which is an enzyme that hydrolyzes urea into CO2 and ammonia. Ammonia is used by the helicobacter pylori to maintain a basic environment around itself. On the other hand, the formation of CO2 in presence of the hydrogen ions can produce an increase in the acidic environment of stomach cavity. So, it can decrease the pH, and this acidic pH is able to cause damage to the stomach mucosa. In the meantime, the bacteria defends itself by surrounding itself in an environment full of ammonia.</p><p id="2297904f-03a9-8150-bf20-dc4a91db0748" class="">The different steps by which helicobacter pylori can induce damage are, first of all, the induction of an alteration in the morphology and in the function of the stomach. So, it induces atrophic gastritis which can also develop <strong>intestinal metaplasia</strong>. Intestinal metaplasia is a type of metaplasia when the tissue in the lower part of the stomach changes its morphology and becomes like the first part of the intestine (the fundus of the stomach becomes like the tissue in the tenue). There is also an alteration in the function of the intestine and so an alteration in the digestion of the upper part of the intestine. This is a metaplasia that can spread also in the lower parts of the intestine, which becomes <strong>colonic metaplasia</strong>: therefore the damage involves not only the stomach but also the intestine. In fact, it can be assumed that helicobacter pylori can be also a risk factor for intestinal damage. It causes dysplasia and carcinoma, in particular in the gastric portion. Helicobacter pylori induces not only damage by increasing the acidic environment of the stomach, but also because it expresses two types of proteins, which are <strong>VacA</strong> and <strong>CagA</strong>.</p><p id="2297904f-03a9-8179-9457-e2e838cd6a90" class="">The first one is <strong>vacuolizing cytotoxin-associated protein type A</strong> (VacA), which is able to induce the damage and cleave the membrane of the mitochondria. Between the two membranes of the mitochondria (remember that mitochondria have an external membrane, an internal membrane, and then a matrix in between) there is <strong>cytochrome C</strong>. If this external membrane is cleaved, cytochrome C is able to enter the cytoplasm and activate the apoptotic program. So, there is this activation by this protein expressed by the helicobacter pylori, which is associated with the induction of the damage, to the induction of apoptosis on mucosa cells, to the amplification of the gastric lesions, and therefore the progression towards the malignant phenotype.</p><p id="2297904f-03a9-81ef-8e7f-d6fa3a95eecd" class="">The other protein, called <strong>cytotoxin-associated genetypeA</strong> (CagA), expressed by helicobacter pylori, activates the tyrosine kinases. These tyrosine kinases are kinases or enzymes that are increased during the malignant progression because they are involved in the mitogenic response of the mucosal cells. Hence, in this case, the expression of this gene by the helicobacter pylori is associated with the progression of gastritis toward atrophy, and then cancer.</p><p id="2297904f-03a9-8139-a840-ef91983829a5" class="">There are three types of tests to diagnose the presence of Helicobacter pylori.</p><p id="2297904f-03a9-8169-a963-cae979d374bb" class="">Scian Pier Paolo, Bertozzi Alice</p><p id="2297904f-03a9-815b-8b5d-da8b40d25d49" class="">16</p><p id="2297904f-03a9-8142-947d-c5902542e25c" class="">22.03.2023 BIASI L.2</p><figure id="2297904f-03a9-8130-a724-f0a421f23660" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image9.png"><img style="width:431px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image9.png"/></a></figure><p id="2297904f-03a9-8180-a716-dd21f0335ec0" class=""><em>Fig.9</em></p><p id="2297904f-03a9-81b8-83e2-c348dbc9a790" class="">The first type is the <strong>breath test</strong> (fig.9) , which is based on the capacity of the helicobacter pylori to cleave urea into ammonia and CO2. If we give patients capsules that contain urea in which the carbon is <strong>radioactive</strong> (to give radioactive urea), if they are infected by helicobacter pylori, they exhale the radioactive CO2 due to the cleavage, by the helicobacter pylori, of urea into ammonia and CO2. The CO2 reaches the lung and then when we exhale the respiration, we can analyze the quantity of radioactive carbon exhaled. This is a very simple test and it is the main type of analysis.</p><p id="2297904f-03a9-81b7-b7e4-ee8a4296d38c" class="">Other types of analysis have been set up, like <strong>serological tests</strong> evaluating the immunoglobulins associated with the infection of helicobacter pylori, like IgG, IgA, but this is a very generic serological test.</p><p id="2297904f-03a9-81a9-8d72-ce025381526d" class="">The other important specific test is the analysis of the presence of Helicobacter pylori in the stools, by using an antibody against helicobacter pylori: this type of analysis is called <strong>Helicobacter pylori stool antigen test</strong> (HPSA). The main one, however, is still the breath test.</p><p id="2297904f-03a9-81bb-99a6-ce05bd5c9cb5" class=""><em>Q: Why do you say that the serologic test is not so specific?</em></p><p id="2297904f-03a9-813f-b0b5-eba799331c75" class=""><em>A: It is not specific because you are going to see only the amount of IgG or IgA, which may be increased also due to other things.</em></p><p id="2297904f-03a9-81eb-b753-d7fe66ff2417" class=""><em>Q: So cross-reaction?</em></p><p id="2297904f-03a9-81e0-a2dc-e9de9c90b009" class=""><em>A: No cross-reactions. For example, if there is an increase in IgA there can be an infection or an inflammation associated with intestinal diseases.</em></p><p id="2297904f-03a9-81ef-b6db-c7be24e3b461" class=""><em>Q: So IgG and IgA are not specific for helicobacter pylori?</em></p><p id="2297904f-03a9-81b9-a149-c7b573e16761" class=""><em>A: No, you just see the spectrum of the different types of immunoglobulins and you see the presence of these two.</em></p><p id="2297904f-03a9-8171-890e-fa97877dc4a0" class=""><strong>INTESTINAL DISEASES</strong></p><p id="2297904f-03a9-81cb-97ee-e6207efcb860" class="">In the intestine there are different types of diseases. We can divide the diseases of the intestine into the <strong>malabsorption syndromes</strong> in general (due to the alteration of the motility of the intestine) and into the <strong>inflammatory disorders</strong> (due to ingestion of a particular type of food, the presence of cancer or chronic inflammation): the two main inflammatory disorders are <strong>Irritable Bowel Syndrome</strong> (<strong>IBS</strong>) and <strong>Inflammatory Bowel Disease</strong> (<strong>IBD</strong>).</p><p id="2297904f-03a9-8140-9a56-e14be5bb2503" class="">Talking about malabsorption syndromes, they can be due to the alteration in the absorption due to, for example, alteration in the digestion of foods and in the transport throughout the different types of intestinal layers, and also due to the reduction of the absorption area, causing malabsorption of the nutrients from the portion of the intestine.</p><p id="2297904f-03a9-8165-bd12-ead6bc07fcf3" class="">Which are these malabsorption syndromes? There is an <strong>increase in substances vaguely digested</strong>, which induce the alteration in the ions and the production of mucins at the level of the intestine, especially the tenue (in the upper part of the intestine). So, we have intestinal water influx due to the alteration of the osmosis between the internal part of the intestine and the external part, where these vaguely digested substances are present. There is also the enzymatic attack by bacteria, because of the presence of the microflora in the lumen of the intestine. They are very important because they act by using their enzymes to cleave or to metabolize particular types of nutrients that are ingested. But in the case of maintaining badly digested substances, they can be altered by the bacteria and so they can induce the production of pro-inflammatory molecules. So, these undigested substances can be cleaved towards the induction of</p><p id="2297904f-03a9-81aa-8b3b-f1ee583897d2" class="">Scian Pier Paolo, Bertozzi Alice</p><p id="2297904f-03a9-8156-a638-e570b767c4af" class="">17</p><p id="2297904f-03a9-8174-9db8-f109d5f3b6c2" class="">22.03.2023 BIASI L.2</p><p id="2297904f-03a9-816d-bb68-f2e8bd536bd4" class="">inflammation.</p><p id="2297904f-03a9-8164-a454-ef4b100be829" class="">These malabsorption syndromes cause accelerated or reduced transit conditions: these alterations can induce either <strong>diarrhea</strong> or <strong>stipsi</strong> (also called constipation). We have diarrhea when there is an acceleration of the transit into the intestine and stipsi when there is a reduced transit into the intestinal lumen. These changes can be due to the alterations in the contraction of the muscle layer of the intestine (there are a mucosa and a muscular layer in the different layers of the intestine). These obstructions, these alterations, can be due to, for example, be mechanical or functional damages.</p><p id="2297904f-03a9-8173-8cd4-ee63e39764ff" class="">In particular, the obstructions that can induce diarrhea or constipation can be present in the upper part of the intestine, so in the small bowel. Why? Because small bowel obstructions are more common than large bowel obstructions due to the diameter, the physical diameter of this upper part has a lumen that is smaller</p><p id="2297904f-03a9-8183-b7fc-fb044cd7dc2c" class=""><em>Fig.10</em></p><figure id="2297904f-03a9-81de-b03e-e544a7c5db20" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image10.png"><img style="width:477px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image10.png"/></a></figure><p id="2297904f-03a9-8100-83e3-c133de938a9f" class="">than the large bowel. The obstruction can also be due, not only to the physical presence of material, but also due to changes in the morphologies of the intestine. In this case, it is an abdominal <strong>hernia</strong> that induces an intrusion, due to a weakness of the wall of the abdominal intestine; we can also have <strong>abdominal adhesions</strong>, especially due to abdominal surgeries (fig.10). These intra-abdominal fibrous formations are frequent and in general they can</p><p id="2297904f-03a9-81af-9704-ee73b0ad9f58" class="">link the peritoneal membrane and are due to abdominal surgery.</p><p id="2297904f-03a9-81a4-ad64-cc58492fe8d2" class="">The other can be <strong>volvulus,</strong> when there is a twisting of one of the segments of the intestine (hence, a segment becomes twisted on itself) on the mesenteric axis. And this kind of occlusion can induce an obstruction. The other one is <strong>intussusception</strong>, due to an invagination of a part of buccal part of the intestine (in the upper part of the intestine) (fig.11). This type of invagination is due, for example, to the alteration in the peristalsis, in the correct movement of the</p><p id="2297904f-03a9-81fc-aa31-ef562b4702ee" class=""><em>Fig.11</em></p><figure id="2297904f-03a9-81ea-9ec4-ca1be09f4774" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image11.png"><img style="width:532px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image11.png"/></a></figure><p id="2297904f-03a9-8174-aec1-f514d8fdefaa" class="">muscles. So, these are due to the obstruction and these can induce malabsorption symptoms in general.</p><p id="2297904f-03a9-814d-a5bc-db5b32bdb777" class=""><strong>IRRITABLE BOWEL SYNDROME (IBS)</strong></p><p id="2297904f-03a9-8110-945f-c573711e1cf7" class="">Malabsorption symptoms can be also due not only to physical obstructions, but also to inflammation of segments of the intestine. The main inflammatory diseases are chronic inflammatory diseases in the intestine, <strong>IBS</strong> and <strong>IBD</strong>. Irritable bowel syndrome is now considered also as <strong>chronic inflammation</strong>: only in the last few years this type of disease has been considered a <strong>pathophysiological disease</strong>. In the past, this was considered only a psychological disease. These patients suffer from abdominal pain, which can be intermittent and they can experience stipsi with diarrhea (there is an intermittent alteration between diarrhea and constipation). These types of diseases, like IBS, are now associated to have physiopathological importance because the action between the gastrointestinal function and the brain function is now physiologically considered: we have a link between the gut and the function of the central nervous system. The condition that links these two tissues is in general is now called the <strong>gut-brain axis</strong>. Why was in the past considered only as psychological damage and not physiological damage? Because these types of syndromes develop in patients that are stressed. So, they develop especially in the so-called Western countries (in the industrial countries), where the stress, due to the work and due to the lifestyle, is so high that can induce stress into the brain. So, in this case, the psychological stress of the brain, is linked also to the malfunction of the gut. On the other hand, if we have an alteration in the diet (for instance) and so we change, in particular, the bacterial flora (and so there is an alteration in the microbiota) we can induce a functional damage to the</p><p id="2297904f-03a9-813e-862e-e8c46cdc5e58" class="">Scian Pier Paolo, Bertozzi Alice</p><p id="2297904f-03a9-8181-ac16-c2f4bbaa437b" class="">18</p><p id="2297904f-03a9-8171-b7ac-da1eb0e1a757" class="">22.03.2023 BIASI L.2</p><p id="2297904f-03a9-812e-8580-f4297f287b05" class="">gut that is linked to the alteration of the brain. Hence, on one hand the diet and the change in the species of bacteria, and on the other hand the stress of the civilization. Therefore, this type of syndrome is considered to have different types of causes and is considered a <strong>multiple-probability disease</strong>. The main pathological factor, therefore, is the altered gut immune activation due to the alteration of the bacteria present in the gut, which are very important in our body. The increased intestinal permeability, the alteration of the junction between enterocytes and the alteration,due to the diet, of the bacteria, but also due to the continuous inflammation, the intestinal microbiota and the hypersensitivity of the patient. So this is an individual type of sensation it’s not an objective factor but it is a subjective factor, and, therefore, there is the alteration of the brain-gut interaction with an alteration in the autonomic nervous system which is in our intestine: this nervous system is the nervous system of the gut that is able to activate some neurological transmitters, which can be released and can reach the brain to induce alteration in the emotivity and the different type of sensations of our brain.</p><p id="2297904f-03a9-819a-aa65-e5a674522cc6" class=""><strong>ROME III AND IV DIAGNOSTIC CRITERIA</strong></p><p id="2297904f-03a9-81f9-a7ce-f22d89a8efb8" class="">To diagnose this type of syndrome we have two diagnostic criteria, which are <strong>ROME III</strong> and <strong>ROME IV</strong> (with the latter being the most recent). They are very similar and are associated to the alteration of the sensation for abdominal pain but also to the objective changes in volume of the feces, and the passage of the stools, for example, throughout the intestine and so the motility into the intestine. Recurrent abdominal pain can be a discomfort (an uncomfortable sensation), not described as pain but aa a sensation of feeling not well. Following the Rome III criteria, this type of pain or discomfort has to appear at least three days per month, in the last three months; type of damage must be associated with two or more of these factors, which are the improvement of the condition with defecation, an onset associated with a change in the frequency of the passage of the stool (for example diarrhea), and an onset associated with the change in the form (in volume and in color) of the stool.</p><p id="2297904f-03a9-8133-a28d-ffda25e8a6d7" class="">Following Rome IV criteria it is very similar, the recurrent abdominal pain, on average, has to appear at least one day per week (not three days per month) in the last three months, associated with defecation and with a change in the frequency of stool, number and volume of the stool.</p><p id="2297904f-03a9-81b4-8fb1-d9b756eea07a" class="">Therefore, IBS is a multi-morbidity disease due to different types of symptoms associated also to the behavior, and most of the symptoms are linked to both physiological (such as gut physiology) and psychosocial factors. These two factors are linked by environmental factors: first of all is the change in our lifestyle, in the type of eating, in the type of drinking, but also in the type of living, which is very important. In fact, a gastroenterologist told the professor that there is nobody without inflammation like IBS. Only children are not inflamed during our life, because otherwise our hormones are irritated.</p><p id="2297904f-03a9-81d1-b424-c5aa0c676f6f" class="">Scian Pier Paolo, Bertozzi Alice</p><p id="2297904f-03a9-818e-a1de-c0ead77e6a00" class="">19</p><p id="2297904f-03a9-81a5-b31e-dce49935f145" class="">23.03.2023 BIASI L.3</p><p id="2297904f-03a9-81ac-80c7-ef29f0478d77" class=""><strong>INTESTINAL DISEASES PART 2</strong></p><p id="2297904f-03a9-817c-8e44-d266ca1087ff" class="">We now finish yesterday&#x27;s lesson concerning intestinal diseases (IBD). Yesterday we saw the irritable bowel disease that is quite different from inflammatory disease.</p><p id="2297904f-03a9-813f-96f6-f4165a8d5874" class=""><strong>INTESTINAL INFLAMMATORY DISEASE OR INFLAMMATORY BOWEL DISEASE</strong></p><p id="2297904f-03a9-81ea-be6c-f6f62f84b5e1" class="">IBD are associated with <strong>chronic inflammation</strong>, <em>Fig.1</em></p><p id="2297904f-03a9-8145-b4d9-edabe1f3493b" class="">response to the luminal antigens (all types of antigens: dietary,nutrients, bacterias…) The two most common ones are: -</p><p id="2297904f-03a9-8123-b524-c34573353a84" class=""><strong>Ulcerative colitis</strong></p><p id="2297904f-03a9-81a7-b277-e76e5dfcd17f" class="">(UC)</p><figure id="2297904f-03a9-8169-9858-e806021c5ac5" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image12.png"><img style="width:664px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image12.png"/></a></figure><p id="2297904f-03a9-814a-9212-f5be7e6a4951" class="">inducing symptoms of the chronic activation</p><p id="2297904f-03a9-813d-a6df-d63f191c0a87" class="">(acute phase, pause and then relapsing). The main</p><p id="2297904f-03a9-81d8-912c-ef9c054dcdee" class="">cause probably is the alteration of the immune</p><ul id="2297904f-03a9-81f0-8404-fc2ab6fbf4d5" class="bulleted-list"><li style="list-style-type:disc"><strong>Crohn’s disease</strong> (CD)</li></ul><p id="2297904f-03a9-81a6-b7f1-f664b681db48" class="">They are characterized by chronic activation of inflammatory and immune cells, alternated by the remission of the damage. So there is a tendency of having relapses and remissions of the disease, meaning times with acute phase alternated by remission phases.</p><p id="2297904f-03a9-81e8-9a50-c9f8447efc2c" class="">The prevalence of IBD has rapidly increased in Europe and North America in the second half of the twentieth century and has become more common in the countries that have adopted Western lifestyle.</p><p id="2297904f-03a9-81eb-b9be-c40349b2bab3" class="">America was the first country to have this kind of disorder. Nowadays it is more prevalent in Europe, since the USA are trying to change eating habits (Mediterranean diet ). This type of disease is associated with the industrial environment and thus in a few years the other countries which are now at their <strong>industrial onset</strong> will have these diseases. The increase in the quality of life induces also the other diseases, like these associated to the immune defense alteration.</p><p id="2297904f-03a9-8180-9490-e2786b5b9ee5" class=""><strong>COMPARISON BETWEEN UC AND CD</strong></p><p id="2297904f-03a9-8139-96c1-e30473d76c27" class="">They are both inflammations, but they differ because of the localization of the inflammation.</p><p id="2297904f-03a9-8178-9124-d6f354070c7f" class="">In <strong>ulcerative colitis</strong></p><p id="2297904f-03a9-8154-885e-c629014eeed6" class="">- Inflammation is in the <strong>rectum</strong> and can extend to the <strong>colon</strong>. It affects only the superficial layer of the intestine (only the mucosa and submucosa)</p><p id="2297904f-03a9-814b-8808-d7bf0d25f8b8" class="">- Complications (also in the case of CD) can be <strong>structures</strong> because they are implicated only in the superficial layer.</p><ul id="2297904f-03a9-8110-9437-c85d9cf8b246" class="bulleted-list"><li style="list-style-type:disc">There are <strong>2 peaks</strong> of onset, at 30 years old and the second one at 45 years old.</li></ul><p id="2297904f-03a9-81a8-9a8c-f81c215aa837" class="">In <strong>Crohn’s disease</strong></p><p id="2297904f-03a9-8189-8608-dde9e81b8a55" class="">- inflammation can potentially involve <strong>all the tracts</strong> of the gut, from mouth to anus. It is not just superficial but it also involves the <strong>deepest</strong> layers (mucosa, submucosa, muscularis mucosa and muscle layer) and thus the complications are worse (necrosis or fibrosis)</p><p id="2297904f-03a9-81f9-9099-eefb2b66c993" class="">- Complications are not only strictures, but also ulcers and, while trying to repair, fistulae.</p><ul id="2297904f-03a9-8189-988e-e3c689816da1" class="bulleted-list"><li style="list-style-type:disc">The onset is only one and in the range between 20-40 years old.</li></ul><p id="2297904f-03a9-81a7-9253-e785d0cda26a" class="">All these conditions are considered to be precancerous conditions, in fact the patients suffering from IBD have a higher risk to develop colorectal cancer than normal subjects.</p><p id="2297904f-03a9-81e7-acbb-e741687785f9" class="">The extraintestinal complications (including peripheral arthritis that is the main complication and hepatobiliary diseases that involve a direct damage of hepatocytes), especially for Crohn’s disease are really important and affect more than 25% of IBD patients. So the therapy must regard not only the intestine but the peripheral complications as well. Another important complication involves the nervous system. It is associated probably with the gut-brain axis and associated with the behavior of the patient.</p><p id="2297904f-03a9-81fb-8601-e4dd9ab388ee" class="">IBD, from a cellular point of view, is a <strong>chronic</strong> inflammation due to the inappropriate response of the immune cells. There is a time of remission alternated with a time of exacerbation. <strong>Exacerbation</strong> is the increase in the</p><p id="2297904f-03a9-8159-a85e-f930dc66029d" class="">Umberto Geninatti, Fiamma Cusumano</p><p id="2297904f-03a9-8149-941c-d5e1be881100" class="">20</p><p id="2297904f-03a9-81f6-9953-f6884e15e1f2" class="">23.03.2023 BIASI L.3</p><p id="2297904f-03a9-81a6-af76-f015db46ff5c" class="">immune response and so also in the proinflammatory chemokines. Among the latter <strong>TNF alpha</strong> (tumor necrosis factor) is the main one and there is an “explosion” of its production.</p><p id="2297904f-03a9-819d-a0ed-cb4bf4f434a6" class="">On the surface of the intestine we have mucus with a particular type of receptors for dietary compounds (Toll-like and NOD-like receptors). They are on the surface of enterocytes or inside them and are able to interact and recognize a huge variety of dietary compounds, bacteria, viruses and so on (part of the luminal antigens ). These receptors have the function to present the antigens to immune cells on the basal compartment of the enterocytes. During physiology these receptors can discriminate between “good bacteria” and pathogens but also important molecules from toxic substances. So there is a continuous balance between increasing inflammation and decreasing it.</p><p id="2297904f-03a9-81f4-80ea-deae5ae95b07" class=""><strong>COMPARISON BETWEEN PHYSIOLOGICAL AND CHRONIC INFLAMMATION</strong></p><p id="2297904f-03a9-81df-8c24-fda58d198c8a" class="">In the human intestine inflammation is a normal and physiological phenomenon; the normal mucosa is heavily infiltrated by inflammatory cells. During chronic inflammation the balance is towards the proinflammatory chemokines or mediators (most important is TNF-alpha, that is also the target for the therapy involved in curing these IBD diseases) compared to the anti-inflammatory (produced by lymphocytes them self to balance the inflammation) (<em>Fig.2</em>). Remember that normally when there is inflammation there are molecules called <strong>resolvins</strong> which normally decrease inflammation.</p><p id="2297904f-03a9-8131-ab91-c58b86a3b9fd" class=""><strong>ENTERIC FLORA AND IBD PATHOGENESIS</strong></p><figure id="2297904f-03a9-81b0-ae7e-f979d6163e52" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image13.png"><img style="width:700px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image13.png"/></a></figure><p id="2297904f-03a9-81f4-869e-cfc123cb3309" class=""><em>Fig.2</em></p><p id="2297904f-03a9-8156-9057-c314480f969d" class="">Inflammation is more frequent in areas with <strong>higher bacterial concentration</strong>, due to the immune response towards the bacteria in the lumen. During pathology there is an alteration in the ability of enterocytes to recognize if those bacteria are pathogens or saprophytes. Thus there is a <strong>disbalance in the tolerance</strong> response and immune cells recognize pathogenic bacteria or dietary compounds as toxic, when they are not. There is no correct response. And everything in the intestine can induce inflammation. There is something wrong in the response. Changing the dietary habits of the patient can help to avoid the acute phase of the disease.</p><p id="2297904f-03a9-819a-92c9-d4c8134f2d80" class=""><strong>COMMON CLINICAL MANIFESTATIONS IN IBDS</strong></p><p id="2297904f-03a9-81ab-94c6-db959cdd7f23" class="">- <strong>Tendency to familiarity</strong>. In some populations, such as in Sweden there is a population with variants/mutations in genes associated to the alteration of the response by the immune cells to the materials that are in the lumen, but also to the dietary compounds (that activate them).</p><ul id="2297904f-03a9-81a7-a33f-cff6a232f249" class="bulleted-list"><li style="list-style-type:disc"><strong>Chronic intermittent course</strong></li></ul><p id="2297904f-03a9-81f4-8c07-e487b179a338" class=""><strong>High frequency of extra-intestinal manifestations</strong> -</p><p id="2297904f-03a9-81f4-a900-d3bf6a738e0b" class="">- <strong>Marked efficacy for steroid treatment.</strong> Because the first type of treatment must be a steroid treatment and NOT non-steroidal; thus it cannot be NSAID, aspirin, but it can be cortisone.</p><p id="2297904f-03a9-81a5-bbc5-e8d1605db7d8" class=""><strong>SYMPTOMS</strong></p><p id="2297904f-03a9-81c5-96d2-c7461cbbf9e9" class="">- Diarrhea with blood and mucus</p><p id="2297904f-03a9-8115-b30e-c26ace20931e" class="">- Abdominal pain</p><p id="2297904f-03a9-8127-9499-ea8632e882d4" class="">- Extra-intestinal manifestations</p><p id="2297904f-03a9-818c-b60b-dc2c691d3660" class="">Umberto Geninatti, Fiamma Cusumano</p><p id="2297904f-03a9-81f5-951d-cad6a525ec8b" class="">21</p><p id="2297904f-03a9-819f-8021-d3a13715ab85" class="">23.03.2023 BIASI L.3</p><p id="2297904f-03a9-8195-8ab2-f84a644240cf" class=""><strong>DIARRHEA</strong></p><p id="2297904f-03a9-81b6-ab4b-f275345b35d4" class="">It is characterized by <strong>more than 3</strong> evacuations per day, otherwise it is not diarrhea. There is an increase of frequency and reduced consistency of feces. So the volume of the feces increases (feces have a total weight of &gt; 300gr).</p><p id="2297904f-03a9-810c-aa58-e9dc068afd86" class="">Diarrhea must be distinguished from:</p><p id="2297904f-03a9-8114-b7c6-cef99af28ff6" class="">- <strong>Pseudo-diarrhea</strong>: increased frequency without increasing stool weight/volume.</p><p id="2297904f-03a9-8180-ae9f-d32e7a2c5fc7" class=""><strong>Fecal incontinence</strong>. There is an involuntary loss of gas (so evacuation stimulus, without the real -</p><p id="2297904f-03a9-8167-ab66-eef8f396faa2" class="">evacuation) and/or feces.</p><ul id="2297904f-03a9-81c0-93f8-cd776acaeefb" class="bulleted-list"><li style="list-style-type:disc"><strong>Tenesmus</strong> (less important than pseudo-diarrhea and fecal incontinence): there is only the stimulus for evacuation (as with fecal incontinence), but without passing stool.</li></ul><p id="2297904f-03a9-818c-aeff-ca57d7d44833" class=""><strong>ULCERATIVE COLITIS</strong></p><p id="2297904f-03a9-810e-aa2a-fb9d74b94b67" class=""><strong>Colitis</strong> is the inflammation of the colon.</p><p id="2297904f-03a9-8109-ad7b-e85938679137" class="">The different classifications of ulcerative colitis are associated with the <strong>localization</strong> of inflammation and the <strong>symptoms</strong> (the other classification is also associated with objective values).</p><ul id="2297904f-03a9-81c9-af05-f3eaf3c4a721" class="bulleted-list"><li style="list-style-type:disc"><strong>Proctitis</strong>: involving only the rectum (15% cases)</li></ul><p id="2297904f-03a9-816f-826c-db601bcbf2a2" class="">- <strong>Proctosigmoiditis</strong>: affecting rectum-sigmoid colon (35% cases)</p><p id="2297904f-03a9-8198-aa5c-f8df7648d635" class="">- <strong>Left sided (distal) colitis</strong> affects the left side of the colon. It begins at the rectum and extends up to from the rectum to the splenic flexure (40% cases)</p><p id="2297904f-03a9-81ce-83eb-e5a963ca7213" class="">- <strong>Pancolitis or Universal colitis</strong>: it refers to inflammation of the entire colon (15% cases).</p><figure id="2297904f-03a9-813f-bd72-cdae3de49a37" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image14.png"><img style="width:700px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image14.png"/></a></figure><p id="2297904f-03a9-81dd-801e-f1508a306ce4" class="">There are four S, which are:</p><p id="2297904f-03a9-8192-b3b2-f30a6846cf84" class="">- S0 (remission): no symptoms</p><p id="2297904f-03a9-8164-90a3-d2fb24c41e64" class="">Associated with the localization we have the <strong>Montreal</strong> <strong>classification</strong> (<em>Fig.3</em>)-classification of extent and severity.</p><p id="2297904f-03a9-8179-808f-c306ecbad6dc" class="">The E is referred to as the localization (proctitis, left-sided, pancolitis) and the S is associated with the symptoms (which are 4).</p><p id="2297904f-03a9-8116-a249-e53ab5dec0fc" class=""><em>Fig.3</em></p><ul id="2297904f-03a9-8165-b743-ea5ab138ecc5" class="bulleted-list"><li style="list-style-type:disc">S1 (mild): depending on the number of stools per day ( markers are still normal )</li></ul><p id="2297904f-03a9-810c-9219-cb9ca411205c" class="">- S2 (moderate)</p><p id="2297904f-03a9-81f7-9519-f1d0e26184fd" class="">- S3 (severe). It is also associated with bloody feces. Here we also have <strong>fever</strong> (increased temperature &gt;37.5°), a decrease in erythrocyte concentration due to bleeding and therefore a decrease in hemoglobin (&lt;105g/L) and an increase in erythrocyte sedimentation rates (ESR, &gt;30mm/h).</p><p id="2297904f-03a9-818c-a197-fd06e69eaded" class="">Hemoglobin concentration is indicated as g/L, while normally its value is for 100mL (g/100mL). The normal value is 14g/100mL, while in S3 there is a very low level of hematocrit/hemoglobin (less than 10g/100mL). <strong>ESR</strong> is a type of analysis, which in Italian is VES (velocità di eritrosedimentazione). It is the rate by which the erythrocytes go down (in a column with blood), due to the presence of <strong>inflammation</strong> (immunoglobulins push RBCs down) and also due to the different <strong>density of these red cells</strong>. In fact, RBCs are in general agglomerated and so they weigh more. In a column with blood the RBCs go down very quickly if there is inflammation. The normal value is about 10, while if it is higher there is a big inflammation. This is a simple and common analysis and it is often associated with the C reactive protein CRP (PCR in Italian).</p><p id="2297904f-03a9-810d-b6ff-c9b67186b1ad" class="">The other type of classification is the <strong>Mayo clinic score</strong>, associated with the <strong>UCDAI</strong> (Ulcerative Colitis Activity Index (how active is inflammation). Both Mayo Clinic Score and Ulcerative Colitis Disease Activity Index are a composite assessment of clinical symptoms (stool frequency and rectal bleeding) and endoscopic severity. UCDAI gives the doctors the degree of inflammation, if the patients are in the relapsing or remitting moment.</p><p id="2297904f-03a9-8143-9281-e93d19ad3a65" class="">Umberto Geninatti, Fiamma Cusumano</p><p id="2297904f-03a9-81bd-beb5-fe035e9d130b" class="">22</p><p id="2297904f-03a9-8132-9e0d-ca523c14824c" class="">23.03.2023 BIASI L.3</p><p id="2297904f-03a9-81d4-b882-dc0e1da1324b" class="">The Mayo clinic score Ulcerative Colitis <em>(Fig.4)</em> is divided in 3 main degrees depending on: <em>Fig.4</em></p><ul id="2297904f-03a9-81ec-93c1-de56c6bffa0d" class="bulleted-list"><li style="list-style-type:disc"><strong>stool frequency</strong></li></ul><ul id="2297904f-03a9-8178-8c82-d99753e776de" class="bulleted-list"><li style="list-style-type:disc"></li></ul><p id="2297904f-03a9-816a-9e2b-c7132b72fd87" class="">permeability of the mucosa is</p><p id="2297904f-03a9-81bc-8c55-d157d4ed42c6" class="">altered)</p><p id="2297904f-03a9-814d-962d-f9c64cedc13b" class=""><strong>physician&#x27;s global assessment</strong>,</p><p id="2297904f-03a9-81cd-94c9-c41861e63c31" class="">associated</p><p id="2297904f-03a9-81be-824b-f5f83fe7e875" class="">symptoms. also to the</p><figure id="2297904f-03a9-8127-a25f-f5c8e3308e2d" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image15.png"><img style="width:700px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image15.png"/></a></figure><ul id="2297904f-03a9-8161-9bce-ee7b5891d464" class="bulleted-list"><li style="list-style-type:disc"><strong>rectal bleeding</strong></li></ul><ul id="2297904f-03a9-810a-a30e-daa7a2224d65" class="bulleted-list"><li style="list-style-type:disc"><strong>mucosa inflammation</strong>: for</li></ul><p id="2297904f-03a9-8194-bbff-cbf24d54d688" class="">instance if mucosa is fragile or</p><p id="2297904f-03a9-8107-8837-cb2a18e841e1" class="">completely damaged (the</p><figure id="2297904f-03a9-8100-af63-f46d18e6ee03" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image16.png"><img style="width:613px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image16.png"/></a></figure><p id="2297904f-03a9-8199-be8b-c4c208b11ea4" class=""><em>Fig.5</em></p><p id="2297904f-03a9-8158-a7c2-c80d8246e936" class=""><strong>CROHN’S DISEASE ACTIVITY INDEX (CDAI)</strong></p><p id="2297904f-03a9-815b-9637-ed54e90f1f00" class=""><strong>The Truelove and Witts Severity Index</strong> (<em>Fig.5</em>)includes clinically objective variables (analysis), such as:</p><p id="2297904f-03a9-813e-ba12-f6d9b551e511" class="">-bloody stools/day</p><p id="2297904f-03a9-812f-8161-eff2923f6c09" class="">-pulse</p><p id="2297904f-03a9-811c-afdb-d8346ec14056" class="">-temperature</p><p id="2297904f-03a9-8130-aeb2-fc49ba6c7cb8" class="">-hemoglobin</p><p id="2297904f-03a9-8152-b905-e36c69616dd8" class="">-ESR= erythrocyte sedimentation rate</p><p id="2297904f-03a9-8185-9f34-d7ce99b00e46" class="">-CRP= C reactive protein</p><p id="2297904f-03a9-81ce-bd3f-cd97af6ba2a5" class="">Regarding Crohn&#x27;s disease, there is only one classification. In this case, it is associated with both symptoms and clinical presence of the disease.</p><p id="2297904f-03a9-81c2-9a8f-df9b12bd357c" class="">Clinical and laboratory variables are dependent also in this case, as with ulcerative colitis, on:</p><p id="2297904f-03a9-815a-9593-c61927366b40" class="">- the <strong>number</strong> of diarrhoeas</p><p id="2297904f-03a9-81e4-af8a-f6ace2f49f00" class="">- The <strong>type</strong> of stool and its <strong>consistency</strong></p><p id="2297904f-03a9-8133-9fd6-e12a53c4c538" class="">abdominal pain (which is one of the subjective symptoms) -</p><p id="2297904f-03a9-810b-b733-f33e462a6eaf" class="">-</p><p id="2297904f-03a9-8181-b6b9-c43d8cbbf2d7" class="">general well being <strong>Hematocrit</strong>. Bleeding (specifically, the presence of blood in the feces) induces a decrease in the hematocrit number, which means there is a decrease in the number of red blood cells and thus in hemoglobin. Therefore, in blood analysis we will have <strong>association hematocrit</strong>, which is useful to understand if the changes in volume of the erythrocytes are associated with some changes in the quantity of hemoglobin. Thus hematocrit considers both RBCs volume and hemoglobin quantity.</p><p id="2297904f-03a9-81d4-989f-d18cc47665fa" class="">If hematocrit is very low, e.g. lower than 1 <em>(Fig. 6)</em>, it will be associated with hemorrhage, which in this case consists of the presence of blood in the feces (in which we can also detect erythrocytes).</p><p id="2297904f-03a9-8113-91ce-fbedc38c85bb" class="">On the other hand, depending on the moment in which this classification is considered, we need to understand if among the different symptoms, other extra-intestinal diseases are present. In general the main damage is associated with <strong>skeletal muscle</strong>– arthralgias (e.g. there is some pain above the muscle) and others that are stronger, like <strong>ulcers</strong> and <strong>gangrene</strong>.</p><p id="2297904f-03a9-81d6-a133-fbdd2c45e5aa" class="">Depending on the moment and how these variables change, we can assign for each of them a number (weighting factor, <em>Fig.6</em>). The <strong>activity index</strong> is the sum of all the weighting factors.</p><ul id="2297904f-03a9-81ae-8c5d-faf4df072f73" class="bulleted-list"><li style="list-style-type:disc">If the activity index is less than <strong>150</strong>, the patient’s disease is in <strong>remission</strong>.</li></ul><ul id="2297904f-03a9-81de-ba6c-db6ea5de00e4" class="bulleted-list"><li style="list-style-type:disc">if it is greater than <strong>450</strong>, there is a <strong>relapse</strong> (severe).</li></ul><p id="2297904f-03a9-81e5-9aae-d9379bb9b6f3" class="">Umberto Geninatti, Fiamma Cusumano</p><p id="2297904f-03a9-8191-8cba-fc00d37c36ea" class="">23</p><figure id="2297904f-03a9-8152-9c4f-e3090288f1ae" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image19.png"><img style="width:661px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image19.png"/></a></figure><p id="2297904f-03a9-810a-8cb5-c36e0703568f" class="">23.03.2023 BIASI L.3</p><figure id="2297904f-03a9-81cc-8e34-e19c8776a6fb" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image17.png"><img style="width:700px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image17.png"/></a></figure><p id="2297904f-03a9-8110-8adb-fe9941d84de3" class=""><em>Fig.6</em></p><p id="2297904f-03a9-81e3-ad40-ec8145af9b71" class=""><strong>CDAI IN RESPONSE TO THERAPY</strong></p><p id="2297904f-03a9-81ee-b2bf-db79896289ec" class="">Due to change in CDAI number we can assess how the patient responds to the therapy. If after the therapy the patient&#x27;s CDAI decreases by <strong>70</strong> points, the patient is responding to the therapy and thus it is working. e.g. starting from 450 points (at the beginning of therapy) and decreasing by more than 70 points in 2/3 months, means that the patient is responding well to therapy.</p><p id="2297904f-03a9-816a-bd93-d790dadfa7bf" class=""><strong>EXTRAINTESTINAL MANIFESTATIONS OF IBD</strong></p><p id="2297904f-03a9-81b2-957c-e8e5933d8e29" class="">(<em>Fig.7</em>) shows the main <strong>extraintestinal manifestations</strong> of inflammatory bowel disease. There is a very high number of these manifestations and most of them are associated with alteration of the <strong>immune and inflammatory response</strong>, so with the alteration of different molecules, which are associated in the maintenance of tolerance in the gut (since they are important to recognize presence of pathogens).</p><p id="2297904f-03a9-8125-8016-d7b77ce97c57" class="">Among all of these inflammatory molecules, the key molecule is <strong>interleukin 23</strong> (IL23). Another important molecule is the <strong>NOD2 receptor</strong>. The alteration of the gene NOD2/CARD15 (coding for NOD-like receptors) is well known because it is mutated in various populations. Those with the mutation have a very high risk of developing <em>Fig.7</em> <strong>Crohn&#x27;s disease.</strong></p><p id="2297904f-03a9-8137-a8ae-d222be082935" class=""><strong>ETIOLOGY OF IBD</strong></p><p id="2297904f-03a9-8191-93f2-fb79795ad6f2" class="">IBD in general is considered to be a <strong>multifactorial</strong> disease <em>(Fig.7)</em>.</p><ul id="2297904f-03a9-81bf-b3b1-e7b726eed35d" class="bulleted-list"><li style="list-style-type:disc"><strong>genetic susceptibility</strong> - different variants are studied to understand if they can induce amplification of the immune/inflammatory response</li></ul><p id="2297904f-03a9-8189-8501-fc50ff1a40c1" class="">- <strong>environmental factors</strong> - involved in the predisposition to IBD. Among them the <strong>nutritional</strong> <strong>environment</strong> (diet) is very important to induce the development of this disease</p><p id="2297904f-03a9-8185-a67e-f6de6057db40" class="">- Besides genetic susceptibility and nutritional</p><p id="2297904f-03a9-81ae-aeaf-fc6429ebd881" class="">maintenance of the normal layer of the gut and of the integrity among different cells. Two events,</p><p id="2297904f-03a9-812f-8a1d-c33218dfea80" class=""><strong>alteration of the permeability</strong></p><p id="2297904f-03a9-81df-871a-d3162a5ebf5f" class="">and</p><p id="2297904f-03a9-814a-8ce7-e105ea7c8fc1" class=""><strong>changes of microbiota</strong></p><p id="2297904f-03a9-8129-a02c-da8c86d3e05c" class="">(e.g. high quantity of different types of bacteria) can induce damage on the response. These patients need to have</p><p id="2297904f-03a9-81f8-a92b-fcf439328836" class=""><strong>individual nutrition</strong></p><p id="2297904f-03a9-81d5-a9a9-e2ba17f88046" class="">, organized for each one, depending on the state</p><figure id="2297904f-03a9-8191-8832-d48295d7b7e9" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image18.png"><img style="width:477px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image18.png"/></a></figure><p id="2297904f-03a9-811b-a282-f67c6d22c22b" class="">environment, the <strong>permeability</strong> of the gut is also</p><p id="2297904f-03a9-8172-b38d-c8bc45a4328d" class="">important. Damage to the surface of enterocytes will</p><p id="2297904f-03a9-81ec-b3c3-c39935a882b7" class="">result in the alteration of the barrier, in particular in the</p><p id="2297904f-03a9-81c0-a253-f835d3e3af01" class="">alteration of the tight junctions which are involved in the</p><p id="2297904f-03a9-8193-afc2-eb851b0db2b2" class="">of the activity of the disease. A particular nutritional <em>Fig.8</em></p><p id="2297904f-03a9-8141-935c-cdd408cbb85a" class="">Umberto Geninatti, Fiamma Cusumano</p><p id="2297904f-03a9-8166-b8b9-ff9f3dc9b728" class="">24</p><figure id="2297904f-03a9-8123-be7c-f4c8993c144a" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image21.png"><img style="width:664px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image21.png"/></a></figure><p id="2297904f-03a9-81be-984e-e1ae4e85ac5f" class="">23.03.2023 BIASI L.3</p><p id="2297904f-03a9-811a-bd0b-e64d632cbb3f" class="">approach is needed to maintain energy, because, especially in Crohn’s disease, the subjects have difficulty in absorption and therefore it is very important to maintain the well being of the patient.</p><p id="2297904f-03a9-8123-83ae-fde664e6d1b1" class=""><strong>GENETIC SUSCEPTIBILITY</strong></p><p id="2297904f-03a9-81c7-8ba3-faa02ab1b3e8" class="">The most important variants associated with IBD are linked to:</p><p id="2297904f-03a9-8150-94ca-e5dcc00034d0" class="">- TLRs and NLRs</p><p id="2297904f-03a9-81e6-aa76-d2404b988a20" class="">- Inflammasomes</p><p id="2297904f-03a9-81ad-a304-fc88188b24ec" class="">- Molecules associated with autophagy</p><p id="2297904f-03a9-81e6-95ca-f05fcd4717b6" class="">- Alteration of lymphocytes function, of interleukin concentration (in particular IL23) and of their receptors.</p><p id="2297904f-03a9-81cd-9a9f-e7468fb8f94a" class=""><strong>NOD-LIKE RECEPTORS NLRS</strong></p><p id="2297904f-03a9-81fe-9248-d00c56593b08" class="">NLRs are <strong>inside</strong> enterocytes and are involved in</p><p id="2297904f-03a9-81bc-b5bc-dd91d767e765" class="">the induction of the <strong>inflammatory</strong> response and in</p><p id="2297904f-03a9-81f2-b612-fac3e9d28a53" class="">the activation of <strong>autophagy</strong>. They are able to</p><p id="2297904f-03a9-812e-9d73-c91785ab2d4d" class="">induce <strong>endocytosis</strong> (e.g. of bacteria) and to</p><p id="2297904f-03a9-81b0-93ca-d7cffb52b2ef" class="">present the antigen toward the deepest layers,</p><p id="2297904f-03a9-814b-b716-f4cc6e7ff1eb" class="">where lymphocytes are present. NOD-like</p><p id="2297904f-03a9-81e7-b265-e237d4728a97" class="">receptors are associated with the activation of the</p><p id="2297904f-03a9-81c2-a01d-cbb1402f1d8b" class=""><strong>inflammasome</strong>, which is a complex of proteins <em>Fig.9</em> activated during</p><p id="2297904f-03a9-81ae-959f-df8e0e1def5c" class="">inflammation. The inflammasome is activated either towards the induction or the decrease/ regulation of inflammation.</p><p id="2297904f-03a9-812c-8d21-e6eb79fad0b4" class=""><strong>TOLL-LIKE RECEPTORS TLRS</strong></p><p id="2297904f-03a9-81c9-9f9d-ca646d19743f" class="">These changes are caused not only by the Nod-like receptor but also the <strong>Toll- like receptors</strong> which are present <strong>on the surface</strong> of the enterocyte. There are different types of receptors (TLR2, 3, 4, 9), depending on the type of bacteria that can be linked to them, acting as a ligand.</p><p id="2297904f-03a9-8179-9070-e614f615559d" class="">Nowadays, TLRs activation is associated with:</p><p id="2297904f-03a9-814c-887a-c63c3b3414f1" class="">- The presence of different types of <strong>bacteria</strong></p><p id="2297904f-03a9-81ff-84bc-e43873b8e1c1" class="">The presence of <strong>molecules similar to those of bacteria</strong>, which are able to activate these receptors. -</p><p id="2297904f-03a9-8122-8f7b-c0cbeea8617c" class="">For example, Gram negative bacteria have lipopolysaccharides which are TLRs’ ligands (in particular TLR4) and induce signaling pathways of inflammation. Since part of lipopolysaccharides are lipid molecules, some lipid sequences of the dietary compounds can be similar to them, thereby being able to activate toll-like receptors as well. Summing up, we can have different responses not only</p><p id="2297904f-03a9-81c0-b315-d064bc8236d9" class=""><em>Fig.10</em></p><figure id="2297904f-03a9-816b-a9de-c2b0761e2652" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image20.png"><img style="width:531px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image20.png"/></a></figure><p id="2297904f-03a9-81f8-adf1-c943a51339e8" class="">towards bacteria, but also to other ligands coming from the diet.</p><p id="2297904f-03a9-81f5-9166-d9ce85d552b4" class="">There are possible mutations of different molecules that are involved in this inflammatory signaling. There is a higher risk to develop IBD, ulcerative colitis and in particular Crohn’s disease in monozygotic twins, explaining how IBDs can be genetic diseases <em>(Fig.10)</em>.</p><p id="2297904f-03a9-8171-b48b-f381a83579a2" class="">These are all the types of gene mutations which can be involved and that are studied to understand if they are</p><p id="2297904f-03a9-8153-966b-f283ba9ff66e" class="">present in Crohn&#x27;s disease and ulcerative colitis.</p><p id="2297904f-03a9-8120-a21a-ee921537ec72" class="">Some of these genes are:</p><p id="2297904f-03a9-8137-812f-ec702dec6a80" class="">- Associated with the response of the epithelial barrier</p><p id="2297904f-03a9-8151-8f2e-c989fef065f9" class="">- involved in microbial recognition - including variations of <strong>toll-like receptor</strong> and <strong>nod-like receptors</strong>, and also variants associated to the <strong>inflammasome</strong> (NLRP3)</p><p id="2297904f-03a9-81d5-b46c-c4452381aa7d" class="">associated with <strong>autophagy</strong> ( ATG16L1) -</p><p id="2297904f-03a9-81c6-ad92-d01b520a61c1" class="">- associated with the immune activation of lymphocytes, in particular T helper 1, and their capacity to produce some interleukins instead of others, in particular <strong>IL-23</strong>, and also their receptors. <strong>IL23R</strong> is the receptor on the surface of the lymphocytes.</p><p id="2297904f-03a9-8139-b782-ec7a1f146f99" class="">Umberto Geninatti, Fiamma Cusumano</p><p id="2297904f-03a9-8162-8d3e-ec532712534e" class="">25</p><figure id="2297904f-03a9-8155-b8d6-e90750cedce3" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image23.png"><img style="width:700px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image23.png"/></a></figure><p id="2297904f-03a9-817c-82c2-c7afe58493c7" class="">23.03.2023 BIASI L.3</p><p id="2297904f-03a9-8130-a520-c078ced69711" class=""><strong>The main associated mutation</strong> is NOD2/CARD15 (nucleotide oligomerization domain/caspase recruitment domain) which induces a defective ability to understand if bacteria and molecules are tolerogenic or pathogenic, increasing the inflammasome activity.</p><p id="2297904f-03a9-8154-90b5-db213f077fe3" class=""><strong>THERAPEUTIC APPROACHES (FIG.11)</strong></p><p id="2297904f-03a9-8182-9e2c-dacf3960679b" class="">- <strong>First approach with anti-inflammatory</strong></p><p id="2297904f-03a9-8133-8fa4-eece705f668f" class=""><strong>molecules</strong></p><p id="2297904f-03a9-8146-891b-d7b20466192d" class="">With not so strong symptoms, the first</p><p id="2297904f-03a9-81bd-9b48-d77f21cb35ab" class="">approach are aminosalicylates molecules,</p><p id="2297904f-03a9-81d2-848c-cde275881b33" class="">which are <strong>not</strong> aspirin (acetylsalicylic acid).</p><p id="2297904f-03a9-8171-993b-e2642a245ce9" class=""><strong>Aspirin is dangerous for treatment of</strong></p><p id="2297904f-03a9-81d2-971f-eff120973a6d" class=""><strong>gastrointestinal disease inflammation.</strong></p><p id="2297904f-03a9-81a7-b44f-dd9b991aaa82" class="">Aminosalicylates are like aspirin but the</p><p id="2297904f-03a9-8137-a1d0-ec9572a4d252" class="">molecule is linked to an <strong>amino group</strong>,</p><p id="2297904f-03a9-818a-b883-d2e5bad573f2" class="">which is important because it blocks the</p><p id="2297904f-03a9-81c6-9150-dd0af293a246" class="">acetic/acidic group of the molecule. The</p><p id="2297904f-03a9-81d0-a5ae-dfddc20c50d3" class="">is most common aminosalicylate</p><p id="2297904f-03a9-8155-b70e-c5e89a4c8b97" class=""><strong>Mesalazine</strong> ( not dangerous for the gut )</p><p id="2297904f-03a9-81cf-a7ef-cfb4056b0f84" class="">- <strong>Corticosteroids</strong> <em>Fig.11</em></p><p id="2297904f-03a9-81f4-a09e-ed35e013b2a1" class="">If the anti-inflammatory molecules do not</p><p id="2297904f-03a9-813b-a0ce-dc3a3abd9dce" class="">work very well, and there is an increase in the index of the damage, another therapy is proposed: <strong>corticosteroids</strong>.</p><p id="2297904f-03a9-81fc-b784-ea6e81f01b80" class="">If patients do not respond to corticosteroids, the following types of therapy which can be used are: ●<strong>Immune modifiers.</strong> The most common are thiopurines: 6- mercaptopurine, azathioprine. They induce changes in lymphocyte proliferation and in their response.</p><p id="2297904f-03a9-814d-9619-fced2860aa29" class="">●<strong>Biological therapy:</strong></p><p id="2297904f-03a9-8142-b1e2-f2e072416647" class="">▪ <strong>Anti-TNF-alpha agents</strong>. It consists of immunoglobulins (antibodies) against one of the main cytokines which are in high quantities and that are associated with the increased activation of inflammasomes (TNF-alpha).</p><p id="2297904f-03a9-814e-870b-daf814ba556a" class="">▪ <strong>Antibiotics</strong> are used in association with other drugs but not as a main therapy (and also in prognosis) and in presence of different types of infection.</p><p id="2297904f-03a9-814f-9188-ea6a799898ac" class="">There are some examples (<em>Fig.12</em>), which are used depending on how the patient can respond (well or not) to treatment.</p><p id="2297904f-03a9-81fb-a63f-d33fddd3b76f" class="">In the clinical management of IBDs patients are divided into responders (because they respond to the treatment) and non-responders.</p><p id="2297904f-03a9-8167-9ae1-f5704954a5e6" class="">Therefore, the sequential therapy in IBD <em>(Fig.11)</em> is first of all <strong>anti-inflammatory agents</strong>, like <strong>aminosalicylates</strong>. This treatment</p><figure id="2297904f-03a9-81a9-8c17-d47b84b78728" class="image"><a href="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image22.png"><img style="width:700px" src="gastrointestinal%20diseases%202297904f03a981968792ff4597ddd35a/image22.png"/></a></figure><p id="2297904f-03a9-813f-aef0-c6aec6ac38d2" class="">is for the first acute phase of the colitis, trying</p><p id="2297904f-03a9-8119-9f87-f95c21b1e6bb" class="">to maintain remission. But if this treatment doesn’t work and during the acute phase the patient <em>Fig.12</em></p><p id="2297904f-03a9-8130-ab8a-fa79bc20e6cb" class="">does not respond, the second step is to give anti-inflammatory corticosteroids orally or intravenously, depending on the gravity of the patient&#x27;s disease.</p><p id="2297904f-03a9-81f8-9306-dc487b14e7f2" class="">Then if the patient is a non responder, immune modifiers are used.</p><p id="2297904f-03a9-810f-a20c-e081508937d6" class="">Finally the last/second line therapy is the biological therapy of anti-TNFα agents.</p><p id="2297904f-03a9-8174-be6e-f6cbb9385f3a" class="">Umberto Geninatti, Fiamma Cusumano</p><p id="2297904f-03a9-8199-8833-d734500e04e7" class="">26</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

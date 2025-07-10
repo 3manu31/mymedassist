@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>congenital disorders</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81f9-b11e-f960d86409eb" class="page sans"><header><h1 class="page-title">congenital disorders</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-8127-96dd-d41ca9112af7" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-812c-96a4-ccbbec40a071" class=""><strong>CONGENITAL AND GENETIC DISORDERS</strong></p><p id="2297904f-03a9-818e-b400-f8715669278e" class="">The focus of this lesson will be some genetic diseases emphasizing the pathophysiology of the diseases, so the molecular and cellular mechanisms. In the first part of the lesson, some rules of genetics about mutation (point mutations, missense mutations…) will be defined.</p><p id="2297904f-03a9-8142-8986-c59dbe8eb61a" class=""><em>I will not ask you to speak about point mutations or other general aims during the exam. However, we are going to repeat them very quickly in order to revise them.</em></p><p id="2297904f-03a9-81d4-8200-f3f094a2f8e1" class=""><strong>DIFFERENCE BETWEEN GENETIC DISORDERS AND CONGENITAL DISORDERS</strong></p><p id="2297904f-03a9-818d-86e0-cf29d88f2bd0" class=""><strong>Genetic (or hereditary) disorders</strong> arise due to permanent changes in the DNA (mutations), that most of the time are derived from one parent and transmitted to the germline, so they are familial.</p><p id="2297904f-03a9-8180-91da-ccecba8fc56b" class=""><strong>Congenital disorders</strong> refer to all disorders already present at birth.</p><p id="2297904f-03a9-8152-984a-faee92f98a88" class="">A genetic disorder can either be congenital, meaning that it is already manifested at birth, or it can develop later in life, as in case of Huntington’s disease.</p><p id="2297904f-03a9-812b-876b-feddb61098d4" class="">related to chromosomes. Then there are 2% due to</p><p id="2297904f-03a9-810d-ad21-f3280b8e61d1" class=""><strong>drugs, chemicals, radiation</strong></p><p id="2297904f-03a9-8131-be92-d346d04b2e23" class="">; another 2% are due to biological agents that can cause</p><p id="2297904f-03a9-814e-a0f6-e005741ecd8c" class=""><strong>infections</strong></p><p id="2297904f-03a9-8172-9580-c45fb95fef6a" class="">; then</p><p id="2297904f-03a9-8165-854f-e8d1bb105f19" class=""><strong>maternal metabolic factors</strong></p><p id="2297904f-03a9-8138-a306-e56e4f6e5f72" class="">,</p><p id="2297904f-03a9-819f-8a5d-e4d2839af477" class=""><strong>trauma at birth</strong></p><p id="2297904f-03a9-81e2-8810-fd300527608b" class="">and</p><p id="2297904f-03a9-810d-a973-dba08f91e412" class=""><strong>uterine factors</strong></p><p id="2297904f-03a9-8114-8e58-e8750abd1922" class="">that represent a small percentage.</p><figure id="2297904f-03a9-8173-9c36-c4ae0ebf8903" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image1.png"><img style="width:344px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image1.png"/></a></figure><p id="2297904f-03a9-81d3-99f3-dd9107c9ecdd" class=""><strong>CAUSES OF CONGENITAL DISORDERS</strong></p><p id="2297904f-03a9-818a-8bf3-db4d97c754cf" class="">As <em>fig.1</em> shows, around 70% of congenital disorders are due to <strong>unknown causes</strong>. 20% are genetic, so <strong>hereditary</strong>. A small percentage of congenital disorders are due to <strong>cytogenetic diseases</strong>, so abnormalities</p><p id="2297904f-03a9-8177-be83-d37b8e7e309b" class=""><strong>TERATOLOGY</strong></p><p id="2297904f-03a9-8157-8b2d-fd12ef024683" class=""><em>Fig. 1</em> <strong>Teratology</strong> is the study of developmental anomalies of congenital disorders.</p><p id="2297904f-03a9-81e2-a878-d66c06943605" class=""><strong>Teratogens</strong> are all the factors that can cause a congenital disorder, for example chemicals, drugs, physical and biological agents, cytotoxic drugs, antiepileptic drugs, alcohol, heavy metals, thalidomide.</p><p id="2297904f-03a9-81e1-bd23-c1ceda7446d4" class=""><strong>GENERAL PRINCIPLES OF TERATOLOGY</strong></p><p id="2297904f-03a9-8147-9428-c63c9b6c1633" class="">1.<strong>The susceptibility to teratogens is variable</strong>: depending on the genotypes of the fetus and of the mother, there are people that are more susceptible to drugs, bacteria, and other teratogens. For example, fetal alcohol syndrome is a syndrome that appears in the newborns when the mother is an alcoholic. In this case not all the children of alcoholic mothers will manifest this syndrome, because it depends on the genotype of both the mother and the fetus.</p><p id="2297904f-03a9-8160-bec5-d5b85d5f30d9" class="">2.<strong>The susceptibility for the teratogens is specific for each embryological stage.</strong> There are specific periods of pregnancy in which the fetus is more susceptible to specific teratogens. Mainly the first trimester of pregnancy, when the most important tissues and organs are forming.</p><p id="2297904f-03a9-8172-a8ba-c7017c2a555f" class="">3.<strong>The mechanism of teratogenesis is specific for each teratogen.</strong></p><p id="2297904f-03a9-81f5-bce6-e2b7c26ef9a9" class="">4.<strong>The teratogenesis is dose dependent</strong>. The more the teratogen present, the more dangerous it is for the fetus.</p><p id="2297904f-03a9-81c6-995d-e50d56a37dcd" class="">5.<strong>Teratogens induce death, growth retardation, malformation, and functional impairment.</strong></p><p id="2297904f-03a9-8146-beca-d9817de59421" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-81c7-9e7a-d1bce0ee4b8e" class="">27</p><p id="2297904f-03a9-81b9-b5eb-d718bf84ad81" class="">16.03.2023 GAMBA L.3</p><figure id="2297904f-03a9-814b-8db4-c18083322706" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image2.png"><img style="width:700px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image2.png"/></a></figure><p id="2297904f-03a9-81e6-8dcc-fed780b742ef" class="">week 12, is the most delicate. In fact, the susceptibility is higher, because in this semester the CNS, heart, extremities, eyes, genitalia, and auditory system are created.</p><p id="2297904f-03a9-81e8-a170-c94ccc1ab28c" class=""><em>Fig. 2</em> depicts the sensitivity to teratogenic agents of specific organs at different stages of human embryogenesis. The <em>first</em> <em>trimester</em>, so from week 0 to</p><p id="2297904f-03a9-81a6-8dd9-d313bbde4ec4" class=""><em>Fig. 2</em></p><p id="2297904f-03a9-8135-9c61-d6a8dd76f51d" class=""><strong>THALIDOMIDE</strong></p><p id="2297904f-03a9-8126-8efd-d1684b1a1991" class="">Thalidomide is a teratogen that has been assumed by mothers as a sedative drug in the early stages of pregnancy to counteract nausea in the 1960s. In those years, it caused a lot of congenital disorders in newborns, and only one pill, one dose of 50mg, was enough to cause embryogenic deformities in 50% of pregnancies, especially if taken in the first trimester.</p><p id="2297904f-03a9-81ff-be74-e20eadb08ef0" class="">It mainly causes <strong>phocomelia</strong>(“focomelia” in Italian, “bambini focomelici”) which is characterized by skeletal anomalies. The arms are short and malformed, similar to seal fins. In rare cases, the limbs are completely absent (<strong>Amelia</strong>). There may be defects of other organs, mainly at the level of the ear and the heart, but the CNS is not affected, so there is no mental deficit. This drug was banned in 1962 for the use of counteracting nausea in pregnancy.</p><figure id="2297904f-03a9-81ce-acf8-db29c1502c36" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image3.png"><img style="width:357px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image3.png"/></a></figure><p id="2297904f-03a9-816c-a32b-d95a62fdc500" class=""><em>Fig. 3</em></p><p id="2297904f-03a9-8177-bda2-fa8d197ed1a6" class="">However, thalidomide is still used in chemotherapy because it induces apoptosis and inhibits angiogenesis. In cancer the apoptotic pathways are not regulated, so the neoplastic cells never die, but this drug is able to induce apoptosis and cancer cells. Moreover, angiogenesis is fundamental for tumor growth and nutrition of tumor cells, so its inhibition will stop the tumor from growing. As a result, inhibition of angiogenesis and the induction of apoptosis leads to a reduction of the tumor mass. Due to these effects, also the teratogenesis occurs.</p><p id="2297904f-03a9-819d-aa30-ef6d127f1232" class=""><strong>FETAL ALCOHOL SYNDROME</strong></p><p id="2297904f-03a9-810c-9fa3-ec4b9a0832ce" class="">Fetal alcohol syndrome is another congenital disorder.</p><p id="2297904f-03a9-8139-bece-cb98992734f7" class="">It is caused by increased and chronic consumption of alcohol during pregnancy, particularly during the first trimester. The susceptibility to the alcohol intake by the mother depends on the genetic background of the mother and of the child.</p><p id="2297904f-03a9-814a-99c1-eb367973c527" class="">The less severe manifestations include clumsy movements, impulsive behavior, being underwight. Among the more severe deformities there is microcephaly, malformations of the heart, limbs, joints, and also mental retardation.</p><p id="2297904f-03a9-81e0-b049-d2b18ed28e41" class="">Fetal alcohol syndrome is the most common case of acquired mental retardation.</p><p id="2297904f-03a9-815e-840a-caf2ae88623f" class="">If only some of these alterations are present, it is only called <strong>fetal alcohol effect</strong>, not syndrome.</p><p id="2297904f-03a9-81dd-a6cc-d8da8ff68c6b" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-81ae-9f3f-ec74ba5e55a1" class="">28</p><p id="2297904f-03a9-8185-beb3-c02eef66dced" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-81e8-b8b3-c8d9b0c953c0" class="">There are also some facial deformities that make this syndrome phenotypically easy to recognize:</p><p id="2297904f-03a9-81b0-b301-d7715b3d62c2" class="">1.small and widely spaced eyes</p><p id="2297904f-03a9-8166-9feb-c84842b4e8b2" class="">2.thin upper lip</p><p id="2297904f-03a9-817b-a967-de7d3af64a6b" class="">3.small nose, pointed upwards</p><p id="2297904f-03a9-8189-bcb5-c9cac40726ce" class="">4.receding chin</p><p id="2297904f-03a9-81d3-b4b1-f7477d3a6e30" class="">5.corneal damage</p><p id="2297904f-03a9-81b1-89cf-efafc1e9697a" class="">6.drooping eyelids</p><p id="2297904f-03a9-81a3-9745-ffbaede02bb8" class="">7.poorly developed midline of the upper lip (philtrum)</p><p id="2297904f-03a9-81a7-95b5-fe3a5b0cda91" class=""><strong>TORCH COMPLEX</strong></p><figure id="2297904f-03a9-81b1-9579-dbbf6d264acd" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image4.png"><img style="width:241px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image4.png"/></a></figure><p id="2297904f-03a9-8144-92d9-ca8ae576683a" class=""><em>Fig. 4</em></p><p id="2297904f-03a9-816b-9ee1-e306f419399d" class="">prosciutto crudo (raw ham) or unwashed vegetables.</p><p id="2297904f-03a9-8126-9b38-d94f82f95326" class="">The spectrum of symptoms is common for all the different biological causes: lethargy, fever, feeding difficulties, anemia, petechiae. The most frequent are</p><p id="2297904f-03a9-819f-99fd-cf4ccd316bb9" class=""><strong>growth retardation</strong></p><p id="2297904f-03a9-8158-ac7a-ea4ffbbd4267" class="">, brain damage like</p><p id="2297904f-03a9-818e-830a-dba0fd597b01" class=""><strong>microcephaly</strong></p><p id="2297904f-03a9-81a1-a77e-f235da765cac" class="">or</p><p id="2297904f-03a9-81b8-9883-c2b73b5c6114" class=""><strong>calcification</strong></p><p id="2297904f-03a9-81fe-807f-f346425dcca5" class="">,</p><p id="2297904f-03a9-8141-a3ef-c5262157146d" class=""><strong>cataracts</strong></p><p id="2297904f-03a9-8111-a317-d6681d73fa65" class="">,</p><p id="2297904f-03a9-81d2-839d-c0adfa4390b4" class=""><strong>conjunctivitis</strong></p><p id="2297904f-03a9-81cb-a56c-e420eb48d234" class="">,</p><figure id="2297904f-03a9-81cf-a837-dc22e39ee3ac" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image5.png"><img style="width:545px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image5.png"/></a></figure><p id="2297904f-03a9-818a-a653-f3823794dd9b" class="">Torch is an acronym that stands for <strong>T</strong>oxoplasma, <strong>O</strong>thers (Syphilis, Parvovirus B19, hepatitis, HIV), <strong>R</strong>ubella, <strong>C</strong>ytomegalovirus and <strong>H</strong>erpes simplex virus. These are the main causes of this syndrome, and the main overall causes of neonatal morbidity and mortality.</p><p id="2297904f-03a9-8197-a5fe-ca7812f72a1c" class="">During pregnancy a toxoplasma test is done and if the mother is negative for toxoplasma, she for example cannot eat</p><p id="2297904f-03a9-8117-9bb9-ed2d504cbd9c" class=""><strong>splenomegaly</strong>, and <strong>heartabnormalities</strong><em>(fig. 5).</em></p><p id="2297904f-03a9-8168-a305-c8de7479edd5" class=""><em>Fig. 5</em></p><p id="2297904f-03a9-81c9-8a05-e104df6217da" class=""><strong>TYPES OF HUMAN GENETIC DISORDERS</strong></p><p id="2297904f-03a9-81d2-92be-d17738ebc1b7" class="">1.<strong>Monogenic diseases</strong>: They are related to mutations in a single gene. For example cystic fibrosis, where the gene CFTR is mutated.</p><p id="2297904f-03a9-81aa-b90e-ebced1c6cc01" class="">2.<strong>Chromosomal disorders</strong>: Arise from structural or numerical alteration in autosomes or sex chromosomes.</p><p id="2297904f-03a9-81b6-8c5d-f683190e6f5f" class="">3.<strong>Multigenic diseases</strong>: Also called polygenic or multifactorial diseases. They are caused by interactions between multiple variant forms of genes and environmental factors.</p><p id="2297904f-03a9-81d1-8882-c0441040cd7b" class="">4.<strong>Single-gene disorders with nonclassical patterns of inheritance</strong>: Caused by a mutation in a single gene but they do not follow the Mendelian pattern of inheritance. For example, triplet repeat mutations, which will be explained later.</p><p id="2297904f-03a9-8135-a667-c5c9c7f9ae8e" class=""><strong>TYPES OF MUTATIONS</strong></p><p id="2297904f-03a9-81f6-9837-e1c882c954d8" class="">Mutations are stable, heritable changes in DNA:</p><p id="2297904f-03a9-81ea-af79-e5faa50e0ef5" class="">1.<strong>Genomic mutations</strong>: The loss or acquisition of an entire chromosome (monosomies or trisomy). 2.<strong>Chromosomal mutations</strong>: Visible structural variation of chromosomes.</p><p id="2297904f-03a9-81c3-863a-f7d1c3a3341f" class="">3.<strong>Gene/Genetic mutations</strong></p><p id="2297904f-03a9-813b-ae60-e99f47c2bf72" class=""><strong>GENETIC MUTATIONS</strong></p><p id="2297904f-03a9-8178-a730-d397a7b04a2d" class="">Genetic mutations are due to partial or complete deletions of a gene, or more often mutation of a single</p><p id="2297904f-03a9-819b-9988-c6d7c012c6b5" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-81c5-87f4-f064ffa3e4d0" class="">29</p><p id="2297904f-03a9-81a2-ba2a-da79770afbd0" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-8183-a921-d84e2fe3f344" class="">base:</p><p id="2297904f-03a9-819c-8734-cad255c42418" class="">- <strong>Point mutations</strong></p><p id="2297904f-03a9-81b2-88d1-dc97252dc39c" class="">- <strong>Expansion of unstable trinucleotide repeats sequences</strong>, of triplets</p><p id="2297904f-03a9-8152-976b-e093b6ed6615" class="">- <strong>Frame-shift mutations</strong>: due to nucleotide insertion or deletion, and consequently all the sequence of bases is shifted to the right or to the left, completely changing the DNA meaning</p><p id="2297904f-03a9-81da-bf2f-cf1531f8c3b2" class="">- Large deletions</p><p id="2297904f-03a9-8147-bf7b-c6a8ea3dc3ed" class=""><strong>Point mutations</strong> are the most frequent mutations. They can happen due to either a <strong>substitution</strong> of a base with a different base, a <strong>deletion</strong>, so loss of a base, or an <strong>insertion</strong> of a new base. With deletions and insertions, there are frameshifts.</p><p id="2297904f-03a9-81e4-b8ac-ef5897a9dd52" class=""><strong>POINT MUTATIONS DUE TO A SUBSTITUTION</strong></p><p id="2297904f-03a9-819c-873b-d03b3544d5b9" class="">This mutation happens when a single base is substituted with a different base. The genetic information is encoded in codons, so triplets of 3 bases. Each codon codes for one amino acid (3 bases -&gt; 1 amino acid).</p><p id="2297904f-03a9-8115-8053-c7f7dc469369" class="">Therefore, the substitution of a base may have 3 different outcomes:</p><p id="2297904f-03a9-8184-a43b-d21b4e61561f" class="">1.<strong>Silent mutation</strong>: This happens when the substitution of the base does not alter the meaning of the sequence. The new codon codifies for the same amino acid as the old one.</p><p id="2297904f-03a9-81f0-882e-c0ab49544292" class="">Generally, it arises due to the substitution of the third base. In</p><figure id="2297904f-03a9-81ff-b23a-ce9a542d84f5" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image6.png"><img style="width:400px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image6.png"/></a></figure><p id="2297904f-03a9-816f-8b4c-faa790d22f31" class=""><em>Fig. 6</em></p><p id="2297904f-03a9-819a-aaf1-c6b6c5523abf" class="">this case (<em>fig.6</em>) CCA, that codes for Proline, becomes CCC that still codes for Proline.</p><p id="2297904f-03a9-81a2-aae4-de6ec3671b6e" class="">2.<strong>Missense mutation</strong>: When the substituted base changes the meaning, so the code of the triplet, and another amino acid is synthesized. It can be <strong>conservative</strong> if the new amino acid does not drastically change the function of the overall protein, or <strong>non-conservative</strong> if the function of the protein is changed due to this new amino acid.</p><figure id="2297904f-03a9-817f-b125-ccc0cb2d4047" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image7.png"><img style="width:459px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image7.png"/></a></figure><p id="2297904f-03a9-8169-950d-fbd30dccaff7" class=""><em>Fig. 7</em></p><p id="2297904f-03a9-81c7-83ca-c8812cabe385" class="">present on the RBCs; this mutation gives rise to</p><p id="2297904f-03a9-81ea-aefd-fd33130f8281" class=""><strong>sickle cell anemia</strong></p><p id="2297904f-03a9-812a-b611-ccfe219c399d" class="">(in Italian “anemia falciform”). RBCs assume a particular shape that resembles a sickle (“falce,” shown in</p><p id="2297904f-03a9-81a0-8654-f97a28a0fd7b" class=""><em>fig.8</em></p><p id="2297904f-03a9-81d2-a319-fb4f39367007" class="">), and become rigid, which can cause them to remain trapped inside small vessels where they</p><figure id="2297904f-03a9-8107-ba90-eb2f8003a9a9" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image8.png"><img style="width:208px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image8.png"/></a></figure><p id="2297904f-03a9-8145-8ef0-e4dc9a8b4a73" class="">In this case (fig.7) CTC becomes CAC and the codon that normally codifies for Glutamic acid now codes for Valine. This is a missense mutation that occurs in the globin-β that is a part of hemoglobin</p><p id="2297904f-03a9-8127-870a-e6b017df5cba" class="">are destroyed. This is an example of hemolytic anemia. <em>Fig. 8</em></p><p id="2297904f-03a9-8111-b1aa-d8e00bbe9191" class="">3.<strong>Nonsense mutation</strong>: When the substitution of the base brings to the creation of a stop codon, so the protein will be smaller and</p><p id="2297904f-03a9-81ea-9d3d-fddf92f3e855" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-81a0-9ac2-d4a58e0e29bc" class="">30</p><p id="2297904f-03a9-812c-abdc-ede6f02e40b9" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-81e2-b557-f168fe2d1bd9" class=""><em>Fig. 9</em> can be useful to revise some concepts.</p><p id="2297904f-03a9-8169-afc5-cf7ddfa434b6" class="">Let&#x27;s imagine a <strong>normal</strong> protein, composed of 4 amino acids (aa): Arginine, Leucine, Proline, and Isoleucine. Every aa is codified by a triplet, so the three bases of Arginine are CGG, Leucine is TTA…</p><p id="2297904f-03a9-8136-9752-cbee27949f2c" class="">Second line is a <strong>missense</strong> mutation, so a point mutation with a substitution of a thymine with cytosine. This substitution brings to the formation of another triplet, TCA that codifies for Serine, and the resulting protein is different.</p><p id="2297904f-03a9-8149-b9c9-c5754e1710ce" class="">The third line is a <strong>nonsense</strong> mutation, so a mutation in which the substitution of thymine with adenine brings to the formation of a TAA codon, which is a stop codon. The protein that will be synthesized will be truncated (shortened), and most probably degraded.</p><p id="2297904f-03a9-811b-bb1a-dabee1f18688" class="">The last two are examples of <strong>frame-shift</strong> mutations.</p><p id="2297904f-03a9-81eb-a75e-e33c40688512" class="">The <strong>insertion</strong> of a single base leads to a complete shift of the meaning of the DNA to the right. So, if</p><figure id="2297904f-03a9-81bc-9cc3-c1f156cdf3e3" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image9.png"><img style="width:400px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image9.png"/></a></figure><p id="2297904f-03a9-81d7-b61d-e28eee87f002" class=""><em>Fig. 9</em></p><p id="2297904f-03a9-8136-b600-cef53a8d4dfd" class="">the DNA codons are read, 3 bases at time, all the aa here are different: Phenylalanine, Threonine, Aspartate. In the case of a <strong>deletion</strong> of the thymine base, the message is shifted to the left and the aa are Tyrosine, Arginine and Leucine. The frame-shift mutations can have huge and devastating effects on the proteins, as it drastically changes all the aa downstream from the mutation site, and thus the resulting proteins are completely different.</p><p id="2297904f-03a9-81b1-bda6-cdf78ec9f5d8" class=""><strong>POINT MUTATIONS DUE TO A DELETION OR INSERTION</strong></p><p id="2297904f-03a9-8150-a36b-ca5264beceb8" class="">If the bases that are deleted or inserted are a <strong>multiple of 3</strong> there are no real differences in the DNA message, because some aa are inserted or deleted but the others remain normal.</p><p id="2297904f-03a9-817a-b70b-c089ce869b09" class=""><em>Fig.10</em> is an example of the deletion of 3 bases that codify for <strong>Phenylalanine</strong> in the gene coding for <strong>CFTR</strong>– a channel for chloride.</p><p id="2297904f-03a9-81b8-b60d-d6b3cfb0158b" class=""><strong>Cystic fibrosis</strong> is an autosomal recessive disease in which the main mutation is the deletion of Phenylalanine that brings to the alteration in this CFTR protein. Due to this mutation the protein is not able to reach the plasma membrane after being synthesized. It is similar to the native protein, but it remains trapped in the Golgi or ER. Because of that, CFTR will be missing from the surface of exocrine glands, and the clinical manifestations of cystic</p><figure id="2297904f-03a9-818c-ad86-e503a659b14c" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image10.png"><img style="width:542px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image10.png"/></a></figure><p id="2297904f-03a9-8149-8fa4-f073037aeed6" class=""><em>Fig. 10</em></p><p id="2297904f-03a9-8140-aaee-fdfba155bef5" class="">fibrosis are due to the lack of these channels on the surface of the exocrine glands.</p><p id="2297904f-03a9-818a-90b7-f6854f75b55b" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-8199-bb91-d178ad1d3ff3" class="">31</p><p id="2297904f-03a9-81be-9ff2-f66dc32ba140" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-814d-90ed-eb7dedc99816" class="">If the bases inserted or deleted are <strong>not a multiple of 3</strong> (so 1,2,4…), it is a frame-shift mutation, so the whole DNA information is shifted to the left or to the right and lots of aa are completely changed. In <em>fig.11</em> four bases (TATC) are inserted, which results in a frame shift to the right and the reading frame is completely changed. This happens in <strong>Tay-Sachs disease</strong>, which is a neurodegenerative disease with lysosome accumulation in cells.</p><p id="2297904f-03a9-81d6-bedd-f76456272778" class=""><strong>TRINUCLEOTIDE-REPEAT MUTATIONS</strong></p><figure id="2297904f-03a9-817c-9700-dcf33d351ab7" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image11.png"><img style="width:658px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image11.png"/></a></figure><p id="2297904f-03a9-8103-8f67-e2a82dcce9b5" class=""><em>Fig. 11</em></p><p id="2297904f-03a9-8156-b19d-fba3e496dfa7" class="">Another type of mutations are trinucleotide-repeat mutations, in which a codon is repeated too many times in the DNA. In general, they involve repetitions of triplets which contain C or G. There are a lot of diseases related to that mutation, for example Huntington disease and X fragile syndrome.</p><p id="2297904f-03a9-81be-a42b-dfc120a74d68" class=""><strong>HUNTINGTON DISEASE (HD)</strong></p><p id="2297904f-03a9-819c-9f46-ffb72a33980d" class="">HD, also called chorea of Huntington, is a rare neurodegenerative disorder characterized by a severe damage of the cerebral cortex that also extends to the basal ganglia. It is an autosomal dominant hereditary disease. It arises due to a pathological repetition of <strong>CAG triplets</strong>. In a normal brain, there are already 10 – 30 repetitions of CAG triplets, but sometimes these repetitions start repeating too many times later in life, which will lead to the development of Huntington’s disease. The main clinical manifestations involve the alteration of movements and balance, the patients move involuntarily and lose balance, which looks similar to dancing.</p><p id="2297904f-03a9-81fc-bb85-f4cdd49edace" class=""><em>Neurodegenerative diseases in general arise due to an accumulation of proteins in cells, more specifically in neurons, which leads to a progressive degeneration. This is true for HD, Alzheimer’s, Parkinson’s, ALS, or Tay-Sachs.</em></p><p id="2297904f-03a9-81fe-9e0e-c2a78bc32a30" class="">It is a genetic disorder but not congenital, so the patients are not born with it. It manifests in patients from 30 to 45 years old and it is a chronic progressive</p><figure id="2297904f-03a9-81ce-aabb-ff6ab305e1d0" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image12.png"><img style="width:267px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image12.png"/></a></figure><p id="2297904f-03a9-81e3-815e-f829a977a00e" class="">The brain of patients with HD is atrophic, and looks smaller and lighter. This is because of the death of neurons that are permanent cells, so once they are dead, they cannot regenerate, and there is deficient brain tissue. (<em>fig.12</em>)</p><p id="2297904f-03a9-814c-8b92-cdaa5e36f262" class="">disorder that brings death around 15 years from onset. <em>Fig. 12</em></p><p id="2297904f-03a9-814e-85b8-c5acb51b92a2" class="">Nowadays there are tests able to measure the number of repeats of codons in Huntington disease, but there are a lot of discussions about the ethical impact of these tests, because usually at the age of 30/40, people already have children, and there is no cure for it.</p><p id="2297904f-03a9-8194-bcde-e8da276d39fd" class="">CAG triplet codes for <strong>glutamic acid</strong> and when there is an expansion of the CAG triplet inside the gene, it codes for a protein called <strong>huntingtin.</strong> Normally huntingtin is a ubiquitous protein in the body, mainly presenting at the level of the brain, where it is neuroprotective (protects neurons from dying). However, in case of an abnormal CAG repetition, the new huntingtin protein will have a long polyglutamic tract, which will cause the protein to lose its neuroprotective properties and becomes toxic for the neurons. This neurotoxic huntingtin will accumulate especially at the level of cerebral cortex and basal ganglia, leading to progressive degeneration of these areas.</p><p id="2297904f-03a9-814c-9c81-e30013b2b80b" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-813c-947c-f68cd9b11554" class="">32</p><p id="2297904f-03a9-811a-9f2c-d2196cc3c19a" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-8140-9d31-fa1af51dba4d" class=""><em>Q: Why is it accumulating specifically in cerebral cortex and basal ganglia?</em></p><p id="2297904f-03a9-81cd-88d5-d0dcfa000ba1" class=""><em>A: We do not know. The research in HD is not as progressed.</em></p><p id="2297904f-03a9-81a9-8f0b-dc85a879aa6c" class="">Involuntary movements will affect all body segments, so from a certain point of progression, the clinical manifestations will involve <strong>bizarre grimaces</strong>, <strong>sudden movements</strong> of the upper limbs, <strong>difficulty walking</strong> (similar to a dance), difficulty the</p><p id="2297904f-03a9-81da-aa3c-c3ce4505c1d6" class="">most basic performing movements necessary for everyday life, <strong>dysarthria</strong> (difficulty speaking), <strong>inability</strong> <strong>to</strong> <strong>swallow</strong> due to uncoordinated movements of the pharyngo-laryngeal musculature, and <strong>dementia</strong>.</p><p id="2297904f-03a9-8131-b2d3-ea47d46a0fd8" class="">The more the disease develops, the more the cognitive functions and</p><figure id="2297904f-03a9-8187-a331-c5c85d97b5df" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image13.png"><img style="width:523px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image13.png"/></a></figure><p id="2297904f-03a9-81a5-93d8-de49dffe2715" class=""><em>Fig. 13</em></p><p id="2297904f-03a9-81ad-b199-f45b517abcde" class="">the common movement abilities are affected. <em>Fig.13</em> shows the age of the patients and the functional abilities of the patient that start to decrease significantly at the age of 45. Moreover, there is an inverse relationship between the number of CAG repeats and the age of the onset. The higher the number of the repeats is, the earlier is the age of onset that involves abnormalities in muscle coordination, psychomotor and cognitive functions.</p><p id="2297904f-03a9-8179-921c-ec75af6120c8" class="">After the pathological repetition of CAG, the toxic huntingtin will first aggregate into oligomers, and then into fibrils, which will precipitate inside the cell. The aggregated toxic huntingtin accumulates both in the cytoplasm and in the nucleus. The accumulation of this abnormal huntingtin in the nucleus causes the expression of genes that are not normally expressed in neurons and cause mitochondrial toxicity, synaptic dysfunctions, and axonal transport impairments. <em>In this sense they become more and more susceptible to oxidative stress. When there is cell necrosis, consequently there is also inflammation and with inflammation comes oxidative stress, mainly because of</em> <em>neutrophils. This</em> <em>oxidative stress becomes dangerous, and it is a vicious cycle that leads to the progressive neurodegeneration and cell death.</em></p><figure id="2297904f-03a9-8142-8e3e-e5eb55ca7dd3" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image14.png"><img style="width:524px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image14.png"/></a></figure><p id="2297904f-03a9-8112-9142-d17e663e194e" class=""><em>Fig. 14</em></p><p id="2297904f-03a9-814d-8461-cea5a10cb0d3" class=""><em>Q: Why is the presence of these triplets not dangerous at the beginning?</em></p><p id="2297904f-03a9-8191-b84a-e51aa9533dc9" class=""><em>A: Because if you have a small repetition the polyglutamic tract is not too long to cause an alteration of the function, it is not sufficient to change the function of the protein.</em></p><p id="2297904f-03a9-813b-8468-e13144dbaf38" class="">As of January 2023, there are no approved disease-modifying treatment.</p><p id="2297904f-03a9-81f4-ae62-f2ea2c0fbe9a" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-8153-86a4-e853001587ce" class="">33</p><p id="2297904f-03a9-81c2-ac66-ef1cfa49a1c3" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-81f5-ac5b-f4b4c9e80ecd" class=""><strong>FRAGILE X SYNDROME</strong></p><p id="2297904f-03a9-81e7-8475-de5e84e19d12" class="">Fragile X syndrome is another disease caused by the expansion of a triplet. In this</p><p id="2297904f-03a9-81b2-8f5c-d4d6d22b33bd" class="">(familial mental retardation protein). FMRP is important for neuronal development, so same as huntingtin, it is a prosurvival, neuroprotective and pro-developmental protein. When there is an expansion of the trinucleotide triplet</p><figure id="2297904f-03a9-8110-867d-c673437c918a" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image15.png"><img style="width:291px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image15.png"/></a></figure><p id="2297904f-03a9-819d-855e-ddf1ef2d565e" class="">case the triplet is <strong>CGG</strong>, which codes for <strong>Arginine</strong>. The problem in this case is the expansion of this sequence at the level of the <strong>FMR1 gene encoding for FMRP</strong></p><p id="2297904f-03a9-811b-b95a-ca8207953ed1" class=""><em>Fig. 15</em></p><p id="2297904f-03a9-81a2-babc-eb3477fa212a" class="">inside the gene coding for FMR1, the protein becomes toxic, loses the ability to</p><p id="2297904f-03a9-81fa-9d67-d069ff3dddbd" class="">protect neurons and this leads to mental retardation. The severity of the manifestations depends on the level of the expansion.</p><p id="2297904f-03a9-8133-bf78-f4d2cd05c24c" class="">It is a mutation specifically related to the X chromosome. The expansion of this triplet brings to two fragile sites at the level of the long arm of the X chromosome - for that reason it is called fragile X syndrome. As the mutation is located on the X chromosome, the transmission is x-linked, not following the classical Mendelian inheritance. Moreover, it is a <strong>dynamic mutation</strong>, meaning that subsequent generations have greater genetic damage.</p><figure id="2297904f-03a9-81b9-abba-e6711627a5a5" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image16.png"><img style="width:549px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image16.png"/></a></figure><p id="2297904f-03a9-81f4-a2dc-e3803252ffe6" class=""><em>Fig. 16</em></p><p id="2297904f-03a9-81ea-b8ad-cc13a4e9c046" class=""><em>Fig.16</em> shows how a family tree can be affected in case of a male carrier. The first generation of children is characterized by the fact that all the males are healthy, without any mutation present. Instead, the daughters are normal but have the premutation inherited from the father, because the X chromosome of the father goes to the daughter. They are not really affected because women have another healthy X chromosome from the mother, and even in the affected chromosome from the father the repetition is not as high to cause the syndrome. Talking about the children of a carrier daughter, the granddaughters have a higher expansion of the trinucleotide, because over the generation this mutation increases, so they have a full mutation, but they are usually normal, due to the presence of the other X chromosome. Only 50% of these females will be affected, and only mildly. Instead, the grandsons have a fully mutated X chromosome, and they are affected by the disorder, because they only have one X, in which there are two fragile sites in which Arginine is altered.</p><p id="2297904f-03a9-81b5-8dda-d4e613e8dea9" class=""><strong>macro-orchidism</strong></p><p id="2297904f-03a9-81fc-8fee-e9e95bd06fc8" class="">in males. They have also some behavioral characteristics, such as</p><p id="2297904f-03a9-818c-9adb-fb33e560d676" class=""><strong>stereotyped movements</strong></p><p id="2297904f-03a9-8192-b059-e2ed5b27af0c" class="">,</p><p id="2297904f-03a9-81ea-b69b-c67c87922d49" class=""><strong>atypical social development</strong></p><p id="2297904f-03a9-819d-9a4c-f09d265f516b" class="">,</p><p id="2297904f-03a9-81a1-bc85-ff04db373474" class=""><strong>shyness</strong></p><p id="2297904f-03a9-818e-809c-f795de8f8ab7" class="">, and</p><p id="2297904f-03a9-81cd-8016-d33e8bac4322" class=""><strong>autism</strong></p><p id="2297904f-03a9-8112-a986-e3c5b281ba29" class="">.</p><figure id="2297904f-03a9-8193-a58e-ce80d2cc1970" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image17.png"><img style="width:151px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image17.png"/></a></figure><figure id="2297904f-03a9-810b-b19b-d58ac2c394ff" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image18.png"><img style="width:146px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image18.png"/></a></figure><p id="2297904f-03a9-8147-a4ae-d2e08784d0c5" class="">People with fragile X syndrome have some typical physical characteristics, including a <strong>high forehead</strong>, a <strong>long face</strong> with a <strong>large mandible</strong>, a <strong>large nose</strong>, thin or <strong>retracted lips</strong>, <strong>large everted ears</strong>, and</p><p id="2297904f-03a9-81b9-b34b-f1cbe10699cb" class=""><em>Fig. 17</em></p><p id="2297904f-03a9-813d-8c57-ddf429d75c3f" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-81e9-acf5-d13b6b23eeb4" class="">34</p><p id="2297904f-03a9-8130-9776-df128f18231d" class="">16.03.2023 GAMBA L.3</p><figure id="2297904f-03a9-8114-8fc9-ce25b3703596" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image19.png"><img style="width:353px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image19.png"/></a></figure><p id="2297904f-03a9-8119-900f-e8412b3f4669" class="">synaptic function and for that reason the neurons die. FMRP is most abundant in brain and testes and that is why these two organs are affected the most.</p><p id="2297904f-03a9-8139-b0d2-ce250591a97b" class="">FMRP is able to bind mRNA and transport this mRNA into synapses. If this protein is mutated it is no longer able to bind mRNA necessary for the</p><p id="2297904f-03a9-81a1-b827-e3a68154c8a2" class="">Genetic diseases involving a mutation in only one gene are typically <em>Fig. 18</em></p><p id="2297904f-03a9-81eb-bb49-d189382251c8" class="">transmitted as either autosomal dominant, autosomal recessive, or x-linked.</p><p id="2297904f-03a9-8115-9b32-c8180dc8bcbd" class=""><strong>AUTOSOMAL DOMINANT DISORDERS</strong></p><p id="2297904f-03a9-81f8-8c6b-e600dbd6c375" class="">Autosomal <strong>dominant disorders</strong> manifest already in a heterozygous state, because only one mutated allele is sufficient to cause the disease.</p><p id="2297904f-03a9-816c-9a6a-ef2f9e404e67" class=""><em>Fig.19</em> shows a model of inheritance in case of one heterozygous parent,</p><p id="2297904f-03a9-8109-a193-c45ef917807c" class="">healthy child, and 50% to have a sick one. While if both parents are heterozygous and affected by the disease, there is a 25% probability to have two mutated alleles. This condition is usually, but not</p><figure id="2297904f-03a9-816e-8341-e732446c6abc" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image20.png"><img style="width:303px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image20.png"/></a></figure><p id="2297904f-03a9-813b-b46e-ef7d6551af80" class="">therefore affected by the disease. A mutation in one allele of the gene is sufficient to cause the disease. Overall, there is a 50% probability to have a</p><p id="2297904f-03a9-81d2-b534-ee0f749e989c" class="">always, not compatible with life. This model of inheritance is later shown in <em>Fig. 19</em></p><p id="2297904f-03a9-818e-82cb-c8337c6c1a8d" class=""><em>fig.22</em>.</p><p id="2297904f-03a9-816b-8ff1-e3655826e6f3" class="">Some examples of autosomal dominant disorders are listed in <em>fig.20</em>.</p><p id="2297904f-03a9-8162-b9ff-e0cb4fe8e8b4" class=""><em>Fig. 20</em></p><figure id="2297904f-03a9-8145-8b91-d5fe809c2291" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image21.png"><img style="width:545px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image21.png"/></a></figure><p id="2297904f-03a9-8149-87c8-e686f487cd3d" class=""><strong>ACHONDROPLASIA</strong></p><p id="2297904f-03a9-8136-9b56-c3516b111270" class="">disarmonico”), because the head is very big with a prominent forehead, saddle nose, but the limbs are very short.</p><figure id="2297904f-03a9-813d-999a-fb4b7b3e9d3b" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image22.png"><img style="width:232px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image22.png"/></a></figure><p id="2297904f-03a9-8132-a933-c217084783cd" class="">Achondroplasia, “nanismo” in Italian, is the most frequent from a group of genetic osteochondrodysplasias. It affects the development of chondroblasts of the epiphysis of long bones. Achondroplasia is disharmonic dwarfism (“nanismo</p><p id="2297904f-03a9-81e1-8371-da0a858f075a" class=""><em>Fig. 21</em></p><p id="2297904f-03a9-811c-a1a9-cccdfe2e94d9" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-8146-b154-efba60c3698c" class="">35</p><p id="2297904f-03a9-8130-9270-f8fb06c922a0" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-8124-b086-da4132811e92" class="">The mutation is on chromosome 4, on a gene coding for the <strong>fibroblast growth factor receptor type 3 (FGFR3)</strong>. It is a receptor present on fibroblasts, and in case of its absence, fibroblasts cannot bind the growth factor.</p><p id="2297904f-03a9-8167-b465-d602f27d7b11" class="">It is not a structural protein, but a receptor protein that is lacking or not functioning</p><p id="2297904f-03a9-815f-892e-f93e5606dd44" class="">pregnancy, and 50% probability to have a child affected by disharmonic dwarfism.</p><figure id="2297904f-03a9-81c6-b787-c66e51a18dca" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image23.png"><img style="width:245px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image23.png"/></a></figure><p id="2297904f-03a9-8187-af6a-e438a6293b37" class=""><em>Fig.22</em> is an example of both parents affected. There is a 25% probability to have a healthy child, so tall and not affected, another 25% probability of death during</p><p id="2297904f-03a9-81fc-acee-f92c04716e11" class="">It affects the development of chondroblasts of epiphyses of long bones. The <em>Fig. 22</em></p><p id="2297904f-03a9-81b4-8347-eb23d4ee1f90" class="">average height for affected males is 130cm, and for females it is 125cm. The intelligence is not affected at all.</p><p id="2297904f-03a9-8186-9137-c2115573a369" class=""><strong>OSTEOGENESIS IMPERFECTA</strong></p><p id="2297904f-03a9-81a3-9c8c-f5d8f56759c0" class="">syndrome and</p><p id="2297904f-03a9-8162-93c2-cd6d55956612" class="">syndrome.</p><p id="2297904f-03a9-81a5-8966-f6ed3cb93c4e" class="">Osteogenesis imperfecta,</p><p id="2297904f-03a9-8176-a3f0-e811294aadc7" class="">also called “glass bone”</p><p id="2297904f-03a9-8140-911f-e7ba9ef0cd41" class="">disease, is</p><p id="2297904f-03a9-81f4-a495-f649f130dd8d" class="">autosomal</p><p id="2297904f-03a9-810b-9afc-da2c9cb2cd3d" class="">disease. It is an autosomal</p><p id="2297904f-03a9-81a8-9e29-c1144099b87f" class="">dominant another Marfan</p><figure id="2297904f-03a9-8135-95db-ef6fd2e97d8e" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image24.png"><img style="width:573px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image24.png"/></a></figure><p id="2297904f-03a9-8167-924e-d007dd6431f8" class="">There are some disorders</p><p id="2297904f-03a9-81ae-a570-fdfb3a826c8b" class="">that are characterized by</p><p id="2297904f-03a9-8190-87aa-c5c230a0625e" class="">mutations in genes coding</p><p id="2297904f-03a9-8112-809b-ca985a6f65d4" class="">for structural proteins, for</p><p id="2297904f-03a9-81b7-83b6-f2321fea54a0" class="">example osteogenesis</p><p id="2297904f-03a9-8179-bac8-ce98ea5b09af" class="">imperfecta, Ehlers-Danlos</p><p id="2297904f-03a9-81c0-901a-c8cb05bd8535" class=""><em>Fig. 23</em> dominant disorder characterized by mutations in the gene coding for <strong>type I collagen</strong>.</p><p id="2297904f-03a9-8143-bc03-e63b360ca578" class="">It has 8 types, but all are characterized by defective synthesis of type I collagen. The types depend on whether the mutation of the gene causes a complete absence of the protein, or a defective function of</p><p id="2297904f-03a9-81a2-b6c8-ef08fbd51845" class="">coding for <strong>fibrillin-1</strong>, the name of the gene is <strong>FBN1</strong>. Fibrillin-1 is an extracellular glycoprotein of the connective tissue which forms the microfibrils of the extracellular matrix, especially in tendons and walls of big vessels. Therefore, in the case of a mutation, there will be problems related mostly with the tendons, big vessels (aorta) and eyes. One third of the cases is caused by sporadic mutations, arising de novo.</p><p id="2297904f-03a9-8129-bf3e-cd97ac15821d" class="">There are different forms, phenotypes, and consequently different severity of the disease. There are people that only manifest phenotypic characteristics, usually they are very tall with</p><p id="2297904f-03a9-8121-8560-dbb29f7770ff" class=""><em>Fig. 24</em></p><figure id="2297904f-03a9-8133-b655-d9c67aad5443" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image25.png"><img style="width:111px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image25.png"/></a></figure><p id="2297904f-03a9-8174-9a4c-cd5b416700e3" class="">the protein. Type II is not compatible with life.</p><p id="2297904f-03a9-8198-be7f-f04c828fdb6d" class="">In osteogenesis imperfecta bones are too little, fragile, deformed, and multiple spontaneous fractures may occur. Dental problems, ocular problems and hearing loss are also present. In short, it impacts tissues rich in type I collagen (joints, eyes, ears, skin, and teeth).</p><p id="2297904f-03a9-81b0-a3ca-f119e9b4691c" class=""><strong>MARFAN SYNDROME</strong></p><p id="2297904f-03a9-8171-ab2f-f8cee49f5c97" class="">Marfan syndrome is an autosomal dominant disorder characterized by a mutation in the gene</p><p id="2297904f-03a9-81aa-8252-dd77ee10aa53" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-81ea-9e00-d1c498badedf" class="">36</p><p id="2297904f-03a9-81e9-96a8-c2b27154de95" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-812b-a723-e6713c6d0ea3" class="">long arms, hands, and legs. It can also be characterized by <strong>spider fingers</strong>, which are abnormally long fingers and toes (shown in <em>fig.25</em>). The ligaments of the hands and of the feet are lax and hyperextensible. Spinal deformities may be present, as well as deformities of the chest, such as <strong>pectus excavatum</strong>, in which the sternum is deeply depressed and the <strong>pigeon-breast deformity</strong>, in which the chest is external. So the main problems are related to the skeletal system.</p><p id="2297904f-03a9-81be-a119-d857d0013b47" class="">However, it is important to recognize and diagnose Marfan syndrome, for example in really tall people (basketball players, volleyball people), as the problems related to Marfan syndrome are not only related to the skeletal system.</p><p id="2297904f-03a9-8191-98e7-c442b24ed8cc" class="">Ocular changes are frequently present, for example a typical mark of the disease is the bilateral dislocation of the lens,</p><figure id="2297904f-03a9-816d-a1c5-c8f54201f6f6" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image26.png"><img style="width:506px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image26.png"/></a></figure><p id="2297904f-03a9-81a8-9351-d790e4258849" class=""><em>Fig. 25</em></p><p id="2297904f-03a9-81f5-8ac8-d3e331d89111" class="">called <strong>ectopia lentis</strong>. Severe myopia or retinal detachment can also be present.</p><p id="2297904f-03a9-814e-9649-db49965cb5b0" class="">Most importantly, Marfan syndrome can cause cardiovascular lesions. Overall, aorta is very lax and fragile, which may lead to a dilation of aorta and subsequently aortal aneurysm. This is the cause of death in around 30% of patients due to the internal hemorrhage and hypovolemic shock caused by the aneurysm. The therapy consists of drugs that protect against aortic dilation, drugs against hypertension, or a surgical insertion of an aortal stent.</p><p id="2297904f-03a9-8153-a860-cd0c2a8992c0" class=""><em>Fig. 26</em></p><p id="2297904f-03a9-8155-817a-cf1d8e3acc52" class="">Normally, fibrillin-1 regulates the function of <strong>TGFβ</strong>. When fibrillin is present, TGFβ is trapped in fibrillin, and it is released only when it is necessary. While in Marfan syndrome, when fibrillin-1 is lacking, TGFβis overactivated (because it is free from fibrillin), and it binds to the TGFβ receptor, present on the surface of the plasma membrane, stimulating the downstream pathways (SMAD proteins and so on). SMAD proteins translocate to the nucleus and activate gene expression of <strong>matrix</strong></p><figure id="2297904f-03a9-8183-a5a8-d7312b77e337" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image27.png"><img style="width:700px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image27.png"/></a></figure><p id="2297904f-03a9-814c-940b-ec574904848b" class=""><strong>metalloproteinases (MMPs)</strong>. MMPs are overproduced and degrade the extracellular matrix. It is a vicious cycle: lack of fibrillin-1 causes overproduction of MMPs which further degrade ECM.</p><p id="2297904f-03a9-8171-9ad3-cd150cdc77ae" class="">There are 6 variants of EDS. The affected tissues are those that are rich in collagen:</p><p id="2297904f-03a9-813d-9cab-df97a1a3ff7a" class=""><strong>skin, joints, ligaments</strong></p><p id="2297904f-03a9-813f-8eb4-d46dc5555f02" class="">. The skin becomes hyperextensible, and the joints are hyperflexible, as can be seen in</p><p id="2297904f-03a9-81bb-8b69-cb179472ae2e" class=""><em>fig.27</em></p><p id="2297904f-03a9-819b-a922-fd3c52804295" class="">. Apart from these typical characteristics, there can be some other serious consequences, since collagen is also present in organs. For example, there can be hyperelasticity and fragility of the skin, delayed wound healing, joint hypermobility and joint dislocation,</p><p id="2297904f-03a9-81c8-bbec-f38f8a733505" class=""><strong>rupture of arteries, intestines and uterus</strong></p><figure id="2297904f-03a9-8178-933a-f4cbc00ab55f" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image28.png"><img style="width:212px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image28.png"/></a></figure><p id="2297904f-03a9-8163-b1c8-ee0e4c9e14fe" class=""><strong>EHLER-DANLOS SYNDROMES (EDS)</strong></p><p id="2297904f-03a9-818b-852c-d5ff38b5b7b9" class="">This is a wide spectrum of clinically and genetically heterogeneous disorders belonging to the autosomal dominant disorders. It is defined as a group of diseases because there are different features of the disease depending on the type of mutation. EDS belong is caused by a mutation on a gene coding for type I, III and V collagen.</p><p id="2297904f-03a9-819f-8297-cf5d17743acf" class=""><strong>during pregnancy</strong>, <strong>eye injuries and blindness</strong>, <strong>skeletal deformities,</strong> and <em>Fig. 27</em></p><p id="2297904f-03a9-8193-9ebc-c6957c92c4f4" class="">Hojsíková Alžbeta, Saghafi Romina</p><p id="2297904f-03a9-8191-838c-eadeaef0f7a5" class="">37</p><p id="2297904f-03a9-8149-a8f5-c823e868cc19" class="">16.03.2023 GAMBA L.3</p><p id="2297904f-03a9-8106-b49e-d79e966e60f3" class=""><strong>periodontal diseases</strong> (loss of teeth within 30 years of age).</p><p id="2297904f-03a9-81eb-85bd-ddda9f0dd589" class="">The most severe internal complications that may occur are the <strong>rupture of the colon and large arteries</strong>, ocular fragility with rupture of cornea and retinal detachment and diaphragmatic hernia.</p><p id="2297904f-03a9-813c-ab97-c658448019e4" class="">Because of these dangerous complications, it is important to recognize this disorder as soon as possible and prevent the complications.</p><p id="2297904f-03a9-8131-8ac6-c1ba8bbc5d78" class=""><strong>FAMILIAL HYPERCHOLESTEROLEMIA</strong></p><p id="2297904f-03a9-817a-922e-eca592111b24" class="">The main cause of familial hypercholesterolemia is a mutation at the level of the gene coding for LDL receptors (LDLR), located on the surface of hepatocytes. Lipoproteins are the particles that carry lipids in blood because lipids cannot freely flow in blood due to their hydrophobic properties. Lipids need to be carried by proteins, otherwise they would aggregate immediately and form a lipid embolus.</p><p id="2297904f-03a9-8130-a0d0-cd995ef3098a" class="">In hypercholesterolemia there is a high level of LDL (low density lipoproteins) in blood. LDL are also called “bad cholesterol,” because they carry lipids from liver (where lipids are synthetized) to the peripheral tissues. If the level of LDL gets too high, they accumulate inside arterial walls, giving rise to atherosclerosis. On the other side, HDL (high density lipoproteins) are also called the “good cholesterol,” as they carry lipids from the periphery to the liver, where these lipids are recycled. Therefore, the more HDL a person has, the better. And the more LDL a person has, the worse. It is called hypercholesterolemia, even though it is an increase in LDL, because the main component of LDL is cholesterol. If the LDLR on the hepatocytes surface is not present or not properly working, LDL are not taken up by the liver and they remain in the bloodstream. For this reason, the levels of LDL are very high in those patients.</p><p id="2297904f-03a9-816b-9931-c048b1629bb0" class="">In familial hypercholesterolemia there are different clinical manifestations, from milder to severe. It is again an autosomal dominant disease.</p><p id="2297904f-03a9-81a6-a327-e0ae0b9e0ffe" class="">In heterozygous patients there are <strong>elevated plasma cholesterol levels</strong> even at birth (around 350 mg/dL), <strong>tendon xanthomas</strong> (accumulation of cholesterol at the level of tendons) before the age of 30, early <strong>atherosclerosis</strong>, leading to a coronary artery disease before the age of 40.</p><p id="2297904f-03a9-8162-b5aa-fac459993d69" class="">In homozygous patients the mutation is still compatible with life, but the manifestations are worse. The levels of <strong>plasma cholesterol are higher</strong> (from 600 to 1200 mg/dL), the patients can have <strong>cutaneous and tendon xanthomas</strong>, <strong>coronary atherosclerosis</strong> can occur even in pediatric age, and <strong>myocardial infarction</strong> even before the age of 30.</p><p id="2297904f-03a9-814d-8f5b-f3235e3b0842" class=""><em>Q: What is the correct concentration of LDL cholesterol?</em></p><p id="2297904f-03a9-811e-893c-ec145e122b54" class=""><em>A: About 120 mg/dL in normal people. In people with risk factors or subjects that have undergone a myocardial infarction that take drugs to reduce cholesterol levels, the ideal concentration is 50 mg/dL.</em></p><p id="2297904f-03a9-81b9-99b4-c34c576a5214" class="">This is what LDL looks like (<em>fig.28</em>). In the center there are</p><p id="2297904f-03a9-8180-a0c9-ff050e5457fe" class="">cholesterol esters, then cholesterol, phospholipids, and</p><p id="2297904f-03a9-8173-a0b4-ff8e5dd11347" class="">triglycerides. The hydrophilic part surrounds the</p><p id="2297904f-03a9-8120-b7a9-f7d3b93d31f4" class="">hydrophobic center. A protein called ApoB100 wraps</p><p id="2297904f-03a9-81e0-b390-ca006afe87d0" class="">around the LDL particle and can bind to LDLR on the surface</p><p id="2297904f-03a9-811f-be75-cff8fb9e5fa2" class="">of the liver.</p><p id="2297904f-03a9-810c-ad0e-cfad394777c6" class="">Hojsíková Alžbeta, Saghafi Romina</p><figure id="2297904f-03a9-8120-99e5-f3f2f47b8d8e" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image29.png"><img style="width:553px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image29.png"/></a></figure><p id="2297904f-03a9-8154-979a-fc3228008d91" class=""><em>Fig. 28</em></p><p id="2297904f-03a9-8114-aca4-e1f2f1ab8424" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-818d-b946-fa2c400fd923" class=""><strong>GENETIC DISORDERS PART 2</strong></p><p id="2297904f-03a9-8145-8fe0-e09f842dcc7b" class=""><strong>FAMILIAL HYPERCHOLESTEROLEMIA</strong></p><p id="2297904f-03a9-8116-aee3-d8898eab84a8" class="">It’s a disorder that can have many different causes.</p><p id="2297904f-03a9-811a-93bc-efc3a543e6c4" class=""><strong>Mutation of the gene coding for LDL receptor</strong></p><p id="2297904f-03a9-8172-95c5-ed724a307dce" class="">The main one is a <strong>mutation</strong> at the level of the <strong>gene coding for the LDL (low density lipoproteins) receptor</strong>, which is mainly located on the surface of hepatocytes and has the role of binding and keeping LDL out of the circulation. This receptor is involved in the transport and metabolism of cholesterol, as LDL are the particles that carry lipids in the bloodstream as they cannot freely flow in it due to their hydrophobic properties. The LDL receptor is also present on the surface of the cells of the periphery, as LDL goes from the liver to the periphery in order to bring cholesterol to the cells that synthesize steroid hormones, form new cell membranes, or that may need it for other uses.</p><p id="2297904f-03a9-819a-9a0b-dfbb3e863f66" class="">It is important to keep in mind the difference between LDL (bad cholesterol, takes cholesterol from the liver and brings it to the peripheric cells) and HDL (good cholesterol, takes cholesterol from the peripheric cells and brings it to the liver), which are different in the structure, even if both are lipoproteins that allow lipids to flow in the blood.</p><p id="2297904f-03a9-8147-ae52-fd51e8246ba2" class="">Overall, familial hypercholesterolemia is due to the lack of the LDL receptor in hepatocytes and a manifestation of high levels of LDL concentration on blood.</p><p id="2297904f-03a9-8140-aaf7-d648e36c5b32" class="">The physiological amount of LDL is about 120 mg/dL in normal people, while in people with risk factors or subjects that have undergone a myocardial infarction that take drugs to reduce cholesterol levels, the ideal concentration is 50 mg/dL.</p><p id="2297904f-03a9-81d4-8182-ff23272bdef3" class="">Familial hypercholesterolemia is an <strong>autosomal dominant disorder</strong> so both heterozygous and homozygous present the disease, with the homozygous manifest more severe symptoms.</p><p id="2297904f-03a9-81af-b7cd-c0f2826bcd00" class="">In <strong>heterozygous</strong> patients have elevated plasma cholesterol levels even at birth (around 350 mg/dL), tendon xanthomas (accumulation of cholesterol at the level of tendons) before age 30, early atherosclerosis (chronic inflammatory disorder that arises at the level of the medium and big arteries, mainly caused by elevated levels of plasmatic LDL, which penetrates in the intima of these arteries and forms atherosclerotic plaques that cause occlusions).</p><p id="2297904f-03a9-8168-bc2f-f32df53635f4" class="">In <strong>homozygous</strong> patients the levels of plasma cholesterol go from 600 to 1200 mg/dL, the patients can have cutaneous and tendon xanthomas, coronary atherosclerosis and myocardial infarction even before the age of 30.</p><p id="2297904f-03a9-818a-a7d2-e26bfbb4a01f" class=""><strong>Other mutations</strong></p><p id="2297904f-03a9-817d-88dd-e76bcb0c7df9" class="">Mutations of LDL receptors are the main cause, but there are other genetic conditions that can lead to familial hypercholesterolemia.</p><p id="2297904f-03a9-8104-8c95-fc8184619169" class="">For example, in 10-15% of hypercholesterolemia cases are <strong>mutations</strong> at the level of <strong>the gene of the apolipoprotein B100</strong> (Apo-B100), the protein that surrounds LDL.</p><p id="2297904f-03a9-8197-8bd9-dc6786390d7c" class="">Considering that LDLR on the surface of hepatocytes specifically recognizes Apo-B100, a mutation leads to the lack of the binding between the receptor and the protein.</p><p id="2297904f-03a9-81c8-8757-ff1bc8b52dda" class="">In other cases (2-5%) there can be a <strong>mutation</strong> at the level of the <strong>protein PCSK9</strong> that regulates the recycling of LDLR.</p><p id="2297904f-03a9-81ea-9171-c6cea4a1e082" class=""><strong>Treatment</strong></p><p id="2297904f-03a9-81ff-8b06-d4d2c1cf5b3a" class="">To reduce the concentration of LDL in blood the drugs that are given are <strong>statins</strong>. Statins, however, have lots of side effects. Some people can’t sustain their intake because of the side effects like muscle pain. For those subjects there are some new drugs: specific <strong>antibodies against PCSK9</strong>. By binding PCSK9 these antibodies prevent the recycle of the LDLR, which remains on the surface of hepatocytes, allowing to keep more LDL away from the blood circulation.</p><p id="2297904f-03a9-81de-940f-dfec0f7fa5d4" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-81be-b134-eaabefad7687" class="">39</p><figure id="2297904f-03a9-8198-8fda-dfe42bcec353" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image30.png"><img style="width:481px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image30.png"/></a></figure><figure id="2297904f-03a9-8181-819f-e5bc2efbbb85" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image31.png"><img style="width:579px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image31.png"/></a></figure><figure id="2297904f-03a9-8196-88c9-e70d4dde69f6" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image32.png"><img style="width:575px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image32.png"/></a></figure><p id="2297904f-03a9-812c-8707-d959ff18da0b" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-814d-9ecc-da204d08c7f5" class="">In the cases in which antibodies have to be administered, cardiologists aim to reach 50 mg/dL of LDL because these patients are at risk of myocardial infarction.</p><p id="2297904f-03a9-81f0-b3f2-d63977525d43" class="">Remember that LDL levels increase also due to a lipid rich diet, so a correction in alimentation would be enough to bring LDL levels back to normal ranges.</p><p id="2297904f-03a9-8162-986a-d6617bf96e64" class=""><strong>LDL STRUCTURE</strong></p><p id="2297904f-03a9-81a6-820d-d742f3186a46" class="">(fig.1) In the centre of an LDL there are cholesterol esters, then cholesterol, phospholipids, triglycerides.</p><p id="2297904f-03a9-8158-9a91-c41bdff3dfb1" class="">All of them have to be carried in the bloodstream and to do so they need the ApoB100, which is a protein that wraps around the LDL particle and that can bind to LDLR on the surface of the liver. <em>fig.1</em> LDL receptors are also present in the brain, in the skin.</p><p id="2297904f-03a9-8171-a17c-d0f8a45e58bf" class=""><strong>LDL METABOLISM</strong></p><p id="2297904f-03a9-8176-abff-f97b2ed858db" class="">Figure 2 depicts an hepatocyte with a LDLR, but it also</p><p id="2297904f-03a9-8105-8704-d70b9b58134c" class="">shows that the liver is able to create <strong>VLDL</strong> too (very low-</p><p id="2297904f-03a9-815b-acb8-cd0fb6bf0473" class="">density lipoproteins), that are mainly composed of</p><p id="2297904f-03a9-818e-810f-cb5334f72118" class="">triglycerides (the yellow part in the figure) and a small</p><p id="2297904f-03a9-8198-9692-d51bd8929aeb" class="">amount of esterified cholesterol.</p><p id="2297904f-03a9-81e0-9550-efac546f2ddb" class="">VLDL have 3 Apo proteins on their surface: ApoC, ApoB</p><p id="2297904f-03a9-81a7-af73-dd42df0e1f28" class="">and ApoE. VLDL are useful because triglycerides are used</p><p id="2297904f-03a9-8109-b51a-e669dccd7da5" class="">by muscles for energy and by adipocytes for their storage</p><p id="2297904f-03a9-818c-9362-f6a8bb95a7df" class="">and this is possible thanks to the action of the enzyme</p><p id="2297904f-03a9-81b8-9822-f5db12c3fa3e" class=""><strong>lipoprotein lipase</strong> that separates triglycerides from the</p><p id="2297904f-03a9-8137-80bc-cb21f8fceafd" class="">rest of the lipoprotein.</p><p id="2297904f-03a9-8176-882d-c86eb949b919" class="">The consequence is the creation of <strong>IDL</strong> (intermediate</p><p id="2297904f-03a9-810c-b5e2-ec9925857393" class="">density lipoprotein) that have lost ApoC and are left with</p><p id="2297904f-03a9-8120-829c-ee9a8b3e60b9" class="">only ApoE and ApoB. 50% of IDL goes back to the liver</p><p id="2297904f-03a9-8188-87d7-d35d0f163ac0" class="">where it binds the LDLR, which specifically recognizes</p><p id="2297904f-03a9-8199-aa26-db99a85048fd" class="">B100, and the components of these IDL are recycled.</p><p id="2297904f-03a9-8129-9a39-dcbe72aaa9d3" class="">The other 50% of IDL loses the remaining triglycerides</p><p id="2297904f-03a9-8148-8673-d79bbe92546e" class="">and becomes <strong>LDL</strong>.</p><p id="2297904f-03a9-815f-abe5-e559a32e2624" class="">HDL takes cholesterol from the periphery where it is in</p><p id="2297904f-03a9-812d-88ba-f1f83c8d15e8" class="">excess, and it shuttles it to the hepatocytes where it is <em>fig.2</em> recycled, starting a new cycle.</p><p id="2297904f-03a9-8195-9426-e4c10926942c" class="">So, if the LDL receptor is not present on the cell’s surface, either of or hepatocytes or peripheric cells, or if it’s present in lower amounts, LDL remains in the bloodstream.</p><p id="2297904f-03a9-81c6-ac7f-ebc86f6bac2e" class=""><em>fig.3</em> In this figure (fig.3), it is possible to see LDLR on the surface of hepatocytes that bind LDL, clathrin-coated vesicles are created, and they fuse with lysosomes. LDLR is recycled, so it goes back to the surface, LDL is degraded, APO-B100 is degraded in amino acids, and cholesterol exits from the lysosome to reach the cytoplasm to be recycled.</p><p id="2297904f-03a9-81cd-9c81-d97bc56a4000" class="">In order for the cholesterol to exit the lysosome two main</p><p id="2297904f-03a9-811a-9851-e5391665ac25" class="">proteins present at the level of the lysosomes are needed:</p><p id="2297904f-03a9-81fb-8268-daad09034536" class=""><strong>NPC1 and NPC2</strong> (NP stands for Niemann-Pick).</p><p id="2297904f-03a9-8109-b166-d0a218f7b8e9" class="">Once cholesterol reaches the cytoplasm, it regulates</p><p id="2297904f-03a9-81de-9814-c69fc4b834b9" class="">several pathways as it has a lot of physiological functions.</p><p id="2297904f-03a9-8170-85ce-e850e3db8ed1" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-81a1-9d08-c92d1c1dc20b" class="">40</p><p id="2297904f-03a9-81a3-bfcc-e1d154ed0c20" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-81bc-9ae8-eda16985f7bc" class="">However, when cholesterol levels are too high, cholesterol inhibits the synthesis of cholesterol, with negative feedback. In particular, it inhibits the main rate limiting enzyme for cholesterol synthesis which is HMG CoA reductase and so the synthesis of cholesterol is reduced. Moreover, cholesterol activates the enzymes necessary to create cholesterol esters.</p><p id="2297904f-03a9-8153-af08-c00f44bfb918" class="">Another way to inhibit cholesterol accumulation is the inhibition of the gene expression and synthesis of LDLR. In this way LDLR are not synthesized ex novo and on the surface of hepatocytes the level of LDLR is reduced.</p><p id="2297904f-03a9-8126-8d86-e3cb6bf128b8" class="">=</p><p id="2297904f-03a9-8199-904f-cc054255f12f" class="">Three separate processes are affected by the released intracellular cholesterol:</p><p id="2297904f-03a9-81c9-a45f-de1fee6ec4f8" class="">1) Cholesterol suppresses cholesterol synthesis within the cell by inhibiting the activity of the enzyme 3-hydroxy-3-methylglutaryl coenzyme A (HMG CoA) reductase, which is the ratelimiting enzyme in the synthetic pathway.</p><p id="2297904f-03a9-8100-a9a9-da361b192e2d" class="">2) Cholesterol activates the enzyme acyl-coenzyme A: cholesterol acyltransferase, favoring esterification and storage of excess cholesterol.</p><p id="2297904f-03a9-8145-affd-fdff08826c33" class="">3) Cholesterol suppresses the synthesis of LDL receptors, thus protecting the cells from excessive accumulation of cholesterol.</p><p id="2297904f-03a9-8158-a2c9-cdc36f02aaed" class=""><em>Q: So we have production of lipids other than cholesterol but we don’t have their secretion, right?</em></p><p id="2297904f-03a9-818f-955d-eaf00dcf7d18" class=""><em>A: Yes, we have the production of other lipids but cholesterol is particularly able to regulate its own production</em></p><p id="2297904f-03a9-8176-a7c4-f14fce25e93e" class="">Depending on the type of mutation of the gene mutate, there are different <strong>outcomes</strong> (fig.4). There are more than 150 mutations of the gene coding for LDLR.</p><p id="2297904f-03a9-8103-aa6f-fb370e40d726" class="">There can be some other mutations at the level of the LDLR gene that still allow the protein to be synthesized, to be transported to the cell’s surface but the protein doesn’t work properly. This might be due to an abnormal conformation of the protein and</p><p id="2297904f-03a9-812b-9b5b-c97d06508864" class=""><strong>the receptor can’t correctly bind LDL</strong></p><p id="2297904f-03a9-8137-887f-dcbd55e1a063" class="">. In this last case the disease is less severe. We can also have some other problems dealing with the</p><p id="2297904f-03a9-81db-bd54-e23476ee6700" class=""><strong>recycling</strong></p><p id="2297904f-03a9-810f-b712-e54095a4cb2b" class="">of the receptor. So the same disease can have different levels of severity.</p><figure id="2297904f-03a9-81e9-ab3c-f6154e1d399b" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image33.png"><img style="width:513px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image33.png"/></a></figure><p id="2297904f-03a9-8173-ad8d-dc5acb6125c6" class="">They are sometimes responsible for the <strong>complete non-expression of the gene</strong>, in this case the LDLR are completely absent on the cell&#x27;s surface.</p><p id="2297904f-03a9-8185-8e9a-e7d76b72b2e9" class="">In other cases, the protein is synthesized but it’s trapped in the endoplasmic reticulum or Golgi apparatus, causing an <strong>intracisternal retention</strong>. The final effect is the same as the non gene expression one because even in this case we won’t have LDLR on the surface. In these two cases the disease is severe.</p><p id="2297904f-03a9-81cb-8685-e83a71603abc" class=""><em>fig.4 Q: How does the problem in the synthesis lead to hypercholesterolemia?</em></p><p id="2297904f-03a9-8148-bed7-dc4c34dd6d74" class=""><em>A: In hypercholesterolemia there is a mutation that leads to a lack of LDLR synthesis. If you don’t have LDLR, on the surface of hepatocytes there will be no LDLR. So LDL are produced, they are in the bloodstream but are not taken up by the liver. They remain in the liver leading to hypercholesterolemia.</em></p><p id="2297904f-03a9-81eb-9e6d-e9e578e7dd79" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-8104-8c7a-cc0a2c4cba01" class="">41</p><figure id="2297904f-03a9-81e1-a96e-ca89f7d8d7f1" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image36.png"><img style="width:543px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image36.png"/></a></figure><p id="2297904f-03a9-8117-939f-c6b34958cb84" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-814a-af9f-dcd2d7bc31ae" class=""><strong>AUTOSOMAL RECESSIVE DISORDERS</strong></p><p id="2297904f-03a9-8122-a34e-c6308b57e120" class="">In the case of autosomal recessive disorders, the recessive pathological gene determines the disease only in</p><p id="2297904f-03a9-81be-8064-cacc4715da42" class="">the <strong>homozygous state</strong>, meaning inheriting both pathologic genes, while the heterozygous state determines a healthy carrier.</p><p id="2297904f-03a9-812a-a1aa-c59a60baa6f1" class="">Figure 5 shows that if both the mother and the father are heterozygous for the pathologic gene, they don&#x27;t manifest the disease, but they have a 25% probability to have a child that does manifest it in the homozygous form (aa), 50% that it will be a healthy carrier (Aa) and 25% that it will be a healthy subject (AA).</p><figure id="2297904f-03a9-8176-90cd-d4555cb624d5" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image34.png"><img style="width:263px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image34.png"/></a></figure><p id="2297904f-03a9-8110-ad45-d2464ee7f4ba" class="">These are some examples of autosomal recessive disorders (fig.6). <em>fig.5</em></p><figure id="2297904f-03a9-8189-8612-d60fa04dd194" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image35.png"><img style="width:651px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image35.png"/></a></figure><p id="2297904f-03a9-813a-b1a4-f2ae7526b661" class=""><em>fig.6</em></p><p id="2297904f-03a9-8153-83ac-f5871c242011" class=""><strong>NIEMANN-PICK TYLE C(NP-C)DISEASE</strong></p><p id="2297904f-03a9-81ca-aa97-ed82b48a50e6" class="">It’s an <strong>autosomal recessive neurodegenerative lysosomal storage disorder</strong> characterized by mutations at</p><p id="2297904f-03a9-8126-a89c-e706c6fce8ec" class="">the level of two main intracellular transporter proteins:</p><ul id="2297904f-03a9-81bd-954b-fb8b0d0b722f" class="bulleted-list"><li style="list-style-type:disc"><strong>NPC1,</strong> which encodes late endosome/lysosome transmembrane-bound protein</li></ul><ul id="2297904f-03a9-8109-af44-e6297d824f8b" class="bulleted-list"><li style="list-style-type:disc"><strong>NPC2,</strong> which encodes a soluble protein</li></ul><p id="2297904f-03a9-81fa-a899-dfdddb840974" class="">They both lead to the same process: <strong>the exit of cholesterol from the lysosomes.</strong> The functions of NCP1 and</p><p id="2297904f-03a9-81e6-8b3d-cc8a10734e95" class="">NCP2 are different but they are interconnected. Even if just one of these two proteins doesn’t work, the</p><p id="2297904f-03a9-810b-83aa-d0e9d74ef345" class="">disease occurs.</p><p id="2297904f-03a9-8179-9420-f838dc3b7632" class="">In the majority of cases NCP1 is mutated (95% of cases).</p><p id="2297904f-03a9-8195-ab6a-e7d9681b09b4" class=""><strong>Pathogenesis</strong></p><p id="2297904f-03a9-810a-a6ec-d0d7445bf88e" class="">Niemann-pick disease is a</p><p id="2297904f-03a9-8136-8427-c27c6eceaad4" class="">neurodegenerative disorder that is</p><p id="2297904f-03a9-8164-b41c-ebffd5c49e20" class="">characterized by the loss of function in</p><p id="2297904f-03a9-81b3-8101-d4c314e2359c" class="">either NPC1 or NPC2, which leads to the</p><p id="2297904f-03a9-818b-aa87-f54949b68565" class="">accumulation of cholesterol and other</p><p id="2297904f-03a9-81de-ae52-e42e2224c530" class="">lipids in the late endosomal/lysosomal</p><p id="2297904f-03a9-816a-a593-de873407ae19" class="">intracellular compartment (fig.7).</p><p id="2297904f-03a9-81a1-bd9f-eec8d105f489" class="">So, cholesterol can’t be used for</p><p id="2297904f-03a9-81d7-b5d1-ca179e11d182" class="">membrane formation.</p><p id="2297904f-03a9-8114-9042-cd17545a503b" class=""><em>fig.7</em></p><p id="2297904f-03a9-81b6-8a59-ec1d766f7a78" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-8156-ada4-c5517d9df976" class="">42</p><figure id="2297904f-03a9-8168-827c-e221ae8a555b" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image37.png"><img style="width:487px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image37.png"/></a></figure><p id="2297904f-03a9-8189-9013-f723b1172f20" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-818c-8363-f2cac36e10c1" class="">The main outcome arises at the level of the brain,</p><p id="2297904f-03a9-813e-ab01-d904184f1d40" class="">leading to neurodegeneration (fig.8), but NCP1</p><p id="2297904f-03a9-8159-82cc-e717412eaaf8" class="">and NPC2 are present also in other tissues and,</p><p id="2297904f-03a9-819d-bdee-d42f54401862" class="">as a consequence, cholesterol accumulates also</p><p id="2297904f-03a9-815f-afd4-eb84a729cb68" class="">in the lysosomes of the liver and spleen, causing,</p><p id="2297904f-03a9-814d-a24f-e492142bc2ab" class="">reduced life expectancy, hepatosplenomegaly,</p><p id="2297904f-03a9-8174-8205-c4e33f83c9b6" class="">and lung deficiency, so it affects all the tissues,</p><p id="2297904f-03a9-81b3-9235-fbe2d9cadbab" class="">but mostly the <strong>liver, spleen and brain</strong>.</p><p id="2297904f-03a9-817d-a7aa-cae3f00f9e87" class="">Niemann pick is also known as <strong>child Alzheimer</strong></p><p id="2297904f-03a9-81c7-99bc-fa6c95eecbc6" class=""><strong>disease</strong> because it shares many features with</p><p id="2297904f-03a9-8137-936c-d57b06148381" class="">Alzheimer&#x27;s disease, but in children.</p><p id="2297904f-03a9-81a2-9436-e3a94557f237" class="">In the transfer of cholesterol from LDL to</p><p id="2297904f-03a9-8103-872f-f4782698236a" class=""><em>fig.8</em> lysosomal membrane the lysosomes appear filled with cholesterol (fig.7).</p><p id="2297904f-03a9-8128-b0f3-cf805920a676" class="">NPC2 is a soluble protein that flows inside the lysosome, it is able to bind cholesterol and acts as a shuttle to bring cholesterol to the lysosomal membrane where it finds NPC1.</p><p id="2297904f-03a9-81de-8b19-f4c6315e5ce4" class="">NPC1 is a transmembrane protein with several transmembrane domains on the surface of lysosomes, it binds cholesterol and it inserts it on the lysosomal membrane, allowing it to get out of the lysosome.</p><p id="2297904f-03a9-8144-aa15-ecc6c7a67d5c" class="">The loss of function in either NPC1 or NPC2 leads to the same result: cholesterol is trapped in the lysosomes.</p><p id="2297904f-03a9-81a5-b4e5-e731e6401568" class="">The <strong>age of onset</strong> of NP-C is very early in life:</p><p id="2297904f-03a9-81a0-9816-d18d0f5ba3ef" class="">1. Newborn NP-C: liver disease at or soon after birth and causes early death, with erythroblastosis fetalis;</p><p id="2297904f-03a9-81e9-8583-ff985807130a" class="">2. Early and late infantile NP-C (0-6 years)</p><p id="2297904f-03a9-81da-a181-dca9f2fe774e" class="">3. Juvenile NP-C (6-15 years)</p><p id="2297904f-03a9-81a6-9dca-ccdca2fb89a8" class="">4. Adolescent/adult NP-C (&gt;15 years)</p><p id="2297904f-03a9-8132-bed7-db9c0f3ff3f4" class="">They are characterized mainly by neurological symptoms and visceral symptoms (in particular in children).</p><p id="2297904f-03a9-818f-b608-f550af50d822" class=""><strong>Neuropathological features</strong></p><p id="2297904f-03a9-81ea-a6af-fa5f82832da0" class="">- <strong>Neuronal degeneration,</strong> due to cholesterol accumulation</p><p id="2297904f-03a9-813d-96a9-db30b5e5ee3a" class="">- <strong>child Alzheimer disease*</strong>, Alzheimer&#x27;s-like neurofibrillary tangles and amyloid beta accumulation in the extracellular space. They are the two main histopathological features of this disease, at the level of the cerebral cortex. Neurofibrillary tangles are present intracellularly, in the cytoplasm of neurons.</p><p id="2297904f-03a9-81f9-be7a-f7b0b383b728" class="">They are due to the hyperphosphorylation of tau protein, a protein essential for neurons because it is responsible for microtubules stabilization. When tau is hyperphosphorylated, it detaches from microtubules, accumulates inside the neurons and they die. Another histopathological feature is the accumulation of amyloid beta accumulation in the extracellular space forming amyloid plaques, which are neurotoxic and cause neurons’ death.</p><ul id="2297904f-03a9-81cc-91bf-d1154b03c071" class="bulleted-list"><li style="list-style-type:disc"><strong>Neuroaxonal dystrophy</strong></li></ul><p id="2297904f-03a9-8121-9769-f0c04e0b31a4" class="">- <strong>Demyelination</strong></p><p id="2297904f-03a9-81d1-87fe-f7da818f6252" class="">- <strong>Neonatal jaundice</strong></p><p id="2297904f-03a9-81b9-b9ec-c1c85e54ec67" class="">- <strong>Hepatosplenomegaly</strong></p><p id="2297904f-03a9-81e4-a2aa-e049323df30f" class="">-difficulty in speaking and in swallowing</p><p id="2297904f-03a9-81f5-be0e-db6d564b8de6" class=""><strong>Clinical presentation</strong></p><p id="2297904f-03a9-81b9-bc4c-ca68a53c8569" class="">• Cerebellar ataxia (movements disorder in 85-90% of NP-C patients)</p><p id="2297904f-03a9-81c5-a2f0-c1dd9d97391d" class="">• Dystonia contributes to patient disability. it can either be focal (affecting hands, face, or upper limbs, or more generalized). Dystonia tends to occur later than other neurological signs during the course of NP-C.</p><p id="2297904f-03a9-8119-b266-f3e882684255" class="">Psychiatric disorders •</p><p id="2297904f-03a9-81f0-a10f-ef6a1efce8c8" class="">• Cognitive deficits, dementia (childhood Alzheimer’s)</p><ul id="2297904f-03a9-8139-a157-efd81fbd6729" class="bulleted-list"><li style="list-style-type:disc">Niemann-Pick is a very rare disorder and there is not a cure for this disease, just like Alzheimer.</li></ul><p id="2297904f-03a9-816e-a46d-ecab61c01b00" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-8144-96c6-e9c676238507" class="">43</p><p id="2297904f-03a9-8143-8bf4-d189755f3745" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-81d3-b6f9-f1bfe4b1190f" class="">The only known information is that in these children there are some lesions that are similar to the ones present in Alzheimer’s disease and in other neurodegenerative disorders (eg. Lewy bodies typical of Parkison’s disease can be observed in NP too).</p><p id="2297904f-03a9-81f1-8d18-fcc7fb5b5d58" class="">This (fig.9) is an example of a little boy that was born without any symptoms, but was diagnosed with NP-C disease and probably had mutations at the level of NPC1.</p><p id="2297904f-03a9-8165-9a41-d114bf7a0ba0" class="">Since it is a progressive disease, symptoms started to arise at 3-4 years of age and they quickly got worse and worse. At 9 years old he was unable to swallow and wheelchair-bound.</p><p id="2297904f-03a9-815d-b98c-ce44a10722bc" class="">Unfortunately died at 10 years old.</p><figure id="2297904f-03a9-8125-8f58-f14f4fea7707" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image38.png"><img style="width:443px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image38.png"/></a></figure><figure id="2297904f-03a9-815e-9769-c5c2ce6b0a09" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image39.png"><img style="width:442px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image39.png"/></a></figure><p id="2297904f-03a9-81a7-b9cb-f536aa0776b1" class=""><em>fig.9</em></p><p id="2297904f-03a9-8117-8368-ce2110485d55" class="">When you have a reduced presence of NPC1 or NPC2, the quantity of cholesterol in lysosome is increased, while in the plasma membrane cholesterol is reduced.</p><p id="2297904f-03a9-81e0-8037-fa2c337c67eb" class="">Some studies have demonstrated that cholesterol inside endosomes is responsible for the increased production of two proteins:</p><p id="2297904f-03a9-81d6-a066-c165d14b6268" class="">• <strong>APP</strong>→ amino precursor protein, which will give rise to amyloid plaques)</p><p id="2297904f-03a9-8109-aa82-e504b7d97c14" class="">• <strong>BACE</strong>→ beta secretase, the main enzyme that cuts APP leading to the formation of amyloid plaques. Some ongoing studies are trying to understand the pathogenic mechanisms leading to amyloid plaques and neurofibrillary tangles.</p><p id="2297904f-03a9-8170-8f5e-c6d59c495a63" class=""><em>Q: What are amyloid plaques?</em></p><p id="2297904f-03a9-81da-b468-e59402cdb30d" class=""><em>A: They are accumulations of amyloid beta which is a neurotoxic protein produced starting from APP protein, which is a transmembrane protein present on the surface of neurons. This protein is cut by different proteases, it accumulates outside and it’s neurotoxic. It kills the neuron and inhibits the transmission of signals.</em></p><p id="2297904f-03a9-81e8-90cb-e112b8e9e589" class=""><strong>CYSTIC FIBROSIS</strong></p><p id="2297904f-03a9-81e5-b142-dbbb6448bb08" class="">It is an <strong>autosomal recessive disorder</strong>, also called mucoviscidosis. It is characterized by different <strong>mutations</strong> at the level of the <strong>gene coding forCFTR</strong> (cystic fibrosis transmembrane conductance regulator).</p><p id="2297904f-03a9-81d9-bb70-e9008944074c" class="">CFTR is an <strong>epithelial chloride channel protein</strong> present on the surface of all exocrine glands, both mucus secreting glands and sweat glands.</p><p id="2297904f-03a9-81f2-b10d-d5008cd46dfd" class=""><strong>Age of onset</strong></p><p id="2297904f-03a9-810a-a5bd-c525c8a01db7" class="">Cystic fibrosis affects children, between birth and late childhood, and it’s very variable. It is usually said that the average life expectancy is 30 years, but there are many different grades of severity depending on the type of gene mutation so it’s difficult to predict the life expectancy. Some subjects have very severe cystic fibrosis, while in others this disease is compatible with life.</p><p id="2297904f-03a9-8120-b095-c53ee82fb60b" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-815d-8fcb-fefb936ef5c7" class="">44</p><figure id="2297904f-03a9-81f1-9448-d916225d8cbf" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image40.png"><img style="width:644px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image40.png"/></a></figure><figure id="2297904f-03a9-8133-851a-ea46a7ecf873" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image41.png"><img style="width:700px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image41.png"/></a></figure><figure id="2297904f-03a9-8160-ac2f-c5d760274cc8" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image42.png"><img style="width:700px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image42.png"/></a></figure><p id="2297904f-03a9-8126-98d5-d4d63c96238e" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-8163-963d-e1956cce66e6" class=""><strong>CFTR structure</strong></p><p id="2297904f-03a9-8177-910e-ca1e3de20048" class="">This is a physiological CFTR (fig.10).</p><p id="2297904f-03a9-812e-a0ab-e87d11880252" class="">After gene expression, the protein goes through the</p><p id="2297904f-03a9-815b-8bdb-f51b7cdc82c9" class="">ER, Golgi apparatus and finally reaches the surface</p><p id="2297904f-03a9-8151-aa28-db49c58be8aa" class="">where it has two transmembrane domains.</p><p id="2297904f-03a9-819d-aefc-cbf51567ec63" class="">CFTR is present on the surface of all exocrine glands,</p><p id="2297904f-03a9-81a8-9bcd-ce7e7cbd8969" class="">both in mucous and in sweat glands, but in these</p><p id="2297904f-03a9-8123-85d7-d1db5ed8f459" class="">two types of glands, it in the opposite way.</p><p id="2297904f-03a9-8113-817d-c3d0fea33b31" class=""><em>fig.10</em></p><p id="2297904f-03a9-8152-a22b-dedd812f0904" class=""><strong>Pathogenesis</strong></p><p id="2297904f-03a9-81c8-b62a-f9a273ce11be" class="">In <strong>mucous secreting glands</strong>, <strong>CFTRregulates the passage of chloride from the inside to the outside of cells</strong>.</p><p id="2297904f-03a9-816d-8fce-c0185eab9b5e" class="">In parallel, CFTR regulates two other membrane proteins:</p><p id="2297904f-03a9-810a-91ac-e25eccfbbdea" class="">• <strong>ENaC</strong> (epithelial Na+ channel). It is a sodium channel that brings sodium inside the cell.</p><p id="2297904f-03a9-8119-9f55-f726003ebd1e" class="">CFTR regulates ENaC by inhibiting it and sodium remains out of the cell. So outside there will be sodium chloride salts, which bring water out of the cell. By doing so the mucus becomes normally hydrated.</p><ul id="2297904f-03a9-81ab-afb1-c268fd0c9653" class="bulleted-list"><li style="list-style-type:disc"><strong>ORCC</strong> (outwardly rectified chloride channel). It is another chloride channel activated by CFTR and it has the same function as CFTR: to bring chloride out.</li></ul><p id="2297904f-03a9-8184-8760-ea5b3b401d81" class="">When CFTR is not present or is not working properly, as in the right side of fig.11, chloride can’t go out anymore and it remains inside the cells.</p><p id="2297904f-03a9-8167-ad35-cf32c4b5b308" class="">Moreover, CFTR is not able to inactive ENaC channels so too much sodium goes inside the cells, followed by water. Since water goes inside the cells, the mucous becomes very dehydrated.</p><p id="2297904f-03a9-81a0-8100-f7b03040d54e" class="">Normally, as shown on the right of fig.11, CFTR is present and working, so chloride goes out and just a small amount of sodium gets in (very thin arrow) because CFTR inhibits ENaC channels. Similarly, just a small amount of water gets in. So outside we have sodium and water and the mucous will be normal, hydrated.</p><p id="2297904f-03a9-8172-acea-dc1a432d8425" class=""><em>fig.11</em></p><p id="2297904f-03a9-811b-baba-fbc2b4ba15c6" class="">In <strong>sweat secreting glands</strong> CFTR works in the opposite way (fig.12): chloride is taken up by CFTR. In cystic fibrosis, since CFTR is not present or not properly working, chloride remains outside of the cell. This doesn’t lead to problems at the level of the sweat gland itself, but the only important consequence is that the sweat is very salty. This is important because it’s a way to recognize if a newborn might be affected by cystic fibrosis.</p><p id="2297904f-03a9-81f4-85c2-f52af252165e" class=""><em>fig.12</em></p><p id="2297904f-03a9-8105-8661-edabd1f439d0" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-8192-bd8e-f13c6d88737b" class="">45</p><p id="2297904f-03a9-81e4-9aa6-d57435049693" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-8155-b391-dfd9c9f16fab" class="">very severe. In some other cases CFTR is only produced in</p><p id="2297904f-03a9-8111-aa6a-dfb4b1bbe26e" class=""><strong>less amounts</strong></p><p id="2297904f-03a9-8133-88f7-d49d8c2fec90" class="">so on the surface you find CFTR but it’s not enough to exert its function. This is a less severe form of cystic fibrosis. There could also be a normal amount of CFTR present on the membrane but it is</p><p id="2297904f-03a9-81fd-94a9-ec18c8289085" class=""><strong>not able to bind ATP</strong></p><p id="2297904f-03a9-8119-8815-fb274e815a88" class="">correctly and does not work.</p><figure id="2297904f-03a9-814d-9dae-d6ce4b9a9774" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image43.png"><img style="width:700px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image43.png"/></a></figure><p id="2297904f-03a9-8167-acbb-c084a4523410" class=""><em>fig.13</em></p><p id="2297904f-03a9-8162-bbb5-c7d8e4eb6943" class=""><strong>Mutations</strong></p><p id="2297904f-03a9-8156-ac72-f21ad6830781" class="">There are different mutations</p><p id="2297904f-03a9-81f5-b557-cc30cf94f5e4" class="">responsible for cystic fibrosis (fig.13).</p><p id="2297904f-03a9-81f3-af72-d7ff4da74909" class="">The mutations might lead to the</p><p id="2297904f-03a9-811c-91c5-e3901ba03e39" class=""><strong>complete absence of CFTR</strong> on the cell’s</p><p id="2297904f-03a9-810e-ac02-f26669e561d2" class="">membrane or there could be <strong>an</strong></p><p id="2297904f-03a9-8192-950a-d4ee49fbadc9" class=""><strong>intracisternal retention</strong> in the ER or</p><p id="2297904f-03a9-81f3-8009-e257aca96247" class="">Golgi. In these two cases the disease is</p><p id="2297904f-03a9-81e2-8a54-c0eb1acbf9e5" class="">The main gene mutation (fig. 14) that leads to cystic fibrosis is the <strong>deletion</strong> of a codon in position 508: <strong>delta phenylalanine 508</strong>. This deletion is responsible for the intracisternal retention of CFTR. It’s a very severe form, so if phenylalanine is lacking, CFTR will still be produced but it will be trapped in the Golgi apparatus and there will be no CFTR on the surface.</p><figure id="2297904f-03a9-8117-a1f6-cf69e05b4c7b" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image44.png"><img style="width:700px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image44.png"/></a></figure><p id="2297904f-03a9-811f-a247-f19d1cac4028" class=""><em>fig.14</em></p><p id="2297904f-03a9-81e7-b941-cd5b806915ba" class="">In these pictures (fig.15) it is possible to find:</p><p id="2297904f-03a9-8198-900e-e9f2bd33c0bf" class="">• <strong>normal CFTR</strong> in which chloride goes out of the cell</p><p id="2297904f-03a9-813a-9279-edbfbe5b20a6" class="">• <strong>absent CFTR</strong> in which chloride, sodium and water remain inside the cell</p><p id="2297904f-03a9-8126-94f7-f4e52e077df5" class="">• <strong>non normal CFTR</strong> that allows the passage of just a small amount of chloride, water and sodium. The mucous will be only partially hydrated.</p><figure id="2297904f-03a9-8160-86f8-ebf4431447e6" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image45.png"><img style="width:700px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image45.png"/></a></figure><p id="2297904f-03a9-815a-8d80-cffc1e8fbb3c" class=""><em>fig.15</em></p><p id="2297904f-03a9-81c0-bfb2-c5d39d7abba6" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-81e3-a420-f44ce5041a99" class="">46</p><p id="2297904f-03a9-811e-8cd9-d9cc102904df" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-81f9-9d1e-cc3272a95744" class=""><strong>CYSTIC FIBROSIS IN THE DIFFERENT AFFECTED ORGANS OF EXOCRINE</strong></p><p id="2297904f-03a9-81ac-8be9-e46046fe9b1f" class=""><strong>Pancreas</strong> <em>fig.16</em></p><figure id="2297904f-03a9-811a-9079-e642e6070960" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image46.png"><img style="width:421px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image46.png"/></a></figure><p id="2297904f-03a9-817f-823f-df553bfc5f12" class="">The term “cystic fibrosis” comes from cystic/fibrosis formation that occur at the level of the pancreas.</p><p id="2297904f-03a9-8120-81ba-dbe93f3015a9" class="">90% of patients have pancreatic abnormalities (<strong>chronic pancreatitis)</strong> because the mucous is so thick in the exocrine pancreas that it occludes the pancreatic ducts bringing to atrophy of the exocrine glands and cell necrosis.</p><p id="2297904f-03a9-817a-a9b1-fdc53ea59b37" class="">Eventually necrosis induces inflammation (acute pancreatitis, that then becomes chronic pancreatitis) and then there is an attempt to repair the damage thanks to the activation of fibroblasts that secrete extracellular matrix. As a consequence, fibrosis increases at the level of the pancreas giving rise to cystic fibrosis (fig.16).</p><p id="2297904f-03a9-8147-bd39-ead48143f234" class="">If the exocrine part of the pancreas doesn&#x27;t work, pancreatic juices are not produced and this leads to <strong>steatorrhea</strong> (abundant and smelling excrements due to no fat absorption), <strong>growth retardation, nutritional deficiency</strong> (lack of fat-soluble vitamins: avitaminosis A, D, K) and <strong>squamous metaplasia</strong> of the lining epithelium of the ducts in the pancreas.</p><p id="2297904f-03a9-8156-9ed8-f1b83a733099" class="">This process only affects the exocrine portion.</p><p id="2297904f-03a9-816f-bea4-c2f0fb43838a" class=""><strong>Respiratory tract</strong></p><p id="2297904f-03a9-815f-9bd6-f4e96887d4d9" class="">At the level of the respiratory tract the <strong>mucus is particularly thick and dehydrated</strong> (fig.17), the consequence is that there is a tendency to develop <strong>infections</strong> that can lead to pneumonia. Recurrent bronchitis and pneumonia are the main causes of cell death.</p><p id="2297904f-03a9-8112-aa14-e3150376b7e7" class="">Pulmonary changes are observed in all cases of cystic fibrosis and they are the most serious complication of the disease. There is marked hypertrophy and hyperplasia of mucosal glands.</p><p id="2297904f-03a9-81bb-af2d-d34546cae6d9" class="">The insufficient hydration of the mucus and the consequent alteration of the activity of the celia, determines the inability to effectively remove the bacteria (eg. pseudomonas aeruginosa is the most common pathogen).</p><p id="2297904f-03a9-8196-81db-d841a20943c9" class=""><strong>Gastrointestinal tract</strong></p><figure id="2297904f-03a9-817d-bc06-ce6198892523" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image47.png"><img style="width:420px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image47.png"/></a></figure><p id="2297904f-03a9-8166-bff5-ed32af2925f8" class=""><em>fig.17</em></p><p id="2297904f-03a9-81ce-9439-f89094f2132e" class="">The typical symptom is <strong>meconium ileus</strong>(in italiano “ileo da meconio”): an obstruction of the small intestine in newborns. This is a way to identify a child that is affected by cystic fibrosis, together with salty sweat. Meconium derives from the ingestion of liquids coming from the mother during pregnancies. If two or three days after birth the baby is not able to evacuate, meconium is not released, exams have to be carried out immediately in order to understand if the baby is affected with cystic fibrosis. Therefore, mothers and doctors have to pay attention to this in the immediate postpartum.</p><p id="2297904f-03a9-81e9-913f-ddf901854ae3" class=""><strong>Liver</strong></p><p id="2297904f-03a9-8167-831a-f5f667382666" class="">Bile canaliculi are plugged by mucus material. <strong>Hepatic steatosis</strong> is not an uncommon finding in liver biopsies. If this situation lasts for a long time, <strong>cirrhosis</strong> can develop.</p><p id="2297904f-03a9-81bc-ad91-f854b227279e" class="">This liver involvement is found only in 5% of patients with CF.</p><p id="2297904f-03a9-81a2-a96a-d9443e929338" class=""><strong>Reproductive system</strong></p><p id="2297904f-03a9-818a-8e5c-cb242f0e9908" class="">At the level of the reproductive system, males have some peculiarities: congenital bilateral absence of vas deferens or obstruction of the vas deferens by dense secretions that lead to <strong>infertility.</strong></p><p id="2297904f-03a9-811f-a386-ed0c6a158034" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-816e-96c0-fddb12786840" class="">47</p><figure id="2297904f-03a9-81e3-bac1-f672f5a60a01" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image48.png"><img style="width:575px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image48.png"/></a></figure><p id="2297904f-03a9-814b-82df-d11a0d85c002" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-8190-8d9e-c0192b5cd597" class="">There’s also the lack of some fat-soluble vitamins, due to steatorrhea, that lead to anovulatory cycles in women, which can be a cause of infertility. Thick and adherent cervical mucus plug is also present.</p><p id="2297904f-03a9-8121-b50c-fe5169ca40bb" class=""><strong>Salivary glands</strong></p><p id="2297904f-03a9-81e9-9ca4-e6ac139ddf83" class="">The salivary glands frequently show histologic changes similar to those described in the pancreas: progressive dilation of ducts, squamous metaplasia of the lining epithelium, and glandular atrophy followed by fibrosis.</p><p id="2297904f-03a9-8169-b271-d1abb2cb188e" class=""><strong>Treatment</strong></p><p id="2297904f-03a9-81a0-a29f-ffed7483c597" class="">There isn’t a definite treatment able to cure cystic fibrosis. The <em>main forms</em> of treatment are:</p><p id="2297904f-03a9-815b-bb51-cd41f7905161" class="">- Infection control: removal of pulmonary secretions and antibiotic therapy</p><p id="2297904f-03a9-8125-a600-d7cd80e1498b" class="">- Prevention of spreading of infection by wearing masks</p><p id="2297904f-03a9-819f-bf4e-df4b2d5f60f9" class="">- Administration of pancreatic enzyme substitutes (before eating, patients need to get pancreatic enzymes because the exocrine pancreas doesn’t work)</p><p id="2297904f-03a9-8157-baa9-fe53de83d0e7" class="">- Lung and liver-pancreas transplantation</p><p id="2297904f-03a9-8196-8ce8-dbd8e936ff59" class=""><strong>Gene therapy</strong></p><p id="2297904f-03a9-819d-8c24-eb751daeb283" class="">CFTR has been cloned. The transfer of the non-mutated gene encoding CFTR into cells of patients cultured in vitro is able to correct the transport defect of chlorine and restore its normal functionality.</p><p id="2297904f-03a9-81c4-adcf-e7f6af31bc82" class="">The professor mentions a couple of articles on gene therapy that she found on pubmed. These are the links: •</p><p id="2297904f-03a9-812d-9b31-ce009bf84a0c" class="">•</p><p id="2297904f-03a9-81b7-a00c-c274f9f851cd" class=""><strong>INBORN ERRORS OF METABOLISM</strong></p><p id="2297904f-03a9-810a-b567-f405f052097c" class="">There are many recessive disorders that are due to the</p><p id="2297904f-03a9-818a-b00d-ef760751f780" class="">lack of key enzymes in metabolic pathways (fig.18).</p><p id="2297904f-03a9-81ac-8579-c8c7c0062402" class="">Now <strong>phenylketonuria</strong> and <strong>alkaptonuria</strong> will be discussed,</p><p id="2297904f-03a9-8175-9b11-f1efe2360b89" class="">theseare two disorders related to the metabolism of</p><p id="2297904f-03a9-819f-b013-f19ffd170599" class="">phenylalanine.</p><p id="2297904f-03a9-8172-92b7-f542b8114d87" class=""><strong>PHENYLKETONURIA</strong> <em>fig.18</em></p><p id="2297904f-03a9-81ed-a81a-c4952ebbeb2c" class="">It is an <strong>autosomal recessive disorder</strong> in which there is a <strong>deficiency ofphenylalanine hydroxylase</strong> (PAH), an enzyme that transforms phenylalanine into tyrosine.</p><p id="2297904f-03a9-81f6-ab94-ed279078c58f" class="">If the enzyme is lacking, tyrosine is not created, and phenylalanine accumulates in blood. This is why phenylketonuria is also called hyperphenylalaninemia.</p><p id="2297904f-03a9-81d6-9c56-d5f2dec04e1c" class="">This disorder brings to <strong>CNS development alterations</strong> after birth because tyrosine is necessary for the biosynthesis of catecholamines, so neurotransmitters that are necessary for brain development, a condition called phenylpyruvic oligophrenia.</p><p id="2297904f-03a9-81a7-b7b5-d8351be90832" class="">Moreover, affected children have very blonde hair and blue eyes because tyrosine is a key molecule responsible for melanin production. These physical features are similar to those of albinism, in which the enzyme that transforms tyrosine into melanin is lacking. In phenylketonuria this enzyme is present but since less tyrosine sick people don’t produce much melanin.</p><p id="2297904f-03a9-812a-9602-ecc90af198cf" class="">Since this is an autosomal recessive disorder, the affected child has to be homozygous, and the mother will for sure be heterozygous. During pregnancy the baby is able to use the PAH of the mother, while after birth he can’t do that anymore</p><p id="2297904f-03a9-81c1-9cfc-c67480b2ba88" class="">To sum up, in newborns there are:</p><p id="2297904f-03a9-8103-bdd4-ee37858dc7bb" class="">cerebral damage and mental retardation: <strong>phenylpyruvic oligophrenia</strong>•</p><p id="2297904f-03a9-8143-a5e2-e80d01574ac2" class="">• light-colored skin, eyes and hair</p><p id="2297904f-03a9-8119-891f-d697055b11cf" class="">The treatment consists in the elimination of phenylalanine from the diet, as it is present in all products from animal origin. Therefore, patients need to take semi-synthetic formulations that have no phenylalanine and are rich in tyrosine.</p><p id="2297904f-03a9-81eb-9099-fee72406e4ba" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-81ba-baf9-c5d04e0e4c4c" class="">48</p><figure id="2297904f-03a9-816b-8e28-fe5f24bf9da3" class="image"><a href="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image49.png"><img style="width:555px" src="congenital%20disorders%202297904f03a981f9b11ef960d86409eb/image49.png"/></a></figure><p id="2297904f-03a9-81ee-b1b0-ff0e8ab5b5e2" class="">17.03.2023 GAMBA L.4</p><p id="2297904f-03a9-8170-b804-d194a573f21e" class=""><strong>Maternal phenylketonuria</strong>→ elevated maternal phenylalanine levels during pregnancy are <strong>teratogenic</strong>, so phenylalanine and its metabolites cross the placenta and affect specific foetal organs during development. In order to avoid disorders in the embryo, maternal dietary restriction of phenylalanine has to be initiated before conception and continued throughout pregnancy. Moreover, if the foetus is homozygous for the mutation, the mother is administered with tyrosine.</p><p id="2297904f-03a9-81cc-a5eb-d66061c5fe2d" class=""><strong>Malignant hyperphenylalaninemia</strong>→ these are some severe cases in which the dietary intake of tyrosine and the elimination of phenylalanine is not sufficient. In this case there is also a malfunction and deficit of tetrahydrobiopterin (<strong>BH4</strong>). Patients with malignant hyperphenylalaninemia cannot be treated by dietary restriction of phenylalanine.</p><p id="2297904f-03a9-814e-87ce-d9ddbe87e305" class=""><strong>ALKAPTONURIA</strong></p><p id="2297904f-03a9-8129-a9fd-f294fb4fd83d" class="">It is the first metabolic disorder to have been discovered.</p><p id="2297904f-03a9-8164-b1c5-c4c6de039662" class="">Alkaptonuria is a <strong>recessive disorde</strong>r caused by <strong>mutations in the gene coding for homogentisic acid oxidas</strong>e, an enzyme belonging to phenylalanine metabolism which normally degrades homogentisic acid into water and carbon dioxide. As a consequence, in alkaptonuria there is an accumulation of homogentisic acid (<strong>alkapton</strong>).</p><p id="2297904f-03a9-81b8-ab3e-f2a1e74358a3" class="">Alkaptonuria leads to (fig.19):</p><p id="2297904f-03a9-81c1-940a-d3b76a0a1802" class="">- Dark urine due to presence of akapton inside</p><p id="2297904f-03a9-8134-af04-e41c0d4a41c7" class="">- Generalized pigmentation of nails, ears, skin, sclera</p><p id="2297904f-03a9-8153-8e97-d9b977f19857" class="">and blue cartilage tending to black</p><p id="2297904f-03a9-8125-929e-efdfe9133a0e" class="">- Arthritis</p><p id="2297904f-03a9-8151-941b-f3d0c972650a" class="">It doesn’t reduce patients’ life expectancy.</p><p id="2297904f-03a9-81d7-8205-f10778821397" class=""><em>fig.19</em></p><p id="2297904f-03a9-81be-a9ff-f709ec1456ad" class="">Fiamma Cusumano, Samuele Scagliola</p><p id="2297904f-03a9-81a3-b008-f732527eb191" class="">49</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

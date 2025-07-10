@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> hypertension and shock</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81ab-b01f-c7d192427392" class="page sans"><header><h1 class="page-title"> hypertension and shock</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-812d-a329-dc3d603d2b0f" class="">04.05.2023 LEONARDUZZI L.5</p><p id="2297904f-03a9-81ca-b845-fed11b3c741c" class=""><strong>HYPERTENSION AND SHOCK</strong></p><p id="2297904f-03a9-8150-8163-d2583a085133" class="">The topic of today is hypertension and shock, the latter is one of the main causes of death.</p><p id="2297904f-03a9-812b-a81c-c84a16e16424" class=""><strong>BLOOD PRESSURE</strong></p><p id="2297904f-03a9-8118-8598-c2df22989bb5" class="">First of all, it is important to remember the mechanisms that regulate blood pressure <em>(Fig.1)</em>.</p><p id="2297904f-03a9-81f7-941a-c4a5ee583d59" class="">Blood pressure is defined as the product between the cardiac output and the peripheral resistance, hence these 2 factors regulate blood pressure.</p><p id="2297904f-03a9-810f-af9f-d86d8d8d6217" class="">The <strong>cardiac output</strong>, in particular, is regulated by both <strong>cardiac factors</strong> (heart rate and myocardial contractility) and by <strong>blood volume</strong> (=stroke volume, this value can change according to the concentration in the circulation of sodium and mineralocorticoids or depending on the release of the atrial natriuretic peptide by the myocardium).</p><p id="2297904f-03a9-8190-b639-ebce7d80d538" class="">The <strong>peripheral resistance</strong> can change as well, according to the ability of the vessels (arteries and veins) to change their lumen size; in this way, they are able to control the blood pressure through vasoconstriction and vasodilation. Many factors can control the lumen of the vessels, such as:</p><p id="2297904f-03a9-815a-952c-d44f7acd1318" class="">• <strong>humoral factors</strong>, which can be constrictors (like angiotensin II, catecholamines released by the adrenal gland, thromboxane and leukotrienes that are arachidonic acid derivatives, and endothelin released by endothelial cells) and dilators (prostaglandins, kinins, and NO)</p><p id="2297904f-03a9-816f-a7a5-fa1d00b00a3d" class="">•</p><p id="2297904f-03a9-81cd-8d4c-fb42c07f29b3" class=""><strong>local factors</strong>: they are involved in autoregulation of the lumen size, which can change according to hypoxia and pH</p><p id="2297904f-03a9-81aa-8a57-c9e6a0a3d844" class="">• <strong>neural factors</strong>, divided into constrictors (α-adrenergic) and dilators (β-adrenergic). They can also regulate the heart rate and the contractility of the myocardium.</p><p id="2297904f-03a9-8101-9e8f-e6d3c8cddcce" class="">The balance between all these factors is necessary to maintain the right lumen size of the vessels.</p><figure id="2297904f-03a9-8123-b8b4-ee8ed6f882d5" class="image"><a href="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image1.png"><img style="width:700px" src="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image1.png"/></a></figure><p id="2297904f-03a9-8124-8aa3-d01de1eb5b92" class=""><em>Fig. 1</em></p><p id="2297904f-03a9-81ad-9c7d-e1f427b020f9" class=""><strong>CARDIAC OUTPUT</strong></p><p id="2297904f-03a9-813b-963c-dd0f9d5b2645" class="">It&#x27;s determined by the heart rate (contractility of the heart) and the stroke volume, which is the quantity of blood that flows in circulation in a specific unit of time.</p><p id="2297904f-03a9-81d7-9c96-d203a2449413" class="">The cardiac output is strongly influenced by blood volume, which, in turn, is mainly regulated by renal sodium excretion or reabsorption that occurs through the renin-angiotensin system. The concentration of Na+ is very important for the maintenance of blood volume. In order to do this, many factors are released and they act adjusting the concentration of Na+:</p><p id="2297904f-03a9-81ca-933f-fc3e33944be4" class="">- <strong>Renin</strong>: a proteolytic enzyme released by the kidneys.</p><ul id="2297904f-03a9-818a-b724-d93a87f6ba91" class="bulleted-list"><li style="list-style-type:disc"><strong>Aldosterone</strong>: produced andreleased by the cortex of the adrenal gland.</li></ul><p id="2297904f-03a9-81df-b83f-c855f9ee17b0" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-819a-b227-dcef5dfed73b" class="">54</p><p id="2297904f-03a9-8121-b9ec-f0859d3388e8" class="">04.05.2023 LEONARDUZZI L.5</p><ul id="2297904f-03a9-81ee-bbe6-fb46ddeb3b0d" class="bulleted-list"><li style="list-style-type:disc"><strong>Angiotensin II</strong>: derived from angiotensin I, which in turn derives from angiotensinogen produced by the liver.</li></ul><ul id="2297904f-03a9-81bb-a102-caaa1c163185" class="bulleted-list"><li style="list-style-type:disc"><strong>atrial natriuretic peptide</strong>:released by the myocardium.</li></ul><p id="2297904f-03a9-81fd-9b8f-f863ba753330" class="">Kidneys filter <strong>170 L of plasma</strong> containing 23 nanomoles of salt daily.</p><p id="2297904f-03a9-8117-a85e-db8dcc74a168" class=""><strong>99.5% of filtered salt is reabsorbed</strong>, to maintain the total body concentration of Na+:</p><p id="2297904f-03a9-8147-8ebe-f3b53563c679" class="">- <strong>98%</strong> of sodium is reabsorbed by active sodium transporters, mainly ENaC (epithelial Na+channels), regulated by <strong>aldosterone</strong> which favors the reabsorption of Na+ and water.</p><ul id="2297904f-03a9-8103-81ac-db61f2ab4af8" class="bulleted-list"><li style="list-style-type:disc"><strong>1.5%</strong> is reabsorbed by epithelial sodium channels regulated by the renin-angiotensin system.</li></ul><p id="2297904f-03a9-8134-92d5-ea03c9dd637a" class="">In the end, through these two activities, it’s possible to maintain constant the concentration of Na+ and blood pressure.</p><p id="2297904f-03a9-813f-ae14-e27f8635d5c4" class="">In the presence of reduction of blood volume and pressure, there are <strong>macula densa cells</strong>, at the level of the kidney, that sense these reductions, leading to the release of effectors whose aim is to increase the blood volume and pressure.</p><p id="2297904f-03a9-8175-a04b-dd6170225515" class="">Which is the mechanism? Kidneys can influence the excretion/absorption of Na+ through the activation of the renin-angiotensin system.</p><p id="2297904f-03a9-8126-bd0a-e121fa6181fe" class=""><strong>Renin</strong> is a proteolytic enzyme produced by renal juxtaglomerular cells in the kidneys and released by them in the presence of:</p><p id="2297904f-03a9-81d6-86f2-fc5624e8da88" class="">- decreased blood pressure in afferent arterioles.</p><ul id="2297904f-03a9-8179-b986-e238bac72d74" class="bulleted-list"><li style="list-style-type:disc">elevated levels of circulating catecholamines.</li></ul><ul id="2297904f-03a9-818d-b640-f8c6f3916d9c" class="bulleted-list"><li style="list-style-type:disc">low Na+ levels in the distal convoluted renal tubules. So renin stimulates Na+ reabsorption.</li></ul><p id="2297904f-03a9-81e1-8ae1-e43fae90a701" class="">Thus, the aim of renin is to restore blood volume and blood pressure. This enzyme cleaves the <strong>angiotensinogen</strong> (synthesized in the liver) into <strong>angiotensin I</strong>, which, in turn, is converted into <strong>angiotensin II</strong> by the enzyme ACE (Angiotensin-Converting Enzyme) released by the vascular epithelium.</p><p id="2297904f-03a9-818a-9be8-ff58415193d4" class="">Angiotensin II acts by stimulating vasoconstriction to increase the blood pressure. In particular, it can: - stimulate the <strong>vasoconstriction</strong>, reducing the lumen sites of the vessel.</p><ul id="2297904f-03a9-8143-8cd2-d3b6bd367b71" class="bulleted-list"><li style="list-style-type:disc">stimulate <strong>aldosterone secretion</strong> by the adrenal gland.</li></ul><ul id="2297904f-03a9-81f4-8c22-febdb401c3cb" class="bulleted-list"><li style="list-style-type:disc">increase <strong>tubular Na+ reabsorption</strong> (and so <strong>water</strong>) due to adrenal aldosterone. As an effect, this reabsorption leads to an increase in the blood volume and so of blood pressure. In particular, the blood pressure increases because by increasing the blood volume the cardiac output is increased.</li></ul><p id="2297904f-03a9-8154-88e9-ce094cd2aaef" class="">On one side, there are mechanisms that try to increase blood pressure but, on the other side, others decrease the pressure. It happens because the kidneys, at the same time, release not only vasoconstrictor elements but also <strong>vascular relaxing substances</strong> (prostaglandins and NO) to counterbalance the vasopressor effect of angiotensin.</p><p id="2297904f-03a9-816f-9207-fbaf0ca64e55" class="">In addition, the myocardium releases <strong>myocardial natriuretic peptides</strong> (ANP, BNP) in response to the increased blood volume. These factors allow vasodilation and inhibit the Na+ reabsorption in the distal renal tubule, favoring the excretion of Na+ and diuresis. There could be the risk to increase too much blood pressure, so mechanisms that counteract the ones responsible for the increase in blood pressure must be present to obtain a balanced situation, in other words, a normal blood pressure.</p><p id="2297904f-03a9-8105-8fcc-d5a036b2d997" class=""><em>(Fig.2) makes a summary of the previous concepts. If we want to reduce the blood pressure, the heart releases ANP, which stimulates vasodilation (and so there is a decreased blood pressure) and inhibits the absorption of Na+, favoring its excretion. The result is a reduction in blood volume.</em></p><p id="2297904f-03a9-811e-82d6-ebe8b180fd50" class=""><em>If we want to increase blood pressure, the kidney releases renin, which converts angiotensinogen into angiotensin I, which becomes angiotensin II by ACE. Angiotensin II stimulates the release of aldosterone, which favors the absorption of Na+ and water. The result is an increase in blood volume. Angiotensin II acts also on vessel cells enhancing vasoconstriction.</em></p><p id="2297904f-03a9-81c7-807c-d1b95b2cb860" class=""><em>It’s important to balance between increased pressure and decreased pressure, because all the previous mechanisms work together to maintain a constant blood volume and blood pressure. If the action of</em></p><p id="2297904f-03a9-81d4-b2d5-c301e9321ff9" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-8146-bff9-d88a9d68bf93" class="">55</p><p id="2297904f-03a9-81e6-945f-d016f959f020" class="">04.05.2023 LEONARDUZZI L.5</p><p id="2297904f-03a9-81d2-b0d9-ec44002044a3" class=""><em>angiotensin II exceeds, the patient will develop hypertension.</em></p><p id="2297904f-03a9-8121-a3d9-e62cd4c6d066" class=""><em>In many situations the volume can increase:</em></p><p id="2297904f-03a9-814e-b8ba-e46ffe55ea0c" class="">- <em>excess dietary Na+.</em></p><ul id="2297904f-03a9-81dd-9735-f9fbe08e8933" class="bulleted-list"><li style="list-style-type:disc"><em>inadequate excretion (renal failure).</em></li></ul><ul id="2297904f-03a9-8100-adf1-cbf9f140f76e" class="bulleted-list"><li style="list-style-type:disc"><em>hyperaldosteronism → excessive production of aldosterone that increases the absorption of Na+ and</em> <em>water.</em></li></ul><p id="2297904f-03a9-81cf-a26f-f299f38ec50f" class=""><em>In other situations it can happen an increase in resistance:</em></p><p id="2297904f-03a9-8187-8fb4-f9864d078e86" class="">- <em>increased sympathetic tone.</em></p><ul id="2297904f-03a9-81da-953a-cc76da8ac322" class="bulleted-list"><li style="list-style-type:disc"><em>increased renin-angiotensin-aldosterone system.</em></li></ul><figure id="2297904f-03a9-81c4-aad7-f6c62f877de2" class="image"><a href="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image2.png"><img style="width:700px" src="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image2.png"/></a></figure><p id="2297904f-03a9-8103-a79d-c9c7d401493c" class=""><em>Fig. 2</em></p><p id="2297904f-03a9-814a-842b-cabb06d6ed7a" class=""><strong>PERIPHERAL RESISTANCE</strong></p><p id="2297904f-03a9-8182-b653-d0a0a90aabfc" class="">It’s controlled by many factors (neural, humoral, and local) that affect the vascular smooth muscle cells altering their lumen size (so causing vasoconstriction or vasodilation), depending on the ability of the cells to contract.</p><p id="2297904f-03a9-81bf-ad13-f76473bf4275" class=""><strong>Arterioles</strong>: they are important for blood distribution to different organs and tissue, and for the regulation of arterial pressure: they are the principal points of physiologic resistance to blood flow. In the arteries, the blood flow is quite strong, but by reaching the arterioles it is reduced so as to supply the capillaries with a sufficiently low pressure.</p><p id="2297904f-03a9-8137-839b-e9c6a3182e9b" class=""><strong>Veins</strong>: they can affect peripheral resistance through vasoconstriction and vasodilation. They play an important role in controlling capillary pressure; in this way, the exchange between capillary and interstitial fluid is possible. Veins can also control pressure in the blood flow, with effect on venous return and cardiac function.</p><p id="2297904f-03a9-819c-8b30-df7b010f7bda" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-81f1-9a92-cccf0c4fcb91" class="">56</p><p id="2297904f-03a9-815b-8606-c1a31d20b00d" class="">04.05.2023 LEONARDUZZI L.5</p><p id="2297904f-03a9-8196-bed0-e9f62660a129" class=""><em>(Fig.3) depicts the main characteristics of arterioles and veins. They have a very important role in controlling blood pressure. If the pressure must be increased the system applies vasoconstriction; if the pressure must be decreased, there is vasodilation.</em></p><figure id="2297904f-03a9-81d0-a482-eca552a82e0a" class="image"><a href="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image3.png"><img style="width:700px" src="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image3.png"/></a></figure><p id="2297904f-03a9-8122-b54f-c3317e27f3ec" class=""><em>Fig. 3</em></p><p id="2297904f-03a9-8177-b605-f34db774ad85" class=""><strong>HYPERTENSION</strong></p><p id="2297904f-03a9-8141-b61e-e208326b5f2c" class="">It occurs when we have an <strong>increased cardiac output</strong> (due to increased blood volume, heart contractility/heart rate) <strong>or an increased total vascular resistance</strong> (due to changes in the activity of neural, humoral, and local effectors). In some situations, both these parameters increase.</p><p id="2297904f-03a9-811e-b7da-c08f78693b97" class="">Hypertension is a pathological condition, characterized by altered mechanisms in the control of blood pressure, especially the regulation due to peripheral resistance.</p><p id="2297904f-03a9-818e-a65e-ce6dc42402fe" class="">It’s a common disorder, affecting about <strong>33%</strong> of adults in Italy: half of them are at high risk to develop cardiovascular events. It’s an important <strong>cardiovascular risk factor</strong> for atherosclerosis, which, in turn, is a risk factor for myocardial infarction, stroke, congestive heart failure, renal failure, chronic obstructive arteriopathy, aortic aneurysm, vascular encephalopathies, etc.</p><p id="2297904f-03a9-8197-9ecc-da8296e3f0ed" class="">Hypertension is quite common in the white population: the <strong>prevalence is between 20-45%.</strong></p><p id="2297904f-03a9-81d2-b180-f5b4a8465bcf" class="">It can also <strong>alter the arterial wall</strong> due to hyaline and fibroid degenerations: there is the accumulation of proteins and material in the E.C. space, leading to the thickening of the vessel’s wall, reducing the lumen of the vessel, and so there is an increase of the pressure.</p><p id="2297904f-03a9-8151-b275-d2257747fc9f" class="">The <strong>normal</strong> value of blood pressure in adults is <strong>lower than130/85 mmHg</strong> (systolic pressure/diastolic pressure). The <strong>high</strong> normal value of blood pressure is <strong>130-139/85-89 mmHg</strong></p><p id="2297904f-03a9-81bd-9dfe-cdc5ffcf2e2e" class="">Depending on the value of blood pressure, it’s possible to classify the hypertension into five categories: - <strong>Borderline:</strong> values between 140/90-95 mmHg.</p><ul id="2297904f-03a9-8107-a4e7-f4fd7b4b3c66" class="bulleted-list"><li style="list-style-type:disc"><strong>Mild:</strong> values between 140-159/95-99 mmHg.</li></ul><p id="2297904f-03a9-81bf-a1ab-f6d64ad97b62" class=""><strong>Moderate:</strong> values between 160-179/100-109 mmHg. -</p><p id="2297904f-03a9-8191-944f-d7b20ea4e3dc" class="">- <strong>Severe:</strong> values between 180-209/110-119 mmHg.</p><ul id="2297904f-03a9-8168-8cf8-ea1d00745960" class="bulleted-list"><li style="list-style-type:disc"><strong>Very severe</strong>: values &gt; 210/&gt;120 mmHg.</li></ul><p id="2297904f-03a9-8194-b653-c466bd29ad5e" class="">There are two types of hypertension:</p><p id="2297904f-03a9-819f-88a5-fc4392b9dedd" class="">- <strong>Primitive/Essential</strong>: it’s not possible to recognize the etiology. It must be treated for all life because, in the absence of a cause, it’s not possible to act on it.</p><p id="2297904f-03a9-8110-ab29-eba394d71926" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-81e4-84c5-e762455b917b" class="">57</p><p id="2297904f-03a9-810f-b7ff-cd7379f4c3a0" class="">04.05.2023 LEONARDUZZI L.5</p><ul id="2297904f-03a9-81c2-bf04-c452c5ec1cbc" class="bulleted-list"><li style="list-style-type:disc"><strong>Secondary</strong>: is associated with specific causes; so acting on the primary cause, it’s possible to reduce hypertension.</li></ul><p id="2297904f-03a9-8120-a6c8-f016f64e8252" class=""><strong>PRIMITIVE HYPERTENSION</strong></p><p id="2297904f-03a9-81e5-936c-f4e61f1781aa" class="">It is very common (<strong>90-95%</strong>) and usually occurs after the age of 40. It’s not possible to recognize a specific cause underlying the onset of hypertension, it’s a <strong>multifactorial</strong> disorder, meaning that many conditions can be involved in its development, both environmental and genetic <em>(Fig. 4)</em>:</p><ul id="2297904f-03a9-81ab-9e55-d3e0da517b50" class="bulleted-list"><li style="list-style-type:disc"><strong>Genetic factors</strong>:in some disorders, an excessive release of aldosterone favors an increased Na+ absorption in the kidney, and thus of water, so there is an increased blood volume, that lead to an increased cardiac output and peripheral vasoconstriction, and so an increased blood pressure. There could be defects concerning the production of angiotensinogen, or angiotensin receptor. There are patients in which the renin-angiotensin system is altered, with a consequent increase in Na+ reabsorption. There are also some genetic disorders regarding the factors that control peripheral resistance: some patients can release other quantities of vasoconstrictor factors (e.g. catecholamines) leading to an increase in peripheral resistance, and so an increase in blood pressure. As a consequence of different genetic influences, there could be modifications of the cardiac output, of peripheral resistance, or both.</li></ul><ul id="2297904f-03a9-8115-aa83-effb5696f6ff" class="bulleted-list"><li style="list-style-type:disc"><strong>Environmental factors</strong>: some psychogenic components can contribute to modify the lumen of the vessel, and so they can contribute to increase the peripheral resistance. For example, subjects with excessive repression of a conflictual state, anxiety, depression, stress, but also other <strong>concomitant</strong> <strong>factors</strong>, like obesity, alcohol, smoking, physical inactivity, and heavy salt consumption are more prone to develop hypertension.</li></ul><p id="2297904f-03a9-8123-b5ca-e4d1a0280fc3" class="">Moreover, environmental factors, can act by leading to some alteration of smooth muscle cells’ structure, such as thickening of the wall (decreased lumen), hence there is an increased peripheral resistance, and so an increased blood pressure.</p><figure id="2297904f-03a9-8114-9058-e777425fd0d0" class="image"><a href="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image4.png"><img style="width:543px" src="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image4.png"/></a></figure><p id="2297904f-03a9-8163-8142-f46d9d731387" class=""><em>Fig. 4</em></p><p id="2297904f-03a9-8141-818c-d7aaf98733fa" class="">What is the mechanism that leads to the development of primitive hypertension?</p><p id="2297904f-03a9-8196-957b-d3623b186b2a" class="">The first event is the reduction of renal Na+ excretion, even if the pressure is normal. The result is an increase in blood volume and in cardiac output. In addition, there can also present an increase in peripheral resistance. As a consequence, there is an increase in blood pressure <em>(blood pressure = cardiac output x peripheral resistance)</em>.</p><p id="2297904f-03a9-8176-8ba3-e87631b69d18" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-812f-b9cf-ea86ca7a9b72" class="">58</p><p id="2297904f-03a9-81c2-b43d-ec88228d2739" class="">04.05.2023 LEONARDUZZI L.5</p><p id="2297904f-03a9-81cc-9b99-e080b9922ebd" class="">To increase the blood volume, reaching the “threshold” of hypertension, is sufficient to increase the blood content of the arteries by <strong>20-30 ml</strong>.</p><p id="2297904f-03a9-81c5-b3b7-debde6cc198a" class="">The natural course of hypertension, in the beginning, is very long and asymptomatic, at least for primitive hypertension. In the case of secondary hypertension, there are clinical symptoms associated with the cause of hypertension, while in the case of primitive hypertension, in the beginning, there aren’t clinical symptoms, only an increase in blood pressure.</p><p id="2297904f-03a9-8131-8909-e02ad9aefdf2" class="">It is possible to distinguish two forms of hypertension:</p><p id="2297904f-03a9-8199-857a-cc5b0fc9881d" class="">There is a first phase in which hypertension is labile and inconstant (<strong>initial inconstant labile form</strong>). •</p><p id="2297904f-03a9-8151-a2ec-c826f7fff162" class="">This form is characterized by only an increase in cardiac output, whereas the peripheral resistance</p><p id="2297904f-03a9-81d0-9edf-d41bb3f56bb5" class="">is normal. This phase is called “labile” because, over time, the peripheral resistance increases until stabilized hypertension is determined.</p><p id="2297904f-03a9-8111-8b84-c4e67738ee10" class=""><strong>Stable form</strong>.•</p><p id="2297904f-03a9-8175-8232-ce5659696352" class="">High blood pressure can modify the morphology of vessels’ walls, by stimulating the enlargement of smooth muscle cells (= hypertrophy of cells); as a consequence, there is a reduction in the lumen of the vessels <em>(Fig.5).</em> Precapillary vessels of arterioles, in particular, increase their thickness due to hypertension, leading to a permanent reduction of the lumen. This contributes to increased blood pressure.</p><figure id="2297904f-03a9-813d-816f-d7fd0924daab" class="image"><a href="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image5.png"><img style="width:665px" src="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image5.png"/></a></figure><p id="2297904f-03a9-813d-bcd0-d697c2371ed8" class=""><em>Fig. 5</em> Primitive hypertension, other than be the most prevalent type, is also the most severe form, because it is one of the main risk of cardiovascular diseases.</p><p id="2297904f-03a9-81d2-b25a-f115968803e6" class=""><strong>SECONDARY HYPERTENSION</strong></p><p id="2297904f-03a9-819c-b4bb-d17286053dd3" class="">It comprehends 5-10% of all cases. It is possible to recognize a specific cause for it. It is associated with many diseases affecting the kidneys, adrenal glands or other endocrine organs. Treating on these diseases, we can reduce hypertension.</p><p id="2297904f-03a9-814b-b8e8-f9a273a26914" class=""><strong>Causes</strong> associated with the development of secondary hypertension: - <strong>Renal</strong></p><p id="2297904f-03a9-815a-aebc-dc10dea82617" class="">●Acute glomerulonephritis.</p><p id="2297904f-03a9-8113-871d-f477055c0c8b" class="">●Mono and bilateral pyelonephritis</p><p id="2297904f-03a9-81f2-bc51-c1061e74071d" class="">●Nephrosclerosis</p><p id="2297904f-03a9-816d-9d7e-ed9caec393b6" class="">●Polycystic kidney disease.</p><p id="2297904f-03a9-8144-bcc8-c6cfbc94d592" class="">●Renal artery stenosis.</p><p id="2297904f-03a9-81e1-a4ff-f7b281a17c66" class="">●<em>Renal vasculitis.</em></p><p id="2297904f-03a9-81e3-9836-cc3aa4293a42" class="">●<em>Renin-producing tumors.</em></p><p id="2297904f-03a9-8109-90e9-df064b8d8a36" class="">All these conditions can cause a renal hypertension, and consequently, a systemic hypertension.</p><ul id="2297904f-03a9-8104-b114-c17325298686" class="bulleted-list"><li style="list-style-type:disc"><strong>Endocrine</strong></li></ul><p id="2297904f-03a9-81c7-8abc-e30ea985dec7" class="">●Conn’s disease: characterized by hyperaldosteronism, so an increased secretion of aldosterone. The latter contributes in the reabsorption of sodium, and so of water.</p><p id="2297904f-03a9-81c6-bdcd-ecb11c1d7ff1" class="">Consequently, there will be an increase in the blood volume, and so in the blood pressure. ●Pheochromocytoma: the adrenal gland can increase the secretion of catecholamines. This increase occurs because of a tumor in the adrenal gland, that can stimulate the release of these hormones (catecholamines), which have a vasoconstrictor effect. Hence there is an increased peripheral resistance, and so an increase in blood pressure.</p><p id="2297904f-03a9-8149-a24d-ed471ddde9da" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-81e3-a58c-e09f5941a399" class="">59</p><p id="2297904f-03a9-8139-bb72-cc1b5ce69680" class="">04.05.2023 LEONARDUZZI L.5</p><p id="2297904f-03a9-81e4-b69e-e6a603db8d31" class="">●Cushing disease (hypercortisolism): increased production of corticosteroids, that contribute to an increased blood pressure.</p><ul id="2297904f-03a9-8156-9580-c6fb23909096" class="bulleted-list"><li style="list-style-type:disc"><strong>Other causes</strong></li></ul><p id="2297904f-03a9-81e7-8b23-cd1347d9e154" class="">●Coarctation of the aorta: the lumen of the aorta is reduced.</p><p id="2297904f-03a9-816c-8f52-fe2b6f9386a1" class="">●Intracranial hypertension</p><p id="2297904f-03a9-81b9-a9cb-fab8d9f286e6" class="">●Toxemia gravidarum: characterized by renal changes with hypertension and edema all over the body.</p><p id="2297904f-03a9-8104-905d-e6e2f13958c7" class="">●Acute hypervolemia: if the blood volume is increased, it will be increased also the cardiac output and so blood pressure.</p><p id="2297904f-03a9-8189-935c-c5cf7970a706" class="">Professor says that on the slide there is a more detailed list of causes, some of which she has just explained now. All these causes can be responsible for the development of secondary hypertension, but if these causes are treated, it is possible to reduce hypertension and obtain normal blood pressure.</p><p id="2297904f-03a9-813b-9c62-f87fe8135bd8" class=""><strong>CONSEQUENCES OF HYPERTENSION</strong></p><p id="2297904f-03a9-81f8-8054-d83551133505" class="">At the beginning:</p><p id="2297904f-03a9-816c-9d75-c9ce34b3c0a3" class="">- <strong>Primitive</strong> hypertension is <strong>asymptomatic.</strong></p><ul id="2297904f-03a9-8194-8c01-eaf1e60c89ca" class="bulleted-list"><li style="list-style-type:disc"><strong>Secondary</strong> hypertension has clinical symptoms strictly <strong>associated with the disease</strong> underlying the development of hypertension. The symptoms are not those distinctive of hypertension itself.</li></ul><p id="2297904f-03a9-81f6-a5d8-e56f237fe693" class="">In the beginning, there are some <strong>compensatory mechanisms</strong>. For example, kidneys respond to hypertension by eliminating salts and water, hence reducing blood pressure. Kidneys try to maintain normal blood pressure favoring the release of sodium and water. Then occurs the <strong>initial inconstant labile form</strong>, where the cardiac output increases but the peripheral resistance remains constant. In the end, <strong>hypertension establishes</strong>, during which both cardiac output and peripheral resistance increase, and there is increased blood pressure.</p><p id="2297904f-03a9-811f-aac2-f5a3f061b1c3" class="">At this point, the <strong>clinical signs</strong> are the consequences of the effects of hypertension on different organs: - <strong>Vessels:</strong> hypertrophy due to hypertension and, over time, a deposition of material in the EC space.</p><ul id="2297904f-03a9-8175-b62f-c1ecf8433819" class="bulleted-list"><li style="list-style-type:disc"><strong>Heart:</strong> hypertrophy of left ventricle due to overwork (it must work more). The symptoms are those of left heart failure.</li></ul><ul id="2297904f-03a9-814c-b1fa-e5fcf1314277" class="bulleted-list"><li style="list-style-type:disc"><strong>nervous system</strong>: spasms, headache, vertigo, visual disturbances, necrosis of brain matter due to ischemia/microinfarction or to hemorrhage.</li></ul><ul id="2297904f-03a9-8128-91c8-de1e84d0afc4" class="bulleted-list"><li style="list-style-type:disc"><strong>Kidney:</strong> glomerular and tubular changes due to progressive nephron ischemia (chronic renal failure). - <strong>Aorta:</strong> severe atheroma, abdominal aortic aneurysms.</li></ul><ul id="2297904f-03a9-81db-be8d-c50257d7bc0c" class="bulleted-list"><li style="list-style-type:disc"><strong>hemorrhagic manifestations</strong> (not severe): nose, respiratory system, and female genital tract.</li></ul><p id="2297904f-03a9-81f7-8ad3-da786a9195a5" class=""><em>Question from 2021-2022</em></p><p id="2297904f-03a9-81cf-8af7-c34ffc0d00d8" class=""><em>Q: How environmental factors (in particular Na+ concentration) can induce peripheral resistance?</em></p><p id="2297904f-03a9-819e-bfde-e7e9153e2083" class=""><em>A: Na+ is not related to the increase of the peripheral resistance. Na+ is included as an environmental factor if the diet is rich in sodium. The salts present in the diet can favor the absorption of water and, therefore, it contributes to the increase of blood volume. So it is connected to the cardiac output.</em></p><p id="2297904f-03a9-815e-8d19-c9f93b773c2a" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-8113-8e4a-f95015308e61" class="">60</p><p id="2297904f-03a9-814d-a047-c1aaee26b4fd" class="">04.05.2023 LEONARDUZZI L.5</p><p id="2297904f-03a9-817e-8740-ecbc00da5b3f" class=""><strong>VASCULAR PATHOLOGY IN HYPERTENSION</strong></p><figure id="2297904f-03a9-81a2-bd48-e52c87901c4d" class="image"><a href="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image6.png"><img style="width:484px" src="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image6.png"/></a></figure><p id="2297904f-03a9-81f6-9c89-c760694f3007" class="">and fibroid degeneration.</p><p id="2297904f-03a9-8156-9779-c469465edd89" class="">As it is possible to see here <em>(Fig. 6)</em>, the arterial wall is thickened</p><p id="2297904f-03a9-811d-8488-c6ec736fe14f" class="">because of the accumulation of proteins, that reduce the lumen</p><p id="2297904f-03a9-81c1-b12f-ef4dc523cc25" class="">size, causing an increase in the peripheral resistance.</p><p id="2297904f-03a9-814f-b9a8-e43ab14f58e1" class="">Hypertension can be responsible for the degeneration of the</p><p id="2297904f-03a9-814d-ab33-f8d39d4e4ac7" class="">vascular wall. In particular, hypertension is responsible for the</p><p id="2297904f-03a9-818b-bb56-ef1c02277acc" class="">formation of atherosclerotic plaque. Hypertension can also cause</p><p id="2297904f-03a9-81fa-8768-cfda1e82c29c" class="">the deposition of other proteins, leading to hyaline degeneration</p><p id="2297904f-03a9-8197-834d-edfabc1e83e8" class="">degenerative effect of hypertension: there is</p><p id="2297904f-03a9-8138-bf47-f86ab5c55990" class="">hyperplastic atherosclerosis. There is the formation of</p><p id="2297904f-03a9-8190-8ee6-f1b4a0284293" class="">a concentric laminated thickened wall, with a</p><p id="2297904f-03a9-8177-8c76-f6887576ca27" class="">reduction of the lumen, so a partial obliteration. This</p><p id="2297904f-03a9-8139-b460-d981651d53de" class="">type of degeneration is quite frequent in kidneys.</p><figure id="2297904f-03a9-81ca-ae08-df1cea27f3a0" class="image"><a href="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image7.png"><img style="width:624px" src="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image7.png"/></a></figure><p id="2297904f-03a9-8126-8108-dae76b390151" class=""><em>Fig. 6</em></p><p id="2297904f-03a9-814e-910a-ed621eaf20a5" class="">Here <em>(Fig. 7)</em> there is another example of the</p><p id="2297904f-03a9-8129-b15d-fd5a86036264" class=""><em>Fig. 7</em> <strong>CONCLUSION ON HYPERTENSION</strong></p><p id="2297904f-03a9-8107-870d-d5ec471d3a4f" class="">Hypertension must be considered a severe pathological condition, especially primitive/essential</p><p id="2297904f-03a9-814c-995b-d55bbf6fe6a6" class="">hypertension, since it is not possible to identify the specific cause, and patients must be treated life-long.</p><p id="2297904f-03a9-8197-835e-f0a12857bb9c" class="">Primitive hypertension is based on the involvement of many genetic factors, hence it is difficult to recover</p><p id="2297904f-03a9-8186-bc31-d0393b4c258f" class="">from it. Hypertension is one of the major risk factors for myocardial infarction and stroke so it must be treated</p><p id="2297904f-03a9-81ff-8888-ee08abacb57c" class="">correctly.</p><p id="2297904f-03a9-81f1-9492-eaacc886b6f6" class=""><strong>SHOCK</strong></p><p id="2297904f-03a9-81f4-bf7b-f4f7d87db333" class="">Serious pathological event of acute circulatory insufficiency and it represents one of the primary causes of death. It is characterized by a <strong>reduction of cardiac output, reduction of peripheral resistance or circulating blood volume</strong>;the consequence is a reduction in the blood pressure <em>(remember blood pressure = cardiac output x peripheral resistance)</em>, hence there is a reduction of tissue perfusion (hypoperfusion) because, due to hypotension, the blood is not able to reach all the tissues and organs. Thus, there is a dysfunction of the main vital organs and systems. The two main symptoms of the shock are <strong>marked hypotension and hypoperfusion</strong>.</p><p id="2297904f-03a9-819e-820e-e2298b2ae62f" class="">In the beginning, if this condition is not so serious, it can be reversible. But a prolonged shock leads to irreversible cellular damage, causing the failure of many organs and, therefore, the death of the patient.</p><p id="2297904f-03a9-81a0-948a-c638fc4f9dd1" class="">In any type of shock, there is <strong>circulatory collapse</strong>, which is due to severe hypotension and hypoperfusion, characterized by an abrupt lowering of the systolic pressure to levels that don’t allow an adequate supply of blood to the whole organism.</p><p id="2297904f-03a9-81d7-b63b-de6b126c1141" class="">If the cause responsible for the shock acts for a short time, it’s possible to compensate for this situation, returning to a normal circulatory function. On the other side, if the cause persists, peripheral hypoperfusion causes an irreversible alteration of metabolism and cellular damage in various tissues.</p><p id="2297904f-03a9-811e-b129-c3d908ff1c22" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-812f-bb08-e7637dab909d" class="">61</p><p id="2297904f-03a9-8110-b789-f8c7ca28acce" class="">04.05.2023 LEONARDUZZI L.5</p><p id="2297904f-03a9-81a0-9735-c7e4f2f3e289" class=""><strong>MECHANISMS OF SHOCK</strong></p><p id="2297904f-03a9-81f8-b427-f800f196fa30" class="">There are three mechanisms responsible for the onset of shock:</p><p id="2297904f-03a9-8138-bb4a-d6f490cdbf1c" class="">- <strong>cardiac pump insufficiency</strong> (e.g. infarction, arrhythmia): if the heart doesn’t work properly, the cardiac output drops down and also the blood pressure. This mechanism is common in cardiogenic shock.</p><ul id="2297904f-03a9-81d2-ac70-fb85e0818004" class="bulleted-list"><li style="list-style-type:disc"><strong>uncompensated reduction of the volume</strong> (e.g. hemorrhage, burns, diarrhea, vomiting, etc.): if the blood volume decreases dramatically, the cardiac output decreases and also the blood pressure. This mechanism is common in hypovolemic shock.</li></ul><ul id="2297904f-03a9-8147-9875-f9b8b2aa97e2" class="bulleted-list"><li style="list-style-type:disc"><strong>uncompensated increase in the capacity of the vascular bed</strong> (e.g. sepsis, hypersensitivity reaction, intoxication, etc.): it’s about the peripheral resistance. If there is a systemic dilation of the circulatory system, a reduction in peripheral resistance will occur due to dilation, and so the blood pressure goes down. This mechanism is common in distributive shock.</li></ul><p id="2297904f-03a9-8197-b531-c93a5cdd050c" class="">In the first two mechanisms it is decreased the cardiac output, while in the third mechanism is the peripheral resistance to be decreased.</p><p id="2297904f-03a9-8114-b25e-dc22440cbb3e" class=""><em>Question from 2021-2022:</em></p><p id="2297904f-03a9-812a-b810-c55bfc59757b" class=""><em>Q: Can you explain how the decrease of peripheral resistance is associated with the shock?</em></p><p id="2297904f-03a9-8183-b0ee-da702f2bb887" class=""><em>A: Peripheral resistance is very important in the control of the blood pressure because it’s able to change the lumen of the vessels through vasoconstriction and vasodilation. Even for minimal and temporary changes in the blood pressure, the peripheral resistance acts, restoring the normal value of pressure. Shock is characterized by a permanent dilation of all the vessels, leading to a decrease in blood pressure. There is a systemic drop in the pressure.</em></p><p id="2297904f-03a9-810e-9e07-ddb6d7b9596f" class=""><strong>TYPES OF SHOCK</strong></p><ul id="2297904f-03a9-81f5-94ed-f6311fd4b656" class="bulleted-list"><li style="list-style-type:disc"><strong>cardiogenic</strong> shock: when there are problems at the level of the heart. There is a reduction in the heart rate or in its contractility. There is a low cardiac output due to myocardial pump failure. It’s typical of myocardial infarction (because in this case the heart is not able anymore to pump blood), ventricular rupture, ventricular arrhythmias, pulmonary embolism (in case of obstruction), and cardiac tamponade (= accumulation of fluid, between the myocardium and pericardium, leading to a compression of the myocardium. It’s not anymore able to expand in a correct manner). The fluid that accumulates in cardiac tamponade can be an inflammatory edema (in case of myocarditis or endocarditis), a noninflammatory edema, or blood (in case of a rupture of the heart, at the level of a cardiac scar. It can rupture during myocardial infarction, because the myocardium cannot be repaired by the myocardial cells, hence the only way to repair it is the formation of a scar. The risk for these patients after infarction is that the scar can break and lead to hemorrhage).</li></ul><p id="2297904f-03a9-81ec-a384-e4fd246b1d59" class=""><em>Student: about prolonged shock, how much time can it require to be fatal?</em></p><p id="2297904f-03a9-81c4-9c72-f574c1fd99ee" class=""><em>Professor: It is possible to die even immediately for every type of shock. In a few seconds it is possible to die. In case of a hypoperfusion, it is not so severe: it is possible either to restore the blood pressure since it is possible to activate some compensatory mechanism, or the patient must reach the hospital to be treated. However shock can be distinguished in phases, and it is possible to die even after 1-2 minutes. The duration of the prolonged shock depends on the severity and on the organ failure. It is not possible to define only one possibility. The time depends on the damage.</em></p><p id="2297904f-03a9-8144-9e1b-ccde4bdf8010" class=""><em>Student: How long a cellule can sustain hypoxia?</em></p><p id="2297904f-03a9-8149-a52a-e88a4babf39b" class=""><em>Professor: They can sustain it for a few hours. However, in case of severe myocardial infarction, the patient dies immediately, because there is a severe necrosis of a large area of the heart. Any situation depends on our capacity to compensate and also on the capacity of the medical doctor to restore the condition. There is not a defined time, it depends on the damage.</em></p><p id="2297904f-03a9-8198-a781-ecc6c5efe4f0" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-818b-80f7-c4aace836e17" class="">62</p><p id="2297904f-03a9-8122-9103-dbdbb1edf102" class="">04.05.2023 LEONARDUZZI L.5</p><ul id="2297904f-03a9-8171-8c09-c804f01eae22" class="bulleted-list"><li style="list-style-type:disc"><strong>hypovolemic</strong> shock: low cardiac output due to low blood volume (inadequate blood or plasma volume). The causes are severe hemorrhage, indeed it is called also hemorrhagic shock (blood loss of more than 30%), and severe fluid loss (vomiting for many days, diarrhea, severe burns, and trauma that lead to a decreased blood volume, and so there is a decrease in cardiac output).</li></ul><ul id="2297904f-03a9-81b8-9846-c32c009354c6" class="bulleted-list"><li style="list-style-type:disc"><strong>distributive</strong> shock: it’s associated with systemic inflammation (SIRS = systemic inflammatory response syndrome), which causes systemic vasodilation. Hence what is lost is a reduction in peripheral resistance due to a systemic vasodilation. All these inflammatory systemic diseases are characterized by a massive release of inflammatory mediators, in particular, histamine (it is the most responsible for vasodilation and also for the increase in permeability of the vascular wall.). There are 2 types of distributive shock:</li></ul><p id="2297904f-03a9-813f-9377-fa28be5d2b72" class="">oIt’s typical in <strong>septic shock</strong>, caused by microbial and bacterial infections (mainly bacterial). In this situation, bacteria from the infective region diffuse in the circulation, leading to a systemic inflammatory response, characterized by the release of inflammatory mediators.</p><p id="2297904f-03a9-81ff-bd91-e6ee33d6b85f" class="">The principal factor released is histamine, responsible mainly for systemic vasodilation and systemic permeability (hence there will be different edema distributed in the tissues). In the case of sepsis, there is a vasodilation and the pressure drops down.</p><p id="2297904f-03a9-816b-af53-f67070247b93" class="">o<strong>Anaphylactic shock</strong> is caused by a hypersensitivity reaction, mediated by IgE, due to the presence of different antigens (drugs, hornet, wasp, bee and spider poisons, some foods, etc). After the first exposition of the antigen, generally, the patient doesn’t have problems, but starts to produce IgE antibodies, which bind to mast cells and basophils. During the second exposition of the antigen, the latter can bind to the IgE that are bound to the mast cells and basophils, which are both rich in granules containing histamine. The release of granules (degranulation) causes a release of a massive quantity of histamine that leads to vasodilation, so occurs a decrease in peripheral resistance, and the systemic increase in permeability (so edema and venous blood stasis),</p><ul id="2297904f-03a9-81fa-8b44-df39a548fb4c" class="bulleted-list"><li style="list-style-type:disc">less commonly, vascular causes (<strong>obstructive shock</strong>) and nerve causes (<strong>neurogenic shock</strong> after a severe spinal cord injury).</li></ul><p id="2297904f-03a9-81ca-91ff-c8d8ec723262" class="">In all shock states, there is hypotension and insufficiency of peripheral perfusion (skin, muscles, kidney, bowel); reactive vascular processes (modification of vessel caliber and flow).</p><p id="2297904f-03a9-81cb-b70d-c697c6f9f9ab" class=""><strong>STAGES OF SHOCK</strong></p><p id="2297904f-03a9-815d-8842-c5a5feab2779" class="">It’s possible to distinguish different stages, depending on the gravity of the event. If the event is massive and dramatic, the <strong>death</strong> is immediate; in the other conditions, which are less severe, the evolution is different:</p><ul id="2297904f-03a9-81ab-a427-f0d02a243a3c" class="bulleted-list"><li style="list-style-type:disc"><strong>initial nonprogressive stage</strong>: this stage is still reversible, the body tries to compensate for the circulatory collapse: catecholamines are released and act as vasoconstrictors, there is the activation of the renin-angiotensin axis (absorption of Na+ and water → increase blood volume → increase blood pressure), ADH is released (increases blood volume, by stimulating reabsorption of water), there is sympathetic stimulation by the heart (can lead to tachycardia that increases heart rate, increase in the peripheral vasoconstriction at the level of skin, spleen, kidney, in order to concentrate the blood to the vital organs. The skin appears pale, and sweaty due to peripheral vasoconstriction, and cold. The vasoconstriction occurs peripherally but not in the vital organs, so as to still supply them.), and urine excretion is reduced (= oliguria) to maintain blood volume. Hence the body tries to increase blood pressure by increasing both the cardiac output and the peripheral resistance.</li></ul><p id="2297904f-03a9-81e1-8709-e8761878aa19" class="">The compensatory mechanisms used to compensate for the circulatory collapse consist in increasing heart rate (tachycardia), increasing the volume (oliguria), increasing the activation of the renin-angiotensin axis, and increasing the peripheral resistance (catecholamine release).</p><p id="2297904f-03a9-81e5-9a21-cee6dae1526a" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-814b-9f2e-fe9c3a30515d" class="">63</p><p id="2297904f-03a9-8151-b974-d044ccb80daa" class="">04.05.2023 LEONARDUZZI L.5</p><ul id="2297904f-03a9-8193-baef-f67b32f4c629" class="bulleted-list"><li style="list-style-type:disc">If the patient is not able to restore the damage and cellular injury, there is a progression of the shock: <strong>progressive stage.</strong> It is characterized by tissue hypoperfusion. After tissue hypoxia, there is a deficiency in oxygen, hence the aerobic metabolism is replaced by the anaerobic one, leading to the production of a large amount of lactate (lactic acidosis). This leads to the reduction of the pH and stasis at the level of the arterioles, in which the blood pools in the microcirculation. Slowly, because of hypoxia, cellular injury, and dysfunction of many vital organs, it will develop a Multi-Organ Failure. In particular, the first failure will be of the kidneys (renal insufficiency), with a follow fall in the urine output.</li></ul><ul id="2297904f-03a9-81c0-b655-ced4ce5b8817" class="bulleted-list"><li style="list-style-type:disc"><strong>irreversible stage</strong>: severe cellular and tissue injury. Survival is not possible anymore because a lot of organs are impaired (liver, heart, lungs, brain), in particular, kidneys because they can’t excrete urine (anuria). Eventually, the patient will die.</li></ul><p id="2297904f-03a9-813b-92ff-c5367c2118e1" class=""><strong>CLINICAL MANIFESTATIONS</strong></p><ul id="2297904f-03a9-8111-929c-f9f13107446f" class="bulleted-list"><li style="list-style-type:disc">hypotension, weak and rapid pulse, tachypnea.</li></ul><ul id="2297904f-03a9-8123-a7d7-dd93dcbaa7fd" class="bulleted-list"><li style="list-style-type:disc">non-reactive, skin with colorless or extreme pallor and cool (it’s only hot with septic shock due to fever caused by bacterial infection), cold sweat, cyanotic lips.</li></ul><ul id="2297904f-03a9-8166-9fd4-e725da27c46c" class="bulleted-list"><li style="list-style-type:disc">dizziness and loss of consciousness depend on the reduction of cerebral perfusion.</li></ul><p id="2297904f-03a9-810e-bde1-e3a8270773c4" class="">failure of organs that leads to death. -</p><p id="2297904f-03a9-810d-8f68-eba8cb4fd70f" class=""><strong>PATHOGENESIS OF SEPTIC SHOCK</strong></p><p id="2297904f-03a9-8190-8a0a-ea017915e03d" class="">It’s responsible for more than <strong>20% of deaths</strong>. Most frequently it is triggered by gram-positive bacterial infections, followed by gram-negative bacteria and fungi.</p><p id="2297904f-03a9-810f-8989-f679d9a000c5" class="">There is a generalized inflammatory response, characterized by the activation of both inflammatory and immune cells, with the release of inflammatory mediators (histamine is the most important). There is also the release of many procoagulant factors. In the beginning <em>(Fig. 8)</em>, there is the spreading of bacteria in all the circulation, followed by the <strong>activation of inflammatory immune cells</strong>, in particular those that present a toll-like receptor (TLR), that have a pro-inflammatory response (releasing cytokines and all the inflammatory mediators). However, the bacteria can also stimulate the release of the procoagulant factors.</p><p id="2297904f-03a9-818d-a93f-c159f246ec4d" class="">Then there is the <strong>endothelial activation and injury</strong>, with consequent dysfunction of the endothelium. It happens because the inflammatory response is not local, but is generalized, it affects all the body. The principal manifestations are vasodilation, increased permeability, and increased perfusion (can contribute to the MOF). Some pro-coagulation factors are stimulated, hence there is a reduction in the antifibrinolytic factors, which leads to the risk is the formation of a small thrombus in the vessels that can obstruct the circulation, hence disseminated intravascular coagulation (DIC). DIC can be characterized by a hemorrhagic or thrombotic event. An increased presence of pro-coagulation factors and a reduced washout of activated coagulation factors can be responsible for the activation of thrombin and the formation of fibrin. Hence in the case of septic shock, there is the appearance of microvascular thrombosis.</p><p id="2297904f-03a9-8166-8add-c757da932980" class="">The presence of these thrombi in circulation can be responsible for ischemia, which can contribute to MOF. In the case of septic shock, there can be also the activation of the immune system and some systemic effects (fever, reduced myocardial contractility) that can contribute to MOF and finally to the death of the patient.</p><p id="2297904f-03a9-814b-be04-cc701207bf3e" class="">Another point in a patient affected by septic shock is insulin resistance and hyperglycemia, because glucose can be uptaken by target cells through GLUT-4, and due to the release of many cytokines by inflammatory cells, cytokines can impair the expression of glucose transporter (GLUT-4) on the surface of target cells. Even if there is hyperglycemia, the patient is not diabetic, there is an alteration of glucose receptors. As a consequence, glucose cannot be used by the target cells as an energy source. It’s the reason why it’s easy to observe hyperglycemia and insulin resistance during septic shock.</p><p id="2297904f-03a9-81a9-8fe7-d0c24d9c512e" class="">Question from 2021-2022</p><p id="2297904f-03a9-8109-8130-f32f81ebd515" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-81bf-b2a4-f344425a3cf8" class="">64</p><p id="2297904f-03a9-81b1-8f78-d23844dc55cb" class="">04.05.2023 LEONARDUZZI L.5</p><p id="2297904f-03a9-8111-b511-e34a4694852a" class=""><em>Q: Does the absence of GLUT-4 cause ketoacidosis?</em></p><p id="2297904f-03a9-810f-83f5-ecdd87531499" class=""><em>A: Yes</em></p><p id="2297904f-03a9-8155-8188-e1e780fc1675" class=""><em>The last step is </em><em><strong>organ dysfunction</strong></em><em>, caused by systemic hypotension, interstitial edema, and small vessel thrombosis. It happens mainly in the liver, lungs, heart, kidneys. All these causes the </em><em><strong>death</strong></em><em> of the patient.</em></p><figure id="2297904f-03a9-8143-9be3-f7cd99f1f250" class="image"><a href="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image8.png"><img style="width:700px" src="hypertension%20and%20shock%202297904f03a981abb01fc7d192427392/image8.png"/></a></figure><p id="2297904f-03a9-811f-9a46-f4e75ce0a9da" class=""><em>Fig. 8</em></p><p id="2297904f-03a9-8137-890c-cca9ac989a59" class="">Luca Polizzi, Endi Dingu</p><p id="2297904f-03a9-815c-8a36-fc008a55b0f0" class="">65</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

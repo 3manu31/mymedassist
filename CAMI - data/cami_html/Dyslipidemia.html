@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Dyslipidemia</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8131-9223-e022d75b7345" class="page sans"><header><h1 class="page-title">Dyslipidemia</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-819a-ba87-e14bc70835d3" class="">●what is dyslipidemia?</p><p id="2297904f-03a9-8125-b663-d79a105a54c0" class="">Pathological conditions characterized by a permanent alteration of the plasma concentration of LDL, HDL or VLDL.</p><p id="2297904f-03a9-8121-8ff7-e72b200b3543" class="">●What is the general composition of a lipoprotein?</p><p id="2297904f-03a9-8158-bfcb-e3d02f791b3c" class="">○ Internal portion «CORE» which contains varying concentrations of esterified cholesterol, TG.</p><p id="2297904f-03a9-81d0-a888-e59e5c333727" class="">○ External portion that contains phospholipids, non-esterified cholesterol and proteins (exposing the hydrophilic portion)</p><p id="2297904f-03a9-81e6-8bac-ff55a1f7aae6" class="">●what is the general function of lipoproteins?</p><p id="2297904f-03a9-8150-bad2-df9dc3b55bdd" class="">they carry lipids (phospholipids, cholesterol, triglycerides and fat-soluble vitamins), around the blood circulation where they are required.</p><p id="2297904f-03a9-8146-87e8-e9be1a09454a" class="">●what are the types of lipoproteins?</p><p id="2297904f-03a9-8171-afe7-eb07865bb8c5" class="">in general, lipoproteins are classified in terms of their densities.</p><p id="2297904f-03a9-8198-b687-ef5eed7d579a" class="">1. Chylomicrons:</p><p id="2297904f-03a9-81c6-a9a2-da204bd4bbea" class="">The least dense and the largest. They contain Apolipoprotein B-48, Apo E and Apo C2, C1, A1, A2.</p><p id="2297904f-03a9-81c0-8a3d-cf4a131c3869" class="">they contain a high amount of triglycerides and are coated by a thin layer of proteins.</p><p id="2297904f-03a9-8115-a1b3-f5f47479d6ef" class="">they carry TG, small amounts of cholesterol and lipid-soluble vitamins from the enterocytes.</p><p id="2297904f-03a9-811b-8aae-da800ff7358d" class="">2. VLDL</p><p id="2297904f-03a9-819c-b59c-f0ebe85ab297" class="">Made in the liver.</p><p id="2297904f-03a9-8157-9f2c-ebe6d9606b70" class="">Contain APO C2, APO B-100, Apo E.</p><p id="2297904f-03a9-8156-ace7-c5deb05b607e" class="">They carry high concentrations of triglycerides, lower conc. of cholesterol, and phospholipids.</p><p id="2297904f-03a9-81be-8e29-dbacfd452da7" class="">3. IDL</p><p id="2297904f-03a9-8154-8e4a-ebbceba67a26" class="">Contain APO C2, APO B-100, Apo E.</p><p id="2297904f-03a9-81d2-9cf7-dab4521eb32b" class="">They result from VLDL metabolism.</p><p id="2297904f-03a9-81c2-8d59-d0244e8e9602" class="">They carry cholesterol, phospholipids and triglycerides from the liver</p><p id="2297904f-03a9-815f-bdfb-e220b0d3bf4f" class="">LDL 4.</p><p id="2297904f-03a9-81fe-aa12-de285c29909c" class="">Contain ApoB-100, Apo C2, Apo E.</p><p id="2297904f-03a9-81a9-9781-da07b9e46bab" class="">From the metabolism of IDL.</p><p id="2297904f-03a9-818e-8ff3-f3ad9f7e64a6" class="">Mainly contain cholesterol (40%), some phospholipids and very small amounts of TG.</p><p id="2297904f-03a9-8139-be23-cc11fd744bc1" class="">They contain more than 60% of blood cholesterol 70% of LDL go to the liver, 30% to periphery.</p><p id="2297904f-03a9-8189-8ad0-e329b0bc8634" class="">HDL 5.</p><p id="2297904f-03a9-8125-a12c-f599c2352324" class="">Contain Apo A1, A2. Apo C2 and Apo E.</p><p id="2297904f-03a9-8192-9bb2-cfd0e41219ae" class="">Mainly contain proteins, cholesterol does not exceed 20%.</p><p id="2297904f-03a9-81dc-b998-c6995f1ce8d2" class="">5.</p><p id="2297904f-03a9-8122-916c-f8ba6144f111" class="">They transport phospholipids, cholesterol and triglycerides from the periphery to the liver.</p><p id="2297904f-03a9-81f9-90ad-e221317f94e9" class="">Some are generated in the liver, a small amount in the intestines.</p><p id="2297904f-03a9-8164-a20f-ece8e22b854a" class="">6.</p><figure id="2297904f-03a9-81e9-8c99-ee46fab2d7c6" class="image"><a href="Dyslipidemia%202297904f03a981319223e022d75b7345/image1.png"><img style="width:48px" src="Dyslipidemia%202297904f03a981319223e022d75b7345/image1.png"/></a></figure><p id="2297904f-03a9-817a-8822-dfd56579faaa" class="">●What are apolipoproteins?</p><p id="2297904f-03a9-816c-982f-d7b9ca1c0f10" class="">Apolipoproteins are the proteins that coat the lipoproteins.</p><p id="2297904f-03a9-8169-bf35-cb81b0d7db6d" class="">Their functions are:</p><p id="2297904f-03a9-81f9-a07f-e4f39ac81aef" class="">○ Structural: they create a hydrophilic coating for the lipid core and allow the assembly of the lipoprotein.</p><p id="2297904f-03a9-81a4-80b8-e4b9e6ed39b2" class="">○ Ligand for specific receptors</p><p id="2297904f-03a9-8199-ad9d-f4d291225d1f" class="">○ they activate Lipoprotein Lipases</p><p id="2297904f-03a9-8129-a21e-f12ac394d6d8" class="">●General evaluation of a lipid profile</p><p id="2297904f-03a9-8175-b39c-fbe26cf58de5" class="">○ Total cholesterol: &lt; 200 mg/dL. High is 260.</p><p id="2297904f-03a9-81c7-b063-c51192975c8c" class="">○ LDL: &lt;100. 160 is high.</p><p id="2297904f-03a9-81b7-8bbf-cc9f83de520c" class="">○ HDL: &gt;40</p><p id="2297904f-03a9-810c-b5f8-c1c1796d1809" class="">○ Triglycerides: &lt;150. high &gt;200. Very high &gt;500.</p><p id="2297904f-03a9-8126-8386-f5f1d67311e7" class="">●describe the exogenous cycle of lipoproteins</p><p id="2297904f-03a9-8103-bedb-cb01a8c4670a" class="">1. Fats in the lumen of the intestine are emulsified in micelles which are taken up by enterocytes, packaged into Chylomicrons (90% TG).</p><p id="2297904f-03a9-81ef-8bbd-fb40b4fd2a91" class="">2. Chylomicrons enter the circulation and acquire other apoproteins, in particular apoCII (cofactor of lipoprotein lipase, LPL), and apoE from HDL; excess cholesterol, phospholipids and apolipoproteins are transferred to HDL.</p><p id="2297904f-03a9-81da-9919-f7492722daa6" class="">3. Chylomicrons encounter Lipoprotein Lipases on the surface of adipose cells and striated muscle. The Apo CII receptor on chylomicrons activate this enzyme that converts TG → FFAs that enter the adipocyte.</p><p id="2297904f-03a9-81cb-b176-ec2e80223c8e" class="">4. The remaining protein and lipid part constitutes the</p><p id="2297904f-03a9-818b-b49d-d3e215630ef2" class="">&quot;remnants&quot; (residual chylomicrons) which are taken up by the hepatocytes via the apoE receptor: proteins are hydrolysed by lysosomal enzymes, TG are metabolised and cholesterol is excreted with the bile</p><p id="2297904f-03a9-81d6-8b45-f98730f32093" class="">●describe the endogenous cycle of lipoproteins</p><p id="2297904f-03a9-8199-b4c8-eccdb94b9648" class="">The liver synthesizes VLDL (richest in TG, less % cholesterol and phospholipids), which is hydrolyzed by Lipoprotein Lipases of</p><p id="2297904f-03a9-816a-ba64-c804e16ce38e" class="">peripheral tissues (Adipocytes and skeletal muscle interact with ApoC2) into IDL(decreased amount of TG). About half of these IDLs go back to the liver by interacting with the LDL receptor (that</p><p id="2297904f-03a9-81e0-8af6-fe9b3595fdd5" class="">recognized both ApoB100 and ApoE). The remaining half are</p><p id="2297904f-03a9-8132-bcac-fcb2f1d0f14d" class="">converted into LDL by hepatic Lipoprotein Lipases. LDL, which is rich in cholesterol, ****is taken up by the liver (70%) and endocrine cells for steroid hormone synthesis, and it is also taken up by vascular cells</p><p id="2297904f-03a9-81cc-8aaa-fff3985de007" class="">(ECs, SMCs, fibroblasts, macrophages) where it is hydrolyzed by lysosomal enzymes into amino acids, esterified cholesterol and free cholesterol.</p><p id="2297904f-03a9-81d6-83ca-c9e16d9b82a7" class="">●</p><figure id="2297904f-03a9-8152-8228-d2df142c0fab" class="image"><a href="Dyslipidemia%202297904f03a981319223e022d75b7345/image1.png"><img style="width:48px" src="Dyslipidemia%202297904f03a981319223e022d75b7345/image1.png"/></a></figure><p id="2297904f-03a9-81bf-bce2-dbd7a7c98c9d" class="">●what are oxysterols? what is their relevance in health</p><p id="2297904f-03a9-81f2-a509-ea1538bf5a8b" class="">Oxysterols are <em>sterols derived from the oxidation of the cholesterol molecule</em></p><p id="2297904f-03a9-81d8-883b-ebe6e1733acf" class="">They are obtained by oxidation reaction carried out by enzymes or reactive oxygen species (ROS).</p><p id="2297904f-03a9-81cf-b250-cde228862095" class="">Oxidized cholesterol becomes reactive and toxic to cells. In the</p><p id="2297904f-03a9-81da-803e-e5ca80479545" class="">subintima, LDL oxidation is one of the first triggers of atherogenesis (formation of atheroma). The first process involved in atherogenesis is the endothelial dysfunction caused in part by oxLDL In arteries, mmLDLs (minimally modified LDLs) are taken up by local</p><p id="2297904f-03a9-81ad-b32b-c209606468dd" class="">macrophages, which become activated in response and start</p><p id="2297904f-03a9-8131-b8de-c7bfa49b03e1" class="">producing ROS, which oxidize LDL components.</p><p id="2297904f-03a9-819d-8f42-ce71af99dc49" class="">We can introduced oxysterols in the diet (autoxidation of food), but mainly they come from endogenous sources.</p><p id="2297904f-03a9-81cf-86da-dcc48c331817" class="">Non enzymatic pathways Attack by reactive oxygen species 1.</p><p id="2297904f-03a9-81ae-b106-e23e35f17717" class="">generated during inflammation</p><p id="2297904f-03a9-817e-84f6-ec84106faa12" class="">2. Enzymatic pathways cholesterol 24-hydroxylase (CYP46A1) (mainly brain) cholesterol 27-hydroxylase (CYP27A1) (various tissues) cholesterol 7α-hydroxylase (CYP7A1) (liver, prostate) cholesterol 25-hydroxylase (various tissues)</p><p id="2297904f-03a9-814c-8d37-d7f694cde3a4" class="">●</p><figure id="2297904f-03a9-813f-85fb-f66a8bbe6cf4" class="image"><a href="Dyslipidemia%202297904f03a981319223e022d75b7345/image1.png"><img style="width:48px" src="Dyslipidemia%202297904f03a981319223e022d75b7345/image1.png"/></a></figure><p id="2297904f-03a9-810d-a17a-d41588c96922" class="">●what is the role of PCSK9?</p><p id="2297904f-03a9-815e-8dcf-d8aac0765b34" class="">PCSK9 (proprotein convertase subtilisin/kexin type 9) is an enzyme that binds to the LDL particle or to the LDL receptor and it impedes the recycling of the LDL receptor and instead drives its demolition within lysosomes (1 in 400 LDLr).</p><p id="2297904f-03a9-81c3-8466-ea0522f46333" class="">The effect of PCSK9 enzymes is therefore reducing LDL absorption by the liver (by reducing the amount of LDLr), increasing plasma cholesterol.</p><p id="2297904f-03a9-8131-a37c-ffb8047ab918" class="">PCSK9 inhibitors are a new drug to treat hypercholesterolemia. Mainly used to treat familial hypercholesterolemia. Still very expensive and not widely used.</p><p id="2297904f-03a9-814e-92d6-f04b7f50dbc3" class="">●what are the monogenic primitive dyslipidemias that increase LDL cholesterol?</p><p id="2297904f-03a9-8185-a38d-c6c717a884d0" class="">INCREASED LDL CHOLESTEROL:</p><p id="2297904f-03a9-814d-9331-d402e4c7c3d3" class="">○ Familial Hypercholesterolemia Autosomal dominant. Caused by mutations in the gene that codes for LDL receptor (on liver) → High blood LDL. Heterozygotes (1: 500): elevated plasma cholesterol levels already at birth (average 350 mg / dL), tendon xanthomas</p><p id="2297904f-03a9-819d-b623-d001a6b70a68" class="">before age 30, early atherosclerosis (coronary artery disease before age 40). In homozygotes (1: 1,000,000): rarely live past reproductive age. Plasma cholesterol around 600 to 1200 mg / dL, cutaneous and tendon xanthomas, coronary atherosclerosis, in pediatric age, myocardial infarction before 30 years.</p><p id="2297904f-03a9-81fc-994d-fc617ef305e3" class="">150 types of LDLr mutations that can affect its synthesis in the ER (class I), transport to the Golgi or cell surface (class II), binding capacity (class III), clustering (class IV), and recycling (class V).</p><p id="2297904f-03a9-81d5-890c-f1b55c5f5925" class="">○ Familial defective apolipoprotein B-100 (FDB): is an autosomal dominant genetic disorder of lipid metabolism associated with hyperlipidemia and elevated risk for atherosclerosis. FDB is caused by mutations in APOB reducing the binding affinity</p><p id="2297904f-03a9-8197-9677-f124709d4f3f" class="">between apolipoprotein B-100 and the low-density lipoprotein receptor</p><p id="2297904f-03a9-8102-85d1-f3836eee91da" class="">○ Autosomal recessive hypercholesterolemia (ARH): very rare.</p><p id="2297904f-03a9-813e-b5ae-cc75c26d45c5" class="">Clinical phenotype similar to that of homozygous familial</p><p id="2297904f-03a9-81b9-9965-cec86f411912" class="">hypercholesterolemia (FH) but is more variable, generally less severe, and more responsive to lipid-lowering therapy. Caused by a defect of some, but not all, cell types to mediate LDL receptor-dependent internalization of LDL and is caused by mutations in the gene for an adaptor protein called ARH. In affected cells, the LDL receptor gene is normal but LDL receptor protein accumulates at the cell surface because the ARH protein doesn’t have its normal capacity to interact with the receptor and trigger internalization.</p><p id="2297904f-03a9-81ec-a3d0-f05d316df94b" class="">○ Autosomal dominant hypercholesterolemia (PCSK9 ↑) genetic increase of PCSK9 = increased destruction of LDLr.</p><p id="2297904f-03a9-81c7-9171-ccb1d543cfd2" class="">○ Sitosterolaemia: characterized by hyperabsorption of</p><p id="2297904f-03a9-81a4-ae2d-d3ddb0cd4ff5" class="">phytosterols due to loss of function mutation of ABCG5 and ABCG8 genes that code for ABC transporter proteins. These receptors normally pump back into the intestinal lumen the plant sterols that were previously internalized by NPC1L1 receptors, decreasing its absorption to less than 10%. Thus, mutation impairs this ability and the ability of the liver to preferentially excrete plant sterols into the bile. Sitosterol is very similar to cholesterol so it competes with LDL for LDLr binding, and these reults in</p><p id="2297904f-03a9-812b-96f4-ef09d848d35d" class="">decreased cholesterol absorption in the liver and therefore</p><p id="2297904f-03a9-8175-a534-c5cab919d736" class="">elevated blood cholesterol.</p><p id="2297904f-03a9-8137-be6a-e7bf088b6cea" class="">●Decreased LDL cholesterol</p><p id="2297904f-03a9-8171-9a2f-c28df118bfcb" class="">○ Abetalipoproteinemia</p><p id="2297904f-03a9-811c-af48-d966b0366080" class="">○ Familial hypobetalipoproteinemia (ApoB mutations)</p><p id="2297904f-03a9-8178-b8cf-cea3a9b00319" class="">○ PCSK9 deficiency</p><p id="2297904f-03a9-8130-a3b7-eb1ea27b6e8f" class="">●what are the monogenic primitive dyslipidemias that decrease LDL cholesterol?</p><p id="2297904f-03a9-8155-9bd3-f61173f1b2de" class="">○ ABETALIPOPROTEINEMIA It is a very rare condition. In this case, APO B48 and APO B100 are deficient, almost completely lacking. it results in lipid malabsorption (chylomicrons), lowered amount of LDL in the blood circulation. Vitamin A deficiency may be</p><p id="2297904f-03a9-81ec-9c61-f80f65a8fc18" class="">observed.</p><p id="2297904f-03a9-8196-b263-f76abd3dd5fd" class="">○ FAMILIAL HYPOBETALIPOPROTEINEMIA It consists in a moderate decrease of APO B (48 and 100) and is associated with a lower risk of cardiovascular disease. They have 130-140 mg of cholesterol per 100 ml.</p><p id="2297904f-03a9-819b-8830-fe3275c03dc9" class="">○ DEFICIT OF PCSK9 It is a rare, protective condition.</p><p id="2297904f-03a9-81a1-8974-ed5e9b267661" class="">●what are the monogenic primitive dyslipidemias that affect HDL cholesterol?</p><p id="2297904f-03a9-8188-b3e2-e3118694a24f" class="">Increased HDL:</p><p id="2297904f-03a9-8199-af4d-fe6d55646870" class="">○ CETP Deficiency: it’s a very rare deficiency in the cholesteryl ester transfer protein. This protein exchanges triglycerides</p><p id="2297904f-03a9-81b9-8c66-f595dfbafeb2" class="">of VLDL against cholesteryl esters of HDL. As the result, VLDLs are processed to LDL. This TGs are readily hydrolyzed by lipoprotein lipases, HDL molecules become smaller and easily taken up by the liver (maturation) If CETP is deficient, HDL remain full of TG and large, so the complete maturation is not possible and they remain in the bloodstream.</p><p id="2297904f-03a9-816f-b25f-f283d952d3dc" class="">●Decreased HDL:</p><p id="2297904f-03a9-818b-acc5-f2023ae8fb51" class="">○ Apolipoprotein A1 deficiency HDL production (in liver and</p><p id="2297904f-03a9-810f-96a6-ea7bcaeafc79" class="">enterocytes) starts from APO A1 and lipids are introduced after though and ABC membrane transporter. In this condition there’s no APO A1 = no HDL production. Homozygotes are rare, more</p><p id="2297904f-03a9-81db-a0e6-efbc2e32d437" class="">common are the heterozygotes.</p><p id="2297904f-03a9-8192-ab9a-d6c5f3f1af95" class="">○ Tangier’s disease: the transporter ABCA1 that loads lipids inside HDL is not sufficient. There is no formation of HDL and cholesterol accumulates in the tissues. Yellow-colored accumulations of cholesterol in the mucosa of the throat is observed.</p><p id="2297904f-03a9-8163-9dd5-cf9943691e59" class="">○ LCAT deficiency (lecithin cholesterol acyltransferase) ****is generally found in HDL and carries out the esterification of</p><p id="2297904f-03a9-816a-b71b-c149f34611bd" class="">cholesterol (transfer acyl group to free cholesterol. Cholesterol ester formation is necessary for the maturation of HDL, it changes the shape of the HDL, which becomes spherical. In the absence of LCAT, the HDL will never mature (sandwich/roundish shape)</p><p id="2297904f-03a9-81d5-acbd-eccd6704af7f" class="">Immature HDL easily undergoes removal and demolition in the circulation.</p><p id="2297904f-03a9-8150-8984-f6f35a6ccbab" class="">●what monogenic primary dyslipidemias result in increased triglycerides?</p><p id="2297904f-03a9-8117-b0cf-ea2fd3c97ebb" class="">○ Familial Chylomicronemia: LPL or APO CII deficiency resulting in impaired triglyceride download from lipoproteins into the cells. As a result there’s high blood triglycerides. When they’re really high</p><p id="2297904f-03a9-8192-bfde-cde42bdd4a7e" class="">○</p><p id="2297904f-03a9-81d6-a2e3-dca053a9a981" class="">(100 mg/ml) they increase blood viscosity (stasis), and may cause pancreatitis.</p><p id="2297904f-03a9-81cc-8a30-f2479d98596a" class="">○ APO A5 deficiency: very rare. APO A5 works more or less as APO C2.</p><p id="2297904f-03a9-814d-a7db-cdabc7342d22" class="">○ Familial dysbetalipoproteinemia : mutation in apolipoprotein E (ApoE) that results in having apo E2 isoform instead of E3. ApoE serves as a ligand for the liver receptor for chylomicrons, IDL and VLDL, also known as VLDL receptor. This defect prevents the normal metabolism of chylomicrons, IDL and VLDL, and leads to accumulation of cholesterol within scavenger cells (macrophages) to enhance development and acceleration of atherosclerosis.</p><p id="2297904f-03a9-811e-a1ae-f892e2a2a982" class="">○ Hepatic lipase deficiency: very rare condition that results in hyperTG.</p><p id="2297904f-03a9-8128-a1ff-d26b4729de13" class="">●what are the polygenic primary dyslipidemias?</p><p id="2297904f-03a9-8126-8438-da007fc22a42" class="">○ Familial combined hyperlipidemia (↑ hepatic synthesis of VLDL and ApoB100, small-dense LDL). It is the most prevalent primary dyslipidemia. Autosomal dominant. Occurring in up to 1-3% of the general population, frequently remains undiagnosed and its precise definition is a subject of controversy. Characterized by fluctuations in serum lipid concentrations and may present as mixed</p><p id="2297904f-03a9-811c-8461-ca67ca890e6c" class="">hyperlipidemia, isolated hypercholesterolemia,</p><p id="2297904f-03a9-8145-8377-ea48ecde1c03" class="">hypertriglyceridemia, or as a normal serum lipid profile in</p><p id="2297904f-03a9-81b6-92a4-f8cae91a050d" class="">combination with abnormally elevated level of apolipoprotein B.</p><p id="2297904f-03a9-8123-acd2-dd48396e96b0" class="">High frequency of comorbidity with other metabolic conditions.</p><p id="2297904f-03a9-817d-b606-d82a3bb6ec02" class="">○ Familial hypertriglyceridemia (↑ hepatic synthesis of VLDL)</p><p id="2297904f-03a9-819a-9e9b-ff207340ba14" class="">○ Familial hypoalphalipoproteinemia (↓ HDL) accelerated catabolism of APO A1 → less production of HDL.</p><p id="2297904f-03a9-81d6-b5a7-facb98630dee" class="">○ Familial hyperalphalipoproteinemia (↑ HDL. Slower catabolism of APO A1, thus HDL is relatively higher in concentration.</p><p id="2297904f-03a9-81b5-a3d9-cb321f417622" class="">●what are the causes of secondary LDL hypercholesterolemia?</p><p id="2297904f-03a9-81f2-be47-e1e87e03e0cb" class="">1. HYPOTHYROIDISM causes reduced catabolism of LDL → very high cholesterol. Triglycerides are not affected.</p><p id="2297904f-03a9-81c3-8095-c9f85b857c5f" class="">2. Nephrotic syndrome: low LDL catabolism, increased cholesterol. LIVER and cholestatic DISEASES In the case of biliary duct 3.</p><p id="2297904f-03a9-81cd-8b45-d840e3b2b150" class="">obstruction, cholesterol remains in biliary canaliculi and may be taken up in the hepatocytes. Cholesterol is then reversed in the blood vessels.</p><p id="2297904f-03a9-81db-a261-e68fd3d66ac0" class="">4. ANOREXIA NERVOSA: low calorie intake, a low amount of energy is available for LDL catabolism → hypercholesterolemia.</p><p id="2297904f-03a9-81d8-9812-de87a2f8b81d" class="">●what are the causes of secondary hypertriglyceridemia?</p><p id="2297904f-03a9-8151-b18c-f0160763a4b4" class="">1. Alcohol consumption: Ethanol is a very strong stimulator of hepatic triglyceride synthase → synthesis of triglycerides is extremely amplified.</p><p id="2297904f-03a9-8195-9098-df19d3114f0c" class="">2. Type 2 Diabetes: The synthesis of lipids is favored (insulin</p><p id="2297904f-03a9-8197-a3c2-d0986d07859e" class="">2.</p><p id="2297904f-03a9-8101-a4f3-f8241ce50eef" class="">anabolic) and their catabolism is inhibited (insulin is anti-lipolytic).</p><p id="2297904f-03a9-817c-b5cc-e48e04fdc8c0" class="">3. Obesity</p><p id="2297904f-03a9-81be-a231-c0d5f121c70a" class="">4. Pregnancy</p><p id="2297904f-03a9-8187-bf1c-e59cb34f14b1" class="">5. SLE (systemic lupus erythematosus)</p><p id="2297904f-03a9-81bc-8ff0-fd695b3a7e08" class="">●what are the causes of secondary HDL hypocholesterolemia?</p><p id="2297904f-03a9-8199-ac8c-d45bf50692e0" class="">1. smoking</p><p id="2297904f-03a9-8149-93a2-c8d5593b8a68" class="">2. type 2 diabetes</p><p id="2297904f-03a9-81e8-8ddc-f69b376c3688" class="">3. obesity</p><p id="2297904f-03a9-813f-8f4a-f40c63bc2791" class="">●what are some notable effects of drugs and hormones on serum lipid levels?</p><p id="2297904f-03a9-810d-9826-cf890fb77f56" class="">●</p><figure id="2297904f-03a9-81dd-82ce-deb64ee7ee49" class="image"><a href="Dyslipidemia%202297904f03a981319223e022d75b7345/image1.png"><img style="width:48px" src="Dyslipidemia%202297904f03a981319223e022d75b7345/image1.png"/></a></figure><p id="2297904f-03a9-813e-a430-ee6e86311eff" class="">●How do statins and Ezetimibe work?</p><p id="2297904f-03a9-81ab-a527-dba3c2993384" class="">○ Statins work by inhibiting HMG-CoA reductase, which is the rate- limiting enzyme in the synthesis of cholesterol. As a result, there is less cholesterol production from the liver, and hepatocytes</p><p id="2297904f-03a9-814c-a6df-c225a6b660b4" class="">respond by augmenting the amount of LDLr, both things result in less cholesterol circulating in the periphery.</p><p id="2297904f-03a9-813f-a33c-f4eb26f34b45" class="">○ Ezetimibe works by targeting the Niemann-Pick C1-like 1</p><p id="2297904f-03a9-81b6-8523-d8d3a1a06d03" class="">(NPC1L1) protein on the brush border of the small intestine, which plays a key role in the absorption of cholesterol from the diet. By inhibiting NPC1L1, ezetimibe reduces the amount of cholesterol absorbed from the intestine into the bloodstream. It is often used in combination with statins when statin therapy alone is not</p><p id="2297904f-03a9-81bf-a05e-c0cb53473b60" class="">sufficient to reach target cholesterol levels.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

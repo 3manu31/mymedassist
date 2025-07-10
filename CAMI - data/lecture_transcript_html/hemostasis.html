@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> hemostasis</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8113-a6aa-dbdcc55b1c4a" class="page sans"><header><h1 class="page-title"> hemostasis</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81c2-8ee9-c53484c9e2ee" class="">21.04.2023 LEONARDUZZI L.03</p><p id="2297904f-03a9-81e0-910d-f26811266959" class=""><strong>HEMOSTASIS</strong></p><p id="2297904f-03a9-8182-b63b-ef547b3083f5" class="">Hemostasis is a physiological process that occurs when we have a lesion at the level of the vessel walls.</p><p id="2297904f-03a9-8181-98c9-c08e43ed30d0" class="">It is a process activated at the site of vascular injury in order to form blood clots to prevent or limit the extent of bleeding hemorrhage. You know that the blood is liquid and the blood cells run in the middle of the vessel (erythrocytes in the middle and leukocytes more laterally, but they never touch or adhere to a normal endothelium). When there is a lesion in the vessel wall the blood assumes a semisolid or gelatinous consistency forming the so-called blood clot which is fundamental to stop the bleeding. It is a complex process and it involves injured blood vessels and different types of blood cells: platelets, ECs, SMCs, plasma and tissue proteins.</p><p id="2297904f-03a9-8100-9081-ef4cd4059950" class="">The normal hemostasis mechanism involved different type of elements at the site of the vascular injury. We have platelets, extracellular and smooth muscle cells and different proteins.</p><p id="2297904f-03a9-81ce-9c95-f69666e6ff5d" class="">The 3 groups of tissue proteins involved are:</p><p id="2297904f-03a9-8180-af8f-d3f47e30f4cd" class="">1.Procoagulant factors that promote blood clot formation at the site of the vessel injury and stop the leakage of blood.</p><p id="2297904f-03a9-81df-b2da-e066d8ce741e" class="">2.Anticoagulant factors that act to stop or limit blood clot formation in the absence of a lesion on the vessel wall and control the formation of the clot. They prevent thrombosis.</p><p id="2297904f-03a9-8176-b423-e03b040c258d" class="">3.Fibrinolytic factors are involved in dissolution and disgregation of the blood clot when the lesion has been repaired. Firstly, we need to repair the endothelium and when the lost endothelial cytes are replaced by new ones and the wall is repaired, the blood clot can be dissolved and this is due to the function of these factors.</p><p id="2297904f-03a9-81a6-baa2-fdcd713df391" class=""><strong>VASCULAR INJURY</strong></p><p id="2297904f-03a9-813f-b5e6-d3970ccc7522" class="">When a vascular injury, also called lesion, occurs there is immediately a vagal response that consists in vasoconstriction mediated by both a neurogenic reflex mechanism, and local release of factors such as endothelin secreted by endothelial cytes (powerful vasoconstrictor). The aim of vasoconstriction is to reduce the lesion and the quantity of blood that flows out of the vessel. bleeding will resume if not for platelet activation and coagulation factor, so this step is fundamental.</p><p id="2297904f-03a9-8178-8f8d-edeb7e645f4a" class=""><em>Q: In which type of artery or veins does it happen?</em></p><p id="2297904f-03a9-8188-bf23-d626653e16cb" class=""><em>A: It happens everywhere in our body. Of course the hemorrhage will be severe if it involves important vessels. If I have a lesion at the level of the capillaries I will not have a big hemorrhage but a minor bleeding that stops immediately.</em></p><figure id="2297904f-03a9-8148-98e3-fef46fb6ed3b" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image1.png"><img style="width:602px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image1.png"/></a></figure><p id="2297904f-03a9-8116-b1fd-f57e54e78d14" class=""><em>Figure 1</em></p><p id="2297904f-03a9-81bb-85fa-cc9132596698" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8176-a957-ecfc8ec291ac" class="">33</p><p id="2297904f-03a9-81ce-8073-ebf48cd0af4f" class="">21.04.2023 LEONARDUZZI L.03</p><p id="2297904f-03a9-81a8-bec7-f31c78fbc168" class=""><strong>PLATELETS AGGREGATION AND ADHESION</strong></p><p id="2297904f-03a9-812a-baca-d67fd8d6f187" class="">After the initial transient vasoconstriction we have the activation of platelets that start to adhere to endothelium and to each other. Platelets are disc-shaped anucleate cell fragments (deriving from megakaryocytes). In normal condition they never adhere to intact endothelium or aggregate to each other, they only start to adhere at the site of the lesion to close the hole.</p><p id="2297904f-03a9-8150-a1df-f81db3c06ed0" class="">The function of these activated platelets depends on several specific glycoprotein receptors, and also on their capacity of contraction of the cytoskeleton. They are fundamental in this process since they release several factors present in two specific types of cytoplasmic granules:</p><p id="2297904f-03a9-81f3-b85c-f470ad5c9f73" class="">- α-granules: contain the proteins of coagulation cascade: fibrinogen, factor V, von Willebrand factor (vWF), fibronectin, PDGF, TGFb, adhesion molecules.</p><ul id="2297904f-03a9-81c5-89c8-c400893a1a0f" class="bulleted-list"><li style="list-style-type:disc">The second type of granules are the dense, or δ-granules: we can find adenosine diphosphate (ADP), adenosine triphosphate (ATP), calcium, serotonin, histamine and many other factors. During the activation of the platelets all the granule content will be released because each factor has an important rule in all the process.</li></ul><p id="2297904f-03a9-8121-b928-c92860d2bcbc" class=""><strong>PRIMARY HAEMOSTASIS</strong></p><p id="2297904f-03a9-810f-8dae-ee67bb4db3fe" class="">When there is a lesion of the vascular wall I lose endothelocytes and I have immediate exposition of highly thrombogenic constituents of the subendothelial connective tissue. So the subendothelial collagen is directly exposed to the blood and because of its thrombogenic properties, the platelets start to adhere at the site of the lesion and aggregate to each other to form the first platelet plug. This step is indicated as primary hemostasis (or primary platelet plug) that occludes the injured vessel and prevents blood to flow out.</p><p id="2297904f-03a9-8101-ba4e-e97e702a64eb" class=""><strong>THE MECHANISM OF PLATELET AGGREGATION</strong></p><p id="2297904f-03a9-8151-ad8b-fccbe3162ae0" class="">The adhesion of platelets is favored by the presence of the vWF which acts as an adhesion bridge between the exposed collagen and glycoprotein platelet receptors. It is basically the bridge between collagen and platelet. The aggregation of other platelets to each other is possible thanks to fibrinogen, which acts as a bridge between two receptor complexes on different platelets, composed of GpIIb-IIIa. When ATP that is present in dense granules is released, it can change the conformation of the receptor complex increasing the activity for fibrinogen. The deficiency of one receptor is responsible for disorders such as deficiency of von Willebrand disease. The patient suffering from these disorders will have troubles in the hemostasis process and in forming an appropriate blood clot.</p><figure id="2297904f-03a9-81d5-a9bf-ea9a8e611eb4" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image2.png"><img style="width:247px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image2.png"/></a></figure><p id="2297904f-03a9-8178-bb6b-e5a2a1826be6" class=""><em>Figure 2</em></p><p id="2297904f-03a9-8192-85f9-ca9629cc99f7" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8186-97d9-f15a27ea945d" class="">34</p><p id="2297904f-03a9-81ba-9ca3-ec4b5fb9a4a2" class="">21.04.2023 LEONARDUZZI L.03</p><p id="2297904f-03a9-81f2-98a8-fe7af6e083c9" class="">When the platelets start to be activated they change their shape, from a smooth disc to a spiky “sea urchins”, that increase the surface area and contemporary there is also the release of granule contents. All these factors accumulated in the two types of granules will be released.</p><p id="2297904f-03a9-815e-b685-d5a0b27fff6f" class="">Platelet activation is induced by the same factors that are released, including ADP and will stimulate platelet recruitment. Platelets will arrive at the site of the lesion, will be activated thanks to the factors present in the granules and will start to adhere and aggregate. In this step we have the release of thromboxane A2 (TxA2) that will further stimulate aggregation of the platelet itself. This step can be defined as additional platelet aggregation.</p><p id="2297904f-03a9-811a-81a6-ce93ebdbe17b" class="">At the beginning the initial wave of aggregation is reversible (with the activation of thrombin, the platelet plug will be irreversible), but later when there is the production of insoluble fibrin (necessary for stabilization of blood clot), this aggregation of platelets becomes irreversible. So at this point the primary clot will become irreversible.</p><figure id="2297904f-03a9-8184-aa7e-f6097bb1435a" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image3.png"><img style="width:700px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image3.png"/></a></figure><p id="2297904f-03a9-8160-8ebd-f03599418041" class=""><em>Figure 3</em></p><p id="2297904f-03a9-81d4-88ec-f72d7ed0fdf2" class="">This picture (fig3) summarizes the primary hemostasis which results in the formation of the platelet plug. We have activation, recruitment and release of granules content. These factors stimulate adhesion and aggregation of platelets (vWF acts as a bridge between the principal receptor of platelet to sub endothelial collagen). So they bind the extra cell matrix exposed after the lesion, they change their shape. This is the formation of the first platelet plug.</p><p id="2297904f-03a9-812b-a4bd-d6a79b209f4e" class=""><em>Q: I didn&#x27;t get the action of fibrin, could you please explain it again?</em></p><p id="2297904f-03a9-8128-bd5a-f51a7d3f4c40" class=""><em>The professor explains again fibrinogen action:</em></p><p id="2297904f-03a9-8156-b57c-c9b32e9f6366" class=""><em>The fibrinogen that is present in the granules of the platelets is also one of the plasmatic proteins. It contributes to favoring the aggregation among other platelets, it can bind to a receptor complex present on the surface of the platelets (made by GpIIB and IIIA) and on the other side binds to another complex receptor present on a second platelet. It connects the two platelets promoting aggregation. So these receptors are ALWAYS present on the surface of platelets but can be modified by the release of these factors, to increase affinity and bind to fibrinogen, resulting in aggregation.</em></p><p id="2297904f-03a9-813e-90cf-dfa8989108f0" class=""><strong>COAGULATION CASCADE</strong></p><p id="2297904f-03a9-81d6-ba9f-e8b7d600184d" class="">Immediately after the formation of the primary plug, only made of aggregated platelets, there is a coagulation cascade which consist in a series of amplifying enzymatic reactions which results in deposition of an insoluble fibrin clot, important to stabilize the plug.</p><p id="2297904f-03a9-81d9-9977-f42b8366559c" class="">Only with the presence of fibrin the plaque is strong and at this point this plug is irreversible. It consist in a series of factor activation in which the first factor will activate the second one and so on. During platelet</p><p id="2297904f-03a9-81a4-b72b-c45c0ab8fb46" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-81e5-ba57-e75953c30020" class="">35</p><p id="2297904f-03a9-81c6-96ba-cce04ceca170" class="">21.04.2023 LEONARDUZZI L.03</p><p id="2297904f-03a9-81eb-b323-da896f1c19cd" class="">activation it is important to activate the coagulation cascade because there is the translocation of negatively charged phospholipids on their surface. The presence of these phospholipids is important because phospholipids can act as a receptor for factor X, important for coagulation cascade, and will promote the assembly of coagulation factor complexes.</p><p id="2297904f-03a9-8114-9784-e9ede052dc5e" class="">We have 2 types of coagulation cascades: intrinsic and extrinsic pathways; the 2 pathways converge in the activation of factor X Calcium-dependent reactions.</p><p id="2297904f-03a9-81e5-a724-ea6a0a3b8932" class="">The intrinsic pathway is activated by factors that are only present in the blood. The first factor is Hageman’s factor, it is a starter of many cascades in inflammatory response. All these factors are present in the blood as precursors, so inactive. The activation of Hageman’s factor is possible thanks to activated platelets (because they are activated before the coagulation cascade) and plasma proteins. After activation of factor XII we have the activation of factor XI and so on, as you can see. The involvement of activated platelets contribute in the middle of cascade to favor bind of factor 5 and 10, even if this does not happen before the activation of the pathways. activation factor are only present in the blood. A clotting is initiated in laboratory by adding phospholipids calcium and wither a negative charged substances of a source of tissue factor. the red polypeptides ( in picture 4) are inactive factors, the dark green are active polypeptides while the light green one correspond to cofactors.</p><p id="2297904f-03a9-81e7-8398-ee4844e69d35" class="">The extrinsic coagulation cascade is activated by vascular damage and is induced by the release of a tissue factor, tissue thromboplastin (TF), which is not present in the blood and activated by vascular damage but is released by damaged tissue. Tissue thromboplastin is the starter of extrinsic coagulation cascade. in the end we have activation of prothrombin which lead to activation of thrombin, which is a fundamental protein which main activity is to activate transformation of fibrinogen ( soluble) to fibrin (insoluble).</p><figure id="2297904f-03a9-81b9-8100-f5d461f4c02e" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image4.png"><img style="width:264px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image4.png"/></a></figure><p id="2297904f-03a9-81b2-b339-dfee0d45f590" class=""><em>Figure 4</em></p><p id="2297904f-03a9-8146-ac35-fda01a1b753b" class="">These two pathways converge in a bond that consists in the activation of factor X. In Both cases the result is the formation of fibrin, important for platelet plug. The insoluble fibrin is the result of fibrinogen conversion that in turn is catalyzed by thrombin. The thrombin arises from the precursor prothrombin and is important for the conversion of fibrinogen into insoluble fibrin, important for the stabilization of primary platelet plug.</p><p id="2297904f-03a9-81e7-8255-f6ae9a4ac4d0" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-81f2-bfd4-d83c087ce0d0" class="">36</p><p id="2297904f-03a9-8161-a59e-fecf9fa0ad3f" class="">21.04.2023 LEONARDUZZI L.03</p><p id="2297904f-03a9-81d1-9a71-d79a9c431a89" class=""><strong>THROMBIN</strong></p><p id="2297904f-03a9-81f8-bb3a-ea80f5b1b461" class="">The thrombin is a fundamental enzyme in all the coagulation cascade because it has many functions which</p><p id="2297904f-03a9-81c0-a5c5-c09a3f9ee13f" class="">all lead to one main purpose: amplify the formation of blood clot. the functions are</p><p id="2297904f-03a9-81c1-91c3-d5ebf96f5112" class="">● Stimulate the activation of platelets by stimulating</p><p id="2297904f-03a9-81ca-89f3-eaa21923369a" class="">● release of granules content</p><p id="2297904f-03a9-81a9-8a3c-dad3a922d52f" class="">● recruitment of other platelets</p><p id="2297904f-03a9-8172-8369-cdf449913423" class="">● platelet contraction (contraction of cytoskeletal proteins, important for consolidation of</p><p id="2297904f-03a9-813b-87ad-edc34840df86" class="">their aggregation)</p><p id="2297904f-03a9-817d-8231-ed9b899ec9c9" class="">● Converts soluble fibrinogen into fibrin monomers that polymerize into an insoluble clot cementing</p><p id="2297904f-03a9-81ba-929b-dfe19c6c082f" class="">the platelets. At this point we have the formation of a secondary definitive platelet plug or clot. It</p><p id="2297904f-03a9-8161-a6af-e2b8ee4a9cf4" class="">can happen that some red cells and leukocytes can be entrapped inside the clot (made of platelets</p><p id="2297904f-03a9-8199-a543-c80a82ad7514" class="">and fibrin).</p><p id="2297904f-03a9-8187-9494-d946a3dc974e" class="">● Stimulate the coagulation process by activating factor XI, but also V and VIII</p><p id="2297904f-03a9-8181-8e02-c261e05b2092" class="">● Stabilize the secondary platelet plug by activating factor XIII, which forms more solid covalent cross-</p><p id="2297904f-03a9-810d-8a2a-fe59abf76399" class="">links between fibers of fibrin.</p><p id="2297904f-03a9-81ce-8f48-cb03bd017deb" class="">● Stimulate clot contraction, important because during clot contraction, the serum is removed.</p><p id="2297904f-03a9-81fa-a76c-cfaa6aed6070" class="">● Pro-inflammatory effects: activates protease-activated receptors (PARs) expressed on inflammatory</p><p id="2297904f-03a9-81d8-b61c-e830d72e5d32" class="">cells, endothelium, and other cells contributing to tissue repair and angiogenesis. After the</p><p id="2297904f-03a9-81d6-a5d1-d69d50d655a1" class="">stimulation of these receptors the inflammatory cells can release all the factors that are involved in</p><p id="2297904f-03a9-8120-b17b-cb598f6b14fc" class="">the repair and angiogenesis process.</p><p id="2297904f-03a9-810f-8133-d552699fda56" class="">● Anticoagulant effects: it stimulates endothelial cytes to release factors such as NO and PGI2, with</p><p id="2297904f-03a9-81bf-81a4-deddea06493e" class="">which the blood clot is composed. It is important to prevent the formation of the clot outside the</p><p id="2297904f-03a9-8187-8215-ec1ca4a7f294" class="">site of injury. It can act as an anticoagulant preventing the clot from extending beyond the site of the</p><p id="2297904f-03a9-81fe-8469-e8a48146e946" class="">vascular injury.</p><figure id="2297904f-03a9-81ec-8503-d3e1c098029c" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image5.png"><img style="width:332px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image5.png"/></a></figure><p id="2297904f-03a9-81f9-80d7-fe2838e2fb2e" class=""><em>Figure 5</em></p><p id="2297904f-03a9-81e0-84b3-f9606170da7b" class=""><em>Q: Those factors bind platelets or remain free in the blood? Because it can stimulate coagulation in other</em></p><p id="2297904f-03a9-8127-b99d-da39df3c9916" class=""><em>sites being free in the blood.</em></p><p id="2297904f-03a9-811c-bf90-f45aae127014" class=""><em>A: no they don&#x27;t because activated platelets are present only at the site of the injury. It is a local, not diffused</em></p><p id="2297904f-03a9-8168-93ef-ca75d33a0bb0" class=""><em>event,</em> <em>otherwise it would</em> <em>be</em> <em>a</em> <em>pathological</em> <em>process,</em> <em>not</em> <em>a</em> <em>physiological</em> <em>one.</em></p><p id="2297904f-03a9-814c-b2c4-c3c4b6c53d20" class="">The most important function of thrombin is that it favors the release of granules content of platelets, and</p><p id="2297904f-03a9-8169-aaf8-e9a71cf21f23" class="">converts fibrinogen into insoluble fibrin, important for the stabilization of a clot.</p><p id="2297904f-03a9-8199-b605-f34c03e67f22" class="">Thrombin can also stimulate</p><ul id="2297904f-03a9-81a4-98d2-d18d1aa8dd95" class="bulleted-list"><li style="list-style-type:disc">inflammatory cells to release other important factors that are involved in the angiogenesis, these</li></ul><p id="2297904f-03a9-8138-8e7c-c0b24e4e4511" class="">factors can stimulate the smooth muscle cells.</p><ul id="2297904f-03a9-8115-b82a-d6bb2690a7d3" class="bulleted-list"><li style="list-style-type:disc">release by ECs of factors that can control the formation of the blood clot, preventing the formation</li></ul><p id="2297904f-03a9-8107-87df-ecc519499bb9" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-813a-a946-de4b7ad3de6a" class="">37</p><p id="2297904f-03a9-81e6-854d-c044822716c8" class="">21.04.2023 LEONARDUZZI L.03</p><p id="2297904f-03a9-81b8-8bd0-e29a1c88fcff" class="">of the clot outside the site of the lesion, such as NO and PGI2.</p><figure id="2297904f-03a9-8132-96d8-d7aee2834b0e" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image6.png"><img style="width:282px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image6.png"/></a></figure><p id="2297904f-03a9-81b2-8c6b-f81ed6a1c066" class=""><em>Figure 6</em></p><ul id="2297904f-03a9-8191-a7c2-c6a99c4163a1" class="bulleted-list"><li style="list-style-type:disc">secretion of the tissue plasminogen activator is important for the formation of plasmin, one of the most important for the dissolution of the clot. This factor is released to limit the clot only at the site of the lesion.</li></ul><p id="2297904f-03a9-81ad-84ca-cabb2b5577f4" class="">From this picture we can summarize all the functions of thrombin, (the most important enzyme in the coagulation cascade, but also the hemostatic process). fig.6</p><p id="2297904f-03a9-8161-9571-f7a48913ea9e" class=""><strong>SECONDARY HEMOSTASIS</strong></p><figure id="2297904f-03a9-81d3-981a-df26be177a91" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image7.png"><img style="width:318px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image7.png"/></a></figure><p id="2297904f-03a9-815a-811d-fcb1e7f045ec" class=""><em>Figure 7</em></p><p id="2297904f-03a9-8191-aad8-d6181841c062" class="">Now we have a CPI at the level of the secondary hemostasis with the secondary platelet plug, that is the definitive clot.</p><p id="2297904f-03a9-81a2-9d71-d28d34332849" class="">So we have the coagulation cascade, intrinsic or extrinsic, with the final formation of the insoluble fibrin, important to stabilize the previous platelet plug, to obtain the secondary clot. This process can also be called cementing the clot. The clot is stable, we stop the blood from flowing out, then in 24 hours we should have the repair of the endothelium and the dissolution of the blood clot. To dissolve the clot we have the activation of the fibrinolysis through the enzymatic activity of plasmin. It has 2 functions:</p><p id="2297904f-03a9-81b3-b35f-c94473d3b0bf" class="">It limits clot size -</p><p id="2297904f-03a9-8149-95ea-deb23cbf0241" class="">- It contributes to dissolution of the blood clot</p><p id="2297904f-03a9-8139-b437-f09667eb0c6e" class="">The enzyme important for the dissolution of the blood clot is plasmin, we obtain it from the enzymatic hydrolysis of plasminogen, present in the action of various factors that are able to activate plasminogen and convert it into plasmin. plasmin breaks down fibrin, fibrinogen and some coagulation factors . The</p><p id="2297904f-03a9-8169-b849-f8c94652c82f" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8121-a8d2-dd3c1fdf642b" class="">38</p><p id="2297904f-03a9-81cc-9449-ec2ed10f24ab" class="">21.04.2023 LEONARDUZZI L.03</p><p id="2297904f-03a9-81d0-a0b0-cf2cba72aeac" class="">plasminogen can be activated by factors present in the blood, such as Hageman factor or factorXIIa, and kallikrein deriving from the immediate vicinity of the clot.</p><p id="2297904f-03a9-8148-9334-c5650ce919db" class="">Other tissue factors that can activate it are released by microorganisms for example urokinase, streptokinase and staphylokinase.</p><p id="2297904f-03a9-81e7-925a-cba24b7bee9d" class="">The most important plasminogen activator is tissue plasminogen activator, indicated with t-PA, as seen in the scheme it will lead to the activation of plasminogen.</p><figure id="2297904f-03a9-81f9-95d7-f978e9bb1414" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image8.png"><img style="width:451px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image8.png"/></a></figure><p id="2297904f-03a9-819e-8112-cc9ad6a36b1c" class=""><em>Figure 8</em></p><p id="2297904f-03a9-81d4-8662-d4c3d6a44916" class="">After plasminogen activation we have the formation of the plasmin which is able to digest fibrin and other factors that can be in touch with the clot such as fibrinogen and some coagulation factors, obtaining the dissolution of the clot.</p><p id="2297904f-03a9-8179-820f-f34b495ee0fb" class="">The action of plasmin must be controlled, in this case we have other factors that must regulate its action. There are some anticoagulant factors to prevent the formation of the clot outside the site of the injury. This process is the result of the balance of pro coagulation factors and anticoagulation factors and fibrinolytic factors. The clot must be formed only at the level of the injury so contemporary to its formation we have the release of a factor to limit the extension of the clot. In this case we have the release of plasmin that has to digest the blood clot and other factors are released to inhibit the excess action of plasmin. Factors that inhibit plasmin are alpha2-plasmin inhibitors that limit its action only where and when it is necessary.</p><p id="2297904f-03a9-8163-afd9-f8baa4924dd5" class="">The last phase of the hemostasis is characterized by clot contraction to eliminate the liquid part, the serum. Then we have the activation of plasminogen through the release of intrinsic and extrinsic activation factors, mainly t-PA. There is also the release of some factors that prevent excessive coagulation such as a fibrinolytic product, and thrombomodulin. It is a real balance between all the factors of the three groups (coagulation, anticoagulation and fibrinolytic factors).</p><p id="2297904f-03a9-81fe-84f4-d5c589a01474" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8146-b3b2-c5aac283b98a" class="">39</p><p id="2297904f-03a9-814e-8174-c8874698a8a6" class="">21.04.2023 LEONARDUZZI L.03</p><figure id="2297904f-03a9-811e-be71-f95a6e19e5c7" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image9.png"><img style="width:363px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image9.png"/></a></figure><p id="2297904f-03a9-81fb-8fa0-c8cd0d92120b" class=""><em>Figure 9</em></p><p id="2297904f-03a9-81ec-b430-d212e4bd232f" class="">We have ECs that can release t-PA and urokinase to activate plasminogen, that increases the conversion of plasminogen into plasmin, that starts to digest fibrin and other coagulation factors that are in the blood. To avoid the excessive action of these activator factors of plasminogen, inhibitors such as PKI are released. On the other side we have free plasmin that must be controlled: if necessary plasmin can digest the blood clot but if it is overproduced, immediately it is blocked by specific inhibitors such as alpha2- plasmin that bind it to stop the functioning.</p><p id="2297904f-03a9-814e-9c1d-fcfa5d930edf" class=""><strong>ENDOTHELIUM</strong></p><p id="2297904f-03a9-8198-93ea-c2f388a54ad6" class="">The endothelium has a fundamental role in the hemostatic process, it regulates the formation, propagation and dissolution of the clot. It can control all the phases of the hemostatic process because it is important to regulate the balance between anticoagulant and procoagulant activities. Normal endothelium is a barrier, and it releases factors to inhibit platelet adhesion and aggregation, for example NO and PGI2, ADP, when it is intact. Normal ECs express several factors that can also inhibit coagulation, for example thrombomodulin (inhibitor or regulator of coagulation cascade), endothelial protein C receptor, heparin-like molecules, they can also stimulate the release of tissue plasminogen activator.</p><p id="2297904f-03a9-819c-bfd0-fab37dc69458" class="">ECs can also regulate coagulation cascade by binding and altering activity of thrombin, a potent platelet activator. The normal endothelium has to fight against the formation of the clot. All anticoagulation and fibrinolytic factors act to prevent thrombosis and to prevent the formation of abnormal clots, when there isn’t any damage in the vascular clot.</p><p id="2297904f-03a9-8118-a40e-cce788778270" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-819a-a39c-d8516e4efd81" class="">40</p><p id="2297904f-03a9-81de-8cdf-ef535435ac9c" class="">21.04.2023 LEONARDUZZI L.03</p><figure id="2297904f-03a9-8116-89e0-fa6e4671acc3" class="image"><a href="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image10.png"><img style="width:213px" src="hemostasis%202297904f03a98113a6aadbdcc55b1c4a/image10.png"/></a></figure><p id="2297904f-03a9-8105-bb86-d9ca94d9ed29" class=""><em>Figure 10</em></p><p id="2297904f-03a9-81b0-9b56-df81b978be17" class="">When there is a lesion at the level of the endothelium, it loses all its antithrombogenic properties and at that point the platelets are able to form clots.</p><p id="2297904f-03a9-8131-89a5-f6f6254c9945" class="">From this picture (fig10) also we can see the function of the endothelium summarized. There are many factors which are antithrombogenic such as heparin-like molecules that stop and limit thrombin and the possibility to form clots when it is not necessary (because there is no lesion), or to release other coagulation factors as Prostaglandin 2, released to inhibit platelet aggregation. So the endothelium has an important function in the hemostatic process.</p><p id="2297904f-03a9-816a-bd97-fe07aa0de9fe" class=""><strong>DERANGED HEMOSTASIS,HEMORRHAGIC AND THROMBOTIC DISORDERS</strong></p><p id="2297904f-03a9-8180-8a57-cd33471c1fe1" class="">There are situations characterized by the alteration of the hemostatic process. The result is the appearance of hemorrhagic or thrombotic disorders.</p><p id="2297904f-03a9-81f6-8be8-cd39380f0abf" class="">hemorrhagic disorders: alteration concerning the coagulation cascade and the coagulation factors thrombogenic events: increased action of the coagulation factors and anticoagulation factors.</p><p id="2297904f-03a9-8155-bc6e-fe2c3c190ea5" class="">In case of hemorrhagic disorders characterized by excessive bleeding, we have some alteration in one of the steps of the hemostatic process. For example we have problems forming primary or secondary hemostatic plug, we are not able to stop blood flowing out, some of the clinical signs that can indicate an hemostatic disorder is the formation in the skin of petechiae, purpura, ecchymoses so skin hemorrhage.</p><p id="2297904f-03a9-8118-b5db-d2f3a0b4a0eb" class="">In case of thrombotic disorders we have the formation of blood clots without an injury at the level of the vascular wall so these clots can form everywhere. Thrombosis is an abnormal hemostatic process because the formation of the clot occurs without a lesion.</p><p id="2297904f-03a9-812d-88c1-c1dda24a0fd5" class=""><strong>CAUSES OF HEMORRHAGIC DISORDERS</strong></p><p id="2297904f-03a9-8199-92f1-d0b080845f05" class="">Some hemorrhagic disorders are dependent on vessel factors. They can be genetic or acquired diseases.</p><p id="2297904f-03a9-8189-921f-c24a38e4ae72" class="">There could be</p><p id="2297904f-03a9-8132-b504-d50345d692b0" class="">● Lack or insufficient constriction of the vasal lumen.</p><p id="2297904f-03a9-813f-8f71-d3b109429ab2" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8164-ac84-d7933dc68b58" class="">41</p><p id="2297904f-03a9-81bb-b93e-f804d38e110c" class="">21.04.2023 LEONARDUZZI L.03</p><p id="2297904f-03a9-816a-81d7-e8e4bf89864d" class="">The first step is vasoconstriction and if this step is missing due to degenerative diseases at the level of the vessel wall (so in case of angiomatosis or hemastosis) there can be malformation of vessels or permanent dilation, resulting in the incapacity of SMCs to control vasoconstriction.</p><p id="2297904f-03a9-81c9-b74b-cb53b7e6e35e" class="">● Altered functions of ECs.</p><p id="2297904f-03a9-8136-801b-d6be3c7890dd" class="">There are diseases characterized by deficiency of von Willebrand factors (important for adhesion of platelets, acting as a bridge between receptor and sub endothelial collagen</p><p id="2297904f-03a9-816c-8d89-cea623500960" class="">Vessel wall component alterations (collagen, elastin, etc.) ●</p><p id="2297904f-03a9-8144-b41a-e41676334aef" class="">● Alterations in SMCs and fibroblasts.</p><p id="2297904f-03a9-8140-a68a-ed1aa0f6dba0" class="">Other hemorrhagic disorders are due to platelet disorders.</p><p id="2297904f-03a9-81f2-b110-e7745dd8d3b1" class="">They can be genetic or acquired diseases.</p><p id="2297904f-03a9-81a3-bf20-d3732249a46c" class="">Caused by</p><p id="2297904f-03a9-81ae-bb91-c6c9d5567705" class="">● Defects in platelet formation</p><p id="2297904f-03a9-81b4-b365-fe56110f29b8" class="">● Reduced number of platelets is reduced due to a reduced number of precursors (megakaryocytes) 🡪 maturation defects or increased destruction.</p><p id="2297904f-03a9-81c4-93b8-ef8b54e7ab16" class="">● Increased number of platelets, in presence of plateletosis, characterized by myeloproliferative syndromes such as chronic myelogenous leukemia, myeloid metaplasia, etc.</p><p id="2297904f-03a9-81fa-9fad-ffc9898afab8" class="">Other Hemorrhagic disorders dependent on coagulation disorders.</p><p id="2297904f-03a9-81f1-97af-d25ced751fce" class="">Can be either genetic or acquired diseases.</p><p id="2297904f-03a9-8186-8524-def2237f60d9" class="">● Hemophilia (genetic disorder)</p><p id="2297904f-03a9-812f-a90f-fb5d987e0799" class="">● Hemophilia A is caused by a deficiency in factor VIII, but also the mutation of a few coagulation factors</p><p id="2297904f-03a9-81c8-853a-efbea559da1c" class="">hemophilia B is due to a deficiency of factor IX●</p><p id="2297904f-03a9-81a5-9761-e9ec3fb98147" class="">●</p><p id="2297904f-03a9-8186-b798-c06e87a91096" class="">Deficiency of coagulation factor production in case of hepatic diseases. In the liver there is the synthesis of many coagulation factors, in case of hepatic diseases (cirrhosis or hepatitis) there is a deficiency in the synthesis of coagulation factors and a lack in the coagulation cascade</p><p id="2297904f-03a9-81ba-a460-ca367b3ffe84" class="">● Excessive destruction in case of disseminated intravascular proteolysis, or failed binding to receptors.</p><p id="2297904f-03a9-81f3-8b03-d0ee68c8d5c6" class="">We can have alterations in the coagulation control.</p><p id="2297904f-03a9-8167-964a-c202d4d2e7f2" class="">For example</p><p id="2297904f-03a9-8193-af1d-c2760c8e055d" class="">● Diseases of the fibrinolytic system 🡪 components of the fibrinolytic system are plasminogen, plasminogen activators or inhibitors, inhibitors of plasminogen activators, specific plasmin inhibitors (𝛼2-antiplasnin, 𝛼2- macroglobulin).</p><p id="2297904f-03a9-8134-aa8d-f1608375f448" class="">● Genetic or acquired deficiency of plasmin inhibitors. In this case there is an excessive action of plasmin, excessive fibrinolysis with consequent hemorrhagic events, because fibrinolytic system is amplified as plasmin is not regulated by inhibitors of plasmin. As a consequence it works in an excessive way and the results are hemorrhagic manifestations.</p><p id="2297904f-03a9-81de-bc11-e60ff59f7932" class="">● Antiprotease deficiency</p><p id="2297904f-03a9-8192-bcca-eb4233fb6a15" class="">Regarding the main antiproteases that control coagulation factors that are antitrypsin, antichymotrypsin, antithrombin III, protein C and S, C1 inactivator, protein C inhibitors. All these factors regulate the formation of clots, especially antithrombin.</p><p id="2297904f-03a9-81f4-9987-c0936ceb6298" class="">● Genetic acquired deficiency of antithrombin III, the result is the presence of thrombotic events.</p><p id="2297904f-03a9-8143-9ae9-d46f81a5ccde" class="">Eleonora Deinite, Chiara Rosa</p><p id="2297904f-03a9-8139-b0fd-cdf6c92a83cd" class="">42</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

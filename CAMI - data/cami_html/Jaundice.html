@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Jaundice</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8148-a952-c09713adf6c3" class="page sans"><header><h1 class="page-title">Jaundice</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81e8-96e0-e9afe6b6a937" class="">●definition of jaundice</p><p id="2297904f-03a9-81eb-9515-f7707bf1dc26" class="">Increased concentration of bilirubin in the blood resulting in a yellowish staining of the skin surface and/or visible mucous membranes or sclerae. Internal organs may also be affected.</p><p id="2297904f-03a9-813c-a970-edd7e3cd40e9" class="">●Jaundice can be caused by:</p><p id="2297904f-03a9-81c0-80bd-fb0f1582771e" class="">○ increase of unconjugated bilirubin, hydrophobic (liposoluble) product, which cannot be excreted with urine; it can accumulate in the blood, in the skin and in the mucous membranes)</p><p id="2297904f-03a9-81f1-9738-c621b9f8fe27" class="">○ increase of conjugated bilirubin (water-soluble), which can be excreted in the urine</p><p id="2297904f-03a9-81ce-80d3-ccf33ba1f28a" class="">○ mixture of conjugated and unconjugated bilirubin</p><p id="2297904f-03a9-818a-ab49-eb2b05a3681c" class="">●These different types of bilirubin depend on the problem that causes the disease.</p><p id="2297904f-03a9-8187-8378-fb9bccbd66d7" class="">●what is bilirubin?</p><p id="2297904f-03a9-8143-a33c-d9fb155866e2" class="">bilirubin is the toxic end product of heme degradation that is processed in the liver, excreted in the bile</p><p id="2297904f-03a9-8114-92e8-c604ecca0268" class="">●explain the normal metabolism of bilirubin</p><p id="2297904f-03a9-8173-ae38-fb285cdbf5d7" class="">1. heme (from senescent erythrocytes, erythrocyte precursors, P450 cytochrome enzymes, etc) is taken inside a phagocytic cell where it is oxidized by heme oxygenase into biliverdin, which is in turn converted into unconjugated bilirubin by biliverdin reductase unconjugated bilirubin is lipid-soluble, so it binds serum albumin 2.</p><p id="2297904f-03a9-813c-8195-e4c34646f95f" class="">and transported to the liver</p><p id="2297904f-03a9-8149-b252-e7df0a2df19d" class="">3. bilirubin is conjugated with one or two molecules of glucuronic acid in the ER by bilirubin uridine diphosphate glucoronyl</p><p id="2297904f-03a9-8196-869d-f3aaa1fae8bc" class="">transferase (UGT)</p><p id="2297904f-03a9-8134-970a-fb1fe717adc1" class="">4. conjugated bilirubin is nontoxic and water soluble, it diffuses through the cytoplasm into the biliary canaliculi and eventually into the gallbladder where it will form bile (together with bile salts, phospholipids, and cholesterol)</p><p id="2297904f-03a9-8165-ae8f-d42bb1aac37e" class="">5. in the intestine most of it is de-conjugated by the flora (bacterial β- glucuronidases) and degraded to colorless urobilinogen (or bilinogen)</p><p id="2297904f-03a9-8175-96a6-d05cd6513c54" class="">fate of urobilinogen: 6.</p><p id="2297904f-03a9-8109-82f0-efa7aba159d7" class="">◆80-90% oxidized by other intestinal bacteria and together with bile pigment residues is excreted in feces: stercobilin</p><p id="2297904f-03a9-8100-96d2-d10005bde514" class="">◆10-20% is reabsorbed through the enterohepatic circulation (terminal ileum and colon) and returned to the liver (portal circulation) and excreted into bile</p><p id="2297904f-03a9-81b8-9602-fce6664284c6" class="">◆a small amount of reabsorbed urobilinogen reaches the systemic circle and is excreted in the urine: urobilin</p><p id="2297904f-03a9-816e-bf4e-e6d1a246fa09" class="">●what is bile made up of?</p><p id="2297904f-03a9-81a2-af48-fc5d37e0707a" class="">○ bile salts (2/3)</p><p id="2297904f-03a9-81e4-9a5a-e5dbd7639e64" class="">○ bilirubin</p><p id="2297904f-03a9-816f-ba7c-ce9fde1972d8" class="">○ phospholipids</p><p id="2297904f-03a9-817b-b311-e4748c83b509" class="">○ cholesterol</p><p id="2297904f-03a9-81b1-b0e9-e27d89f30b20" class="">●normal blood bilirubin levels</p><p id="2297904f-03a9-817f-a9ae-de704b3a0fed" class="">0.3-1.2 mg/dL</p><p id="2297904f-03a9-819e-b9e4-e6d04bb74e59" class="">Hyperbilirubinemia: &gt; 1.2 mg/dL</p><p id="2297904f-03a9-8106-86af-dfd09cb79730" class="">2 there’s jaundice</p><p id="2297904f-03a9-8170-b124-fa077998094d" class="">●what is the function of bile</p><p id="2297904f-03a9-8182-9eda-c5f0f701d734" class="">○ emulsion and absorption of dietary lipids in the gut lumen through</p><p id="2297904f-03a9-818c-af59-ec741aa65e97" class="">the detergent properties of bile salts (they solubilize water-</p><p id="2297904f-03a9-8164-823f-c420eefdee96" class="">insoluble dietary lipids)</p><p id="2297904f-03a9-8109-b429-dfa4bdb05480" class="">○ neutralize stomach acid</p><p id="2297904f-03a9-81e5-af7c-ee301b8a7c04" class="">○ helps to eliminate waste products (excess cholesterol and bilirubin)</p><p id="2297904f-03a9-8101-8b19-d86af77ceae6" class="">●how are bile salts formed</p><p id="2297904f-03a9-81e1-9a41-d7c842a1e712" class="">by the conjugation of bile acids with taurine or glycine</p><p id="2297904f-03a9-818c-87e1-cf8ae6e6f82a" class="">bile acids are major catabolic products of cholesterol; they are water-</p><p id="2297904f-03a9-8188-8855-f9708adbbd6e" class="">soluble sterols with carboxylated side chains</p><p id="2297904f-03a9-8147-8541-e074183e7c83" class="">●what amount of bile acids are made and excreted by the liver in a day?</p><p id="2297904f-03a9-8197-aeed-e06b17ee62d3" class="">what is their fate?</p><p id="2297904f-03a9-81ff-917d-daea4722fdd9" class="">The liver secretes from 12 to 36 g of bile acids a day and their fecal</p><p id="2297904f-03a9-81b0-87a2-eb5edf6128d3" class="">loss is from 0.2 to 0.6 g a day.</p><p id="2297904f-03a9-81c5-bf01-cb02e38d777a" class="">●what happens to bile acids once in the gut lumen</p><p id="2297904f-03a9-81aa-b485-c8af2e6cc7ba" class="">95% are reabsorbed by the liver via the enterohepatic circulation</p><p id="2297904f-03a9-814c-b79a-f624d656fb84" class="">●clinical features of jaundice</p><p id="2297904f-03a9-8186-9122-ef69f1b22729" class="">Approach to the jaundiced patient: Clinical features</p><p id="2297904f-03a9-819e-83f4-c1f750ff1b2c" class="">○ Urine color</p><p id="2297904f-03a9-8139-9381-f999af38d664" class="">○ Faeces color</p><p id="2297904f-03a9-8108-a677-d22cb189aea2" class="">○ Presence of associated symptoms</p><p id="2297904f-03a9-810f-9924-f6d6497b00b0" class="">◆itch</p><p id="2297904f-03a9-8107-8c62-ce0bb9061be6" class="">◆ache</p><p id="2297904f-03a9-812f-8e4f-edf9a486a578" class="">◆nausea, vomiting</p><p id="2297904f-03a9-819d-9681-d90643c9e227" class="">◆asthenia</p><p id="2297904f-03a9-814d-830e-e296727e24fd" class="">◆temperature</p><p id="2297904f-03a9-817a-88ba-d8f636af134b" class="">○ Key Questions</p><p id="2297904f-03a9-812d-b6ed-df1dfc101492" class="">◆Taking toxic substances?</p><p id="2297904f-03a9-81e0-b31d-d67ee59cecba" class="">◆Ingestion of suspect foods?</p><p id="2297904f-03a9-811d-898c-d8c56c5a839b" class="">◆Contact with blood or derivatives</p><p id="2297904f-03a9-8178-9aec-e6b717ec7f9d" class="">◆History of cholelithiasis?</p><p id="2297904f-03a9-81c0-9994-f25203d7769c" class="">◆Family history of jaundice?</p><p id="2297904f-03a9-8187-8517-f75d8ecc5686" class="">●describe pre-hepatic jaundice</p><p id="2297904f-03a9-8175-af40-ef975832e609" class="">It occurs when there is an excessive breakdown of red blood cells</p><p id="2297904f-03a9-810b-a648-ff0fa00cbe68" class="">●</p><p id="2297904f-03a9-81a6-9a29-ea49fe0e3bbf" class="">that happens so fast that the liver is not able to process all of the</p><p id="2297904f-03a9-8113-bd80-c7b1dfd1351c" class="">bilirubin, leading to an accumulation of the substance in the blood.</p><p id="2297904f-03a9-8179-b947-c486969d1fba" class="">Often caused by</p><p id="2297904f-03a9-8133-9e4d-cd4185e238ad" class="">○ increased hemolysis</p><p id="2297904f-03a9-811d-976c-ea15266755e7" class="">◆sickle cell anemia, thalassemia, hemolytic anemia, favism or</p><p id="2297904f-03a9-81f2-b2f4-d2595aed41f2" class="">G6PD defect, spleen hyper-functionality, spherocytosis,</p><p id="2297904f-03a9-81be-af3f-e5fe1888eba7" class="">elliptocytosis, bacterial infections, autoimmune diseases,</p><p id="2297904f-03a9-81ad-a22f-dad7727043d4" class="">erythroblastosis <em>fetalis</em> (Rh-, Rh+)</p><p id="2297904f-03a9-81d0-9182-df1348676d0f" class="">○ defects in erythropoiesis</p><p id="2297904f-03a9-8195-ba32-d392dd0b13ed" class="">◆thalassemia, mediterranean anemia (hemoglobin def),</p><p id="2297904f-03a9-8130-84c9-cd39641d1a56" class="">pernicious anemia (B12 def), sideroblastic anemia (iron def),</p><p id="2297904f-03a9-81ce-8901-ebebfe7d70e8" class="">leukemia, etc.</p><p id="2297904f-03a9-81a8-aa64-fc69bc824c8a" class="">●In sickle cell anemia and thalassemia, the red blood cells are abnormal</p><p id="2297904f-03a9-813a-9771-c61d42e3c462" class="">and have a shorter lifespan than normal red blood cells, leading to an</p><p id="2297904f-03a9-81f4-9213-ef8399aa773b" class="">increased breakdown of these cells. Hemolytic anemia, on the other</p><p id="2297904f-03a9-8165-9118-cd9706363d9e" class="">hand, is caused by the destruction of red blood cells by the immune</p><p id="2297904f-03a9-81d3-82d6-fb82dc013186" class="">system or by external factors such as infections or exposure to certain</p><p id="2297904f-03a9-816c-8813-e003e179f2d9" class="">medications or chemicals.</p><p id="2297904f-03a9-8121-b078-f370cf87d241" class="">○ Pleiochromic (dark) feces due to excess stercobilin</p><p id="2297904f-03a9-8155-a4a3-f71335033cde" class="">○ Hyper-chromic urine with lots of urobilin</p><p id="2297904f-03a9-8138-bd83-c241f43d7f8a" class="">○ in the fetus or newborn if severe accumulation unconjugated</p><p id="2297904f-03a9-817d-a2f1-f56f8b364dd6" class="">bilirubin (20 mg/dl) it can lead to kernicterus(bilirubin induced</p><p id="2297904f-03a9-8176-a4b0-da1f053363a6" class="">brain damage) The blood–brain barrier is not fully functional in</p><p id="2297904f-03a9-81c5-8361-dde9d535728c" class="">neonates and therefore bilirubin is able to cross into the central</p><p id="2297904f-03a9-8194-a789-c56b8aaeebc3" class="">nervous system.</p><p id="2297904f-03a9-81cc-b00c-cb8a8fb457ca" class="">●describe hepatic jaundice</p><p id="2297904f-03a9-817a-813e-c71f6d3b98e7" class="">Due to alteration of hepatic function impairing either the uptake, the</p><p id="2297904f-03a9-81f7-a5bd-eafdbb83d370" class="">conjugation of bilirubin, or the excretion</p><p id="2297904f-03a9-8191-92fb-f87233c3b0cf" class="">Uptake defect:</p><p id="2297904f-03a9-8137-a8b6-cb1649254441" class="">○ decrease in ligandins amount or function:</p><p id="2297904f-03a9-810a-b612-fa4899cb5190" class="">◆neonatal physiological jaundice (liver is not mature until 2</p><p id="2297904f-03a9-8102-a707-f3b6527a30ad" class="">weeks post birth)</p><p id="2297904f-03a9-817d-af90-fe07c50c70d1" class="">○ hepatic cellular damage (hepatitis)</p><p id="2297904f-03a9-81e5-bd5f-ed6e3058b92d" class="">◆viral, drug induced.</p><p id="2297904f-03a9-8161-9e7b-f45b3431f697" class="">○ Rotor syndrome (autosomal recessive mutation leads to loss of</p><p id="2297904f-03a9-817f-ad63-cca4da4c8f22" class="">function of the Organic Anion Transporter Proteins (OATP1)→ less</p><p id="2297904f-03a9-81dc-ada9-e7591f98a144" class="">bilirubin taken up by the liver)</p><p id="2297904f-03a9-8185-8112-c289db7bbd2b" class="">●Conjugation defect</p><p id="2297904f-03a9-81e2-b9c9-f9616cef55d1" class="">○ UGT deficiency</p><p id="2297904f-03a9-81b8-a131-f3c86e1b547b" class="">◆neonatal physiological jaundice</p><p id="2297904f-03a9-81a5-8891-f63bfe02c248" class="">◆Crigler-Najjar type I: complete absence or severe deficiency →</p><p id="2297904f-03a9-8118-a3be-d0ba65505652" class="">fatal around the time of birth</p><p id="2297904f-03a9-814b-b6d2-f1552f865502" class="">◆Crigler-Najjar type II or Gilbert syndrome: decreased UGT</p><p id="2297904f-03a9-8173-a2d0-cce7aa333aa2" class="">○ some drugs</p><p id="2297904f-03a9-8130-ae33-eac7750fc46e" class="">●Hepatocellular jaundice with conjugated bilirubin:</p><p id="2297904f-03a9-81d1-98ee-db9b29363dab" class="">○ congenital defect of conjugated bilirubin excretion (non lethal)</p><p id="2297904f-03a9-81b0-8ca7-df2cafa617be" class="">◆Rotor syndrome</p><p id="2297904f-03a9-81a0-96bc-e445bd250212" class="">◆Dubin-Jhonson syndrome: MRP2 transport protein deficient</p><p id="2297904f-03a9-8145-96c4-f2961a16bbdb" class="">(for the transport of conjugated bilirubin from hepatocyte to</p><p id="2297904f-03a9-8106-bbda-f9b3102bf813" class="">bile duct) and up-regulation of MRP3 for its transport to the</p><p id="2297904f-03a9-81b7-981e-fbaa8368da7a" class="">blood</p><p id="2297904f-03a9-81de-b56d-c1c5a2af85eb" class="">○ acquired cellular hepatic injury.</p><p id="2297904f-03a9-81c5-9863-cf4a60893980" class="">◆drugs, pregnancy, hepatocellular damage, etc.</p><p id="2297904f-03a9-81fb-ad87-d6d5638b44ea" class="">●Jaundice with mixed defects (uptake, conjugation and secretion):</p><p id="2297904f-03a9-8149-a5a6-fcc7feb16970" class="">○ Mixed hyperbilirubinemia: acute or chronic hepatopathies</p><p id="2297904f-03a9-8107-8966-ef1cbc1bbf14" class="">●</p><figure id="2297904f-03a9-811f-b384-d374c931ad8a" class="image"><a href="Jaundice%202297904f03a98148a952c09713adf6c3/image1.png"><img style="width:48px" src="Jaundice%202297904f03a98148a952c09713adf6c3/image1.png"/></a></figure><p id="2297904f-03a9-81a6-8928-fd7b68429e43" class="">●describe post-hepatic jaundice</p><p id="2297904f-03a9-814d-a4fb-cd19bc239da4" class="">Also called stasis jaundice or cholestatic jaundice</p><p id="2297904f-03a9-811f-9392-c6fe1e566ba2" class="">obstruction of bile excretion that leads to an accumulation of</p><p id="2297904f-03a9-81e8-bff7-cc382ee7fdfc" class="">conjugated bilirubin and bile.</p><p id="2297904f-03a9-8129-b553-f2c0eafe290a" class="">The detergent properties of bile acids damage cells and activate</p><p id="2297904f-03a9-81f7-b8b6-cd23e67437d4" class="">apoptosis; bile acids are hepatotoxic.</p><p id="2297904f-03a9-8197-b787-f4b591a2b0c1" class="">Clinical diagnosis:</p><p id="2297904f-03a9-810d-b11c-d1a03acd44a3" class="">○ increase in blood of compounds usually transferred to bile</p><p id="2297904f-03a9-81ef-bb60-e13febe5d041" class="">(bilirubin, bile acids, CHOLESTEROL...)</p><p id="2297904f-03a9-81e5-a77b-f4faa5721fb9" class="">○ itching (Excess of bile salts in the circulation cause irritation of</p><p id="2297904f-03a9-81b1-8885-f3161fe6bd80" class="">cutaneous nerve terminations)</p><p id="2297904f-03a9-817c-80e3-efcffb6b394c" class="">○ steatorrhea (reduced bile formation → decreased absorption of</p><p id="2297904f-03a9-818a-894c-c711c52802ee" class="">fats, and hypo-chromic feces)</p><p id="2297904f-03a9-81d8-a07a-fe5944fa4977" class="">○ hyper-chromic (dark) urine</p><p id="2297904f-03a9-814c-8c02-c4819911c450" class="">○ Hepatomegaly</p><p id="2297904f-03a9-81a8-aeb2-d8593f590229" class="">○ Chronic:</p><p id="2297904f-03a9-8196-89a2-e02960e117ec" class="">◆Nutritional deficiency of liposoluble vitamin (A, D and K) related</p><p id="2297904f-03a9-810b-8891-c2d8f125c79b" class="">to intestinal malabsorption.</p><p id="2297904f-03a9-81eb-b771-edee6a6984f6" class="">◆Cutaneous xanthomas (focal accumulation of cholesterol) due</p><p id="2297904f-03a9-81a5-83bb-f38009fa6ef9" class="">to hyperlipidemia and altered cholesterol excretion</p><p id="2297904f-03a9-81da-9152-c0fc61488dee" class="">●Subtypes</p><p id="2297904f-03a9-81fe-9c4d-dfcc8dd74412" class="">○ Intrahepatic cholestasis: obstructions or alterations of the</p><p id="2297904f-03a9-818f-9f04-e1166d9ab088" class="">intrahepatic biliary tract (between hepatocytes and main</p><p id="2297904f-03a9-81c5-8430-f997059ec8d2" class="">interlobular bile ducts) due to</p><p id="2297904f-03a9-81d3-95b4-dc5acb37f867" class="">◆biliary cirrhosis</p><p id="2297904f-03a9-81bc-9c9a-e8d8c1aed3a9" class="">◆viral, bacterial, neoplastic, or toxic factors</p><p id="2297904f-03a9-81af-bcac-c5a5f46ff22a" class="">◆drugs (oral contraceptives, anabolic steroids)</p><p id="2297904f-03a9-8193-83cd-c9e8c2bbdd1b" class="">○ Extrahepatic cholestasis: Occlusion of extrahepatic bile ducts</p><p id="2297904f-03a9-81e1-b4b9-cd5ef9d7b019" class="">◆gallstones (cholesterol, calcium salts),</p><p id="2297904f-03a9-81ad-9341-efbddbebee06" class="">◆biliary tract tumors</p><p id="2297904f-03a9-81d0-a3e7-c35243fc4c5b" class="">◆pancreatic tumors</p><p id="2297904f-03a9-81f2-93c9-c8347fa3a0e0" class="">◆chronic inflammatory processes of the biliary tract</p><p id="2297904f-03a9-81ba-87bc-ee89c0dbb7f9" class="">◆lymphopathies of the hepatic hilum</p><p id="2297904f-03a9-8102-8ba8-dfcfd0d26fd7" class="">◆chronic sclerosing pancreatitis, etc.</p><p id="2297904f-03a9-81fc-acb4-d0383bead58f" class="">●describe the histology of cholestasis</p><p id="2297904f-03a9-8119-88bb-cc918dd6c435" class="">○ enlarged hepatocytes with bile droplets accumulating inside</p><p id="2297904f-03a9-818c-af37-cae7b3cbc514" class="">○ dilated canaliculi</p><p id="2297904f-03a9-81b9-8a27-d700873ba7c6" class="">○ apoptotic cells (Detergent properties of bile acids damage cells</p><p id="2297904f-03a9-81cd-930c-c498f9c1ac07" class="">and activate apoptosis; bile acids are hepatotoxic.)</p><p id="2297904f-03a9-81fb-8757-e4e8175e3a06" class="">●Mechanisms of cholestasis</p><p id="2297904f-03a9-810b-bc14-e48bdd2f48be" class="">○ Damage of the canalicular plasma membranes(drugs, toxic</p><p id="2297904f-03a9-814a-a2ff-fe2845dbf135" class="">compounds..)causing a reduction in the bile transport</p><p id="2297904f-03a9-8199-8629-c156404b0b66" class="">○ Alterations of canalicular membrane permeability: e.g: in</p><p id="2297904f-03a9-81b9-a1aa-e29c5164d61f" class="">pregnancy, increase in estrogen can increase membrane</p><p id="2297904f-03a9-815c-8be6-fc6a159cf216" class="">permeability of the biliary canaliculi favoring the retro-diffusion of</p><p id="2297904f-03a9-81ff-a76b-fe1a310468f6" class="">the bile components, causing cholestasis.</p><p id="2297904f-03a9-8110-806a-e05026a2cf97" class="">○ Alterations or inhibitions of contractile properties (actin) of</p><p id="2297904f-03a9-81e3-8067-cc5a2eeee2ea" class="">the canaliculus</p><p id="2297904f-03a9-812e-ac19-d406edc701c5" class="">◆e.g. phalloidin toxin (found in death cap mushroom) binds to</p><p id="2297904f-03a9-81f1-aef5-f0d47443936a" class="">actin and impairs the peristaltic-like activity of hepatocytes</p><p id="2297904f-03a9-8140-b1ce-fb700d220e15" class="">promotes canalicular flow of bile.)</p><p id="2297904f-03a9-8166-bc09-fb85d4d37f73" class="">●urine and stool color for the 3 types of jaundice</p><table id="2297904f-03a9-81a1-b352-f23a0ed86ba2" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-81c1-917d-ec248604365e"><th id="@SGd" class="simple-table-header-color simple-table-header">•type</th><th id="CU?:" class="simple-table-header-color simple-table-header">• pre-<br/>hepatic<br/></th><th id="[=T=" class="simple-table-header-color simple-table-header">• hepatic</th><th id="ZaN?" class="simple-table-header-color simple-table-header">• post- hepatic / cholestatic</th><th id="}zHs" class="simple-table-header-color simple-table-header">•</th></tr></thead><tbody><tr id="2297904f-03a9-81ea-85ee-ec23aa628f16"><th id="@SGd" class="simple-table-header-color simple-table-header">•<br/><br/>pathophysiol ogy<br/></th><td id="CU?:" class="">•<br/><br/>increased<br/><br/>hemolysis,<br/><br/>or defective erythropoies is → amount of<br/><br/>unconjugate d (indirect)<br/><br/>bilirubin<br/><br/>exceeds liver capacity to<br/><br/>process it in time so it<br/><br/>accumulates in blood<br/></td><td id="[=T=" class="">•a. issue in liver<br/><br/>uptake<br/><br/>(unconjugat ed<br/><br/>hyperbilirubi nemia) b.<br/>conjugation defect<br/><br/>(unconjugat ed<br/><br/>hyperbilirubi nemia) c.<br/>excretion<br/><br/>defect<br/><br/>(conjugated hyperbilirubi nemia) d.<br/>mixed<br/><br/>defects<br/><br/>(uptake,<br/><br/>conjugation, and<br/><br/>secretion)<br/></td><td id="ZaN?" class="">•<br/><br/>Decreased bile flow<br/><br/>through bile canaliculus (defect in<br/><br/>bile<br/><br/>transport)<br/><br/>due to (1)<br/><br/>hepatocellul ar<br/></td><td id="}zHs" class="">•</td></tr></tbody></table><table id="2297904f-03a9-81ee-b9b7-e2c79103c1c7" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-81b1-8222-e0eb6ad7ba86"><th id="cCgc" class="simple-table-header-color simple-table-header">•type</th><th id="vo&gt;|" class="simple-table-header-color simple-table-header">• pre-<br/>hepatic<br/></th><th id="F}`_" class="simple-table-header-color simple-table-header">• hepatic</th><th id="[x=m" class="simple-table-header-color simple-table-header">• post-<br/>hepatic /<br/>cholestatic<br/></th><th id="CJom" class="simple-table-header-color simple-table-header">•</th></tr></thead><tbody><tr id="2297904f-03a9-8103-8c23-e3dc2c908ae6"><th id="cCgc" class="simple-table-header-color simple-table-header">•<br/><br/>pathophysiol ogy<br/></th><td id="vo&gt;|" class="">•<br/><br/>increased<br/><br/>hemolysis,<br/><br/>or defective erythropoies is → amount of<br/><br/>unconjugate d (indirect)<br/><br/>bilirubin<br/><br/>exceeds liver capacity to<br/><br/>process it in time so it<br/><br/>accumulates in blood<br/></td><td id="F}`_" class="">•a. issue in liver<br/><br/>uptake<br/><br/>(unconjugat ed<br/><br/>hyperbilirubi nemia) b.<br/>conjugation defect<br/><br/>(unconjugat ed<br/><br/>hyperbilirubi nemia) c.<br/>excretion<br/><br/>defect<br/><br/>(conjugated hyperbilirubi nemia) d.<br/>mixed<br/><br/>defects<br/><br/>(uptake,<br/><br/>conjugation, and<br/><br/>secretion)<br/><br/>lead to<br/><br/>mixed<br/><br/>hyperbilirubi nemia<br/></td><td id="[x=m" class="">•<br/><br/>Decreased bile flow<br/><br/>through bile canaliculus (defect in<br/><br/>bile<br/><br/>transport)<br/><br/>due to (1)<br/><br/>hepatocellul ar<br/></td><td id="CJom" class="">•</td></tr><tr id="2297904f-03a9-81e1-8d73-ff569520c32b"><th id="cCgc" class="simple-table-header-color simple-table-header">•<br/><br/>dysfunction or (2)<br/><br/>intrahepatic cholestasis or (3)<br/><br/>extrahepatic cholestasis<br/></th><td id="vo&gt;|" class="">•</td><td id="F}`_" class="">•</td><td id="[x=m" class="">•</td><td id="CJom" class="">•</td></tr><tr id="2297904f-03a9-815e-af70-e6a4ebf60b2f"><th id="cCgc" class="simple-table-header-color simple-table-header">• urine<br/>color<br/></th><td id="vo&gt;|" class="">• dark<br/><br/>(unconjugat ed/indirect<br/><br/>bilirubin is<br/><br/>hydrophobic so not<br/><br/>present in<br/><br/>the urine<br/><br/>however its elevation<br/><br/>indirectly<br/></td><td id="F}`_" class="">•dark in<br/>defects of<br/>excretion<br/></td><td id="[x=m" class="">•dark</td><td id="CJom" class="">•</td></tr></tbody></table><table id="2297904f-03a9-818f-9c1c-f6fa804f29f0" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-81b9-afff-d51b6a80ecd2"><th id="=Ebw" class="simple-table-header-color simple-table-header">or (3)<br/><br/>extrahepatic cholestasis<br/></th><th id="qyKy" class="simple-table-header-color simple-table-header"></th><th id="Zbov" class="simple-table-header-color simple-table-header"></th><th id="O|=A" class="simple-table-header-color simple-table-header"></th><th id="Uno{" class="simple-table-header-color simple-table-header"></th></tr></thead><tbody><tr id="2297904f-03a9-8198-a1e7-ebd90c21d7d8"><th id="=Ebw" class="simple-table-header-color simple-table-header">• urine<br/>color<br/></th><td id="qyKy" class="">• dark<br/><br/>(unconjugat ed/indirect<br/><br/>bilirubin is<br/><br/>hydrophobic so not<br/><br/>present in<br/><br/>the urine<br/><br/>however its elevation<br/><br/>indirectly<br/><br/>leads to an<br/><br/>accumulatio n of<br/><br/>conjugated bilirubin)<br/></td><td id="Zbov" class="">•dark in<br/>defects of<br/>excretion<br/></td><td id="O|=A" class="">•dark</td><td id="Uno{" class="">•</td></tr><tr id="2297904f-03a9-813e-aa78-d0c9be579a4f"><th id="=Ebw" class="simple-table-header-color simple-table-header">• feces<br/>color<br/></th><td id="qyKy" class="">• dark</td><td id="Zbov" class="">•normal /<br/>lighter (not<br/>steatorrhea)<br/></td><td id="O|=A" class="">•CLAY:<br/><br/>Reduced bile formation<br/><br/>and<br/><br/>excretion in<br/><br/>the intestine leads to<br/><br/>decreased<br/><br/>absorption<br/><br/>of fats =<br/><br/>steatorrhea<br/></td><td id="Uno{" class="">•</td></tr><tr id="2297904f-03a9-8124-8376-fe43c1d8bab4"><th id="=Ebw" class="simple-table-header-color simple-table-header">• pruritus</th><td id="qyKy" class="">• no</td><td id="Zbov" class="">•no (or<br/>very mild)<br/></td><td id="O|=A" class="">•yes!<br/>excess bile salts in<br/><br/>blood cause irritation of nerve<br/><br/>terminations .<br/></td><td id="Uno{" class="">•</td></tr><tr id="2297904f-03a9-8151-920c-d6f4b917cf2d"><th id="=Ebw" class="simple-table-header-color simple-table-header">•<br/><br/>diseases<br/></th><td id="qyKy" class="">• favism/ Glucose-6-<br/><br/>phosphate-dehydrogen ase<br/><br/>deficiency,<br/><br/>sickle cell,<br/><br/>spherocytosi s, spleen<br/><br/>hypefunctio nality,<br/></td><td id="Zbov" class="">•a.<br/>uptake issue can be<br/><br/>caused by<br/><br/>hepatocellul ar damage<br/><br/>or ligandins deficiency<br/><br/>(neonatal;<br/><br/>Gilbert<br/><br/>syndrome)<br/></td><td id="O|=A" class="">•</td><td id="Uno{" class="">•</td></tr></tbody></table><p id="2297904f-03a9-8139-abfe-c8517d868b60" class="">autoimmune</p><table id="2297904f-03a9-81e5-bcc0-cdef5a3d0c51" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-81fa-9b0e-d9b38b499292"><th id="kO_=" class="simple-table-header-color simple-table-header"></th><th id="`Vt@" class="simple-table-header-color simple-table-header"></th><th id="cRnw" class="simple-table-header-color simple-table-header"></th><th id="SJ=M" class="simple-table-header-color simple-table-header">nerve<br/><br/>terminations .<br/></th><th id="oEm&lt;" class="simple-table-header-color simple-table-header"></th></tr></thead><tbody><tr id="2297904f-03a9-8198-98bf-f3501927801e"><th id="kO_=" class="simple-table-header-color simple-table-header">•<br/><br/>diseases<br/></th><td id="`Vt@" class="">• favism/<br/><br/>Glucose-6-<br/><br/>phosphate-<br/><br/>dehydrogen<br/><br/>ase<br/><br/>deficiency,<br/><br/>sickle cell,<br/><br/>spherocytosi s, spleen<br/><br/>hypefunctio<br/><br/>nality,<br/><br/>autoimmune, erythroblast<br/><br/>osis fetalis,<br/><br/>leukemia,<br/><br/>thalassemia, pernicious<br/><br/>anemia, etc.<br/></td><td id="cRnw" class="">•a.<br/>uptake issue can be<br/><br/>caused by<br/><br/>hepatocellul ar damage<br/><br/>or ligandins deficiency<br/><br/>(neonatal;<br/><br/>Gilbert<br/><br/>syndrome)<br/></td><td id="SJ=M" class="">•</td><td id="oEm&lt;" class="">•</td></tr><tr id="2297904f-03a9-8135-8c67-feaa618bf998"><th id="kO_=" class="simple-table-header-color simple-table-header">• b.<br/>conjugation defects:<br/><br/>neonatal,<br/><br/>Crigler-<br/><br/>Najjar type I and type II<br/><br/>syndromes; Gilbert<br/><br/>syndrome;<br/><br/>drugs… c.<br/>excretion<br/><br/>defects:<br/><br/>Rotor<br/><br/>syndrome, Dubin-<br/><br/>Johnson<br/><br/>syndrome, hepatocellul ar damage, pregnancy.<br/>d. diffuse<br/><br/>hepatocellul ar damage by drugs,<br/><br/>viral, toxic.<br/></th><td id="`Vt@" class="">• -<br/><br/>Intrahepatic: biliary<br/><br/>cirrhosis,<br/><br/>biliary tract alterations , viral,<br/><br/>bacterial,<br/><br/>neoplastic,<br/><br/>or toxic<br/><br/>factors,<br/><br/>drugs (oral<br/><br/>contraceptiv es and<br/><br/>anabolic<br/><br/>derivatives<br/><br/>of<br/><br/>testosterone , estrogens, etc.)<br/></td><td id="cRnw" class="">•</td><td id="SJ=M" class="">•</td><td id="oEm&lt;" class="">•</td></tr><tr id="2297904f-03a9-811b-a589-ef9b4303028a"><th id="kO_=" class="simple-table-header-color simple-table-header">• -<br/>Extrahepatic<br/>cholestasis:<br/></th><td id="`Vt@" class="">•</td><td id="cRnw" class="">•</td><td id="SJ=M" class="">•</td><td id="oEm&lt;" class="">•</td></tr></tbody></table><p id="2297904f-03a9-8160-aac9-e901296f246a" class="">,</p><table id="2297904f-03a9-8194-a24f-c88ee18d929e" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-819a-91df-dcab57b9cb71"><th id=";XSe" class="simple-table-header-color simple-table-header"></th><th id="YmnO" class="simple-table-header-color simple-table-header">thalassemia, pernicious<br/><br/>anemia, etc.<br/></th><th id="eWWY" class="simple-table-header-color simple-table-header"></th><th id="vblv" class="simple-table-header-color simple-table-header"></th><th id="yI=u" class="simple-table-header-color simple-table-header"></th></tr></thead><tbody><tr id="2297904f-03a9-811d-a0c0-e8ec17844634"><th id=";XSe" class="simple-table-header-color simple-table-header">• b.<br/>conjugation defects:<br/><br/>neonatal,<br/><br/>Crigler-<br/><br/>Najjar type I and type II<br/><br/>syndromes; Gilbert<br/><br/>syndrome;<br/><br/>drugs… c.<br/>excretion<br/><br/>defects:<br/><br/>Rotor<br/><br/>syndrome, Dubin-<br/><br/>Johnson<br/><br/>syndrome, hepatocellul ar damage, pregnancy.<br/>d. diffuse<br/><br/>hepatocellul ar damage by drugs,<br/><br/>viral, toxic.<br/></th><td id="YmnO" class="">• -<br/><br/>Intrahepatic: biliary<br/><br/>cirrhosis,<br/><br/>biliary tract alterations , viral,<br/><br/>bacterial,<br/><br/>neoplastic,<br/><br/>or toxic<br/><br/>factors,<br/><br/>drugs (oral<br/><br/>contraceptiv es and<br/><br/>anabolic<br/><br/>derivatives<br/><br/>of<br/><br/>testosterone , estrogens, etc.)<br/></td><td id="eWWY" class="">•</td><td id="vblv" class="">•</td><td id="yI=u" class="">•</td></tr><tr id="2297904f-03a9-812a-86a6-f2330122b4b7"><th id=";XSe" class="simple-table-header-color simple-table-header">• -<br/><br/>Extrahepatic cholestasis: gallstones<br/><br/>(cholesterol, calcium<br/><br/>salts),<br/><br/>tumors<br/><br/>(liver,<br/><br/>gallbladder, head of<br/><br/>pancreas)<br/></th><td id="YmnO" class="">•</td><td id="eWWY" class="">•</td><td id="vblv" class="">•</td><td id="yI=u" class="">•</td></tr><tr id="2297904f-03a9-81d6-9112-c63e1b8284f7"><th id=";XSe" class="simple-table-header-color simple-table-header">•</th><td id="YmnO" class="">• AST<br/><br/>and ALT are normal, GGT and ALP<br/><br/>normal,<br/></td><td id="eWWY" class="">•ALP and GGT are<br/><br/>normal or<br/><br/>mildly<br/><br/>elevated,<br/><br/>AST and ALP are elevated,<br/></td><td id="vblv" class="">•<br/><br/>hypercholest erolemia,<br/><br/>ALP and<br/><br/>GGT very<br/><br/>elevated.<br/>ALT and AST should be<br/><br/>normal<br/></td><td id="yI=u" class="">•</td></tr></tbody></table><p id="2297904f-03a9-815a-ac9c-fb9441f11154" class="">( ,</p><table id="2297904f-03a9-813e-9ee1-cd8666359b0f" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-81ad-bf8c-c2d31b01d822"><th id="Bo@&lt;" class="simple-table-header-color simple-table-header">gallbladder, head of<br/><br/>pancreas)<br/></th><th id="SNih" class="simple-table-header-color simple-table-header"></th><th id="VX&gt;i" class="simple-table-header-color simple-table-header"></th><th id="T[FI" class="simple-table-header-color simple-table-header"></th><th id="s]ZS" class="simple-table-header-color simple-table-header"></th></tr></thead><tbody><tr id="2297904f-03a9-810d-afa0-da1d6af9edcd"><th id="Bo@&lt;" class="simple-table-header-color simple-table-header">•</th><td id="SNih" class="">• AST<br/><br/>and ALT are normal, GGT and ALP<br/><br/>normal,<br/></td><td id="VX&gt;i" class="">•ALP and GGT are<br/><br/>normal or<br/><br/>mildly<br/><br/>elevated,<br/><br/>AST and ALP are elevated,<br/></td><td id="T[FI" class="">•<br/><br/>hypercholest erolemia,<br/><br/>ALP and<br/><br/>GGT very<br/><br/>elevated.<br/>ALT and AST should be<br/><br/>normal<br/></td><td id="s]ZS" class="">•</td></tr><tr id="2297904f-03a9-819b-8103-e4ee68f5fe39"><th id="Bo@&lt;" class="simple-table-header-color simple-table-header">•</th><td id="SNih" class="">• in pre<br/><br/>hepatic<br/><br/>jaundice<br/><br/>there’s an<br/><br/>increase in<br/><br/>unconjugate d bilirubin<br/><br/>that reaches the liver,<br/><br/>therefore<br/><br/>higher<br/><br/>amounts<br/><br/>than normal are<br/><br/>conjugated and an<br/><br/>increased<br/><br/>amount of<br/><br/>conjugated bilirubin<br/><br/>reaches the intestine.<br/>This causes a higher<br/><br/>absorption<br/><br/>of intestinal bilinogen<br/><br/>back to the<br/><br/>liver and<br/><br/>higher<br/><br/>amounts of<br/><br/>stercobilin<br/><br/>(darker<br/><br/>feces). The<br/><br/>liver is<br/><br/>unable to<br/><br/>conjugate all the bilirubin<br/></td><td id="VX&gt;i" class="">•in<br/><br/>hepatocellul ar jaundice, when there’s an ongoing<br/><br/>hepatic<br/><br/>injury,<br/><br/>unconjugate d bilirubin<br/><br/>cannot be<br/><br/>completely<br/><br/>transformed into<br/><br/>conjugated<br/><br/>bilirubin due to<br/><br/>hepatocellul ar defects,<br/><br/>therefore<br/><br/>part of this<br/><br/>unconjugate d bilirubin<br/><br/>stays in the<br/><br/>blood<br/><br/>“imprefectly conjugated” and is<br/><br/>eliminated<br/><br/>by the<br/><br/>kidneys.<br/>Therefore<br/><br/>there will be less<br/><br/>stercobilin<br/><br/>content, so feces will be lighter than normal, an<br/></td><td id="T[FI" class="">•in post-hepatic<br/><br/>jaundice<br/><br/>there is an<br/><br/>obstruction<br/><br/>in bile flow,<br/><br/>bile does not reach the<br/><br/>intestine so<br/><br/>it is instead<br/><br/>poured into<br/><br/>the blood<br/><br/>circulation<br/><br/>and<br/><br/>therefore it<br/><br/>also ends up in the urine. In the feces there is no<br/><br/>stercobilin<br/><br/>(due to lack of bile in the intestine), in the urine<br/><br/>there is no<br/><br/>urobilin,<br/><br/>there’s<br/><br/>instead bile<br/><br/>salts and<br/><br/>conjugated<br/><br/>bilirubin (so hyperchromi c urine)<br/></td><td id="s]ZS" class="">•</td></tr></tbody></table><p id="2297904f-03a9-815f-8473-fd49b8114cee" class="">stercobilin there will be hyperchromi</p><table id="2297904f-03a9-815b-9e3a-e4e62bfc773e" class="simple-table"><thead class="simple-table-header"><tr id="2297904f-03a9-81c0-afab-f685c231f50c"><th id="gyhJ" class="simple-table-header-color simple-table-header"></th><th id="yEJa" class="simple-table-header-color simple-table-header">(darker<br/><br/>feces). The<br/><br/>liver is<br/><br/>unable to<br/><br/>conjugate all the bilirubin present so<br/><br/>blood<br/><br/>unconjugate d bilirubin<br/><br/>rises. in the urine there<br/><br/>is more<br/><br/>urobilin and bilirubin is<br/><br/>absent (only conjugated<br/><br/>bilirubin<br/><br/>accumulates in urine)<br/></th><th id="Kl}D" class="simple-table-header-color simple-table-header">less<br/><br/>stercobilin<br/><br/>content, so feces will be lighter than normal, an<br/><br/>elevated<br/><br/>urobilin and bilirubin in<br/><br/>the urine<br/></th><th id="LZJY" class="simple-table-header-color simple-table-header">c urine)</th><th id=";&gt;}K" class="simple-table-header-color simple-table-header"></th></tr></thead><tbody><tr id="2297904f-03a9-819e-a43b-db8aac80e13b"><th id="gyhJ" class="simple-table-header-color simple-table-header">•</th><td id="yEJa" class="">•</td><td id="Kl}D" class="">•</td><td id="LZJY" class="">•</td><td id=";&gt;}K" class="">•</td></tr></tbody></table><ul id="2297904f-03a9-81c7-b7d6-e4dde56eb4e5" class="bulleted-list"><li style="list-style-type:disc">Describe neonatal jaundice</li></ul><p id="2297904f-03a9-8177-b227-d7501a0a347d" class="">○ Transient and mild unconjugated hyperbilirubinemia</p><p id="2297904f-03a9-81cf-b022-f253a50754d8" class="">○ considered physiological</p><p id="2297904f-03a9-8159-855c-e42a399f6b44" class="">○ (70%) of newborns; more pronounced in premature infants</p><p id="2297904f-03a9-8107-8a11-dc7f647bf40d" class="">○ Mechanisms of hepatic uptake, conjugation and biliary excretion</p><p id="2297904f-03a9-81aa-9920-d960a9f4d6bf" class="">have nor been matured fully until about 2 weeks of age (normal</p><p id="2297904f-03a9-81ac-8405-e123fa4a99de" class="">ligandin levels take longer)</p><p id="2297904f-03a9-8135-bd57-d9db8ca9e10b" class="">◆Low ligandin levels; hepatic UGT activity is 100 times lower</p><p id="2297904f-03a9-81d6-a75c-d8cadfd54f69" class="">than that of the adult.</p><p id="2297904f-03a9-81c7-bf5e-fa6a37b8e109" class="">○ During pregnancy, Fetal bilirubin passes placenta and is</p><p id="2297904f-03a9-81c8-af2f-f488c6544069" class="">conjugated and excreted from the maternal liver.</p><p id="2297904f-03a9-81fd-bc6c-e1541ae5dfc4" class="">○ May be exacerbated by breastfeeding: bilirubin-deconjugating</p><p id="2297904f-03a9-81ae-9c9f-edf2efd30703" class="">enzymes in breast milk.</p><p id="2297904f-03a9-81eb-ae9a-c27b9bd9aab8" class="">○ Treatment with Phototherapy (blue light fluorescent lamps) light</p><p id="2297904f-03a9-81a6-8e61-df1bef7274ac" class="">absorption by unconjugated bilirubin generates water-soluble</p><p id="2297904f-03a9-8184-a3c7-db46bbc27ff1" class="">isomers that can be excreted in the urine.</p><p id="2297904f-03a9-81eb-b756-de64b8543009" class="">●What is mixed hyperbilirubinemia? describe its clinical characteristics</p><p id="2297904f-03a9-819e-8d72-f699e3f6f8ec" class="">Hepatocellular damage caused by acute or chronic hepatopathies can</p><p id="2297904f-03a9-81d1-b980-c1ee88ca20d6" class="">cause deficits in bilirubin uptake, glucuronation (conjugation) or</p><p id="2297904f-03a9-81e7-8a27-d67da1933375" class="">hepatocyte excretion. This is defined as mixed hyperbilirubinemia.</p><p id="2297904f-03a9-8114-8321-fc5b4d4123c0" class="">Clinical characteristics:</p><p id="2297904f-03a9-81a8-826a-e743baf97cae" class="">Excess in both an unconjugated and conjugated bilirubin can cause:</p><p id="2297904f-03a9-81da-b157-d18e7c6433c0" class="">○ Bilirubin deposit in the subcutaneous fatty tissues (yellow</p><p id="2297904f-03a9-8114-9cdf-f8ff9d16daa4" class="">pigmentation)</p><p id="2297904f-03a9-812f-90b0-e36abff109f6" class="">○ conjugated bilirubin passes through the renal filter (dark urine)</p><p id="2297904f-03a9-816e-a557-f737576a2fe6" class="">○ increased transaminases</p><p id="2297904f-03a9-81d1-acea-d6b1e2ebf8cf" class="">○ decreased albumin in the blood</p><p id="2297904f-03a9-8163-9240-e6478a96b7e8" class="">○ reduced lipid absorption due to the deficit of bile salt production</p><p id="2297904f-03a9-8111-aa11-c945c126da8c" class="">(fattier stools but no steatorrhea)</p><p id="2297904f-03a9-8128-913d-d19ea8f3d648" class="">○ Hypocholic feces</p><p id="2297904f-03a9-8190-8b55-f08a1ca5d7ec" class="">○ Reduced bowel transit</p><p id="2297904f-03a9-8158-b86e-ccec336a002a" class="">●Intrahepatic pregnancy cholestasis?</p><p id="2297904f-03a9-8189-add2-e942a766aca1" class="">○ central-lobular cholestasis</p><p id="2297904f-03a9-816d-9697-ca5178f9afd9" class="">○ Rare pathology characterized by increase in total bile acids and</p><p id="2297904f-03a9-8106-8c9a-ed488bc86391" class="">intense itching, cholestasis, and jaundice.</p><p id="2297904f-03a9-819c-9b86-d79d14a199c5" class="">○ It occurs in the last trimester of gestation (0.8%-1.5%) and has a</p><p id="2297904f-03a9-818f-9b7f-f29b05fc075a" class="">benign prognosis (complete remission after delivery).</p><p id="2297904f-03a9-8113-bf1f-f350f13a7221" class="">○ Associated with premature birth, fetal distress and placental</p><p id="2297904f-03a9-813f-a865-f35b7fe55849" class="">insufficiency.</p><p id="2297904f-03a9-8133-9bcf-c4ae0cbc7857" class="">○ Uro-desoxycholic acid therapy attenuates itching</p><p id="2297904f-03a9-8130-a100-f22dc3809949" class="">●Prolonged conjugated hyperbilirubinemia in the newborn?</p><p id="2297904f-03a9-8103-9088-ccaf66ae375f" class="">Prolonged conjugated hyperbilirubinemia in the newborn (affects ≈</p><p id="2297904f-03a9-814f-8742-f4b223420199" class="">1:2500 live birth)</p><p id="2297904f-03a9-81b3-aa4f-e6ab0b60968a" class="">○ Infants who have jaundice beyond 14-21 days after birth risk of</p><p id="2297904f-03a9-813f-b456-d578f52a2dae" class="">neonatal cholestasis</p><p id="2297904f-03a9-81cd-967c-e210835c71d6" class="">●Major causes:</p><p id="2297904f-03a9-8123-8e3c-cc39a6195e28" class="">○ cholangiopathies: genetic and acquired biliary disorders. Can be</p><p id="2297904f-03a9-81b5-a1c4-d74a090f863b" class="">caused by:</p><p id="2297904f-03a9-81d6-95ce-f85c9f5be1f9" class="">◆cystic fibrosis</p><p id="2297904f-03a9-8158-a74f-d2a0e5e57e69" class="">◆biliary atresia</p><p id="2297904f-03a9-816b-8acd-f619087cc1ea" class="">◆fibro-polycystic diseases</p><p id="2297904f-03a9-8167-bf01-ec7230899755" class="">◆disordered immunity (primarily biliary cirrhosis..)</p><p id="2297904f-03a9-814b-b707-e587da3c9b11" class="">◆infectious agents (cytomegalovirus, bacteria...)</p><p id="2297904f-03a9-81e3-b1fe-fe456453eb42" class="">◆ischemia</p><p id="2297904f-03a9-81d2-81a5-e41c63c6b349" class="">◆toxic compounds (drugs, toxins..</p><p id="2297904f-03a9-81a6-b1bb-f05fca06c011" class="">○ primarily biliary atresia: complete/partial obstruction of the</p><p id="2297904f-03a9-81f1-b568-f7620c35bb19" class="">lumen of the extrahepatic biliary tree within the first 3 months of</p><p id="2297904f-03a9-815e-ba60-ed36bbd8cc06" class="">life (1/3 infants with neonatal cholestasis).</p><p id="2297904f-03a9-81e4-979d-e3a30cda8870" class="">◆aberrant intrauterine development</p><p id="2297904f-03a9-815d-bd5e-c728bd8ed06e" class="">◆destruction following birth due to</p><p id="2297904f-03a9-8192-9cc8-e8459ffd3229" class="">◇ viral infection : rotavirus, reovirus, cytomegalovirus</p><p id="2297904f-03a9-8120-b1b1-c2309ab43916" class="">◇ auto-immune reactions);</p><p id="2297904f-03a9-8103-bb5a-c37809dddc73" class="">○ Various disorders causing conjugated hyperbilirubinemia</p><p id="2297904f-03a9-8158-9d8a-f5b606ded7c7" class="">(referred to neonatal hepatitis)</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

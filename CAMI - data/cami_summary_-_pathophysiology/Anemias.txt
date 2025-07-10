@@ -1,0 +1,715 @@
+Anemias
+‣ (review this)
+define the following, and give their normal values
+● hematocrit
+○ is the volume occupied by RBCs, expressed in %.
+○ Generally: 44% in men and 38% in women.
+● MCV
+○ mean corpuscular volume
+○ normal: 82-96 fL
+○ measures average size of RBC in fL (femtoliters)
+○ calculation: Ht / RBC count
+● MCH
+○ mean cell hemoglobin
+○ average content of hemoglobin in RBCs expressed in picograms
+○ calculated by: Hemoglobin/number of red blood cells (Hb / RBC
+count)
+○ normal: 27-33
+● MCHC
+○ mean corpuscular hemoglobin concentration
+○ concentration of Hb in a given volume of packed cells, expressed
+in g/100mL.
+○ normal: 33-37 g/100mL
+● normal reticulocyte count?
+0.5 - 1.5 %
+● normal red cell count?
+Men: 4.3-5.6 million per µL
+Women: 3.5-5.0 million per µL
+● normal hemoglobin?
+○ 13.6 - 17.2 g/dL in men
+○ 12-15 g/dL in women
+● under these values the patient is anemic.
+● Normal leukocyte count?
+The normal number of WBCs in the blood is 4,500 to 11,000 WBCs
+per microliter (µL)
+● general definition of anemia
+○ Hb concentration lower than 12 (F) or 13.5 (M) g/dL
+○ or hematocrit (Ht) lower than 36% in women or 40% in men
+● what is considered severe anemia?
+○ Hb concentration <7.5 g/dL
+● what are the three possible mechanisms that lead to anemia?
+○ Anemias of blood loss: Loss of RBCs (including iron), that may be
+due to chronic or acute bleeding. In chronic bleeding conditions,
+○ blood volume is normal since it is constantly restored due to the
+fact that the patient, who will constantly feel dehydrated and
+thirsty, will be drinking a lot, and the kidneys will retain all of the
+water. Obviously, just the plasma is restored, but not the RBCs,
+since they have to be produced again by the bone marrow.
+○ Hemolytic anemias: Destruction of circulating RBCs, that may be
+due to intravascular hemolysis.
+○ Anemias of diminished erythropoiesis: Low or defective RBCs
+production by bone marrow, that may be due to stem cells
+problems (such as stem cells destruction, lacking raw material for
+RBCs production or also lacking stimuli for RBCs production),
+hemoglobinopathy (genetic disease that leads to the synthesis of
+abnormal Hb: sickle cell anemia, beta thalassemia, etc), leading to
+ineffective erythropoiesis with cells that have a very short life
+(elevated bone marrow production of damaged RBCs who
+immediately die).
+● Morphologic classification of anemias
+○ Based on the MCV
+◆ <82 fl: microcytic anemia
+◆ 82-98 fl: normocytic anemia
+◆ 98 fl macrocytic anemia
+○ Based on MHC
+◆ <27 pg: hypochromic anemia
+◆ 27-32 pg: normochromic
+○ Based on the shape:
+◆ sickle cell anemia
+◆ hereditary spherocytosis
+◆ etc
+● Describe the anemias of blood loss
+Anemias of blood loss are normocytic and normochromic.
+Immediately after the blood loss, anemia may appear less severe than
+it turns out later.
+After a hemorrhage:
+○ After 24-48 h→ decreased hematocrit (Ht)
+blood volume is rapidly restored by the intravascular shift of water
+from the interstitial fluid compartment (hemodilution)
+○ After 5 days → Reticulocytosis
+Hypoxia due to lack of RBCs triggers EPO (erythropoietin)
+production in the kidneys, which stimulates the proliferation of
+committed erythroid progenitors (CFU-E) in the marrow → It takes
+about 5 days for reticulocytes to appear in the peripheral blood
+● what are the anemias of diminished erythropoiesis?
+○ Aplastic anemia
+○ Pure Red Cell Aplasia
+○ Anemias due to Chronic Kidney Failure: low EPO
+○ Anemias due to endocrine disorders
+○ Anemias due to altered DNA synthesis
+◆ Pernicious anemia (vit B12 deficiency)
+◆ Folate deficiency
+○ Anemias due to altered Heme synthesis (iron deficiency)
+○ Anemias due to decreased Globin synthesis (Thalassemia
+syndromes)
+● Describe aplastic anemia
+The Pluripotent stem cells are defective and express surface
+molecules that stimulate an autoimmune reaction → destruction. It
+causes anemia, leukopenia and thrombocytopenia (pancytopenia)→
+bone marrow failure.
+○ primitive causes:
+◆ idiopathic
+◆ Fanconi anemia
+○ secondary causes:
+◆ chemical agents (benzene, xylol, insecticides)
+◆ physical agents (ionizing radiation) !!!
+◆ drugs (cytostatics, chloramphenicol, arsenic compounds,
+anticonvulsants)
+◆ infectious agents (hepatitis, tuberculosis).
+○ The diagnosis rests on examination of a bone marrow biopsy: The
+bone marrow is hypocellular, consisting mainly of adipocytes.
+● Describe Fanconi Anemia
+Fanconi anemia (FA) is a rare, AR, genetic disease resulting in impaired
+response to DNA damage in the FA/BRCA pathway.
+FA is the result of a genetic defect in a cluster of proteins responsible
+for DNA repair via homologous recombination. There are 22 genes
+responsible for FA, the cancer susceptibility genes BRCA1 and BRCA2
+are examples of FA genes,
+○ The majority of affected individuals develop cancer, most often
+acute myeloid leukemia (AML), Myelodysplastic syndromes (MDS),
+and liver tumors.
+○ 90% develop aplastic anemia (the inability to produce blood cells)
+by age 40.
+Treatment with androgens and hematopoietic growth factors can
+help bone marrow failure temporarily, but the long-term treatment
+is bone marrow transplant if a donor is available.
+○ About 60–75% have congenital defects, commonly short stature,
+abnormalities of the skin, arms, head, eyes, kidneys, and ears, and
+developmental disabilities.
+○ Around 75% have some form of endocrine problem, with varying
+degrees of severity.
+● Describe pure red cell aplasia
+Primary marrow disorder in which only erythroid progenitors are
+suppressed due a specific proliferative defect (Leukocytes and
+platelets are normal)
+In severe cases, red cell progenitors are completely absent from the
+marrow.
+There are multiple etiologies that can cause PRCA
+○ Acquired (autoimmune disease, infections, drugs, etc)
+○ Constitutional
+● Bone marrow cellularity is normal (despite the severe lack of
+erythrocyte precursors) The erythroid series may be missing entirely
+or be blocked at the erythroblast stage.
+● describe anemias of endocrine disorders
+thyroid hormones and androgens are important for erythropoiesis.
+which is why there are the anemias of endocrine disorders related to
+hypopituitarism, hypothyroidism, Addison's disease (adrenal
+insufficiency) and hypogonadism. Normochromic and normocytic.
+● describe iron deficiency anemia
+Iron deficiency anemia is the most common form of anemia. It appears
+microcytic and hypochromic. There’s also a degree of Poikilocytosis
+(abnormal red blood cell shape that makes up 10% or more of the total
+population) as some cells appear elongated. The causes may be:
+○ Decreased iron consumption: daily intake 20mg (only 10% to 15%
+of ingested iron is absorbed)
+○ Lower iron absorption in duodenum and proximal jejunum. At least
+1mg of iron must be absorbed daily.
+◆ due to achlorhydria (PPIs ****or other causes)
+○ Iron loss
+◆ acute/ chronic bleeding (menstruation, ulcers, etc.)
+○ Increased requirement
+◆ pregnancy and lactation
+◆ parasitic bowel infection (mainly in tropical countries)
+○ sideroblastic anemias: iron is accumulated in the mitochondria of
+erythroblasts in the bone marrow but is not used for the synthesis
+of heme and it alters their function → Intramedullary death of
+erythroid precursors (ineffective erythropoiesis)
+● what are the normal iron values in lab? which ones do we use to prove
+iron deficiency?
+Normal reference ranges are:
+○ TIBC (Total Iron Binding Capacity)= serum transferrin: 240–450
+µg/dL
+○ Transferrin saturation: 20–50%
+○ Serum iron:
+◆ Men: 65 to 176 µg/dL
+◆ Women: 50 to 170 µg/dL
+○ Serum Ferritin: 30 - 300 µg/L for males, 30–160 µg/L for females.
+● IRON DEFICIENCY:
+○ TIBC or Serum Transferrin: HIGH
+○ Transferrin Saturation (iron/TIBC x 100): LOW (<15%)
+○ Serum Ferritin: LOW (<30) N.B.: ferritin levels measured usually
+have a direct correlation with the total amount of iron stored in the
+body. However, ferritin levels may be artificially high in cases of
+anemia of chronic disease, where ferritin is elevated in its capacity
+as an inflammatory acute phase protein and not as a marker for
+iron overload
+● describe iron metabolism
+**Iron metabolism:**The dietary iron intake: 20 mg/day. It is absorbed
+in the the duodenum and proximal jejunum
+Iron absorption - gut:
+Food iron can be absorbed in two different ways:
+○ Heme iron → heme transporter, 25% of heme iron is absorbed
+directly from the gut.
+○ Non heme iron → DMT1 transporter, more difficult to be absorbed.
+Once inside the mucosal cell iron can bind a mucosal ferritin, it
+remains inside the cell without being used to produce red blood
+cells or it can pass into the circulation through ferroportin, which
+is a transporter located in the basal membrane of the mucosal cells
+is inhibited by hepcidin, a protein produced by the liver. When
+RBCs need to be produced the liver slows down the production of
+hepcidin so that ferroportin is not inhibited and iron is absorbed
+more efficiently.
+Once iron has passed through ferroportin, it can enter the blood
+and bind to a plasma transferrin, and be transported towards
+the bone marrow and towards the liver. Once in the bone marrow
+it will be used to produce erythrocytes while, once in the liver, it
+will act as a signal increasing the production of hepcidin.
+about 85% of the absorbed iron is transported in the blood by iron-
+binding glycoproteins, such as transferrin, and it is incorporated
+into the maturing red blood cells (in the bone marrow) thanks to
+specific receptors. When senescent erythrocytes are removed
+from the circulation through the spleen (after 120 days),
+hemoglobin is degraded and iron is recycled. Excess iron is
+accumulated as hemosiderin(disorganized aggregates of iron) or
+○ ferritin (ordered aggregates of iron with apoferritin).
+● describe anemias due to decreased synthesis of globins (thalasemic
+● syndromes)
+Thalassemias are autosomal recessive disorders that affect the
+production of hemoglobin. Thalassemias are hypochromic and
+microcytic anemias. There’s also variation in shape (Poikilocytosis)
+In a blood smear some erythrocytes have a pink dot in their centre,
+which represents only an accumulation of hemoglobin and NOT a
+nucleus. These cells are also called target cells. Some erythrocyte
+precursors still containing a nucleus might be released from the bone
+marrow as well (normoblasts).
+Normally, the majority of adult hemoglobin is composed of two α and
+two β-globin chains arranged into a heterotetramer. In thalassemia,
+patients have defects in either the α or β-globin chain, causing
+production of abnormal red blood cells.
+Due to the aberrant chains, RBCs are rigid and they are destroyed in
+the peripheral bloodstream → hemolytic anaemia.
+Medullary hemolysis due to aberrant globin chains→ ineffective
+erythropoiesis.
+There are two main types depending on which chain is defective:
+○ Alpha Thalassemia
+○ Beta Thalassemia: nonsense point mutation in gene coding for beta
+Hb chain. Most often occurs in people of Mediterranean origin
+(anemia mediterranea)
+◆ manifests in both homozygous and heterozygous, although the
+latter present less signs.
+◆ in the homozygous, there are physical indications:
+◇ development deficit
+◇ Hepatic-splenomegaly: excessive macrophage
+hyperplasia due to hemolysis.
+◇ Infections
+◇ Cardiac complications
+◇ Iron accumulation in Heart and Liver due to a massive
+Hemolysis can lead to iron overload and
+Hemochromatosis
+◇ alteration of all short bones → chronic hyperplasia of the
+bone marrow with the consequent deformity of the bones
+hypertrophy of the maxilla
+■
+exposed upper teeth
+□
+periorbital puffiness
+■
+low nasal bridge
+■
+bossing of the skull
+■
+● describe anemias due to defective DNA synthesis
+Vit. B12 and folate are coenzymes required for the synthesis of
+thymidine (DNA nucleotide T). Their deficiency results in deranged
+● DNA synthesis leading to defective nuclear maturation that delays or
+blocks cell division.
+This results in ineffective hematopoiesis and the creation of
+abnormally large RBCs (megaloblastic anemias) → While nuclear
+maturation is delayed, cytoplasmic maturation and hemoglobin
+accumulation proceed at a normal pace, leading to nuclear-to-
+cytoplasmic asynchrony
+The defective RBCs lead to increased levels of EPO → marrow
+hyperplasia but if the deficiency persists most precursors undergo
+apoptosis due to deranged DNA synthesis.
+Vitamin B12 deficiency in most cases is secondary to lack of intrinsic
+factor (F1) → PERNICIOUS ANEMIAAutoimmune disease,
+characterized by the presence of auto-Ab that attack on the gastric
+mucosa (anti-parietal cells or anti-F1 or anti-ileal receptor).
+○ gastric atrophy
+○ chronic gastritis
+○ Atrophic glossitis (the tongue becomes shiny, glazed and “beefy”).
+○ Spastic paresis, sensory ataxia and severe paresthesias in the
+lower limbs.
+● Methylcobalamin serves as an essential cofactor in the conversion of
+homocysteine to methionine by the enzyme methionine synthase:
+methylcobalamin yields a methyl group that is recovered from N5-
+methyltetrahydrofolic acid, the principal form of folic acid in plasma,
+which is converted to tetrahydrofolic acid (FH4). FH4 is a crucial
+cofactor for the conversion of deoxyuridine monophosphate (dUMP) to
+deoxythymidine monophosphate (dTMP), a building block for DNA.
+● what can be the cause of a folate or vitamin 12 deficiency?
+○ folate deficiency can develop very quickly in days or weeks due to
+lack of introduction in the diet.
+○ B12 (cyanocobalamin) is a water soluble vitamin that needs
+intrinsic factor produced by the parietal cells or chief cells of the
+stomach to be absorbed. The B12-IF complex can only be
+absorbed at the distal ileum. B12 storage lasts from 5 to 10
+years, which is why if the patient stops absorbing or consuming it
+now, the effects on the RBC will not be immediate but will appear 5
+to 10 years form now.
+Vit. B12 Deficiency can be due to:
+◆ inadequate dietary intake (Vegan → anamnesis)
+◆ gastrectomy (anamnesis)
+◆ autoimmune atrophic gastritis → parietal cell destruction
+◇ endoscopy shows atrophy of gastric wall
+◆ celiac disease
+◇ anamnesis, colonoscopy + biopsy,
+◇ IgA anti-tissue transglutaminase (tTG-IgA): This is the most
+sensitive and commonly used test for celiac disease.
+◇ IgA anti-endomysial antibodies (EMA): EMA antibodies are
+highly specific for celiac disease.
+◇ IgA anti-deamidated gliadin peptides (DGP-IgA): These
+antibodies may also be elevated in celiac disease.
+◆ pancreatic insufficiency (serum amylase and lipase, anamnesis)
+◆ lack of intrinsic factor due to defect in gastric cells
+◆ surgical removal of the distal ileum (anamnesis)
+◆ chronic IBS (anamnesis)
+◇ Crohn’s disease (affects the distal ileum)
+a patient with Crohn’s disease will first develop
+■
+microcytic anemia due to impaired iron absorption and
+later will develop macrocytic anemia due to B12
+malabsorption, these two abnormalities can produce a
+false normal result.
+● what are the possible causes of macrocytic anemia?
+There are 3 main possibilities
+1. Abnormal nucleic acid metabolism of erythroid precursors due to a
+deficiency in folate, cobalamin, or other important factors for the
+synthesis of RBC.
+2. Defect in the bone marrow (leukemia, myelodysplasia, other blood
+cancers) ****leading to ****abnormal RBC maturation
+3. Alcohol abuse → liver disease (unknown mechanism)
+● how should we proceed after finding a MCV >98 in a CBC?
+1. reticulocyte count: reticulocytes are bigger than normal red blood
+cells, a high number of reticulocytes (reticulocytosis) will drive the
+MCV higher without there being an actual macrocytic anemia.
+1. if reticulocyte count is normal, macrocytic anemia can be
+diagnosed. You proceed to check B12 and Folate levels.
+2. If reticulocyte count is elevated: could be the bone marrow
+overcompensating for RBC loss (check for hemorrhage,
+hemolytic anemia..)
+● what are the possible causes of microcytic anemia?
+○ beta thalassemia
+○ iron deficiency anemia
+● what are the hemolytic anemias?
+○ Hemolytic anemias with RBC (intraglobular) defects
+◆ in the cell membrane: defect in proteins located just below the
+plasma membrane, connecting the membrane with the
+cytoskeleton: spectrin and ankyrin do not allow RBC to
+maintain the biconcave shape.
+◇ Hereditary spherocytosis (It is an autosomal dominant
+inheritance with the highest prevalence in Northern Europe,
+1:5000) extravascular hemolysis in spleen due to spherical
+◇ shape of RBC. Mutation is in the genes that code for
+spectrin (alpha and beta), ankyrin, band 3 protein, protein
+4.2, and other red blood cell membrane proteins
+◇ Elliptocytosis: All RBCs have an elliptical shape. The
+clinical features are similar to those of HS but tend to be
+milder; splenomegaly is often present.
+◇ Acanthocytosis ↑ cholesterol in pm makes it less elastic.
+The red blood cells are devoid of the typical central light
+area and have irregular projections similar to spines (excess
+cholesterol in RBC membranes)
+◆ in hemoglobin structure
+◇ sickle cell anemia
+◆ in enzymes involved in glycolysis
+◇ Pyruvate Kinase (PK) deficiency: Most frequent cause of
+congenital non-spherocytic hemolytic anemia;
+normochromic and normocytic anemia. It causes ATP
+deficiency. It manifests only in homozygous. Chronic
+hemolysis due to reduced erythrocyte survival. Jaundice,
+stones and splenomegaly
+◇ Glucose-6-Phosphate Dehydrogenase (G6PD)
+deficiency “Favism”
+○ Hemolytic anemias with extraglobular defects
+◆ antibody mediated
+◇ hemolytic disease of the newborn
+◆ resulting from trauma to RBCs
+◆ Infections, physical and chemical
+● Depending on where the hemolysis takes place we can classify them
+in:
+○ Intravascular (less common): RBC are destroyed in the peripheral
+circulation due to a mechanical injury.
+○ Extravascular (majority): is caused by alteration that renders RBC
+membranes less deformable, leading to their sequestration and
+phagocytosis by spleen resident macrophages. This process
+will lead to macrophages hyperplasia and so to splenomegaly
+● Hemolytic anemias share the following features:
+○ Shortened RBC life span below the normal 120 days
+○ Elevated erythropoietin levels and a compensatory increase in
+erythropoiesis (compensatory hyperplasia)
+○ Prominent reticulocytosis in the peripheral blood, due to increased
+erythropoiesis.
+○ Accumulation of hemoglobin degradation products (iron
+accumulation in the spleen, liver and bone marrow, Hemosiderosis)
+Clinical manifestations:
+○ Pre-hepatic jaundice (increase in the quantity of unconjugated
+bilirubin in the blood which comes from heme degradation).
+○ Asthenia and fatigue (low quantity of oxygen)
+○ Lower limb ulcers
+○ Splenomegaly
+○ Hemolytic crisis: : rapid worsening of anemia and jaundice,
+triggered by infection
+○ Megaloblastic crises: worsening anemia resulting from severe
+folate deficiency caused by increased bone marrow requirement in
+haemolysis.
+○ Skeletal abnormalities
+● Moderate to severe cases require: • Splenectomy • Folic acid
+supplementation • Regular blood transfusions (in younger children
+with severe HS before splenectomy)
+● describe sickle cell anemia
+It belongs to a category of anemias caused by defects in the
+hemoglobin structure. Structurally abnormal Hb, less soluble than the
+native protein, especially in the deoxygenated form → It precipitates
+inside the RBC forming fibers that can damage the membrane.
+SICKLE CELL ANEMIA
+is a common autosomal recessive disease. Heterozygotes (sickle cell
+trait) are usually asymptomatic; homozygotes have higher amounts of
+pathological Hb (HbS) → numerous sickling crises. The condition
+sickle cell trait reduces the mortality for Malaria.
+It is caused by a point, missense mutation in the β-globin that
+leads to the replacement of a glutamate residue with a valine
+residue.
+under low oxygen concentration, HbS polymerizes and forms
+fibrous precipitates that leads to the acquisition of the sickle
+shape. The erythrocyte becomes rigid and causes microvascular
+obstructions → tissue hypoxia → ischemic damage.
+Clinical features:
+○ Sickled cells
+○ Reticulocytosis
+○ Hyperbilirubinemia
+○ Vaso-occlusive crises, also called pain crises (hypoxic injury and
+infarction that cause severe pain in the affected region. The most
+commonly involved sites are the bones, lungs, liver, brain, spleen,
+and penis)
+○ stroke and retinopathy leading to loss of visual acuity and even
+blindness
+● Describe Glucose-6-Phosphate Dehydrogenase (G6PD) deficiency
+“Favism”
+Glucose 6 phosphate dehydrogenase deficiency leads to
+normocytic, normochromic, hemolytic anemia and to favism.
+● It is is the most common enzyme deficiency worldwide, inherited in an
+X-linked, recessive way → men!
+G6PD is necessary for the reduction of oxidized glutathione into
+reduced glutathione.
+The G6PD / NADPH pathway is the only source of reduced glutathione
+in red blood cells
+People with G6PD deficiency are therefore at risk of hemolytic
+anemia in states of oxidative stress, which can result from infection
+and from chemical exposure to medication and certain foods. e.g., fava
+beans, contain high levels of vicine, divicine, convicine and isouramil,
+all of which create oxidants.
+○ under oxidation, heme detaches from hemoglobin, it precipitates in
+the form of Heinz bodies deposition in the red cell membranes.
+Damaged red cells are phagocytosed and sequestered (taken out
+of circulation) in the spleen
+○ The hemoglobin is metabolized to bilirubin (causing jaundice at
+high concentrations).
+● explain the hemolytic disease of the newborn
+- Glycoprotein can be present (Rh+), or absent (Rh-)
+- Rh- person makes **IgG** antibodies against the glycoprotein
+after being exposed to Rh+ once.
+- **IgG antibodies cross placental barrier**
+- If a mother has an Rh+ child and she herself of Rh-, then during
+the first birth she will develop IgG antibodies that can cause
+**hemolytic anemia in the fetus** if she has a second pregnancy
+(1st pregnancy is usually not an issue).
+- *If hemolysis is mild, increased red cell production may
+suffice to maintain near-normal levels of red cells. However, with
+more severe hemolysis, progressive anaemia develops and may
+result in **hypoxic injury to the heart and liver**. Because of liver
+injury, plasma protein synthesis decreases,
+and levels of these proteins may drop to as low as 2 to 2.5 mg/
+dL. Cardiac hypoxia may lead to cardiac failure. The combination
+of reduced plasma oncotic pressure and increased hydrostatic
+pressure in the circulation (secondary to cardiac failure) results
+in generalized edema, culminating in **hydrops fetalis***
+- *Both the foetus and placenta are pale.*
+- *Liver and spleen are enlarged.*
+- *The bone marrow demonstrates compensatory hyperplasia
+of Erythroid.*
+- *Extramedullary hematopoiesis in the liver, spleen, lymph
+nodes...*
+- *Presence in the peripheral circulation of large numbers of
+immature red cells, including reticulocytes and erythroblasts
+(erythroblastosis fetalis).*
+- *Jaundice develops since hemolysis causes the release in
+blood of unconjugated bilirubin, which can pass through the
+infant’s poorly developed BBB. Being water-insoluble, bilirubin
+binds to lipids in the brain and, since the brain is the organ with
+the highest amount of cholesterol, the presence of bilirubin can
+damage the CNS, causing kernicterus. The brain is enlarged and
+edematous and, when sectioned, has a bright yellow colour,
+particularly the basal ganglia, thalamus, cerebellum, cerebral
+grey matter and spinal cord.*
+- Today immunological procedures available prevent antibody
+formation.
+● how can we differentiate between the possible causes of microcytic
+anemia?
+○ beta thalassemia differs from iron deficiency anemia in the
+following:
+◆ it shows abnormal Hb structure on electrophoresis
+◆ Hb and MVC were never normal in any of the CBC in patient’s
+life
+◆ family history: genetic condition that manifests in both
+homozygous and heterozygous, although the latter present less
+signs.
+◆ in the homozygous, there are physical indications:
+◇ hypertrophy of the maxilla
+◇ exposed upper teeth
+◇ periorbital puffiness
+◇ low nasal bridge
+◇ bossing of the skull
+○ iron deficiency will present:
+◆ glossitis, cheilitis, koilonychia, dry skin and hair
+◆ ice craving
+◆ PICA
+◆ IRON values are low in lab! (iron is normal in beta thalassemia)
+● what are the normal iron values in lab? which ones do we use to prove
+iron deficiency?
+Normal reference ranges are:
+○ TIBC (Total Iron Binding Capacity)= serum transferrin: 240–450
+µg/dL
+○ Transferrin saturation: 20–50%
+○ Serum iron:
+◆ Men: 65 to 176 µg/dL
+◆ Women: 50 to 170 µg/dL
+○ Serum Ferritin: 30 - 300 µg/L for males, 30–160 µg/L for females.
+● IRON DEFICIENCY:
+○ TIBC or Serum Transferrin: HIGH
+○ Transferrin Saturation (iron/TIBC x 100): LOW (<15%)
+○ Serum Ferritin: LOW (<30) N.B.: ferritin levels measured usually
+have a direct correlation with the total amount of iron stored in the
+body. However, ferritin levels may be artificially high in cases of
+anemia of chronic disease, where ferritin is elevated in its capacity
+as an inflammatory acute phase protein and not as a marker for
+iron overload
+● what are the clinical signs of hemolytic anemia?
+Hemolytic anemia is caused by destruction of RBCs in circulation.
+It may be an acute problem but frequently is a chronic or repeated
+problems and signs include:
+○ jaundice
+○ enlarged spleen: recognizable with abdominal palpation or imaging
+tests (splenectomy can become necessary)
+○ hemoglobinuria: dark urine due to free Hb in the urine
+● mention the main possibilities there are in the case of a patient
+presenting with normocytic anemia with low reticulocytes:
+○ Bone marrow disorders which lead to a decrease in rate of
+production of NORMAL blood cells. To confirm or reject this
+hypothesis it is important to conduct a bone marrow biopsy.
+○ Low levels of EPO, due to conditions such as renal failure.
+○ low androgens
+○ low thyroid hormones
+○ chronic inflammation
+● what is the workflow of diagnosis in case normocytic anemia is
+suspected?
+1. If a patient appears anemic and has low Hb concentration on CBC
+with normal MCV, the first thing to rule out (time-sensitive) is if
+there is an ongoing hemorrhage or has been a recent hemorrhage
+◆ check vital signs
+◆ is patient taking anticoagulants?
+◆ family history: does the patient have any genetic clotting
+disorder such as hemophilia?
+◇ look for signs of clotting disorders: petechiae, purpura.
+2. if answer is no
+1. we still look for signs of loss of volume: tachycardia, dyspnea,
+hypotension as the bleeding could be internal.
+2. We also look for signs of loss of Hb in absence of loss of
+volume. If internal bleeding is slow enough, volume lost is
+progressively replaced with water, thus maintaining volume but
+lowering Hb concentration by diluting it
+3. if patient is hemodynamically stable, we proceed with a
+3.
+reticulocyte count to understand if there is low RBC production
+or high RBC destruction:
+◆ too many reticulocytes are indicative of a compensation due to
+recent blood loss (more than 24h ago), the possibilities are
+hemorrhage or hemolysis
+◇ check for hemolysis signs during physical examination:
+jaundice, splenomegaly. Lab: elevated LDH and bilirubin,
+low haptoglobin.
+◇ internal hemorrhage can be checked with imaging. FOBT
+and endoscopy for GIT bleeding .
+◆ too little reticulocytes are indicative of :
+◇ bone marrow malfunction: this can be due to chronic
+inflammatory diseases, cancer, heart failure: cytokines
+can decrease RBC production.
+◇ chronic renal failure → low EPO production
+check creatine clearance (kidney function), thyroid
+■
+hormone, androgens, CRP.
+● if the possibility of hemorrhage is discarded and the reticulocyte count
+is elevated, how can we check for peripheral hemolysis?
+○ take family history and check for genetic disorders that may
+cause chronic or frequent hemolytic crises
+○ does the patient present splenomegaly? hemoglobinuria?
+○ check for autoantibodies against RBC
+○ did patient had heart surgery with mechanical valve insertion?
+(RBC passing through the valve could break)
+● symptoms of severe anemia
+○ shortness of breath (dyspnea)
+○ palpitations
+○ increased heart rate
+○ maybe systolic murmur due to thrombotic turbulence due to
+tachycardia (disappears at rest)
+● what is considered mild anemia?
+Hb around 12g/dL
+● Symptoms of mild anemia?
+asymptomatic, especially at rest
+symptoms (if present) are
+○ mild fatigue, asthenia
+○ intolerance to cold
+○ headache.
+● what is the prognosis of anemia?
+prognosis will depend on the cause of the anemia and on the presence
+or absence of other pre-existing conditions that can aggravate the
+clinical picture such as
+○ respiratory insufficiency (even less O2)
+○ heart problems (increase in heart work)
+● Quick onset of anemic state has a greater danger
+● what are the main signs of anemia during physical examination?
+○ paleness of the skin and mucosa due to low Hb concentration and
+to peripheral vasoconstriction
+○ elevated HR
+○ possible hypotension (if there’s loss of volume)
+○ possible systolic murmur
+○ possible chest pain (myocardial ischemia)
+● are there any clinical signs that can help distinguish between types of
+anemia?
+iron or vitamin 12 deficiency anemia present particular signs:
+○ glossitis (tongue inflammation)
+○ angular cheilitis (erosion at the corners of the mouth)
+○ koilonychia (concave nais)
+○ craving for ice or PICA (iron deficiency)
+● hemolytic anemia:
+○ jaundice
+○ enlarged spleen
+● what are important questions to ask in order to identify the origin of
+the anemic state?
+○ Is the patient bleeding (now)? Are there things to do immediately?
+How are vital parameters? Is blood pressure normal?
+○ Has the patient been bleeding (chronically or in the past)? If so,
+why?
+○ Is there evidence for increased RBCs destruction (either
+intravascular or extravascular)?
+○ Is the bone marrow suppressed? If so, why?
+○ Is the patient iron deficient? If so, why?
+○ Is the patient deficient in folate or vitamin B12? If so, why?
+○ Are there other conditions that include an abnormal oxygen
+delivery to tissues?
+● how can be the hypothesis of anemia be confirmed with lab/imaging?
+1. confirm hypothesis with a complete blood count (CBC)
+2. reticulocyte count can help assess how the bone marrow is
+functioning
+Bone marrow response takes a few days (4/10) to be evident:
+◆ low reticulocyte count = issue in the bone marrow
+◆ high reticulocyte count = bone marrow is trying to compensate
+for loss of RBCs. Loss of RBC can mean destruction (hemolytic
+anemia) or loss (hemorrhage). Differential:
+◇ to check for hemolytic anemia look for: splenomegaly,
+hemoglobinuria and jaundice.
+◇ ◇ hemorrhage may be recent (ask if there was bleeding at
+least 48h before), may be internal: vital signs → very low
+BP.
+Chronic bleeding would result in iron loss, and if iron
+■
+level is low this leads to an impaired bone marrow
+response resulting in the production of a lot of
+reticulocytes. Iron deficiency will show up as microcytic
+anemia, whereas hemolytic and hemorrhage will be
+normocytic.
+● If the hypothesis is a gastro-intestinal bleeding, how to prove/disprove
+it?
+○ Fecal occult blood test (FOBT): confirmatory test, has to be
+repeated several times. Also, for bleeding to be GI dependent it
+must be constant, and not intermittent. If FOBT is positive we have
+to run other tests and examinations to find the source of the
+bleeding via:
+○ rectal examination or endoscopy (gastroscopy or colonoscopy).
+● what are observable signs of chronic alcohol abuse?
+○ jaundice
+○ spider angiomata
+○ palmar erythema
+○ ascites
+○ gynecomastia
+● if there’s liver disease, the following findings are also common:
+○ splenomegaly
+◆ which will lead to thrombocytopenia with the appearance of
+petechiae which can fuse to form purpura.
+● if the hypothesis is that the anemic state of the patient is caused by a
+vitamin b12 deficiency, how can you confirm it?
+○ Measure cobalamin and folate blood levels
+○ reticulocyte count should not be too elevated (bc it would make
+MCV value higher)
+○ there should be mild leukopenia and mild thrombocytopenia
+○ Check for increase in serum lactate dehydrogenase (LDH) and
+bilirubin
+◆ if defective, fragile RBC are produced then there can be
+hemolysis intravascularly and the cell contents (including LDH
+and bilirubin) would appear in the serum.
+● if the hypothesis is that the anemic state of the patient is caused by a
+bone marrow disease, how can you confirm it?
+bone marrow biopsy
+● How do cytokines reduce RBC production?
+Inflammatory cytokines, especially IL-β and TNF-
+⍺
+○ inducing apoptosis of RBC precursors
+○ down regulation of EPO receptors on progenitor cells.
+○ decrease EPO expression by renal cells.
+○ reduce iron absorption in the GI tract.
+◆ Yet, macrophages can absorb it themselves: the patient will
+present high ferritin levels in the case of a chronic inflammatory
+condition even if present an iron deficiency. This is the reason
+why iron deficiency cannot be checked only by looking for
+evidence of lack of ferritin.
+● ● ● concept map

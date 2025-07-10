@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Diabetes Mellitus</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8128-a5a9-cd3a27e972af" class="page sans"><header><h1 class="page-title">Diabetes Mellitus</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81c8-99c3-f9517c2cfa06" class="">●Definition</p><p id="2297904f-03a9-8122-ad67-c60182745886" class="">Heterogeneous group of metabolic disorders characterized by chronic</p><p id="2297904f-03a9-81ba-a510-c3ee10d6f67b" class="">hyperglycemia which may be due to defects in insulin production,</p><p id="2297904f-03a9-81f0-8b5a-d61cd33a5a5e" class="">secretion or action, which over time are often complicated by the</p><p id="2297904f-03a9-8165-b650-d4c7d84f506a" class="">onset of micro- and macro-vascular diseases and neuropathies.</p><p id="2297904f-03a9-810d-8578-f7dc682b564a" class="">●Statistics: Prevalence in the world, compare past and estimated future</p><p id="2297904f-03a9-8121-a160-e8503616563a" class="">numbers, age group, sex, etc.</p><p id="2297904f-03a9-81b0-9346-ceec928812c6" class="">DM is one of the most common chronic diseases in the world.</p><p id="2297904f-03a9-8145-988a-c025cb3ad14d" class="">The incidence is rising. Today it affects more than 500 million people</p><p id="2297904f-03a9-81a5-8eff-cd96dd422cd7" class="">in the world and it’s estimated to reach almost 800 million by 2050.</p><p id="2297904f-03a9-81bc-bba4-cb076f97c3ea" class="">It’s incidence increases with age. It affects men and women alike.</p><p id="2297904f-03a9-8171-82ce-eeef9bb0b760" class="">●name the different types</p><p id="2297904f-03a9-81b7-8a6f-f738ce857a90" class="">There are four types</p><p id="2297904f-03a9-816f-a3c6-e21be75d70dc" class="">○ Type 1 DM</p><p id="2297904f-03a9-8190-a168-f276dc4c7993" class="">○ Type 2 DM</p><p id="2297904f-03a9-81ec-84cd-c6adc1d4baac" class="">○ Gestational diabetes</p><p id="2297904f-03a9-814f-8160-f9fbadbbcf7c" class="">○ DM from other causes</p><p id="2297904f-03a9-8103-a2c0-d9f77bdc5266" class="">●Describe type 1 diabetes</p><p id="2297904f-03a9-81d1-9c42-e595c2a0dd9f" class="">○ Type 1 is normally developed in childhood / young adulthood (3/4</p><p id="2297904f-03a9-8181-9b5a-c33d63bdca2f" class="">cases develop between 3-18 y.o.)</p><p id="2297904f-03a9-816c-bd51-f6a97eef38dc" class="">○ It is autoimmune.</p><p id="2297904f-03a9-8100-a76c-f2cfd4a2bdac" class="">○ It accounts for 5-10% of all DM cases.</p><p id="2297904f-03a9-8182-a1fd-d1def0d635cc" class="">○ There are two types: type 1A, the most common of the two, it is an</p><p id="2297904f-03a9-816c-9df0-d8764f83583d" class="">autoimmune-mediated destruction of islet cells of the pancreas</p><p id="2297904f-03a9-819a-959b-f94273fd39b0" class="">that produce insulin so the patient can no longer produce it. It</p><p id="2297904f-03a9-81fc-bfe3-c3e0e115a931" class="">arises in genetically predisposed subjects and exposed to</p><p id="2297904f-03a9-812e-b269-fa29c211d6ae" class="">environmental factors that act as triggering factors. 10-40% of</p><p id="2297904f-03a9-81c0-9212-d070e0aa3da9" class="">cases present with ketoacidosis.</p><p id="2297904f-03a9-81ca-ac35-ead00ac11f8c" class="">○ Type 1B is idiopathic and is mostly found in Africa and Asia.</p><p id="2297904f-03a9-8121-9992-d2ba2f785ce3" class="">●Describe type 2 DM</p><p id="2297904f-03a9-8130-80f6-e8e3e9b5abd2" class="">it accounts for 80-90% of all DM cases.</p><p id="2297904f-03a9-8122-8902-de58ead1c5ea" class="">Type 2 historically used to develop almost exclusively is older patients,</p><p id="2297904f-03a9-8130-86ba-d115b6021ecd" class="">today that’s no longer the case and it can affect people of all ages.</p><p id="2297904f-03a9-81b1-84f2-f7e1c4c5cff1" class="">It’s etiology is a combination of genetic predisposition (runs in</p><p id="2297904f-03a9-8104-87f0-cd76f61d2176" class="">families), and environmental factors.</p><p id="2297904f-03a9-81fc-acef-dec34a18ec76" class="">In a large number of cases it is associated with obesity: BMI &gt; 30 →</p><p id="2297904f-03a9-816b-ad09-e0c496a86798" class="">risk of developing DM2 increases 30-fold</p><p id="2297904f-03a9-8197-8048-d3d4a05bceb4" class="">characterized by:</p><p id="2297904f-03a9-81e2-93a9-dfbceb562a6c" class="">○ insulin resistance, which is an insulin response deficit.</p><p id="2297904f-03a9-8106-8a41-ee33b7b1c061" class="">○ insulin secretion deficiency (beta cells are hyperplastic but</p><p id="2297904f-03a9-8174-8386-eb029c8098e9" class="">functionally impaired)</p><p id="2297904f-03a9-814e-9fc6-db792b62b2fb" class="">○ increased hepatic gluconeogenesis</p><p id="2297904f-03a9-8128-a265-ce5b701fe502" class="">○ The lack of insulin is not absolute but relative.</p><p id="2297904f-03a9-8168-8669-cc74c7a7d6be" class="">●</p><figure id="2297904f-03a9-812f-8622-f90442228877" class="image"><a href="Diabetes%20Mellitus%202297904f03a98128a5a9cd3a27e972af/image1.png"><img style="width:48px" src="Diabetes%20Mellitus%202297904f03a98128a5a9cd3a27e972af/image1.png"/></a></figure><p id="2297904f-03a9-8164-ac81-f5435cee7cad" class="">●Diabetes mellitus from other causes?</p><p id="2297904f-03a9-8180-8398-ccb68f9e7357" class="">It refers to diabetes caused by other injuries or diseases such as</p><p id="2297904f-03a9-8138-9f05-e02a288bc80d" class="">pancreatitis, pancreatic tumor, genetic defects in islet cells, structural</p><p id="2297904f-03a9-81d5-b66a-e175eaa7cb99" class="">defects of insulin, iatrogenic (caused by medical treatment like</p><p id="2297904f-03a9-811c-aea6-f016e5edc7ef" class="">glucocorticoids), cystic fibrosis, infections, etc.</p><p id="2297904f-03a9-8181-8a9a-eb0a79e51a69" class="">●Gestational diabetes?</p><p id="2297904f-03a9-81df-80da-ea98feefeb4d" class="">The hormonal changes during pregnancy may cause insulin resistance.</p><p id="2297904f-03a9-81ea-aa82-c55ed53aecd4" class="">It usually resolves after delivery. It requires rigorous control of blood</p><p id="2297904f-03a9-81fe-8a6f-d7ca7807ad8d" class="">glucose to avoid the risks of congenital malformations, fetal</p><p id="2297904f-03a9-819c-9df2-c8d5ae773ca4" class="">macrosomia and delivery problems.</p><p id="2297904f-03a9-819c-8fc6-cf66da281c89" class="">●How is the diagnosis of diabetes mellitus made?</p><p id="2297904f-03a9-81db-bedc-ee4142741e1a" class="">Diagnosis of DM (for all types) is made based on:</p><p id="2297904f-03a9-8126-a9cb-d80cc398b84e" class="">○ Classic symptoms: polyuria, polydipsia and unexplained weight</p><p id="2297904f-03a9-817d-ad3b-e28123295683" class="">loss.</p><p id="2297904f-03a9-81b2-92bc-fa88be1909dd" class="">○ Hyperglycemia measured in 2 separate occasions</p><p id="2297904f-03a9-815e-8458-ee9f64194bce" class="">●Which tests are used to measure blood glucose level?</p><p id="2297904f-03a9-8153-a72a-dc75a6e4d903" class="">○ FPG (fasting plasma glucose)</p><p id="2297904f-03a9-81da-b9a2-c59f24069549" class="">○ 2h PG (plasma glucose following OGTT)</p><p id="2297904f-03a9-81ae-bae6-cc3d95a2b7ec" class="">○ Glycated hemoglobin (HbA1c)</p><p id="2297904f-03a9-81be-b4f9-da95cf57d719" class="">●Explain OGTT</p><p id="2297904f-03a9-810d-9fc2-d5d9600eeaaa" class="">It’s a test where glucose is administered to the patient to evaluate its</p><p id="2297904f-03a9-81e9-b0cf-d0f3e9d3d210" class="">metabolism.</p><p id="2297904f-03a9-8180-8d13-f86504cc246c" class="">1. Measure FPG</p><p id="2297904f-03a9-81c8-b68a-dc01943ea9ed" class="">2. Patient drinks a solution of 75g of glucose</p><p id="2297904f-03a9-81ca-88b4-fa09e56b1ba8" class="">3. Glycemia is measured at regular intervals during the following 2h to</p><p id="2297904f-03a9-81d6-b2b2-dd87d14dc9e5" class="">assess</p><p id="2297904f-03a9-8119-9bbb-f23e71467dc9" class="">●A healthy subject would experience an initial surge in glucose followed</p><p id="2297904f-03a9-81af-adae-cd06711cccd7" class="">by a drop to a level lower than baseline due to pancreatic response.</p><p id="2297904f-03a9-819e-9096-c8f8c11e23e3" class="">A diabetic patient already starts with an elevated blood glucose that</p><p id="2297904f-03a9-81c2-8a3f-f18416b41fb1" class="">increases even more, it takes longer than normal to go down and does</p><p id="2297904f-03a9-81aa-baee-c19f9fe5d74e" class="">not return to normal baseline</p><p id="2297904f-03a9-8168-9eec-d8e3f420c25e" class="">●Which is the normal fasting glucose level?</p><p id="2297904f-03a9-813f-869f-f519e06c54de" class="">70-100 mg/dl</p><p id="2297904f-03a9-81d4-a6c4-c2e04ecacbd3" class="">●Which fasting glucose level is considered elevated but not yet</p><p id="2297904f-03a9-8191-92c6-fd94dcb3a837" class="">diabetes?</p><p id="2297904f-03a9-8152-a941-f33067360173" class="">100-125 mg/dl</p><p id="2297904f-03a9-8139-b426-e2150b0142ec" class="">●What is a normal percentage of glycated glucose?</p><p id="2297904f-03a9-8110-a3b6-c1742e4785b8" class="">Below 5,7%</p><p id="2297904f-03a9-8123-a833-c30d43da86ba" class="">●Which percentage of glycated glucose is indicative of diabetes?</p><p id="2297904f-03a9-81a3-9ac5-e4128a223c90" class="">From 5,7% to 6,4% is considered pre diabetes.</p><p id="2297904f-03a9-811f-bd9c-d42bc9af5ecb" class="">From 6,5% is diabetes</p><p id="2297904f-03a9-81eb-957e-e3a89e9540a4" class="">●Compare the 2hPG values expected in normal, impaired and diabetic</p><p id="2297904f-03a9-8106-b4d6-c065aba700f7" class="">individuals</p><p id="2297904f-03a9-818d-874d-ef7bb338a6a2" class="">Normal 2hPG should be &lt;126 mg/dl</p><p id="2297904f-03a9-815e-9cee-c1aaa79ecb74" class="">Diabetic is &gt;200 mg/dl</p><p id="2297904f-03a9-81a1-a769-c28e2abc1178" class="">Impaired is anything in between.</p><p id="2297904f-03a9-815f-86bf-db0bba085848" class="">●Which values can we expect to find after performing all three tests on</p><p id="2297904f-03a9-8117-9af9-d03e633efb9b" class="">a normal subject?</p><p id="2297904f-03a9-81de-b578-db1ee1b1a217" class="">○ FPG: 70-100 mg/dl</p><p id="2297904f-03a9-8127-b1e6-df3402fa06b5" class="">○ 2hPG: &lt;126 mg/dl</p><p id="2297904f-03a9-8161-a5f6-c78388cb08df" class="">○ HbAc1: &lt;5,7%</p><p id="2297904f-03a9-8137-95e9-c95abda97ba7" class="">●Which values indicate impaired glucose tolerance and which ones</p><p id="2297904f-03a9-8189-8d7e-f4e014fd5a33" class="">support a diabetes diagnosis?</p><p id="2297904f-03a9-81df-ad74-f22c683166e2" class="">Impaired:</p><p id="2297904f-03a9-81e0-8f0d-de2b505103ce" class="">○ FPG: 100-125 mg/dl</p><p id="2297904f-03a9-81cb-b790-e86fc0540f1d" class="">○ 2hPG: 126-199 mg/dl</p><p id="2297904f-03a9-8187-8e95-c372a0be3137" class="">○ HbAc1: 5,8%-6,4%</p><p id="2297904f-03a9-8149-a197-fe60898d80f5" class="">●Diabetes</p><p id="2297904f-03a9-81f8-9a43-cc8c0ebf90b1" class="">○ FPG: &gt;126 mg/dl</p><p id="2297904f-03a9-8122-8771-e033201e030b" class="">○ 2hPG: &gt;200 mg/dl</p><p id="2297904f-03a9-815d-aed6-e177de82bf67" class="">○ HbAc1: &gt;6,5%</p><p id="2297904f-03a9-8193-ac12-e12d163814fc" class="">●What is normal post prandial glycemia?</p><p id="2297904f-03a9-81c4-9bca-d9804aae5a4c" class="">80-120 mg/dl and it quickly returns to normal in 2-3 hours</p><p id="2297904f-03a9-8178-9e26-cd60d10ef614" class="">●what are the three main regulators of glycemic balance?</p><p id="2297904f-03a9-810d-a771-f90ffdee08c5" class="">○ the liver (glucose production)</p><p id="2297904f-03a9-8186-84d9-c2b3bedf1f9b" class="">○ peripheral tissues (uptake)</p><p id="2297904f-03a9-81fe-b2cf-f3f71aa99801" class="">○ insulin and glucagon (so also the pancreas and the intestine)</p><p id="2297904f-03a9-813a-918a-f248a34f0c03" class="">●how is the glucose balance after an overnight fast?</p><p id="2297904f-03a9-81ad-967f-e836de6d37ed" class="">Hypoglycemia → Glucagon is elevated, Insulin is suppressed.</p><p id="2297904f-03a9-81ab-a990-c69f7801db65" class="">There’s glycogenolysis (glycogen synthesis is inhibited) and</p><p id="2297904f-03a9-8153-87f1-c3ab571ed108" class="">gluconeogenesis in the liver (and a little in the kidneys), this glucose is</p><p id="2297904f-03a9-8107-aa16-ce2f0a5ee908" class="">taken mainly by non-insulin-dependent tissues (brain, intestine and</p><p id="2297904f-03a9-813c-b2b6-e466bb96d208" class="">erythrocytes)</p><p id="2297904f-03a9-816f-bc08-c81588f69e99" class="">●how is the glucose balance after feeding?</p><p id="2297904f-03a9-8153-9a6e-ea9bc37058ed" class="">Hyperglycemia → Glucagon is inhibited, Insulin is elevated.</p><p id="2297904f-03a9-818e-86eb-e25fb345410c" class="">There is inhibition of gluconeogenesis and there is insulin-dependent</p><p id="2297904f-03a9-81d3-8323-f230b5633253" class="">uptake of glucose by skeletal muscle and adipose tissue.</p><p id="2297904f-03a9-8161-b776-d0033f6c6dc4" class="">●explain the mechanism of glucose-mediated insulin release</p><p id="2297904f-03a9-8151-817d-f64e810521af" class="">at a concentration of 75 mg/dl of glucose, glucose diffuses into</p><p id="2297904f-03a9-81c9-974d-eb63581ef168" class="">pancreatic beta cells through GLUT2 transporters. Inside, it is</p><p id="2297904f-03a9-81c4-930a-f6c036f23175" class="">converted into G6P by glucokinase and it’s funneled into Glycolysis</p><p id="2297904f-03a9-81e4-9834-dd075c558777" class="">ultimately yielding ATP.</p><p id="2297904f-03a9-8199-8b9f-fa3fc75d11d9" class="">ATP inhibits an ATP-dependent K+ channel. In the absence of ATP</p><p id="2297904f-03a9-8130-bc05-e357cc5bf85e" class="">(hypoglycemia) the channel is activated and K+ is extruded</p><p id="2297904f-03a9-8177-8f10-d53d04a892cd" class="">(hyperpolarization)</p><p id="2297904f-03a9-8190-a94d-cb01da469b93" class="">When there’s glucose → ATP → K+ channel is inactivated → This</p><p id="2297904f-03a9-810f-aa14-e0acfe22a974" class="">causes a depolarization of the membrane that activates voltage-</p><p id="2297904f-03a9-816e-b23d-e0775326ff16" class="">sensitive Ca++ channels. Ca++ entering the cell leads to the release of</p><p id="2297904f-03a9-8142-94b3-e8c530123f13" class="">insulin from preformed granules.</p><p id="2297904f-03a9-81a8-97ed-f52000aeca34" class="">●what nutrients other than glucose stimulate insulin secretion?</p><p id="2297904f-03a9-8168-be11-facdbee766bf" class="">○ aminoacids (leucine, lysine, arginine)</p><p id="2297904f-03a9-818e-ba52-f74c33e9b420" class="">○ incretins: peptide hormones released from the intestine in</p><p id="2297904f-03a9-81fe-ac72-f6410b9a1d07" class="">response to local glucose. They stimulate pancreatic β-cells</p><p id="2297904f-03a9-811b-9fa1-fe615f0f7f81" class="">postprandially, to secrete insulin (and cause an inhibition of</p><p id="2297904f-03a9-81af-9f03-f6ac4eb31039" class="">glucagon). They also delay gastric emptying.</p><p id="2297904f-03a9-815f-837d-f1c55d4267ba" class="">◆GIP: Glucose-dependent insulinotropic polypeptide</p><p id="2297904f-03a9-8116-9872-c0d998e4425b" class="">◆GLP1: glucagon-like peptide-1</p><p id="2297904f-03a9-812d-a02c-d233a8b5062b" class="">●describe the insulin receptor cascade</p><p id="2297904f-03a9-816d-a268-cd0ee34cd242" class="">The insulin receptor is a transmembrane tyrosine kinase receptor</p><p id="2297904f-03a9-8104-982d-fe9c8bb0eaae" class="">composed of two cytosolic beta subunits and two extracellular alpha</p><p id="2297904f-03a9-8112-a87d-dce866c81918" class="">subunits (ligand-binding) held together by disulfide bonds. Ligand</p><p id="2297904f-03a9-8151-b36b-f2ad88b4024d" class="">binding triggers autophosphorylation of the cytosolic tyrosine</p><p id="2297904f-03a9-8183-af4e-ea5677428b84" class="">residues, which leads to the phosphorylation of several proteins of the</p><p id="2297904f-03a9-81a3-9452-ead1c8f39403" class="">IRS family (insulin receptor substrates), this leads to a cascade that</p><p id="2297904f-03a9-8175-b504-dde5de5e7a29" class="">activates the PI3K/AKT and MAPK pathways (cell growth,</p><p id="2297904f-03a9-813e-ba5d-f2bfe5498102" class="">differentiation, protein lipid and glycogen synthesis) AKT induces</p><p id="2297904f-03a9-8173-b2b6-fae904faf5ec" class="">membrane translocation of GLUT4.</p><p id="2297904f-03a9-81f8-861e-eb0a6da35c73" class="">●sum up the effects of insulin in glucose metabolism</p><p id="2297904f-03a9-819e-ba62-f578c76acd9d" class="">○ hypoglycemic (it removes glucose from blood)</p><p id="2297904f-03a9-812d-a11b-ecb7496e5b67" class="">○ promotes the peripheral utilization of glucose</p><p id="2297904f-03a9-81af-8f3f-ea41b77ce927" class="">○ stimulates glycogen synthesis in the liver</p><p id="2297904f-03a9-81e5-97bf-e554f9af87e4" class="">○ inhibits glycogenolysis</p><p id="2297904f-03a9-8104-a542-c6ab6ff1629d" class="">○ decreases gluconeogenesis</p><p id="2297904f-03a9-81df-9889-c1c32c20acdc" class="">●sum up the effects of insulin in lipid metabolism</p><p id="2297904f-03a9-81fb-9e15-c2ad2771f9c1" class="">○ stimulates the synthesis of fatty acids</p><p id="2297904f-03a9-8101-9ccc-e2dc84329f76" class="">○ stimulates the conversion of glucose into triglycerides</p><p id="2297904f-03a9-813a-a699-ea6d9a49eb4f" class="">○ decreases the production of ketones</p><p id="2297904f-03a9-8109-9887-c303a4e8c9a6" class="">○ decreases the mobilization of fatty acids from deposits</p><p id="2297904f-03a9-8167-b849-d9c76401eebb" class="">●sum up the effects of insulin in protein metabolism</p><p id="2297904f-03a9-8104-9d31-e5f99f6ab65a" class="">○ promotes protein synthesis</p><p id="2297904f-03a9-8190-926d-cb3de738648a" class="">○ promotes synthesis of some enzymes and inhibits synthesis of</p><p id="2297904f-03a9-814e-9794-e5ed86ee1d23" class="">other enzymes</p><p id="2297904f-03a9-81da-9db0-d12a1d440624" class="">○ decreases a.a release form cells</p><p id="2297904f-03a9-81a2-91a8-d90ac8cc5512" class="">○ stimulates RNA synthesis</p><p id="2297904f-03a9-81ca-a94b-d8e2a5ff4eaf" class="">○ increases half life of mRNA</p><p id="2297904f-03a9-816c-8fb1-ed9e0c7064c3" class="">●Describe the glucose metabolism alterations in diabetes</p><p id="2297904f-03a9-8180-9900-c2ce7cf21792" class="">○ Hyperglycemia: glucose stays in the circulation, it binds to proteins</p><p id="2297904f-03a9-8160-9634-d3d8b1c1c65b" class="">(glyc. hemoglobin), or it is excreted in the urine (glycosuria).</p><p id="2297904f-03a9-812a-9750-ff8a65c5274d" class="">○ decreased peripheral glucose utilization</p><p id="2297904f-03a9-818a-8aad-e4fd4940c2fb" class="">○ increased gluconeogenesis</p><p id="2297904f-03a9-81e2-8c3d-faacf9acffce" class="">○ increased mobilization of glucose from stores</p><p id="2297904f-03a9-8174-bf68-c90580dfa567" class="">○ decrease in glycogen</p><p id="2297904f-03a9-8132-ac8a-f6ac37c36d19" class="">●describe the lipid metabolism alterations in diabetes</p><p id="2297904f-03a9-8153-b687-d24d917a6fc8" class="">○ increased mobilization of fatty acids from stores</p><p id="2297904f-03a9-8190-8e89-cf50019b80da" class="">○ increased supply to peripheral tissues → steatosis</p><p id="2297904f-03a9-812c-92cf-eb7406026a81" class="">○ increased oxidation of fatty acids</p><p id="2297904f-03a9-8120-86f7-fc0c39941c0d" class="">○ increased production of ketones → ketosis</p><p id="2297904f-03a9-81eb-b815-d9e258c69f29" class="">○ Hypercholesterolemia → macroangiopathy, atherosclerosis</p><p id="2297904f-03a9-811c-a81c-e72ded1230bc" class="">●describe the protein metabolism alterations in diabetes</p><p id="2297904f-03a9-81af-9e24-c6333ff9bf59" class="">○ reduction of protein synthesis</p><p id="2297904f-03a9-816a-ac38-cc6adee682a9" class="">○ increased activity of gluconeogenesis enzymes (e.g.</p><p id="2297904f-03a9-8145-88cb-df2bd385c8f7" class="">transaminases, fructose-1,6-diphosphatase)</p><p id="2297904f-03a9-81de-b83d-d597743e0142" class="">○ glycosylation of proteins (Hb)</p><p id="2297904f-03a9-814b-930e-e64ecab06397" class="">●what happens to alpha cells in diabetes?</p><p id="2297904f-03a9-811e-9ef5-d029bde9c7db" class="">○ In healthy individuals: high glucose levels inhibit glucagon</p><p id="2297904f-03a9-81f8-af42-c6a0bf59888a" class="">release.</p><p id="2297904f-03a9-8184-b4ca-cce116afab78" class="">○ In DM: alpha cells are less sensitive to glucose → ↑ glucagon</p><p id="2297904f-03a9-815e-a8ca-c691822dd535" class="">secretion → hyperglycemia.</p><p id="2297904f-03a9-8138-9729-ec8af937fd39" class="">●what is ketoacidosis?</p><p id="2297904f-03a9-8142-939e-dcb06beb1975" class="">Serious metabolic condition resulting from the excessive demolition of</p><p id="2297904f-03a9-8158-b171-d4876ac44515" class="">TG instead of glucose for energy purposes, with the release of ketone</p><p id="2297904f-03a9-81d6-9df6-e51868029f8d" class="">bodies (acetate acetic acid, acetone, beta-hydroxy-butyric acid) into</p><p id="2297904f-03a9-8176-bd17-cde7dffae7f9" class="">the circulation.</p><p id="2297904f-03a9-815b-883e-db44867ab291" class="">●Describe the genetic susceptibility to DM1</p><p id="2297904f-03a9-8135-b997-cf6b6f0d0d69" class="">○ 50% of the genetic susceptibility to T1D is associated with the HLA</p><p id="2297904f-03a9-8118-808f-d20df76b864c" class="">gene cluster</p><p id="2297904f-03a9-81c8-85a5-cc7bf96e137c" class="">◆Some DQ and DR haplotypes have been identified as carrying</p><p id="2297904f-03a9-815a-b60c-e91ed3f78b1f" class="">the most predisposing risk</p><p id="2297904f-03a9-81d8-8bee-c908c28bafe9" class="">○ still, there are more than 20 non-HLA related genes whose</p><p id="2297904f-03a9-81ca-ac19-f93b5fbcec4a" class="">polymorphism could predispose to the disease:</p><p id="2297904f-03a9-8160-99be-cd233205656f" class="">◆LPM2: subunit of the proteasome involved in antigen</p><p id="2297904f-03a9-8154-8947-e05c557e6744" class="">processing prior to association with MHC molecules.</p><p id="2297904f-03a9-81d1-a35c-f6cc5e76ca69" class="">◆CTLA4 e PTPN22: involved in the regulation of T lymphocyte</p><p id="2297904f-03a9-8123-af83-df5f0f3833d4" class="">activation.</p><p id="2297904f-03a9-818c-b520-cfe486f0a4bb" class="">◆CD25: regulates the activity of Treg lymphocytes.</p><p id="2297904f-03a9-8174-9722-ea6bcbe0d2a8" class="">◆ICAM1: responsible for the inappropriate homing of T</p><p id="2297904f-03a9-812a-96f4-c4688dad9411" class="">lymphocytes in the islets.</p><p id="2297904f-03a9-819c-8549-c916bded102a" class="">◆VDR: gene coding for the vitamin D receptor.</p><p id="2297904f-03a9-815d-b520-db7a117b5910" class="">◆Insulin gene (Insulin can present structural modifications in the</p><p id="2297904f-03a9-815d-a19c-e470c1b28df7" class="">amino acid sequence which makes it functionally inefficient.)</p><p id="2297904f-03a9-8149-afe3-ca838878e720" class="">●what triggers the autoimmune response that starts DM T1a?</p><p id="2297904f-03a9-8107-9e3c-f39ff025aa01" class="">○ Viral infections during intrauterine life or in the first period after</p><p id="2297904f-03a9-81cd-8816-ccf7333402d5" class="">birth.</p><p id="2297904f-03a9-818e-99d8-ea162d887cb8" class="">○ Dietary factors:</p><p id="2297904f-03a9-813e-8bd0-fa7955e44e49" class="">◆cow&#x27;s milk proteins (especially albumin for similarity with</p><p id="2297904f-03a9-812f-bcaa-d6badd1d6db0" class="">molecular components of β cells);</p><p id="2297904f-03a9-810d-8679-fa55a85045af" class="">◆hypovitaminosis D in the presence of gene polymorphism for</p><p id="2297904f-03a9-81c6-895d-d7e486325f02" class="">the vitamin receptor (VDR).</p><p id="2297904f-03a9-81f1-a3a9-c6fdaa8feb21" class="">●In general, they can cause molecular mimetism and/or</p><p id="2297904f-03a9-8196-890c-cf9b9070088d" class="">desegregation of antigens.</p><p id="2297904f-03a9-815a-93b1-d54cb87f547d" class="">○ molecular mimetism is when there’s high molecular homology</p><p id="2297904f-03a9-8117-8fe1-c93d63a9d4ea" class="">between exogenous antigens and self molecules. This triggers ICA</p><p id="2297904f-03a9-81d8-ac83-ffc778c828cc" class="">(Islet Cell Autoantibodies) production. <em>E.g. PC-2 protein of</em></p><p id="2297904f-03a9-81d9-a44b-de3fda0191ae" class=""><em>Coxackie B4 is similar to GAD65 expressed on β cells; bovine</em></p><p id="2297904f-03a9-81b0-a7cc-f2cc68d52061" class=""><em>albumin similar to protein 69.</em></p><p id="2297904f-03a9-816f-99d8-f7d5c3533bf6" class="">○ Desegregation of antigens: Infection can damage β cells leading to</p><p id="2297904f-03a9-8190-ae9f-deee574bffbc" class="">exposure of normally segregated molecules that can be recognized</p><p id="2297904f-03a9-81b4-bded-e7af0137f1ce" class="">by autoreactive lymphocytes → autoantibody production (ICA</p><p id="2297904f-03a9-81dc-b9a2-f5e8fc451671" class="">targets are cytoplasmic)</p><p id="2297904f-03a9-810a-93cd-fa9b7a796eee" class="">●describe the clinical onset of type 1A DM</p><p id="2297904f-03a9-8143-be1c-c4501e63031a" class=""><em>Although the clinical onset of type 1 diabetes is often abrupt, there is a</em></p><p id="2297904f-03a9-8134-870a-e85b30149827" class=""><em>lengthy lag period between initiation of the autoimmune process and</em></p><p id="2297904f-03a9-814d-a301-fa282eab9267" class=""><em>the appearance of disease, during which there is progressive loss of</em></p><p id="2297904f-03a9-8183-a57b-d58a3bb1df99" class=""><em>insulin reserves</em></p><p id="2297904f-03a9-810c-b08c-f218acb57863" class="">In the preclinical phase (or honeymoon), while the destruction of beta</p><p id="2297904f-03a9-8113-88b2-e00a6bf5d88e" class="">cells may have already started, the exogenous requirements may be</p><p id="2297904f-03a9-8146-8f4a-d4fd4af4a84d" class="">minimal due to the hyperfunctionality of the remaining cells.</p><p id="2297904f-03a9-8168-8417-d48ccc2e4ced" class="">DM1a becomes clinically evident when beta cell loss has reached</p><p id="2297904f-03a9-8111-b245-ea3a131c1c78" class="">80-90% and there’s severe insulin deficiency which manifests as</p><p id="2297904f-03a9-816a-a3f0-f289b5f59821" class="">hyperglycemia and ketosis.</p><p id="2297904f-03a9-8161-9f3b-c3b94cceeb77" class="">●describe the morphology of pancreatic islets in DM1</p><p id="2297904f-03a9-8155-999c-e813a1f02ab1" class="">○ INSULITIS: inflammation in the pancreatic islets. Infiltrate contains</p><p id="2297904f-03a9-817e-b33f-dfdba4c97460" class="">mainly CD8+ cytotoxic T cells, accompanied by macrophages and</p><p id="2297904f-03a9-818f-9080-f8e2c3454af6" class="">neutrophils. They release IL-1, IL-6, interferon α, and nitric oxide</p><p id="2297904f-03a9-8124-a2da-f0ff38656ada" class="">(NO) that contribute to β cell damage.</p><p id="2297904f-03a9-8175-bd95-ebb5d3dd02e4" class="">○ β cells are progressively destroyed and it is no longer possible to</p><p id="2297904f-03a9-813e-8212-ee39538e4ab9" class="">identify the cells still able to produce insulin. Loss of β cells results</p><p id="2297904f-03a9-81c1-a199-fefbaee15e07" class="">in islets of different sizes. Pancreatic islet fibrosis is rare. There is</p><p id="2297904f-03a9-811f-b05e-c33b2543bb27" class="">no amyloiddeposition.</p><p id="2297904f-03a9-8143-a75f-cfc45fceddf5" class="">●Describe the causes and consequences of insulin resistance</p><p id="2297904f-03a9-8116-8589-e47acce06d0d" class="">The causes can be:</p><p id="2297904f-03a9-8183-a1a6-c319bec2dfcd" class="">○ mutations to the insulin receptor gene</p><p id="2297904f-03a9-814b-831d-e94f148ee15c" class="">◆defective receptor</p><p id="2297904f-03a9-8148-a44a-d7fb65428238" class="">◆less receptors</p><p id="2297904f-03a9-813d-99a1-f88064aac3c3" class="">○ post-receptor defects</p><p id="2297904f-03a9-8182-b0c0-cde8258a0a3d" class="">◆GLUT mutations</p><p id="2297904f-03a9-8119-8005-c089cb6535ed" class="">◆mutations in other secondary messengers of the transduction</p><p id="2297904f-03a9-81e7-91b2-c707eafe459b" class="">◆</p><p id="2297904f-03a9-8128-8821-c689d7f77358" class="">pathway</p><p id="2297904f-03a9-81ea-afe8-f4c29a4ddb6e" class="">○ insulin molecule defects</p><p id="2297904f-03a9-81b3-b5c0-f1c9a6185239" class="">●Consequences:</p><p id="2297904f-03a9-8115-b6cd-c649239e1e30" class="">Having insulin resistance means the peripheral insulin response is</p><p id="2297904f-03a9-8172-873c-eb27958a0222" class="">diminished. This affects mainly the liver, skeletal muscle and adipose</p><p id="2297904f-03a9-818f-8830-c0ab725f5da5" class="">tissue.</p><p id="2297904f-03a9-81b8-b475-eadcb9c82d2c" class="">○ Liver: gluconeogenesis is not inhibited → high fasting glucose</p><p id="2297904f-03a9-81d4-9eea-f7d6c0315369" class="">○ decreased glucose uptake and glycogen synthesis → high</p><p id="2297904f-03a9-818b-9edc-f9a5598a1688" class="">postprandial blood glucose</p><p id="2297904f-03a9-817b-a2fb-d64d9ce258b9" class="">○ No inhibition of the &quot;hormone sensitive&quot; lipase in adipose tissue →</p><p id="2297904f-03a9-8165-8cd4-e6603f6d3bf5" class="">excessive degradation of triglycerides in adipocytes and an excess</p><p id="2297904f-03a9-81c9-9ba3-d0828e7f7c27" class="">of circulating free fatty acids (FFA)</p><p id="2297904f-03a9-81c3-a255-cbd330c328ac" class="">●what about genetic factors and DM2?</p><p id="2297904f-03a9-81dc-ba37-edfa8614d64f" class="">○ Greater impact in the onset of DM2 than in DM1.</p><p id="2297904f-03a9-813c-a94c-ded823d4ec9d" class="">○ 1st degree family history 5-10 fold increased risk</p><p id="2297904f-03a9-817a-9991-f80606c9f75b" class="">○ Risk of transmission if both parents are affected &gt; 50%</p><p id="2297904f-03a9-816d-940c-fc13609aeb42" class="">○ Homozygous twin concordance &gt; 90% (in DM1 40%)</p><p id="2297904f-03a9-81e3-aeea-d68c8e264ac4" class="">○ at least 30 different loci related to increased suceptibility</p><p id="2297904f-03a9-8101-aa20-e17870fd92a4" class="">●what are the environmental risks for DM2?</p><p id="2297904f-03a9-817c-9dab-e4f9cd5886d6" class="">○ Obesity (which itself may be genetically based): 60-80% of DM2</p><p id="2297904f-03a9-81f8-b4d3-fcbd8da475d7" class="">patients are obese.</p><p id="2297904f-03a9-8187-82d8-c25b5e0ffc04" class="">◆Specifically visceral fat produces a variety of metabolically</p><p id="2297904f-03a9-8159-acdf-f2de55a16c80" class="">active factors, some of which promote insulin resistance</p><p id="2297904f-03a9-81ef-9fea-d4004fdaf5ad" class="">○ Sedentary life</p><p id="2297904f-03a9-81c8-b090-e425cd526653" class="">○ Unbalanced diet (diet rich in fats, especially saturated fatty acids,</p><p id="2297904f-03a9-81c8-aad6-e93275308cbc" class="">and sugars)</p><p id="2297904f-03a9-81ac-9858-f7c778020aba" class="">○ Smoke</p><p id="2297904f-03a9-81f7-aab3-fdd66bd1cd43" class="">○ Hypertension</p><p id="2297904f-03a9-8173-9029-c6691786cf43" class="">●How does obesity contribute to insulin resistance?</p><p id="2297904f-03a9-81f8-90a5-ec13462ae03b" class="">○ Adipokines (cytokines from adipocyte origin) some promote</p><p id="2297904f-03a9-812e-a694-dfa5a6bffc28" class="">hyperglycemia, and others (leptin and adiponectin) decrease blood</p><p id="2297904f-03a9-81c7-a63d-eb921da1275a" class="">glucose in part by increasing insulin sensitivity. In obesity there’s</p><p id="2297904f-03a9-814f-a23e-ea96a0dc0831" class="">low adiponectin, contributing to insulin resistance.</p><p id="2297904f-03a9-8173-a4e6-ec90934f6d0b" class="">◆adipokine levels are regulated by PPAr<em>y</em> (<em>Peroxisome</em></p><p id="2297904f-03a9-81fc-9fed-c487191307b1" class=""><em>Proliferator-Activated Receptor-γ</em>), Thiazolidinediones: group</p><p id="2297904f-03a9-819e-95f3-d2808b147429" class="">of insulin-sensitizing drugs that modulate the activity of PPARγ,</p><p id="2297904f-03a9-81ee-aa53-f6aec937d003" class="">used in the treatment of DM2.</p><p id="2297904f-03a9-8113-a7dd-e02309e2cc21" class="">○ FFA (free fatty acids): There’s an inverse relationship between</p><p id="2297904f-03a9-8184-89f8-f33879f6982d" class="">fasting plasma FFA and insulin sensitivity. Excess FFA bind to</p><p id="2297904f-03a9-81ba-996b-c7f00e15ae85" class="">GPCRs and interfere with insulin signaling. They also overwhelm fat</p><p id="2297904f-03a9-8120-9b84-f8861490d725" class="">oxidation pathways causing an accumulation of toxic fat</p><p id="2297904f-03a9-8130-a971-d82fe36332e2" class="">metabolites (DAG, sphingolipids, and phospholipids) that can</p><p id="2297904f-03a9-81b4-89bb-edff247b8f0e" class="">attenuate the insulin cascade and activate inflammatory pathways</p><p id="2297904f-03a9-81c3-9710-edff28b2ca64" class="">in the islets that further damage beta cells.</p><p id="2297904f-03a9-810a-9a8d-d57eda3cee3c" class="">○ Inflammation: the release of inflammatory cytokines TNF-alpha,</p><p id="2297904f-03a9-811f-99be-cafcb0834ea3" class="">IL6, IL1, etc released from visceral fat induce insulin resistance.</p><p id="2297904f-03a9-8118-9c7b-dbcf98f2da3a" class="">●</p><figure id="2297904f-03a9-81c6-b16b-d7c22a1212f4" class="image"><a href="Diabetes%20Mellitus%202297904f03a98128a5a9cd3a27e972af/image1.png"><img style="width:48px" src="Diabetes%20Mellitus%202297904f03a98128a5a9cd3a27e972af/image1.png"/></a></figure><p id="2297904f-03a9-810b-8252-ca3f0b0c9622" class="">●Describe the morphology of the islets in DM2</p><p id="2297904f-03a9-81a4-9940-cce029431bb6" class="">○ There is no necrosis of pancreatic βcells, nor morphological</p><p id="2297904f-03a9-819f-82f5-d97145b94d30" class="">lesions in these cells.</p><p id="2297904f-03a9-8106-8685-c03d16a40161" class="">○ In some islets, fibrous tissue accumulates, even to the point of</p><p id="2297904f-03a9-81d7-b09a-edb91632b0ca" class="">obliterating them.</p><p id="2297904f-03a9-8118-a57e-eccdf49404cb" class="">○ The protein amyloid produced by β cells is often present in the</p><p id="2297904f-03a9-810a-9f5e-dc7e0b9489ae" class="">islets (amyloidosis of the pancreatic islet), especially in patients</p><p id="2297904f-03a9-8183-bfda-d382e5ffb3ee" class="">over 60 years of age.</p><p id="2297904f-03a9-8178-8f1c-c427d471f04e" class="">●describe the state of absolute insulin deficiency</p><p id="2297904f-03a9-8137-bd33-f81cc290a0f5" class="">An absolute insulin deficiency leads to a catabolic state, culminating in</p><p id="2297904f-03a9-8175-a39d-d6aa44631b66" class="">ketoacidosis and severe volume depletion. These cause sufficient</p><p id="2297904f-03a9-8101-86fa-f241648a035f" class="">central nervous system compromise to lead to coma and eventual</p><p id="2297904f-03a9-817c-875d-dbe7ce1fdb31" class="">death if left untreated.</p><p id="2297904f-03a9-8183-9e12-e14fb586d024" class="">●</p><figure id="2297904f-03a9-813f-a93a-c714934d13de" class="image"><a href="Diabetes%20Mellitus%202297904f03a98128a5a9cd3a27e972af/image1.png"><img style="width:48px" src="Diabetes%20Mellitus%202297904f03a98128a5a9cd3a27e972af/image1.png"/></a></figure><p id="2297904f-03a9-816f-8d9e-f0131f4a518c" class="">●</p><p id="2297904f-03a9-81be-b3d2-efcecbc02598" class="">In addition to hyperglycemia, DM is characterized by the P TRIAD:</p><p id="2297904f-03a9-81ea-b537-dedb05789cbb" class="">○ Polyuria</p><p id="2297904f-03a9-81fc-8304-eda304b7463d" class="">○ Polydipsia</p><p id="2297904f-03a9-814d-a685-e66500d1424f" class="">○ Polyphagia</p><p id="2297904f-03a9-8135-bfd4-ec9df884217f" class="">●**+ Asthenia (↓ muscle tone)</p><p id="2297904f-03a9-8178-8b9f-f08bfb960c52" class="">○ Diabetic ketoacidosis (if severe DM)**</p><p id="2297904f-03a9-8107-b50f-c3f5b771b649" class="">●what is ketoacidosis?</p><p id="2297904f-03a9-81b6-a883-fd7d7753eea9" class="">Insulin inhibits lipolysis.</p><p id="2297904f-03a9-8141-89d8-d030ebc23b09" class="">In the absence of insulin (mainly in DM1) the hormone sensitive lipases</p><p id="2297904f-03a9-8187-95f0-f3ccca350a84" class="">are free to mobilize fat from deposits, release non- esterified fatty</p><p id="2297904f-03a9-8190-b25b-df5c84096fe2" class="">acids (FFA) that undergo β-oxidation of in the liver.</p><p id="2297904f-03a9-8179-8c83-ed5b4ef52c1b" class="">The enzyme β-hydroxy-β-methylglutaryl-CoA converts acetoacetic</p><p id="2297904f-03a9-8118-aeeb-f51a87e63074" class="">acid →into β-hydroxybutyric acid or acetone(ketone bodies).</p><p id="2297904f-03a9-8160-a4ed-c53517a5d5e3" class="">Some ketone bodies are eliminated in the urine (ketonuria), acetone</p><p id="2297904f-03a9-819a-b6db-f2d426524b32" class="">can also be eliminated in the breath (rotten fruit halitosis), but excess</p><p id="2297904f-03a9-81f8-a4f0-ef2eb7874ae3" class="">acids also accumulate in the plasma in the form of sodium salts,</p><p id="2297904f-03a9-8100-a7e6-c817ea6d5902" class="">lowering blood pH (acidosis).</p><p id="2297904f-03a9-81ff-893e-fdc5a14e7cd1" class="">The clinical manifestations are:</p><p id="2297904f-03a9-81ba-adae-f2fa48b29505" class="">○ Fatigue</p><p id="2297904f-03a9-811e-812d-d7c7173b2fac" class="">○ Nausea and vomiting</p><p id="2297904f-03a9-8182-909e-f11377b71574" class="">○ Severe abdominal pain</p><p id="2297904f-03a9-8175-b378-f47d2c67aa4b" class="">○ Deep,labored breathing (Kussmaul breathing)</p><p id="2297904f-03a9-81de-80a9-ca12d8cd295e" class="">○ Depression in cerebral consciousness</p><p id="2297904f-03a9-819c-819a-f8410f333282" class="">○ Coma</p><p id="2297904f-03a9-819b-ba39-c79c8ee15c2b" class="">●what types of coma can be a consequence of diabetes?</p><p id="2297904f-03a9-81bf-9701-db4343e30792" class="">○ DIABETIC COMA due to diabetic ketoacidosis.</p><p id="2297904f-03a9-815d-88e9-c4e684af5271" class="">○ HYPEROSMOLAR COMA (HYPEROSMOLAR HYPEROSMOTIC SYNDROME, HHS) due to severe dehydration resulting from sustained osmotic diuresis (polyuria).</p><p id="2297904f-03a9-819d-89bb-c8a457b980e9" class="">○ HYPOGLYCEMIC COMA</p><p id="2297904f-03a9-81a3-b8d2-f1b5bdcb406d" class="">●what underlies the weight loss and dyslipidemia and polyphagia in diabetes?</p><ul id="2297904f-03a9-813e-8e97-ee8f17480f86" class="bulleted-list"><li style="list-style-type:disc">Since insulin is an important anabolic hormone, its deficiency causes a catabolic state that affects not only glucose metabolism, but also fat and protein metabolism.</li></ul><ul id="2297904f-03a9-8125-9bbc-ea4071c9b6eb" class="bulleted-list"><li style="list-style-type:disc">↑ Glucagon secretion promotes hyperglycemia (it stimulates hepatic gluconeogenesis and glycogenolysis). Not only is the assimilation of glucose in the muscles and adipose tissue sharply decreased or abolished, but also the reserves are depleted (↑ glycogenolysis).</li></ul><ul id="2297904f-03a9-8170-ba34-e661604a3f29" class="bulleted-list"><li style="list-style-type:disc">Peripheral tissues are in a persistent condition of low glucose → protein and fat catabolism. Proteolysis (skeletal muscle t.), releases «gluconeogenic» amino acids which are used as the building blocks of glucose → asthenia → → slimming (DM1). Insulin inhibits lipolysis so in the absence of insulin there is catabolism of fats → release of non-esterified fatty acids and TG → loss of fat body mass (DM1),</li></ul><p id="2297904f-03a9-81db-942a-cdefed8d3a30" class="">hypertriglyceridemia and steatosis + hypercholesterolemia</p><p id="2297904f-03a9-81fe-84ed-f7ce68f3e64c" class="">(dyslipidemia). Protein and fat catabolism tends to induce a negative energy balance, which in turn leads to increased appetite</p><p id="2297904f-03a9-812c-853c-dc2f286b88b2" class="">(polyphagia).</p><p id="2297904f-03a9-8193-878a-d96c6a71d1b0" class="">●what can lead to a diabetic coma?</p><p id="2297904f-03a9-8172-ac94-ec45a8ddbc7f" class="">○ Excessive energy demolition of TG instead of glucose → free fatty acids reach the liver and are esterified and oxidized (β-oxidation of fatty acids) (ketogenesis) → release of ketone bodies (acetacetic acid, acetone, β-hydroxy- butyric acid) into the circulation = ketoacidosis (mainly in DM1). Symptoms of ketoacidosis: nausea, vomiting, respiratory distress. Ketone bodies are eliminated in the urine (ketonuria). If the acidosis is not compensated, it leads to diabetic coma and death</p><p id="2297904f-03a9-81a5-8fed-d0ccd9dc8f47" class="">●what can lead to a hyperosmolar coma?</p><ul id="2297904f-03a9-81c8-a9d3-d8b314a60e21" class="bulleted-list"><li style="list-style-type:disc">hyperglycemia exceeds the renal reabsorption threshold →</li></ul><p id="2297904f-03a9-8134-b91c-c8db58a521b6" class="">glycosuria. Glycosuria induces osmotic diuresis and then polyuria, causing a profound loss of water and electrolytes → severe</p><p id="2297904f-03a9-8126-8da2-d6e46defe66d" class="">dehydration → activation of the osmoreceptors of the thirst centers of the brain → intense thirst (polydipsia).</p><p id="2297904f-03a9-8170-a9b7-eea92952bfbd" class="">Severe dehydration → hyperosmolar coma (hyperosmolar hyperosmotic syndrome, HHS)</p><p id="2297904f-03a9-8184-8ded-e5491675ff01" class="">●what can lead to a hypoglycemic coma?</p><p id="2297904f-03a9-81bc-97a6-edc82c3828cf" class="">Ironically, the most common acute metabolic complication in both</p><p id="2297904f-03a9-8140-81bc-cee5f4504744" class="">●</p><p id="2297904f-03a9-816c-b779-ec0b1c739978" class="">types of diabetes is hypoglycemia (meal skipping, excessive physical activity, excessive insulin administration). Dizziness, confusion, sweating, palpitations and rapid heartbeat; loss of consciousness may occur if hypoglycemia persists → hypoglycemic coma. Reversal of hypoglycemia with oral or intravenous glucose prevents permanent neurological damage.</p><p id="2297904f-03a9-8159-9fee-ef8d62584109" class="">●what are the two major chronic complications of diabetes</p><p id="2297904f-03a9-8143-8e34-dcebe195ab34" class="">●by which mechanisms does chronic hyperglycemia cause micro- and macro angiopathies?</p><p id="2297904f-03a9-819b-9b7d-db8aef451ea2" class="">(it is not just the hyperglycemia, it is also the comorbidities like obesity and insulin resistance)</p><p id="2297904f-03a9-81d5-b06a-c28b9b23aed9" class="">There is at least four proposed mechanisms:</p><p id="2297904f-03a9-8120-bd28-dfdffee37ab2" class="">○ Formation of AGEs</p><p id="2297904f-03a9-8116-863a-ca94fe90ccdc" class="">○ Excessive PKC activation: hyperglycemia stimulates DAG accumulation, which overactivates PKC. Results in excessive profuction of some growth factors: VEGF, TGFb, and the procoagulant PAI1.</p><p id="2297904f-03a9-81cf-b0f7-ca3bb1f4a689" class="">○ Oxidative stress: excess of glucose (not enough hexokinase), glucose is metabolized through the polyol pathway first to sorbitol (reaction uses NADPH) and then to fructose, using NAD+. This reactions consume NADPH needed to regenerate glutathione and can ultimately cause oxidative stress.</p><p id="2297904f-03a9-8140-9e3d-d37505216d32" class="">○ Hexosamine pathway and generation of fructose-6-phosphate excess glucose is also funneled through the hexosamine pathway which results in cell damage and oxidative stress.</p><p id="2297904f-03a9-812d-ad7c-d2e95a5bec5c" class="">●Explain how AGES contribute to angiopathies</p><p id="2297904f-03a9-8180-9967-ef3d0a779944" class="">Advanced Glycation End products are the product of non-enzymatic, covalent binding of glucose derivatives to proteins.</p><p id="2297904f-03a9-8195-9541-c0a3411da9b0" class="">Hyperglycemia accelerates AGE formation. AGE binds its receptor, RAGE, in T cells, macrophages, endothelial cells, and vascular smooth muscle cells and signaling causes:</p><p id="2297904f-03a9-817f-a21e-d673ecb4d186" class="">○ proliferation of vascular smooth muscle and ECM</p><p id="2297904f-03a9-818c-9f76-c31bfa3fdac8" class="">○ increased procoagulant activity</p><p id="2297904f-03a9-8185-ad21-e9d521d27d9b" class="">○ increased ROS in endothelium</p><p id="2297904f-03a9-8127-8afa-e7422fc33e34" class="">○ release of cytokines and growth factors (TGFb, VEGF..) →linked to retinopathy</p><p id="2297904f-03a9-81c9-9948-ededdc9e4eb3" class="">●AGEs also cross link ECM proteins. This can decrease vessel elasticity when they bind (and criss-cross) collagen I. They criss-cross collagen IV in the basement membrane and interfere with endothelial cell adhesion, and increase extravasation of fluid. Glycosylated proteins can bind to other nearby proteins: e.g. Plasma albumin binds to the glycosylated basement membrane of capillaries contributing to the thickening of the vascular wall seen in diabetic microangiopathy.</p><p id="2297904f-03a9-8129-b536-f82cf08cef03" class="">Modified cellular proteins are for example:</p><p id="2297904f-03a9-8157-8a07-d65db6ff6236" class="">○ Hemoglobin (Hb A1C) (blood marker of hyperglycemia in diabetes mellitus, ≥ 6,5%)</p><p id="2297904f-03a9-8158-ae6e-f1111eeb0304" class="">○ Lens protein (cataract)</p><p id="2297904f-03a9-8197-9c6b-d42176736954" class="">○ Collagen (platelet hyperaggregability, macro/microangiopathy)</p><p id="2297904f-03a9-8132-8837-dfa7c7453cbe" class="">○ LDL apolipoprotein B (glycosylated LDL, atherosclerosis)</p><p id="2297904f-03a9-812f-ba5b-e96f1e134ca1" class="">●what is the effect of AGEs in pancreatic Beta cells?</p><p id="2297904f-03a9-814b-a662-dbde011d00ec" class="">AGEs/RAGE signaling enhances oxidative stress and increases</p><p id="2297904f-03a9-810c-a08b-f7b9dfcfefb2" class="">inflammation in pancreatic β-cells. The generation of ROS leads to the formation and aggregation of toxic islet amyloid polypeptide (IAPP) species and affects their amyloidogenicity. These toxic IAPP</p><p id="2297904f-03a9-81d8-9c3b-ef00dd100df7" class="">intermediates bind to RAGE and form an amyloid plaque → pancreatic β-cell toxicity.</p><p id="2297904f-03a9-8163-9d40-e80b23cab8cb" class="">●what is intended by metabolic memory in the context of AGE/RAGE signaling?</p><p id="2297904f-03a9-81de-8e28-cbeeade72181" class="">previously accumulated AGEs can maintain RAGE over-expression, sustained activation of NFkB, prolonged induction of tissue-specific inflammation, initiation and progression of long-term oxidative stress, which is persistent despite the reversal of hyperglycemia.</p><p id="2297904f-03a9-81a0-8b40-d4a8409913a9" class="">The phenomenon is associated with the pathogenesis of diabetes-related macrovascular and microvascular complications → impaired quality of life, accounting for increased morbidity, disability, mortality.</p><p id="2297904f-03a9-81b6-82fd-c8dc695e8dcd" class="">●describe diabetic macroangiopathy</p><p id="2297904f-03a9-81b4-bdf1-f8120938ae7e" class="">In DM the most common complication is atherosclerosis (a type of macroangiopathy). it is a very aggressive atherosclerosis because it’s premature, rapidly progressive, and it involves multiple arterial</p><p id="2297904f-03a9-8125-a1cc-d0cf88ebd57b" class="">districts. At the same time there’s impaired function or reduction of cells involved in the maintenance of vascular homeostasis (ECs, SMCs, stromal cells, pericytes, inflammatory cells, circulating and tissue-resident vascular stem/progenitor cells).</p><p id="2297904f-03a9-8101-a38e-eb06dc35ff8e" class="">The precipitating factors are 1)alterations of lipid metabolism, 2) glycosylation of proteins that are in the basement membrane of the intima</p><p id="2297904f-03a9-8186-89e9-cefa36b561fb" class="">Diabetes is often accompained by other conditions that favor the development of adverse cardiovascular events (hypertension in 75% of individuals with DM2; dyslipidemia)</p><p id="2297904f-03a9-81d0-9814-eac2396de0cd" class="">The plaque has a larger necrotic core, the inflammation is greater, and calcification is greater too (Increased mobilization of</p><p id="2297904f-03a9-817e-a664-cb9d24cd6d52" class="">osteoprogenitor cells from the bone marrow to the blood and to the arterial wall)</p><p id="2297904f-03a9-81a3-9a78-d33a4b90fb58" class="">DM ptts have 2 to 4 times greater incidence of coronary artery disease and fourfold higher risk of dying for cardiovascular complications.</p><p id="2297904f-03a9-8173-816f-c30be1daf97a" class="">Atherosclerosis mainly affects: coronary arteries, cerebral arteries, arteries of the extremities. It leads to</p><p id="2297904f-03a9-8110-a8a5-c7bc6785e014" class="">○ Myocardial infarction (leading cause of death among diabetics)</p><p id="2297904f-03a9-811a-b5a1-ddd0a82ef6ce" class="">○ Brain stroke</p><p id="2297904f-03a9-8128-9796-cc115092f857" class="">○ Renal ischemia</p><p id="2297904f-03a9-8147-9a04-ccdb5ff4ae1b" class="">○ Peripheral atherosclerotic vascular diseases (especially lower</p><p id="2297904f-03a9-815c-8637-f9f589fed754" class="">limbs): claudicatio intermittens + gangrene and ulcers of the lower</p><p id="2297904f-03a9-81c6-9225-ee4d3a891b9d" class="">limbs and fingers (diabetic foot) → amputations (40% of cases).</p><p id="2297904f-03a9-81e1-80a3-e1df518f5c68" class="">●what is the role of AGEs in macrovascular complications?</p><p id="2297904f-03a9-8142-9fa4-ec103483687a" class="">○ AGEs promote endothelial dysfunction → induce oxidative stress</p><p id="2297904f-03a9-81c7-a0b5-eb222eec9dbe" class="">in endothelial progenitor cells (EPCs) (EPCs contribute to re-</p><p id="2297904f-03a9-8199-8be5-f8b836a263f0" class="">endothelialization, thus oxidative stress may hinder endothelial</p><p id="2297904f-03a9-81d4-9867-d18ffc92439a" class="">repair). Additionally, AGEs decrease the activity of the oxidative</p><p id="2297904f-03a9-814a-a506-d5b6b78bb19e" class="">stress scavengers catalase and superoxide dismutase in ECs.</p><p id="2297904f-03a9-8178-8c94-eed42774b0ba" class="">○ AGEs contribute to foam cell formation → Due, at least partially,</p><p id="2297904f-03a9-81ae-a95d-e92692f43b79" class="">to the inhibition of cholesterol efflux via ATP binding cassette</p><p id="2297904f-03a9-8169-9b4c-ec9c778dae07" class="">(ABC) A1.</p><p id="2297904f-03a9-8129-a158-cefe6a262f44" class="">○ AGEs promote intraplaque inflammation → AGEs induce</p><p id="2297904f-03a9-8193-9501-e387755ae46b" class="">macrophage polarization in the so-called M1 phenotype.</p><p id="2297904f-03a9-8162-b1dd-c10cc9e4636f" class="">○ AGEs enhance proliferation of SMCs and synthesis of ECM.</p><p id="2297904f-03a9-8151-b65f-fec26172bfb6" class="">○ AGEs promote calcification → Vascular calcification results from</p><p id="2297904f-03a9-815d-ac73-e88dec2e2a6b" class="">the deposition of hydroxyapatite minerals due to a phenotypic</p><p id="2297904f-03a9-8115-b112-d47054f76754" class="">switch of VSMCs toward osteoblast-like cells. Calcification leads to</p><p id="2297904f-03a9-8100-bce2-d207198e41e9" class="">vascular stiffening and concomitant cardiovascular risk.</p><p id="2297904f-03a9-814c-9d72-ca470c1e5876" class="">○ MGO (Methylglyoxal, AGE precursor) may directly lead to</p><p id="2297904f-03a9-816b-9f2a-e62145373c76" class="">endothelial dysfunction, atherosclerosis-related inflammation, and</p><p id="2297904f-03a9-81ac-be41-de89fb929062" class="">angiogenesis inhibition. By contrast, MGO may also lead to AGE</p><p id="2297904f-03a9-8159-aacb-d3fe3ddf133d" class="">formation and, in turn, affect atherosclerosis development.</p><p id="2297904f-03a9-8121-a00e-fbfd06b9228c" class="">●what are the factors that promote retinopathy, nephropathy and</p><p id="2297904f-03a9-8189-8651-ff0b8af42ac2" class="">peripheral neuropathy in DM?</p><p id="2297904f-03a9-819c-905e-c3292d91ba45" class="">retinopathy, nephropathy and peripheral neuropathy result from</p><p id="2297904f-03a9-819e-9a6e-e49e32b6d191" class="">diabetic microangiopathy. that results from glycosylation of the</p><p id="2297904f-03a9-81d4-91de-f3f6c8ccd80b" class="">proteins present in the basal membrane of the tunica intima of the</p><p id="2297904f-03a9-8117-8fe2-ef862ec5e935" class="">arterial wall of the microcirculation (capillaries of the skin, skeletal</p><p id="2297904f-03a9-81b3-afb2-e8126509432b" class="">muscles, retina, glomeruli, renal medulla).</p><p id="2297904f-03a9-811e-aa90-dd999bc732f2" class="">It is the cause of the reduced ability to heal wounds, typical of</p><p id="2297904f-03a9-8193-9674-de6b3e2cfa45" class="">diabetics.</p><p id="2297904f-03a9-81ba-ba5f-f5a4c268647e" class="">●describe diabetic retinopathy</p><p id="2297904f-03a9-8167-b851-f8ce9bf4bd21" class="">○ Most frequent cause of blindness in the general population.</p><p id="2297904f-03a9-8196-875b-e35e1b8701d3" class="">○ Most severe and frequent in DM1.</p><p id="2297904f-03a9-8144-83c3-f2d6db2a0cd5" class="">○ Neovascularization due to hypoxia-induced overexpression of</p><p id="2297904f-03a9-8129-8788-eadc81f50c3c" class="">VEGF in the retina.</p><p id="2297904f-03a9-81ed-b024-d3a353ba8654" class="">○ Treatment: antiangiogenic agents</p><p id="2297904f-03a9-81d8-b76c-c59449acf307" class="">○ Maculopathy, cataract, glaucoma → blindness</p><p id="2297904f-03a9-81b8-8f2a-f91ee4e914ac" class="">●describe diabetic nephropathy</p><p id="2297904f-03a9-8106-ab7b-df5c7414e076" class="">○ In case of DM1, 30-40% of patients experience renal failure, in</p><p id="2297904f-03a9-818d-87a7-cdb2659aa23b" class="">○</p><p id="2297904f-03a9-8156-92cb-d8ad42088a78" class="">DM2 it is 20%.</p><p id="2297904f-03a9-817b-a11a-e476d9ffc0c6" class="">○ It is the most common cause of dialysis or renal transplantation.</p><p id="2297904f-03a9-812b-bd72-fc1b70749dbe" class="">○ Pyelonephritis (serious condition) = spread of urinary tract</p><p id="2297904f-03a9-8181-b3b2-c780c1554cae" class="">infections to the kidney. Due to stagnation of urine in the bladder</p><p id="2297904f-03a9-81e4-bcb3-e9fccd813035" class="">as a result of neuropathy + glucose in the urine represents a rich</p><p id="2297904f-03a9-8147-93e0-dd9f11da5f8b" class="">growth medium for microorganisms.</p><p id="2297904f-03a9-81e2-b761-e6b50503e0f8" class="">●why are DM patients predisposed to infections?</p><p id="2297904f-03a9-816f-8d85-ed4879d17592" class="">Predisposition to infections (skin, oral mucosa, genital mucosa, urinary</p><p id="2297904f-03a9-81d2-b6a6-f2b04355c0b4" class="">tract, lungs).</p><p id="2297904f-03a9-818d-ac05-f81005fbd25a" class="">Bacterial and viral infections, due to glycosylation of neutriphil/</p><p id="2297904f-03a9-81a5-af50-dc7ada4eab2f" class="">monocyte/macrophage cytoskeletal proteins → reduced neutrophil</p><p id="2297904f-03a9-814a-8e53-ea04e84d56b3" class="">function (chemotaxis, diapedesis, phagocytic activity, microbicidal</p><p id="2297904f-03a9-8187-ac89-fe9722412b42" class="">activity) + impaired cytokine production by macrophages.</p><p id="2297904f-03a9-8165-80ce-f10ab941a2d7" class="">Urinary tract infections:</p><p id="2297904f-03a9-8153-bcec-fb19f3fa1174" class="">○ glucose in the urine represents a rich growth medium for</p><p id="2297904f-03a9-8121-9b93-f1c0579496bd" class="">microorganisms.</p><p id="2297904f-03a9-81aa-8ede-cabc316bf9d8" class="">○ situation aggravated by urinary retention (diabetic neuropathy) →</p><p id="2297904f-03a9-8115-9647-c3ad77bfc1b0" class="">ascent of microorganisms from the bladder to the kidney →</p><p id="2297904f-03a9-8179-bdbf-e89e72325529" class="">pyelonephritis.</p><p id="2297904f-03a9-81bd-b53a-c1283aa69aa6" class="">●describe diabetic neuropathy</p><p id="2297904f-03a9-81d0-bf54-d7fff316fb7b" class="">○ Distal symmetric polyneuropathy of the lower extremities that</p><p id="2297904f-03a9-8130-8d41-c810cd12345c" class="">affects both motor and sensory function.</p><p id="2297904f-03a9-8165-9c54-df5aa02572d8" class="">○ Alteration of axons, myelin sheath, Schwann cells.</p><p id="2297904f-03a9-81b6-8dbe-e421a8deb0a4" class="">○ Microangiopathy of the vessels supplying the nerves contributes to</p><p id="2297904f-03a9-8152-87b0-f2c77fd87723" class="">the disease.</p><p id="2297904f-03a9-8185-991b-f4b970658c3b" class="">○ Pain</p><p id="2297904f-03a9-818f-a7d6-ccb2034303b4" class="">○ Paresthesias in the extremities</p><p id="2297904f-03a9-8100-826f-f73b62101d36" class="">○ Loss of tactile sensitivity</p><p id="2297904f-03a9-8175-a936-d9dfddab452c" class="">Increased pain threshold: the diabetic tends to ignore minor</p><p id="2297904f-03a9-81c9-89cb-fc651db8c739" class="">irritations and traumas to the toes, joints, lower limbs → ulcers.</p><p id="2297904f-03a9-8150-90ea-ffd9ec22319e" class="">Autonomic nerve dysfunction → bowel and bladder motility</p><p id="2297904f-03a9-8173-9c51-cc796c3c99f2" class="">disorders.</p><p id="2297904f-03a9-8154-93b9-e9e243fe034c" class="">●what’s the relationship between diabetes and alzheimer?</p><p id="2297904f-03a9-81ca-b96e-fc5641848ba6" class="">some refer to Alzheimer’s disease as “diabetes of the brain” or “type 3</p><p id="2297904f-03a9-8170-9183-de6230101d3f" class="">diabetes (T3D).</p><p id="2297904f-03a9-8185-aa81-ebde37cda54b" class="">○ It manifests as insulin resistance within the brain with consequent</p><p id="2297904f-03a9-8126-9a6a-db2a9f398552" class="">impairment of central insulin signaling processes →</p><p id="2297904f-03a9-8194-8c35-ed461f0eeed3" class="">neurodegeneration.</p><p id="2297904f-03a9-8108-a9d7-fe05fc40438f" class="">○ Peripheral insulin resistance leads to decrease insulin signaling in</p><p id="2297904f-03a9-81e5-85c8-c0cbd91d6b23" class="">CNS → increased Amyloid β toxicity, Tau hyperphosphorylation,</p><p id="2297904f-03a9-81af-8cc6-da09e6f9e4f9" class="">oxidative stress and neuroinflammation → neurodegeneration.</p><p id="2297904f-03a9-81de-8f78-d5ea52f9fab8" class="">○ Insulin circulating in the blood can cross the BBB through a</p><p id="2297904f-03a9-81c2-93a9-c3ae7b27f209" class="">receptor-mediated active transport system + insulin is produced in</p><p id="2297904f-03a9-819a-90cd-ec7e932394a0" class="">the brain</p><p id="2297904f-03a9-8107-97f8-ef7819e438ec" class="">○ It has major potential to impact neurocognition and contributes to</p><p id="2297904f-03a9-8153-a8d1-f9cd37b0f762" class="">the etiology of Alzheimer’s disease.</p><p id="2297904f-03a9-811a-85d1-e602759204f4" class="">●define metabolic syndrome</p><p id="2297904f-03a9-8112-a2d7-caaca4e38bee" class="">Diagnosis is made on the presence of three out of the following risk</p><p id="2297904f-03a9-8104-9328-d9e3cff1b06d" class="">factors:</p><p id="2297904f-03a9-81a2-b8c3-db83ec349926" class="">○ Abdominal obesity</p><p id="2297904f-03a9-816b-8eef-fa446eaebba2" class="">◆waist circumference &gt; 102 cm in men</p><p id="2297904f-03a9-8184-8ee0-ddae09ec25ba" class="">◆waist circumference &gt; 88cm in women</p><p id="2297904f-03a9-81cb-a478-cd610b980e42" class="">○ Hypertriglyceridemia (≥ 150 mg/dl)</p><p id="2297904f-03a9-812a-8be9-d6d0bd7a51bc" class="">○ Low HDL cholesterol (&lt;40 mg/dL in men, &lt;50 mg/dL in women</p><p id="2297904f-03a9-81ce-8705-e069fc1722bc" class="">○ Hypertension (≥ 130 / ≥ 85 mmHg);</p><p id="2297904f-03a9-81df-a338-f6c1696f642f" class="">○ Fasting blood glucose &gt;100 mg/dL</p><p id="2297904f-03a9-813e-9811-cbf27549f79d" class="">○ Treatment for hypertension, diabetes, and lipids (so the patient</p><p id="2297904f-03a9-81fb-b200-c911614936a9" class="">has one of these diseases but the levels are currently normal only</p><p id="2297904f-03a9-81bc-979d-e389433fdfc8" class="">due to therapy)</p><p id="2297904f-03a9-819f-8b70-e06d4e04c412" class="">●<em>Often characterized by a state of hypercoagulability of the blood</em></p><p id="2297904f-03a9-81ff-96e0-ebde502f3649" class=""><em>(increased blood levels of PAI-1: Plasminogen Activator Inhibitor-1)</em></p><p id="2297904f-03a9-818e-a41b-eb0328d1cf1e" class="">○ Associated with a 2-fold increase in cardiovascular outcomes and a</p><p id="2297904f-03a9-81c4-a9bd-da1eed553364" class="">1.5-fold increase in all-cause mortality.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

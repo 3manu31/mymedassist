@@ -1,0 +1,208 @@
+Hemostasis
+● what is hemostasis?
+hemostasis is the blood clotting process that prevents excessive
+hemorrhage after blood vessel damage.
+● describe the sequence of events leading to hemostasis at the site of
+vascular injury
+1. Arteriolar vasoconstriction: is immediate and transient. Mediated
+by neurogenic reflex, and augmented by *endothelin *****(EC-
+secreted potent vasoconstrictor) and other similar factors.
+2. Primary hemostasis: formation of primary platelet plug. The
+damaged endothelium exposes subendothelial collagen and Van
+Willebrand factor (vWF). Platelets bind via GpIb receptors to
+vWF on exposed ECM and are activated (shape change + granule
+content release). Platelets release secretory granules containing
+(among other things) ADP, and Thromboxane A2 (TxA2) that
+recruit additional platelets and induce platelet aggregation through
+platelet GpIIb-IIIa receptor binding to fibrinogen.
+3. Secondary hemostasis: The exposed subendothelial cells
+(fibroblasts, SMCs) express a membrane-bound procoagulant
+glycoprotein, Tissue Factor, which activates Factor VII. Factor VII
+activation generates a coagulation cascade that culminates in the
+formation of Thrombin. Thrombin has two roles: it is a potent
+platelet activator, so it promotes additional platelet aggregation at
+the site of injury, and it also cleaves fibrinogen into fibrin. Fibrin
+creates a meshwork that stabilizes the clot.
+4. Clot stabilization and resorption: the clot (platelets and
+polymerized fibrin) contracts to become a solid, permanent clot. At
+this point there is release from the regenerated endothelium of
+thrombomodulin that blocks the coagulation cascade, and tissue
+plasminogen activator (t-PA) that promote fibrinolysis and clot
+dissolution.
+● in general, what are the features of platelets that confer their
+functions?
+Platelets have
+○ several glycoprotein receptors
+○ a contractile cytoskeleton
+○ alpha granules containing
+◆ adhesion molecule P-selectin on the membranes of the
+granules
+◆ coagulation proteins including fibrinogen, coagulation factor
+V, and vWF.
+◆ ◆ protein factors involved in wound healing: fibronectin, platelet
+factor 4, PDGF, TGF-beta.
+○ dense (delta) granules containing
+◆ ADP
+◆ ATP
+◆ Ca++
+◆ serotonin
+◆ epinephrine
+● what intrinsic properties of platelets allow platelet adhesion?
+○ interaction between membrane-bound Glycoprotein Ib (GpIb) in
+platelets with Von Willebrand factor in the subendothelium (that
+is in turn bound to collagen, so it acts as a bridge).
+Deficiency in Von Willebrand causes Von Willebrand disease.
+Deficiency in GpIb causes Bernard-Soulier syndrome. Both are
+bleeding disorders.
+○ direct binding to type I and IV collagen via Glycoprotein Ia / IIa
+complex (GpIa/IIa)
+● what allows platelet aggregation?
+○ Aggregation is accomplished by GpIIb-IIIa receptors on
+different platelets binding fibrinogen
+○ This receptor is “activated” (it acquires high affinity for fibrinogen)
+by the conformational change that takes place when the platelets
+● are activated.
+● what triggers platelet activation?
+○ Platelet activation is trigger by (among other things) Thrombin
+and ADP
+◆ Thrombin activates platelets by activating GPCR called
+protease-activated receptor-1 (PAR-1) by proteolytic
+cleavage.
+◇ Initial wave of aggregation is reversible (with the activation
+of thrombin, the platelet plug will be irreversible)
+◆ ADP binds P2Y(1) and P2Y(12) receptors (GPCRs) → platelet
+recruitment
+○ activated platelets produce Thromboxin A2 (TXA2) (generated
+from prostaglandin H2) which is in turn a potent inducer of platelet
+aggregation.
+● what are the changes in platelets upon their activation?
+○ Upon activation platelets:
+◆ release of alpha and delta granules: Ca++, ADP (further platelet
+activation), coagulation proteins, wound healing factors, etc.
+◆ change their shape (thanks to their contractile cytoskeleton),
+with that there’s
+◇ conformational change of the membrane bound
+◇ glycoprotein IIa/IIIb that increases its affinity for
+fibrinogen
+◇ translocation of phosphatidylserine to the outer membrane
+surface that binds Ca++ and this serves as a nucleation
+site for the assembly of coagulation factor complexes
+● describe the coagulation cascade
+it’s a series of Ca++ dependent reactions that activate coagulation
+factors, and culminates in the formation of fibrin and consequently the
+deposition of insoluble fibrin clot.
+1. Platelet activation → negatively charged phospholipids to the
+platelet surface and release of Factor V from alpha granules.
+2. Factor V binds to phospholipids and acts as a cofactor for factor
+Xa. Factor Xa converts Prothrombin → Thrombin. Thrombin
+converts Fibrinogen → Fibrin clot.
+3. The formation of factor Xa is the convergence point between two
+possible pathways:
+1. Intrinsic pathway: (AP→ 12→11→9+(8)→ 10) activated (by
+platelets) factor XII activates factor XI which activates factor IX,
+which in turn, with the help of activated cofactor VIII, activate
+factor X.
+2. Extrinsic pathway:
+In vitro: (TF+ 7 → 10) Tissue factor acts as a cofactor in the
+reaction where proteolytic enzyme (factor VIIa) activates factor
+X.
+In vivo: (7+ TF → 9+8 → 10) tissue factor and factor 7 first
+activate factor IX, which then activates factor X with factor VIII
+as a cofactor.
+3.
+● describe the functions of Thrombin
+○ stimulates platelet recruitment and degranulation (aggregation
+and activation)
+○ participates in the generation of cross-linked fibrin:
+◆ fibrinogen (soluble) → fibrin monomers
+◆ activates factor XIII that covalently cross-links fibrin
+○ amplifies coagulation cascade by activating several factors (XI,
+V, VIII, XIII)
+○ it activates protease-activated receptors (PARs) expressed on
+many cells, contributing to ****
+◆ in platelets: TxA2 production → platelet aggregation
+◆ in ECs: expression of adhesion molecules and a variety of
+fibrinolytic (tPA), vasoactive (NO, PGI2), and cytokine
+mediators (PDGF)
+◇ tissue repair and angiogenesis
+◆ leukocytes: activation
+○ Anticoagulant effects: it can acts as anticoagulant preventing
+clotting from extending beyond the site of the vascular injury
+● describe the fibrinolytic cascade
+Activation of the coagulation cascade also sets into motion a
+fibrinolytic cascade (24h later) ****that activates Plasmin and as a
+result it limits the size of the clot and contributes to its later
+dissolution.
+Plasmin breaks down fibrin, fibrinogen and some coagulation factors,
+interferes with fibrin polymerization.
+Plasminogen (found inside the clot) is hydrolyzed into PLASMIN by
+○ Mainly t-PA (tissue plasminogen activator) secreted by ECs
+○ urochinase, secreted by ECs
+○ kallikrein (plasma enzymes) or factor XII-dependent pathway
+(possibly explaining the link between factor XII deficiency and
+thrombosis)
+○ or by microorganism-derived proteins (streptokinase,
+staphylokinase)
+● After activation, plasmin is controlled by:
+○ Plasminogen activator inhibitors (PAI): main inhibitor of tissue-
+type plasminogen activator (tPA) and urokinase (uPA),
+○ α2-plasmin inhibitor (plasma protein: binds and inhibits free
+plasmin)
+○ α2-macroglobulin (inhibits plasmin, kallikrein and thrombin)
+○ and the immune response.
+● what ensures the coagulation is confined to the site of injury?
+Release of t-PA (fibrinolysis) and thrombomodulin (blocks coagulation
+cascade) confine the hemostatic process to the site of injury.
+● how does the endothelium prevent thrombosis and limit clotting to
+sites of vascular damage?
+Normal conditions, the ECs expresses factors that
+○ inhibit platelet aggregation and activation:
+◆ Prostacyclin (also called prostaglandin I2 or PGI2) It inhibits
+platelet activation and is also an effective vasodilator.
+◆ NO
+◆ ADP
+○ inhibit coagulation
+◆ thrombomodulin
+◆ endothelial protein C receptor
+◆ heparin-like molecules (TF pathway inhibition)
+◆ t-PA (fibrinolysis)
+○ ECs also bing thrombin and alter its activity
+● what sort of disorders arise from deranged hemostasis?
+○ hemorrhagic disorders
+○ thrombotic disorders
+● describe defects of primary hemostasis
+Defects of primary hemostasis are caused by platelet defects, vessel
+defects or von Willebrand disease.They can be genetic or acquired.
+○ impaired vasoconstriction
+◆ degenerative → amyloidosis, elastosis
+◆ vessel malformation
+○ von Willebrand disease: most common blood clotting disorder
+○ defects in platelet function
+◆ Plateletosis: N°of platelets above 600,000/µl
+(myeloproliferative syndromes. Platelets have functional and
+morphological alterations.
+○ thrombocytopenia low number of platelets below 100,000 (nv
+150,000- 400,000/µL)
+● describe defects of secondary hemostasis
+○ hemophilias (genetic deficiency of coagulation factors)
+○ defects in coagulation factor production
+◆ hepatic diseases
+◆ anticoagulant therapies (vit.K antagonists, heparin, etc)
+○ excessive destruction (e.g. disseminated intravascular proteolysis)
+○ defects in receptors (thrombin receptors)
+○ others
+● describe diseases of the fibrinolytic system
+Components of the fibrinolytic system: plasminogen, plasminogen
+activators, inhibitors of plasminogen activators, specific plasmin
+inhibitors (alpha2-antiplasmin, alpha2- macroglobulin)
+○ Genetic or acquired deficiency of plasmin inhibitors
+(hyperfibrinolytic syndromes) → excessive fibrinolysis →
+hemorrhage
+○ Anti-protease deficiency (prevalence of venous thrombosis,
+thromboembolism): Main antiproteases (control of proteases and
+factors VIII, V, XII):
+◆ alpha1-antitrypsin, alpha1-antichymotrypsin, antithrombin III,
+protein C and S, C1 inactivator, protein C inhibitor
+○ Genetic or acquired (liver diseases, carcinomas, leukemia, sickle
+cell disease, hyperfibrinolytic syndromes, oral contraceptives)
+deficiency of antithrombin III: recurrent venous thrombosis

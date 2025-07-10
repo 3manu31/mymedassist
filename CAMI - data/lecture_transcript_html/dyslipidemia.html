@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title> dyslipidemia</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81c2-bed3-d908985c613d" class="page sans"><header><h1 class="page-title"> dyslipidemia</h1><p class="page-description"></p></header><div class="page-body"><figure id="2297904f-03a9-81b4-9513-e6f81fd67fe6" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image1.png"><img style="width:522px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image1.png"/></a></figure><p id="2297904f-03a9-8171-9d5d-ea918eb3b61b" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-81cf-8d79-c1ed9502e4fe" class=""><strong>DYSLIPIDEMIA</strong></p><p id="2297904f-03a9-81d1-816d-de1e6e1781f9" class="">Today we will talk about dyslipidemias, plural because there are several conditions that can determine the onset of different types of dyslipidaemia</p><p id="2297904f-03a9-81ed-b655-da63241e1239" class="">When we talk about dyslipidemia we intend high ratio in lipid composition in blood, in particular cholesterol, triglycerides, or both cholesterol and triglycerides, and these conditions are recognised to be a risk for cardiovascular diseases, in particular high cholesterol levels in the blood, named high cholesterolemia. Remember that high cholesterolemia is an autosomic disorder.</p><p id="2297904f-03a9-81a0-905f-f9e89610764b" class="">High cholesterolemia means increased levels of cholesterol in the blood, but we know that lipids in general cannot flow freely in the blood, they need proteins to be carried in the blood from the liver to the peripheral tissues and vice versa from the peripheral tissues to liver.</p><p id="2297904f-03a9-81a1-b812-c9f94d7c14d6" class="">Cholesterol is the main component of the low density lipoproteins (LDL). For hypercholesterolemia, we can say that there is an increase of LDL in the blood.</p><p id="2297904f-03a9-8123-8333-c0c198588bf1" class="">We can have higher cholesterolemia for different reasons:</p><p id="2297904f-03a9-8142-8509-c3440659d482" class="">-excessive introduction of cholesterol in the diet</p><p id="2297904f-03a9-8186-b1b7-c947da8cd7de" class="">-when there is an increase in endogenous synthesis of cholesterol</p><p id="2297904f-03a9-81d2-8e23-cd8875319e2b" class="">-altered uptake of cholesterol from the liver, so the LDL remains in the blood.</p><p id="2297904f-03a9-817e-a62c-c8ff967c321b" class=""><strong>STRUCTUREOFOXIDIZEDLDL</strong></p><p id="2297904f-03a9-81d7-a470-d009ccf31450" class="">This is the structure of LDL present in the blood, it is a rounded structure, made of different lipids in the different layers (<em>fig.1</em>): -in the external layer, we have phospholipids and free cholesterol, the more hydrophilic lipids</p><p id="2297904f-03a9-81a8-a93e-dde5973772fd" class="">-centrally, in the core of the lipoprotein we have esterified cholesterol and triglycerides</p><p id="2297904f-03a9-8121-a8ca-f3f55a57bfea" class="">-All around this sphere we have big proteins called apolipoproteins B100, specific lipoproteins of LDL and this is <em>Fig.1</em> important because they are specifically recognised by LDL receptors that are present in the liver and in the peripheral tissues, so thanks to the apolipoproteins B 100 LDL are recognised and internalized by the liver and by the peripheral tissues.</p><p id="2297904f-03a9-8149-845c-ea448a7a3016" class="">LDL can cause atheroma formation, Professor Leonarduzzi will explain specifically this theme.</p><p id="2297904f-03a9-81d3-bcfd-e12dbf17f869" class="">Atherosclerosis is a chronic inflammatory disease that affects only big and medium arteries, the arterial wall of these arteries.</p><p id="2297904f-03a9-81e8-a471-fffce42afdd6" class=""><strong>FORMATIONOFATHEROMA</strong></p><p id="2297904f-03a9-819d-a408-d320d946f012" class="">You can see here in <em>fig.2</em> LDL in the blood connected to the presence of endothelial dysfunctions is the triggered for the development of atherosclerosis. They enter in the intima layer of the arterial wall at they are oxidized that means that the main lipids that compose LDL are oxidized.</p><p id="2297904f-03a9-81cf-ae02-dcfd102fc467" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-816f-9aca-e7400c9d8c6f" class="">68</p><p id="2297904f-03a9-8181-b990-c9d9965a7600" class="">31.03.2023 GAMBA L.6</p><figure id="2297904f-03a9-81e4-a640-f83f02b4f9e6" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image2.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image2.png"/></a></figure><p id="2297904f-03a9-8124-98cc-f49219ceaf01" class="">Phospholipids are oxidized, also cholesterol esters and apoproteins b100 are oxidized. <em>Fig.2</em> So oxidized (modified) LDL are produced in the intima of these arteries and these oxidized LDL are strongly atherogenic. In fact normal LDL are not atherogenic, they become atherogenic when they become oxidized, and so they start to promote different events that lead to the formation of atheroma (atherosclerosis plaque) that grows inside the wall and arrives to occlude the arterial lumen.</p><p id="2297904f-03a9-81bd-aa13-e5cea7072471" class="">Oxidized LDL stimulate the differentiation of monocyte into macrophages , typical players of chronic inflammatory disease, that is also present in the atherosclerosis. They are attracted in the these walls and then they differentiate in macrophages and grab to specific receptors that recognised only oxidized LDL that in this way can be bound on their surfaces and they are internalized by macrophages. By these moment macrophages are called pom cells in italian cellule schiumose, and these cells start to accumulate creating the central part of the atheroma, a lipidic and necrotic core because in the central part there is the lack of nutrients and oxygen.</p><p id="2297904f-03a9-8161-a896-fc830475f805" class="">Simultaneously the smooth muscle cells of the vessels start proliferating and migrate in the intima around the necrotic core and differentiate in myofibroblasts, cells similar to fibroblasts so they are able to produce extracellular matrix, the fibre scar is created around the central lipidic core.</p><p id="2297904f-03a9-81d9-b6bd-e5f63238dd79" class="">This plaques grows and can cause the rupture of the plaque creating a thrombus and blood flows is stopped, the artery is occluded and happens an ischemic necrosis because the tissue do not receive any more nutrients and oxygen.</p><p id="2297904f-03a9-815e-af3b-fedbc3bc50a2" class="">Oxidized LDL accumulated in the arterial wall stimulates : -recruitment of monocytes from the blood</p><p id="2297904f-03a9-81f2-be1c-dd8f804c4ccc" class="">-the differentiation of monocytes in macrophages</p><p id="2297904f-03a9-8199-8325-e4ce583d6d20" class="">-the proliferation, differentiation and migration of muscle cells All these events are strongly stimulated by the oxidized LDL</p><p id="2297904f-03a9-8192-9bbe-e3c477c89adc" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-81f7-b072-ccad7adfe9fb" class="">69</p><p id="2297904f-03a9-8162-afef-df1acbd9106b" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-81d4-98a3-d2d42b01aa5e" class=""><strong>WHATAREINSTEADHDL?</strong></p><p id="2297904f-03a9-8172-bf5f-e65fe1b61d3e" class="">HDL are high density lipoproteins, they carry cholesterol, also called good cholesterol because transport the cholesterol from the periphery and transport it to the liver. So higher level of LDL are atherogenic, higher level of HDL are considered anti atherogenic, because they remove cholesterol.</p><p id="2297904f-03a9-81ac-89e6-fc9343ada14b" class=""><strong>HDLANDLDL</strong></p><figure id="2297904f-03a9-8139-9cc6-c9856c0f48b6" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image3.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image3.png"/></a></figure><p id="2297904f-03a9-81fa-8122-dfb384fa6c18" class="">You can see in the picture (<em>fig.3</em>) the composition of LDL on the left and that of HDL on the right <em>Fig.3</em></p><p id="2297904f-03a9-814d-bb29-d0553b43a6c9" class="">They are called respectively bad and good just depending on the direction in which they transport the cholesterol.</p><p id="2297904f-03a9-81a5-a904-c152e9ecd48b" class="">LDL--&gt;produced in the liver and brings cholesterol from the liver to the periphery</p><p id="2297904f-03a9-8103-8e51-e5b9b612ff2c" class="">HDL--&gt;flows in the opposite direction they take from periphery to the liver when it is recycled</p><p id="2297904f-03a9-81bd-81c8-eefa63c80baa" class="">LDL are bigger than HDL and they have a lower density, that&#x27;s why they are called low density lipoproteins while HDL are called high density lipoproteins, they are smaller. Higher is the density smaller is their sizes and the density mainly depends on the quantity of proteins, LDL have only one apolipoprotein that is apo B100.</p><p id="2297904f-03a9-81d8-8e31-e7c9d78835ee" class="">LDL are also called LDL cholesterol but is not formed only by cholesterol, but cholesterol is the main component, it is the 50% of LDL.</p><p id="2297904f-03a9-81b2-b886-c6e64c32dac1" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-8171-a60a-f82e81e95f9a" class="">70</p><figure id="2297904f-03a9-810c-acca-d9417a225e84" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image5.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image5.png"/></a></figure><figure id="2297904f-03a9-8191-a042-dc150e1bf9f3" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image6.png"><img style="width:180px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image6.png"/></a></figure><p id="2297904f-03a9-81be-b606-cc3b83a3d2a7" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-81a0-a140-ed3df4c54c41" class=""><strong>CLASSESOFLIPOPROTEINS</strong></p><p id="2297904f-03a9-812c-b00a-c6d6b2a4d8f6" class="">These are the principle classes of lipoproteins, 4 categories(<em>fig.4</em>):</p><p id="2297904f-03a9-8127-8142-e963c12c58cd" class=""><em>Fig.4</em></p><hr id="2297904f-03a9-819d-b3e8-ff0089ae3830"/><figure id="2297904f-03a9-8163-abf8-d5a154e2bf7c" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image4.png"><img style="width:661px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image4.png"/></a></figure><p id="2297904f-03a9-81ea-bb3a-fa28b517deb5" class="">2)Then we have VLDL, very low density lipoproteins, also in this case triglycerides are the main components and they have low level of cholesterol, of proteins and phospholipid</p><p id="2297904f-03a9-810a-8bc7-f8dc2fa96b5f" class="">3)Then there are the LDL main component is</p><p id="2297904f-03a9-81cd-9aca-e15f45fcee32" class="">cholesterol, 50% and there is an higher presence</p><p id="2297904f-03a9-8182-996c-db9580801817" class="">of protein respect the previous ones</p><p id="2297904f-03a9-8175-9486-ea49633f2d4d" class="">1)Chylomicrons, very low density lipoproteins,</p><p id="2297904f-03a9-81a0-8bb5-dc0d4eddc276" class="">they are the lipoproteins with the lower density</p><p id="2297904f-03a9-815c-a2e3-c0c1307d6767" class="">and the main components are triglycerides. In</p><p id="2297904f-03a9-8120-b7fc-e5ea4a3898bd" class="">chylomicrons protein components is very low so</p><p id="2297904f-03a9-81cb-add3-d4d2006c41d4" class="">the density is very low too.</p><p id="2297904f-03a9-8123-8286-d4c4a338ef5d" class="">4)HDL very high quantity of proteins of their surface this is why density of them is so high.</p><p id="2297904f-03a9-8181-9461-e4610272043f" class="">With electrophoretic</p><p id="2297904f-03a9-8187-a13c-d3379d15fba3" class="">division(<em>fig.5</em>) lipoproteins</p><p id="2297904f-03a9-8199-a49f-c03f4a9e8767" class="">that are bigger and have</p><p id="2297904f-03a9-81be-8bf1-f07de2ce3ac2" class="">lower density stays here in</p><p id="2297904f-03a9-8140-b96c-f1f20485f102" class="">the higher part and the</p><p id="2297904f-03a9-81e2-a99e-f5dc7eef5b95" class="">smaller and with higher</p><p id="2297904f-03a9-8182-8516-f48d81aa42cb" class="">density go lower part, in this</p><p id="2297904f-03a9-8165-bd8b-f1f0b1585b13" class="">way we can divide and</p><p id="2297904f-03a9-8117-a3e7-e5fb49264820" class="">recognize them.</p><p id="2297904f-03a9-8181-b982-c1fa92a5c336" class="">But it is not just the density <em>Fig.5</em></p><p id="2297904f-03a9-8159-b537-d73d87a463c4" class="">that leads to this kind of</p><p id="2297904f-03a9-8138-b233-ca2e60756c9a" class="">division, in fact very low density you can see that are higher than LDL and HDL.</p><p id="2297904f-03a9-8101-9648-dad86f81a0da" class="">This is due to their charge because migration is affected by the density, but also by the charge of the particles and VLDL have higher presence of negative charges due to the presence of proteins on their surface.</p><p id="2297904f-03a9-8109-b02f-f45ff888108d" class=""><strong>CHARACTERISTICSANDDIMENSIONSOFLIPOPROTEINS</strong></p><p id="2297904f-03a9-8196-a676-e57d5e0ab5f4" class="">Here(<em>fig.6</em>) we can see the characteristics of the different lipoproteins. Professor has put this slide in order to focus and memorise lipoproteins and their dimension, remembering that chylomicrons are the biggest ones and HDL are the smallest lipoproteins.</p><p id="2297904f-03a9-8150-8d4a-c2f56241ef7d" class=""><strong>LIPOPROTEINSCOMPOSITION</strong></p><p id="2297904f-03a9-8167-b605-f64e36dacf54" class="">We have already seen the composition of LDL, and they are composed all in a similar way.</p><ul id="2297904f-03a9-811f-8436-d4623ad20c14" class="bulleted-list"><li style="list-style-type:disc">The internal part is called core, and contains the more hydrophobic portion mainly esterified cholesterol and triglycerides</li></ul><ul id="2297904f-03a9-81f5-b011-f0339f9a9ee3" class="bulleted-list"><li style="list-style-type:disc">The external part contains more hydrophilic which are non esterified cholesterol, phospholipids and proteins that are exposed. In this way lipoproteins can flow in the blood, exposing a hydrophilic portion, without forming a lipidic embolism. So, thanks to these particular proteins all around we can avoid this situation.</li></ul><p id="2297904f-03a9-8170-b66a-f694575c3560" class=""><em>Fig.6</em></p><p id="2297904f-03a9-813b-b49c-e27ec321a2bb" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-81a1-a920-e8864e00cf87" class="">71</p><figure id="2297904f-03a9-8131-8669-e59906583dce" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image8.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image8.png"/></a></figure><p id="2297904f-03a9-8198-9cf9-d476fae5f068" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-8189-a4d4-f6ac00537a81" class=""><strong>LIPOPROTEINSFUNCTIONS</strong></p><ul id="2297904f-03a9-813a-8d35-f549e88d0f30" class="bulleted-list"><li style="list-style-type:disc">absorption of cholesterol, long fatty acids, fat soluble vitamins from the diet</li></ul><ul id="2297904f-03a9-814c-b6b7-cda3d947650f" class="bulleted-list"><li style="list-style-type:disc">transport of triglycerides, cholesterol, fat-soluble vitamins from the liver to the peripheral tissue where they are needed and vice versa transport form the periphery when there is an excess of cholesterol and it is transported to liver where it is recycled</li></ul><p id="2297904f-03a9-81cb-8273-ca36d5392969" class=""><strong>APOLIPROTEINS</strong></p><p id="2297904f-03a9-81d0-b986-f3f5614c1d98" class="">All lipoproteins are surrounded by apolipoproteins of which the main work is to allow the assembly of lipids, allow lipids to flow in the blood and they are important because they activate the enzymes, so the specific metabolism, key enzymes in lipid metabolism which is lipoprotein lipase that activate a specific lipoprotein and are the ligands for receptors that specifically recognize them in peripheral tissues and in the liver.(<em>fig.7</em>)</p><p id="2297904f-03a9-8141-bf9c-ddf9eb30e92a" class="">It is not necessary to</p><p id="2297904f-03a9-8177-90eb-ddd55980a17f" class="">remember them all, but</p><p id="2297904f-03a9-817e-945e-e0a34fb6c6eb" class="">remember</p><ul id="2297904f-03a9-8104-9485-e028206f1483" class="bulleted-list"><li style="list-style-type:disc">ApoB- 100 that is the</li></ul><p id="2297904f-03a9-8172-9a0b-e3c5ef609cd0" class="">specific apolipoprotein of</p><p id="2297904f-03a9-81c2-bd4f-c8475b982d45" class="">the LDL</p><ul id="2297904f-03a9-813c-bd01-ee84b612543b" class="bulleted-list"><li style="list-style-type:disc">ApoC-II is important for different lipoproteins and <em>Fig.7</em> is the apolipoprotein that activates the lipases enzymes</li></ul><ul id="2297904f-03a9-815e-b520-de53f688cd14" class="bulleted-list"><li style="list-style-type:disc">apoA-I and II are the main apolipoproteins of HDL (mainly apoA-II)</li></ul><p id="2297904f-03a9-81cd-affe-c6f308d998ce" class=""><strong>EVALUATIONOFTHELIPIDPROFILE</strong></p><p id="2297904f-03a9-81be-a164-e87cabccc106" class="">These are the values that have to be</p><p id="2297904f-03a9-8165-85d7-c251269df96e" class="">considered in order to understand if there</p><p id="2297904f-03a9-81c5-add9-d43f578c7a1d" class="">is dyslipidemia or high risk of</p><p id="2297904f-03a9-816d-b16f-d8b070ec0c8c" class="">cardiovascular problems, because higher</p><p id="2297904f-03a9-81e7-b90f-fd99bb41a561" class="">level of LDL are considered a possible risk ,</p><p id="2297904f-03a9-8140-be87-fae8773666ea" class="">because they are risk factors for</p><p id="2297904f-03a9-8185-96e7-dfde1ae0b650" class="">atherosclerosis(<em>fig.8</em>)</p><p id="2297904f-03a9-81de-a71e-deb323733cb1" class="">Values in subjects that have no other risk</p><p id="2297904f-03a9-812c-b371-cc4d503abf28" class="">factors for atherosclerosis, so healthy</p><p id="2297904f-03a9-8133-bbe7-d664bddd0dd2" class="">subjects, so no familiarity for</p><p id="2297904f-03a9-815a-b444-ea599aeda3f0" class="">cardiovascular events, with health lifestyle</p><p id="2297904f-03a9-81e2-9a0f-d52c7c3e56a7" class="">and LDL concentration is optimal if it is</p><p id="2297904f-03a9-8120-b12d-dbf7ae931e5d" class="">minor than 100 mg/100 ml</p><p id="2297904f-03a9-8166-9307-df1eb656b2f0" class="">On the opposite HDL is very good when</p><figure id="2297904f-03a9-816a-b25d-c33a2294497d" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image7.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image7.png"/></a></figure><p id="2297904f-03a9-81c8-a051-e3cd4039e5bf" class="">there is an higher level. <em>Fig.8</em></p><p id="2297904f-03a9-814f-8c0d-c21d6b9a5cca" class="">Higher triglycerides are not considered risk conditions for cardiovascular problems, but are more related to problems of the liver as steatosis.</p><p id="2297904f-03a9-8192-b117-c07073ac7f49" class="">Remember that risk factors for atherosclerosis are many, not only hypercholesterolemia: diabetes, smoke, hypertension, obesity, age. They are all risk factors.</p><p id="2297904f-03a9-81c3-b75b-f10d47a5d108" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-819c-876b-d38249c77d95" class="">72</p><figure id="2297904f-03a9-8103-ad0d-d7cb18a8b32b" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image9.png"><img style="width:624px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image9.png"/></a></figure><figure id="2297904f-03a9-812a-b108-fcd54976c898" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image10.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image10.png"/></a></figure><p id="2297904f-03a9-812a-9800-d9073147bbe0" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-8134-9dc2-d3beaf442f88" class="">Based on the quantities of risk factors that the person has a score of risk is attributed.</p><p id="2297904f-03a9-816b-90e0-ebed53516a31" class="">If the LDL is higher and the person has other risk factors can be taken into consideration the possibility of assumption of some drugs in order to reduce the synthesis of cholesterol by the liver and reduce blood cholesterol.</p><p id="2297904f-03a9-8158-a862-d955d07703d4" class="">Also is very important secondary prevention</p><p id="2297904f-03a9-81e8-a745-d0fea558d462" class="">that means treatment for people that have</p><p id="2297904f-03a9-8136-9bcb-e7068e77b2ec" class="">already had cardiovascular events, in that case</p><p id="2297904f-03a9-814f-bb9a-cbd4912921b7" class="">the better to control the value of LDL around</p><p id="2297904f-03a9-81a8-8d56-ecc6bbbd7009" class="">55 mg/dL.</p><p id="2297904f-03a9-8189-93b4-fc01363f5842" class="">Statins or others drugs can reduce drastically</p><p id="2297904f-03a9-8122-8631-cf9f8e8b10a2" class="">the LDL in the blood. But lowering so much the</p><p id="2297904f-03a9-8129-bafd-c6961bd8a712" class="">LDL level in the blood is also dangerous</p><p id="2297904f-03a9-8167-868e-da069e1c87ad" class="">because cholesterol is one of the main</p><p id="2297904f-03a9-818a-a87a-c3baad43f4e2" class="">molecules for the life of our cells, is one of the</p><p id="2297904f-03a9-816b-b9e0-c565403d0d4b" class="">main components of the plasma membrane,</p><p id="2297904f-03a9-814f-b56a-c7cd2f32f57a" class="">for the synthesis of steroid hormones</p><p id="2297904f-03a9-81e3-884e-e8964ca4fdc9" class="">etc.(<em>fig.9</em>)</p><p id="2297904f-03a9-813b-9a13-d5ba0bd8a3f1" class=""><em>Fig.9</em></p><p id="2297904f-03a9-81ad-b5b3-e04a34d60726" class=""><strong>LIPOPROTEINMETABOLISM</strong></p><p id="2297904f-03a9-8137-808d-d6d3f2143048" class="">We can divide the metabolism of the lipoproteins in two:</p><ul id="2297904f-03a9-81ef-965b-fb196ae98757" class="bulleted-list"><li style="list-style-type:disc">exogenous cycle: absorption and transport of lipids from the diet</li></ul><ul id="2297904f-03a9-819f-a311-c8e1b9aa25a3" class="bulleted-list"><li style="list-style-type:disc">endogenous cycle: transport of lipids from the liver to the peripheral tissues and vice versa</li></ul><p id="2297904f-03a9-812c-be93-faf4966f3ec1" class="">With the picture is easier to understand(<em>fig.10</em>).</p><p id="2297904f-03a9-8181-a592-c81c2391e21f" class=""><strong>EXOGENOUSCYCLE</strong></p><p id="2297904f-03a9-81b7-8131-f8290349659b" class="">Lipids are absorbed from the</p><p id="2297904f-03a9-8122-aeb8-e876be0d3c58" class="">diet and the first lipoproteins</p><p id="2297904f-03a9-8132-a918-cd86026b2a07" class="">that are created are</p><p id="2297904f-03a9-81d2-a757-ec3cb0d0495c" class="">chylomicrons, the one with</p><p id="2297904f-03a9-8127-9935-d207b56d6fc6" class="">lower density, that contains</p><p id="2297904f-03a9-814a-8f2c-dc5c2a8de4ed" class="">cholesterol and triglycerides.</p><p id="2297904f-03a9-810c-a0d0-db4c248619f3" class="">At the level of skeletal muscles,</p><p id="2297904f-03a9-81f2-9474-cd2d51955374" class="">heart and adipose tissues there</p><p id="2297904f-03a9-8197-9cb5-de368eb7b8ec" class="">is an enzyme that is called</p><p id="2297904f-03a9-819c-9d9c-f6e5fe1e4771" class="">lipoprotein lipase that removes</p><p id="2297904f-03a9-8189-a081-d28102df3243" class="">triglycerides from the</p><p id="2297904f-03a9-8104-9996-fb2d45e24683" class="">chylomicrons</p><p id="2297904f-03a9-817e-b77c-f10f5c9d566b" class="">and these triglycerides are used by</p><p id="2297904f-03a9-81a3-b6f8-fc440be1060a" class="">muscles for energy and they</p><p id="2297904f-03a9-81f4-b515-f1f414c3edfe" class="">are captured by adipose tissue</p><p id="2297904f-03a9-81aa-a313-ce2580c0704c" class="">for deposit. By these way <em>Fig.10</em></p><p id="2297904f-03a9-81bd-b31d-fac0d08f4f40" class="">chylomicrons become residual</p><p id="2297904f-03a9-8178-b636-cfbc381278b1" class="">chylomicrons or also remnants. Remnants are bounded to hepatocytes in the liver, cholesterol and the other compounds of chylomicrons are kept by hepatocytes and by they are recycled.</p><p id="2297904f-03a9-8186-b57d-facec171b176" class="">What happens in the liver?</p><p id="2297904f-03a9-81bb-8a16-d9af9ee8c7a3" class="">Now the <strong>ENDOGENOUS CYCLE</strong> starts</p><p id="2297904f-03a9-8139-8976-dcbc8bddb937" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-8125-ac13-d8620853bce5" class="">73</p><figure id="2297904f-03a9-8171-8553-e9c7f18770cb" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image11.png"><img style="width:666px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image11.png"/></a></figure><p id="2297904f-03a9-8121-ace6-eb1f84c93ddf" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-81f7-8099-c3ef02465bc6" class=""><em>Fig.11</em> The liver produces VLDL the first lipoproteins assembled by the liver are very low lipoproteins and they are rich in triglycerides and again when they are close to muscles and adipose tissue the lipoprotein lipase eliminated triglycerides from VLDL and VLDL are transported in LDL, that are rich in cholesterol and poorer in triglycerides. Then some LDL are captured again by the liver because in the surface of hepatocytes we have LDL receptors</p><p id="2297904f-03a9-813c-9c19-e760bef42ef4" class="">that specifically recognize apo B 100, that is the apolipoprotein present on the surface of the LDL, so they are kept. But LDL also go in the periphery to give cholesterol to our peripheral tissues and on the cells of the peripheral tissues LDL find the same LDL receptor recognizing the apo B100.</p><p id="2297904f-03a9-813c-83c9-e2fd039dbe49" class="">HDL take cholesterol from the peripheral tissue and bring to the liver with the opposite transport</p><p id="2297904f-03a9-81e3-86f6-c9eca653f237" class="">LDL receptor and lDL particle: the apo B100 is apolipoprotein of LDL specifically recognised by the LDL receptors (<em>fig.11</em>).</p><p id="2297904f-03a9-817d-89e6-f49960b203ea" class="">LDL are internalized by cells of the liver or other cells as that of the peripheral tissues. The receptors is recycled and re-exposed again on the surface while LDL is broken up</p><ul id="2297904f-03a9-8127-a080-c7f0f5ae917f" class="bulleted-list"><li style="list-style-type:disc">Proteins in amino acids</li></ul><ul id="2297904f-03a9-816c-b027-e6995b24a069" class="bulleted-list"><li style="list-style-type:disc">Cholesterol in lipids that can be used by the cells to do synthesis of hormones, for the reparation or turnover of the cell membrane etc..</li></ul><p id="2297904f-03a9-81b3-8d0e-c4f4a9309ebd" class="">Extra cholesterol is stored as cholesterol esters and the presence of extra cholesterol goes to act in a negative feedback way, meaning that if you have more extra cholesterol this will slow down the processes of synthesis of cholesterol of new cholesterol by the cells. So the extra cholesterol will inhibit the enzymes responsible for cholesterol synthesis that is hydroxyl-methyl-glutaril-CoA reductase</p><p id="2297904f-03a9-8119-ac79-cc9625c06f00" class="">At the same time extra cholesterol goes to inhibit also the synthesis by cells of new LDL receptors, by this way LDL receptors are recycled by the cells but not anymore produced, in this way is less absorbed.</p><p id="2297904f-03a9-8175-a939-cc0fdd2080af" class="">These are the two main proteins that favour the exit of Cholesterol from the lysosomes: Human pick c1 and human pick c2</p><p id="2297904f-03a9-813d-87c8-fa15ea2cdf45" class="">There is a disorder of the human pick: the children’s Alzheimer’s disease, due to the accumulation of cholesterol in our tissues.</p><p id="2297904f-03a9-81b3-8d6d-d3f8ad5c18d1" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-813b-ae68-d0e4399ef59b" class="">74</p><figure id="2297904f-03a9-8104-ba55-f6baff7fe72d" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image12.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image12.png"/></a></figure><figure id="2297904f-03a9-811d-9ed3-dfebcc10ba58" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image13.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image13.png"/></a></figure><p id="2297904f-03a9-810d-b756-ed4dccec3de4" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-810d-b192-f4b378bf5274" class="">This is the exogenous cycle, (<em>fig.12</em>)</p><p id="2297904f-03a9-8197-b264-d0485f8dfe1d" class="">so the absorption of lipids from the</p><p id="2297904f-03a9-812f-9b9c-f73eaf10eb2f" class=""><em>Fig.12</em> diet, as i told you before lipoproteins</p><p id="2297904f-03a9-81d6-a6d8-e58379bfee89" class="">that are assembled are chylomicrons</p><p id="2297904f-03a9-81e4-b054-d9c3084d884f" class="">that have two main apolipoprotein</p><p id="2297904f-03a9-816c-ac72-d0447371d0f2" class="">which are:</p><ul id="2297904f-03a9-81f4-8f87-ef54a1fed25e" class="bulleted-list"><li style="list-style-type:disc">apo B 48--&gt;already present</li></ul><p id="2297904f-03a9-8180-b54f-d8e8b49b2932" class="">assembled in the intestinal mucosa</p><ul id="2297904f-03a9-8128-a43f-dc1965097b1d" class="bulleted-list"><li style="list-style-type:disc">apo C II--&gt;acquired in the blood</li></ul><p id="2297904f-03a9-81e9-979f-c805e497507c" class="">thanks to HDL that donate this apoC</p><p id="2297904f-03a9-817c-ab4b-e2052a96a0d7" class="">2 to the chylomicrons. Is an</p><p id="2297904f-03a9-8154-9c89-ffd2844dfe1a" class="">important apolipoprotein because is</p><p id="2297904f-03a9-81e6-adb9-edaa0beaf2f2" class="">a cofactor of the lipoprotein lipase</p><p id="2297904f-03a9-8126-baef-eb9b08d47ebb" class="">enzyme, activating it. This enzyme is</p><p id="2297904f-03a9-8127-815e-d9c6838e1705" class="">present in the capillary wall of the</p><p id="2297904f-03a9-8148-88e0-f32ac250f265" class="">skeletal muscles, heart and adipose</p><p id="2297904f-03a9-819f-b2cd-cfce0867d9c4" class="">tissue and it is important to remove</p><p id="2297904f-03a9-813f-af03-c9f795cdb426" class="">fatty acids, triglycerides from chylomicrons and by this way chylomicrons loose triglycerides, phospholipids , together with cholesterol are used to make VLDL and the particles produced are called residual chylomicrons.</p><p id="2297904f-03a9-81d3-ad3e-c3230a43979a" class="">Residual chylomicron acquire from HDL also apoE that is another apolipoprotein that is important because is recognized again by another receptor in the hepatocytes and so they are used by hepatocytes to assemble the VLDL and endogenous pathways in the adipose part.</p><p id="2297904f-03a9-8111-a989-da36440bf7ff" class="">This is the</p><p id="2297904f-03a9-81e6-a4f3-e4c0ea56fe9e" class="">endogenous cycle</p><p id="2297904f-03a9-81d0-8a9f-d0cd0bcc509b" class="">(<em>fig.13</em>), the liver</p><p id="2297904f-03a9-814a-adbe-fd4654997a57" class="">synthesizes</p><p id="2297904f-03a9-81be-b24c-c64d213a3a29" class="">triglycerides,</p><p id="2297904f-03a9-8153-9baa-f5041db21d00" class="">cholesterol and are</p><p id="2297904f-03a9-8109-bd4a-da3f8ac440ed" class="">released in the blood</p><p id="2297904f-03a9-81e7-9174-eda85d417700" class="">the VLDL, the very low</p><p id="2297904f-03a9-81a9-ba49-e17d0174496a" class="">density lipoproteins,</p><p id="2297904f-03a9-8154-9c85-c9aa0a89b0f9" class="">that when</p><p id="2297904f-03a9-81b0-863d-c64b98204e20" class="">are in proximity of skeletal</p><p id="2297904f-03a9-81a8-a64e-ff0421d6d133" class="">muscles or adipose</p><p id="2297904f-03a9-817d-9190-f23ce33dc03b" class="">tissue find on the</p><p id="2297904f-03a9-819e-826a-e5313fb79b56" class="">capillary wall the</p><p id="2297904f-03a9-810f-903c-c1863786f5e8" class="">enzyme lipoprotein</p><p id="2297904f-03a9-815d-950b-de8f2c9a06e9" class="">lipase. This enzyme is</p><p id="2297904f-03a9-8150-a67a-cd80eef5ba5c" class="">activated by apo cII <em>Fig.13</em></p><p id="2297904f-03a9-81f9-9b64-f3fb315cbbd5" class="">that is present also on</p><p id="2297904f-03a9-8126-be98-fea651675015" class="">the LDL and is the same apoprotein present on the surface of chylomicrons. So apo cII is a cofactor of the activator of the lipoprotein lipase and so the triglycerides are extruded by VLDL and used by skeletal muscles or stored in adipose tissue and IDL (intermediate density lipoprotein) are produced.</p><ul id="2297904f-03a9-8117-8501-d1323bbbd387" class="bulleted-list"><li style="list-style-type:disc">50% of IDL goes back to the liver to be recycled and are recognised by the receptors that recognize apo B100</li></ul><ul id="2297904f-03a9-81f9-96d2-ff600d8d3305" class="bulleted-list"><li style="list-style-type:disc">The other 50% are again metabolized by the lipoprotein lipase and transformed in LDL, losing the residual triglycerides, increasing the ratio of cholesterol (<em>fig.14</em>).</li></ul><p id="2297904f-03a9-8142-b5b5-e5aebe2dc98e" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-81a8-80ea-db94f89084df" class="">75</p><figure id="2297904f-03a9-8150-ba31-c52ffe3f521f" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image16.png"><img style="width:512px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image16.png"/></a></figure><p id="2297904f-03a9-8149-9bfd-d560a82abc14" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-8179-8896-c63b06875bb7" class="">70% of LDL goes back to the liver and are recognized by</p><p id="2297904f-03a9-8139-b08d-d1a366308987" class="">LDL receptors and if there is mutation at level of these LDL</p><p id="2297904f-03a9-812c-b0ce-d064c9505961" class="">receptor it can be a big problem because it is not anymore</p><p id="2297904f-03a9-811b-ba07-fe7862d3ad41" class="">recognized by the hepatocytes and remains at circulation</p><p id="2297904f-03a9-81c0-a87e-f3c7e54fe97f" class="">level. This is the main cause of familiar</p><p id="2297904f-03a9-81da-91e3-df7331a3ca77" class="">hypercholesterolemia.</p><p id="2297904f-03a9-8183-b49e-f13e8ebbbb55" class="">30% goes to peripheral tissues where they find same</p><p id="2297904f-03a9-81f5-a89f-caf74e6dc87d" class="">receptors of that of the liver.</p><p id="2297904f-03a9-8105-8024-fc6aad3e6a4f" class="">Hypercholesterolemia is the main risk factor for</p><p id="2297904f-03a9-817e-85c7-c09dec78772f" class="">atherosclerosis , but also for Alzheimer’s disease or</p><p id="2297904f-03a9-815d-a61f-d5902eef9352" class="">stroke.</p><p id="2297904f-03a9-819a-a435-cddefa422e59" class="">It’s less known that hypercholesterolemia is also cause for</p><p id="2297904f-03a9-8167-81de-fd27415a2a3c" class="">the onset and progression of neurodegenerative diseases,</p><p id="2297904f-03a9-81d9-a94a-e0c2fd93b8f1" class="">as Alzheimer’s disease because this situation alters the</p><p id="2297904f-03a9-8165-b9f7-dfb5ea52f8e8" class="">composition of the blood brain barrier.</p><p id="2297904f-03a9-8100-a2c0-e44198b57657" class="">Red circle in <em>fig.15</em> are the <em>Fig.14</em> positions in which cholesterol is prone to be oxidized. As I told you before the cholesterol per se, so the native cholesterol, is not atherogenic, it&#x27;s not bad, but it becomes bad or atherogenic when it is oxidized. We find oxidized cholesterol in LDL, that is very atherogenic and the oxidation of cholesterol in different parts give rise to the production of the so called oxysterols or cholesterol ester oxidation products. There are a lot of oxysterols (<em>fig.16</em>):</p><p id="2297904f-03a9-81f3-a748-cb89cdcfe1d9" class="">24 and 27 HYDROXYCHOLESTEROL come from the enzymatic oxidation of cholesterol, there are enzymes that specifically oxidize cholesterol in a specific part.</p><p id="2297904f-03a9-81c5-8e34-fca4b6d8a740" class="">For example:</p><figure id="2297904f-03a9-8129-bdd3-e0291ba29981" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image14.png"><img style="width:588px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image14.png"/></a></figure><p id="2297904f-03a9-8127-b86a-ee1d19e8115e" class=""><em>Fig.15</em></p><ul id="2297904f-03a9-81b3-b6c7-eb8950d0ab02" class="bulleted-list"><li style="list-style-type:disc">Cholesterol 27hydroxilates is the enzyme that oxidize cholesterol in position 27</li></ul><figure id="2297904f-03a9-818b-807f-fa43c3c6b3ae" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image15.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image15.png"/></a></figure><p id="2297904f-03a9-81d1-8789-f6ebe171f3c7" class=""><em>Fig.16</em></p><p id="2297904f-03a9-817f-8542-c78a3995517f" class="">Eleonora Giammarino, Erica Veronesi</p><ul id="2297904f-03a9-8163-9c5f-d768daf89aa7" class="bulleted-list"><li style="list-style-type:disc">Cholesterol 24 hydroxilates is the enzyme that oxidizes cholesterol in the position 24</li></ul><p id="2297904f-03a9-81f2-aaff-e7b532b70490" class="">Other oxysterols otherwise are produced not because of activity of an enzyme but because of the presence of reactive oxygen species, so they are oxysterols by autoxidation, in the presence of oxidative stress and inflammation, in which we have several oxygen species, and so in this way cholesterol is oxidized.</p><figure id="2297904f-03a9-8165-8a89-e04e99de6bb7" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image17.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image17.png"/></a></figure><p id="2297904f-03a9-81ab-9b99-f6de80cf4305" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-812a-bf4e-e0d3358409c3" class="">Oxysterols can be assumed from the diet in particular by fat rich food exposed to heat, light, refrigeration...</p><p id="2297904f-03a9-81cf-8a77-c91d2eee5f0d" class="">A food that is very rich in oxysterol is grilled cheese, meat on barbecue etc.</p><p id="2297904f-03a9-81be-a89f-e7e4a1f12483" class="">Endogenous sources of oxysterols can be:</p><ul id="2297904f-03a9-819f-bd6d-e3a2f75f56b7" class="bulleted-list"><li style="list-style-type:disc">non enzymatic, so formed by reactive oxidative stress and inflammation</li></ul><ul id="2297904f-03a9-817f-ad0c-d91a9d2d8b17" class="bulleted-list"><li style="list-style-type:disc">enzymatic, because of the activity of enzymes that go to oxidize cholesterol in specific parts creating oxysterols</li></ul><p id="2297904f-03a9-81d1-8143-f1da8284c622" class="">This is again a picture (<em>fig.17</em>)</p><p id="2297904f-03a9-811d-bf3a-cc09262092ec" class="">showing the atherogenic</p><p id="2297904f-03a9-8116-8f24-fb702be69028" class="">process, the formation of</p><p id="2297904f-03a9-812d-ae33-f8b8d3e99d2a" class="">atherosclerotic plaque.</p><p id="2297904f-03a9-818f-8c8d-d59dde4ccd48" class="">LDL in the blood present at higher concentration enter the medium and large arteries and are oxidized and when they are oxidized they are atherogenic. Inside the oxidized LDL we find oxidized cholesterol. Oxidized LDL are taken up by macrophages and then oxysterols in the intima had been demonstrated to modulate all the phases of <em>Fig.17</em> atherogenesis:</p><ul id="2297904f-03a9-8183-838c-e37824d078c0" class="bulleted-list"><li style="list-style-type:disc">they are able to favour the recruitment of monocytes from the blood, so oxysterols signal to the healthy cells to produce chemoattractant proteins mcp1 that attract monocyte from the circulation to the site of inflammation.</li></ul><ul id="2297904f-03a9-81a7-b05a-e43aadb5b0e0" class="bulleted-list"><li style="list-style-type:disc">they favour the transmigration of monocyte</li></ul><ul id="2297904f-03a9-8143-b939-c51541117923" class="bulleted-list"><li style="list-style-type:disc">they favour their differentiation into macrophages</li></ul><ul id="2297904f-03a9-81f7-9afd-e2a73cc9de65" class="bulleted-list"><li style="list-style-type:disc">stimulate smooth muscle cells of vessels to proliferate and migrate and to differentiate and so on so they are very dangerous when they are in the intima.</li></ul><p id="2297904f-03a9-811d-99ed-d23d6ed22b0b" class="">In higher level of LDL oxidized we find more oxysterols.</p><p id="2297904f-03a9-81d0-b083-c2c1907bcac2" class="">Oxysterols are involved also in other diseases.</p><p id="2297904f-03a9-8136-a11b-f85a0d071e6f" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-81d0-b465-cf8724ab46c6" class="">77</p><figure id="2297904f-03a9-8131-9985-df6bd1f0bb0a" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image18.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image18.png"/></a></figure><p id="2297904f-03a9-817f-978e-e570e8601472" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-814d-b4f4-f59feb648aef" class=""><strong>CHOLESTEROLMETABOLISMINBRAIN</strong></p><p id="2297904f-03a9-8107-acf3-cb344252ea74" class="">Brain is the organ with the</p><p id="2297904f-03a9-815f-b20a-c408e916c3fc" class="">higher concentration of</p><p id="2297904f-03a9-81ec-888e-f5460ff8175c" class="">cholesterol. And cholesterol</p><p id="2297904f-03a9-8149-a476-e3e248ad14d7" class="">in the brain doesn&#x27;t count</p><p id="2297904f-03a9-81fd-b2b3-c61f8f6de54b" class="">from the diet or from the</p><p id="2297904f-03a9-8153-b10e-dc6485006f9f" class="">liver, the brain synthesizes</p><p id="2297904f-03a9-814f-ba0b-f040a2429bd5" class="">it&#x27;s own cholesterol and is</p><p id="2297904f-03a9-818a-a19c-c2dd355c00b8" class="">synthesized by the</p><p id="2297904f-03a9-81db-9546-e62c3ffbbbe4" class="">astrocytes (<em>fig.18</em>).</p><p id="2297904f-03a9-81e7-8c1a-fdedd372505f" class="">Astrocyte starts from acetil</p><p id="2297904f-03a9-81ee-97cd-e7a9bb2872b2" class="">CoA and from all the</p><p id="2297904f-03a9-81a4-93c9-d3c8a756c2ea" class="">enzymes of the cholesterol</p><p id="2297904f-03a9-81b3-a5ba-d6cddb4e6dee" class="">synthesis pathway,</p><p id="2297904f-03a9-8144-86b1-eca775ced378" class="">synthesizes cholesterol</p><p id="2297904f-03a9-819f-b7df-d37ae6e43f7b" class="">because cholesterol cannot</p><p id="2297904f-03a9-81b9-9db0-cf970bd3e9bb" class="">cross the blood brain <em>Fig.18</em></p><p id="2297904f-03a9-81dd-b123-c96a10191ab0" class="">barrier because of its</p><p id="2297904f-03a9-815e-a6ed-e31d30c0c3e0" class="">structure, so it cannot pass</p><p id="2297904f-03a9-8114-8739-d0380b611e6f" class="">neither from the peripheral tissues to the brain neither from the brain to the peripheral tissues.</p><p id="2297904f-03a9-816d-9e09-ec709c0e0c38" class="">So astrocytes synthesize cholesterol esters that is then extruded by astrocytes through abc binding that are</p><p id="2297904f-03a9-81bf-95a9-c7b19e439473" class="">transporters on the surface and cholesterol is bound to apolipoprotein E to create lipoprotein similar to HDL.</p><p id="2297904f-03a9-8137-a420-f3a04da3f722" class="">By this way lipoprotein carry cholesterol to the neurons, since neurons need it for</p><ul id="2297904f-03a9-8110-91da-d34ea2ded582" class="bulleted-list"><li style="list-style-type:disc">membrane repair</li></ul><ul id="2297904f-03a9-818b-872d-d5b464c98437" class="bulleted-list"><li style="list-style-type:disc">myelin synthesis</li></ul><ul id="2297904f-03a9-8176-91a6-f1a828374c98" class="bulleted-list"><li style="list-style-type:disc">synaptogenesis</li></ul><p id="2297904f-03a9-812d-a10b-d753c14267b6" class="">How cholesterol can be eliminated by the brain?</p><p id="2297904f-03a9-818a-90e2-eba77c9068ff" class="">Cholesterol to be eliminated by the brain has to be oxidized.</p><p id="2297904f-03a9-81bf-866d-e652c37551a0" class="">So, the formation of oxysterols is essential for extra cholesterol to be eliminated and not to be accumulated</p><p id="2297904f-03a9-81ef-8049-e44ebab2bfdf" class="">too much in neurons.</p><p id="2297904f-03a9-81a0-a56e-d48145d753de" class="">In particular neurons have this enzyme that is c46a1 that is 24 hydroxides, so it&#x27;s an enzyme that oxidase</p><p id="2297904f-03a9-8158-bfb9-c76f61ec02c4" class="">cholesterol in position 24 and in this way cholesterol can exit the neurons.</p><p id="2297904f-03a9-81c1-a821-fa869ecb2842" class="">Hypercholesterolemia in blood, so high level of LDL brings to the blood brain barrier dysfunction leading to</p><p id="2297904f-03a9-8112-ad8a-e063513032e9" class="">the passage of big amounts of oxysterols in the brain and the accumulation of oxysterols is a factor that</p><p id="2297904f-03a9-81f3-a26d-d4af30babf0e" class="">favour the onset of neurodegenerative diseases as Alzheimer’s disease. And as the Alzheimer’s disease</p><p id="2297904f-03a9-8103-b0e0-d38b39aff85f" class="">progresses with time and in late advanced stage oxysterols are increased so much that they are worsening</p><p id="2297904f-03a9-811b-98de-d6ffecc12f71" class="">the situation.</p><p id="2297904f-03a9-8123-bd62-d21b2025f3e8" class="">Remember that brain is a particular organ in which cholesterol is synthesized and has a metabolism different</p><p id="2297904f-03a9-8114-833b-df41d91e74f7" class="">from that of the liver.</p><p id="2297904f-03a9-81d9-ab72-d96fcd526e1a" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-81d0-a812-e9033083e85f" class="">78</p><figure id="2297904f-03a9-817a-be12-f809a699afd5" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image20.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image20.png"/></a></figure><p id="2297904f-03a9-81c0-bb94-e5ab66739dea" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-8126-bab1-dffb7b26e1eb" class=""><strong>ALZHEIMER’SDISEASE</strong></p><p id="2297904f-03a9-815a-afcf-fa1b20778cb5" class="">Alzheimer’s disease it is a neurodegenerative condition, degeneration means that there is the accumulation in cells of materials that should not be there and brings to the necrosis and inflammation in the tissue. It is characterized by the</p><p id="2297904f-03a9-81ac-b1a2-c40e71dfe310" class="">of amyloid plaques</p><p id="2297904f-03a9-811f-8d80-e3620c66c27a" class="">by made</p><p id="2297904f-03a9-8176-8b4f-cae294544acc" class="">amyloid that is a</p><p id="2297904f-03a9-8172-b08b-ef9e98176ccc" class="">neurotoxic</p><p id="2297904f-03a9-814b-8241-e90e6e03946a" class="">(<em>fig.19</em>).</p><p id="2297904f-03a9-81b9-a83b-c157e2e0b984" class="">presence</p><p id="2297904f-03a9-8118-a2ab-e201f703e478" class="">contributes</p><p id="2297904f-03a9-813f-ba29-d7b390d5beac" class="">damage and necrosis</p><p id="2297904f-03a9-81b4-9b56-de9f9b86bb7c" class="">So,</p><p id="2297904f-03a9-8170-8005-d39ebb157e30" class="">protein</p><p id="2297904f-03a9-8199-9236-fccaa7fc79d8" class="">beta</p><p id="2297904f-03a9-8195-82d2-c86954023b77" class="">this</p><p id="2297904f-03a9-814f-b07a-dd9ad19fdac8" class="">to</p><figure id="2297904f-03a9-8196-a34c-c13f2e343c04" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image19.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image19.png"/></a></figure><p id="2297904f-03a9-81b7-9d8b-f372ff4ff2a9" class=""><em>Fig.19</em></p><p id="2297904f-03a9-813b-8d55-c065dae48d42" class="">presence in the</p><p id="2297904f-03a9-8145-b221-c6a200adb91a" class="">extracellular space</p><p id="2297904f-03a9-81cd-962f-eac17b1da9b5" class="">of the cerebral</p><p id="2297904f-03a9-81b3-92ba-d7e6d3ae31d0" class="">cortex (because only</p><p id="2297904f-03a9-8157-ac79-cad1ae08fda4" class="">the cerebral cortex is</p><p id="2297904f-03a9-8171-9a46-fcf4282333aa" class="">affected in</p><p id="2297904f-03a9-81b3-adb1-c552e6e0f69a" class="">Alzheimer’s disease)</p><p id="2297904f-03a9-81f6-b17b-e02e1ae0a9c2" class="">of the neurons and all cells of the cerebral cortex.</p><p id="2297904f-03a9-813b-95fe-c1a67d70c652" class="">Together with the amyloid plaques there is another characteristic that is the nft inside neuros, the neurofibrillar tangles, made of tau protein that is hyperphosphorilated and aggregates in the intracellular portion of the neurons causing their death.</p><p id="2297904f-03a9-81d1-9489-dd589135f7fc" class="">It is still debated if the amyloid plaques or nft come first, who is the main toxic compounds that lead to death of neurons. Until now literature was focus on amyloid plaques, so a lot of drugs have been developed against them but they weren&#x27;t working so good. Now we are focusing on nft. The answer is that there are multifactorial causes that cause this disease and until now there isn&#x27;t a drug that is working good.</p><p id="2297904f-03a9-81fa-b8f4-dd29755c798e" class="">But there are drugs that counteract already formed toxic compounds, but they are not able to prevent new formation.</p><p id="2297904f-03a9-814e-a2b1-dc0afa4d3e05" class=""><strong>GENETIC</strong> <strong>CONDITIONS</strong> <strong>AND</strong></p><p id="2297904f-03a9-8134-9921-ec50f3b6dbc9" class=""><strong>DYSLIPIDEMIA</strong></p><p id="2297904f-03a9-81e2-a30b-dd752d2483f1" class="">These (<em>fig.20</em>) are the genetic</p><p id="2297904f-03a9-816a-b6c1-ceac989f223e" class="">conditions that bring to different</p><p id="2297904f-03a9-81e9-a302-c25879481936" class="">types of dipyslipidemias</p><p id="2297904f-03a9-8137-81a0-dda4f0ef6e97" class=""><strong>MONOGENIC</strong> <strong>PRIMARY</strong></p><p id="2297904f-03a9-815c-a94e-f1177416a48b" class=""><strong>DYSLIPIDEMIA</strong></p><p id="2297904f-03a9-8199-bbc1-e7cb0f5a7fff" class="">There are a lot of monogenic dyslipidemias, meaning that only one <em>Fig.20</em> gene is mutated, so only one protein essential for lipid metabolism doesn&#x27;t work, or isn&#x27;t present, bringing to development of dyslipidemia, but usually the common cases of dyslipidemia are polygenic.</p><p id="2297904f-03a9-81dd-97e4-c8f4d4980b1d" class="">This box is on the dyslipidemia characterized by alteration of LDL cholesterol levels because there are also dyslipidemias characterized by alteration of HDL.</p><p id="2297904f-03a9-818a-9bf8-f65c8ba7c576" class=""><strong>LDL</strong></p><ul id="2297904f-03a9-8141-bd4c-c8e231cfd4a5" class="bulleted-list"><li style="list-style-type:disc">increased LDL</li></ul><p id="2297904f-03a9-81d5-9b8d-ee0770f3a4e0" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-8188-b6f8-c26b1f45ff11" class="">79</p><figure id="2297904f-03a9-81c0-bb9f-ed8ce3fd9c01" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image21.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image21.png"/></a></figure><p id="2297904f-03a9-81c7-99b6-f3d496365dac" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-8130-b5e5-d8f5b62620ee" class="">1)familial hypercholesterolemia, autosomal dominant due to deficit of LDL receptors. We have seen that receptors presence is crucial on the surface of the hepatocytes, so if they are not functioning or they aren&#x27;t present the LDL remain in the blood causing an increase level.</p><p id="2297904f-03a9-81e1-b274-f147be2c4415" class="">2)familial apolipoprotein B 100 defect</p><p id="2297904f-03a9-81e2-a2c7-e3eefad58549" class="">If there is a monogenic defect , for example a mutation present on the gene encoding for the apo b 100, apo b 100 is not assembled in the right way and is not recognized by receptors and so LDL remain in the blood, causing hypercholesterolemia</p><p id="2297904f-03a9-8107-b28c-d51de5b7b4c4" class="">3) autosomal recessive hypercholesterolemia, again it is another familial hypercholesterolemia, is a recessive one, and depends on the fact that LDL receptors are not recycled in the right way and LDL do not find receptors on the surface and accumulate in blood</p><p id="2297904f-03a9-8193-a6d3-cf89c590f40e" class="">4) autosomal dominant hypercholesterolemia</p><p id="2297904f-03a9-81f9-a9aa-c7e4b3b87b87" class="">Is another genetic condition due to the increase quantity of PCSK9, that is an important molecule that favours the recycling of LDL. If there is too much of this molecule, LDL receptors are recycled too much and are not on the surface and so the LDL remains in the blood.</p><p id="2297904f-03a9-8188-b108-e859856266da" class="">5) sitosterolaemia</p><p id="2297904f-03a9-8147-b9f2-d576fa8deddf" class="">Sitostirols are stirols of the oil in general and so are assumed from the diet and there are genetic conditions in which sitostirols remain in the blood and they compete with the LDL for LDL receptors and so LDL do not find their receptors and remain in the blood causing hypercholesterolemia</p><p id="2297904f-03a9-8110-9341-e90692036d01" class="">But there are opposite conditions that are genetic in some population in which there are conditions that brings to a decrease of LDL in the blood and it&#x27;s a protective condition against cardiovascular disease, atherosclerosis, etc...</p><ul id="2297904f-03a9-8168-b5fc-e01dbe01fcca" class="bulleted-list"><li style="list-style-type:disc">decrease of LDL</li></ul><p id="2297904f-03a9-8175-a301-ffde76048d92" class="">One of them is due to the</p><p id="2297904f-03a9-813d-814c-dc351fd7a36a" class="">deficiency of PCSK9, a molecule</p><p id="2297904f-03a9-8163-9c10-fd7d0ae70eb1" class="">that favour the recycling of LDL</p><p id="2297904f-03a9-8193-9a38-ea84334b85c6" class="">receptor.</p><p id="2297904f-03a9-8194-85b6-edfa3be6cc5b" class="">If there is the defieciency of this</p><p id="2297904f-03a9-81ee-9a35-f747dcb9881f" class="">molecule the receptors remain</p><p id="2297904f-03a9-81cb-b155-f07ebfa42d54" class="">on the surface in big amount</p><p id="2297904f-03a9-819f-8ec3-efe82d23532e" class="">acting on LDL, and so we have a</p><p id="2297904f-03a9-81ca-a992-d8f579b68593" class="">decrease amount of LDL in the</p><p id="2297904f-03a9-8116-95e2-e327e9eb78a3" class=""><em>Fig.21</em> blood (<em>fig.21</em>).</p><p id="2297904f-03a9-81c2-b3af-d83dca1726ec" class=""><strong>FAMILIALHYPERCHOLESTEROLEMIA</strong></p><p id="2297904f-03a9-81d7-a54e-de4f01c0b9c2" class="">In general, you can speak of familial hypercholesterolemia because of deficit of apoB 100 LDL receptor or PCSK9, but the term familial hypercholesterolemia refers specifically to the autosomal dominant disorder due to problems related to LDL cholesterol. It’s dominant, so it’s a condition present also in heterozygous, but of course in homozygous condition the situation is much worse, leading to atherosclerosis already in paediatric age.</p><p id="2297904f-03a9-819a-8d8e-ca40299ec4c2" class="">A clinical manifestation of hypercholesterolemia are tendons xanthoma, that are accumulation of cholesterol in the skin, tendons, eyes (in the cornea, or in eye lid: is called xantelasma)</p><p id="2297904f-03a9-81e7-960e-d790082d3669" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-811e-bd8b-c40cfed8b28d" class="">80</p><figure id="2297904f-03a9-81c3-88c5-e5e7d43b5417" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image22.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image22.png"/></a></figure><p id="2297904f-03a9-813b-b75f-d6e4609ecf7f" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-8141-9ecc-c8f467f4b38c" class="">A defect of LDL receptor does not mean that LDL receptors are completely not present on the cell surface, it may happens, but this happens only if it isn’t not at all synthesized. If the LDL receptors are not synthesized you will not find any LDL receptor, also if it remains trapped in the Golgi or in endoplasmic reticulum, in this case is synthesized but is trapped and you cannot find them on the surface. But there are some cases in which you find LDL receptors on the surface, but they are not functioning, or they are not present in the right place , so they are different grades of severity of this disease.</p><p id="2297904f-03a9-81b6-bf4b-efb6a3f5c4f9" class="">PCSK9 is the protein that binds to the LDL receptors and favours its uptake by the liver.</p><p id="2297904f-03a9-816c-825c-c07436cb50db" class="">Genetic conditions in which PCSK9 is too high, brings to increased LDL in the blood because the receptor is internalized too much and the LDL remain in the blood</p><p id="2297904f-03a9-811f-85ce-ee28dccda42a" class="">On the contrary, the loss of function of PCSK9 brings to a decrease in LDL receptors because the receptors remain on the surface and uptake better the LDL.</p><p id="2297904f-03a9-81c6-a5a8-c62deccef827" class="">Pcsk9 is very important because new drugs in the last years have been developed that target PCSK9.</p><p id="2297904f-03a9-8175-9301-f23784d2d0e0" class="">The main drugs that lower cholesterol are statins, that go to inhibit the hydroxyl methil… that synthesizes cholesterol, but there are people that do not tolerate statins, because statins have many collateral problems related to muscles, etc…</p><p id="2297904f-03a9-8188-b10d-e32ace16cb4d" class="">So, for people that do not tolerate statins, during the last years, have been developed some antibodies against PCSK9, evolocumab. These antibodies go to bind PCSK9 and in this way PCSK99 do not favour the uptake and recycling of LDL receptor, and LDL receptors remain on the surface ready for the uptake of LDL.</p><p id="2297904f-03a9-810a-8384-c52b043c6ed3" class="">People that takes these drugs have very low cholesterol, because these drugs low cholesterol so much.</p><p id="2297904f-03a9-813e-b6c4-eedae5caf33d" class=""><strong>MONOGENICPRIMITIVEDYSLIPIDEMIA</strong></p><p id="2297904f-03a9-8156-bf4a-cff179379e9a" class="">Then there are monogenic primitive dyslipidemias due to alteration of HDL.</p><p id="2297904f-03a9-819a-96b4-c3e147299cfb" class="">There are conditions in which HDL are too high, in this case increased HDL protect from cardiovascular events, because extra cholesterol is transported to the liver.</p><p id="2297904f-03a9-81cc-9833-d8619ee5ea50" class="">The increase of HDL cholesterol is mainly due to mutation at the gene coding for CITP cholesterol ester transfer protein , that is a protein that transfers cholesterol esters from HDL to VLDL and in turn HDL takes triglycerides, and these triglycerides are important for the HDL maturation and by this way HDL can be kept by the liver.</p><p id="2297904f-03a9-8129-8635-e6941aa6b43c" class="">At the same time there are disorders that cause a decrease in HDL, so decrease level of HDL are a risk factor for atherosclerosis, for example a disease, a defect in the transporter that takes cholesterol inside of cells, if it is not present cholesterol remains accumulated in the peripheral tissues.</p><p id="2297904f-03a9-81d6-be43-c10dca6a18ac" class="">These in <em>fig.22</em> are conditions that brings to the increase in triglycerides. We have seen that triglycerides are present in chylomicrons and VLDL , so the first one is a typical genetic dyslipidemia that <em>Fig.22</em> brings to high triglycerides, In particular high chylomicrons, because there is the deficiency of lipoprotein lipases, the enzymes that that takes triglycerides from chylomicrons to form VLDL, and so triglycerides remain in chylomicrons.</p><p id="2297904f-03a9-8120-916a-d044ba40268d" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-8128-8d28-f3cdd956e25a" class="">81</p><figure id="2297904f-03a9-81b1-a747-e9702f64fc57" class="image"><a href="dyslipidemia%202297904f03a981c2bed3d908985c613d/image23.png"><img style="width:700px" src="dyslipidemia%202297904f03a981c2bed3d908985c613d/image23.png"/></a></figure><p id="2297904f-03a9-815c-b342-e85ab3812db1" class="">31.03.2023 GAMBA L.6</p><p id="2297904f-03a9-8133-a3b9-e3594f599073" class="">Or it’s also possible to have apo C II deficiency , that is the apolipoprotein that activates lipoprotein lipase, and so this latter one cannot work and triglycerides are not used by the muscles nor stored in the adipose tissue and they remain in the chylomicrons.</p><p id="2297904f-03a9-81db-a098-df5e42d36b03" class="">These in <em>fig.23</em> are the</p><p id="2297904f-03a9-8170-98dd-f4a43a62f051" class="">ways to diagnose if in a</p><p id="2297904f-03a9-81d9-8b36-f0ab8c101f9d" class="">person there is the</p><p id="2297904f-03a9-811f-8c0a-d7c2ed2710f4" class="">presence of genetic</p><p id="2297904f-03a9-8158-bdaf-df1f593000b3" class="">familial</p><p id="2297904f-03a9-81cf-a73c-efd100e167f2" class="">hypercholesterolemia.</p><p id="2297904f-03a9-812b-9cfe-ee312004bbf9" class="">There are scores that</p><p id="2297904f-03a9-8191-8c1a-da40e9fe8cab" class="">are given based if there</p><p id="2297904f-03a9-81f0-a552-fe682b43f8cf" class="">is a family history, if</p><p id="2297904f-03a9-81a9-836c-f7b53da6cedc" class="">patient has already</p><p id="2297904f-03a9-81e9-9349-db44144b63ea" class="">connected events, the</p><p id="2297904f-03a9-8101-9f94-e43312ccf8fc" class="">presence of tendinous</p><p id="2297904f-03a9-813f-8d5d-c4e3b990c7d3" class="">xantoma, or</p><p id="2297904f-03a9-8121-b0ca-e97a34ce5daa" class="">accumulation of</p><p id="2297904f-03a9-81a7-b877-e9b4493574a4" class="">cholesterol in the</p><p id="2297904f-03a9-8175-b5c5-de705f0e777c" class="">cornea, also</p><p id="2297904f-03a9-815d-b997-ceda63b3a947" class="">xanthelasma</p><p id="2297904f-03a9-813f-8b7d-ce56491e02ad" class="">are that is evaluated,</p><p id="2297904f-03a9-8116-83f5-c3f862caa4a5" class="">presence cholesterol in</p><p id="2297904f-03a9-8178-9157-d1e2a49bbbd5" class="">the eye lid. Also the <em>Fig.23</em> level of LDL cholesterol</p><p id="2297904f-03a9-8181-a44b-f6eb942a207d" class="">are evaluated and the score is attributed also based on the analysis of genetic mutations. Evaluated mutations are LDL receptor, apo B 100 and PCSK9.</p><p id="2297904f-03a9-81f0-baae-e31a720478c2" class="">The monogenic primary dyslipidemias are more cussed by polygenic mutations, this means that more genes causes this conditions.</p><p id="2297904f-03a9-8196-a0c9-f8035da8e673" class="">The more famous and frequent is familial combined hyperlipidaemia, that is characterized by polygenic mutations, so different genes, bringing to the increase by the liver of VLDL and of apo B 100. If apo b 100 is synthesized a lot, a lot of apo b 100 will be around LDL and LDL will be smaller because the dimension is inversely proportional to density, so if LDL have higher density they are smaller and these small dense LDL are very atherogenic, more than normal LDL.</p><p id="2297904f-03a9-8180-8ac5-cb60ddea6fd2" class=""><strong>SECONDARYDYSLIPIDEMIA</strong></p><p id="2297904f-03a9-81c7-99e7-ecb2e41b320d" class="">Condition of dyslipidemias in case of disorders like diabetes or some drugs that affect lipidic profile, as</p><ul id="2297904f-03a9-816f-9e64-d562b72a3d35" class="bulleted-list"><li style="list-style-type:disc">oestrogens and androgens that increases triglycerides and HDL</li></ul><ul id="2297904f-03a9-81a6-9f36-f5815906bd17" class="bulleted-list"><li style="list-style-type:disc">Glucocorticoids increase triglycerides, causing steatosis</li></ul><ul id="2297904f-03a9-81e9-a5fe-fd329e86e2d9" class="bulleted-list"><li style="list-style-type:disc">Beta blockers and antipsychotic increase triglycerides</li></ul><p id="2297904f-03a9-81cd-a761-c5e8c19ec08d" class="">Eleonora Giammarino, Erica Veronesi</p><p id="2297904f-03a9-8185-8f76-f895f0ae7fc6" class="">82</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

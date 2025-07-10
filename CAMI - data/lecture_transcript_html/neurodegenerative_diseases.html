@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>neurodegenerative diseases</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-817f-bca5-c1d460c3c28c" class="page sans"><header><h1 class="page-title">neurodegenerative diseases</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81f3-ba55-ce026ffdd1d0" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-81b1-bacf-c37a3ac7878e" class=""><strong>NEURODEGENERATIVE DISEASES</strong></p><p id="2297904f-03a9-81c6-aa1e-c5691fb28057" class=""><strong>DEMENTIA</strong></p><p id="2297904f-03a9-81de-ac68-f4796fb7a2a4" class="">Dementia is a complex syndrome affecting in particular the old population (5 to 10 % of people over 65 are affected by dementia). The number of cases of dementia grows exponentially up with aging, to 1/3 of individuals aged 80. In general, the clinical manifestations present in this patient are:</p><p id="2297904f-03a9-8170-a3f2-e1049fc26d72" class="">●Memory disorders (both short- and long-term memory)</p><p id="2297904f-03a9-8159-b2a6-dab2fe972848" class="">●Cognitive impairment</p><p id="2297904f-03a9-8145-a683-e9e1cdb3bc41" class="">●Personality and language disturbance</p><p id="2297904f-03a9-81c5-9891-ee28340e3ab4" class="">●Visuo-spatial orientation deficit</p><p id="2297904f-03a9-815d-97ec-f8f201cb47fd" class="">●The main clinical sign is the movement disorders (hypokinetic or hyperkinetic movements) ●Swallowing disturbances: especially the patients affected by Parkinson’s and Alzheimer’s disease die because of swallowing problems. The food goes into the respiratory system and the presence of it in the lungs can cause bacterial infections like bacterial pneumonia. This pathological condition is known as Ab ingestis pneumoniae.</p><p id="2297904f-03a9-814f-aa21-fac8fcca2fc3" class="">The principal <strong>causes</strong> of dementia are:</p><p id="2297904f-03a9-81f7-8f57-c0c893858001" class="">●Degenerative diseases such as Alzheimer’s, Parkinson’s, Huntington’s disease and amyotrophic lateral sclerosis (ALS).</p><p id="2297904f-03a9-81c1-8bb8-c1807140fd3f" class="">●Vascular causes: also referred to as cerebrovascular dementia that can be caused by atherosclerosis in cerebral arteries due to the occlusion of carotid and cerebral arteries so there is this hypoxia and a deficit in brain circulation (ischemia). Due to the prolonged ischemia, the neurons start to die. It can develop also after cerebral infarction (stroke) or cerebral hemorrhages and by trauma to the head.</p><p id="2297904f-03a9-8105-8b33-fa9d61209e0b" class="">●Mixed vascular and degenerative problems: mix of Alzheimer disease with Parkinson’s disease●Toxic problems (drugs, alcohol can help to increase the dementia)</p><p id="2297904f-03a9-81d4-83dc-c799736071da" class="">●Metabolic causes: in case of liver dysfunction, one of the consequences of portal hypertension (associated to cirrhosis) is hepatic encephalopathy that is caused by the accumulation of toxic compounds like ammonia in the brain, which can damage the brain and lead to coma. This is because the liver cannot detoxify the blood, so the toxic compounds remain in the systemic circulation, due to the porto-systemic shunt.</p><p id="2297904f-03a9-8127-b2e0-ed9fb9047581" class="">●Infections: bacterial meningitis</p><p id="2297904f-03a9-81df-a4d0-c687ebd1ab3f" class="">●Traumatic causes: head trauma or boxing dementia because of repeated head trauma (many boxers are affected by dementia)</p><p id="2297904f-03a9-81a2-b43f-d91fd23779e2" class="">●Neoplasm: brain cancer presence</p><p id="2297904f-03a9-818a-a4de-f8958694c3eb" class="">●Other causes: Sleep deprivation or apnea, radiation exposition or obstructive respiratory diseases (COPD) can contribute to neuronal damage and dementia.</p><p id="2297904f-03a9-81e3-b715-f514a7deba33" class="">Without any doubt, the most frequent cause of dementia is <strong>Alzheimer’s disease</strong>: about 45-70% of all the cases are attributed to Alzheimer. Another frequent form is <strong>cerebrovascular dementia</strong> that consists of 17-30% of the whole cases. Quite often, these 2 types can coexist, and it is called <strong>mixed dementia</strong>.</p><p id="2297904f-03a9-8153-b8a0-cdb31a8ad27a" class=""><strong>Neurodegenerative diseases</strong> are chronic disorders characterized by a progressive and selective loss of neurons. Depending on the disease, specific groups of neurons with a specific function are damaged, therefore we can consider neurodegenerative diseases as a loss in specific groups of neurons in a particular site of the brain. All the remaining neurons are intact, so we do not have a degeneration of all areas of the brain. In general, neurodegenerative diseases are invalidating because there is the loss of neurons with their</p><p id="2297904f-03a9-81e9-8950-e2d96844b74a" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-812e-a0c5-c5a2992dc613" class="">66</p><p id="2297904f-03a9-81dc-ac31-d41ef33c458b" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-81e3-9503-f79a9c201e10" class="">important functions (learning, language, movement) and there is a marked cognitive and movement decline, especially in the case of Parkinson’s disease. While Alzheimer’s disease is mainly characterized by a cognitive decline and ALS is a movement disorder.</p><p id="2297904f-03a9-81f4-a453-e19d6c8d599d" class="">The common aspect of all these neurodegenerative diseases is the pathological process: the intracellular or extracellular accumulation of protein aggregates so misfolded or mutated proteins which are insoluble and toxic for the neurons (neurotoxicity). The neurons start to dysfunction and there is a reduction in the brain activity because of neuronal death. Sometimes the accumulation of these proteins is caused by mutations that can alter their conformation. Concerning this degenerative disease, we can observe the presence of abnormal proteins that are insoluble and cannot be degraded by enzymes of the tissue. The deposit of these proteins is toxic for the neurons and can provoke the death of neurons (after oxidative responses and inflammation). Sometimes the accumulation of these misfolded proteins occur because the mechanism that should eliminate/degrade them is impaired.</p><p id="2297904f-03a9-8141-ab31-c5b4faeefe64" class="">The incidence of the diseases progressively increases due to the increase of the age (particularly after 65 years of age), but familial forms also exist. We can distinguish two types of forms:</p><p id="2297904f-03a9-8198-8933-f592822c8df7" class="">- Sporadic, which appears more frequently in the population over 60</p><p id="2297904f-03a9-812d-a4e8-ef16c4108587" class="">- Familiar form, appears previously, around 40/50 years old</p><p id="2297904f-03a9-816a-94af-e8ae0a9af32a" class=""><strong>MAJOR NEURODEGENERATIVE DISEASES</strong>:</p><p id="2297904f-03a9-8103-af8c-f42441a212f8" class="">●<strong>CEREBRAL CORTEX DISEASE (Alzheimer’s disease):</strong> called in this way because the affected area is the cerebral cortex (also the hippocampus)</p><p id="2297904f-03a9-81e8-bbbb-f1dd778976a1" class="">●<strong>EXTRAPYRAMIDAL SYSTEM DISEASE (Parkinson’s disease)</strong>: so called because the neurons present in the extrapyramidal part of the brain are involved</p><p id="2297904f-03a9-815c-b600-dc94369dc7e6" class="">●<strong>MOTOR NEURON DISEASE (Amyotrophic Lateral Sclerosis)</strong>: here we have death of the central and peripheral motor neurons</p><p id="2297904f-03a9-8172-ab81-eb212d3c9e38" class="">The neurodegeneration of these patients can already start 10-30 years before the clinical manifestations. Rarely, clinical symptoms appear before 50 years of age. It is very difficult to prevent all neurodegenerative diseases because the neurodegeneration starts many years before the clinical onset. We do not have drugs or specific therapeutic strategies to prevent or inhibit the progression of these diseases. The life expectancy of Alzheimer is 5-10 years. This disease is growing exponentially, and it has been estimated that 34% of the population older than 65 will be affected by this disease in 2050. This type of dementia is growing dramatically.</p><figure id="2297904f-03a9-81fb-bffb-c732f14708ee" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image1.png"><img style="width:316px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image1.png"/></a></figure><p id="2297904f-03a9-8136-9c24-daa068c0cc8b" class=""><strong>ALZHEIMER’S DISEASE (AD)</strong></p><p id="2297904f-03a9-81ba-985a-cffef93e00ce" class="">It was first described in 1906 by the German psychiatrist and neuropathologist Alois Alzheimer. The 1st patient was Mrs. Auguste Deter and this doctor was able to identify some specific clinical symptoms</p><p id="2297904f-03a9-8138-92c0-d0a6f825c072" class="">It is the <strong>most common form of dementia</strong> in elderly and unfortunately this disease is increasing exponentially. This neurodegenerative disease can <strong>account for 55-70% of cases</strong> of dementia. The incidence increases with age and doubles every 5 years.</p><p id="2297904f-03a9-810a-b40d-eb5d4ed13bf2" class=""><em>Fig.1</em></p><p id="2297904f-03a9-8198-a4ad-e6baa66e9885" class="">This disease is characterized by damage and loss of synapses and neurons <strong>in the cerebral cortex and hippocampus</strong>. Because of the <strong>progressive neuronal loss</strong>, it is possible to observe a marked reduction of the</p><p id="2297904f-03a9-81b6-abb2-e2d054724945" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-81b6-b0f7-c24ca5989b1f" class="">67</p><p id="2297904f-03a9-8117-b9fa-cf0c92b474f0" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-810f-a6f9-df5533b604a4" class="">brain gray mass (atrophy), especially in severe forms.</p><p id="2297904f-03a9-811b-9a8d-e10e6e980bb4" class="">In advanced stages of Alzheimer’s disease, besides the marked reduction of the brain mass, there is also a severe enlargement of the cerebral ventricles and cortical shrinkage (bigger sulci). The loss of the neurons in the cerebral cortex and hippocampus area that is involved in cognitive capacity progressively causes all the clinical symptoms associated with Alzheimer’s disease, such as memory loss (at the beginning, just short memory loss and preservation of the long memory. Then, they start to lose the long memory). Then, language problems with consequent agitation, mood changes, confusion and anxiety. Patients affected by this disease are usually not able to recognize people, relatives and objects. They have language deficiencies and have problems performing daily activities. They lose weight, have sleep problems and at the end they have a marked cognitive decline and death (mainly due to respiratory problems and <strong>ab-ingestis pneumonia</strong>, due to improper swallowing, so the food can go to trachea instead of esophagus and accumulation of food in the lungs causes bacterial infections).</p><p id="2297904f-03a9-81bf-b141-ed77f66e4b21" class="">Here (fig. 2) we can compare a slide of a healthy brain with the one of the affected patients. The difference</p><p id="2297904f-03a9-8165-aa4c-cb9206e8b396" class="">between the volumes can be observed: there is a</p><p id="2297904f-03a9-812c-8632-c95c4d3ee5f6" class="">temporal,</p><p id="2297904f-03a9-81d8-b6a9-f7779ac3c4cf" class="">hippocampus. Because of the loss of these neurons,</p><p id="2297904f-03a9-81d1-af00-d57d8f616dc9" class="">we will have the typical clinical manifestation</p><p id="2297904f-03a9-819d-ad25-e8ceb18c9420" class="">associated with this disease because there is a great</p><p id="2297904f-03a9-81d1-8b13-ee2578bf26bb" class="">deficit in the neurological capacity of the patient. frontal, occipital cortex, and the</p><figure id="2297904f-03a9-8187-9392-f62c61c2ea43" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image2.png"><img style="width:594px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image2.png"/></a></figure><p id="2297904f-03a9-81aa-b890-c0a3055da0ff" class="">marked reduction in the brain mass (atrophy of the</p><p id="2297904f-03a9-8136-8fd4-ddf8ad93e62e" class="">cortex area) with an enlargement of the ventricles</p><p id="2297904f-03a9-81b0-b267-fa430b011506" class="">and of cerebral sulci and a flattening of the</p><p id="2297904f-03a9-8119-9bc2-fcf32d546527" class="">convulsion. The affected areas are again the</p><p id="2297904f-03a9-8187-973f-c80b5c301fa5" class=""><em>Fig.2</em></p><p id="2297904f-03a9-81a4-99a1-f22e645acf9a" class=""><strong>CLINICAL SYMPTOMS</strong></p><p id="2297904f-03a9-817c-8464-cdf8a64a3d4a" class="">Clinical symptoms are:</p><p id="2297904f-03a9-8129-8131-fe3a498303f8" class="">●Progressive loss of memory (first short then long term)</p><p id="2297904f-03a9-8153-baae-f93b7c696d67" class="">●Mood and behavioral disorders (depression, confusion, anxiety and agitation)</p><p id="2297904f-03a9-81ec-b495-f109fbf24542" class="">●Disorientation (they cannot find the way to go back home)</p><p id="2297904f-03a9-8157-8104-daca744b711f" class="">●Altered visual-spatial orientation (difficulty in recognizing the left and the right)</p><p id="2297904f-03a9-810a-bb5f-f2fe642fee5d" class="">●Confusion in time and place (they could not know which day it is or if it is morning or evening) ●Agnosia: difficulty in recognizing objects and also their position (if they are vertical or horizontal) ●Aphasia: difficulties in pronouncing the names of people and things because they have difficulties in finding the words</p><p id="2297904f-03a9-8143-897a-e6c440945d20" class="">●Apraxia (difficulty to do targeted movements, to use a known object)</p><p id="2297904f-03a9-816f-8372-d0ef0fc3b329" class="">●Difficulties in performing normal life activities, movements and using objects (apraxia)</p><p id="2297904f-03a9-8153-9a59-e0047908def2" class="">●Progressive cognitive decline</p><p id="2297904f-03a9-818a-be8a-d72bc94b250c" class="">End stages are:</p><p id="2297904f-03a9-817a-93a2-ec0de7dc2f8f" class="">●Mute and immobile dementia so they are isolated from everyone</p><p id="2297904f-03a9-819f-bfe4-e5828feb45a6" class="">●Death for broncho-pulmonary complication (most frequent one and the leading cause is ab-ingestis pneumonia)</p><p id="2297904f-03a9-818e-9f40-ff7be81474c2" class=""><strong>FORMS OF AD</strong></p><p id="2297904f-03a9-818f-840b-d14f008b83cd" class="">We can distinguish <strong>2 different forms</strong>of Alzheimer’s disease:</p><p id="2297904f-03a9-81c4-aee4-e74896804691" class=""><strong>EARLY ONSET (or presenile):</strong></p><p id="2297904f-03a9-81ba-b0d4-fb579b6d7de2" class="">This form develops before the 60-65 years of age and the percentage is 5-10% of all Alzheimer&#x27;s cases. They</p><p id="2297904f-03a9-813f-a661-d36c410310bd" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-818d-9c54-e08eade589b5" class="">68</p><p id="2297904f-03a9-81c1-8d33-f03bfdb82a2d" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-813e-b861-e7fa247d44b6" class="">have genetic origins, and these familiar forms are associated with gene mutations (autosomal dominant disease). The mutated genes are the ones involved in the metabolism of amyloid beta peptides, like the gene encoding for the APP (amyloid precursor protein), protein which contains the portion of amino acids corresponding to the amyloid beta (that in Alzheimer’s disease is aggregated and accumulated in neurons).</p><p id="2297904f-03a9-8192-a654-fa2ee9d8b762" class="">The mutation leads to the amyloid deposit in specific areas of the brain. Other genes that are mutated in familial Alzeheimer’s are are presenilin 1 (PSEN-1) and presenilin 2 (PSEN-2); these are two subunits of a specific enzyme (gamma secretase) involved in the cleavage of the APP and their mutation is responsible for a higher number of cases of this form of Alzheimer’s disease.</p><p id="2297904f-03a9-81e6-a8ba-ede1301a475c" class="">APP is cleaved by three types of enzymes: the alpha, beta and gamma secretase.</p><p id="2297904f-03a9-8120-87da-e4e4be4c19ba" class="">Because of APP or presenilin 1 and 2 mutations there is a <strong>high production of amyloid beta peptides</strong> that, being insoluble, will start to aggregate and accumulate outside neurons.</p><p id="2297904f-03a9-81ce-8a5b-f0907cbc861f" class="">The APP gene is located on chromosome 21. It has been observed that individuals with Down syndrome, because of the trisomy of chromosome 21, have a higher predisposition to produce this misfiled protein and develop Alzheimer’s disease compared to normal individuals.</p><p id="2297904f-03a9-813a-9d3f-decdb021d4b0" class="">The pathways through which APP is cleaved are two:</p><p id="2297904f-03a9-81e2-a8cc-e5d459a7fb9b" class="">●<strong>Amyloidogenic pathway</strong>: the final result is the production of amyloid beta peptide, an insoluble peptide that cannot be eliminated, especially if the mechanism involving the clearance of these peptides are impaired.</p><p id="2297904f-03a9-812e-a021-f654da6eedd3" class="">●<strong>Non-amyloidogenic pathway</strong>: results in the cleavage of APP that will produce soluble fragments so no amyloid beta accumulation</p><p id="2297904f-03a9-810c-9585-d542c1b9de9f" class="">So Amyloid beta is the insoluble protein that starts to aggregate forming deposits of amyloid material leading to the formation of the so called amyloid or senile plaque causing Alzheimer since they are misfolded proteins and thus cannot be eliminated by normal enzymes so they will accumulate in the tissue causing neuronal cytotoxicity and neuronal damage.</p><p id="2297904f-03a9-814d-bd10-e4789bd65ea4" class="">Answer to a question:</p><p id="2297904f-03a9-81aa-81cf-ec0394883c02" class="">The damaged neurons don’t spread in other areas of the brain, but remain in the area of the hippocampus mainly, principally associated with cognitive abilities. All the other areas of the brain remain intact.</p><p id="2297904f-03a9-81c5-bc35-fbe0fa8d486b" class=""><strong>LATE ONSET (senile):</strong></p><p id="2297904f-03a9-8190-a4cf-c6a65985a96c" class="">It is the most frequent form of Alzheimer, and affects people beyond 65 years of age. It is sporadic and triggered by environmental factors and genetic predisposition.</p><ul id="2297904f-03a9-8133-8712-c0e235c4e260" class="bulleted-list"><li style="list-style-type:disc">Genetic factors: it has been demonstrated that individuals with the <strong>ε4 allele</strong> of apolipoprotein E gene (ApoE) have a higher risk of developing sporadic Alzheimer’s disease: 48% of sporadic AD forms have this allele of apolipoprotein E.</li></ul><p id="2297904f-03a9-815b-9727-edce7a1a411c" class="">Apolipoprotein E is an important serum protein involved in the transport of cholesterol from the astrocytes to the neurons.</p><p id="2297904f-03a9-8110-966d-d21642eab9a8" class="">There are three types of ApoE: allele ε2, ε3, ε4.</p><p id="2297904f-03a9-8145-a833-f4faaf0aad37" class="">It has been demonstrated by researcher groups that AD can develop if there is enough alteration of cholesterol metabolism and especially if there are cholesterol oxidizing products. Cholesterol is produced ex novo in the brain from astrocytes: there is a local production of cholesterol because the brain does not use systemic cholesterol, since it can’t cross the BBB. From the astrocytes cholesterol is transported into the neurons associated with these apoE. The ApoE ε4, compared to epsilon2 and 3, is less efficient so is not able to remove the excess of cholesterol. This can influence cholesterol metabolism.</p><p id="2297904f-03a9-8161-8e4f-fbf9b7466d3c" class="">ApoE4 can also stimulate production of amyloid beta since this allele can stimulate the amyloidogenic</p><p id="2297904f-03a9-8115-ad6a-e153ef6855aa" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-817a-8eb2-ff4fe657213b" class="">69</p><p id="2297904f-03a9-81ad-92d2-fe83ed26fde4" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-8178-9139-f8aaa9d08d9e" class="">pathway of the APP cleavage resulting in the increased formation of insoluble peptides.</p><p id="2297904f-03a9-81d9-b1ed-eed6c074864b" class="">In the familial form there is a mutation of the APP gene on the 21st chromosome. Keep in mind that</p><p id="2297904f-03a9-8196-af18-e1907b735f21" class="">individuals with Down syndrome have a higher probability to develop this disease compared to the normal</p><figure id="2297904f-03a9-811e-bafe-e05abde95be0" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image3.png"><img style="width:600px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image3.png"/></a></figure><p id="2297904f-03a9-81cf-9a75-ccff4a17d864" class=""><strong>RISK FACTORS</strong></p><p id="2297904f-03a9-8145-90e6-fd84af8c7b80" class="">population before the age of 40 because they have chromosome 21 trisomy that causes higher gene expression and higher probability to produce amyloid beta peptides before the age of 40. In the table, the genes involved in the familial and sporadic form are reported: In the familial form of AD APP, PSEN-1 and PSEN-2 are involved. On the contrary, apoE4 is involved in the development of sporadic forms of AD.</p><p id="2297904f-03a9-8190-97b2-cea641643b51" class=""><em>Fig.3</em></p><p id="2297904f-03a9-81a5-abaf-d8082b9bf76c" class="">Beside genetics, especially in the sporadic late onset form of Alzheimer’s disease, there are other risk factors: ●Environmental factors</p><p id="2297904f-03a9-811c-bc1c-f2c28820271b" class="">●Age, we live longer than in the past (higher life expectancy) so we also have a higher probability to be affected by dementia of AD</p><p id="2297904f-03a9-8193-8c31-d1cc1ec09abf" class="">●Sex (females are more prone to develop it)</p><p id="2297904f-03a9-8144-9415-d62e7b7f5f9d" class="">●Smoking</p><p id="2297904f-03a9-8103-8a0e-f83638565a4e" class="">●Obesity</p><p id="2297904f-03a9-817c-8395-ee2a13ed2bed" class="">●Strokes</p><p id="2297904f-03a9-8140-b2b5-d8522f28a89e" class="">●Head injuries</p><p id="2297904f-03a9-81d5-aa8a-e09054648ba9" class="">●Diabetes mellitus</p><p id="2297904f-03a9-81b0-ba94-e15313680295" class="">●Hypertension</p><p id="2297904f-03a9-81f2-a9a5-dfce00dd8f8f" class="">●Hypercholesterolemia</p><p id="2297904f-03a9-81fe-893d-e5a17c4e3afa" class="">●The last 3 are also the main risk factors of atherosclerosis. Therefore, atherosclerosis itself is one of</p><p id="2297904f-03a9-81e8-a588-de817bb695df" class="">the risk factors for Alzheimer’s disease. Moreover, hypercholesterolemia and hypertension can both</p><p id="2297904f-03a9-813f-8187-e0be48f115fb" class="">damage the blood brain barrier and, if it happens, cholesterol and oxysterols can cross the BBB</p><p id="2297904f-03a9-814a-977d-f20775175cfc" class="">passing the systemic circulation to the brain and accumulating there with a toxic effect. This is the</p><p id="2297904f-03a9-811d-81b3-d0509eda9f1b" class="">reason why hypercholesterolemia is one of the main factors increasing the risk of developing</p><p id="2297904f-03a9-810c-b6c8-c5494576350c" class="">Alzheimer’s disease.</p><p id="2297904f-03a9-8121-ba6e-e9ca27060670" class="">●Oxysterols are involved in both atherosclerosis and Alzheimer’s disease.</p><p id="2297904f-03a9-81b7-8262-eab45048f1c2" class="">In general, all the risk factors of cardiovascular diseases (smoking, obesity etc) can contribute to increasing</p><p id="2297904f-03a9-812e-80e8-c09dc82b740a" class="">the risk of Alzheimer’s disease.</p><p id="2297904f-03a9-81d2-b084-e7fdf425b121" class=""><strong>CAN WE REDUCE THE RISK?</strong></p><p id="2297904f-03a9-81c5-9d71-ed1d7ff21ac7" class="">We can prevent the risk of Alzheimer&#x27;s with a good lifestyle, physical exercise (to decrease cholesterol and</p><p id="2297904f-03a9-810d-98af-e1e9df14c923" class="">lipids, in case of hypercholesterolemia or hyperlipidemia), healthy diet (the classical Mediterranean diet,</p><p id="2297904f-03a9-81f8-9384-f67af9e2dabe" class="">poor in cholesterol and lipids, rich in vegetables and fruits). It is fundamental to look after our heart to reduce</p><p id="2297904f-03a9-8169-9c65-d2f3bc44de31" class="">atherosclerosis and other diseases. We have to reduce lipids and cholesterol intake to reduce their presence</p><p id="2297904f-03a9-81ea-b469-fdf181d7a839" class="">in the blood. Another key factor is trying to stimulate and challenge our brain , keeping it active by reading</p><p id="2297904f-03a9-8166-906c-eb4d8f29ed22" class="">and playing games or musical instruments, and doing crosswords. It is also essential to have normal social</p><p id="2297904f-03a9-8110-8b9c-d8363e5f1800" class="">activities.</p><p id="2297904f-03a9-8189-b79a-c6815dcb21c7" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-811c-8324-cf2af8dee686" class="">70</p><p id="2297904f-03a9-81be-9771-cff85b097951" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-8119-a20c-d453653946e2" class=""><strong>PATHOGENESIS OF ALZHEIMER’S DISEASE</strong></p><p id="2297904f-03a9-81c8-b014-c01a7abc291f" class="">In the brain of patients affected by AD we can observe 2 distinct pathological hallmarks:</p><p id="2297904f-03a9-8170-a2e2-dd802378fdfa" class="">●Extracellular senile plaques (<strong>amyloid plaques</strong>) that contain amyloid beta peptides</p><p id="2297904f-03a9-8146-86d6-fb1e29820be3" class="">●Intracellular accumulation of <strong>hyperphosphorylated tau protein</strong> that forms <strong>neurofibrillary tangles</strong> around the nucleus</p><p id="2297904f-03a9-8116-b4ba-c417739922f6" class="">The accumulation of amyloid beta and tau occurs in specific regions of the cerebral cortex and the hippocampus. We do not find these accumulations in other regions of our brain, but only in these specific parts. The presence of these plaques outside the neurons and neurofibrillary tangles inside the neurons can contribute to neural dysfunction because the deposits are toxic for the neurons, leading to altered neuronal function, stimulating oxidative stress and inflammation.</p><p id="2297904f-03a9-8182-85f9-e2b91ea2c17e" class="">It is not well demonstrated if Alzheimer&#x27;s disease starts because of the formation of amyloid plaques or of hyper phosphorylated tau protein but it seems that the deposit of tau is not sufficient to provoke these neurodegenerations in the brain. However, this point is not very clear now.</p><p id="2297904f-03a9-8101-b78b-e9aac36bfa35" class=""><strong>HALLMARKS OF THE DISEASE</strong></p><p id="2297904f-03a9-817c-b9a3-ecefb99ccfdc" class="">So, we have 2 formats, the extracellular <strong>amyloid plaques</strong> and intracellular <strong>neurofibrillary tangles</strong> around the nucleus, and also around the amyloid plaques there is an inflammatory reaction because around it is observed that there are activated Microglial cells and activated astrocytes. This is because the presence of the plaques can stimulate an inflammatory response.</p><p id="2297904f-03a9-81ad-8ba1-e66b214b3745" class=""><strong>AMYLOID PLAQUES</strong></p><p id="2297904f-03a9-819f-ac8e-ec86547abcd5" class="">This amyloid plaque is formed by the aggregation and accumulation of amyloid beta (insoluble peptide). During the cleavage we can have an amyloid beta composed by a sequence of 40, 41, 42 or 43 amino acids. The most frequent peptide is formed by 40 amino acids, while the most toxic is composed of 42.</p><p id="2297904f-03a9-8106-ab4e-c05a84b5f1cc" class="">Amyloid plaques are usually present outside the neurons; however, it has been demonstrated that they can also accumulate intracellularly contributing to the toxicity since neurons can uptake amyloid beta thanks to specific receptor complex composed by CD-36 and integrins.</p><p id="2297904f-03a9-81a2-aa92-c5eb7c6bd7d1" class=""><strong>APP PROTEOLYSIS</strong></p><p id="2297904f-03a9-81a7-b643-de1179b68521" class="">Starting from Amyloid Precursors Proteins, whose gene is located on chromosome 21, they are transmembrane proteins expressed on the neurons’membranes. The Aβ portion of APP extends from the extracellular region into the transmembrane domain. The red part in the figure is the amyloid beta portion: it is partially outside and partially inside the neurons’ membrane. The proteolysis of APP starts first at the level of the extracellular domain, later on, on the intracellular domain of the protein. APP cleavage can occur through an amyloidogenic pathway or a non-amyloidogenic pathway. In these processes there’s the involvement of three important enzymes: α-secretase, β-secretase and γ-secretase. The latter is a complex composed of 4 subunits: presenilin 1 and 2, nicastrin and anterior pharynx-defective 1 (APH-1). In case of a mutation in presenilin 1 or 2, there is a higher risk to develop the familiar form of Alzheimer.</p><p id="2297904f-03a9-8154-a5d5-ce828d40e249" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-8192-9c32-d6bfdd390198" class="">71</p><p id="2297904f-03a9-81cc-92f5-e773c3a090bd" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-815c-93ac-d86946e63bb3" class="">cutting in the middle the amyloid beta portion (red). As a result, there’s the production of a soluble fragment which will be degraded. The γ-secretase cuts exactly at the junction between the amyloid beta portion and the rest of APP (between red and yellow in the figure).</p><figure id="2297904f-03a9-81e4-b07b-fd1107542c48" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image4.png"><img style="width:632px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image4.png"/></a></figure><p id="2297904f-03a9-81b4-ac68-c37433c6fce3" class="">On the figure on the right, we can see APP</p><p id="2297904f-03a9-8127-93d4-de6f0d7ecd4a" class="">(transmembrane protein). In normal</p><p id="2297904f-03a9-81a7-8f37-d5187a3f5b93" class="">conditions, its cleavage occurs through a</p><p id="2297904f-03a9-81cc-8156-d0bb408041fc" class="">non-amyloidogenic pathway, where we</p><p id="2297904f-03a9-8129-abb7-d86d36c7fd59" class="">have the involvement of α- and γ-secretase.</p><p id="2297904f-03a9-8155-942f-c11922c6e27b" class="">The former starts the cleavage of APP</p><p id="2297904f-03a9-8191-a4f4-ff93e6ee3b3a" class=""><em>Fig.4</em></p><p id="2297904f-03a9-812f-a693-ed7d0e0698dc" class="">Again, there’s the formation of a soluble fragment which will be degraded.</p><p id="2297904f-03a9-812c-8390-db3af73c0f0a" class="">It can happen that APP cleavage occurs through the <strong>amyloidogenic pathway</strong>: here instead of the α-secretase there is the involvement of the β-secretase, also referred to as BACE1. This enzyme will perform a cut in the terminal portion of the amyloid beta sequence (not in the middle of amyloid beta like alpha secretase does). Then, γ-secretase will cleave the same portion as in the non-amyloidogenic pathway. As a result, the amyloid beta peptide will be released but it is a <strong>not soluble</strong> portion: the amyloid beta monomers start binding to each other forming Aβ oligomers. These oligomers start aggregating, forming amyloid fibrils whose deposit will form the amyloid plaques. Depending on where the γ-secretase cuts, we can have an amyloid beta composed of 41, 42 or 43 amino acids.</p><p id="2297904f-03a9-8137-aecf-e058d45eb576" class="">Again, these plaques are toxic for the neurons, and they will cause neuronal damage and death. Besides forming fibrils, the oligomers cause synaptic dysfunction, cell death, kinase activation and interfere with other pathways, causing neuronal death.</p><p id="2297904f-03a9-815e-b62b-d0ab669a8be1" class="">Here the APP structure with the amino acids sequence with the different cleavages completed by the different secretases:</p><p id="2297904f-03a9-81c5-b63f-fcce5e8d947c" class="">α- secretase cuts in the middle of the amyloid beta portion</p><p id="2297904f-03a9-8194-9c92-f5092c546fbb" class="">β-secretase cuts at the beginning of the sequence</p><p id="2297904f-03a9-8195-8372-c132acd4b9d8" class="">γ-secretase cuts at the border of this segment.</p><figure id="2297904f-03a9-810b-9f27-c51f982d5f2c" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image5.png"><img style="width:470px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image5.png"/></a></figure><p id="2297904f-03a9-81a0-8eff-e25dfba62857" class=""><em>Fig.5</em></p><p id="2297904f-03a9-81b7-92d3-ff869bad9a0d" class=""><strong>NEUROFIBRILLARY TANGLES (NFT)</strong></p><p id="2297904f-03a9-8134-82fd-ce4a70c534ec" class="">The second hallmark of Alzheimer&#x27;s disease is the intracellular formation of <strong>neurofibrillary tangles</strong>, composed of hyperphosphorylated tau proteins.</p><p id="2297904f-03a9-8138-8cf8-c713cf36df26" class="">Tau proteins are microtubule-associated proteins fundamental for microtubules’ function (assembly and stabilization of axon-microtubule structure). They are present in the axons. As a consequence of the</p><p id="2297904f-03a9-81b0-89ec-feaa80649bc9" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-81fa-9000-d9f79dad9513" class="">72</p><p id="2297904f-03a9-8151-ac09-fcdc41144a77" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-8108-862c-e85009f493e1" class="">activation of specific kinases, these proteins get hyperphosphorylated: as a result, tau proteins lose affinity to microtubules and are no longer associated with them, causing the impairment of neuronal function. This process is typical of a group of diseases known as Tauopathies (all characterized by the accumulation of hyper-phosphorylated tau).</p><p id="2297904f-03a9-813f-8387-c80bd26d3499" class="">The mechanism of these tangle injuries to neurons is still not completely clear, however it may be related to the fact that tau is dissociated from microtubules and so the neurons lose their function since tau, in the normal form, stabilizes the microtubules. Also, tau accumulation could induce oxidative stress and inflammation.</p><p id="2297904f-03a9-8104-91e1-ce2e2431cf70" class="">Also in this case, first there are tau monomers, that start to aggregate forming tau oligomers (toxic components), then aggregation in neurofibrillary tangles in the cytoplasm of neurons, that consequently undergo degeneration.</p><p id="2297904f-03a9-810b-9201-d77b48def885" class="">The neurons which are most affected by this deposition of neurofibrillary tangles are the cholinergic neurons of the hippocampus, and these are important for the memory, so the damage is caused to the memory.</p><p id="2297904f-03a9-810c-90cc-e9124ccf2ea1" class=""><em>Fig.6</em></p><figure id="2297904f-03a9-8181-975a-ec2174f124e2" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image6.png"><img style="width:700px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image6.png"/></a></figure><p id="2297904f-03a9-81f6-a37c-ef0b3bf73ab5" class=""><strong>TO SUM UP</strong></p><p id="2297904f-03a9-81eb-b110-f1052957ac6d" class="">Neurofibrillary tangles are present inside the neurons and tau is an important protein for the correct microtubules’ function. As a consequence of the hyperphosphorylation of tau protein, the microtubule depolymerizes, causing an altered axonal response. All these events are toxic for the neurons and therefore responsible for neuronal death.</p><p id="2297904f-03a9-81b3-afb0-e584beec032f" class="">It’s clear that in Alzheimer’s disease (both familial or sporadic), there are two important hallmarks: <strong>accumulation of amyloid beta</strong> that culminates in the formation of senile plaques, and the <strong>hyperphosphorylation of tau proteins</strong> leading to the development of neurofibrillary tangles. The accumulation of these abnormal proteins can contribute to <strong>oxidative stress</strong> and to the <strong>chronic inflammatory response</strong>: two key events in the pathogenesis and progression of Alzheimer&#x27;s disease. All these events (senile plaques, neurofibrillary tangles, oxidative stress, chronic inflammatory response) contribute to the neuronal death and to the dementia associated with this disease.</p><p id="2297904f-03a9-8107-ba43-fbfb87270b1e" class="">These 2 lesions are definitely triggered by oxidative stress and inflammation because these are 2 important processes for the development of the disease and, especially with oxidative stress, we have an increase production in ROS and with inflammation we have the activation of astrocytes and microglial cells contributing to neuronal death and dementia.</p><p id="2297904f-03a9-810a-aed1-f8bf046255f5" class="">The vicious cycle of Alzheimer’s diseases: oxidative stress stimulates the inflammatory response which, at</p><p id="2297904f-03a9-81a3-82db-e5d6d4751d34" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-811d-9df9-cf3b26a49337" class="">73</p><p id="2297904f-03a9-814d-a79e-fe7812341cea" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-819f-a568-c8c166b83243" class="">mediators, markedly contributing to the chronic</p><p id="2297904f-03a9-81fe-8ce2-c91ef08c6f07" class="">inflammatory response.</p><p id="2297904f-03a9-8142-a774-e6deb61810f8" class=""><strong>DIAGNOSIS OF ALZHEIMER’S DISEASE</strong></p><p id="2297904f-03a9-8131-a652-c225b3b7ff1b" class=""><em>Fig.7</em></p><figure id="2297904f-03a9-8183-a38b-ebaf2a527c3b" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image7.png"><img style="width:439px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image7.png"/></a></figure><p id="2297904f-03a9-81f7-9f1b-c11d2f2ee20c" class="">its turn, will stimulate oxidative stress: they both play a</p><p id="2297904f-03a9-8152-82b1-f2556c787483" class="">key role in neuronal degeneration. The point is that all</p><p id="2297904f-03a9-81c5-9e4c-f376d0544eb9" class="">the events that we keep repeating work together to</p><p id="2297904f-03a9-8182-8f21-c6caa9845ae4" class="">stimulate the formation of amyloid plaques and</p><p id="2297904f-03a9-818a-bb03-cb3536e64584" class="">neurofibrillary tangles. Also, microglial cells and</p><p id="2297904f-03a9-81f7-a77d-fbf475d973ae" class="">astrocytes contribute to neuronal death: when</p><p id="2297904f-03a9-810f-bcc9-c15be884d891" class="">activated they stimulate the secretion of inflammatory</p><p id="2297904f-03a9-81d9-a2ca-ec094e5162d8" class="">How can we recognize if a patient is suffering from AD?</p><p id="2297904f-03a9-8155-8f63-d028737f2180" class="">●Behavioral and cognitive tests through which we can evaluate the progression of the disease. ●Analysis of cerebrospinal fluid to identify the presence of Aβ and hyper phosphorylated tau proteins.●Neuroimaging techniques: CT scan, MRI, PET to evaluate the brain condition. For these techniques we use some radiotracers to identify the neuronal activity. In particular, in Alzheimer’s disease what is used is radioactive glucose associated with 18-fluorine, because neurons use a great quantity of glucose. Radiotracers are introduced intravenously: glucose is used by active neurons, showing the physicians the grade of atrophy, which is the affected brain area and the level of activity of the neurons. Red/orange areas represent active areas, while blue/violet areas represent areas with less neuronal activity.</p><p id="2297904f-03a9-813d-ae6e-f6076d02c941" class="">●Especially in the past, the <strong>definitive diagnosis</strong> of AD was post-mortem with the histological analysis of the brain with the aim of identifying the presence of the typical hallmarks of AD.</p><p id="2297904f-03a9-8165-aad5-f76f70cfb6d1" class=""><strong>THERAPY</strong></p><p id="2297904f-03a9-816d-a4ed-f380c577ecba" class="">At the moment we do not have drugs or any effective therapeutic strategy able to prevent or stop the progression of Alzheimer’s disease and the other neurodegenerative diseases. The available therapies have the goal to <strong>slow down the progression</strong>of Alzheimer’s: they are <strong>not able to stop it or prevent it</strong> but they can slow it down.</p><p id="2297904f-03a9-81a7-9187-cebb523813a5" class="">●Cholinergic agents are used to inhibit the degradation of neurotransmitters like acetylcholine which is crucial for communication among neurons but it&#x27;s easily degraded into choline and acetate through the action of acetylcholinesterase causing less communication and death on neurons. Cholinergic agents keep acetylcholine concentration stable with the aim to increase their binding with the receptors.</p><p id="2297904f-03a9-81af-9dea-f1f80973eadc" class="">●Anti-excitotoxic agents to inhibit excitotoxicity (high production of a specific neurotransmitter like glutamate); it has been demonstrated that, following an excessive and progressive stimulation by glutamate and continuous excitation of receptors, there can be toxicity to the neurons and they can die.</p><p id="2297904f-03a9-81cc-b01b-e0bcffd966df" class="">●Drugs able to reduce the production and accumulation of Aβ and/or drugs that prevent or reduce the hyperphosphorylation of tau proteins.</p><p id="2297904f-03a9-81ff-830f-fba99e8ec74b" class="">●Anti-inflammatory and antioxidant drugs: to reduce oxidative stress and inflammatory response (present in all the stages of the disease).</p><p id="2297904f-03a9-8182-b2f9-d45bb39bacd4" class="">●Statins: useful to reduce one of the risk factors of sporadic Alzheimer’s disease, hyperdyslipidemia</p><p id="2297904f-03a9-81a8-ae35-e211af2cfd1a" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-81d3-8acf-f56a3e32427a" class="">74</p><p id="2297904f-03a9-81e5-b47a-c267d7c016c8" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-81b4-957d-f4ff2067f64e" class="">and/or hypercholesterolemia, since there is a link between AD and altered cholesterol metabolism —&gt; statins can help reducing lipidophiles from systemic circulation because the brain produces its own cholesterol and bloods cholesterol cant cross blood brain barriers. However in AD patients the BBB is damaged and it&#x27;s more permeable, allowing the lipoproteins LDL to get to the brain and causing accumulation of cholesterol oxidizing agents.</p><p id="2297904f-03a9-8117-aa51-d01cae3867f8" class="">Non-pharmacological treatments:</p><p id="2297904f-03a9-81ed-9bcf-fb531c164f6f" class="">●Cognitive training: stimulate neurocognitive capacity of the patient, in particular to improve the ability to carry out daily living activities (stimulate him to eat, play an instrument, do crosswords, have a normal social life)</p><p id="2297904f-03a9-81b1-8baa-c15a5814a116" class="">●Improve spatial and temporal orientation to slow down the cognitive decline</p><p id="2297904f-03a9-8113-861f-c9a2e45546f3" class="">●Music, art or pet therapies have been shown to be important in the reduction of depression and in the increase of social activity</p><p id="2297904f-03a9-8187-aff7-f1d6b2a2acc6" class="">●Moderate physical activity: reduces depression, slows down sleep and food disorders and improves their behavior</p><p id="2297904f-03a9-81e8-84ec-e19b07420160" class=""><strong>PARKINSON’S DISEASE</strong></p><p id="2297904f-03a9-8111-aa3a-ecef54f5b601" class="">●Like Alzheimer disease, it is an <strong>age-associated disease</strong> and, physician.</p><p id="2297904f-03a9-81d9-b0c0-f735c5968cb8" class="">consequently, mainly affects old people. It develops after the age of 50-60 in most affected individuals, however, there are some cases of Parkinson’s disease associated with genetic mutations that can appear around 20-40 years.</p><figure id="2297904f-03a9-810b-a1e8-d5f596e38208" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image8.png"><img style="width:244px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image8.png"/></a></figure><p id="2297904f-03a9-81d3-91c4-fac40eabd551" class="">Parkinson’s disease (also known as parkinsonism or rigid hypokinetic syndrome) is a complex group of diseases that can be induced by different factors.</p><p id="2297904f-03a9-8105-bacf-ebab287112f6" class="">●This disease’s name comes from the physician who described it for the first time in 1817 , James Parkinson, an English</p><p id="2297904f-03a9-81fe-a9a8-cadcd3612c2c" class=""><em>Fig.8</em></p><p id="2297904f-03a9-812f-91cf-dee485d1d482" class="">●Currently about 1-2% of over 60 are affected and 4-5% of over 80s. The incidence of PD is between 8-18 per 100,000 people/year.</p><p id="2297904f-03a9-8174-b0cb-faed32e356c3" class="">●There exists a mild prevalence in males</p><p id="2297904f-03a9-8110-89a2-e8ef42358515" class="">●Life expectancy: the mortality rate approximately doubles that of a normal person. The death is mainly caused by <em>ab ingestis pneumonia</em> (troubles in food swallowing can result in food accumulation inside lungs).</p><p id="2297904f-03a9-814f-a011-c72d4f8ef4f3" class=""><strong>FORMS OF PARKINSON’S DISEASE</strong></p><p id="2297904f-03a9-8144-b4fb-c1e1dc4a5126" class="">We can distinguish two forms of Parkinson’s disease:</p><p id="2297904f-03a9-814e-bc35-c36dce2f9fc9" class="">1.Most cases of PD are <strong>sporadic</strong> forms. This neurodegenerative disease is caused by:</p><p id="2297904f-03a9-814a-97b3-fbc540c79aa0" class="">●bacterial infections</p><p id="2297904f-03a9-81cc-9e63-cb290535d66b" class="">●virus infections</p><p id="2297904f-03a9-8190-bf20-f97e3b1a5f79" class="">●neurotoxins (acquired through breathing)</p><p id="2297904f-03a9-81b3-88e9-c93846bac355" class="">●head trauma (frequently observed in boxers)</p><p id="2297904f-03a9-81b3-b51f-f3009ccc8f09" class="">●age (as already mentioned it is a typical aging disease)</p><p id="2297904f-03a9-81ab-aaaa-c5f25d7810ce" class="">●pesticides, hydrocarbon solvents (trichlorethylene) and toxic chemical compounds, heavy metals</p><p id="2297904f-03a9-812c-ad4a-fbe3ce4ef224" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-812c-a066-e0256fc8b3da" class="">75</p><p id="2297904f-03a9-8112-b3d0-c8638fe9f6c8" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-8121-b7d1-db3bd6c85a96" class="">(e.g., iron, copper, zinc) but also insecticides and herbicides (chemical agents)</p><p id="2297904f-03a9-81a0-a56d-e6a6ceac7bb2" class="">2.There are few cases (around 2-5%) of <strong>familial</strong> PD. In this case the PD is caused by gene mutations and the mutated genes are mainly genes that encode for:</p><p id="2297904f-03a9-81de-a74a-e4e87b1a7d9a" class="">●α-synuclein (SNCA),which is the protein that will aggregate in the brain</p><p id="2297904f-03a9-81af-aba4-f5c0b9801772" class="">●leucine-rich repeat kinase 2 (also called dardarine) (LRRK2)</p><p id="2297904f-03a9-81cc-a8fb-c593a1e838b6" class="">●DJ-1</p><p id="2297904f-03a9-81cf-89a6-f6cb29d735e4" class="">●PINK1</p><p id="2297904f-03a9-8195-97d2-e0f9e77b70c0" class="">●parkin</p><p id="2297904f-03a9-81ab-a75e-fb6187d02af6" class="">●glucocerebrosidase (GBA)</p><p id="2297904f-03a9-81d2-8019-ed6a89700a83" class="">●others</p><p id="2297904f-03a9-81ee-9504-c40b70484a3a" class="">The result of these mutated genes is the production of <strong>abnormal proteins</strong> which are folded improperly and can <strong>accumulate in neurons</strong>.</p><p id="2297904f-03a9-8168-b221-c630c4f7853e" class=""><strong>MAJOR GENETIC MUTATIONS</strong></p><p id="2297904f-03a9-81c7-b954-c17fb80330ff" class="">Among the mutated genes, the major genetic mutations are:</p><p id="2297904f-03a9-8124-b1e2-f98890e9821c" class="">●Mutations of the gene encoding for α-synuclein (SNCA), which is a lipid-binding protein associated with synapses.</p><p id="2297904f-03a9-81ba-8762-de9c757bcc0f" class="">●In case of a gene mutation (point mutation) we have the production of an altered protein, which starts to aggregate and accumulate forming a specific, characteristic lesion of PD known as <strong>Lewy body</strong> present in the cytoplasm of neurons. These Lewy bodies are formed by filaments of α-synuclein protein.</p><p id="2297904f-03a9-819b-84d0-ed5771121b5b" class="">●Sometimes we have a higher production (amplification) of this protein, which starts to fold improperly and again can aggregate and accumulate forming this Lewy body.</p><p id="2297904f-03a9-8186-ba51-dee7fba65eb9" class="">●We can therefore have a point mutation or an amplification at the level of the gene encoding for α- synuclein, located on chromosome 4q21. These mutations are rare but may influence the risk of developing PD. Mutations in this gene more commonly cause an autosomal dominant form of PD.</p><p id="2297904f-03a9-81fd-9451-c1c5e2f279f3" class="">●Mutations of the gene encoding Leucine rich repeat kinase 2 (dardarine). Dardarine is a cytoplasmic kinase and its name derives from a Basque word that stands for “tremor”. It is observed that its activity can increase during the PD (hand tremor is a clinical manifestation of Parkinson). Mutations in the gene encoding LRRK2 are more commonly a cause of autosomal dominant PD and are also found in some sporadic cases of PD.</p><p id="2297904f-03a9-81ae-8e95-c694090d579b" class="">●There are also some mutations of genes encoding for DJ-1, PINK1 and parkin (all mitochondrial enzymes). All these mutated proteins are responsible for mitochondrial dysfunction, responsible for the death of neurons. Mutations of these genes cause more commonly an autosomal recessive form of PD.</p><p id="2297904f-03a9-8127-8f3f-f3146bd8ae23" class="">The <strong>area affected</strong> by this neurodegenerative disease is an area known as <strong>basal ganglia</strong> where we can find caudate, putamen and pale nuclei, which are important for the execution of movements (but not only) so we will have movement disorders.</p><p id="2297904f-03a9-8159-ba70-dc4155ecf19f" class="">In particular, the critical point of this neurodegenerative disease is the <strong>neurodegeneration of the dopaminergic neurons</strong> of which the substantia nigra is made. Indeed, following the damage and death of dopaminergic neurons, there is damage involving the <strong>nigrostriatal dopaminergic system</strong>.</p><p id="2297904f-03a9-815c-a0f2-f0a31e9872b6" class="">These dopaminergic neurons are very important for the <strong>execution of movements</strong> because they release</p><p id="2297904f-03a9-812d-882a-e37571f0134d" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-81e7-bad0-fd07781a8c43" class="">76</p><p id="2297904f-03a9-81d0-92c2-de618c3593dc" class="">11.05.2023 LEONARDUZZI L.6</p><figure id="2297904f-03a9-81c6-a17b-e0c7e411e37c" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image9.png"><img style="width:316px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image9.png"/></a></figure><p id="2297904f-03a9-812a-8d98-d85967307c49" class="">dopamine, which interacts with specific receptors and stimulates the right movements. The loss of these neurons will cause a decreased production of dopamine, leading to movement disorders.</p><p id="2297904f-03a9-815d-bb65-e87ce9129514" class="">The loss of these neurons can <strong>start a few years before the onset of disease,</strong> which means that there is a <strong>preclinical phase</strong> with a duration of around 5 years. It is, consequently, very difficult to prevent this neurodegenerative disease.</p><p id="2297904f-03a9-8140-a0a7-c554f4deb6da" class=""><em>Fig.9</em></p><p id="2297904f-03a9-816a-896d-e9b59e3b4095" class="">The decreased dopamine level is responsible for an inadequate stimulation of receptors and as a</p><p id="2297904f-03a9-81c2-aae2-dfe9f7c0b9b6" class="">consequence <strong>movement disorder</strong> can be observed. Another event that can damage this area of our brain is the <strong>accumulation of α-synuclein</strong>. This protein starts accumulating either because it is produced in a great amount or because it does not fold properly and therefore becomes insoluble (amplification or point mutation). α-synuclein can accumulate in the brain but also in the spinal cord marrow. They can develop dementia.</p><p id="2297904f-03a9-8173-919f-e9ef19feee04" class="">These movement disorders are indicated with the term <strong>hypokinesia</strong>, which means slowness and difficulty <strong>in voluntary movements</strong>.</p><p id="2297904f-03a9-814d-b23f-c65a130c21cb" class="">People affected by PD will manifest a particular posture (stooped posture and postural instability, they are bent forward) and are characterized by a diminished facial expressivity or “masked faces”, which refers to the expressionless appearance of the individual.</p><p id="2297904f-03a9-81ed-918b-cd9a72619def" class="">Other characteristics include back rigidity (the body is rigid), flexed elbows and wrists, reduced arm swing, hand and leg tremors (which can be present or not), slightly flexed hip and knees, the trunk is bent in front of them. A characteristic sign of PD is also the way the affected people walk (shuffling, short stepped gait).</p><p id="2297904f-03a9-810b-9f5b-de4ce6072351" class=""><strong>SYMPTOMS OF PARKINSON’S DISEASE</strong></p><p id="2297904f-03a9-8162-8b0d-cf470c86fd6b" class="">The disease is mainly characterized by a prominent hypokinetic movement disorder as a consequence of the absence of dopamine caused by death of dopaminergic neurons from the substantia nigra. The main symptoms of PD are:</p><p id="2297904f-03a9-81c9-ae58-e8eb53f7434d" class="">●An expressionless face (like a mask, “masked facies”)</p><p id="2297904f-03a9-8160-b980-deaa70d3c433" class="">●Postural instability (rigidity of the body), stooped posture</p><p id="2297904f-03a9-81f8-baa5-de835329b834" class="">●Decrease in muscle strength</p><p id="2297904f-03a9-815f-b82d-c2f41ae17074" class="">●Bradykinesia: slowing down of all the voluntary movements, which causes these people to have difficulty in executing normal movements</p><p id="2297904f-03a9-81a5-9e88-cb7cb2e0393d" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-81db-969c-c0e901db9d3b" class="">77</p><p id="2297904f-03a9-81d0-9579-e5654ef5f270" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-81f6-b732-d10416b6e708" class="">●Festinating gait (progressively shortened, accelerated steps)</p><p id="2297904f-03a9-8118-af73-c1329cfa5b38" class="">●Swallowing difficulty (dysphagia), which is the reason why most of</p><p id="2297904f-03a9-818d-a20a-d29266cf96d4" class="">●Sometimes, in advanced stages, some affected individuals can speech)</p><p id="2297904f-03a9-8172-a800-eaf6bf3c261f" class="">them die from <em>ab ingestis pneumonia</em></p><p id="2297904f-03a9-8190-87a2-f3775c5c1d37" class="">develop dementia (in contrast to Alzheimer’s disease where</p><p id="2297904f-03a9-8187-be3f-d47e6aa0243a" class="">dementia is the principal clinical aspect since the individual loses</p><p id="2297904f-03a9-8188-83da-e52d330881df" class="">his/her cognitive capacity; in this case the patients affected by PD</p><figure id="2297904f-03a9-81a7-b8c5-e5e86928792a" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image10.png"><img style="width:429px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image10.png"/></a></figure><p id="2297904f-03a9-8130-8c7c-de9f6121c457" class="">●Rigidity</p><p id="2297904f-03a9-8108-b52d-f30e1ddcfd85" class="">●“Pill rolling” tremor (hands trembling as to count money), tremor in the legs</p><p id="2297904f-03a9-8151-ae45-c07db49d06e9" class="">●Reduced arm swing</p><p id="2297904f-03a9-81db-87f7-ef94b52a919c" class="">●Olfactory deficiency, sleep deprivation, sensory difficulties</p><p id="2297904f-03a9-819a-9e31-da29b0f76de4" class="">●Behavioral problems, mood changes, depression, anxiety</p><p id="2297904f-03a9-81c4-b95c-ec3436f8e8a2" class="">●Language (speech) disorders such as bradylalia (slowness of</p><p id="2297904f-03a9-8121-8f5d-dafc7014617a" class="">maintain their cognitive capacity until the end and only in a small</p><p id="2297904f-03a9-81f0-912d-de74dbe43fed" class="">number of cases they develop dementia). <em>Fig.10</em></p><p id="2297904f-03a9-81e6-8f2d-f2133f4f2f70" class="">Other symptoms that may be shown are (see fig 11):</p><p id="2297904f-03a9-815f-8882-fbc9ad66ea27" class="">●Increased sweating and smelling</p><p id="2297904f-03a9-817c-8272-cb04a68f3cee" class="">●Intestinal problems (mainly constipation)</p><p id="2297904f-03a9-8187-baca-f70cfc902f4d" class="">●Abundant and excessive salivation</p><p id="2297904f-03a9-81c8-a38f-e71793c2f4fd" class="">●Difficulties in speaking and soft or low voice (especially later on, in the advanced stage) which may evolve in muteness.</p><figure id="2297904f-03a9-8141-898e-eed755285770" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image11.png"><img style="width:650px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image11.png"/></a></figure><p id="2297904f-03a9-81e2-8b7d-ce144238303f" class=""><em>Fig.11</em></p><p id="2297904f-03a9-812c-a394-e56d4117f6b8" class=""><strong>TREATMENT</strong></p><p id="2297904f-03a9-8181-aed2-f18453c494f5" class="">Just like for Alzheimer’s disease, we do not have a therapy to stop the progression of the disease, but we</p><p id="2297904f-03a9-818b-80c3-e21321d88e3e" class="">have some drugs able to <strong>slow down the degeneration</strong>. The severity of the motor syndrome is proportional</p><p id="2297904f-03a9-81ed-8eff-ca439ad37e7f" class="">to the dopamine deficiency (so to the loss of dopaminergic neurons).</p><p id="2297904f-03a9-817a-bbfa-ec830a008b09" class="">●The most effective therapy is a therapy with LEVODOPA (L-DOPA), which is a dopamine precursor.</p><p id="2297904f-03a9-81cf-a11f-d6683b54d178" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-8141-852d-d9b88ce24e1b" class="">78</p><p id="2297904f-03a9-810e-ab37-e11a5293274b" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-816d-9504-d311655739b6" class="">Only a portion of this drug can cross the BBB (blood brain barrier). When it crosses it, it is converted into dopamine by the enzyme DOPA-decarboxylase found in dopaminergic neurons. Therefore, this therapy has the aim of increasing the bioavailability of dopamine, in order to increase the stimulation of receptors and, as result, to control the execution of the movements. With this therapy, the rigidity and difficulty in doing normal movements are reduced.</p><p id="2297904f-03a9-81a2-8390-d0d89079e794" class="">This treatment is effective especially at the beginning of the disease, to compensate for the decrease of dopamine produced by dopaminergic neurons during the initial phase, however it is not able to inhibit the progression of PD and it becomes less effective with the disease progression. As a consequence of this, some additional movement disorders can appear and in particular it is common to observe a disorder characterized by involuntary movements (dyskinesia).</p><p id="2297904f-03a9-812b-8238-de8e7335c888" class="">●Electrical stimulation of the substantia nigra</p><p id="2297904f-03a9-817f-a9c2-ec0e6d277cae" class="">●Neural transplantation</p><p id="2297904f-03a9-81cd-a904-d4b91011de65" class="">●Neural gene therapy</p><p id="2297904f-03a9-815d-985b-d7cc81a13c8f" class="">●Administration of neuroprotective agents to reduce oxidative stress and neuro-inflammation</p><p id="2297904f-03a9-81a4-82a0-ee8d4bcb2c07" class=""><strong>MORPHOLOGY</strong></p><p id="2297904f-03a9-814a-aa1e-f41e115ac0e3" class="">The substantia nigra is called “nigra” because this area has dark/grey color due to the presence of dopaminergic neurons. Therefore, after the loss of these neurons, the substantia nigra appears pale and colorless.</p><figure id="2297904f-03a9-814a-85df-fd3f1a18903e" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image12.png"><img style="width:700px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image12.png"/></a></figure><p id="2297904f-03a9-81f7-8acd-e87c31c379bf" class=""><em>Fig.12</em></p><p id="2297904f-03a9-8156-8da2-cc72e8a9335c" class=""><strong>Lewy bodies</strong></p><p id="2297904f-03a9-819f-8f64-cb63201ff0f4" class="">The characteristic lesions, <strong>hallmark of Parkinson disease</strong> are the presence of the Lewy bodies in the cytoplasm of some of the remaining neurons. They often appear as a dense core surrounded by a pale halo. These are single or multiple cytoplasmic, eosinophilic, round to elongated inclusions. Lewy bodies are composed of <strong>fine filaments composed of alpha-synuclein</strong>, a misfolded protein that, due to its altered structure, accumulates in the neurons.</p><figure id="2297904f-03a9-8119-af2c-efd56bbda2a1" class="image"><a href="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image13.png"><img style="width:700px" src="neurodegenerative%20diseases%202297904f03a9817fbca5c1d460c3c28c/image13.png"/></a></figure><p id="2297904f-03a9-8135-af85-d5da659f1541" class=""><em>Fig.13</em></p><p id="2297904f-03a9-81e5-be94-fded82a0b5d6" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-8163-a786-e59a5a2047ef" class="">79</p><p id="2297904f-03a9-8159-8b82-ff7f774401c0" class="">11.05.2023 LEONARDUZZI L.6</p><p id="2297904f-03a9-81cb-89a0-f28034ec692f" class="">As it has been described in the case of Alzheimer’s disease, also in PD there is an <strong>inflammatory response</strong> caused by microglia activation, but also proliferation and reactivity of astrocytes because of cell death. <strong>Inflammation</strong> and <strong>oxidative stress</strong> are indeed always present in these neurodegenerative diseases. These Lewy bodies can also spread outside the substantia nigra and can be visible in the cortex and the brainstem. This misfolded protein can indeed accumulate in other areas of the CNS and the spread of the lesions is caused by the propagation of the misfolded protein in the neurons of the cerebral cortex.</p><p id="2297904f-03a9-81a6-8c5e-d1510a76a557" class="">As it has been previously said, a small group of patients affected by PD can develop dementia in an advanced stage of the disease (10-15%); they will therefore show evidence of Alzheimer’s disease in combination with Parkinson’s disease. Dementia with Lewy bodies may represent an advanced stage of PD in which protein aggregates appear to have “spread”, possibly through propagation of misfolded proteins, to neurons in the cerebral cortex.</p><p id="2297904f-03a9-817c-a648-c607ccb6c623" class=""><strong>PROPOSED MECHANISMS OF NEURONAL DEATH</strong></p><p id="2297904f-03a9-81a3-a1d4-d65f677683d6" class="">Concerning the neuronal death, few mechanisms have been proposed:</p><p id="2297904f-03a9-81d8-acd2-ccdfb4138c15" class="">1.Neurons die because of the accumulation of α-synuclein in the cytoplasm of neurons forming the Lewy bodies; however, the accumulation of this protein is not sufficient for the direct neuronal death 2.Neurons die because of mitochondrial dysfunction, lysosomal dysfunction or proteasomal systems dysfunction</p><p id="2297904f-03a9-812b-9f16-e56c1a5bb45e" class="">3.Neurons die because of iron accumulation in the substantia nigra, increasing the oxidative stress and inflammation</p><p id="2297904f-03a9-81d6-8ef2-eb0136167467" class="">However, concerning these neurodegenerative diseases (that are multifactorial diseases), all the mechanisms involved in neuronal death are still not clear. The researchers have not found the real mechanism behind this neuronal death.</p><p id="2297904f-03a9-8113-8dde-c4f553cde945" class=""><strong>DIAGNOSIS</strong></p><p id="2297904f-03a9-811a-86d3-d3b28e4b510f" class="">We can diagnose PD in an individual through:</p><p id="2297904f-03a9-8192-8119-c3399335dc45" class="">●Clinical symptoms: in particular we have to observe the presence of the so-called <strong>central triad of</strong> <strong>parkinsonism</strong> (tremor, rigidity, bradykinesia)</p><p id="2297904f-03a9-819b-9f48-f6939162ae2f" class="">●Neuroimaging: positron emission tomography (PET), with the usage of radioactive tracers, gives information about the activity and vitality of neurons. In this case the radioactive tracer is fluoroDOPA (administered intravenously), which highlights the dopamine transporter and the enzyme DOPA carboxylase. We can therefore use this tracer to highlight the activity of neurons (their cellular metabolism), identifying in this way the areas where neurons are still vital (highlighted) or the areas where they are lost (not highlighted)</p><p id="2297904f-03a9-8180-b54b-ce02f3a90d7a" class="">●Observation of Lewy body: this is used postmortem to confirm the diagnosis of this disease, by observing Lewy bodies in the area affected by neurodegeneration (substantia nigra).</p><p id="2297904f-03a9-8149-9a7e-c8b9136aa4b8" class="">Chiara Rosa, Umberto Geninatti</p><p id="2297904f-03a9-8148-a7dd-eba52c2d94a5" class="">80</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

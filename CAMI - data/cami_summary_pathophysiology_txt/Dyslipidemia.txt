@@ -1,0 +1,282 @@
+Dyslipidemia
+● what is dyslipidemia?
+Pathological conditions characterized by a permanent alteration of the
+plasma concentration of LDL, HDL or VLDL.
+● What is the general composition of a lipoprotein?
+○ Internal portion «CORE» which contains varying concentrations of
+esterified cholesterol, TG.
+○ External portion that contains phospholipids, non-esterified
+cholesterol and proteins (exposing the hydrophilic portion)
+● what is the general function of lipoproteins?
+they carry lipids (phospholipids, cholesterol, triglycerides and fat-
+soluble vitamins), around the blood circulation where they are
+required.
+● what are the types of lipoproteins?
+in general, lipoproteins are classified in terms of their densities.
+1. Chylomicrons:
+The least dense and the largest. They contain Apolipoprotein
+B-48, Apo E and Apo C2, C1, A1, A2.
+they contain a high amount of triglycerides and are coated by a
+thin layer of proteins.
+they carry TG, small amounts of cholesterol and lipid-soluble
+vitamins from the enterocytes.
+2. VLDL
+Made in the liver.
+Contain APO C2, APO B-100, Apo E.
+They carry high concentrations of triglycerides, lower conc. of
+cholesterol, and phospholipids.
+3. IDL
+Contain APO C2, APO B-100, Apo E.
+They result from VLDL metabolism.
+They carry cholesterol, phospholipids and triglycerides from the
+liver
+4. LDL
+Contain ApoB-100, Apo C2, Apo E.
+From the metabolism of IDL.
+Mainly contain cholesterol (40%), some phospholipids and very
+small amounts of TG.
+They contain more than 60% of blood cholesterol
+70% of LDL go to the liver, 30% to periphery.
+5. HDL
+Contain Apo A1, A2. Apo C2 and Apo E.
+Mainly contain proteins, cholesterol does not exceed 20%.
+5.
+They transport phospholipids, cholesterol and triglycerides from
+the periphery to the liver.
+Some are generated in the liver, a small amount in the intestines.
+6.
+● What are apolipoproteins?
+Apolipoproteins are the proteins that coat the lipoproteins.
+Their functions are:
+○ Structural: they create a hydrophilic coating for the lipid core and
+allow the assembly of the lipoprotein.
+○ Ligand for specific receptors
+○ they activate Lipoprotein Lipases
+● General evaluation of a lipid profile
+○ Total cholesterol: < 200 mg/dL. High is 260.
+○ LDL: <100. 160 is high.
+○ HDL: >40
+○ Triglycerides: <150. high >200. Very high >500.
+● describe the exogenous cycle of lipoproteins
+1. Fats in the lumen of the intestine are emulsified in micelles which
+are taken up by enterocytes, packaged into Chylomicrons (90%
+TG).
+2. Chylomicrons enter the circulation and acquire other apoproteins,
+in particular apoCII (cofactor of lipoprotein lipase, LPL), and apoE
+from HDL; excess cholesterol, phospholipids and apolipoproteins
+are transferred to HDL.
+3. Chylomicrons encounter Lipoprotein Lipases on the surface of
+adipose cells and striated muscle. The Apo CII receptor on
+chylomicrons activate this enzyme that converts TG → FFAs that
+enter the adipocyte.
+4. The remaining protein and lipid part constitutes the
+"remnants" (residual chylomicrons) which are taken up by the
+hepatocytes via the apoE receptor: proteins are hydrolysed by
+lysosomal enzymes, TG are metabolised and cholesterol is
+excreted with the bile
+● describe the endogenous cycle of lipoproteins
+The liver synthesizes VLDL (richest in TG, less % cholesterol and
+phospholipids), which is hydrolyzed by Lipoprotein Lipases of
+peripheral tissues (Adipocytes and skeletal muscle interact with
+ApoC2) into IDL(decreased amount of TG). About half of these IDLs
+go back to the liver by interacting with the LDL receptor (that
+recognized both ApoB100 and ApoE). The remaining half are
+converted into LDL by hepatic Lipoprotein Lipases. LDL, which is rich
+in cholesterol, ****is taken up by the liver (70%) and endocrine cells
+● for steroid hormone synthesis, and it is also taken up by vascular cells
+(ECs, SMCs, fibroblasts, macrophages) where it is hydrolyzed by
+lysosomal enzymes into amino acids, esterified cholesterol and free
+● cholesterol.
+● what are oxysterols? what is their relevance in health
+Oxysterols are sterols derived from the oxidation of the cholesterol
+molecule
+They are obtained by oxidation reaction carried out by enzymes or
+reactive oxygen species (ROS).
+Oxidized cholesterol becomes reactive and toxic to cells. In the
+subintima, LDL oxidation is one of the first triggers of atherogenesis
+(formation of atheroma). The first process involved in atherogenesis is
+the endothelial dysfunction caused in part by oxLDL In arteries,
+mmLDLs (minimally modified LDLs) are taken up by local
+macrophages, which become activated in response and start
+producing ROS, which oxidize LDL components.
+We can introduced oxysterols in the diet (autoxidation of food), but
+mainly they come from endogenous sources.
+1. Non enzymatic pathways Attack by reactive oxygen species
+generated during inflammation
+2. Enzymatic pathways cholesterol 24-hydroxylase (CYP46A1)
+(mainly brain) cholesterol 27-hydroxylase (CYP27A1) (various
+tissues) cholesterol 7α-hydroxylase (CYP7A1) (liver, prostate)
+● cholesterol 25-hydroxylase (various tissues)
+● what is the role of PCSK9?
+PCSK9 (proprotein convertase subtilisin/kexin type 9) is an
+enzyme that binds to the LDL particle or to the LDL receptor and it
+impedes the recycling of the LDL receptor and instead drives its
+demolition within lysosomes (1 in 400 LDLr).
+The effect of PCSK9 enzymes is therefore reducing LDL absorption
+by the liver (by reducing the amount of LDLr), increasing plasma
+cholesterol.
+PCSK9 inhibitors are a new drug to treat hypercholesterolemia. Mainly
+used to treat familial hypercholesterolemia. Still very expensive and
+not widely used.
+● what are the monogenic primitive dyslipidemias that increase LDL
+cholesterol?
+INCREASED LDL CHOLESTEROL:
+○ Familial Hypercholesterolemia Autosomal dominant. Caused by
+mutations in the gene that codes for LDL receptor (on liver) → High
+blood LDL. Heterozygotes (1: 500): elevated plasma cholesterol
+○ levels already at birth (average 350 mg / dL), tendon xanthomas
+before age 30, early atherosclerosis (coronary artery disease
+before age 40). In homozygotes (1: 1,000,000): rarely live past
+reproductive age. Plasma cholesterol around 600 to 1200 mg / dL,
+cutaneous and tendon xanthomas, coronary atherosclerosis, in
+pediatric age, myocardial infarction before 30 years.
+150 types of LDLr mutations that can affect its synthesis in the ER
+(class I), transport to the Golgi or cell surface (class II), binding
+capacity (class III), clustering (class IV), and recycling (class V).
+○ Familial defective apolipoprotein B-100 (FDB): is an autosomal
+dominant genetic disorder of lipid metabolism associated with
+hyperlipidemia and elevated risk for atherosclerosis. FDB is
+caused by mutations in APOB reducing the binding affinity
+between apolipoprotein B-100 and the low-density lipoprotein
+receptor
+○ Autosomal recessive hypercholesterolemia (ARH): very rare.
+Clinical phenotype similar to that of homozygous familial
+hypercholesterolemia (FH) but is more variable, generally less
+severe, and more responsive to lipid-lowering therapy. Caused by a
+defect of some, but not all, cell types to mediate LDL receptor-
+dependent internalization of LDL and is caused by mutations in the
+gene for an adaptor protein called ARH. In affected cells, the LDL
+receptor gene is normal but LDL receptor protein accumulates at
+the cell surface because the ARH protein doesn’t have its normal
+capacity to interact with the receptor and trigger internalization.
+○ Autosomal dominant hypercholesterolemia (PCSK9 ↑) genetic
+increase of PCSK9 = increased destruction of LDLr.
+○ Sitosterolaemia: characterized by hyperabsorption of
+phytosterols due to loss of function mutation of ABCG5 and
+ABCG8 genes that code for ABC transporter proteins. These
+receptors normally pump back into the intestinal lumen the plant
+sterols that were previously internalized by NPC1L1 receptors,
+decreasing its absorption to less than 10%. Thus, mutation impairs
+this ability and the ability of the liver to preferentially excrete plant
+sterols into the bile. Sitosterol is very similar to cholesterol so it
+competes with LDL for LDLr binding, and these reults in
+decreased cholesterol absorption in the liver and therefore
+elevated blood cholesterol.
+● Decreased LDL cholesterol
+○ Abetalipoproteinemia
+○ Familial hypobetalipoproteinemia (ApoB mutations)
+○ PCSK9 deficiency
+● what are the monogenic primitive dyslipidemias that decrease LDL
+cholesterol?
+○ ABETALIPOPROTEINEMIA It is a very rare condition. In this case,
+APO B48 and APO B100 are deficient, almost completely lacking. it
+results in lipid malabsorption (chylomicrons), lowered amount of
+LDL in the blood circulation. Vitamin A deficiency may be
+observed.
+○ FAMILIAL HYPOBETALIPOPROTEINEMIA It consists in a moderate
+decrease of APO B (48 and 100) and is associated with a lower risk
+of cardiovascular disease. They have 130-140 mg of cholesterol
+per 100 ml.
+○ DEFICIT OF PCSK9 It is a rare, protective condition.
+● what are the monogenic primitive dyslipidemias that affect HDL
+cholesterol?
+Increased HDL:
+○ CETP Deficiency: it’s a very rare deficiency in the cholesteryl
+ester transfer protein. This protein exchanges triglycerides
+of VLDL against cholesteryl esters of HDL. As the result, VLDLs are
+processed to LDL. This TGs are readily hydrolyzed by lipoprotein
+lipases, HDL molecules become smaller and easily taken up by the
+liver (maturation) If CETP is deficient, HDL remain full of TG and
+large, so the complete maturation is not possible and they remain
+in the bloodstream.
+● Decreased HDL:
+○ Apolipoprotein A1 deficiency HDL production (in liver and
+enterocytes) starts from APO A1 and lipids are introduced after
+though and ABC membrane transporter. In this condition there’s no
+APO A1 = no HDL production. Homozygotes are rare, more
+common are the heterozygotes.
+○ Tangier’s disease: the transporter ABCA1 that loads lipids inside
+HDL is not sufficient. There is no formation of HDL and cholesterol
+accumulates in the tissues. Yellow-colored accumulations of
+cholesterol in the mucosa of the throat is observed.
+○ LCAT deficiency (lecithin cholesterol acyltransferase) ****is
+generally found in HDL and carries out the esterification of
+cholesterol (transfer acyl group to free cholesterol. Cholesterol
+ester formation is necessary for the maturation of HDL, it changes
+the shape of the HDL, which becomes spherical. In the absence of
+LCAT, the HDL will never mature (sandwich/roundish shape)
+Immature HDL easily undergoes removal and demolition in the
+circulation.
+● what monogenic primary dyslipidemias result in increased
+triglycerides?
+○ Familial Chylomicronemia: LPL or APO CII deficiency resulting in
+impaired triglyceride download from lipoproteins into the cells. As a
+○ result there’s high blood triglycerides. When they’re really high
+(100 mg/ml) they increase blood viscosity (stasis), and may cause
+pancreatitis.
+○ APO A5 deficiency: very rare. APO A5 works more or less as APO
+C2.
+○ Familial dysbetalipoproteinemia : mutation in apolipoprotein E
+(ApoE) that results in having apo E2 isoform instead of E3. ApoE
+serves as a ligand for the liver receptor for chylomicrons, IDL and
+VLDL, also known as VLDL receptor. This defect prevents the
+normal metabolism of chylomicrons, IDL and VLDL, and leads to
+accumulation of cholesterol within scavenger cells (macrophages)
+to enhance development and acceleration of atherosclerosis.
+○ Hepatic lipase deficiency: very rare condition that results in
+hyperTG.
+● what are the polygenic primary dyslipidemias?
+○ Familial combined hyperlipidemia (↑ hepatic synthesis of VLDL
+and ApoB100, small-dense LDL). It is the most prevalent primary
+dyslipidemia. Autosomal dominant. Occurring in up to 1-3% of the
+general population, frequently remains undiagnosed and its precise
+definition is a subject of controversy. Characterized by fluctuations
+in serum lipid concentrations and may present as mixed
+hyperlipidemia, isolated hypercholesterolemia,
+hypertriglyceridemia, or as a normal serum lipid profile in
+combination with abnormally elevated level of apolipoprotein B.
+High frequency of comorbidity with other metabolic conditions.
+○ Familial hypertriglyceridemia (↑ hepatic synthesis of VLDL)
+○ Familial hypoalphalipoproteinemia (↓ HDL) accelerated
+catabolism of APO A1 → less production of HDL.
+○ Familial hyperalphalipoproteinemia (↑ HDL. Slower catabolism
+of APO A1, thus HDL is relatively higher in concentration.
+● what are the causes of secondary LDL hypercholesterolemia?
+1. HYPOTHYROIDISM causes reduced catabolism of LDL → very
+high cholesterol. Triglycerides are not affected.
+2. Nephrotic syndrome: low LDL catabolism, increased cholesterol.
+3. LIVER and cholestatic DISEASES In the case of biliary duct
+obstruction, cholesterol remains in biliary canaliculi and may be
+taken up in the hepatocytes. Cholesterol is then reversed in the
+blood vessels.
+4. ANOREXIA NERVOSA: low calorie intake, a low amount of energy
+is available for LDL catabolism → hypercholesterolemia.
+● what are the causes of secondary hypertriglyceridemia?
+1. Alcohol consumption: Ethanol is a very strong stimulator of
+hepatic triglyceride synthase → synthesis of triglycerides is
+extremely amplified.
+2. Type 2 Diabetes: The synthesis of lipids is favored (insulin
+2.
+anabolic) and their catabolism is inhibited (insulin is anti-lipolytic).
+3. Obesity
+4. Pregnancy
+5. SLE (systemic lupus erythematosus)
+● what are the causes of secondary HDL hypocholesterolemia?
+1. smoking
+2. type 2 diabetes
+3. obesity
+● what are some notable effects of drugs and hormones on serum lipid
+● levels?
+● How do statins and Ezetimibe work?
+○ Statins work by inhibiting HMG-CoA reductase, which is the rate-
+limiting enzyme in the synthesis of cholesterol. As a result, there is
+less cholesterol production from the liver, and hepatocytes
+respond by augmenting the amount of LDLr, both things result in
+less cholesterol circulating in the periphery.
+○ Ezetimibe works by targeting the Niemann-Pick C1-like 1
+(NPC1L1) protein on the brush border of the small intestine, which
+plays a key role in the absorption of cholesterol from the diet. By
+inhibiting NPC1L1, ezetimibe reduces the amount of cholesterol
+absorbed from the intestine into the bloodstream. It is often used
+in combination with statins when statin therapy alone is not
+sufficient to reach target cholesterol levels.

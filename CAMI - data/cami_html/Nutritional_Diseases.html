@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Nutritional Diseases</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-81c2-88ec-f56aa4345bcb" class="page sans"><header><h1 class="page-title">Nutritional Diseases</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-811b-ae5b-cc57c803d463" class="">Nutritional Diseases</p><p id="2297904f-03a9-8177-9862-d2578c1a7562" class="">●what should an appropriate diet provide?</p><p id="2297904f-03a9-8140-a65f-e536e618e468" class="">1. Sufficient energy, in the form of carbohydrates, fats, and proteins;</p><p id="2297904f-03a9-81dc-9530-e58738816296" class="">2. Amino acids and fatty acids to be used as building blocks for</p><p id="2297904f-03a9-810d-b468-dbbeabb4abf1" class="">synthesis of functional and structural proteins and lipids;</p><p id="2297904f-03a9-8104-96f7-f25b44e4bad0" class="">3. Vitamins and minerals, which function as coenzymes or</p><p id="2297904f-03a9-81e2-bfb9-e8b619600c0d" class="">hormones in vital metabolic pathways or as important structural</p><p id="2297904f-03a9-81ff-a29a-cdc112c4d452" class="">components (Calcium).</p><p id="2297904f-03a9-8160-8131-e070dfffd680" class="">●what are primary and secondary malnutrition?</p><p id="2297904f-03a9-813b-aeb4-e8294017d796" class="">○ Primary malnutrition: is insufficient intake of one or more of the</p><p id="2297904f-03a9-812c-b287-c358bb50026f" class="">components an appropriate diet should have (sufficient calories,</p><p id="2297904f-03a9-815a-9c3e-fce6f9ce8074" class="">sufficient proteins and fats, and sufficient vitamins and minerals)</p><p id="2297904f-03a9-8194-99a9-e90c1e6c87aa" class="">○ Secondary malnutrition: nutrient intake is adequate, but</p><p id="2297904f-03a9-81e5-9e47-e0ec9199e39b" class="">malnutrition is the result of malabsorption, impaired utilization or</p><p id="2297904f-03a9-816f-9545-dc0a6c5bbb9c" class="">storage, excess loss, or increased need for nutrients.</p><p id="2297904f-03a9-815a-a66a-f0651f4ee9d6" class="">●what conditions may lead to primary malnutrition?</p><p id="2297904f-03a9-81e1-a0a6-f9c3cba1fdf3" class="">○ poverty</p><p id="2297904f-03a9-818b-ae67-e6502e72d20e" class="">○ lack of education</p><p id="2297904f-03a9-81ab-85fc-f181df271d63" class="">○ anorexia/bulimia nervosa</p><p id="2297904f-03a9-81ba-82f4-e581ba4d0fe6" class="">○ chronic alcoholism</p><p id="2297904f-03a9-81db-8d13-d4505901aa2c" class="">○ pharmacological therapies</p><p id="2297904f-03a9-8160-90d5-d25f92a11527" class="">○ advanced cancer</p><p id="2297904f-03a9-8113-838c-e2fe2b8aba52" class="">○ gastrointestinal pathologies</p><p id="2297904f-03a9-8139-b55b-dda742a23b6e" class="">●what are the major diseases and conditions that lead to secondary</p><p id="2297904f-03a9-812a-98f6-f7f27ee16ce9" class="">malnutrition?</p><p id="2297904f-03a9-8134-af85-ee6e441bfcb4" class="">secondary malnutrition often develops in chronically ill, elderly, and</p><p id="2297904f-03a9-8144-bcf9-d31f9a9e9474" class="">bedridden patients. &gt;50% of older residents in nursing homes in the</p><p id="2297904f-03a9-8184-850b-db1abe618052" class="">US are malnourished.</p><p id="2297904f-03a9-81ae-8597-c35e4dcc7696" class="">conditions that may lead to it:</p><p id="2297904f-03a9-8119-b7e1-db27b8ee5afa" class="">○ Gastric resection → short bowel syndrome</p><p id="2297904f-03a9-81ab-a0ab-df0d8f5118fb" class="">○ IBD or other type of chronic inflammation of the intestinal mucosa</p><p id="2297904f-03a9-81ae-abb5-c0e207be42d0" class="">○ celiac disease</p><p id="2297904f-03a9-81df-825f-ccb1a944f0c8" class="">○ lactase deficiency</p><p id="2297904f-03a9-8178-8939-c48cb9adb0d1" class="">○ pancreatic insufficiency</p><p id="2297904f-03a9-8147-832c-ea687e11350e" class="">○ liver and gallbladder disease → cholestasis</p><p id="2297904f-03a9-817a-9f78-fad04fadbea8" class="">●what is SAM? main characteristics</p><p id="2297904f-03a9-818e-b66a-d8bfe95f144e" class="">Severe Acute Malnutrition:</p><p id="2297904f-03a9-811f-a567-f305a69003e0" class="">Inadequate nutrient intake resulting in loss of fat and muscle tissue,</p><p id="2297904f-03a9-8156-b43e-de7f4554a908" class="">weight loss, lethargy, and generalized weakness.</p><p id="2297904f-03a9-810e-8f36-ea4571bf8e06" class="">○ in developed countries it is more common in the elderly and</p><p id="2297904f-03a9-8191-9a45-eb055f41075d" class="">debilitated patients</p><p id="2297904f-03a9-8178-ba8a-cb463920754a" class="">○ in developing countries it affects children (up to 25%) and it is</p><p id="2297904f-03a9-815d-a0e4-f168a4c47f2d" class="">○</p><p id="2297904f-03a9-81b0-80ec-f76997670944" class="">associated with high death rates among the youngest</p><p id="2297904f-03a9-816e-83e7-e5b0b32f5354" class="">●How is malnutrition measured?</p><p id="2297904f-03a9-81c0-a27c-cb6c009cbbdb" class="">Malnutrition is determined in relation to the body Mass Index (BMI = weight in kilograms divided by height in meters squared). A BMI of less than 16 kg/m2 is considered malnutrition (the normal range is 18.5 to 25 kg/m2).</p><p id="2297904f-03a9-8135-959f-ebefe72c9bdb" class="">BMI has its limitations (body builders have a BMI that is considered obese)</p><p id="2297904f-03a9-81d2-9db8-fd7ceba68b52" class="">Other useful parameters are the evaluation of:</p><p id="2297904f-03a9-8102-91b9-c711cc133c08" class="">○ fat reserves (thickness of skin folds),</p><p id="2297904f-03a9-814c-8da5-cac6fa15bec6" class="">○ muscle mass (reduced circumference of the central part of the arm)</p><p id="2297904f-03a9-8127-9064-f11a16c9bd1a" class="">○ serum protein (the measurement of albumin and transferrin)</p><p id="2297904f-03a9-8146-92c9-e45613a6205a" class="">○ gut microbiome</p><p id="2297904f-03a9-81ba-abac-ceeb86610126" class="">●what are the two protein compartments in the body?</p><p id="2297904f-03a9-813d-9a7e-c2efbdb3afb6" class="">Two differentially regulated protein compartments in the body: 1) somatic compartment(proteins in skeletal muscles)</p><p id="2297904f-03a9-8177-ad80-f32b367a735f" class="">2) visceral compartment (protein stores in the visceral organs, primarily the liver)</p><p id="2297904f-03a9-81ac-a838-d335d4d45daf" class="">●Describe Marasmus</p><p id="2297904f-03a9-8104-917f-d228ed82ee76" class="">Marasmus is a severe type of malnutrition characterized by an overall caloric deficiency (with or without protein deficiency)</p><p id="2297904f-03a9-815c-9735-f26d12d38346" class="">Usually affects children in developing countries</p><p id="2297904f-03a9-81f7-b216-d85049e62b4c" class="">Weight is 60% of normal weight for age and sex. (Low BMI)</p><p id="2297904f-03a9-81c7-b94b-fb1914b99586" class="">There is growth retardation, anemia, severe fat loss, severe sarcopenia, impaired immunity.</p><p id="2297904f-03a9-8112-8cad-fb8f8532fd5d" class="">The somatic reserve of protein is almost completely depleted whereas the visceral reserve is not completely depleted so serum albumin is normal or slightly below normal</p><p id="2297904f-03a9-810d-8f25-edf7d6204ddd" class="">●Describe Kwashiorkor</p><p id="2297904f-03a9-81a8-bf44-d47c19be0e7d" class="">Kwashiorkor is the most common SAM in African children.</p><p id="2297904f-03a9-810a-b902-fd6a9df8c3b4" class="">It results from a severe protein deficiency that is relatively more severe than the total calorie deficiency. It results from a diet that is almost exclusive in carbohydrates.</p><p id="2297904f-03a9-8195-b8c6-e3822625092f" class="">The protein deficiency is so extreme that both the somatic and visceral reserves of protein are depleted, causing severe hypoalbuminemia that results in edema (ascites) so they have a swollen stomach that “hides” the malnourished appearance.</p><p id="2297904f-03a9-810e-8d47-f718d2af052a" class="">Fat deposits are maintained, muscle atrophy is less marked (or visible, probably because of glycogen) than in marasmus. Less severe forms can be seen in individuals with chronic diarrheal states</p><p id="2297904f-03a9-81d1-9cc6-f3719a079b86" class="">●What are the effects of Marasmus and Kwashiorkor in the bone marrow?</p><p id="2297904f-03a9-813e-b231-cfa730711612" class="">There’s usually hypoplasia in the bone marrow.</p><p id="2297904f-03a9-81dd-b507-e1e265f3a59d" class="">●</p><p id="2297904f-03a9-819a-9d05-dead430accd2" class="">This is due to a lack of nutrients for the synthesis of red and white blood cells.</p><p id="2297904f-03a9-8161-956b-c48ae867b034" class="">The peripheral blood commonly reveals mild to moderate anemia Depending on the specific type of deficiency or the combination of deficiencies (iron, folate, vitamin B12, protein, etc), the type of anemia that is going to be present (normocytic, microcytic or macrocytic).</p><p id="2297904f-03a9-817e-bfeb-c93eabca0af9" class="">●What are the effects of Marasmus and Kwashiorkor in the brain? The brain in infants who are born to malnourished mothers and who suffer SAM during the first 1 or 2 years of life has been reported by some to show cerebral atrophy, a reduced number of neurons, and impaired myelinization of white matter.</p><p id="2297904f-03a9-8189-8b1d-d7ce28973a37" class="">●Define cachexia</p><p id="2297904f-03a9-81a9-8d31-e157543038a7" class="">SAM is a common complication in patients with AIDS or advanced cancers → <em>cachexia.</em> Cachexia occurs in about 50% of cancer patients, most commonly in individuals with gastrointestinal, pancreatic, and lung cancers (responsible for about 30% of cancer deaths).</p><p id="2297904f-03a9-814f-b743-d51e24aaa71b" class="">Highly debilitating condition characterized by: Extreme weight loss 1.</p><p id="2297904f-03a9-8126-a1d4-ef83e09a08f8" class="">2. Fatigue</p><p id="2297904f-03a9-8175-98ab-f3410aad0659" class="">3. Muscle atrophy (Mortality is generally the consequence of atrophy of the diaphragm)</p><p id="2297904f-03a9-81ee-bc29-e3af8a6bbbfd" class="">4. Anemia</p><p id="2297904f-03a9-81e3-aab8-df334feabf76" class="">5.</p><p id="2297904f-03a9-8124-ada5-fd8a1c0de79e" class="">Anorexia 6. Edema.</p><p id="2297904f-03a9-81fd-b4d9-d2fa25d2c425" class="">●It is a result of a combination of factors including:</p><p id="2297904f-03a9-81a0-b89b-ebaf504e6e72" class="">1. Energy waste through the use of metabolically inefficient pathways (anaerobic metabolism and cori cycle)</p><p id="2297904f-03a9-813a-8eb6-c43e7b3ef7ba" class="">2. Anorexia due to</p><p id="2297904f-03a9-8124-9d92-f2c6c335f535" class="">◆Endocrine imbalance</p><p id="2297904f-03a9-8177-83fa-d653b9ef0c89" class="">◆Cytokines</p><p id="2297904f-03a9-81d2-a0fa-ef6d3e884a0b" class="">◆Psychological factors (depression, stress)</p><p id="2297904f-03a9-814a-8f53-c744385d1afd" class="">◆Taste disruptions</p><p id="2297904f-03a9-8115-9132-c44a358c047b" class="">3. tumor-induced gastrointestinal dysfunction (decreased peristalsis, decreased digestive secretions, delayed digestion and assimilation of nutrients)</p><p id="2297904f-03a9-8191-8b99-fa33fc88442f" class="">4. proteolysis due to activation of NFkB and transcription of muscle- specific ubiquitin ligase</p><p id="2297904f-03a9-8152-b7fd-ccd3a5cab7dc" class="">5.</p><figure id="2297904f-03a9-8108-a10a-cb11bd049ae2" class="image"><a href="Nutritional%20Diseases%202297904f03a981c288ecf56aa4345bcb/image1.png"><img style="width:48px" src="Nutritional%20Diseases%202297904f03a981c288ecf56aa4345bcb/image1.png"/></a></figure><p id="2297904f-03a9-8183-b13b-e20930a41687" class="">●describe vitamin A function and deficiency</p><p id="2297904f-03a9-818c-ba52-ce521d6092df" class="">Vitamin A is a fat soluble vitamin absorbed as preformed VitA from animal products or as carotenes from vegetal sources, which are then converted into the active vitamin (retinol). Main functions:</p><p id="2297904f-03a9-8143-acd8-faf7022d6646" class="">1. Maintenance of normal vision (trans retinal in rhodopsin)</p><p id="2297904f-03a9-815f-b86c-d1c1db021953" class="">2. Cell growth and mainteinance of the differentiation of epithelial</p><p id="2297904f-03a9-8154-8307-f4e027191986" class="">cells (important in the differentiation of the muco-secreting</p><p id="2297904f-03a9-81a3-bfed-f67b85c2f65e" class="">epithelium)</p><p id="2297904f-03a9-8170-84ad-c73047fd01ef" class="">3. Metabolic effects (e.g. drug metabolism, fatty acids…)</p><p id="2297904f-03a9-8163-841a-f689428bb2eb" class="">4. Stimulation of the immune system</p><p id="2297904f-03a9-8187-a5df-cbab6abeabca" class="">5. Photoprotection</p><p id="2297904f-03a9-8183-a085-c6a968a87957" class="">6. Antioxidant</p><p id="2297904f-03a9-811a-b0b3-c7422e832e93" class="">●Deficiency may be casued by undernutrition or fat malabsorption.</p><p id="2297904f-03a9-81f6-b191-e6e9a4a38f9d" class="">Consequences of deficiency (symptoms) are:</p><p id="2297904f-03a9-81d3-afea-cdc6b43a35af" class="">○ impaired vision esp. at night</p><p id="2297904f-03a9-81ef-b581-f2eae69d1562" class="">○ epithelial metaplasia and keratinization</p><p id="2297904f-03a9-8182-92e2-e5c9f4cc21ed" class="">◆respiratory tract, urinary tract, skin..</p><p id="2297904f-03a9-81c9-9536-d1d4bc192d08" class="">◆Eye: squamous metaplasia of the epithelium of the conjunctiva</p><p id="2297904f-03a9-81d6-bc2f-ee87179da8f1" class="">and lacrimal ducts → xeroftalmia (dry eye) → Bitot spots</p><p id="2297904f-03a9-818b-95eb-d72c93e9d47b" class="">(keratin spots) → keratomalacia (cornea erosion that may lead</p><p id="2297904f-03a9-8168-9bd9-ef377917c265" class="">to blindness)</p><p id="2297904f-03a9-815a-9e19-cfd060da45a5" class="">●describe the main steps of vitamin D metabolism</p><p id="2297904f-03a9-8148-a970-d6fd426adfc3" class="">1. The skin synthesizes 90% of vitamin D3 (cholecalciferol) from 7-</p><p id="2297904f-03a9-8153-ab7a-eaa4c3a621e3" class="">dehydrocholesterol in a reaction that requires UVB. There are</p><p id="2297904f-03a9-8125-949a-e33651da4fc7" class="">dietary sources of cholecalciferol that account for around 10% of</p><p id="2297904f-03a9-81c6-8660-e1efbd47213b" class="">our normal intake (milk products and fish)</p><p id="2297904f-03a9-81ac-93d3-ee115263fd04" class="">2. Vit D3 binds DBP (D binding protein) and is taken to the liver</p><p id="2297904f-03a9-814e-90c3-f16530d6d918" class="">3. In the liver cholecalciferol is converted to a more active form 25-</p><p id="2297904f-03a9-81cf-85fa-e4b0200715af" class="">hydroxycholecalciferol (25-OH-D) by 25-hydrolases (CYP27A1,</p><p id="2297904f-03a9-8154-92cc-e25e3cfadc91" class="">and other CYPs)</p><p id="2297904f-03a9-81c7-8bfe-f23885b15274" class="">4. in the kidneys 20-OH-D is converted to the most active form of the</p><p id="2297904f-03a9-8146-ace4-db5b884ae30a" class="">vitamin: 1,25-dihydroxyvitamin D by a 1-alpha-hydrolase.</p><p id="2297904f-03a9-812d-85b1-f5798869bf39" class="">●</p><figure id="2297904f-03a9-8139-81ad-ca39ffdc24c9" class="image"><a href="Nutritional%20Diseases%202297904f03a981c288ecf56aa4345bcb/image1.png"><img style="width:48px" src="Nutritional%20Diseases%202297904f03a981c288ecf56aa4345bcb/image1.png"/></a></figure><p id="2297904f-03a9-8156-8d02-d62b5ca99e9b" class="">●what are the functions of vitamin D?</p><p id="2297904f-03a9-81aa-9107-e343530c63d4" class="">Main functions of vitamin D:</p><p id="2297904f-03a9-81ff-beed-ed80eaacda6f" class="">○ Maintains adequate plasma levels of calcium and phosphorus:</p><p id="2297904f-03a9-8103-990e-fa3d3a4fe195" class="">◆Stimulation of intestinal absorption of calcium and phosphorus</p><p id="2297904f-03a9-815d-94bf-d0634ae100fc" class="">◆Stimulation of calcium reabsorption in the kidney</p><p id="2297904f-03a9-8105-afb6-f25121ea5916" class="">◆Induces Osteoclast maturation (osteoclasts dissolve bone and</p><p id="2297904f-03a9-812d-8ac0-f64b07b84c6d" class="">release calcium and phosphorus into the circulation) → Key role</p><p id="2297904f-03a9-8100-915a-d95006ff9db3" class="">of parathyroid glands → ↑PTH</p><p id="2297904f-03a9-81bc-a6a7-f4ca5c38383c" class="">○ Bone mineralization</p><p id="2297904f-03a9-8166-97a7-f9fb40d2ba9c" class="">○ Antimicrobial effects</p><p id="2297904f-03a9-81aa-82e8-dd0e8665b2f7" class="">○ Involved in proliferation, differentiation, apoptosis and</p><p id="2297904f-03a9-8119-9809-d81266cf3eac" class="">angiogenesis</p><p id="2297904f-03a9-810d-9d72-d555f7369b1d" class="">●Describe vitamin D deficiency</p><p id="2297904f-03a9-813e-8765-f012299eb7f3" class="">normal levels in the blood: 20-100 ng/ml; deficit &lt;20ng/ml Causes:</p><p id="2297904f-03a9-81c5-883a-d27ef9f2aeb2" class="">○ Limited exposure to sunlight</p><p id="2297904f-03a9-8163-a882-d97d3d1104bc" class="">○ Dietary deficiencies</p><p id="2297904f-03a9-812d-971e-d5676f3d4a67" class="">○ Kidney or liver disorders, malabsorption…</p><p id="2297904f-03a9-8138-a2e4-e635ccf7b9f9" class="">○ Aging, genetic osteoporosis</p><p id="2297904f-03a9-81ed-9a49-ee6828ce3011" class="">●→ Consequences of VitD deficiency are hypocalcemia and hypophosphatemia that lead to low bone mineralization.</p><p id="2297904f-03a9-81cb-8a8c-c20820b9de4d" class="">In growing children whose epiphyses have not closed, this leads to Rickets:</p><p id="2297904f-03a9-817e-8148-f40a332043d3" class="">Inadequate calcification leads to excessive growth of the epiphyseal cartilage → microfractures → skeletal deformation (arching of the legs). Square shape of the head due to flattening of the occipital bones and deformation of the parietal ones. Anterior protrusion of the sternum (pigeon breast deformity).</p><p id="2297904f-03a9-8113-b871-c928b5626479" class="">In Adults, Osteomalacia: defective bone remodeling that increases risk for fractures especially in vertebrae and femur.</p><p id="2297904f-03a9-817a-a142-c7b362f179d9" class="">More rarely, there can be hypocalcemic tetany:</p><p id="2297904f-03a9-81e7-af66-c077f8b95240" class="">Convulsive state caused by an insufficient extracellular concentration of ionized calcium, which is required for normal neural excitation and the relaxation of muscles.</p><p id="2297904f-03a9-8176-876c-f28e91aa7bec" class="">●Describe the function of vitamin C</p><p id="2297904f-03a9-8134-84d0-e32a6a9a7ee9" class="">Vitamin C (ascorbic acid) is water soluble, obtained entirely from diet.</p><p id="2297904f-03a9-815f-b7f0-fb6b98b5b7e0" class="">It’s main functions:</p><p id="2297904f-03a9-81fd-b044-e74401d8ff1b" class="">○ is a cofactor for enzymes that hydroxylate procollagen into collagen and participate in wound healing</p><p id="2297904f-03a9-817f-8eb1-d65afc3c96ca" class="">○ Antioxidant properties</p><p id="2297904f-03a9-816a-8d5e-c3c7f3042cd2" class="">○ Facilitates intestinal absorption of iron</p><p id="2297904f-03a9-81af-b582-c5a16647c33d" class="">●describe vitamin C deficiency</p><p id="2297904f-03a9-81c4-8c62-f7fee4506cad" class="">The main consequence is impaired collagen formation which results in bleeding easily, and impaired wound healing. Inadequately</p><p id="2297904f-03a9-8114-a4a0-c5d18f700ad6" class="">hydroxylated procollagen cannot acquire a stable helical configuration, so it is poorly secreted from the fibroblast.</p><p id="2297904f-03a9-8139-948e-c031bdeb8aed" class="">Effects:</p><p id="2297904f-03a9-8181-a021-efeee6b9bab0" class="">It affects particularly blood vessels → predisposition to hemorrhages and poor wound healing.. Loss of teeth and gums. In children:</p><p id="2297904f-03a9-8109-ad99-f77b44e53094" class="">insufficient growth and abnormal development of collagen-containing structures (teeth, bones and blood vessels). Inability to contain infections. Iron deficiency anemia</p><p id="2297904f-03a9-81e2-a25d-e7ac8ae91c36" class="">Cause: inadequate diet. It was common between sailors between 16th and 18th century (&gt;2 million died)</p><p id="2297904f-03a9-81d1-8e13-c730d77c61a7" class="">●what is the role of vitamin B12?</p><p id="2297904f-03a9-8163-a2fb-f8390b50f56e" class="">Vitamin B12 is a water-soluble vitamin required for the development, myelination, and function of the central nervous system; healthy red blood cell formation; and DNA synthesis.</p><p id="2297904f-03a9-81ac-8c88-f3d36b284a77" class="">Methylcobalamin (metabolically active form of vitamin B12) is an essential cofactor in the conversion of homocysteine to methionine by the enzyme methionine synthase: methylcobalamin yields a</p><p id="2297904f-03a9-81e5-99d7-c9b7a69940a6" class="">methyl group that is recovered from N5-methyltetrahydrofolic acid, the principal form of folic acid in plasma, which is converted to</p><p id="2297904f-03a9-8123-bfbc-f4082fddd409" class="">tetrahydrofolic acid (FH4).</p><p id="2297904f-03a9-81dd-900c-e7fed67364dd" class="">In that cycle it is helping to form FH4 and methionine.</p><p id="2297904f-03a9-81a8-9f41-fddc55b29bee" class="">FH4 is required for the conversion of deoxy-uridine monophosphate (dUMP) to deoxythymidine monophosphate (dTMP), a building block for DNA.</p><p id="2297904f-03a9-817a-892d-f4f534f823be" class="">●</p><figure id="2297904f-03a9-819f-b78e-d013584b2a17" class="image"><a href="Nutritional%20Diseases%202297904f03a981c288ecf56aa4345bcb/image1.png"><img style="width:48px" src="Nutritional%20Diseases%202297904f03a981c288ecf56aa4345bcb/image1.png"/></a></figure><p id="2297904f-03a9-8105-84e1-dc23a883516c" class="">●how is vitamin B12 absorbed?</p><p id="2297904f-03a9-813f-a5fa-d276352a589b" class="">Vitamin B12 (cobalamin) is taken up with the diet (foods of animal origin) and synthesized by the intestinal flora (daily requirement is 2 to 3 µg). Absorption occurs in the terminal ileum, where the receptors for the vitamin B12 / IF complex are expressed (cubilin). Vitamin B12 is freed from binding proteins (in food) through the action of pepsin in the stomach and binds to a salivary protein called haptocorrin. In the duodenum, bound vitamin B12 is released from haptocorrin by the action of pancreatic proteases and it associates with intrinsic factor (F1), produced by the parietal cells of the fundic mucosa. In the blood the vitamin B12 is transported by a group of proteins</p><p id="2297904f-03a9-819e-90c3-c165c7aa970a" class="">(transcobalamin)</p><p id="2297904f-03a9-8149-beb8-c3c8f9c660f9" class="">●describe vitamin B12 deficiency</p><p id="2297904f-03a9-817d-bb65-cc3d318706b1" class="">○ Ineffective hematopoioesis: Deficit in folic acid or vitamin B12 causes altered DNA synthesis: delayed nuclear maturation, normal cytoplasmic and hemoglobin → nuclear to cytoplasm asynchrony.</p><p id="2297904f-03a9-8171-abf6-c5956c681dbb" class="">DNA defects trigger apoptosis of precursors inside the marrow leading to pancytopenia (low levels of red blood cells, white blood cells and platelets) Formation of large erythroid precursors</p><p id="2297904f-03a9-8133-a5eb-c1c9d1f7bd65" class="">(megaloblasts) in the bone marrow</p><p id="2297904f-03a9-81ee-9b5c-c00ff485b1d0" class="">○ The erythrocytes that manage to leave the marrow are typically macrocytic.</p><p id="2297904f-03a9-813c-a6b4-e168b159a9dc" class="">○ Vitamin B12 deficiency in most cases is secondary to lack of intrinsic factor (F1).</p><p id="2297904f-03a9-8151-b80a-ce7a98d06956" class="">◆PERNICIOUS ANEMIA: Autoimmune disease, characterized by the presence of auto-Ab that attack on the gastric mucosa (anti-parietal cells or anti-F1 or anti-ileal receptor).</p><p id="2297904f-03a9-812b-9e41-d92c8831036a" class="">●what are the 3 different types of adverse reactions to food?</p><p id="2297904f-03a9-81bd-9f6d-e8b3553fc86c" class="">1. TOXIC (INTOXICATIONS)</p><p id="2297904f-03a9-81e2-bd4f-f0eeea8d1269" class="">2. NON TOXIC</p><p id="2297904f-03a9-81a3-957f-f3494e44d736" class="">1. DUE TO ALTERED IMMUNE RESPONSE (ALLERGIES) 1. IgE dependent</p><p id="2297904f-03a9-8141-a0db-c8a16025f07f" class="">2. non IgE dependent</p><p id="2297904f-03a9-8110-b145-f89c3e9d63a9" class="">2. NOT OF IMMUNOLOGIC ORIGIN (INTOLERANCES) 1. of enzymatic type</p><p id="2297904f-03a9-8138-8800-da07d989da66" class="">2. of pharmacologic type</p><p id="2297904f-03a9-81f0-873c-da9f54e79502" class="">3. induced by food additives</p><p id="2297904f-03a9-8106-817c-f11047d43458" class="">●describe intoxications</p><p id="2297904f-03a9-81ac-ae7f-e78fa8c73113" class="">There is not any distinction among individuals so the toxin hit all of us.</p><p id="2297904f-03a9-81ed-9014-fe0b4e299451" class="">There are different types of toxins: from funghi like Amanita phalloides, Amanita verna, Amanita virosa which may be fatal; Inadequate food storage can allow the growth of dangerous microorganisms (contaminants) e.g. aspergillus which produces aflatoxins.</p><p id="2297904f-03a9-810b-ba22-eaea4a370281" class="">Chronic consumption of these contaminats is carcinogenic.</p><p id="2297904f-03a9-81e2-ab9d-ed77f66f78d4" class="">More common and frequent are intoxications because of Clostridium Botulinum, Staphylococcus Aureus and Salmonella Typhi.</p><p id="2297904f-03a9-818a-a974-c3999cfb0812" class="">●what are the food allergies?</p><p id="2297904f-03a9-81c7-8eb6-ec07e4568bdf" class="">Food allergies can be IgE mediated and non-IgE mediated.</p><p id="2297904f-03a9-8171-8be1-cf6c4be29808" class="">○ The symptoms in IgE mediated allergies appear within minutes to hours. The reaction is fast, acute, sometimes very strong as in the case of anaphylaxis.</p><p id="2297904f-03a9-81d1-bf7b-e6e202c3a941" class="">○ Allergies not mediated by IgE, but still mediated by improper reaction of the innate immunity, show a late onset of symptoms.</p><p id="2297904f-03a9-81e7-b4b6-fd0e30a48cf3" class="">○ there is an increasing number of conditions characterized by both IgE and non IgE mediated symptoms that appear fast and last for hours or days.</p><p id="2297904f-03a9-8142-a1c8-f9722608f041" class="">●describe IgE-mediated food allergy</p><p id="2297904f-03a9-8166-9e17-c220e5b521df" class="">Type I hypersensitivities include atopic diseases, which are an</p><p id="2297904f-03a9-814c-affa-d5198ef85212" class="">exaggerated IgE mediated immune responses (i.e., allergic: asthma, rhinitis, conjunctivitis, and dermatitis), and allergic diseases, which are immune responses to foreign allergens (i.e., anaphylaxis, urticaria, angioedema, food, and drug allergies). The allergens that result in a type I hypersensitivity may be harmless (i.e., pollen, mites, or foods, drugs, etc.) or more hazardous such as insect venoms. The reaction may be manifested in different areas of the body and may result in instances such as:</p><p id="2297904f-03a9-8178-ba27-d07d95600ab5" class="">○ Nasal allergic rhinitis or hay fever</p><p id="2297904f-03a9-81d2-9781-eaab38b2f721" class="">○ Ocular allergic conjunctivitis, potentially due to seasonal allergens such as pollen or mold spores</p><p id="2297904f-03a9-81c7-867c-c3d80ed06d0c" class="">○ Dermatological hives, atopic eczema, or erythema</p><p id="2297904f-03a9-8163-91b6-e6fc4a92f6f5" class="">○ Soft tissue angioedema</p><p id="2297904f-03a9-8178-a807-ff1e8601079d" class="">○ Pulmonary reactions, such as allergic asthma or hypoxia</p><p id="2297904f-03a9-815f-bf42-c103a0d777f0" class="">○ Systemic reaction, which is a life-threatening medical emergency, and also known as anaphylaxis.</p><p id="2297904f-03a9-8145-bc37-d733cb221c63" class="">○ There are common environmental allergens that are known to be trigger excessive formation of IgE antibodies in some individuals: e.g. pollen, moulds, mites, foods (eggs, crustaceans, fish, fruit), etc. Having a hypersensitivity reaction to these common</p><p id="2297904f-03a9-8167-9c98-c5677b85c42a" class="">environmental allergens is also an important risk factor for the development of allergic diseases (IgE mediated): rhinitis, asthma, atopic eczema, etc.</p><p id="2297904f-03a9-8165-bffa-dde3cba0f0eb" class="">○ The risk of developing food allergy can depend on several factors:</p><p id="2297904f-03a9-812e-a280-fa00fa27a1a6" class="">◆Hereditary predisposition to express hypersensitivity to foods with a high protein content (mainly of plant origin); over time these individuals may develop other allergic pathologies (atopic rhinitis, bronchial asthma)</p><p id="2297904f-03a9-81c9-a623-d0f969e4e200" class="">◆Increased intestinal mucosal permeability (physiological in childhood, pathological due to inflammatory processes or malnutrition) can favor the penetration of antigens and their presentation to lymphocytes</p><p id="2297904f-03a9-81ab-9b74-d6236930e955" class="">◆Allergen concentration</p><p id="2297904f-03a9-81e9-b550-e9fbf435503d" class="">◆Environmental factors (cigarette smoke, physical stress, cold temperatures)</p><p id="2297904f-03a9-813f-aef0-f9e56633496f" class="">●describe the sequence of events in immediate (type 1) hypersensitivity allergens start the first phase of sensitization of cells, in particular mastocytes and basophils that start expressing on the surface IgE and it is only the second encounter with the same or similar allergen because of the reaction of IgE on the surface of the cell, there is a massive, acute release of inflammatory mediators like histamine and prostaglandins that cause the allergic reaction which leads to local and systemic symptoms in particular conjunctivitis, nasal allergy, asthma, urticaria.</p><p id="2297904f-03a9-812a-8192-cbce9bd17083" class="">●describe non IgE mediated allergies (type 2 hypersensitivities)</p><p id="2297904f-03a9-812c-99ea-ea86ee69f3e6" class="">non IgE mediated allergies:</p><p id="2297904f-03a9-815f-820a-f77071d78bdf" class="">There is involvement of innate immunity, as well as the adaptive immunity, in particular Th2 cells. (Th1 is mainly leading to activation of cytotoxic T cells response while Th2 response, typical of allergies, is producing antibodies.)</p><p id="2297904f-03a9-8117-8cf1-ce8fb240d0e9" class="">○ Food protein induced Enteropathies: Food-Protein-Induced Enterocolitis Syndrome (FPIES), Food-Protein-Induced Allergic Proctocolitis (FPIAP), Food Protein Enteropthy (FPE) ****they occur very early in the childhood and are characterized by abnormal innate immune responses to some protein content of a given food.</p><p id="2297904f-03a9-81c9-b6f2-d186c8278130" class="">○ Eosinophilic GI disorders: esophagitis, gastritis, enterocolitis. Mixed condition in which IgE is present as well.</p><p id="2297904f-03a9-8137-91a3-e62a55b50585" class="">○ Celiac Disease</p><p id="2297904f-03a9-8146-a5a4-fc5402894c2c" class="">●describe celiac disease</p><p id="2297904f-03a9-8182-9adc-d4e37d24743c" class="">○ what it is: Non IgE-dependent Immune-mediated disorder triggered by the ingestion of gluten containing foods such as wheat, rye, or barley in genetically predisposed individuals → intestinal villous atrophy.</p><p id="2297904f-03a9-81fc-ae4a-e7ef7569b9f1" class="">○ Symptoms:</p><p id="2297904f-03a9-8156-8ae2-c37cddd583b5" class="">◆vary and may include digestive problems, anemia, skin rash,</p><p id="2297904f-03a9-817c-a070-d41c1db7940c" class="">and joint and bone pain.</p><p id="2297904f-03a9-81e1-87d5-c58d534d220f" class="">◆It may also be asymptomatic or present with atypical symptoms</p><p id="2297904f-03a9-8198-8d9a-f0cef4f8c7b3" class="">and escape diagnosis for a long time</p><p id="2297904f-03a9-81a0-bd6a-cc00145a0ed3" class="">◇ anemia due to chronic iron and vitamin malabsorption.</p><p id="2297904f-03a9-8113-88ae-db7cfb3a7d1b" class="">■ Silent celiac disease (positive serology and villous</p><p id="2297904f-03a9-81b8-85f3-c6dba75cf89d" class="">atrophy without symptoms);</p><p id="2297904f-03a9-816e-ba0d-d3018a282dca" class="">■ latent celiac disease (positive serology is not</p><p id="2297904f-03a9-8110-848c-fa836a327076" class="">accompanied by villous atrophy).</p><p id="2297904f-03a9-81d2-96a6-d219a989581f" class="">○ Epidemiology:</p><p id="2297904f-03a9-813f-85c9-ce82e34c7695" class="">◆Incidence: 1/100-1/150</p><p id="2297904f-03a9-8195-9b30-f3c42c4352d1" class="">◆In adults, most commonly between the ages of 30 and 60.</p><p id="2297904f-03a9-81fb-8f1c-e20ad47ee830" class="">◆Possible association with other autoimmune diseases (systemic</p><p id="2297904f-03a9-81c1-bb99-c00aa999deb7" class="">lupus erythematosus, rheumatoid arthritis)</p><p id="2297904f-03a9-81e9-89ac-e3ff40c75afa" class="">○ Treatment: gluten-free diet.</p><p id="2297904f-03a9-812b-867f-c30c76908932" class="">○ Morphology:</p><p id="2297904f-03a9-8156-a355-da8b5e0cc43f" class="">◆increased numbers of intraepithelial lymphocytes (IELs)</p><p id="2297904f-03a9-818f-be19-d5c286266512" class="">◆epithelial proliferation with crypt elongation.</p><p id="2297904f-03a9-81bb-847c-e88d80c884bb" class="">◆villous atrophy</p><p id="2297904f-03a9-8108-a1bd-e258638385ac" class="">○ Diagnosis:</p><p id="2297904f-03a9-810e-9e1f-f5fea56a405a" class="">◆endoscopy and biopsy → altered small intestine mucosa,</p><p id="2297904f-03a9-8153-87c0-d1ec7bc6114b" class="">sometimes lymphocytic infiltration (1st degree of CD) or</p><p id="2297904f-03a9-81d4-8e1e-f447ef5bae57" class="">already damaged villi.</p><p id="2297904f-03a9-8165-9d5d-c377fb31127b" class="">◆Serum Ab: IgA anti-Transglutaminase, IgG anti-</p><p id="2297904f-03a9-8137-9475-d39ef1cd56ef" class="">Transglutaminase, IgA anti-endomisium.</p><p id="2297904f-03a9-8117-baf1-e8b84b8f20ed" class="">●Describe the physic pathology of celiac disease</p><p id="2297904f-03a9-816e-b90f-eb458bfff9cc" class="">Gluten is digested into amino acids and peptides, including a 33-a.a.</p><ul id="2297904f-03a9-8171-86cd-debdfc8cdee6" class="bulleted-list"><li style="list-style-type:disc">gliadin, a peptide that is resistant to degradation by gastric,</li></ul><p id="2297904f-03a9-8146-8f98-ec3bda08ded6" class="">pancreatic, and small intestine proteases. ❖ Indigestible fragments of</p><p id="2297904f-03a9-8143-a0ec-c8af674f975f" class="">gluten induce enterocytes to release the zonulin which loosens tight</p><p id="2297904f-03a9-8149-bfa7-ed97d910d524" class="">junctions. ❖ Gliadin crosses the intestinal lining and accumulate under</p><p id="2297904f-03a9-81df-8ba0-e780aa0c65fe" class="">the enterocytes. ❖ Gliadin induces enterocytes to secrete IL-15, which</p><p id="2297904f-03a9-81c9-87eb-d93e942ca026" class="">in turn triggers activation and proliferation of CD8+ intraepithelial</p><p id="2297904f-03a9-8101-b803-ef253c206dbd" class="">lymphocytes (IELs). ❖ IELs express NKG2D, a natural killer marker and</p><p id="2297904f-03a9-8126-8705-e88853586b9f" class="">receptor for MIC-A. Enterocytes that have been induced to express</p><p id="2297904f-03a9-81aa-af26-e4945e8bb5fb" class="">surface MIC-A in response to stress are then attacked. The resulting</p><p id="2297904f-03a9-8196-ad9d-f19ac39edcb5" class="">epithelial damage enhance the passage of other gliadin peptides into</p><p id="2297904f-03a9-815b-bf95-d749732a2afa" class="">the lamina propria where they are deamidated by tissue</p><p id="2297904f-03a9-818d-b5b8-c8290155815f" class="">transglutaminase (tTG), an enzyme released by the damaged cells. ❖</p><p id="2297904f-03a9-81da-b3a6-d595eb4dc3ca" class="">The deamidated gliadin interacts with HLA-DQ2 or HLA-DQ8 on</p><p id="2297904f-03a9-8132-b0ce-edd6854f78ec" class="">antigen presenting cells (APC) and in turn stimulates CD4+ T cells to</p><p id="2297904f-03a9-81d9-b801-ff82d3770a54" class="">produce cytokines that exacerbate tissue damage. ❖ B cells release</p><p id="2297904f-03a9-812b-a38b-e4b0d25acf27" class="">antibody molecules targeted to gluten and TTG. Those antibodies</p><p id="2297904f-03a9-8161-b021-d58963426115" class="">might cause further damage when they hit their targets on near enterocytes.</p><p id="2297904f-03a9-8156-ad11-ff359c9ffbbf" class="">●describe food intolerances of enzymatic type</p><p id="2297904f-03a9-81d4-b6b5-e1fdb6237380" class="">The most notable one is lactose intolerance, caused by a deficiency in the enzyme lactase (a hydrolase) that hydrolyzes the beta 1,4</p><p id="2297904f-03a9-8145-9de6-c737bfdbfa5b" class="">glycosidic bond between glucose and galactose in lactose.</p><p id="2297904f-03a9-81c9-a91f-cb0677b8b195" class="">Diagnosed early in life but can also occur in adults (one third of adults have reduced lactase activity).</p><p id="2297904f-03a9-8140-a61f-d6ddc285171c" class="">As a result,</p><p id="2297904f-03a9-811e-acbc-faa0e8522fe7" class="">○ lactose remains in the gut and being osmotically active it draws in excess water → diarrhea</p><p id="2297904f-03a9-81df-b17c-fee04908b218" class="">○ the enterocytes cannot absorb the sugar and it is instead fermented by gut bacteria → gas, bloating and intestinal pain.</p><p id="2297904f-03a9-8168-a22b-e67eb1471777" class="">●Describe food intolerances of pharmacological type</p><p id="2297904f-03a9-817c-b8e1-ed36d86eb33c" class="">result from pharmacological effects of vasoactive amines present in foods.</p><p id="2297904f-03a9-8147-8fd9-f24ebe033262" class="">Histamine , tyramine, putrescine, spermine, spermidine, and</p><p id="2297904f-03a9-8155-a375-d33509572308" class="">cadaverine, are compounds formed during microbial fermentation of certain foods so they naturally contain high levels of biogenic amines. These include: cheeses (especially ripe cheeses– “cheese-reaction”), wine, kefir, dry sausage, fermented meats, sauerkraut, mushrooms, miso and soy sauce, chocolate and yeast (see links at bottom of page).</p><p id="2297904f-03a9-8102-8f1c-df2822bda820" class="">Sensitivity to histamine varies widely between individuals. Normally biogenic amines are rapidly broken down by enzymes. Some drugs inhibit the action of the enzymes. These include some antibiotics and antidepressants (monoamine oxidase inhibitors). Other drugs promote histamine release from immune cells, including some opioids, muscle relaxants, x-ray contrast media, as well as alcohol.</p><p id="2297904f-03a9-8145-abf5-cc73466bedb9" class="">Ingestion of TYRAMINE (E and NE precursor)with food should be limited to a minimum when taking MAO inhibitors due to risk of severe arterial hypertension</p><p id="2297904f-03a9-815d-af34-fd96d1799e20" class="">Symptoms can be a burning or itching sensation in the mouth, nausea, vomiting, flushing, skin rash or hives, itching, diarrhea, headache, blood pressure changes (both high or low possible), dizziness,</p><p id="2297904f-03a9-81c6-9aef-e099e34d39f3" class="">problems with concentration, “mental fog” and fainting. The usual onset of symptoms is within a few minutes after ingestion of the offending food. Some cases of asthma may be attributable to</p><p id="2297904f-03a9-81e6-ab0e-d46959839dcb" class="">histamine intolerance.</p><p id="2297904f-03a9-8175-99ef-f76f7f9e96f2" class="">The duration of symptom ranges from a few hours to 24 h.</p><p id="2297904f-03a9-81e8-aebf-d768dac05fdc" class="">Normally no specific treatment is required, as symptoms subside spontaneously.</p><p id="2297904f-03a9-81da-a03d-c605a60717e6" class="">“They’re re very frequent.</p><p id="2297904f-03a9-8119-b693-e56e5b0a4a8f" class="">1. Foods containing vasoactive amines: Foods containing high</p><p id="2297904f-03a9-81b5-8e10-f480194d5fb6" class="">amounts of vasoactive amines, for instance fermented cheese, milk as well, may cause a reaction similar to that occurring in allergies. The difference in the reactions between people is in the ability to eliminate vasoactive amines. There can also be single episodes of apparent intolerances when consuming these foods excessively: in this case it is an episode, the person is not intolerant if this doesn’t happen every time they consume these foods.</p><p id="2297904f-03a9-812c-8a58-f9b764b723f7" class="">2. Foods that cause degranulation of mastocytes: pseudoallergic condition (without antibodies). These are difficult to diagnose.</p><p id="2297904f-03a9-81d8-8853-d5faf44dcee1" class="">3. foods that maintain levels of histamine and serotonin higher because they are inhibitors of their normal catabolism (natural MAO inhibitors and diamine oxidase inhibitors)</p><p id="2297904f-03a9-815d-b240-da64cc362952" class="">●Often the situation is complex so you have bigger content of</p><p id="2297904f-03a9-811e-8da4-c0c62536c59c" class="">vasoactive amines and also presence of inhibitors of amine catabolism and eventually in the case of histamine and serotonin, the catabolism leads to the production of imidazole acetate that means that aldehyde dehydrogenase is important. So the best competitive inhibitor of diamine oxidase or monoamine oxidase, meaning a good substrate for aldehyde dehydrogenase is alcohol. If I eat food rich in histamine and I drink alcohol, I impair the histamine removal and I keep the histamine levels high.</p><p id="2297904f-03a9-81b4-b22e-c1a4173035ef" class="">●Describe intolerances to food additives</p><p id="2297904f-03a9-8142-bc47-d21250aad1d3" class="">sulphites (present in wine, they are stressors of gastric mucosa), sodium benzoate (probably it causes impairment of vasoactive amines catabolism). Glutamate is still considered as a possible cause of food intolerance but it is still debated.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

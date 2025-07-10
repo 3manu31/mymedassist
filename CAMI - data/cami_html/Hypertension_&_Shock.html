@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Hypertension &amp; Shock</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8194-b2b2-c90e01d1381a" class="page sans"><header><h1 class="page-title">Hypertension &amp; Shock</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81fb-a44d-faf7d990b099" class="">Hypertension &amp; Shock</p><p id="2297904f-03a9-8105-9025-f586b644a0c5" class="">●what mechanism regulate blood pressure?</p><p id="2297904f-03a9-81e6-90c8-e84cf52debf3" class="">Blood pressure is defined as the product between the cardiac output and the peripheral resistance. Cardiac outputis regulated by heart rate and myocardial contractility (cardiac factors) and by blood volume (=stroke volume, which can change, according to the concentration of sodium and mineralocorticoids or with the release of atrial natriuretic peptide by the myocardium).</p><p id="2297904f-03a9-8178-9067-fac593c8f94b" class="">The peripheral resistance can change according to vasoconstriction and vasodilation. Many factors can modulate the lumen of the vessels, such as humoral factors, that can be constrictors and dilators, local factors and neural ones, divided into constrictors and dilators. This latter can also regulate the heart rate and the contractility of the myocardium.</p><p id="2297904f-03a9-8185-979e-f682099640d2" class="">●what factors regulate blood volume?</p><p id="2297904f-03a9-816f-87cb-df831742d409" class="">Blood volume is mainly regulated by renal Na+ excretion or reabsorption.</p><p id="2297904f-03a9-8110-b483-ca79c06f67e5" class="">Kidneys filter 170 L of plasma containing 23 nmoles of salt</p><p id="2297904f-03a9-8140-b5a4-f7e944670ead" class="">daily.99.5% of filtered salt is reabsorbed, to maintain the total body concentration of Na+. 98% is reabsorbed by active sodium</p><p id="2297904f-03a9-8110-a5a3-e0cacdae61bc" class="">transporters, mainly ENaC (epithelial Na+channels), regulated by aldosterone which favors the reabsorption of Na+ and water. 1.5% is reabsorbed by epithelial sodium channels regulated by the renin-angiotensin system.</p><p id="2297904f-03a9-81e7-9923-cb11c52fb435" class="">○ Renin-Angiotensin-Aldosterone system: their aim is to maintain the blood volume in the circulatory system. Renin is produced in the juxtaglomerular cells of the kidneys in response to:</p><p id="2297904f-03a9-8106-b22c-f035592407ee" class="">1. low blood pressure in the afferent arterioles</p><p id="2297904f-03a9-81db-a6e2-d6ba4b8df6ad" class="">2. elevated levels of catecholamines</p><p id="2297904f-03a9-81ab-95e0-e127635acaaa" class="">3. low Na+ levels in the distal convoluted tubule, which occurs whtn GFR falls and there’s increased Na+ reabsorption in the proximal tubules.</p><p id="2297904f-03a9-813f-86cc-e7bbf3b2a7c6" class="">○ Renin cleaves angiotensinogen produced by the liver, into</p><p id="2297904f-03a9-811f-9910-df392e377ed4" class="">angiotensin I which in turn is converted into angiotensin II (a vasoconstrictor) by the enzyme ACE released by the vascular epithelium. Renin and angiotensin II induce the production of aldosterone by the adrenal gland. Aldosterone triggers the tubular system of the kidney to reabsorb more sodium. If the arteries of the kidney are over distended, the kidney will try to decrease the volume, lowering renin production. Consequently, aldosterone production is decreased, sodium and water retention decrease and the volume is reduced. This system takes some time,</p><p id="2297904f-03a9-81f5-94a9-cd4f799500a0" class="">so the volume variation is evident in one or two days. The kidneys, at the same time, release not only vasoconstrictor</p><p id="2297904f-03a9-810d-8987-ecf346e077c4" class="">elements but also vascular relaxing substances (PGs and NO) to counterbalance the vasopressor effect of angiotensin.</p><p id="2297904f-03a9-81c3-a76b-fed301070a3e" class="">○ Atrial Natriuretic peptide and Brain Natriuretic Peptide ANP/ BNP are produced by the heart following the degree of distension. So if there is high blood volume, the ventricles are more distended by the increased diastolic filling. This will increase the production of these peptides that induce increased sodium loss by the kidneys, and consequently water excretion causing a decrease in blood volume.</p><p id="2297904f-03a9-81f9-ab6e-e9942afbedf9" class="">○ Antidiuretic Hormone (ADH) Increases Water Reabsorption independent of sodium. The osmoreceptors in the hypothalamus sense the plasma osmolality and then the pituitary releases ADH accordingly. The most important renal action of ADH is to increase the water permeability of the distal tubule, collecting tubule, and collecting duct epithelia. This effect helps the body conserve water in circumstances such as dehydration. In the absence of ADH, the permeability of the distal tubules and collecting ducts to water is low, causing the kidneys to excrete large amounts of dilute urine, a condition called diabetes insipidus. Thus, the actions of ADH play a key role in controlling the degree of dilution or concentration of the urine,</p><p id="2297904f-03a9-81b5-94cb-fda46c8c70dc" class="">●in general, when does hypertension develop?</p><p id="2297904f-03a9-8103-a621-ec440870edaf" class="">hypertension occurs when there is an increased cardiac output (due to increased blood volume, heart contractility / heart rate) or an increased total vascular resistance (due to changes in the activity of neural, humoral and local effectors). In some situations, both these parameters increase.</p><p id="2297904f-03a9-8160-91c9-d53aa344e9fe" class="">●what values define hypertension?</p><p id="2297904f-03a9-81c3-87ee-c5dbf4fbae80" class="">To increase the blood volume, reaching the “threshold” of</p><p id="2297904f-03a9-8152-96ac-f1181b353942" class="">hypertension, is only sufficient to increase the blood content of the arteries by 20-30 ml.</p><p id="2297904f-03a9-81fa-9dfe-cdbd081106b6" class="">According to the new criteria, hypertension is now defined as systolic pressure over 120 mmHg, or diastolic pressure over 80 mmHg.</p><p id="2297904f-03a9-81c1-9ab2-e93b3b84f04c" class="">According to this new threshold, about 45% of the general population has hypertension.</p><p id="2297904f-03a9-814e-9bee-f083cacbe883" class="">The threshold until recently was defined as 130 mmHg systolic and 85 mmHg diastolic.</p><p id="2297904f-03a9-813b-89c0-dac0c03ebb4e" class="">Depending on the value of blood pressure, it’s possible to classify the hypertension into five groups:</p><p id="2297904f-03a9-811c-976d-e0839b0555e5" class="">1. borderline → values between 140/90-95 mmHg</p><p id="2297904f-03a9-81d5-96ae-efb4e41caba7" class="">mild → values between 140-159/95-99 mmHg 2.</p><p id="2297904f-03a9-81a6-96db-c97dd790d470" class="">3. moderate → values between 160-179/100-109 mmHg</p><p id="2297904f-03a9-81e7-a013-eb40952bb28c" class="">4. severe → values between 180-209/110-119 mmHg</p><p id="2297904f-03a9-8176-9662-ff05e08b0ad4" class="">5. very severe → values &gt; 210/&gt;120 mmHg</p><p id="2297904f-03a9-81b2-817f-f344d5bf5158" class="">●what are the types of hypertension?</p><p id="2297904f-03a9-8186-8b80-e20053c51d3b" class="">○ PRIMITIVE (essential) hypertension → very common (90-95%).</p><p id="2297904f-03a9-817b-aeee-e30026ec7093" class="">Multifactorial. It usually occurs after 40 years old.</p><p id="2297904f-03a9-8148-a3d0-f2eba934d493" class="">◆Environmental factors: psychological stress, obesity, alcohol,</p><p id="2297904f-03a9-81bb-9397-dfe1874af105" class="">smoking, physical inactivity, heavy salt consumption.</p><p id="2297904f-03a9-810e-b254-c953db7c926d" class="">◆Genetic factors: some polymorphisms induce excessive</p><p id="2297904f-03a9-810c-8f82-e9af14be7ca1" class="">RAAS activation → increased blood volume and blood pressure.</p><p id="2297904f-03a9-81fb-9a0e-d932c6bd14b4" class="">There seems to be familial predisposition because it runs in</p><p id="2297904f-03a9-81d3-9120-d66d460215eb" class="">some families.</p><p id="2297904f-03a9-81bf-bc57-d21b4fa5a16b" class="">○ Mechanism: reduced renal Na+ excretion, even if the pressure is</p><p id="2297904f-03a9-819d-afd5-e5b45d61ffc6" class="">normal. The result is an increase in blood volume and in cardiac</p><p id="2297904f-03a9-8195-b1b4-f2f98888a109" class="">output. In addition, there can also present an increase in the</p><p id="2297904f-03a9-81f3-b153-ef7d331b70b6" class="">peripheral resistance.</p><p id="2297904f-03a9-8162-940a-f9e967bf0c01" class="">○ SECONDARY HYPERTENSION: it’s associated with many diseases</p><p id="2297904f-03a9-811c-a6b5-f28c05e37ac9" class="">affecting the kidneys, adrenal glands or other endocrine organs.</p><p id="2297904f-03a9-81c5-b2e0-c03031165cde" class="">Treating these diseases, we can reduce hypertension.</p><p id="2297904f-03a9-81a1-8099-f8f5cae9e0f3" class="">◆Renal (most common)</p><p id="2297904f-03a9-8163-a8f8-ddf18b1c7bb6" class="">◇ Chronic renal disease</p><p id="2297904f-03a9-8153-9edb-c416d4ee42da" class="">◇ Acute glomerulonephritis</p><p id="2297904f-03a9-8184-9648-e875e707f23b" class="">◇ Polycystic disease</p><p id="2297904f-03a9-8154-8dd8-e9191fe0ba36" class="">◇ Renal artery stenosis → excess RAA activation →</p><p id="2297904f-03a9-81b7-a1f0-f8cc34465e75" class="">secondary hyperaldosteronism</p><p id="2297904f-03a9-81fc-9965-cc5f93b2f08e" class="">◇ Renal vasculitis</p><p id="2297904f-03a9-81c0-9241-e8fbff543a73" class="">◇ Renin-producing tumors</p><p id="2297904f-03a9-810d-befa-feed3a480bd9" class="">◇ What is the mechanism behind renal hypertension?</p><p id="2297904f-03a9-8189-adfb-c616c0195e73" class="">narrowing (stenosis) of the renal artery (congenital; a mass;</p><p id="2297904f-03a9-8167-b7d1-c223831bc7cf" class="">atherosclerotic plaque, etc) will cause low perfusion in the</p><p id="2297904f-03a9-8124-a155-eba643de21ca" class="">afferent arteriole → Juxtaglomerular cells will sense this</p><p id="2297904f-03a9-813c-9026-dd6bfa47b2f1" class="">and increase Renin production in response, which will cause</p><p id="2297904f-03a9-8191-9f99-fe5f6d87dfcc" class="">an increase in aldosterone secretion (secondary</p><p id="2297904f-03a9-8150-8d40-ca93fcf6b25d" class="">hyperaldosteronism)</p><p id="2297904f-03a9-81bb-a92a-f0742f9a1ee4" class="">Diagnosis:</p><p id="2297904f-03a9-819d-8cbc-eb0c19f1c631" class="">■ doppler ultrasonography.</p><p id="2297904f-03a9-819b-8be8-eca3b1cfe284" class="">◇ Treatment:</p><p id="2297904f-03a9-8176-bbdc-e92904cfcecf" class="">■ angioplasty</p><p id="2297904f-03a9-8196-aa71-c70820f807ad" class="">◆Endocrine</p><p id="2297904f-03a9-8108-ba05-db593e263be9" class="">◇ Adreno-cortical hyperfunction (Cushing syndrome, primary</p><p id="2297904f-03a9-81ca-9cef-effe076e503b" class="">aldosteronism, congenital adrenal hyperplasia, etc.)</p><p id="2297904f-03a9-81b5-a45e-c6d3f1458aee" class="">◇ Exogenous hormones: glucocorticoids, estrogen</p><p id="2297904f-03a9-815a-8f33-df4520ebbb54" class="">(pregnancy), oral contraceptives, sympathomimetics,</p><p id="2297904f-03a9-8153-b83d-f50a47532e29" class="">tyramine-containing foods, MAO inhibitors.</p><p id="2297904f-03a9-816b-842d-d7bc19e80bd1" class="">◇ Pheochromocytoma → increased catecholamine secretion</p><p id="2297904f-03a9-8152-a88c-c45406ff27c4" class="">◇ Acromegaly</p><p id="2297904f-03a9-8161-beaf-f46c99a41dc9" class="">◇ Hypothyroidism</p><p id="2297904f-03a9-816d-a18d-fc73303c6d7b" class="">◇ Hyperthyroidism</p><p id="2297904f-03a9-815d-8bc5-eee8f959b1cd" class="">◇ what is primary aldosteronism?</p><p id="2297904f-03a9-8103-81a9-ed4606ce7a9c" class="">80-90% of 2ry hypertension cases are due to primary aldosteronism.</p><p id="2297904f-03a9-81b4-8f9a-cbe92c904cbc" class="">It is the overproduction of aldosterone by the adrenal gland → too much Na+ reabsorption → hypervolemia → high BP (how high will depend on the degree of hyper-secretion).</p><p id="2297904f-03a9-81e9-8ac7-f5f8ed21a800" class="">It can be caused by a benign tumor in the adrenal cortex.</p><p id="2297904f-03a9-817c-9bd9-cd6301b87fbe" class="">Aldosterone will suppress renin, induce sodium-water retention, that in turn will suppress renin secretion. Hence, the condition would be of high aldosterone and low renin.</p><p id="2297904f-03a9-817e-a9ac-faec683c889a" class="">Primary aldosteronism can also cause hypokalemia, In summary, in 1ry aldosteronism we will find:</p><p id="2297904f-03a9-8154-ae5e-c641c14782f1" class="">■ hypernatremia</p><p id="2297904f-03a9-81de-ab71-ec3626c0651a" class="">■ hypokalemia (late onset), since aldosterone is a potassium excretor</p><p id="2297904f-03a9-8147-ad06-f1527650b9ba" class="">■ metabolic alkalosis.</p><p id="2297904f-03a9-8124-8b2b-d812e63ed13f" class="">■ inappropriate ARR</p><p id="2297904f-03a9-8167-b724-e012608c6ac3" class="">◇ How can pheochromocytoma cause high bp?</p><p id="2297904f-03a9-819d-8998-ee82fe856b22" class="">neuroendocrine tumor of the adrenal medulla (a sympathetic nucleus) that causes abnormally high catecholamine secretion.</p><p id="2297904f-03a9-81e8-8eea-d16583d2604f" class="">■ Noradrenaline binds to alpha receptors in the arteries and causes vasoconstriction.</p><p id="2297904f-03a9-81ee-87b3-f3e2aae06502" class="">■ Adrenaline binds to beta receptors in the heart causing tachycardia, increases contractility, increases</p><p id="2297904f-03a9-8113-9aea-ee39faa3d329" class="">conduction speed. it induces vasodilation in the arteries (but the effect is overcome by NE so net</p><p id="2297904f-03a9-81ff-ba52-ce6922ef50d2" class="">vasoconstriction)</p><p id="2297904f-03a9-81c9-b2fe-d7649a45a147" class="">◇ Sometimes we have secretion of some but not the others: <em>Old clinical case of Paccotti: a patient came to the hospital</em> <em>with 300 systolic and he had pheochromocytoma, we rarely</em> <em>see in this condition a pure secretion of noradrenaline</em> <em>(although it might happen) and during the high bp episode</em> <em>the patient was bradycardic (30-40 bpm); this is because in</em> <em>this situation, the high bp (300) will induce bradycardia, a</em> <em>parasympathetic effect (no adrenaline secretion in this</em> <em>case). Noteworthy is the fact that each catecholamine</em> <em>works in a different way than the other</em></p><p id="2297904f-03a9-816f-8ba2-f9d2a508d197" class="">◆Cardiovascular</p><p id="2297904f-03a9-815d-b094-e8a073b58741" class="">◇ Coarctation of aorta</p><p id="2297904f-03a9-8162-94c9-da4b216961b0" class="">◇ Polyarteritis nodosa</p><p id="2297904f-03a9-814f-9716-d8f39df25a3a" class="">◇ Increased intravascular volume</p><p id="2297904f-03a9-8160-ae37-d1f44edadf51" class="">◇ Increased cardiac output</p><p id="2297904f-03a9-813a-8198-e5fbe1ae7f85" class="">◇ Rigidity of the aorta</p><p id="2297904f-03a9-8189-875b-c54be24a8b53" class="">◇ Neurologic</p><p id="2297904f-03a9-8191-a8bb-d40c1faf264d" class="">◇ Psychogenic</p><p id="2297904f-03a9-81e1-9232-ed3dd6961d28" class="">◇ Increased intracranial pressure</p><p id="2297904f-03a9-816f-bc4a-ed0207871f73" class="">◇ Sleep apnea</p><p id="2297904f-03a9-811c-9056-f953a222158b" class="">◇ Acute stress, including surgery</p><p id="2297904f-03a9-815a-a119-dfefd8a7bb53" class="">●what is the labile phase of hypertension?</p><p id="2297904f-03a9-8123-8e81-d79107c35274" class="">At the beginning of the development of hypertension, it’s possible to</p><p id="2297904f-03a9-81f8-8202-e3cd8391ea7a" class="">distinguish an initial inconstant labile form, characterized by only an</p><p id="2297904f-03a9-81d7-b945-d0ce456924b7" class="">increase in the cardiac output, whereas the peripheral resistance is</p><p id="2297904f-03a9-81a8-a06d-dccd48b689a0" class="">normal. Over time, the peripheral resistance increases until stabilized</p><p id="2297904f-03a9-8107-9204-cad1ada1d33d" class="">hypertension is determined.</p><p id="2297904f-03a9-819e-acf7-dcbc5c9a7235" class="">High blood pressure stimulates hypertrophy of vascular SMCs (in</p><p id="2297904f-03a9-81fc-bd0e-c3f4510cf817" class="">particular precapillary arterioles): the muscular layer thickens and the</p><p id="2297904f-03a9-81fd-8cd9-f49b3cc39634" class="">lumen narrows permanently, which increases peripheral resistance.</p><p id="2297904f-03a9-81af-87ac-f25186badbcc" class="">●clinical signs of hypertension?</p><p id="2297904f-03a9-817d-a1fe-dfffc7d99984" class="">Hypertension is asymptomatic. Indeed, it is frequently called the</p><p id="2297904f-03a9-81cf-9d28-eaf9b6763275" class="">“silent killer”.</p><p id="2297904f-03a9-8100-9a04-c95a42c43d5e" class="">Secondary hypertension has clinical symptoms strictly associated with</p><p id="2297904f-03a9-8110-9b23-feb2b8bb6733" class="">the underlying disease. With time, symptoms of the <em>effects</em> of</p><p id="2297904f-03a9-8169-983d-eb6279baa014" class="">hypertension on different organs may develop:</p><p id="2297904f-03a9-817b-9da7-d1e87d4bc8be" class="">○ heart → LV hypertrophy → heart failure</p><p id="2297904f-03a9-81e7-9c27-e91aa0c15ef3" class="">○ nervous system spasms, headache, vertigo, visual disturbances,</p><p id="2297904f-03a9-8173-80dd-e690c42ee75d" class="">necrosis of brain matter due to ischemia/microinfarction or to</p><p id="2297904f-03a9-8152-a821-d4e84f9606f5" class="">hemorrhage</p><p id="2297904f-03a9-8172-9ce8-d84646314c82" class="">○ aorta → severe atheroma, abdominal aortic aneurysms</p><p id="2297904f-03a9-8130-9ab4-dd2450f11bd3" class="">○ kidney glomerular and tubular changes due to progressive</p><p id="2297904f-03a9-81cf-82ee-e85b8e137547" class="">nephron ischemia (chronic renal failure).</p><p id="2297904f-03a9-8135-8f70-f2e06d8b593d" class="">○ hemorrhagic manifestations → nose, respiratory system, and</p><p id="2297904f-03a9-8164-9556-ee6b5e5f411b" class="">female genital tract</p><p id="2297904f-03a9-818c-b1e3-f448c5a37c8b" class="">○ vessels → hypertrophy due to hypertension and, over time, a</p><p id="2297904f-03a9-81f0-b0b2-c701d9f17b1b" class="">deposition of material in the EC space</p><p id="2297904f-03a9-81d1-819a-e25b796656f9" class="">●Define shock</p><p id="2297904f-03a9-8176-8da0-e18a7dc95239" class="">Serious pathological event of acute circulatory insufficiency and it</p><p id="2297904f-03a9-81dd-9470-ea81dddaf279" class="">represents one of the primary causes of death.</p><p id="2297904f-03a9-81cb-8733-c735c97d2d3c" class="">It is characterized by a reduction of cardiac output or reduction of</p><p id="2297904f-03a9-812d-a3e4-eda21eac4cbf" class="">peripheral resistance; the consequence is a reduction in the blood</p><p id="2297904f-03a9-8168-9b53-e8271948874a" class="">pressure → hypoperfusion of the main vital organs (circulatory</p><p id="2297904f-03a9-81dc-b0ab-c978bccc2e9c" class="">collapse)</p><p id="2297904f-03a9-81f2-b9b7-e24423a02533" class="">The two main symptoms of the shock are marked hypotension and</p><p id="2297904f-03a9-81ed-9fd8-fe23a15a0ae3" class="">hypoperfusion. At the beginning, if this condition is not so serious, it</p><p id="2297904f-03a9-81c4-937e-ead2ecb4ea62" class="">can be reversible. But a prolonged shock leads to irreversible damage,</p><p id="2297904f-03a9-8144-9b4f-ed101c6a4533" class="">causing the failure of many organs and, therefore, to the death of the patient.</p><p id="2297904f-03a9-81f2-8578-fba379bbe167" class="">●what are the different types of shock?</p><p id="2297904f-03a9-81b9-bf0d-ff7e12a6bca8" class="">We have 4 possibilities of shock:</p><p id="2297904f-03a9-817f-8c96-c9224be42407" class="">1. Hypovolemic shock: usually due to acute hemorrhage, with decreased preload, low cardiac output and pulmonary pressure but high peripheral resistance (vasoconstriction) due to extreme sympathetic activation. Typical signs are paleness and sweating. 2. Cardiogenic shock: usually after a MI, with an increased preload, low cardiac output but high pulmonary pressure (Pulmonary</p><p id="2297904f-03a9-8114-869a-f555bb3bea32" class="">hypertension and edema and respiratory insufficiency) and high peripheral resistance. Paleness and sweating (Severe sympathetic reaction).</p><p id="2297904f-03a9-8149-b93d-f914ea1ad61b" class="">3. Distributive shock: it is the result of septic shock (due to</p><p id="2297904f-03a9-81a2-9599-f762df64038f" class="">bacterial infection) or anaphylactic shock(allergy). We have a very high cardiac output (with an otherwise normal heart) with normal to low pulmonary pressure and LOW peripheral resistance (massive vasodilation; unsustainably large vessels). Signs are red, dry and warm skin (No sympathetic activation here).</p><p id="2297904f-03a9-81cc-bcab-e89f6a984929" class="">4. Obstructive shock (from a structure cardiopulmonary disease): pulmonary embolism or pericardial tamponade, low cardiac output, variable pulmonary pressure and high peripheral resistance.</p><p id="2297904f-03a9-81d8-80ab-c9ee66995f04" class="">Paleness and sweating (Severe sympathetic reaction)</p><p id="2297904f-03a9-81e0-ad9c-ec4af9cccb7c" class="">●what are the stages of shock?</p><p id="2297904f-03a9-8191-ad68-eb29656ad4ad" class="">1. non progressive stage: the initial drop in blood pressure</p><p id="2297904f-03a9-8100-9f62-ddc67c71b19d" class="">kickstarts mechanisms that for a while are able to compensate and keep the pressure from dropping too low:</p><p id="2297904f-03a9-81ad-9a53-e665b37cf8a4" class="">◆extreme sympathetic activation: peripheral vasoconstriction → sweating, pallor, oliguria, tachycardia</p><p id="2297904f-03a9-81ab-8b32-dc7ed0c73cb5" class="">◆RAAS activation</p><p id="2297904f-03a9-8197-853c-cab837b0503d" class="">◆ADH release</p><p id="2297904f-03a9-81e0-8c36-f482ff94d08e" class="">2. progressive state compensatory mechanisms are no longer enough, there is hypoperfusion, hypoxia and with that</p><p id="2297904f-03a9-8193-8dac-ee3d6cf5e5f7" class="">accumulation of H+ and lactic acid that results in metabolic acidosis. If this situation lasts too long→ cell membrane and pumps dysfunction → necrosis</p><p id="2297904f-03a9-8176-af3c-c773612df0bf" class="">3. Irreversible stage → severe cellular and tissue injury. Survival is not possible anymore because a lot of organs are impaired, in particular kidneys because they can’t excrete urine (anuria).</p><p id="2297904f-03a9-810c-b1d2-dd8961823478" class="">●explain the pathogenesis of septic shock</p><p id="2297904f-03a9-81ff-b424-ea0bf3941a85" class="">Septic shock causes more than 20% of all deaths.</p><p id="2297904f-03a9-81e2-b901-ef2692fd0f81" class="">It is most frequently triggered by Gram+ bacteria, followed by Gram- and funghi.</p><p id="2297904f-03a9-81db-9ec5-c23ae910db27" class="">It consists of a generalized inflammatory response, mediated by both</p><p id="2297904f-03a9-8189-aac2-fb8a9ae05750" class="">innate and adaptive immunity, extensive release of inflammatory mediators (histamine!!).</p><p id="2297904f-03a9-8148-81c5-fd3b632df5ea" class="">1. Bacteria spreads in the circulation, causing activation of the immune system, in particular cells ****that express toll-like receptor (TLR) → pro inflammatory response.</p><p id="2297904f-03a9-8150-9215-fa97d2ad6249" class="">2. Endothelial dysfunction results from generalized inflammatory response. There’s vasodilation, increased permeability, activation of coagulant factors → procoagulant state. This is a risk for disseminated intravascular coagulation (DIC).</p><p id="2297904f-03a9-81bc-9a4d-ffea07ff7788" class="">3. Cytokines can impair expression of GLUT-4 → hyperglycemia and insulin resistance during septic shock.</p><p id="2297904f-03a9-81c0-a056-e4437c678eaa" class="">4. The last step is the organ dysfunction, caused by systemic hypotension, interstitial edema, small vessel thrombosis. It happens mainly in the liver, lungs, heart, kidneys. All these cause the death of the patient.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

@@ -1,0 +1,468 @@
+Neurodegenerative diseases
+● what are neurodegenerative diseases and their main characteristics?
+Neurodegenerative diseases are chronic disorders characterized by
+progressive and selective loss of neurons. Specific groups of neurons
+with functional relationships are affected leaving the remaining ones
+intact.
+Many are invalidating because of cognitive decline and/or movement
+disorders. Neurodegenerative diseases share a common pathological
+process, which is the accumulation of protein aggregates (misfolded
+proteins) within or around neurons (toxic to neurons). (morphologic
+hallmark of the disease) This is caused by mutations that alter protein
+expression at different steps.
+The incidence of these diseases progressively increases with age
+(particularly after 65) but familial forms also exist.
+● what are the major neurodegenerative diseases?
+○ Alzheimer’s disease (cerebral cortex disease)
+○ Parkinson’s disease (extrapyramidal system disease)
+○ Amyotrophic Lateral Sclerosis, ALS (motor neuron disease)
+● what is dementia? what causes it?
+Complex syndrome that affects
+Dementia is a complex syndrome affecting in particular the older
+population (5 to 10 % of people over 65). The number of cases of
+dementia grows exponentially up to 1/3 of individuals aged 80. In
+general, the clinical manifestations present in this patient are:
+○ Memory disorders (both short- and long-term memory)
+○ Cognitive impairment
+○ Personality and language disturbance
+○ Visuo-spatial orientation deficit
+○ The main clinical sign is the movement disorders (hypokinetic or
+hyperkinetic movements)
+○ Swallowing disturbances: especially in Parkinson’s and Alzheimer’s
+disease mortality is often caused by aspiration→ pneumonia (Ab
+ingestis pneumoniae)
+The principal causes of dementia are:
+1. Degenerative diseases such as Alzheimer’s, Parkinson’s,
+Huntington’s disease and amyotrophic lateral sclerosis (ALS).
+45-70% of all cases of dementia are attributed to Alzheimer
+2. Vascular causes (cerebrovascular dementia) 17-30%
+1. atherosclerosis in cerebral or carotid arteries, partial
+occlusion→ hypoxia and a deficit in brain circulation.
+2. after stroke or head trauma.
+3. Mixed dementia: mixed vascular and degenerative problems
+4. Toxicity (drugs, alcohol can help to increase the dementia)
+5. Metabolic causes: in case of liver disease one of the
+consequences of portal hypertension is hepatic encephalopathy
+that is caused by the accumulation of toxic compounds like
+ammonia in the brain which can damage the brain and lead to
+coma.
+6. Infections: bacterial meningitis
+7. Traumatic causes: acute or boxing dementia (repeated head
+trauma)
+8. Neoplasm: brain cancer presence
+9. Other causes: Sleep deprivation or apnea, radiation exposition or
+obstructive respiratory diseases (COPD) can contribute to the
+neuronal damage.
+● What is Alzheimer’s disease?
+Alzheimer disease is a neurodegenerative disease, meaning it causes
+the degeneration, or loss, of neurons in the brain, particularly in the
+cortex, leading to the symptoms characteristic of dementia.
+● what is the epidemiology of Alzheimer?
+Responsible for 45-70% of all dementia in older adults.
+○ Late onset (senile): Sporadic Alzheimer (most common): of
+genetic and environmental factors. Risk increases with age,
+doubles every 5 years, affecting 1% of people between ages 60
+and 65, and 50% of people over age 85.
+◆ e4 allele of apolipoprotein E gene increases risk
+◆ one e4 allele = 3x risk
+◆ two e4 alleles = 15x risk
+◆ 40-80% of sporadic AD have ApoEε4 allele.
+◆ APOE helps break down beta-amyloid, but the e4 allele seems
+to be less effective than the other alleles, like the APOE-e2
+allele, meaning patients are more likely to develop beta-amyloid
+plaques.
+○ Early onset: Familial Alzheimer (5 to 10% of cases): dominant
+gene speeds up the progression of the disease. Alzheimer’s (often
+progresses by age 40) It can be caused by several gene mutations.
+◆ mutations in the PSEN-1 or PSEN-2 genes on chromosome 14
+or chromosome 1, respectively, have been linked to early-onset
+Alzheimer’s. These genes encode for presenilin-1 and
+presenilin-2, both protein subunits of gamma-secretase.
+Mutations here can change the location where gamma
+secretase chops APP, producing different length beta amyloid
+molecules, which seem to be better at clumping up and forming
+plaques.
+◆ trisomy 21, or down syndrome (extra ch.21) The gene
+◆ responsible for producing APP is on chromosome 21, which
+means that people with down syndrome have an extra APP
+gene, and presumably increased expression of APP, potentially
+increasing the amount of amyloid plaque buildup.
+● What is the pathogenesis of Alzheimer?
+Although the cause of Alzheimer disease isn’t completely understood,
+the two hallmarks of the disease are:
+○ extracellular amyloid plaques
+In the membrane of neurons, theres a transmembrane amyloid
+precursor protein (APP). It’s thought to be involved in neuron
+growth and repair after injury. The Aβ portion of APP extends from
+the extracellular region into the transmembrane domain.
+Just like other proteins, APP gets used and over time it gets broken
+down and recycled.
+Normally, it gets cleaved by enzymes: alpha secretase and
+gamma secretase (complex composed of presenilin 1 and 2,
+nicastrin and anterior pharynx-defective 1 (APH-1)).This chopped
+up peptide is soluble and goes away without problems, this is the
+so-called non-amyloidogenic pathway
+In the amyloidogenic pathway, there’s the action of another
+enzyme, beta secretase, along with gamma secretase instead,
+and the cleavage produces a leftover insoluble monomer called
+amyloid beta.
+Beta secretase cuts in the terminal portion of the amyloid beta
+sequence (not in the middle of amyloid beta like alpha secretase
+does)
+These monomers tend to be chemically “sticky”, and bond together
+just outside the neurons, and form what are called beta-amyloid
+plaques.
+Consequences:
+◆ These plaques can get between the neurons and get in the way
+of neuron-to-neuron signaling.
+◆ chronic inflammatory response: accumulation of these
+abnormal proteins elicits an immune response that produces
+ROS and with inflammation we have the activation of
+astrocytes and microglial cellscontributing to neuronal death
+and dementia.
+◆ Amyloid plaque can also deposit around blood vessels in the
+brain, called amyloid angiopathy, which weakens the walls of
+the blood vessels and increases the risk of hemorrhage, or
+rupture and blood loss.
+◆ Amyloid plaques can also accumulate intracellularly
+contributing to toxicity, since neurons can uptake amyloid beta
+via a receptor complex composed by CD-36 and integrins.
+○ ○ intracellular neurofibrillary tangles
+Tau is a microtubule-associated protein present in axons; it is
+involved in polymerization and stabilization of the microtubule
+assembly to maintain the integrity of the cytoskeleton.
+Although it’s not completely understood how, there is excessive
+tau phosphorylation that decreases its affinity for
+microtubules, so it stops supporting the microtubules, and clumps
+up with other tau proteins, and gets tangled forming
+neurofibrillary tangles around the nucleus.
+This elicits
+1. microtubule destabilization → impaired axonal transport →
+impaired signaling
+2. stress response → apoptosis
+○ Colinergic neurons of hippocampus are particularly affected →
+memory deficit
+● What is the morphology of the Alzheimer brain?
+The accumulation of amyloid beta and tau causes cerebral atrophy
+mainly in the temporal cortex, parietal cortex, and hippocampus.
+○ Wider sulci
+○ Narrower gyri
+○ larger ventricles
+● What are risk factors for Alzheimer?
+○ Age
+○ Gender: major incidence for females
+○ Head injury
+○ Diabetes mellitus
+○ Diseases that impair BBB structure and function
+◆ Hypertension
+◆ Hypercholesterolemia
+◆ Atherosclerosis
+○ Smoking
+○ Obesity
+○ Stroke
+○ Cardiovascular risk factors are associated with a major risk of AD
+● 1 in 3 cases of dementia could be prevented by addressing lifestyle
+factors:
+○ taking care of your heart health
+○ physical activity
+○ healthy diet
+○ mental stimulation
+○ social stimulation
+● What are the signs and symptoms and how is Alzheimer diagnosed?
+Symptoms of Alzheimer disease appear progressively over time, and
+worsen as plaques and tangles build up, and damage to the neurons
+● accumulates.
+In the early stages, symptoms may not even be detectable, as it
+progresses, we have the appearance of classic demential symptoms:
+1. loss of short-term memory
+2. Mood and behavioral disorders (depression, confusion, anxiety and
+agitation)
+3. loss of motor skills
+4. altered visual-spatial orientation
+5. Aphasia: difficulties in pronouncing the names of people and things
+6. loss of long-term memory → disorientation
+7. late stages: mute, immobile, bedridden,
+8. most common cause of death is ab-ingestis pneumonia
+● how is Alzheimer diagnosed?
+The only definitive way to diagnose Alzheimer’s is brain biopsy after
+autopsy.
+Usually a clinician will therefore make a diagnosis after excluding
+other causes of dementia. Other tools to help diagnosis are:
+○ Behavioral and cognitive Tests: to evaluate the progression of
+the disease
+○ Analysis of CSF: to identify the presence and accumulation of
+Amyloid-β and Tau protein
+○ Neuroimaging techniques (CT scan, MRI PET, with radiotracers to
+identify neuronal activity, etc.
+● what is the treatment for Alzheimer?
+At the moment we do not have drugs or any effective therapeutic
+strategy able to prevent or stop the progression of Alzheimer’s
+disease. The available therapies have the goal to slow down the
+progression of Alzheimer’s.
+Non-pharmacological treatments:
+○ Cognitive training
+○ Music, art or pet therapies and in the increase of social activity
+○ Moderate physical activity
+● Pharma
+○ Statins: BBB is more permeable → LDL accumulation.
+○ Cholinergic agents: keep acetylcholine concentration stable with
+the aim to increase their binding with the receptors.
+○ Anti-excitotoxic agents: inhibit glutamate excitotoxicity
+○ Drugs able to reduce the production and accumulation of Aβ and/
+or drugs that prevent or reduce the hyperphosphorylation of tau
+proteins.
+○ Anti-inflammatory and antioxidant drugs
+● What is Parkinson’s disease?
+Parkinson's is a progressive movement disorder caused by
+degeneration of dopamine-producing neurons in the substantia
+● nigra pars compacta in the midbrain, which leads to resting tremor,
+rigidity, problems initiating movement, and postural instability, and for
+which therapy primarily focuses on increasing brain dopamine.
+Preclinical phase duration (period of time between the onset of
+neuronal degeneration and motor symptoms) is not known:
+hypothesized about 5 years until over 70% of these neurons are
+degenerated and symptoms become evident.
+The pars compacta communicates with the striatum (caudate and
+putamen) via the nigrostriatal pathway, which helps to stimulate the
+cerebral cortex and initiate and control movement. Therefore, when
+substantia nigra pars compacta neurons die, the individual may be in a
+hypokinetic or low movement state which is commonly seen in
+Parkinson’s. The severity of the syndrome is proportional to the
+severity of the dopamine deficiency.
+● What is the cause of PD?
+The exact cause of this degeneration is not fully understood, but it is
+believed to involve a combination of genetic and environmental
+factors.
+1. Genetic Factors: Some cases of Parkinson's disease have a
+genetic component. Mutations in certain genes, such as have been
+linked to an increased risk of developing Parkinson's disease.
+However, these genetic factors are not the sole cause, as most
+cases of Parkinson's disease are considered sporadic (non-
+inherited).
+◆ SNCA: coding for α-synuclein, major component of the Lewy
+body.
+◆ LRRK2 (leucine-rich repeat kinase 2), cytoplasmic kinase
+whose activity is increased in PD
+◆ Parkin, and PINK1 (mitochondrial enzymes)
+2. Environmental Factors: Exposure to certain environmental factors
+has been implicated in the development of Parkinson's disease.
+These factors include exposure to toxins such as pesticides,
+herbicides, and industrial chemicals. Additionally, head injuries and
+trauma have been suggested as potential risk factors.
+3. Protein Aggregation: In Parkinson's disease, there is abnormal
+accumulation of a protein called alpha-synuclein in the form of
+Lewy bodies. These protein aggregates are thought to contribute
+to neuronal damage and cell death. The exact relationship between
+alpha-synuclein aggregation and neuronal death is an area of
+ongoing research.
+4. Mitochondrial Dysfunction: may contribute to increased oxidative
+stress and reduced energy supply, which can lead to neuronal
+damage.
+5. Inflammatory Processes: Neuroinflammation is believed to play a
+role in the progression of Parkinson's disease. Activation of the
+5.
+immune system in the brain may contribute to the degeneration of
+dopaminergic neurons.
+6. Iron accumulation in the substantia nigra
+7. lysosomal and proteosomal dysfunction
+● What is the epidemiology of Parkinson?
+○ Mainly affects people over 50-60. There are some cases between
+20-40 years of age.
+○ Mild prevalence in males
+○ Currently about 1-2% of over-60s are affected. 4-5% of over-80s.
+○ The incidence of PD is between 8-18 per 100,000 people/year
+○ Life expectation: mortality rates approximately double those of
+unaffected persons.
+○ Death due to ab ingestis pneumonia is double in patients with PD
+compared to the healthy subjects
+● What is the morphology of Parkinson in the brain?
+○ Pallor of the substantia nigra and locus ceruleus due to loss of
+the pigmented catecholeminergic neurons
+○ Lewy bodies may be found in some of the remaining neurons:
+single or multiple cytoplasmic, eosinophilic, round to elongated
+inclusions that often have a dense core surrounded by a pale halo.
+Lewy bodies are composed of fine filaments, densely packed in the
+core but loose at the rim; these filaments are composed of α-
+synuclein
+○ Inflammation (microglia and astrocyte activation)
+○ Some affected individuals have pathologic evidence of Alzheimer
+disease in combination with PD
+○ About 10% to 15% of individuals with PD develop dementia,
+particularly with advancing age
+● What are the signs and symptoms of Parkinson?
+the clinical features of Parkinson’s.
+1. Resting tremor: involuntary shakiness most noticeable in the
+hands present at rest and diminishes with intentional movement.
+“pill-rolling” tremor.
+2. Rigidity: stiffness that can appear as “cogwheel” rigidity, there are
+a series of stalls (stops) as a person’s arms or legs are passively
+moved by someone else. Rigidity is responsible for the stooped
+posture and an almost expressionless face that some individuals
+with Parkinson’s might have.
+3. Bradykinesia (slow movement); hypokinesia, (less movement);
+and akinesia (no movement): result from difficulty initiating
+movements. Examples of this are having the legs freeze up when
+trying to walk and also walking with a shuffling gait, or small steps.
+◆ includes mouth movements: difficulty speaking, swallowing
+4. A late feature of the disease is postural instability which causes
+4.
+problems with balance and can lead to falls.
+● Non-motor brain functions can be affected in Parkinson’s as well,
+leading to additional common symptoms including
+○ depression
+○ dementia
+○ sleep disturbances
+○ difficulty smelling
+● These are thought to come about because of dysfunction in
+dopaminergic signaling in other parts of the brain beyond the
+substantia nigra, for example in the prefrontal cortex leading to
+cognitive symptoms, and also possibly from issues with other
+neurotransmitters like acetylcholine
+● How is Parkinson diagnosed?
+○ Clinical symptoms: presence of the central triad of parkinsonism
+(tremor, rigidity, bradykinesia)
+○ Neuroimaging: (PET): use of radioactive tracers (e.g. fluroDOPA to
+highlight the dopamine transporter and the vesicular transporter of
+type 2 monoamines, and the enzyme DOPA decarboxylase) to
+highlight cellular metabolism, and therefore vitality and activity of
+neurons
+○ Observation of Lewy bodies in the substantia nigra neurons
+(autopsy) to confirm that the patient suffered from PD
+● What is the treatment for Parkinson?
+There are teatments that help with Parkinson’s symptoms, although
+none stop the progressive neurodegeneration.
+The main strategy here is to increase the amount of dopamine
+signalling in the brain.
+○ Levodopa (L-DOPA): Dopamine itself can’t cross the blood-brain
+barrier, but its precursor levodopa can, and once in the brain,
+levodopa is converted to dopamine by dopa decarboxylase, most
+importantly within the remaining nigrostriatal neurons. Peripheral
+dopa decarboxylase also exists, which can metabolize levodopa
+into dopamine before it gets through the blood brain barrier, and—
+via additional enzymes—metabolize it into other catecholamines
+like epinephrine, which can cause unwanted side effects like
+arrhythmias. This is exactly why levodopa is administered with
+carbidopa, a dopa decarboxylase inhibitor that isn’t able to cross
+the blood-brain barrier. Treatment does not reverse the
+morphologic changes or arrest the progress of the disease; it is
+able to manage early motor disorders but with progression, drug
+therapy tends to become less effective and symptoms become
+more difficult to manage.
+○ Amantadine, an antiviral medication that increases endogenous
+dopamine production, although the mechanism is not clear.
+○ Dopamine agonists like bromocriptine, which is an ergot or
+fungal derivative, as well as pramipexole and ropinirole, which are
+not ergot derivatives.
+○ inhibitors of COMT, catecholamine-O-methyltransferase, which is
+an enzyme that degrades dopamine and levodopa.
+○ selegiline which inhibits monoamine oxidase B, also known as
+MAO-B, which is another enzyme that metabolizes dopamine.
+○ anticholinergics: Since usually there’s this balance of signaling
+between dopamine and acetylcholine, a loss of dopamine reaching
+the striatum increases the relative amount of acetylcholine
+signaling there. Therefore, anticholinergics can be given to restore
+the balance of cholinergic and dopaminergic signaling, like
+benztropine, which improves the tremor of PD.
+○ deep-brain stimulation, which involves an implantable device that
+directly sends electrical signals to the basal ganglia which
+counteracts the aberrant signaling in Parkinson’s.
+● What is ALS?
+Amyotrophic lateral sclerosis (ALS), also known as Lou Gehrig's
+disease, is a neurodegenerative disease that affects both upper and
+lower motor neurons. The progressive degeneration of these motor
+neurons leads to muscle weakness and atrophy.
+Amyotrophic: atrophic muscle; Lateral: lateral nerve bundles of the
+spinal cord are affected (besides motor cortex and spinal trunk);
+sclerosis: hard
+● what is the cause of ALS?
+○ Genetic predisposition
+○ Excess glutamate (neurotransmitter): excitotoxicity
+○ Deficiency of neuronal growth factors
+○ Infection of bacteria or viruses
+○ Environmental toxic factors (pesticides, fertilizers ...).
+◆ The prevalence of the disease among farmers is double
+compared to the general population
+○ Soccer players: vigorous physical activity + head shots with the
+ball + fertilizers (grass fields).
+◆ in Italy: incidence of ALS in soccer players is 5 times higher
+than in the general population. Doping is not involved
+○ Smoke
+○ Prolonged exposure to electromagnetic fields or heavy metals (e.g.
+lead, mercury)
+● what are the signs and symptoms of ALS?
+ALS symptoms typically develop slowly over time.
+Early symptoms may include:
+○ muscle weakness
+◆ ◆ asymmetric weakness of the hands, manifested as dropping of
+objects and difficulty in performing fine motor tasks
+○ cramping and spasms in legs and arms
+● With disease progression:
+○ diminished muscle strength and mass
+○ Involuntary contractions of individual motor units
+(FASCICULATIONS)
+○ stiffness → difficulty walking → no walking → paralysis
+○ difficulty speaking
+○ difficulty chewing and swallowing
+○ difficulty breathing (involvement of respiratory muscles) → death
+● What is not affected:
+○ Cognitive activities are preserved
+○ ALS doesn’t compromise the internal organs (heart, liver, kidneys)
+or the five senses (sight, hearing, smell, taste, touch)
+○ Muscles that control eye movements and those of the external
+sphincters are rarely affected
+● What is the epidemiology of ALS?
+○ 2-3 cases/100,000 individuals/year
+○ Italy: at least 3,500 diagnoses,
+○ about 1,000 new cases/year
+○ Affects men slightly more frequently than women (1.5/1)
+○ The average age is 60-65 years-old. In hereditary cases 40-50
+years of age. Rare after 80 years of age
+○ Life expectancy: 3 to 5 years; about 10% survive more than 10
+years, while 5% reach or exceed 20 years after diagnosis
+● What are the different forms of ALS?
+○ Sporadic ALS: 80-90% of cases
+○ Familial ALS: 10-20% of cases associated to 24 genetic loci;
+almost all autosomal dominant
+◆ 20%: mutation in gene encoding superoxide dismutase-1
+(SOD1). Mutant SOD1 protein misfolds and aggregates leading
+to cellular injury SOD1 protein aggregation also observed in
+sporadic form
+◆ 40% mutation in C9orf72 (chromosome 9 open reading
+frame 72) is a protein of unknown funcition → neuronal
+accumulation.
+● What are the anatomo-pathological findings in ALS?
+There’s toxic protein accumulation and pallor of the area
+○ Glutamate excitotoxicity Continuous stimulation of glutamate
+receptors causes a continuous influx of calcium ions in the motor
+neurons with consequent perturbation of functions and death.
+○ Atrophy of the motor cortex, brainstem, and spinal cord
+○ Increased ROS (reactive oxygen species) production, probably due
+to excessive H2O2 production induced by mutated SOD1.
+○ Excessive inflammatory response following neuronal degeneration
+→ glyosis (mainly astrocyte proliferation)
+○ progressive skeletal muscle atrophy
+○ Loss of the upper motor neurons → degeneration of the cortico-
+spinal tracts → volume loss and absence of myelinated fibers
+● How is ALS diagnosed?
+○ Neurological examinations at regular intervals to assess whether
+symptoms such as muscle weakness, muscle atrophy,
+hyperreflexia and spasticity progressively worsen
+○ Electromyography (EMG) to evaluate muscle function
+○ Magnetic resonance imaging (MRI) to assess the brain and spinal
+cord degeneration
+○ ○ Babinsky sign:
+● What is the therapy for ALS?
+○ No therapy able to stop the process of motor neuron degeneration
+○ Most available drugs simply have action on the symptoms or as a
+palliative.
+○ New drug: riluzole is able to slow the progression of neuron
+damage due to glutamate (excitotoxicity)
+○ The therapeutic strategies are mainly aimed at physiotherapeutic
+support with all the maneuvers needed to allow the maintenance of
+vital functions
+○ Aerobic exercise (walking, swimming, cycling) is important to
+strengthen muscles and keep the circulation ongoing
+○ Speech therapist for language articulation problems
+○ It is shown that support with a ventilation device is effective in
+prolonging patients' life expectancy
+○ Gene therapy, use of stem cells

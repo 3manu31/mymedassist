@@ -1,0 +1,346 @@
+T u b e r c u l o s i s
+🌍  E p i d e m i o l o g y  a n d  G l o b a l  B u r d e n  o f  T B
+This section f ocuses on the glob al pr e v alence, incidence, and r isk f act ors  
+associat ed with T uber culosis TB. I t highlight s the dise ase 's imp act and the  
+populations most af f ect ed.
+1 TB Epidemiology Ov er vie w
+Epidemiology  The stud y of the distr ibution and det er minant s of he al th-r elat ed  
+st at es or e v ent s in specified populations, and the applic ation of this stud y t o  
+the contr ol of he al th pr oblems.
+1 Glob al Incidence and Pr e v alence
+Global Bur den  TB r emains a major glob al he al th pr oblem, with millions of ne w  
+c ases annuall y .  Incidence  The rat e of ne w c ases of TB in a giv en population  
+o v er a specific per iod.  Pr e v alence  The t ot al number of e xisting c ases of TB in  
+a population at a specific point in time.  Estimat ed 1. 6 Billion Inf ect ed   
+Appr o ximat el y one-quar t er of the w or ld's population is estimat ed t o be inf ect ed  
+with  M y cobact er ium tuber culosis  MTB.  Activ e TB Cases  Ar ound 10 . 6 million  
+people w or ldwide ha v e activ e TB dise ase, manif esting r espirat or y  
+sympt oms.  Childhood TB  About 10% of activ e TB c ases occur in childr en.
+2 Mor t alit y and Imp act
+Leading Cause of Death  TB is a signific ant c ause of de ath glob all y , especiall y  
+among those co-inf ect ed with HIV .  Mor t alit y R at es  High in cer t ain r egions,  
+especiall y in those with limit ed access t o he al thc ar e and in individuals with  
+HIV .  Co-inf ection with HIV  Incr e ases the r isk of TB activ ation and mor t alit y  
+signific antl y .  Mor t alit y W or ldwide  6 million people die e v er y y e ar fr om c auses  
+r elat ed t o or including TB.
+3 High-Bur den Countr ies
+Endemic R egions  TB is highl y pr e v alent in cer t ain countr ies.  K e y Countr ies   
+India, China, Indonesia, Niger ia, and South Afr ic a account f or a signific ant  
+pr opor tion of glob al TB c ases.  Geogr aphic Distr ibution  Incidence v ar ies  
+gr e atl y , with Sub-Saharan Afr ic a and South Asia ha ving the highest rat es.  Risk  
+F act ors : include migration fr om high-pr e v alence countr ies, age (abo v e 65, and  
+socioeconomic f act ors.
+2 Risk F act ors and Vulnerable P opulations
+T uber culosis
+11 HIV and TB Co-Inf ection
+Str ong Cor r elation  Ther e is a str ict cor r elation bet w een HIV and TB, as HIV  
+incr e ases the r isk of TB r e activ ation.  Immunosuppr ession  HIV w e ak ens the  
+immune syst em, incr e asing susceptibilit y t o TB.  T r eatment Challenges  Co-
+inf ection complic at es tr e atment and incr e ases mor t alit y .  T esting f or HIV   
+Essential in TB p atient s, especiall y in high-pr e v alence ar e as.  Ex ample  Ov er  
+50% of TB p atient s in South Afr ic a ha v e HIV .
+2 Other Immunosuppr essiv e F act ors
+Immunosuppr ession  An y f act or that r educes immune function c an le ad t o TB  
+r e activ ation.  Vit amin D Deficienc y  Lo w le v els of vit amin D cor r elat e with a  
+higher r isk of tuber culosis, as vit amin D contr ols T -cell r esponses.  Age  The  
+elder l y ar e at higher r isk due t o age-r elat ed immune decline.  CO VID19 Impact   
+The CO VID19 p andemic r esul t ed in r educed TB notific ations and higher  
+mor t alit y .
+3 En vir onment al and Socioeconomic F act ors
+Sunlight and TB  Ar e as with less sunlight ha v e higher TB incidence, cor r elating  
+with vit amin D le v els.  Cr o w ded Living Conditions  Incr e ase TB transmission  
+r isk.  Migr ation  Migrant s fr om high-pr e v alence countr ies ar e at incr e ased r isk,  
+p ar ticular l y in the first y e ars af t er migration.
+3 T r ends and Hist or ic al Dat a
+Incidence T r ends  The glob al incidence of TB is f alling b y appr o ximat el y 2%  
+annuall y .  Eur ope  Incidence is r elativ el y lo w , but East er n Eur ope has the highest  
+numbers in the r egion.  I t al y  Lo w incidence countr y , but with pr e v alence in  
+y oung migrant s and individuals o v er 65 .  Impact of CO VID19  R eduction in TB  
+notific ation rat es in some countr ies.  R eduction in TB Deaths  The "End TB  
+Strat egy" aimed f or a 35% r eduction in TB de aths bet w een 2015 and 2020 .
+🦠  M i c r o b i o l o g y  a n d  T r a n s m i s s i o n
+This section f ocuses on the micr obiologic al aspect s of  M y cobact er ium  
+tuber culosis  and ho w the dise ase is transmit t ed.
+1 Micr obiology of  M y cobact er ium tuber culosis
+M y cobact er ium tuber culosis MTB  The c ausativ e agent of tuber culosis.
+1 MTB Comple x
+T uber culosis
+2MTB Comple x  A gr oup of closel y r elat ed m y cob act er ia.  Species  Includes  M.  
+tuber culosis, M. bo vis, M. afr icanum, M. canet ti , and others.  M. bo vis  Pr imar il y  
+transmit t ed thr ough cont act with inf ect ed co ws or ingestion of cont aminat ed  
+dair y pr oduct s.  Int estinal TB  Of t en c aused b y  M. bo vis  due t o ingestion of  
+cont aminat ed milk pr oduct s.
+2 Bact er ial Charact er istics
+R od-Shaped Bacillus :  M. tuber culosis  is a r od-shaped b act er ium.  Non-Motile  I t  
+does not mo v e independentl y .  Non-Spor ogenous  Does not f or m  
+spor es.  Aer obic  R equir es o xy gen f or sur viv al and r eplic ation.  Intr acellular  
+Sur viv al  Can sur viv e and r eplic at e within macr ophages.  Long R eplication  
+Cy cle  Slo w gr o wth r esul t s in a long r eplic ation c y cle, r equir ing 30 7 0 da ys f or  
+cul tur e.
+3 Cell W all Composition
+Comple x Cell W all  The cell wall of  M. tuber culosis  is comple x and  
+waxy .  M y colic Acid  Cont ains m y colic acid, pr o viding r esist ance t o the immune  
+syst em.  LAM Det ection  The pr esence of lipo arabinomannan LAM c an be  
+det ect ed in t est s.
+2 Modes of T ransmission
+A ir bor ne T r ansmission  TB is pr imar il y transmit t ed thr ough the air .  Dr oplet  
+Nuclei  T ransmission occurs thr ough air bor ne p ar ticles.
+1 A ir bor ne Par ticle Charact er istics
+Big Dr oplet s  Can tra v el up t o 1 met er . ( e.g. meningitis fr om  Neisser ia )  Small  
+Dr oplet s  Can tra v el up t o 3 met ers ( e.g. TB.  Inf ectious Dr oplet s  Can be  
+viruses ( e.g. influenza) af f ecting an y one in the r oom.  P ar ticle W eight  A ir bor ne  
+transmission depends on the w eight of the p ar ticles.
+2 En vir onment al F act ors in T ransmission
+En vir onment Mat t ers  T ransmission rat es ar e higher in cr o w ded and poor l y  
+v entilat ed sp aces.  High-Risk Conditions  Include small r ooms, lack of fr esh air  
+and sunlight.  Migr ation Cont e x t  Migrant s in the first f e w y e ars of t en liv e in  
+conditions incr e asing transmission.
+🛡  P a t h o g e n e s i s  a n d  I m m u n e  R e s p o n s e
+This section descr ibes the pr ogr ession of tuber culosis fr om inf ection t o  
+dise ase, f ocusing on the immune r esponses in v ol v ed.
+T uber culosis
+31 Initial Inf ection and Phagoc y t osis
+Inhalation of Dr oplet Nuclei  TB inf ection begins with the inhalation of dr oplet  
+nuclei cont aining  M. tuber culosis .  Ciliar y Syst em  The ciliar y syst em in the  
+r espirat or y tract t ypic all y e xpels the major it y 90% of inhaled dr oplet  
+nuclei.  Al v eolar Spaces  The smallest p ar ticles 2 µm) r e ach the dist al al v eolar  
+sp aces.  Macr ophages  The pr imar y cells in v ol v ed in the initial  
+r esponse.  Phagoc y t osis  M y cob act er ia ar e engulf ed b y al v eolar macr ophages.
+1 Macr ophage R esponse
+L ysosomes and ROS  Macr ophages at t empt t o eliminat e the b act er ia using  
+l ysosomes and r e activ e o xy gen species.  Chemokine Pr oduction  If  
+macr ophages c annot eliminat e the b act er ia, the y pr oduce  
+chemokines.  R ecruitment of Cells  These chemokines at tract other immune  
+cells, p ar ticular l y other macr ophages.
+2 Granuloma F or mation and Structur e
+Gr anuloma F or mation  R ecruitment of immune cells le ads t o granuloma  
+f or mation.  Gr anuloma  A structur e that walls of f the b act er ia, pr e v enting fur ther  
+spr e ad.  Caseous Necr osis  The central r egion of a TB granuloma under goes  
+c aseous necr osis.  Caseous Necr osis Descr iption  Macr ophages, inflammat or y  
+cells, and b act er ia ar e depr iv ed of o xy gen.  Unique t o TB  Caseous necr osis is a  
+hallmar k of TB granulomas, dif f er entiating them fr om those f or med in other  
+dise ases.
+1 Granuloma La y ers
+Int er mediat e Str atum  Macr ophages and monoc y t es.  Ex t er nal Str atum   
+Epithelioid and giant mul tinucle at ed cells.  Centr al Zone  Caseous Necr osis.
+2 St abilit y and R e activ ation
+Dynamic Structur e  The granuloma wall is const antl y r emodeled.  Immune  
+Depr ession  The pr ocess is sensitiv e t o immune depr ession ( e.g., HIV ,  
+cor ticost er oids).  Secondar y TB  Immune suppr ession allo ws m y cob act er ia t o  
+r eplic at e, le ading t o secondar y TB.  Bef or e Immunosuppr essant s  Patient s must  
+be t est ed f or HIV , TB, and syphilis.  R eactiv ation Risk  High if the immune  
+syst em c annot maint ain the granuloma.
+3 Immune R esponse Out comes
+Ef f ectiv e R esponse  In the major it y of inf ect ed individuals, the macr ophages  
+ef f ectiv el y cont ain the b act er ia, f or ming a granuloma, r esul ting in lat ent  
+TB.  W eak R esponse  In 510% of inf ect ed individuals, the macr ophage  
+T uber culosis
+4r esponse is w e ak.  Immunosuppr essed Gr oups  Immunosuppr essed individuals  
+and childr en under 5 y e ars ar e mor e lik el y t o ha v e a w e ak r esponse.  Pr imar y  
+TB  The b act er ia spr e ads thr oughout the bod y .  Ex tr apulmonar y Manif est ations   
+Pr imar y TB is associat ed with high amount s of e x trapulmonar y manif est ations  
+( e.g., TB meningitis).  BCG V accine  Pr e v ent s pr imar y tuber culosis but does not  
+pr e v ent secondar y tuber culosis.
+🩺  C l i n i c a l  P r e s e n t a t i o n  o f  T u b e r c u l o s i s
+This section co v ers the clinic al manif est ations of both pulmonar y and  
+e x trapulmonar y TB.
+1 Pulmonar y T uber culosis
+Classical Pr esent ation  Pulmonar y TB of t en has an insidious onset and a  
+chr onic course.  Chest Sympt oms  Cough ( of t en pr oductiv e ), hemopt ysis (lat e ),  
+and chest p ain (usuall y pleur itic ).  Non-Specific Sympt oms  Nonspecific  
+constitutional sympt oms ar e mor e common in childr en and HIV  
+p atient s.  Ex tr apulmonar y Sympt oms  Ma y occur if the inf ection spr e ads be y ond
+the lungs.
+1 Sympt om Onset and Pr ogr ession
+Subacut e Onset  Sympt oms de v elop graduall y .  Chr onic Natur e  Of t en  
+charact er iz ed b y a pr olonged illness.  Dela y ed Diagnosis  The diagnosis in  
+individuals bor n in I t al y is dela y ed mor e of t en than in those bor n abr o ad, due t o  
+the chr onic and sub acut e onset.
+2 Common Sympt oms
+F e v er  Pr esent in 6580% of c ases.  Chills/Night Sw eat s  Common  
+sympt oms.  F atigue/Malaise  F r equentl y r epor t ed.  Anor e xia/W eight Loss   
+T ypic al signs.  Asympt omatic Cases  10 20% of TB c ases ma y be asympt omatic  
+at the time of diagnosis.
+3 R adiologic al Findings
+V ar ied Pr esent ation  The appe arance of TB on X -ra ys c an v ar y .  Budd y T r ee or  
+Consolidation  X -ra ys ma y sho w a "budd y tr ee " p at t er n, r esembling b act er ial  
+pneumonia.  Ca vit ation  Ca vities ma y be pr esent, indic ating ad v anced  
+dise ase.  Dif f er ential Diagnosis f or Ca vit ation  NTM, fungi, c ancer , or pulmonar y  
+v asculitis.  Ca vit ation and Hemopt ysis  Association with ad v anced st ages.
+2 Ex trapulmonar y T uber culosis
+T uber culosis
+5Ex tr apulmonar y Disease  TB c an af f ect an y or gan or tissue out side of the  
+lungs.
+1 Miliar y T uber culosis
+Disseminat ed TB  A se v er e f or m of TB, similar t o sepsis.  Spr ead  The inf ection  
+spr e ads widel y thr ough the lungs, blood, and l ymph nodes.  R eticulonodular  
+P at t er n  Charact er iz ed b y numer ous small nodules spr e ad thr oughout the  
+lungs.  Emer genc y Condition  R equir es immediat e medic al  
+at t ention.  Cont agious  Patient s ar e highl y cont agious.
+2 TB L ymphadenitis
+L ymph Node In v ol v ement  Pr imar il y af f ect s childr en.  Location  Commonl y  
+infracla vicular , cer vic al, or submandibular .  Unilat er al vs. Bilat er al  Usuall y  
+unilat eral; bilat eral in v ol v ement suggest s syst emic dise ase.  L ymph Node  
+Char act er istics  Sof t, non-p ainful, and cold.  Abscess and Bact er ial  
+L ymphadenoma  W ar m l ymph nodes, indic ating inflammation.  Diagnosis   
+Biopsies, cul tiv ation, and det ection of TB in l ymph nodes.  Pr ognosis  Generall y  
+consider ed a benign f or m with lo w mor t alit y .
+3 TB Ser ositis
+Ser osal In v ol v ement  Ser ous membranes (per ic ar dium, per it oneum, pleura) c an  
+be af f ect ed.  Pleur itis  The most common f or m of ser ositis due t o it s association  
+with the lungs.  Complications  P er ic ar ditis has ser ious  
+complic ations.  Une xplained Ser ositis  Alwa ys consider TB.  Diagnosis   
+Cul tiv ation of ser osal fluid t o det ect TB.
+4 Other Ex trapulmonar y Sit es
+Lar yngeal TB  Highl y cont agious.  Skin TB  Can pr esent with lesions, r equir ing  
+biopsy f or diagnosis.  CNS TB  Includes TB meningitis, associat ed with the  
+highest mor t alit y rat e.  TB Meningitis Sympt oms  Slo w onset with w eight loss  
+and cranial ner v e p aral ysis.  H y dr ocephalus  Common due t o al t er ed CSF  
+cir culation.  CSF Findings  Cle ar CSF with l ymphoc y t es, ele v at ed pr ot eins, and  
+lo w glucose.  T uber culomas  Can c ause CNS sympt oms, identified via CT sc an  
+or MRI.  Spine TB  Usuall y in the thoracic spine; P ot t's dise ase is mor e common  
+in the lumb ar p ar t.  Genit our inar y TB  Can af f ect the genit al and ur inar y tract s.
+🛡  I m m u n e  R e c o n s t i t u t i o n  I n f l a m m a t o r y  S y n d r o m e  ( I R I S )
+This section det ails the Immune R econstitution Inflammat or y Syndr ome IRIS  
+associat ed with TB.
+T uber culosis
+61 Definition and Mechanism
+IRIS  An inflammat or y r esponse that occurs af t er the initiation of antir etr o viral  
+therap y ART.  P ar ado xical R eaction  Parado xic al inflammat or y r e action against  
+a f or eign antigen (aliv e or de ad) in p atient s who ha v e st ar t ed ART and ha v e  
+under gone r econstitution of their immune r esponses against this antigen.  HIV  
+T r eatment  Occurs in p atient s with HIV who st ar t antir etr o viral therap y  
+ART.  Immune Syst em R eco v er y  The immune syst em is r est or ed af t er  
+ART .  Inflammat or y R eaction  The r est or ed immune syst em o v er r e act s t o the  
+m y cob act er ia.
+1 Pathogenesis
+Incr eased L ymphopr olif er ativ e R esponse  Incr e ased r esponse  
+t o  M y cobact er ium  antigens in vitr o.  Cut aneous R esponse  R est oration of the  
+cut aneous r esponse t o tuber culin.  Incr eased IL 6  Incr e ased le v els of  
+int er leukin-6 and activ ation mar k ers.  Genetic Associations  Associat ed with  
+cer t ain genetic mar k ers ( e.g., TNF A  308 1, IL617 4 G.
+2 Clinic al Manif est ations and Examples
+Clinical W orsening  Patient s e xper ience a w orsening of their condition af t er  
+ART initiation.  T or ino Case 2 Ex ample  Case of a p atient with lo w CD4 cell  
+count, initiall y sputum-negativ e f or TB.  T r eatment and R esponse  T r e atment of  
+immunosuppr ession, which led t o an inflammat or y r e action af t er the immune  
+syst em r eco v er ed.  IRIS F or ms : "Unmasking IRIS" and "W orsening IRIS" .
+3 Management of IRIS
+Unmasking IRIS  Pr esent s bef or e ART . R equir es diagnosis and tr e atment of the  
+oppor tunistic inf ection.  W orsening IRIS  R equir es managing the  
+inf ection.  NSAIDs  Ma y be used f or mild c ases.  Cor ticost er oids  Pr ednisone 1  
+mg/k g) c an be used.  ART Consider ations  Int er ruption of ART in c ase of lif e-
+thr e at ening or ser ious disor ders.  Monit or CD4 and Vir al Load  Monit or ing CD4  
+count s and viral lo ad t o assess r esponse and manage tr e atment.
+🧪  D i a g n o s i s  a n d  T r e a t m e n t  o f  T B
+This section addr esses the diagnostic methods and therapeutic appr o aches t o  
+tuber culosis.
+1 Diagnostic Appr o aches
+Activ e and Lat ent TB  Distinguishing bet w een activ e and lat ent TB is  
+crucial.  Activ e TB  Diagnosing activ e tuber culosis r equir es identifying the  
+T uber culosis
+7pr esence of the b act er ia.  Lat ent TB  R equir es det ecting e vidence of pr ior  
+inf ection.
+1 Activ e TB Diagnosis
+Sampling Methods  Sputum, serum, or ur ine samples c an be used.  Cul tur e  The  
+gold st andar d in micr obiology , r esul t s a v ailable within 1415 da ys.  St aining   
+Ziehl-Neelsen st aining c an quickl y identify TB b act er ia under a  
+micr oscope.  PCR  P ol ymerase chain r e action PCR is a rapid method.
+2 Lat ent TB Diagnosis
+Pur poses  T esting t o identify lat ent inf ections in migrant s or immunosuppr essed  
+individuals.  Mant oux T est  Intrader mal injection of a pr ot ein fr om  M.  
+tuber culosis ; me asur ed b y p apule siz e.  P ositiv e R esul t  A p apule 1 cm is  
+consider ed positiv e.  Limit ations  F alse positiv es due t o BCG  
+v accination.  Int er f er on-Gamma R elease Assa ys IGRAs)  Also kno wn as  
+QuantiFERON, me asur es int er f er on-gamma pr oduction in r esponse t o TB  
+antigens.  Specificit y  IGRAs ar e mor e specific.  Sensitivit y  T cells r e act t o TB  
+antigens with v er y high sensitivit y .
+3 T est Comp ar isons
+F e atur e Mant oux T est TST Int er f er on-Gamma R ele ase Assa ys IGRA ( e.g.,  
+QuantiFERON T ype In viv o In vitr o Specificit y Less specific Mor e specific PPD  
+PPD Boosting Specific antigens Patient Visit s 2 1 V ar iabilit y Int er -r e ader Lab  
+v ar iabilit y R esul t s 2 3 da ys 1 da y Phlebot om y No R equir ed P ositiv e Contr ol No  
+Y es (+ contr ol)
+2 T r e atment of Lat ent TB
+Lat ent TB T r eatment  Not alwa ys r equir ed, as the r isk of r e activ ation is lo w .  Risk  
+of R eactiv ation  510% chance of r e activ ation.  Indications f or T r eatment   
+Cer t ain gr oups ar e tr e at ed t o pr e v ent pr ogr ession.  T r eatment R egimen   
+Isoniazid f or 6 months (with vit amin B6 f or pr egnant w omen), or r if ampin f or 4  
+months.
+1 High-Risk Gr oups f or Lat ent TB T r e atment
+P eople Living with HIV PLWH   R ecent Cont act s of TB Cases  Individuals  
+e xposed t o TB.  Fibr otic Changes on Chest X -r a y  Sho wing old TB.  Or gan  
+T r ansplant R ecipient s .  Immunosuppr essed Individuals  T aking high-dose  
+cor ticost er oids or TNFα ant agonist s.  High-Pr e v alence Countr ies  Individuals  
+fr om these r egions.  Injection Drug Users .  High-Risk Congr egat e Set tings   
+T uber culosis
+8Cor r ectional f acilities, nursing homes, et c.  M y cobact er iology Labor at or y  
+P ersonnel .  Childr en under 4 Y ears or Exposed t o High-Risk Adul t s .
+3 Activ e TB T r e atment
+Mul tidrug Ther ap y  The use of mul tiple drugs simul t aneousl y .  Drug R esist ance   
+Due t o the het er ogeneous natur e of the b act er ial population.  Drug Choice  
+R ationale  Isoniazid f or rapidl y gr o wing b act er ia, Pyrazinamide f or slo wl y  
+gr o wing b act er ia, and Rif ampicin f or sporadic all y gr o wing b act er ia.
+1 T r e atment R egimen
+Initial Phase  F our drugs: Rif ampicin, Pyrazinamide, Ethambut ol, and Isoniazid  
+f or 2 months.  Continuation Phase  Rif ampicin and Isoniazid f or 4  
+months.  Cont agiousness R eduction  Af t er 2 w eeks of tr e atment,  
+cont agiousness is appr o ximat el y 5%.  Dur ation of Ther ap y  Additional months  
+ma y be r equir ed f or TB meningitis or bone dise ase.
+2 Drug Doses and Side Ef f ect s
+Common TB Drugs  Rif ampicin, Isoniazid, Ethambut ol, and  
+Pyrazinamide.  Rif ampicin 10 mg/k g)  Orange ur ine and other bod y fluids,  
+hep at ot o xicit y , CYP and P gP induction, and drug int eractions.  Isoniazid   
+Pyr ido xine 5 mg/k g)  Hep at ot o xicit y , per ipheral neur op ath y .  Ethambut ol 15 20  
+mg/k g)  Uv eitis, color blindness.  Pyr azinamide 20 25 mg/k g)  Hep at ot o xicit y ,  
+h yperur icemia.  Ethambut ol Not e  R e v ersible side ef f ect with e ar l y det ection, but
+c an be ir r e v ersible in some p atient s.  Isoniazid  B6  Essential t o pr e v ent  
+per ipheral neur op ath y .  Ef ficac y:  The ef fic ac y of the 4 drug r egimen is usuall y  
+95% but the true ef fic ac y is ar ound 85% due t o f act ors such as adher ence,  
+side ef f ect s, et c.  HIV patient s  HIV p atient s ha v e a r e al ef fic ac y of 7 5%.  MDR
+TB ef ficac y  MDR TB has an ef fic ac y of 50%.
+4 Drug-R esist ant TB
+MDR TB Mul ti-Drug R esist ant TB  R esist ant t o isoniazid and r if ampicin.  Global  
+Pr e v alence  Af f ect s 3 . 1% of ne w c ases and 18% of pr e viousl y tr e at ed  
+c ases.  XDR TB Ex t ensiv el y Drug-R esist ant TB  R esist ant t o fluor oquinolones  
+and a gr oup A drug (bedaquiline or line z olid).  T r eatment f or R esist ant Str ains  
+P ast)  5 t o 6 drugs f or 2 y e ars.  Ne w Guidelines f or R esist ant Str ains  34 drugs  
+f or 6 months (bedaquiline, pr et omanid, line z olid, and mo xiflo xacin)
+💡  I m p o r t a n t  F a c t s  t o  M e m o r i z e
+T uber culosis
+9Glob al Bur den:  TB is a le ading c ause of de ath w or ldwide, with  
+appr o ximat el y 10 . 6 million activ e c ases annuall y .
+HIV and TB  HIV signific antl y incr e ases the r isk of TB r e activ ation and  
+mor t alit y , of t en coe xisting.
+T r ansmission:  Pr imar il y air bor ne, influenced b y dr oplet nuclei and  
+en vir onment al f act ors such as cr o w ding and v entilation.
+P at hogenesis:  Granuloma f or mation is k e y , with c aseous necr osis in the  
+cent er , which c an be compr omised b y immune deficiencies, le ading t o  
+r e activ ation.
+Clinic al Pr esent ation: Pulmonar y TB  Insidious onset, with cough,  
+hemopt ysis, and pot ential f or c a vit ation.
+Clinic al Pr esent ation: Ex tr apulmonar y TB  Miliar y TB is a se v er e  
+disseminat ed f or m. TB l ymphadenitis in v ol v es cold, non-p ainful l ymph  
+nodes.
+IRIS  Immune R econstitution Inflammat or y Syndr ome occurs af t er ART  
+initiation in HIV p atient s, w orsening the condition.
+Diagnosis: A ctiv e TB  R elies on sputum, serum, or ur ine samples; cul tur e  
+and PCR ar e gold st andar ds.
+Diagnosis: Lat ent TB  Diagnosed with Mant oux t est or IGRA, lik e  
+QuantiFERON.
+Lat ent TB T r e atment:  R ecommended f or high-r isk gr oups HIV , r ecent  
+cont act s) with Isoniazid or Rif ampin.
+A ctiv e TB T r e atment:  Uses a 6-month, f our -drug r egimen: Rif ampicin,  
+Pyrazinamide, Ethambut ol, and Isoniazid.
+Drug Side Ef f ect s:  Be awar e of Rif ampicin ( orange ur ine, hep at ot o xicit y),  
+Isoniazid (per ipheral neur op ath y), Ethambut ol (visual distur b ances), and  
+Pyrazinamide (hep at ot o xicit y , h yperur icemia).
+MDR TB  R esist ant t o isoniazid and r if ampicin.
+XDR TB  Ex tr emel y r esist ant; r equir es ne w er , shor t er tr e atment r egimens.
+Risk F act ors f or r e activ ation:  Immunosuppr ession fr om an y c ause  
+(including HIV , st er oids, et c.) and Vit amin D deficienc y .
+T uber culosis
+10BCG V accine:  Pr e v ent s pr imar y tuber culosis but not secondar y  
+tuber culosis.
+T uber culosis
+11

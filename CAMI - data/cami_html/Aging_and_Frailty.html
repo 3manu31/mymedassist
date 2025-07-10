@@ -1,0 +1,680 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Aging and Frailty</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-default { background-color: rgba(84, 72, 49, 0.08); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2297904f-03a9-8012-a25d-f1e0588e00e2" class="page sans"><header><h1 class="page-title">Aging and Frailty</h1><p class="page-description"></p></header><div class="page-body"><p id="2297904f-03a9-81a6-8260-fffb6568f937" class="">●what is aging?</p><p id="2297904f-03a9-8108-940a-c0b5837df8ba" class="">the physiological process characterized by the progressive and</p><p id="2297904f-03a9-8117-a8c7-fde5b08f3cec" class="">continuous loss of function of cells, tissues, organs and systems with</p><p id="2297904f-03a9-8125-84d4-db380582a7ba" class="">time. Aging is influenced by genetics but especially by the</p><p id="2297904f-03a9-816f-bed2-f52785165548" class="">environment. Physiological, pathological and environmental factors</p><p id="2297904f-03a9-818a-875e-f2d9eb404ecd" class="">can affect our personal way to age.</p><p id="2297904f-03a9-8171-bb25-d7f2f35354f4" class="">●when describing the aging process: what are the major theories to</p><p id="2297904f-03a9-81af-89d4-c2cdb49afce9" class="">keep in mind?</p><p id="2297904f-03a9-811f-b382-f646013311ef" class="">○ No single theory adequately describes the aging process, aging is</p><p id="2297904f-03a9-81d3-be0c-f7b637eef6cf" class="">a multifactorial and multi-step process (i.e: it is not caused by just</p><p id="2297904f-03a9-816e-8e5f-fb28ffd0e470" class="">one thing and it does not happen all at once, it’s cumulative)</p><p id="2297904f-03a9-8170-a07c-e758597cb381" class="">●It is believed that aging is the result of</p><p id="2297904f-03a9-815d-9d10-ee2a8200c74e" class="">○ a combination of insults accumulated throughout the life of the</p><p id="2297904f-03a9-8127-8487-f4040f7aab99" class="">individual that may include: smoke, radiation, pollution, bad</p><p id="2297904f-03a9-810a-bdbb-ccd596c348c4" class="">nutrition, viruses, bacteria, Hereditary Factors</p><p id="2297904f-03a9-813d-936d-f132fab792e3" class="">●some of which may favor or simply add up to</p><p id="2297904f-03a9-81a1-9a50-c69a32e7b8be" class="">○ the progressive buildup of genetic mutations</p><p id="2297904f-03a9-8137-86ba-e4738258662b" class="">●that lead to</p><p id="2297904f-03a9-8112-ba11-c0d01553ae09" class="">○ cell death, tissue damage, reduced ability to repair and renew,</p><p id="2297904f-03a9-81e5-86bf-c2aba6840076" class="">inflammation</p><p id="2297904f-03a9-811e-baa6-d023d557d2d8" class="">●resulting in aging.</p><p id="2297904f-03a9-81f7-af0d-ed02fe8badde" class="">There are also other aspects that contribute to the progression of</p><p id="2297904f-03a9-8152-8e87-f4e38211ceb5" class="">aging:</p><p id="2297904f-03a9-81d9-b4b3-ea97be6e1acb" class="">○ mitochondrial dysfunction</p><p id="2297904f-03a9-81fb-9333-d3db1e32f87c" class="">○ oxidative stress</p><p id="2297904f-03a9-81ed-993f-d1ada922cee3" class="">○ depletion of stem cells</p><p id="2297904f-03a9-810e-ab58-c3bb92fb0d0d" class="">○ cellular senescence</p><p id="2297904f-03a9-8116-8bf5-fa696122ed79" class="">○ altered intercellular communication</p><p id="2297904f-03a9-81d4-80d7-ce8f9b47c9f3" class="">○ altered efficacy of nutrients</p><p id="2297904f-03a9-813c-bf5f-fc51146b66d6" class="">●what are physical changes related to “normal” aging are not a</p><p id="2297904f-03a9-818d-909d-d181b5482ba2" class="">considered disease?</p><p id="2297904f-03a9-81d9-81eb-f27526ce7fec" class="">Aging-Related Physical Changes:</p><p id="2297904f-03a9-81d5-9c21-cca7745e15c1" class="">○ Vision:</p><p id="2297904f-03a9-81fd-bc13-fd4262cf2ad1" class="">◆Acuity loss (<em>cataracts, macular degeneration</em>)</p><p id="2297904f-03a9-815f-b08e-c92050065694" class="">◆Presbyopia: worsened focus</p><p id="2297904f-03a9-81c0-a59e-fa4033646272" class="">◆Peripheral vision loss (<em>glaucoma</em>)</p><p id="2297904f-03a9-8119-980e-e33ea7e3f245" class="">◆Decreased dark adaptation, contrast sensitivity</p><p id="2297904f-03a9-8109-afff-e84f7a51a1ac" class="">○ Hearing/Vestibular:</p><p id="2297904f-03a9-818d-aef9-eb7cc9e50e4c" class="">◆Presbycusis (high-frequency hearing loss)</p><p id="2297904f-03a9-81e8-888d-e36e821284c2" class="">◆Vestibular dysfunction</p><p id="2297904f-03a9-818d-b189-feee5c662df1" class="">○ Oral/Dental:</p><p id="2297904f-03a9-816d-9022-e838549913b1" class="">◆40% elderly edentulous</p><p id="2297904f-03a9-81ce-8b82-e1082afe79e4" class="">◆Altered taste, salivary function</p><p id="2297904f-03a9-81e5-ac3f-ea0b438ad5b3" class="">○ Central Nervous System:</p><p id="2297904f-03a9-8109-8f66-c3006ac830dc" class="">◆Neurodegeneration after 80</p><p id="2297904f-03a9-81b6-944f-f9c9e63a33b2" class="">◆Slower learning</p><p id="2297904f-03a9-8145-9fec-c000bad4ec43" class="">◆Memory activity decline</p><p id="2297904f-03a9-8185-b817-c01a052c7d95" class="">◆Challenges in multitasking</p><p id="2297904f-03a9-81cf-86fa-fb55c2ffe982" class="">◆&quot;Use it or lose it&quot; principle</p><p id="2297904f-03a9-81ae-b686-c86b62927825" class="">○ Muscles/Bones:</p><p id="2297904f-03a9-81f0-b51a-e087b7fbf0a6" class="">◆Moderate muscle mass reduction is normal</p><p id="2297904f-03a9-8195-8ece-c9023b060cdd" class="">◆Sarcopenia risk with excessive muscle loss</p><p id="2297904f-03a9-8137-84dd-e6613066df63" class="">◆Postmenopausal bone density decrease</p><p id="2297904f-03a9-81db-beb9-ce1031ccf143" class="">◆Osteoarthritis risk</p><p id="2297904f-03a9-8172-a358-c95fd3898759" class="">○ Heart/Circulatory:</p><p id="2297904f-03a9-81d9-b011-f0209dfbd8d0" class="">◆Reduced efficiency over time</p><p id="2297904f-03a9-81f3-86f5-c6171fe879fa" class="">◆Atherosclerosis</p><p id="2297904f-03a9-81a0-aca2-da52ac4fe3b9" class="">◆Vascular changes: elasticity loss, increased stiffness</p><p id="2297904f-03a9-81a5-bdc9-fc222f3c35b1" class="">○ Respiratory:</p><p id="2297904f-03a9-81e6-975a-d4571b6d6f23" class="">◆Less efficient blood oxygenation</p><p id="2297904f-03a9-81e9-b8bf-efd8133165b3" class="">◆Decline in oxygen delivery and blood flow</p><p id="2297904f-03a9-81ad-8483-d5500759c7e4" class="">○ Renal:</p><p id="2297904f-03a9-8103-801b-f2cf686a94c3" class="">◆Decreased glomerular filtration rate (GFR)</p><p id="2297904f-03a9-8145-9a60-e263538ad69e" class="">○ Gastrointestinal:</p><p id="2297904f-03a9-81fb-a6a8-e5f2bfbedde7" class="">◆Decreased GI absorptive cells, motility</p><p id="2297904f-03a9-81c6-9d4c-e8ac327825b2" class="">◆GERD due to reduced sphincter activity</p><p id="2297904f-03a9-81ef-890b-ee4be5ae5afa" class="">◆Reduced GI blood flow, gastric acid secretion, active transport</p><p id="2297904f-03a9-818d-88ad-fea8d500c986" class="">●what is frailty?</p><p id="2297904f-03a9-8142-b440-ef25b65f01db" class="">Frailty is an age-related state of high vulnerability to adverse health</p><p id="2297904f-03a9-8129-ac0a-d8903349f16f" class="">outcomes after a stressor event due to a reduced healthy adaptation</p><p id="2297904f-03a9-8195-97f1-eb31f8f45f05" class="">to stress</p><p id="2297904f-03a9-812e-a0c3-f42fcb1f094e" class="">Frail adults are at high risk, in the face of stressors for falls, disability,</p><p id="2297904f-03a9-812a-aec6-f760d7ec5b40" class="">development of geriatric diseases, delayed and incomplete recovery,</p><p id="2297904f-03a9-8150-9b8d-fc4faf7c465f" class="">adverse outcomes of hospitalization, mortality.</p><p id="2297904f-03a9-8115-9a1d-c760a99c42d0" class="">●what are the signs and symptoms of frailty?</p><p id="2297904f-03a9-8110-ab38-d2aa2e0d742a" class="">○ Sarcopenia</p><p id="2297904f-03a9-81ce-bd67-de7f8f111754" class="">○ Inflammation</p><p id="2297904f-03a9-8112-9dcc-c1b5155cfa4c" class="">◆Elevated CRP</p><p id="2297904f-03a9-81f8-93fb-de938d032b3c" class="">○ Decreased heart rate variability</p><p id="2297904f-03a9-818f-bded-f576ce628925" class="">○ Altered hemostasis</p><p id="2297904f-03a9-813e-b0d1-f9ff2986fb82" class="">○ Insulin resistance</p><p id="2297904f-03a9-810c-96da-dd494c34ee90" class="">○ Anemia</p><p id="2297904f-03a9-8139-a550-f36e4751ebe2" class="">○ Decreased DHEA, IGF1, cortisol</p><p id="2297904f-03a9-819c-925c-d3c26a9af47a" class="">○ Micronutrient deficiencies</p><p id="2297904f-03a9-811f-9dca-fa0512eb6b4f" class="">●what is “inflammaging”? what are the mecchanisms?</p><p id="2297904f-03a9-810e-96bf-fb2add7e249d" class="">●</p><p id="2297904f-03a9-816f-92ff-e73922e7a90b" class="">Inflammaging is the chronic inflammation (elevated blood</p><p id="2297904f-03a9-81ed-8112-d5b819891532" class="">inflammatory markers) associated with aging → susceptibility to frailty, CVD, cancer, dementia, kidney disease, disability, and premature death.</p><p id="2297904f-03a9-81a9-a6f8-e7de1d0f550a" class="">Mechanisms:</p><p id="2297904f-03a9-819c-a9da-e7a843f3592d" class="">○ genetic susceptibility: some SNP affect levels of blood inflammatory markers.</p><p id="2297904f-03a9-81d5-855a-df226a8f9bdc" class="">○ central obesity visceral fat produces inflammatory adipokines such as IL6, IL8, TNF-alpha. PAI1 (thrombosis), MCP1</p><p id="2297904f-03a9-81df-9007-d10a47759d90" class="">(inflammation), angiotensinogen (hypertension), resistin (insulin resistance and inflammation), etc.</p><p id="2297904f-03a9-8131-a7b9-f8bf907a56dc" class="">○ changes to microbiota composition and increased gut</p><p id="2297904f-03a9-81aa-9fbd-df4e82ebc8ca" class="">permeability: reduction in beneficial commensal microorganisms such as Coprococcus, Fecalibacterium, and Lactobacillus. There’s a prevalence of facultative anaerobes such as Fusobacterium and Staphylococcus (associated with increased levels of inflammatory cytokines in plasma) Increased gut dysbiosis has been postulated to increase mucosal barrier permeability, thereby allowing the entry of bacteria and their products, including pathogen- and damage- associated molecular patterns (PAMPs and DAMPs), into the circulatory system</p><p id="2297904f-03a9-81b4-acf3-c38c7ab2f16e" class="">○ cellular senescence</p><p id="2297904f-03a9-8174-898c-cc310ab1724f" class="">Cellular senescence is a state in which cells undergo a permanent growth arrest, meaning they stop dividing and proliferating. This process is characterized by changes in cellular morphology, gene expression, and function. Cellular senescence is a natural and complex biological phenomenon that can be triggered by various factors, including DNA damage, telomere shortening, and stress. Genes associated with cell cycle regulation are downregulated, while others linked to inflammation and tissue remodeling are upregulated.</p><p id="2297904f-03a9-8115-83f3-c937bf01457a" class="">genetic variations (SNPs) near genes involved in controlling cellular aging (senescence) and inflammatory responses may influence an individual&#x27;s susceptibility to or risk of developing age-related diseases</p><p id="2297904f-03a9-8120-ab88-ca23d7ecab5f" class="">○ NLRP3 inflammasome activation</p><p id="2297904f-03a9-8135-9baa-fea8e124a65e" class="">○ oxidative stress caused by dysfunctional mitochondria</p><p id="2297904f-03a9-81c1-862e-d8db1132ae28" class="">○ immune cell dysregulation</p><p id="2297904f-03a9-81e2-a19a-d71b533f37f3" class="">○ chronic infections</p><p id="2297904f-03a9-81a1-852d-ecf1bc044836" class="">●what are some interventions to improve quality and duration of the life?</p><p id="2297904f-03a9-8178-a1cb-c454fbd07dbf" class="">○ prevention of DM2, CVD, cancer, etc.</p><p id="2297904f-03a9-811a-84fa-c26ee4b47d3a" class="">○ exercise</p><p id="2297904f-03a9-81ef-b1ba-ed14ff1201f1" class="">○ diet: decreased ability to absorb and utilize nutrients make nutrient</p><p id="2297904f-03a9-8146-822f-db93b0f65f22" class="">○</p><p id="2297904f-03a9-815f-bf46-eed791ca6485" class="">requirements increase. Chronic conditions and medications can affect nutrition requirements (Drug-induced vitamin/mineral deficiency) Aging is often accompanied by a loss of appetite and changes in taste and smell, all of which can lead to more limited food choices and lower intake of healthy foods.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
